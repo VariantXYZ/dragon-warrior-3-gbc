@@ -1,0 +1,202 @@
+﻿Index,Text
+00_00,"[*:] This is Muor, a<F1>village far in the<FA><F7><F1>hinterlands.<F1><F7>"
+00_01,[*:] Did you come<F1>here by ship?<xFF><F1>
+00_02,[*:] I thought so.<F1><FA><F7>Let me tell you<F1>something useful.<FA><F7><F1>Cross the sea to<F1>the land northeast<FA><F7><F1>from here. I hear<F1>that there is a<FA><F7><F1>magic spring.<F1><F7>
+00_03,[*:] What? You walked<F1>all the way here?<FA><F7><F1>You['r]e something<F1>special.<F7>
+00_04,"<EB>[*:] Oh, hello<F1>Pokapa.<FA><F7><F1>Popota was hoping<F1>to see you again.<F7>"
+00_05,<EB>[*:] It['s] been a long<F1>time since he left<FA><F7><F1>the village.<F1><FA><F7>I['d] like to see<F1>Pokapa again…<F7>
+00_06,"[*:] Yo, if it isn['t]<F1>Pokapa! Long time!<FA><F7><F1>What? You['r]e not?<F1><FA><F7>You look so much<F1>like him, though…<F7>"
+00_07,[*:] Huh? I haven['t]<F1>seen you before.<FA><F7><F1>It['s] rare to see<F1>travelers here.<F7>
+00_08,"[*:] Hello, this is<F1>our market…<FA><F7><F1>Wait a second…<F1>Pokapa!<FA><F7><F1>Welcome back,<F1>Pokapa!<F7>"
+00_09,"[*:] Hello, this is<F1>our market!<F7>"
+00_0A,"[*:] Ah, welcome<F1>Pokapa!<F7>"
+00_0B,"[*:] Ah, welcome,<F1>travelers.<FA><F7><F1>Enjoy your stay.<F1><F7>"
+00_0C,"[*:] Oh, Pokapa!<F1>Welcome!<FA><F7><F1>It['s] been quite a<F1>while!<FA><F7><F1>I hope you['l]l stay<F1>a while.<F7>"
+00_0D,[*:] I was thinking…<F1>I haven['t] seen<FA><F7><F1>Pokapa in quite<F1>some time.<FA><F7><F1>He used to come to<F1>this market often…<F7>
+00_0E,"[*:] Oh, yes, that<F1>helmet there?<FA><F7><F1>You forgot it here<F1>before, Pokapa.<FA><F7><F1>I['v]e kept it clean<F1>and polished so<FA><F7><F1>you could collect<F1>it any time.<FA><F7><F1>Oh, but before you<F1>go, could you go<FA><F7><F1>see Popota?<F1><F7>"
+00_0F,"[*:] Sorry, that['s]<F1>not for sale.<FA><F7><F1>A friend of ours<F1>forgot it here.<F7>"
+00_10,<EB>[*:] Oh! Pokapa!<F1>Popota will be<FA><F7><F1>delighted to hear<F1>that you['r]e back!<FA><F7><F1>My son Popota went<F1>off to play in the<FA><F7><F1>market.<F1>Please go see him.<F7>
+00_11,<EB>[*:] I see…<F1><FA><F7>Pokapa['s] real name<F1>is Ortega…<FA><F7><F1>But he fell into a<F1>volcano?<FA><F7><F1>Please don['t] tell<F1>Popota about it.<F7>
+00_12,<EB>[*:] My son Popota<F1>hasn['t] come back<FA><F7><F1>from playing in<F1>the market.<F7>
+00_13,"<EB>[*:] Popota is a<F1>little prankster.<FA><F7><F1>He often sneaks<F1>out of the village<FA><F7><F1>and plays outside.<F1><FA><F7>But because of<F1>that, he found<FA><F7><F1>Pokapa unconscious<F1>outside.<F7>"
+00_14,<EB>[*:] Huh? Pokapa?<F1>Nope! You['r]e not!<F7>
+00_15,<EB>[*:] I['m] Popota.<F1><FA><F7>The helmet<F1>downstairs?<FA><F7><F1>Pokapa gave me it<F1>for saving him.<FA><F7><F1>Really. He didn['t]<F1>forget it.<F7>
+00_16,<EB>[*:] Yay! Pokapa!<F1><FA><F7>Huh? You['r]e not?<F1><FA><F7>But you look just<F1>like him…<F7>
+00_17,<EB>[*:] I wish Pokapa<F1>would come visit…<F7>
+00_18,[*:] Are you perhaps<F1>from Aliahan?<xFF>
+00_19,"[*:] Yes, I thought<F1>so.<FA><F7><F1>Pokapa said he<F1>came from there.<FA><F7><F1>In Aliahan, I<F1>believe he went by<FA><F7><F1>the name Ortega…<F1><FA><F7>"
+00_1A,[*:] He told me how<F1>it pained him to<FA><F7><F1>think of the baby<F1>son he had to<FA><F7><F1>leave back home.<F1>
+00_1B,[*:] Oh! You['r]e that<F1>baby son?<xFF>
+00_1C,[*:] He told me how<F1>it pained him to<FA><F7><F1>think of the baby<F1>daughter he had to<FA><F7><F1>leave back home.<F1>
+00_1D,[*:] Oh! You['r]e that<F1>baby daughter?<xFF>
+00_1E,"[*:] Ah, forgive me.<F1><F7>"
+00_1F,"[*:] Yes… You do look<F1>a lot like Pokapa.<FA><F7><F1>Anyway, is Pokapa,<F1>I mean Ortega,<FA><F7><F1>doing all right?<F1><xFF>"
+00_20,[*:] I see… I must<F1>have heard wrong.<F7>
+00_21,"[*:] Ah, good. That['s]<F1>good to hear.<F7>"
+00_22,[*:] That['s] troubling.<F1><FA><F7>Please tell him to<F1>take good care.<F7>
+00_23,"<EB>[*:] Ah, so you['r]e<F1>Pokapa['s]…<FA><F7><F1>Hmm, you certainly<F1>do look strong.<F7>"
+00_24,<EB>[*:] Oh… That['s] why<F1>you look the same.<F7>
+00_25,"<EB>[*:] Is Pokapa really<F1>your father?<FA><F7><F1>Wow, I wish I were<F1>Pokapa['s] son.<F7>"
+00_26,[*:] I would like to<F1>see Pokapa again.<F7>
+00_27,<EB>[*:] Wait!<F1>Please wait!<F7>
+00_28,<EB>[*:] You can have the<F1>helmet downstairs.<FA><F7><F1>It['s] too big for<F1>me to wear.<FA><F7><F1>I think it would<F1>be happier if you<FA><F7><F1>had it. So you can<F1>take it.<F7>
+00_29,<EB>[*:] You can have the<F1>helmet downstairs.<FA><F7><F1>It['s] too big for<F1>me to wear.<FA><F7><F1>I think it would<F1>be happier if you<FA><F7><F1>had it. So you can<F1>have it.<F7>
+00_2A,[*:] I overheard what<F1>was said upstairs.<FA><F7>
+00_2B,[*:] I['m] simply amazed<F1>that you['r]e Pokapa['s]<FA><F7><F1>child.<F1><F7>
+00_2C,"[*:] Please, take<F1>this helmet.<FA><F7><F1>I['m] sure that you['l]l<F1>be able to use it.<F7>"
+00_2D,<FE><&40> obtained<F1>Ortega['s] helmet!<xE8>i<F7>
+00_2E,
+00_2F,<EB>[*:] I heard that<F1>you['r]e Pokapa['s]<FA><F7><F1>child.<F1><FA><F7>I['m] sorry that I<F1>mistook you for<FA><F7><F1>him.<F1>How silly of me!<F7>
+00_30,"<EB>[*:] Hello, have you<F1>heard?<FA><F7><F1>Pokapa['s] child came<F1>to the village.<FA><F7><F1>Oh, I['m] sorry.<F1>Travelers like you<FA><F7><F1>wouldn['t] know what<F1>I['m] talking about.<F7>"
+00_31,"[*:] I get it now.<F1>Your resemblance<FA><F7><F1>to Pokapa is very<F1>strong.<FA><F7><F1>The way you carry<F1>yourself, your<FA><F7><F1>expressions…<F1>Things like that.<F7>"
+00_32,[*:] Has Pokapa gone<F1>back to Aliahan?<xFF>
+00_33,"[*:] Ah, that['s] good.<F7>"
+00_34,"[*:] Ah, he['s] still<F1>on his journey.<FA><F7><F1>I do hope he is<F1>fine.<F7>"
+00_35,"[*:] Ah, hello!<F1><FA><F7>How is the helmet?<F1>Is it useful?<xFF>"
+00_36,[*:] That['s] good to<F1>hear.<FA><F7><F1>Popota will be<F1>happy about that.<F7>
+00_37,[*:] That doesn['t]<F1>sound right…<F7>
+00_38,<EB>[*:] I wonder how<F1>Pokapa is doing?<F7>
+00_39,"<EB>[*:] Hello, Pokapa['s]<F1>son! Welcome!<F7>"
+00_3A,"<EB>[*:] Hello, Pokapa['s]<F1>daughter! Welcome!<F7>"
+00_3B,"<EB>[*:] Oh, hello!<F1><FA><F7>I hope you['l]l stay<F1>a while.<F7>"
+00_3C,"<EB>[*:] Hi.<F1>It doesn['t] matter<FA><F7><F1>when, but can you<F1>bring Pokapa here?<FA><F7><F1>I want to see<F1>Pokapa again.<F7>"
+00_3D,"<EB>[*:] Hi.<F1>It doesn['t] matter<FA><F7><F1>when, but can you<F1>bring Pokapa here?<FA><F7><F1>I want to see<F1>Pokapa again.<F7>"
+00_3E,<EB>[*:] I['m] going to be<F1>a cool man like<FA><F7><F1>Pokapa one day!<F1><F7>
+00_3F,"<EB>[*:] Yay, Pokapa['s]<F1>kid came for a<FA><F7><F1>visit!<F1><F7>"
+00_40,"[*:] While he was<F1>here, Pokapa was<FA><F7><F1>almost like a<F1>father to Popota.<FA><F7><F1>He said it was<F1>like being with<FA><F7><F1>the son he had to<F1>leave back home.<F7>"
+00_41,"[*:] While he was<F1>here, Pokapa was<FA><F7><F1>almost like a<F1>father to Popota.<FA><F7><F1>He said it was<F1>like being with<FA><F7><F1>the daughter he<F1>left back home.<F7>"
+UNUSED00_00_41,;<~>
+01_00,"<FE><&40> examined the<F1>helmet on the<FA><F7><F1>counter.<F1><FA><F7>It appears to be<F1>very sturdy.<FA><F7><F1>It is well-cared<F1>for, and highly<FA><F7><F1>polished.<F1><F7>"
+01_01,[*:] Zzz… Zzz…<F7>
+01_02,"[*:] Hello, Pokapa.<F1><FA><F7>My you['v]e been<F1>gone a long time.<FA><F7><F1>I hope you['l]l stay<F1>a while.<F7>"
+01_03,"[*:] Good evening.<F1><FA><F7>Isn['t] it lovely<F1>out tonight?<FA><F7><F1>A night like this,<F1>I can['t] help but<FA><F7><F1>sing out loud.<F1>Lalalala~<F7>"
+01_04,<EB>[*:] Popota is even<F1>talking about<FA><F7><F1>Pokapa in his<F1>sleep.<FA><F7><F1>He must have been<F1>truly happy that<FA><F7><F1>Pokapa played with<F1>him.<F7>
+01_05,"<EB>[*:] Yay, it['s] Pokapa!<F1>…Mumble…<F7>"
+01_06,<EB>[*:] Popota is a<F1>little prankster.<FA><F7><F1>But even mischief<F1>makers go home to<FA><F7><F1>sleep at night.<F1><F7>
+02_00,<FE>There is no reply.<F1>It['s] just a corpse.<FA><F7><F1>But there is<F1>something written<FA><F7><F1>on the wall…<F1><FA><F7>
+02_01,<FE>[*:] I have an Orb…<F1><FA><F7>I wanted to give<F1>it away while I<FA><F7><F1>still lived…<F1><F7>
+02_02,<FE>[*:] I['m] glad I gave<F1>you the Orb while<FA><F7><F1>I was still alive…<F1><F7>
+02_03,<FE>There is no reply.<F1>It['s] just a corpse.<F7>
+02_04,"<FE><&40> peeked into<F1>the casket…<FA><F7><F1>The person looks<F1>dead…<FA><F7><F1>And yet sort of<F1>alive…<FA><F7><F1>But, it appears to<F1>be just a corpse…<F7>"
+03_00,[*:] Welcome to<F1>Tedanki village!<F7>
+03_01,"[*:] There['s] a volcano<F1>not far from here.<FA><F7><F1>Go east around the<F1>horn of Tedanki,<FA><F7><F1>hug the coast and<F1>go up a river.<FA><F7><F1>The volcano will<F1>be on your left.<FA><F7><F1>The volcano is the<F1>key to Gondo.<FA><F7><F1>However, unless<F1>you are truly<FA><F7><F1>strong, going near<F1>the crater would<FA><F7><F1>be nothing short<F1>of foolhardy.<F7>"
+03_02,"[*:] If the Demon<F1>Lord attacks, we['l]l<FA><F7><F1>protect the<F1>village ourselves!<F7>"
+03_03,"[*:] If the Demon<F1>Lord attacks, we['l]l<FA><F7><F1>protect the<F1>village ourselves!<FA><F7><F1>What? You say the<F1>village has been<FA><F7><F1>destroyed already?<F1><xFF>"
+03_04,[*:] Then what are we<F1>doing standing<FA><F7><F1>here and talking?<F1><FA><F7>Don['t] try to play<F1>me for a fool!<F7>
+03_05,[*:] Of course not!<F1><FA><F7>No Demon Lord will<F1>defeat us!<F7>
+03_06,"[*:] The Demon Lord<F1>is said to be in<FA><F7><F1>Gondo, deep in the<F1>mountains to the<FA><F7><F1>north.<F1><FA><F7>Because we['r]e so<F1>close, it feels<FA><F7><F1>as if his evil<F1>presence surrounds<FA><F7><F1>our village.<F1><F7>"
+03_07,"<EB>[*:] Oh, it would be<F1>so wonderful if we<FA><F7><F1>could fly.<F1><FA><F7>We['d] be able to go<F1>anywhere we want<FA><F7><F1>without fear of<F1>monsters.<F7>"
+03_08,"[*:] Listen.<F1>You must find the<FA><F7><F1>final key that<F1>opens jail doors.<FA><F7><F1>You must set sail<F1>for Lancel, an<FA><F7><F1>island far south<F1>of Baharata.<F7>"
+03_09,[*:] This is the<F1>jail. Stay away!<F7>
+03_0A,"[*:] Oh! You finally<F1>came.<FA><F7><F1>I waited so long<F1>for this moment.<FA><F7><F1>The moment when<F1>the hero of<FA><F7><F1>destiny comes to<F1>me…<FA><F7><F1>Please, take this<F1>Orb.<FA><F7><F1><FE><&40> obtained the<F1>Green Orb.<FA><F7>"
+03_0B,[*:] Collect the Orbs<F1>from around the<FA><F7><F1>world.<F1><FA><F7>Then place them<F1>around the altar<FA><F7><F1>in the tower on<F1>Leiamland.<FA><F7><F1>The island of<F1>Leiamland is far<FA><F7><F1>to the south.<F1><FA><F7>I['m] certain that<F1>you will be able<FA><F7><F1>to find new paths<F1>to follow.<F7>
+04_00,"[*:] Halt! This is<F1>Edinbear, a castle<FA><F7><F1>of high pedigree.<F1>Bumpkins, go home!<F7>"
+04_01,"[*:] There are three<F1>boulders in the<FA><F7><F1>castle['s] basement.<F1><FA><F7>If they['r]e lined<F1>up properly on the<FA><F7><F1>blue floor, then<F1>something happens.<FA><F7><F1>If you fail, just<F1>step out. You can<FA><F7><F1>try it from the<F1>start again.<F7>"
+04_02,"<EB>[*:] Heheh, I know<F1>something.<FA><F7><F1>The final key is<F1>in a shrine.<F7>"
+04_03,"[*:] Oh? Are you the<F1>rumored bumpkins?<FA><F7><F1>Hmm, I see that<F1>you are indeed<FA><F7><F1>hicks!<F1><F7>"
+04_04,"[*:] Oh, I haven['t]<F1>seen you before.<FA><F7><F1>Are you travelers?<F1><xFF>"
+04_05,"[*:] I knew right<F1>away from the way<FA><F7><F1>you['r]e dressed.<F1><FA><F7>And, you['r]e<F1>bumpkins.<F7>"
+04_06,"[*:] It['s] no use<F1>lying.<FA><F7><F1>The way you['r]e<F1>dressed, it['s]<FA><F7><F1>obvious that you['r]e<F1>travelers.<FA><F7><F1>And, you['r]e<F1>bumpkins.<F7>"
+04_07,"[*:] My, my…<F1><FA><F7>The Castle watch<F1>tires me out.<FA><F7><F1>Ah, to rest, to<F1>rest…<F7>"
+04_08,"[*:] Greetings to<F1>you, bumpkins!<F7>"
+04_09,[*:] The King is up<F1>the stairs.<F7>
+04_0A,[*:] I hear there is<F1>a vase somewhere<FA><F7><F1>which makes the<F1>sea dry up.<FA><F7><F1>Eh? It['s] in this<F1>castle? Really?<F7>
+04_0B,[*:] I hear there is<F1>a vase somewhere<FA><F7><F1>which makes the<F1>sea dry up.<FA><F7><F1>Eh? It['s] in this<F1>castle? Really?<FA><F7><F1>Eh? That['s] the very<F1>vase? Oh my.<F7>
+04_0C,[*:] I hear that a<F1>shrine sank into<FA><F7><F1>the sea long ago.<F1><FA><F7>It['s] a part of the<F1>shoal now.<FA><F7><F1>Just think of the<F1>treasures it must<FA><F7><F1>contain. It makes<F1>me excited.<F7>
+04_0D,<EB>[*:] Standing near<F1>the pool is the<FA><F7><F1>castle['s] Princess<F1>Margot.<F7>
+04_0E,"<EB>Margot: I heard.<F1><FA><F7>So you are the so<F1>called ""bumpkins.""<FA><F7><F1>You must tell me<F1>about your life as<FA><F7><F1>bumpkins back<F1>home.<F7>"
+04_0F,[*:] This is the King<F1>and Princess'<FA><F7><F1>chamber. Don['t] go<F1>in without reason.<F7>
+04_10,[*:] Be deferential<F1>towards the King.<F7>
+04_11,[*:] Far away on the<F1>western sea is<FA><F7><F1>the new world of<F1>the Soo.<F7>
+04_12,[*:] Our king is a<F1>magnanimous soul.<FA><F7><F1>He may even deign<F1>to speak to<FA><F7><F1>bumpkins like you.<F1><F7>
+05_00,[*:] In a person['s]<F1>memories…<FA><F7><F1>Distant places are<F1>not so far away…<FA><F7><F1>The countryside is<F1>wonderful…<FA><F7><F1>I long to return<F1>to my home town.<F7>
+05_01,[*:] Yawn…<F1><FA><F7>Night watch makes<F1>me so darn sleepy…<F7>
+05_02,"[*:] I['m] exhausted. If<F1>I['m] not careful,<FA><F7><F1>I['l]l fall asleep.<F1><F7>"
+05_03,[*:] Zzz… Zzz…<F1><F7>
+05_04,[*:] Taking a night-<F1>time walk?<FA><F7><F1>The second floor<F1>terrace is a nice<FA><F7><F1>place to stroll.<F1><F7>
+05_05,[*:] This castle isn['t]<F1>kind to travelers<FA><F7><F1>like us.<F1><FA><F7>Everyone calls us<F1>bumpkins at every<FA><F7><F1>opportunity.<F1><F7>
+05_06,<EB>[*:] Ssss…<F7>
+05_07,"[*:] I don['t] know why,<F1>but the Duke made<FA><F7><F1>me come down here.<F1><FA><F7>What could he be<F1>doing up there?<F7>"
+05_08,<EB>[*:] The King and<F1>Princess have gone<FA><F7><F1>to sleep already.<F1><FA><F7>You mustn['t] go in.<F1><F7>
+05_09,"King: Oh, <&40>!<F1>How could you die…<FA><F7><F1>Zzz… Zzz…<F1><F7>"
+05_0A,<EB>Margot: Bumpkins…<F1>What is a bumpkin?<FA><F7><F1>…Mumble…<F1><F7>
+05_0B,"[*:] Well, you['v]e<F1>found me out!<FA><F7><F1>Keep it a secret<F1>and I['l]l tell you<FA><F7><F1>a little secret.<F1><FA><F7>On the western<F1>continent['s] coast<FA><F7><F1>is a small grassy<F1>clearing circled<FA><F7><F1>by trees. <F1><FA><F7>I suggest that you<F1>investigate it.<F7>"
+06_00,"<EB>[*:] Ah, welcome to<F1>Zipangu!<F7>"
+06_01,"<EB>[*:] Waah! Look,<F1>foreigners!<F7>"
+06_02,"<EB>[*:] Waah, Yayoi, the<F1>nice lady, was<FA><F7><F1>made a sacrifice!<F1><F7>"
+06_03,"[*:] Oh, what am I to<F1>do?<FA><F7><F1>My only daughter<F1>was chosen to be a<FA><F7><F1>sacrifice…<F1><F7>"
+06_04,[*:] Orochi is a<F1>terrible monster!<F7>
+06_05,"<EB>[*:] If sacrifices<F1>are not served,<FA><F7><F1>Orochi will come<F1>eat us all.<F7>"
+06_06,<EB>[*:] I could be the<F1>next sacrifice!<FA><F7><F1>Please save me!<F1><F7>
+06_07,"[*:] I came to spread<F1>the teachings of<FA><F7><F1>the gods.<F1><FA><F7>But, oh no, Himiko<F1>is the only god<FA><F7><F1>the people worship<F1>here.<F7>"
+06_08,[*:] We owe our lives<F1>to Himiko.<FA><F7><F1>She taught us to<F1>appease Orochi by<FA><F7><F1>human sacrifice.<F1><F7>
+06_09,"[*:] Orb, you say?<F1>What is that?<FA><F7><F1>Could it be the<F1>treasured ball<FA><F7><F1>Himiko keeps?<F1><F7>"
+06_0A,"<EB>[*:] I['m] so glad I<F1>have a son!<FA><F7><F1>If I had a girl, I<F1>would be worried<FA><F7><F1>that she would be<F1>made a sacrifice.<F7>"
+06_0B,[*:] I wonder if<F1>Yayoi got away…<FA><F7><F1>I loosened the<F1>rope that held her<FA><F7><F1>to the sacrificial<F1>altar…<F7>
+06_0C,"[*:] This is the<F1>manor of Himiko,<FA><F7><F1>our master.<F1><F7>"
+06_0D,"[*:] In the foreign<F1>lands, do all the<FA><F7><F1>people go about in<F1>those kinds of<FA><F7><F1>outlandish attire?<F1>How pitiful.<F7>"
+06_0E,"[*:] Recently, Himiko<F1>is said to have<FA><F7><F1>acquired amazing<F1>powers.<F7>"
+06_0F,<EB>[*:] Himiko relies on<F1>her premonition to<FA><F7><F1>choose sacrifices.<F1><F7>
+06_10,"<EB>[*:] If Orochi could<F1>be slain, I['m] sure<FA><F7><F1>that Himiko would<F1>be delighted.<F7>"
+06_11,[*:] Himiko should be<F1>deeply concerned<FA><F7><F1>about Orochi.<F1><F7>
+06_12,[*:] This is Himiko['s]<F1>chamber.<F7>
+06_13,<EB>Himiko: What is<F1>it?<FA><F7><F1>
+06_14,<EB>Himiko: No!<F1>Bite your tongue.<FA><F7><F1>Your ludicrous<F1>attire… You must<FA><F7><F1>have come from a<F1>foreign land on<FA><F7><F1>hearing rumors of<F1>this land.<FA><F7><F1>How impudent.<F1><FA><F7>I have no love for<F1>foreigners.<FA><F7><F1>You shall depart<F1>at once.<F7>
+06_15,<EB>Himiko: Do nothing<F1>meddlesome!<FA><F7><F1>It is for your own<F1>sake!<F7>
+06_16,<FE><&40> peered into<F1>the vase.<FA><F7><F1>What!<F1>A human head!<F7>
+06_17,<EB>Yayoi: Please!<F1>Forget you saw me!<FA><F7><F1>Please allow me a<F1>little more time<FA><F7><F1>to bid farewell to<F1>where I grew up…<F7>
+07_00,<EB>[*:] Mother… …Mumble…<F7>
+07_01,<EB>[*:] Zzz… Zzz…<F7>
+07_02,<EB>[*:] Zzz… Zzz…<F7>
+07_03,[*:] May the gods<F1>above save this<FA><F7><F1>man['s] daughter!<F1><F7>
+07_04,"[*:] This is Zipangu,<F1>the land of the<FA><F7><F1>rising sun.<F1><FA><F7>Let it be known<F1>that the world['s]<FA><F7><F1>morning dawns in<F1>this land.<F7>"
+07_05,[*:] Zzz… Zzz…<F7>
+07_06,<EB>[*:] Sss…<F7>
+07_07,[*:] Himiko has gone<F1>to sleep.<FA><F7><F1>You should return<F1>later.<F7>
+07_08,[*:] Zzz… Zzz…<F7>
+07_09,<EB>Himiko: Hiss…<F1>Hiss…<F7>
+08_00,[*:] Himiko!<F1><FA><F7>We must tend to<F1>your wounds!<FA><F7><F1>Where could Himiko<F1>have sustained<FA><F7><F1>such injuries?<F1>They['r]e terrible!<F7>
+08_01,[*:] Himiko is hurt.<F1>You must leave.<F7>
+08_02,"<FE>Himiko silently<F1>communicated…<FA><F7><F1><EA>Himiko: Only you<F1>have seen me in my<FA><F7><F1>true form.<F1><FA><F7>Keep silent<F1>what you['v]e seen,<FA><F7><F1>and I will allow<F1>you to live.<FA><F7><F1>Do you accept?<F1><xFF>"
+08_03,<EA>Himiko: Ohohoho…<F1>A wise decision.<F7>
+08_04,"<EA>Himiko: Ohohoho…<F1>That is fine.<FA><F7><F1>Then, I won['t] let<F1>you live.<FA><F7><F1>I will eat you<F1>alive!<F7>"
+08_05,<FE>Himiko was Orochi!<F1><FA><F7>Word of this<F1>spread quickly.<FA><F7><F1>Morning dawned.<F1><F7>
+09_00,"<EB>[*:] I found out I['m]<F1>really a girl.<FA><F7><F1>But if I can be<F1>like Yayoi, being<FA><F7><F1>a girl might not<F1>be too bad.<F7>"
+09_01,[*:] I can live with<F1>my daughter free<FA><F7><F1>of fear from now<F1>on.<FA><F7><F1>Thank you.<F1><F7>
+09_02,"[*:] On the island<F1>far to the south<FA><F7><F1>of the town with<F1>the sacred river,<FA><F7><F1>you will find Hide<F1>Herbs.<F7>"
+09_03,<EB>[*:] The young women<F1>who were chosen as<FA><F7><F1>sacrifices must<F1>have been killed<FA><F7><F1>by Orochi in<F1>Himiko['s] guise.<FA><F7><F1>It doesn['t] bear<F1>thinking about…<F7>
+09_04,<EB>[*:] I['m] saved from<F1>being a sacrifice!<FA><F7><F1>Thank you!<F1><F7>
+09_05,[*:] Himiko has died.<F1><FA><F7>But now the people<F1>revere you!<FA><F7><F1>This is hopeless!<F1><F7>
+09_06,[*:] Thank you very<F1>much.<F7>
+09_07,[*:] You have done<F1>something very<FA><F7><F1>noble indeed.<F1><F7>
+09_08,<EB>[*:] I must make a<F1>confession…<FA><F7><F1>My child is<F1>actually a girl.<FA><F7><F1>Oh? You['r]e a woman<F1>too?<FA><F7><F1>The way you['r]e<F1>dressed…<FA><F7><F1>I['d] always believed<F1>you to be a man.<FA><F7><F1>How embarrassing…<F1><F7>
+09_09,<EB>[*:] I must make a<F1>confession…<FA><F7><F1>My child is<F1>actually a girl.<F7>
+09_0A,"<EB>[*:] Thanks to you,<F1>we['v]e been living<FA><F7><F1>in peace and<F1>happiness.<F7>"
+09_0B,"[*:] This is Himiko['s]<F1>manor… Was!<FA><F7><F1>Not anymore, it<F1>isn['t]!<F7>"
+09_0C,"[*:] Ah, <&40>!<F1>You are strong!<F7>"
+09_0D,[*:] This calls for a<F1>celebration!<F7>
+09_0E,<EB>[*:] The real Himiko<F1>must have fallen<FA><F7><F1>to the fangs of<F1>Orochi…<F7>
+09_0F,<EB>[*:] Himiko was the<F1>horrible Orochi!<FA><F7><F1>How dreadful!<F1><F7>
+09_10,[*:] Thank you.<F1><F7>
+09_11,[*:] So Orochi had<F1>been impersonating<FA><F7><F1>Himiko…<F1><F7>
+09_12,<EB>Yayoi: You are why<F1>I am alive today.<FA><F7><F1>Thank you.<F1><F7>
+0A_00,[*:] Welcome to<F1>Zipangu!<F7>
+0B_00,"<EB>[*:] Look, look!<F1>Foreigners!<FA><F7><F1>But guess what, to<F1>a foreigner, I['m] a<FA><F7><F1>foreigner!<F1>That['s] neat!<F7>"
+0B_01,"[*:] Ah, this mead is<F1>delicious!<FA><F7><F1>Nothing beats it<F1>when my daughter<FA><F7><F1>is with me!<F1><F7>"
+0B_02,"<EB>[*:] Since that time<F1>with Himiko, it<FA><F7><F1>seems that Zipangu<F1>has been changing.<F7>"
+0B_03,<EB>[*:] My elder brother<F1>and his wife left<FA><F7><F1>on a journey so he<F1>could make what he<FA><F7><F1>called legendary<F1>swords.<FA><F7><F1>They['v]e never come<F1>back.<FA><F7><F1>I hope that they<F1>are safe…<F7>
+0B_04,"[*:] Ah, welcome. So<F1>good to see you.<FA><F7><F1>Please, go through<F1>to the temple.<F7>"
+0B_05,<EB>[*:] I raised my girl<F1>as a boy to avoid <FA><F7><F1>having her chosen<F1>as a sacrifice.<FA><F7><F1>But she['s] become<F1>like a boy.<FA><F7><F1>I['l]l have to teach<F1>her to be more<FA><F7><F1>ladylike from now<F1>on…<F7>
+0B_06,"[*:] Ever since Yayoi<F1>escaped becoming a<FA><F7><F1>sacrifice, her<F1>father has been<FA><F7><F1>constantly with<F1>her like a shadow.<FA><F7><F1>I doubt that he['d]<F1>be willing to hear<FA><F7><F1>any marriage<F1>proposals…<F7>"
+0B_07,[*:] This is Himiko['s]…<F1>No!<FA><F7><F1>This manor belongs<F1>to the people of<FA><F7><F1>Zipangu!<F1><F7>
+0B_08,[*:] We were far too<F1>subservient to the<FA><F7><F1>god Himiko.<F1><FA><F7>That gave Orochi<F1>its opportunity.<FA><F7><F1>We have to protect<F1>Zipangu ourselves<FA><F7><F1>from now on.<F1><F7>
+0B_09,<EB>[*:] We have all gone<F1>without sleep to<FA><F7><F1>decide how we want<F1>Zipangu to be.<FA><F7><F1>I have to work<F1>hard to keep them<FA><F7><F1>fed too!<F1><F7>
+0B_0A,[*:] You foreigners<F1>have quite useful<FA><F7><F1>knowledge!<F1><F7>
+0B_0B,"[*:] I came here to<F1>spread word of the<FA><F7><F1>gods.<F1><FA><F7>But in my wildest<F1>dreams, I['d] never<FA><F7><F1>expected to teach<F1>how to govern.<FA><F7><F1>Even the gods must<F1>be astounded!<F7>"
+0B_0C,"[*:] Ah, so foreign<F1>lands have such <FA><F7><F1>rules…<F1><F7>"
+0B_0D,[*:] Democracy?<F1>Is that it?<FA><F7><F1>I don['t] understand<F1>those rules.<F7>
+0B_0E,"<EB>Yayoi: Thanks to<F1>you, we['v]e been<FA><F7><F1>living happily.<F1><FA><F7>Please stay a<F1>while with us.<F7>"
+0C_00,<EB>[*:] Yayoi…<F1>…Mumble…<F7>
+0C_01,[*:] Zzz… Zzz…<F7>
+0C_02,[*:] Urrrrgh… Yayoi…<F1>…Mumble…<F7>
+0C_03,<EB>[*:] Ssss…<F7>

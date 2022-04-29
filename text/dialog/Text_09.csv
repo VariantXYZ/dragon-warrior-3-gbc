@@ -1,0 +1,160 @@
+﻿Index,Text
+00_00,[*:] This is the<F1>Stadium where<FA><F7><F1>gripping monster<F1>battles are held!<F7>
+00_01,[*:] Welcome!<F1><FA><F7>I hope you enjoy<F1>yourselves.<F7>
+00_02,[*:] Please don['t] tell<F1>the Queen that I<FA><F7><F1>sneaked out of<F1>work to be here.<F7>
+00_03,"[*:] This is strictly<F1>confidential, but<FA><F7><F1>the Queen has come<F1>here just once on <FA><F7><F1>the sly.<F1><F7>"
+00_04,[*:] I['m] not here to<F1>gamble.<FA><F7><F1>I['m] studying how<F1>monsters battle.<F7>
+00_05,"[*:] Hey, do you know<F1>who won the<FA><F7><F1>last battle?<F1><xFF>"
+00_06,[*:] Wait! Don['t] say<F1>it.<FA><F7><F1>I didn['t] bet<F1>anyway…<F7>
+00_07,[*:] What is it?<F1><FA><F7>I['m] not giving my<F1>spot up!<F7>
+00_08,"[*:] Welcome to Isis,<F1>the kingdom in the<FA><F7><F1>desert.<F1><FA><F7>It was founded by<F1>the late Pharaoh.<F7>"
+00_09,[*:] The kingdom is<F1>ruled by our<FA><F7><F1>beautiful Queen.<F1><FA><F7>You must have come<F1>because you wanted<FA><F7><F1>to see her.<F1><F7>
+00_0A,"[*:] I am Sokras.<F1><FA><F7>I['m] waiting for<F1>nightfall.<FA><F7><F1>But when the night<F1>comes, I long for<FA><F7><F1>the morning.<F1><F7>"
+00_0B,[*:] No one can laugh<F1>at Sokras. Life<FA><F7><F1>may indeed be the<F1>way he sees it.<F7>
+00_0C,"[*:] In the north of<F1>the desert is a<FA><F7><F1>tomb of the kings<F1>- the Pyramid.<FA><F7><F1>Although I would<F1>like to go there,<FA><F7><F1>I dare not.<F1><FA><F7>It is a sacred<F1>place that dates<FA><F7><F1>back several<F1>thousand years.<FA><F7><F1>Rashly entering it<F1>or touching its<FA><F7><F1>treasures could<F1>result in a curse.<F7>"
+00_0D,<EB>[*:] Oh? You['r]e from<F1>Aliahan?<FA><F7><F1>I['v]e never heard<F1>of such a place.<FA><F7><F1>Is it a backwater?<F1><F7>
+00_0E,[*:] Tch! I lost a<F1>bundle today too…<F7>
+00_0F,<EB>[*:] Would you like<F1>some cold water?<FA><F7><F1>Water is our<F1>treasure.<F7>
+00_10,"[*:] Glug, glug…<F1>Whew! Delicious!<FA><F7>"
+00_11,"<F1>[*:] The desert left<F1>me parched.<FA><F7><F1>It['s] also full of<F1>horrid monsters.<FA><F7><F1>But my, the Queen<F1>is beautiful.<FA><F7><F1>It was worth the <F1>effort to come!<F7>"
+00_12,"[*:] Travelers, would<F1>you like to hear<FA><F7><F1>my song?<F1><xFF>"
+00_13,[*:] Lalala ~ The<F1>Starry Bracelet<FA><F7><F1>enhances agility<F1>delightfully lala!<F7>
+00_14,<FE>[*:] …………<F1><F7>
+00_15,<EB>[*:] My husband runs<F1>a weapon and armor<FA><F7><F1>shop in this town.<F1><F7>
+01_00,"[*:] To me, it feels<F1>like I can hear<FA><F7><F1>the voices of the<F1>dead.<FA><F7><F1>We all return to<F1>the soil when we<FA><F7><F1>eventually die, I<F1>guess.<F7>"
+01_01,[*:] Zzzz…<F7>
+01_02,[*:] Zzz… Zzz…<F7>
+01_03,[*:] …Mumble… There!<F1>CatFly['s] the one!<FA><F7><F1>Zzz… Zzz…<F1><F7>
+01_04,<EB>[*:] Aiyeeh!<F1>Please stay away!<FA><F7><F1>I['m] bathing on the<F1>sly!<F7>
+01_05,<EB>[*:] I['m] bathing<F1>because I was all<FA><F7><F1>gritty with sand.<F1><FA><F7>But it['s] so cold<F1>at night in the<FA><F7><F1>desert…<F1>Hah-choo!<F7>
+01_06,"[*:] I am Sokras.<F1><FA><F7>I['m] waiting for<F1>dawn to come.<FA><F7><F1>Oh, I wish it<F1>would be morning<FA><F7><F1>soon…<F1><F7>"
+01_07,[*:] Oh? Did you want<F1>some weapons?<xFF><F1>
+01_08,[*:] Or are you after<F1>some armor?<xFF><F1>
+01_09,[*:] Then you should<F1>come to my shop in<FA><F7><F1>the daytime.<F1><F7>
+01_0A,"[*:] Ah, I know!<F1><FA><F7>You want the<F1>Starry Bracelet!<FA><F7><F1>That['s] supposed to<F1>be safely stored<FA><F7><F1>in the Castle.<F1><F7>"
+02_00,[*:] Welcome to Isis<F1>Castle.<F7>
+02_01,[*:] Welcome to Isis<F1>Castle.<FA><F7><F1>You must be tired<F1>from the trek in<FA><F7><F1>the desert.<F1><FA><F7>Relax and enjoy<F1>your stay.<F7>
+02_02,<EB>[*:] Meeeow.<F1><F7>
+02_03,<EB>[*:] Purr…<F1><F7>
+02_04,<EB>[*:] Did you come<F1>across the desert?<FA><F7><F1>The tip of your<F1>nose is peeling.<F7>
+02_05,"<EB>[*:] Ah, you must be<F1>"
+02_06,"<EB>[*:] Ah, you must be<F1>"
+02_07,"<EB>fearless, since<FA><F7><F1>you are going to<F1>the Pyramid.<FA><F7><F1>But you must be<F1>careful.<FA><F7><F1>There is a place<F1>in the Pyramid<FA><F7><F1>where spells don['t]<F1>work, I['v]e heard.<F7>"
+02_08,"<EB>[*:] Oh, you['r]e so<F1>rugged and tough!<FA><F7><F1>"
+02_09,"<EB>[*:] Oh, you['r]e so<F1>rugged and tough!<FA><F7><F1>"
+02_0A,<EB>[*:] The Queen should<F1>be as pleased with<FA><F7><F1>you as I am.<F1><F7>
+02_0B,"[*:] According to<F1>ancient documents,<FA><F7><F1>the Pyramid is<F1>rigged with traps.<FA><F7><F1>You['d] best be<F1>careful.<F7>"
+02_0C,"[*:] The Pyramid is<F1>the tomb of the<FA><F7><F1>Royals.<F1><FA><F7>Along with the<F1>deceased Pharaoh,<FA><F7><F1>vast treasures<F1>were sealed.<FA><F7><F1>But the Pyramid<F1>has been defiled<FA><F7><F1>by an endless<F1>stream of thieves.<FA><F7><F1>It['s] deplorable.<F1><F7>"
+02_0D,[*:] The Castle['s]<F1>treasures belong<FA><F7><F1>to the Queen.<F1><FA><F7>Don['t] get any<F1>funny ideas.<F7>
+02_0E,[*:] Guarding our<F1>Queen['s] treasures<FA><F7><F1>is one of our<F1>duties.<F7>
+02_0F,"[*:] My brother liked<F1>gazing over clean<FA><F7><F1>water, the same<F1>way I do.<FA><F7><F1>He departed for<F1>Ashalam saying he<FA><F7><F1>was going to the<F1>eastern kingdom.<FA><F7><F1>He hasn['t] been<F1>back since.<F7>"
+02_10,[*:] I['m] searching<F1>for the Starry<FA><F7><F1>Bracelet.<F1><FA><F7>It['s] said to be in<F1>the Castle.
+02_11,"[*:] What? That['s] the<F1>Starry Bracelet?<FA><F7><F1>Hm… Well, you['v]e<F1>beaten me to it.<FA><F7><F1>But just this<F1>time. See you!<F7>"
+02_12,"[*:] It is my duty to<F1>guard our Queen.<FA><F7><F1>Oh, I can['t] believe<F1>my luck!<F7>"
+02_13,[*:] I could die for<F1>the Queen!<F7>
+02_14,<EB>[*:] The nursery song<F1>that children sing<FA><F7><F1>is said to be the<F1>Pyramid['s] key.<FA><F7><F1>I have no idea<F1>what that means.<F7>
+02_15,<EB>[*:] Hiss!<F7>
+02_16,<EB>[*:] Round buttons<F1>are magic buttons.<FA><F7><F1>Round buttons open<F1>a door.<FA><F7><F1>From west of east<F1>to east of west.<FA><F7><F1>From west of west<F1>to east of east.<F7>
+02_17,<EB>[*:] Let['s] sing<F1>together!<F7>
+02_18,<EB>[*:] Our Queen has<F1>nothing to fear.<FA><F7><F1>Even the Demon<F1>Lord will grovel<FA><F7><F1>before her beauty…<F1><F7>
+02_19,<EB>[*:] We['r]e the Queen['s]<F1>handmaidens.<FA><F7><F1>It['s] a job coveted<F1>by every woman in<FA><F7><F1>Isis.<F1><F7>
+02_1A,<EB>[*:] This is the<F1>Queen['s] chamber.<FA><F7><F1>You must not enter<F1>without cause.<F7>
+02_1B,<EA>[*:] Is it you who<F1>disturbs my sleep?<xFF>
+02_1C,<EA>[*:] It wasn['t] you?<F1><FA><F7>I apologize for my<F1>rash accusation.<F7>
+02_1D,<EA>[*:] Then was it you<F1>who took what lay<FA><F7><F1>in the chest?<F1><xFF>
+02_1E,"<EA>[*:] Since you['r]e<F1>honest, you can<FA><F7><F1>have it. It['s] of<F1>no use to me.<FA><F7><F1>It['s] yours.<F1>Farewell…<F7>"
+03_00,<EA>[*:] Kikiki!<F1><FA><F7>I am the Demon<F1>Lord['s] familiar!<FA><F7><F1>Renounce your<F1>pathetic struggle<FA><F7><F1>against his great<F1>lordship and go<FA><F7><F1>home to Aliahan.<F1><FA><F7>Or face a cruel<F1>and pitiless end…<FA><F7><F1>Kikikiki…<F1><FA><F7>
+03_01,<EB>[*:] ……Meeow?<F1><F7>
+03_02,[*:] Zzz… Zzz…<F1><F7>
+03_03,[*:] Zzz… Arg!<F1>A possessed cat!<FA><F7><F1>Help…<F1>Zzz… Zzz…<F7>
+03_04,[*:] …Mumble…<F1><FA><F7>We['l]l talk<F1>tomorrow… Zzz…<F7>
+03_05,<EB>[*:] Ssss…<F1><F7>
+03_06,[*:] Our Queen has<F1>retired for the<FA><F7><F1>evening.<F1><FA><F7>You should return<F1>in the morning.<F7>
+03_07,"[*:] Oh, Queen…<F1>Zzz…<F7>"
+03_08,<EB>[*:] The floor['s] cold<F1>and I can['t] sleep!<F7>
+03_09,<EB>[*:] …Mumble…<F7>
+03_0A,<EB>[*:] Yie!<F1>Don['t] wake me up!<F7>
+03_0B,<EB>[*:] Aiyeeh! A man!<F1>There['s] a man here!
+03_0C,<EB>[*:] Oh. I['m] sorry.<F1>You['r]e a woman.<FA><F7><F1>Sorry for making<F1>such a fuss.<F7>
+03_0D,<EB>[*:] Men frighten me…<F1>I want to live<FA><F7><F1>here the rest of<F1>my life.<F7>
+03_0E,<EB>[*:] Ssss…<F1><F7>
+03_0F,"<EB>[*:] …Mumble…<F1><FA><F7>Oh, your Highness,<F1>what an honor…<FA><F7><F1>Sss…<F1><F7>"
+03_10,"<EB>[*:] I don['t] know why<F1>you are here, but<FA><F7><F1>you must leave at<F1>once.<FA><F7><F1>We must avoid<F1>groundless rumors.<F7>"
+03_11,<EB>Queen: I am glad<F1>that you have come<FA><F7><F1>to see me away<F1>from prying eyes.<FA><F7><F1>
+03_12,"<EB>Queen: I can do<F1>nothing for you,<FA><F7><F1>but I can give you<F1>a gift.<FA><F7><F1>Check the floor<F1>around my bed.<F7>"
+03_13,"<EB>Queen: Now, you<F1>must leave.<F7>"
+03_14,<EB>Queen: But I am<F1>the ruler of this<FA><F7><F1>kingdom.<F1><FA><F7>I am not allowed<F1>thoughtless acts.<FA><F7><F1>I envy you for<F1>your freedom.<F7>
+04_00,<EB>[*:] This is Portoga.<F7>
+04_01,"[*:] Lovers gather<F1>here to talk.<FA><F7><F1>There was one<F1>couple who came<FA><F7><F1>often in the past.<F1><FA><F7>Where are they<F1>now, I wonder?<F7>"
+04_02,[*:] The King loves<F1>Pepper.<FA><F7><F1>It can be obtained<F1>quite cheaply in a<FA><F7><F1>country far to the<F1>east…<FA><F7><F1>But few would make<F1>the treacherous<FA><F7><F1>trip to the east<F1>just for Pepper.
+04_03,[*:] Hah? You brought<F1>Pepper back?<xFF>
+04_04,[*:] Good! The King<F1>will be delighted.<F7>
+04_05,[*:] Don['t] lie.<F1><F7>
+04_06,<EB>[*:] I would like to<F1>try Pepper once<FA><F7><F1>before I die.<F1><F7>
+04_07,[*:] A grain of<F1>Pepper costs a<FA><F7><F1>grain of gold.<F1><FA><F7>I can['t] afford to<F1>stock anything<FA><F7><F1>that costly.<F1><FA><F7>Incidentally…<F1><FA><F7>
+04_08,[*:] What? You want a<F1>ship?<FA><F7><F1>Go see the King.<F1><F7>
+04_09,[*:] Whinny!<F7>
+04_0A,"[*:] If you have a<F1>ship, you should<FA><F7><F1>be able travel the<F1>world.<F7>"
+04_0B,"<EB>[*:] I am Sabrina.<F1>I pine for my love<FA><F7><F1>all day like this.<F1><FA><F7>But when night<F1>comes…<FA><F7><F1>I['m] afraid of the<F1>night…<FA><F7><F1>Oh, my Carlos…<F1><F7>"
+04_0C,"[*:] There once was<F1>a brave swordsman<FA><F7><F1>and his beautiful<F1>lover.<FA><F7><F1>They often gazed<F1>at the sea and<FA><F7><F1>dreamt of a world<F1>at peace.<FA><F7><F1>But, the horrible<F1>Demon Lord Baramos<FA><F7><F1>cast a curse on<F1>the lovers.<FA><F7><F1>And so the two of<F1>them…<FA><F7><F1>I can['t] go on.<F1>It['s] tragic.<F7>"
+05_00,[*:] Zzz… Zzz…<F7>
+05_01,"[*:] Oh, my beloved<F1>Sabrina…<FA><F7><F1>I can no longer<F1>see her, let alone<FA><F7><F1>speak to her…<F1><FA><F7>Do you know<F1>Sabrina?<xFF>"
+05_02,[*:] Then please tell<F1>her this…<FA><F7><F1>Carlos loves her<F1>still.<F7>
+05_03,"[*:] Oh…<F1><FA><F7>Oh, is my Sabrina<F1>still well?<F7>"
+05_04,[*:] Zzz…<F7>
+05_05,[*:] The King is<F1>already asleep.<F7>
+05_06,[*:] You should come<F1>back tomorrow.<F7>
+05_07,<EB>[*:] Meeeow…<F7>
+05_08,[*:] ZZZ… ZZZ…<F1>…Grind…<F7>
+05_09,<EB>[*:] Waaah!<F1>I can['t] sleep!<F7>
+06_00,[*:] Welcome to<F1>Portoga Castle.<F7>
+06_01,"[*:] Although the<F1>kingdom is small,<FA><F7><F1>our King is a<F1>great man.<FA><F7><F1>Please show the<F1>utmost respect.<F7>"
+06_02,"[*:] In the east, I<F1>hear that there is<FA><F7><F1>a temple that lets<F1>you change<FA><F7><F1>classes. I wouldn['t]<F1>mind going there.<F7>"
+06_03,"<EB>[*:] The others say<F1>they want to go to<FA><F7><F1>the country in the<F1>east, but not me.<FA><F7><F1>I would be too<F1>frightened.<FA><F7><F1>I thought only<F1>savages lived in<FA><F7><F1>the east.<F1><F7>"
+06_04,[*:] I speak the<F1>truth.<FA><F7><F1>Would you like to<F1>hear the truth?<xFF>
+06_05,[*:] What goes around<F1>comes around.<FA><F7><F1>That['s] the truth!<F1>Fwahahahah!<F7>
+06_06,[*:] That['s] too bad.<F1><F7>
+06_07,"[*:] Many struck out<F1>for the east, and<FA><F7><F1>many died.<F1>Be careful.<F7>"
+06_08,"King: In a country<F1>far to the east,<FA><F7><F1>Pepper is said to<F1>be common.<FA><F7><F1>I ask you to<F1>travel to the east<FA><F7><F1>and report what<F1>you['v]e seen to me.<FA><F7><F1>If you bring some<F1>Pepper back, I<FA><F7><F1>will recognize you<F1>as a hero.<FA><F7><F1>I will also give<F1>you my ship.<FA><F7><F1>Show this letter<F1>to Norud who lives<FA><F7><F1>in the cave to the<F1>east.<FA><F7><F1>He['l]l guide you<F1>through the cave.<FA><F7><F1><FE><&40> received the<F1>King['s] Letter."
+06_09,"King: Go, <&00>!<F1><F7>"
+06_0A,"King: What is the<F1>matter?<FA><F7><F1>I['m] waiting for my<F1>Pepper.<FA><F7><F1>I['m] busy, so if<F1>you need anything<FA><F7><F1>else, talk to the<F1>Duke there.<F7>"
+06_0B,"King: Ah, <&00>!<F1><FA><F7>You['v]e brought back<F1>Pepper! Well done!<FA><F7><F1>Your courage can<F1>be none other than<FA><F7><F1>that of a hero.<F1><FA><F7>As promised, you<F1>may take my ship!<FA><F7><F1>Go outside and<F1>see!<F7>"
+07_00,"<EB>[*:] The King sneaked<F1>by for a quick<FA><F7><F1>visit last night.<F1><FA><F7>He gave me some<F1>Pepper, but it<FA><F7><F1>seems so wasteful<F1>to use.<FA><F7><F1>It feels exciting,<F1>though.<F7>"
+07_01,[*:] I['v]e heard that<F1>there are far more<FA><F7><F1>powerful monsters<F1>across the sea.<FA><F7><F1>You should set<F1>course for the<FA><F7><F1>lighthouse in the<F1>south first.<F7>
+07_02,[*:] Oh? You['v]e<F1>obtained a ship?<FA><F7><F1>Good for you.<F1><F7>
+07_03,"[*:] That ship moored<F1>there, it['s] yours?<FA><F7><F1>Oh my, I envy you!<F1><F7>"
+07_04,[*:] You are true<F1>heroes!<FA><F7><F1>I['m] profoundly<F1>impressed.<F7>
+07_05,"King: Pepper is<F1>delicious!<FA><F7><F1>I['v]e overeaten,<F1>and so I['m] sleepy.<FA><F7><F1>Talk to the Duke<F1>there.<F7>"
+08_00,"[*:] The King loves<F1>Pepper.<FA><F7><F1>Recently, he began<F1>importing it from<FA><F7><F1>a country in the<F1>far east.<F7>"
+08_01,"<EB>[*:] I was born in<F1>this port town…<FA><F7><F1>But I['v]e never<F1>been on a ship.<FA><F7><F1>Many monsters live<F1>in the sea.<FA><F7><F1>For an ordinary<F1>woman like me, a<FA><F7><F1>voyage just isn['t]<F1>possible.<FA><F7><F1>Oh, I would love<F1>to cross the sea<FA><F7><F1>on a ship some<F1>day…<F7>"
+08_02,[*:] What['s] that?<F1>You obtained the<FA><F7><F1>Final Key that<F1>opens any door?<FA><F7><F1>Isn['t] that nice.<F1><F7>
+08_03,"[*:] What['s] that?<F1>You resurrected<FA><F7><F1>Lamia, the bird of<F1>legends?<FA><F7><F1>Isn['t] that nice.<F1><F7>"
+08_04,"<EB>[*:] I am Sabrina.<F1>I['v]e lost track of<FA><F7><F1>how long I['v]e pined<F1>for my lover…<FA><F7><F1>I['m] afraid I will<F1>forget what my<FA><F7><F1>love looked like…<F1><FA><F7>And when the night<F1>comes…<FA><F7><F1>I['m] afraid of the<F1>night…<FA><F7><F1>Oh, my Carlos…<F1><F7>"
+08_05,"[*:] I brought Pepper<F1>from Baharata<FA><F7><F1>under the King['s]<F1>orders.<FA><F7><F1>But oh my, there<F1>were horrifying<FA><F7><F1>monsters and the<F1>trails were rough.<FA><F7><F1>It was a harrowing<F1>excursion.<FA><F7><F1>But, I like to<F1>travel too.<FA><F7><F1>That['s] why I do<F1>this as my job!<F7>"
+08_06,<EB>[*:] I heard from a<F1>traveling dealer<FA><F7><F1>that there is a<F1>river of sacred<FA><F7><F1>water in the far<F1>east.<FA><F7><F1>The water is said<F1>to preserve youth<FA><F7><F1>and beauty.<F1><FA><F7>I would love to<F1>visit that river.<F7>
+08_07,[*:] Our King['s] love<F1>of Pepper is out<FA><F7><F1>of hand.<F1><F7>
+08_08,"King: Pepper is<F1>delicious!<FA><F7><F1>I['v]e overeaten,<F1>and so I['m] sleepy.<FA><F7><F1>Oh, by the way,<F1>Norud, the hobbit,<FA><F7><F1>was worried about<F1>your progress.<FA><F7><F1>He['s] brusque and<F1>rude, but he['s] also<FA><F7><F1>deeply caring in<F1>his own way.<F7>"
+09_00,"[*:] When I look at<F1>the sea at night,<FA><F7><F1>I find it hard to<F1>believe that there<FA><F7><F1>are monsters<F1>close by.<FA><F7><F1>I sometimes think<F1>that maybe I am<FA><F7><F1>just someone['s]<F1>dream, and that<FA><F7><F1>our world doesn['t]<F1>even exist.<FA><F7><F1>I imagine such odd<F1>thoughts…<F7>"
+09_01,[*:] …Mumble…<F1>Waah! Monsters!<FA><F7><F1>Urrrrgh…<F1>Zzz…<F7>
+09_02,<EB>[*:] Meew… Meeow…<F1><F7>
+09_03,[*:] I haven['t] been<F1>sleeping well.<FA><F7><F1>It['s] because the<F1>cat next door<FA><F7><F1>cries so sadly.<F1><F7>
+09_04,[*:] Ssss…<F7>
+0A_00,"[*:] Because you<F1>defeated Baramos,<FA><F7><F1>the curse he laid<F1>on us was lifted.<FA><F7><F1>We['r]e back to<F1>being lovers as we<FA><F7><F1>were before.<F1><FA><F7>However, even<F1>though the Demon<FA><F7><F1>Lord is gone, why<F1>are there monsters<FA><F7><F1>out there still?<F1><FA><F7>I have a bad<F1>feeling about<FA><F7><F1>this…<F1><F7>"
+0A_01,[*:] I never thought<F1>that I would get<FA><F7><F1>to see Sabrina['s]<F1>face again.<FA><F7><F1>I['v]e heard that I<F1>owe it all to you.<FA><F7><F1>Thank you for<F1>everything.<F7>
+0A_02,"[*:] I considered<F1>myself to be a<FA><F7><F1>skilled swordsman.<F1>So I foolishly<FA><F7><F1>began battling<F1>monsters.<FA><F7><F1>But I never made<F1>it to the Demon<FA><F7><F1>Lord…<F1><FA><F7>Not only did I<F1>fail, I got my<FA><F7><F1>lover involved…<F1><FA><F7>Some swordsman I<F1>am--couldn['t] even<FA><F7><F1>protect his lover.<F1><FA><F7>You are the true<F1>heroes.<FA><F7><F1>I respect you in<F1>all sincerity.<F7>"
+0A_03,<EB>[*:] I never expected<F1>to see my Carlos<FA><F7><F1>again. How can I<F1>ever thank you?<FA><F7><F1>I know!<F1>Please take this.<FA><F7><F1>It['s] the Seduce[Sword2].<F1>It has been in my<FA><F7><F1>family for many<F1>generations. It is<FA><F7><F1>a peculiar sword<F1>that can be used<FA><F7><F1>only by women.<F1><FE><&00> obtained the<FA><F7><F1>Seduce[Sword2].<F1>
+0A_04,"<EB>[*:] Seduce[Sword2] is<F1>a peculiar sword<FA><F7><F1>that can be used<F1>only by women.<FA><F7><F1>I['m] sure it will<F1>help your quest.<FA><F7><F1>…I['m] sorry.<F1><FA><F7>I want to talk<F1>some more to my<FA><F7><F1>Carlos, so please<F1>excuse me.<F7>"
+0A_05,"[*:] What['s] that? You<F1>defeated the Demon<FA><F7><F1>Lord Baramos?<F1><FA><F7>If that['s] true,<F1>that is wonderful.<F7>"
+0A_06,"[*:] I['m] retired.<F1><FA><F7>I had thought I['d]<F1>freed myself from<FA><F7><F1>the world['s] sorrows<F1>and greed, but I<FA><F7><F1>was concerned by<F1>the fate of the<FA><F7><F1>lovers torn apart.<F1><FA><F7>You did a very<F1>good deed.<FA><F7><F1>It even puts my<F1>mind at peace.<F7>"
+0B_00,[*:] I['m] leaning<F1>towards becoming<FA><F7><F1>a fighter.<F1><F7>
+0B_01,[*:] I['d] like to be a<F1>dealer and earn<FA><F7><F1>some money.<F1><F7>
+0B_02,<EB>[*:] I['m] going to be<F1>a mage.<F7>
+0B_03,[*:] I wish to become<F1>a little vixen!<F7>
+0B_04,"[*:] Even if you lose<F1>EXP by changing<FA><F7><F1>classes, what you<F1>have done will<FA><F7><F1>work in your<F1>favor.<FA><F7><F1>However, if a<F1>cleric becomes a<FA><F7><F1>warrior, then<F1>changes back into<FA><F7><F1>a cleric, he still<F1>has to start back<FA><F7><F1>from L1.<F1><FA><F7>So, changing<F1>classes too often<FA><F7><F1>could be wasteful.<F1><FA><F7>Of course, if you<F1>change classes,<FA><F7><F1>you level up<F1>quickly at first.<FA><F7><F1>It makes the loss<F1>easier to bear.<F7>"
+0B_05,"[*:] Change a mage<F1>into a warrior,<FA><F7><F1>and get a warrior<F1>who is capable of<FA><F7><F1>casting spells.<F1><FA><F7>However, when you<F1>change classes,<FA><F7><F1>you revert to L1.<F1><FA><F7>Making everyone<F1>change classes<FA><F7><F1>at the same time<F1>isn['t] advisable.<FA><F7><F1>I wouldn['t] let<F1>more than one or<FA><F7><F1>two change classes<F1>at the same time.<FA><F7><F1>If it['s] your first<F1>time, consider<FA><F7><F1>having a cleric<F1>become a fighter,<FA><F7><F1>and a warrior turn<F1>into a cleric.<FA><F7><F1>It['s] reassuring to<F1>have two people<FA><F7><F1>who can cast<F1>healing spells.<FA><F7><F1>What['s] more, a<F1>fighter can cast<FA><F7><F1>spells quickly.<F1><F7>"
+0B_06,"[*:] Far to the east<F1>on the sea is<FA><F7><F1>Zipangu, the<F1>golden country.<FA><F7><F1>If that['s] true, I['d]<F1>do anything to go<FA><F7><F1>there.<F1><F7>"
+0C_00,[*:] Zzz… Zzz…<F1>Hi-yah!<F7>
+0C_01,[*:] …Mumble…<F1>What will you buy?<F7>
+0C_02,<EB>[*:] Sss…<F1>Firebane!<F7>
+0C_03,"[*:] Zzz… Zzz…<F1>No way, you know.<FA><F7><F1>He['s] like so not<F1>happening…<F7>"
+0C_04,[*:] They all appear<F1>to be dreaming.<F7>

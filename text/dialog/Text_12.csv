@@ -1,0 +1,116 @@
+﻿Index,Text
+00_00,[*:] I sell weapons<F1>and armor.<FA><F7><F1>Can I help you?<F1>
+00_01,[*:] What would you<F1>like to buy?<FA><F7>
+00_02,[*:] The <&25>?<F1>And you want <&3B>?<FA><F7><F1>Thank you.<F1><FA><F7>
+00_03,"[*:] Ah, sorry. You<F1>don['t] have enough.<FA><F7>"
+00_04,[*:] Anything else<F1>I can do for you?
+00_05,"[*:] <&25>, is<F1>it? Thank you!<FA><F7>"
+00_06,[*:] It even works as<F1>a tool in battle.<FA><F7>
+00_07,[*:] Who is this for?<F1><FA><F7>
+00_08,"[*:] Well, I['l]l put it<F1>in the <&00>!<FA><F7>"
+00_09,[*:] Do you want<F1>anything else?<FA><F7>
+00_0A,[*:] Hm? <&40> can['t]<F1>hold any more.<FA><F7><F1>Want to sort your<F1>items?<xFF><F1>
+00_0B,[*:] Will someone<F1>else take it?<xFF><F1>
+00_0C,[*:] Hm? <&40>['s] items<F1>are all important.<FA><F7><F1>I can['t] put them<F1>away.<FA><F7><F1>
+00_0D,"[*:] OK, I['v]e put away<F1>non-essentials.<FA><F7>"
+00_0E,"[*:] OK, I['l]l put it<F1>in <&40>['s] coffin.<FA><F7>"
+00_0F,"[*:] Here you go,<F1><&40>!<FA><F7>"
+00_10,"[*:] What you couldn['t]<F1>carry, I put in<FA><F7><F1>the <&00>.<F1><FA><F7>"
+00_11,"[*:] <&40> can['t] equip<F1>it, is this okay?<xFF>"
+00_12,[*:] Will you equip<F1>it here?<xFF>
+00_13,<FE><&40> equipped<F1>the <&25> .<FA><F7>
+00_14,"[*:] Whoa! That was<F1>surprising!<FA><F7><F1>The <&12> is<F1>cursed--it won['t]<FA><F7><F1>come off. Uh, gee…<F1>Better take it.<FA><F7>"
+00_15,[*:] Come again!<F1><F7>
+00_16,[*:] Who wants to<F1>sell me something?<FA><F7>
+00_17,[*:] Hm? <&40> doesn['t]<F1>have anything.<FA><F7>
+00_18,"[*:] Sorry, but I<F1>can['t] buy that.<FA><F7>"
+00_19,"[*:] But, if you sold<F1>that…<FA><F7><F1>You may not get<F1>another. You sure?<xFF>"
+00_1A,[*:] The <&25> ?<F1><FA><F7>I['l]l pay <&09>G.<F1>Is that OK?<xFF>
+00_1B,[*:] That['s] too bad.<F1><FA><F7>
+00_1C,"[*:] I['d] like to buy<F1>it from you, but…<FA><F7><F1>You can['t] hold any<F1>more money.<FA><F7><F1>So, buy something<F1>first from me.<FA><F7>"
+00_1D,"[*:] Whoa! That['s] a<F1>jolt!<FA><F7><F1>It['s] cursed, and<F1>it won['t] budge.<FA><F7>"
+00_1E,[*:] OK!<F1>It['s] a done deal!<FA><F7>
+00_1F,[*:] Anything else?<F1><FA><F7><F1>
+00_20,[*:] Eh? The <&00> is<F1>empty.<FA><F7>
+00_21,[*:] <&25>?<F1><FA><F7>I['l]l pay <&09>G<F1>for one.<FA><F7><F1>How many are you<F1>selling?<F1>
+00_22,[*:] <&25>?<F1>And that['s] <&3D>?<FA><F7><F1>I['l]l pay <&09>G.<F1>Is that OK?<xFF>
+01_00,[*:] This is an item<F1>shop.<FA><F7><F1>How may I serve<F1>you?
+01_01,[*:] What would you<F1>like?<FA><F7>
+01_02,<&25>.<F1>And you want <&3B>.<FA><F7><F1>Thank you very<F1>much.<FA><F7>
+01_03,[*:] Sorry. You can['t]<F1>afford this.<FA><F7>
+01_04,[*:] Anything else I<F1>can do for you?
+01_05,[*:] <&25>?<F1>Thank you.<FA><F7>
+01_06,[*:] Try using it as<F1>a tool in battle.<FA><F7><F1>It['s] a bargain!<F1><FA><F7>
+01_07,[*:] To whom should<F1>I give this?<FA><F7>
+01_08,"[*:] Well, I will put<F1>it in the <&00>.<FA><F7>"
+01_09,[*:] Do you need<F1>anything else?<FA><F7>
+01_0A,[*:] But <&40> can['t]<F1>carry any more.<FA><F7><F1>Shall I sort the<F1>items for you?<xFF><F1>
+01_0B,[*:] Will someone<F1>else take it?<xFF><F1>
+01_0C,[*:] Hm? <&40>['s] items<F1>are all important.<FA><F7><F1>
+01_0D,"[*:] OK, I put away<F1>non-essentials.<FA><F7>"
+01_0E,[*:] I will put it in<F1><&40>['s] coffin.<FA><F7>
+01_0F,"[*:] There you go,<F1><&40>.<FA><F7>"
+01_10,"[*:] What you couldn['t]<F1>hold, I['l]l put in<FA><F7><F1>the <&00>.<F1><FA><F7>"
+01_11,[*:] Hm? <&40> can['t]<F1>equip this.<FA><F7><F1>Do you still want<F1>it?<xFF>
+01_12,[*:] Will you equip<F1>it now?<xFF>
+01_13,<FE><&40> equipped<F1>the <&25> .<FA><F7>
+01_14,[*:] The <&12><F1>won['t] come off!<FA><F7><F1>Might it be<F1>cursed?<FA><F7><F1>It can['t] be helped.<F1><FA><F7>You['l]l have to<F1>take it as is.<FA><F7>
+01_15,[*:] I['l]l be waiting<F1>to see you again.<F7>
+01_16,[*:] Who wishes to<F1>sell?<FA><F7>
+01_17,[*:] <&40> doesn['t] have<F1>items to sell.<FA><F7>
+01_18,"[*:] I['m] sorry, but I<F1>can['t] buy that.<FA><F7>"
+01_19,[*:] But if you sell<F1>this…<FA><F7><F1>You may not get<F1>another. OK?<xFF>
+01_1A,<F1>[*:] <&25>?<F1><FA><F7>I['l]l pay <&09>G.<F1>Is that OK?<xFF>
+01_1B,<F1>[*:] That['s] a shame.<F1><FA><F7>
+01_1C,[*:] But you can['t]<F1>hold more money.<FA><F7><F1>How about buying<F1>something first?<FA><F7>
+01_1D,"[*:] Eh!? A curse<F1>holds it in place.<FA><F7><F1>Aw, that['s] a shame.<F1><FA><F7>"
+01_1E,[*:] Thank you.<F1><FA><F7>
+01_1F,[*:] Will you sell<F1>something else?<FA><F7>
+01_20,[*:] Eh? Seems the<F1><&00> is empty.<FA><F7>
+01_21,[*:] <&25>?<F1><FA><F7>I['l]l pay <&09>G<F1>for one.<FA><F7><F1>How many will you<F1>sell?
+01_22,<F1>[*:] <&25>…<F1>And you say <&3D>?<FA><F7><F1>I['l]l give you<F1><&09>G. OK?<xFF>
+02_00,[*:] Welcome to my<F1>general store.
+02_01,"[*:] Well, what will<F1>you be buying?<FA><F7>"
+02_02,<&25> ?<F1>And you want <&3B>.<FA><F7><F1>Much thanks.<F1><FA><F7>
+02_03,[*:] Huh? You don['t]<F1>have the money.<FA><F7>
+02_04,[*:] Can I help you<F1>any further?
+02_05,[*:] <&25> ?<F1>Many thanks.<FA><F7>
+02_06,[*:] Use it as a tool<F1>in battle.<FA><F7><F1>It['s] really quite<F1>remarkable.<FA><F7>
+02_07,[*:] Who will carry<F1>it?<FA><F7>
+02_08,"[*:] Right, I['l]l stick<F1>it in the <&00>.<FA><F7>"
+02_09,[*:] Are you buying<F1>anything else?<FA><F7>
+02_0A,[*:] You can['t] hold<F1>any more items.<FA><F7><F1>Do you want me to<F1>sort your items?<xFF><F1>
+02_0B,[*:] Will someone<F1>else hold it?<xFF><F1>
+02_0C,[*:] All <&40>['s] items<F1>are important.<FA><F7><F1>
+02_0D,[*:] I put away what['s]<F1>not important.<FA><F7>
+02_0E,"[*:] Right, it goes<F1>in <&40>['s] coffin.<FA><F7>"
+02_0F,"[*:] There you go,<F1><&40>!<FA><F7><F1>"
+02_10,[*:] What you can['t]<F1>carry goes into<FA><F7><F1>the <&00>!<F1><FA><F7>
+02_11,[*:] <&40> can['t] equip<F1>this.<FA><F7><F1>Are you sure you<F1>want this?<xFF>
+02_12,"[*:] Fine, will you<F1>equip it now?<xFF>"
+02_13,<FE><&40> equipped<F1>the <&25>.<FA><F7>
+02_14,"[*:] The <&12><F1>won['t] come off!<FA><F7><F1>It['s] cursed, and<F1>so are you!<FA><F7><F1>Ah well. You['l]l<F1>have to take it.<FA><F7>"
+02_15,"[*:] Well, come<F1>again anytime.<F7>"
+02_16,[*:] Who is selling<F1>items?<FA><F7>
+02_17,[*:] Eh? <&40> has no<F1>items.<FA><F7>
+02_18,"[*:] Hmm… Sorry, I<F1>can['t] take that.<FA><F7>"
+02_19,"[*:] If you sell<F1>this, you might<FA><F7><F1>not get another.<F1>Is that OK?<xFF>"
+02_1A,"<F1>[*:] <&25> ?<F1>Right, then.<FA><F7><F1>Well, how about<F1><&09>G?<xFF>"
+02_1B,<F1>[*:] What a shame.<F1><F7>
+02_1C,[*:] Eh? <&40> has<F1>too much money.<FA><F7><F1>You can['t] hold any<F1>more. I envy you…<F7>
+02_1D,"[*:] Eh! It['s] cursed!<F1><FA><F7>It won['t] come off.<F1>Ah, bad luck!<FA><F7><F1>"
+02_1E,"[*:] Eheh, thanks.<F1><FA><F7>"
+02_1F,[*:] You['r]e selling<F1>something else?<FA><F7>
+02_20,[*:] Oh? This <&00><F1>is empty.<FA><F7>
+02_21,[*:] <&25> ?<F1><FA><F7>I pay <&09>G for<F1>one of those.<FA><F7><F1>So how many will<F1>you sell?
+02_22,"<F1>[*:] <&25>, eh?<F1>And that['s] <&3D>.<FA><F7><F1>Then, will you<F1>take <&09>G?<xFF>"
+03_00,[*:] Ah! My friend! I<F1>have been waiting!<FA><F7><F1>Will you view my<F1>wares?<xFF>
+03_01,[*:] Don['t] be that<F1>way. Please look!<FA><F7>
+03_02,[*:] Ah?<F1>You need nothing?<FA><F7><F1>Such a shame!<F1>Please come again!<F7>
+03_03,"[*:] Ah! You have a<F1>discerning eye!<FA><F7><F1>It['s] <&09>G.<F1>You will buy, yes?<xFF>"
+03_04,"[*:] Ah, you drive<F1>a hard bargain.<FA><F7><F1>I am defeated.<F1><FA><F7>I shall make it<F1><&09>G.<FA><F7><F1>Well, friend, how<F1>about it?<xFF><F1>"
+03_05,"[*:] Ah, if I slash<F1>the price more, I<FA><F7><F1>will lose very big<F1>money!<FA><F7><F1>But you are my<F1>friend!<FA><F7><F1>So, for you, just<F1><&09>G!<FA><F7><F1>How about that?<F1><xFF>"
+03_06,"[*:] Oh, but you are<F1>so very cruel!<FA><F7><F1>You wish to drive<F1>me to suicide?<FA><F7><F1>I understand.<F1><FA><F7>I can make it<F1><&09>G.<FA><F7><F1>That must be fine,<F1>yes?<xFF><F1>"
+03_07,[*:] I see. Too bad.<F1>Do come again.<F7>
+03_08,"[*:] Oh, you don['t]<F1>have the money!<FA><F7><F1>Do come again.<F1><F7>"
+03_09,[*:] Oh! You will<F1>buy?<FA><F7><F1>We are friends<F1>always!<FA><F7><F1>Do come again!<F1><F7>

@@ -1,3 +1,7 @@
+; Game specific
+C_CurrentBank       EQU $4000
+
+
 H_RegJoyp           EQU $ff00
 H_RegSB             EQU $ff01
 H_RegSC             EQU $ff02

@@ -1,0 +1,335 @@
+﻿Index,Text
+00_00,[*:] Want my tip on<F1>the outcome of the<FA><F7><F1>next battle?<F1>Just 5G!<xFF><F1>
+00_01,"[*:] Excellent! This<F1>is what I predict!<FA><F7><F1>No doubt about it,<F1>it['s] <&00><&70>!<F7>"
+00_02,[*:] You can['t] part<F1>with a measly 5G?<FA><F7><F1>I suggest you just<F1>go on home.<F7>
+00_03,[*:] Right this way<F1>for the Stadium['s]<FA><F7><F1>best monster<F1>battles!<FA><F7><F1>Pick the winner<F1>and win big bucks!<FA><F7><F1>Tickets are <&13>G<F1>each.<FA><F7><F1>How about it?<xFF><F1>
+00_04,"[*:] Uh, you don['t]<F1>have enough money.<FA><F7><F1>"
+00_05,[*:] Hah? So you['r]e<F1>not going to bet?<FA><F7><F1>
+00_06,"[*:] Well, come back<F1>another time!<F7>"
+00_07,[*:] These monsters<F1>are up next.<FA><F7><F1>The odds are<F1>listed here.<FA><F7><F1>Which monster will<F1>you bet on?
+00_08,"[*:] <&00><&70>, you<F1>say? Thank you!<FA><F7><F1>The battle['s] about<F1>to start!<FA><F7><F1>Go to the Stadium!<F1><F7>"
+00_09,[*:] Hah? So you['r]e<F1>dropping out.<FA><F7><F1>Here['s] what you['v]e<F1>won so far.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
+00_0A,[*:] You were just<F1>unlucky!<FA><F7>
+00_0B,[*:] The next battle['s]<F1>about to start.<FA><F7><F1>Want to place<F1>another bet?<xFF>
+00_0C,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
+00_0D,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1>You can bet that<F1>on the next match.<FA><F7><F1>Would you like to<F1>give that a try?<xFF>
+00_0E,"[*:] <&40>, you can['t]<F1>possibly carry any<FA><F7><F1>more gold.<F1><FA><F7>You should deposit<F1>some at the bank.<FA><F7><F1>Well, come back<F1>another time!<F7>"
+00_0F,"[*:] Fine, here['s] your<F1>earnings.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>"
+01_00,<FE><&40> examined the<F1><&25>.<FA><F7>
+01_01,<&40>: <&25>…<F1>This is an item.<FA><F7>
+01_02,<&40>: <&25>…<F1>It['s] a weapon.<FA><F7>
+01_03,<&40>: <&25>…<F1>It['s] equipment. <FA><F7>
+01_04,<&40>: <&25>…<F1>It['s] a shield.<FA><F7>
+01_05,<&40>: <&25>…<F1>It['s] a helmet.<FA><F7>
+01_06,<&40>: This is<F1>something special.<FA><F7>
+01_07,<&40>: <&25><F1>is a book.<FA><F7>
+01_08,<&40>: <&25>…<F1>It['s] an accessory.<FA><F7>
+01_09,It appears to be<F1>for one use only.<FA><F7>
+01_0A,It appears to be<F1>for one use only.<FA><F7><F1>It['s] useless<F1>to men like me.<FA><F7>
+01_0B,It can be used<F1>repeatedly.<FA><F7>
+01_0C,It can be used as<F1>an item in battle.<FA><F7><F1>It appears to have<F1>a special effect.<FA><F7>
+01_0D,When it is used in<F1>battle as an item…<FA><F7><F1>It won['t] have any<F1>special effects.<FA><F7>
+01_0E,I can['t] tell what<F1>this will do.<FA><F7><F1>We['l]l have to try<F1>it and see.<FA><F7>
+01_0F,"This can be<F1>equipped by<FA><F7><F1><&00>, <&09>,<F1><&12> and <&1B>.<FA><F7>"
+01_10,"This can be<F1>equipped by<FA><F7><F1><&00>, <&09>,<F1>and <&12>.<FA><F7>"
+01_11,This can be<F1>equipped by<FA><F7><F1><&00> and <&09>.<F1><FA><F7>
+01_12,This can be<F1>equipped by <&00>.<FA><F7>
+01_13,"Unfortunately, no<F1>one among us can<FA><F7><F1>equip this.<F1><FA><F7>"
+01_14,It should sell for<F1><&30>G.<FA><F7>
+01_15,"If it were to be<F1>shown to a shop,<FA><F7><F1>they['l]l be unable<F1>to name a price.<FA><F7>"
+01_16,Hmm! I get a bad<F1>feeling from this…<F7>
+01_17,It doesn['t] appear<F1>to be cursed.<F7>
+01_18,"It['s] quite rare.<F1>It would be a<FA><F7><F1>shame, but it will<F1>sell for <&30>G.<FA><F7>"
+01_19,This is a healing<F1>medicine.<FA><F7>
+01_1A,It seems to be a<F1>poison antidote.<FA><F7>
+01_1B,It['s] a drug for<F1>curing paralysis.<FA><F7>
+01_1C,"When used, it<F1>repels weaker<FA><F7><F1>monsters for a<F1>short while.<FA><F7>"
+01_1D,"When used, it<F1>appears to carry<FA><F7><F1>you back to a<F1>place you visited.<FA><F7>"
+01_1E,"When this is used,<F1>you turn invisible<FA><F7><F1>for a short while.<F1><FA><F7>"
+01_1F,It appears to<F1>revive the dead.<FA><F7>
+01_20,I think you use it<F1>to restore MP.<FA><F7><F1>But it may break<F1>after use.<FA><F7>
+01_21,"If this is used,<F1>it should turn the<FA><F7><F1>day into night.<F1><FA><F7>"
+01_22,It['s] used for<F1>transforming into<FA><F7><F1>many guises.<F1><FA><F7>
+01_23,The strumming of<F1>this harp appears<FA><F7><F1>to lure monsters.<F1><FA><F7>
+01_24,
+01_25,
+01_26,This is a letter<F1>from the King of<FA><F7><F1>Portoga to the<F1>hobbit Norud.<FA><F7>
+01_27,Did you know?<F1><FA><F7>Inhaling this<F1>makes you sneeze.<FA><F7>
+01_28,"By holding this, a<F1>new class may be<FA><F7><F1>available to you.<F1><FA><F7>"
+01_29,I see my face<F1>reflected in it.<FA><F7>
+01_2A,What an incredibly<F1>beautiful gem.<FA><F7><F1>It can['t] be of<F1>this world.<FA><F7>
+01_2B,
+01_2C,"When used, I think<F1>it heals everyone<FA><F7><F1>at the same time.<F1><FA><F7>"
+01_2D,"If it is held, it<F1>seems to absorb a<FA><F7><F1>death spell in the<F1>holder['s] place.<FA><F7><F1>It['s] only good for<F1>one use, however.<FA><F7>"
+01_2E,
+01_2F,"It['s] used to raise<F1>STR, I believe.<FA><F7>"
+01_30,"It['s] used to raise<F1>AGL, I believe.<FA><F7>"
+01_31,"It['s] used to raise<F1>VIT, I believe.<FA><F7>"
+01_32,"It['s] used to raise<F1>INT, I believe.<FA><F7>"
+01_33,"It['s] used to raise<F1>LUCK, I believe.<FA><F7>"
+01_34,"It['s] used to raise<F1>max.HP, I believe.<FA><F7>"
+01_35,"It['s] used to raise<F1>max.MP, I believe.<FA><F7>"
+01_36,It['s] a metal with<F1>an odd glow.<FA><F7><F1>It may be used for<F1>making something.<FA><F7>
+01_37,Its sounds react<F1>to something.<FA><F7>
+01_38,It must be the<F1>romantic memories<FA><F7><F1>of the lovers Eric<F1>and Olivia.<FA><F7>
+01_39,This should open<F1>doors.<FA><F7>
+01_3A,This will open<F1>almost any door.<FA><F7>
+01_3B,It['s] a beautiful<F1>gem but…<FA><F7><F1>I feel faint<F1>looking at it.<FA><F7>
+01_3C,It['s] a lifetime<F1>pass that lets you<FA><F7><F1>play Pachisi for<F1>free. Wonderful!<FA><F7>
+01_3D,It['s] good for one<F1>Pachisi game.<FA><F7>
+01_3E,The map itself<F1>appears to fill in<FA><F7><F1>details while we<F1>explore new areas.<FA><F7>
+01_3F,This map appears<F1>to fill in details<FA><F7><F1>of Alefgard areas<F1>that we explore.<FA><F7>
+01_40,"Ah, it appears to<F1>contain writing on<FA><F7><F1>human compassion<F1>and consideration.<FA><F7>"
+01_41,"Ah, it appears to<F1>be a guide book on<FA><F7><F1>relying on others<F1>to do your work.<FA><F7>"
+01_42,It['s] useless<F1>to men like me.<FA><F7>
+01_43,"Ah, it describes<F1>how to become more<FA><F7><F1>refined as an<F1>attractive lady.<FA><F7>"
+01_44,It['s] a detailed<F1>account on how to<FA><F7><F1>nurture intellect.<F1><FA><F7>
+01_45,It appears to be a<F1>guide on training<FA><F7><F1>methods for body-<F1>building.<FA><F7>
+01_46,It seems to have<F1>tips for living<FA><F7><F1>courageously and<F1>valiantly.<FA><F7>
+01_47,It explains how to<F1>summon luck.<FA><F7>
+01_48,"It advocates being<F1>cheerful, fun and<FA><F7><F1>positive.<F1><FA><F7>"
+01_49,It contains many<F1>sorrowful tales.<FA><F7>
+01_4A,"It contains tales<F1>that boost the<FA><F7><F1>reader['s] courage.<F1>But courage isn['t]<FA><F7><F1>the same thing as<F1>temerity, is it?<FA><F7>"
+01_4B,It['s] an inspiring<F1>book that explains<FA><F7><F1>how not to give up<F1>against adversity.<FA><F7>
+01_4C,It['s] a collection<F1>of jokes and puns<FA><F7><F1>from across the<F1>ages.<FA><F7>
+01_4D,"Hm… It['s] not so<F1>much about how to<FA><F7><F1>cheat, but more of<F1>a lifestyle guide.<FA><F7>"
+01_4E,Uh… Um… Th-this!<F1><FA><F7>It['s]… uh… adult<F1>literature.<FA><F7>
+01_4F,
+01_50,"When used for an<F1>attack, it appears<FA><F7><F1>to strike twice at<F1>the same time.<FA><F7>"
+01_51,
+01_52,"If it strikes a<F1>weak spot, it will<FA><F7><F1>kill any monster<F1>instantly.<FA><F7>"
+01_53,damage in an<F1>attack.<FA><F7>
+01_54,It inflicts one<F1>monster group with<FA><F7>
+01_55,It inflicts all<F1>monsters with<FA><F7>
+01_56,It strikes zombies<F1>with greater<FA><F7>
+01_57,It leaves dragons<F1>with greater<FA><F7>
+01_58,It appears to have<F1>a special effect<FA><F7><F1>when equipped.<F1><FA><F7>
+01_59,
+01_5A,It['s] a costume-<F1>not clothing.<FA><F7>
+01_5B,
+01_5C,"When equipped,<F1><FA><F7>"
+01_5D,It reduces damage<F1>caused by spells.<FA><F7>
+01_5E,It reduces damage<F1>caused by fire.<FA><F7>
+01_5F,"When equipped, it<F1>will reduce damage<FA><F7><F1>caused by spells,<F1>fire and ice.<FA><F7>"
+01_60,It seems to reduce<F1>damage caused by<FA><F7><F1>fire and ice.<F1><FA><F7>
+01_61,Oh my!<F1><FA><F7>It restores your<F1>HP as you walk!<FA><F7>
+01_62,
+01_63,
+01_64,
+01_65,
+01_66,
+01_67,
+01_68,
+01_69,
+01_6A,It raises ATK when<F1>it['s] equipped.<FA><F7>
+01_6B,It also makes the<F1>wearer valiant.<FA><F7>
+01_6C,"When it['s] applied,<F1>it raises ATK.<FA><F7><F1>Since it['s] so<F1>powerful, its <FA><F7><F1>bearer becomes a<F1>bully.<FA><F7>"
+01_6D,Its power will<F1>turn the wearer<FA><F7><F1>into a boastful<F1>jock.<FA><F7>
+01_6E,"It strengthens the<F1>body, making the<FA><F7><F1>bearer tough.<F1><FA><F7>"
+01_6F,It raises DEF when<F1>it['s] equipped.<FA><F7>
+01_70,It improves LUCK<F1>when it['s] equipped.<FA><F7>
+01_71,"It raises LUCK so<F1>much, the wearer<FA><F7><F1>will be seen as<F1>one lucky soul.<FA><F7>"
+01_72,Its lucky power<F1>will make the<FA><F7><F1>bearer a very<F1>happy soul.<FA><F7>
+01_73,It will make the<F1>wearer lightning<FA><F7><F1>quick.<F1><FA><F7>
+01_74,But it also makes<F1>you cowardly.<FA><F7>
+01_75,I['m] certain it<F1>will make others<FA><F7><F1>think of you as<F1>agile.<FA><F7>
+01_76,"It raises INT when<F1>it['s] equipped.<FA><F7><F1>It['s] so effective,<F1>the wearer becomes<FA><F7><F1>an instant genius.<F1><FA><F7>"
+01_77,It appears to<F1>protect against<FA><F7><F1>death spells when<F1>equipped.<FA><F7>
+01_78,It raises AGL when<F1>it['s] worn.<FA><F7>
+01_79,"If you wore this,<F1>people would think<FA><F7><F1>that you['r]e silly.<F1><FA><F7>"
+01_7A,
+01_7B,"This hairpiece<F1>looks so hard,<FA><F7><F1>I think it would<F1>make the wearer<FA><F7><F1>rock-headed and<F1>inflexible.<FA><F7>"
+01_7C,Its indefatigable<F1>nature will make<FA><F7><F1>the wearer much<F1>more diligent.<FA><F7>
+01_7D,"If you had this in<F1>your mouth, you<FA><F7><F1>would certainly<F1>look helpless.<FA><F7>"
+01_7E,It gives the<F1>wearer a feeling<FA><F7><F1>of compassion and<F1>love for others.<FA><F7>
+01_7F,"If you had this<F1>on, you would be<FA><F7><F1>able to lead a<F1>solitary life.<FA><F7>"
+01_80,It will make the<F1>wearer romantic.<FA><F7>
+01_81,This Slime-shaped<F1>bangle will make<FA><F7><F1>the wearer feel<F1>lonesome.<FA><F7>
+01_82,"I don['t] understand<F1>it, but it appears<FA><F7><F1>to give the wearer<F1>a lecherous look.<FA><F7>"
+01_83,"It will make the<F1>wearer look very<FA><F7><F1>sexy, I['m] sure.<F1><FA><F7>"
+01_84,
+01_85,It undoubtedly is<F1>beautiful…<FA><F7><F1>But it will make<F1>you look vain.<FA><F7>
+01_86,"When it['s] equipped,<F1>it restores MP as<FA><F7><F1>you walk.<F1><FA><F7>"
+01_87,"If you wore this,<F1>you would want to<FA><F7><F1>act more ladylike,<F1>I'm sure.<FA><F7>"
+01_88,
+01_89,
+01_8A,
+01_8B,
+01_8C,
+01_8D,
+01_8E,
+01_8F,
+01_90,It can only be<F1>equipped by women.<FA><F7>
+01_91,"But, my oh my,<F1>this is extreme.<FA><F7>"
+01_92,
+01_93,This appears to be<F1>for men only.<FA><F7>
+01_94,
+01_95,
+02_00,<EB><&40>: <&25>…<F1>This is an item.<FA><F7>
+02_01,@02_00
+02_02,<EB><&40>: <&25>…<F1>It['s] a weapon.<FA><F7>
+02_03,<EB><&40>: <&25>…<F1><FA><F7>It['s] protective<F1>equipment.<FA><F7>
+02_04,<EB><&40>: <&25>…<F1>It['s] a shield.<FA><F7>
+02_05,<EB><&40>: <&25>…<F1>This is headgear.<FA><F7>
+02_06,<EB><&40>: My! This is<F1>rare.<FA><F7>
+02_07,<EB><&40>: <&25>…<F1>This is a book.<FA><F7>
+02_08,<EB><&40>: <&25>…<F1>It['s] an accessory.<FA><F7>
+02_09,<EB>It can be used<F1>only once.<FA><F7>
+02_0A,<EB>It can be used<F1>only once.<FA><F7><F1>I doubt it['s] of<F1>much use to men.<FA><F7>
+02_0B,"<EB>It won['t] break, no<F1>matter how much<FA><F7><F1>you use it.<F1><FA><F7>"
+02_0C,<EB>It has some sort<F1>of effect as an<FA><F7><F1>item in battle.<F1><FA><F7>
+02_0D,<EB>When it['s] used in<F1>battle as an item…<FA><F7><F1>It won['t] do<F1>anything special.<FA><F7><F1>
+02_0E,<EB>I don['t] know what<F1>it will do.<FA><F7><F1>Why not try it<F1>and see?<FA><F7>
+02_0F,"<EB>Looks like <&00>,<F1><&09>, <&12> and<FA><F7><F1><&1B> can equip<F1>this.<FA><F7>"
+02_10,"<EB>Looks like <&00>,<F1><&09> and <&12> can<FA><F7><F1>equip this.<F1><FA><F7>"
+02_11,<EB>Looks like <&00><F1>and <&09> can equip<FA><F7><F1>this.<F1><FA><F7>
+02_12,<EB>Looks like <&00><F1>can equip this.<FA><F7>
+02_13,<EB>My! Not one of us<F1>can equip this.<FA><F7>
+02_14,<EB>It['d] sell for<F1><&30>G at a shop.<FA><F7>
+02_15,<EB>A shop couldn['t]<F1>guess its value.<FA><F7>
+02_16,"<EB>My, I get a bad<F1>feeling from it.<F7>"
+02_17,<EB>It['s] safe.<F1>It isn['t] cursed.<F7>
+02_18,"<EB>It['d] be a shame to<F1>sell it, but it<FA><F7><F1>may fetch <&30>G<F1>at a shop.<FA><F7>"
+02_19,<EB>It looks like a<F1>curative.<FA><F7>
+02_1A,<EB>This seems to<F1>expel poison.<FA><F7>
+02_1B,<EB>It seems to be a<F1>paralysis cure.<FA><F7>
+02_1C,<EB>It seems to repel<F1>weak monsters for<FA><F7><F1>a while after use.<F1><FA><F7>
+02_1D,"<EB>When used, it<F1>seems it returns<FA><F7><F1>you to somewhere<F1>you['v]e visited.<FA><F7>"
+02_1E,<EB>It looks like you<F1>use it to become<FA><F7><F1>invisible for a<F1>short time.<FA><F7>
+02_1F,<EB>It seems to revive<F1>the dead.<FA><F7>
+02_20,<EB>It looks like it<F1>restores MP.<FA><F7><F1>But it may break<F1>from overuse.<FA><F7>
+02_21,<EB>It looks like it['s]<F1>used to turn day<FA><F7><F1>into night.<F1><FA><F7>
+02_22,<EB>This should let<F1>you change into<FA><F7><F1>many forms.<F1><FA><F7>
+02_23,<EB>Monsters must love<F1>the sound of this.<FA><F7>
+02_24,
+02_25,
+02_26,<EB>It['s] a letter for<F1>the hobbit Norud<FA><F7><F1>from the King of<F1>Portoga.<FA><F7>
+02_27,"<EB>Cook food with<F1>this, and it['l]l<FA><F7><F1>taste great.<F1><FA><F7>"
+02_28,"<EB>Carry this, and a<F1>new class will<FA><F7><F1>become available <F1>to you. <FA><F7>"
+02_29,<EB>What a lovely<F1>mirror… I feel<FA><F7><F1>transfixed by it…<F1><FA><F7>
+02_2A,<EB>What a beautiful<F1>gem!<FA><F7><F1>It just can['t] be<F1>of this world.<FA><F7>
+02_2B,
+02_2C,<EB>It seems it can<F1>restore everyone['s]<FA><F7><F1>HP at once.<F1><FA><F7>
+02_2D,"<EB>Carry this, and<F1>death spells won['t]<FA><F7><F1>do any harm.<F1><FA><F7>But it breaks<F1>after one use.<FA><F7>"
+02_2E,
+02_2F,"<EB>If used, it should<F1>boost your STR.<FA><F7>"
+02_30,"<EB>If used, it should<F1>boost your AGL.<FA><F7>"
+02_31,"<EB>If used, it should<F1>boost your VIT.<FA><F7>"
+02_32,"<EB>If used, it should<F1>boost your INT.<FA><F7>"
+02_33,"<EB>If used, it should<F1>boost your LUCK.<FA><F7>"
+02_34,"<EB>If used, it should<F1>boost your max.HP.<FA><F7>"
+02_35,"<EB>If used, it should<F1>boost your max.MP.<FA><F7>"
+02_36,"<EB>It sparkles, and<F1>it['s] so pretty. <FA><F7><F1>I wonder what it<F1>could be for?<FA><F7>"
+02_37,"<EB>When it['s] played<F1>near something, it<FA><F7><F1>seems to create an<F1>echo.<FA><F7>"
+02_38,<EB>It['s] like hearing<F1>the loving words<FA><F7><F1>of the couple<F1>Eric and Olivia.<FA><F7>
+02_39,<EB>This should open<F1>many doors.<FA><F7>
+02_3A,<EB>This probably<F1>opens any door.<FA><F7>
+02_3B,<EB>What a mesmerizing<F1>gem…<FA><F7><F1>It feels like it['s]<F1>pulling me in…<FA><F7>
+02_3C,"<EB>With this, you can<F1>play Pachisi as<FA><F7><F1>much as you wish!<F1><FA><F7>"
+02_3D,<EB>This ticket is for<F1>one Pachisi<FA><F7><F1>game.<F1><FA><F7>
+02_3E,<EB>This map fills in<F1>places we['v]e been<FA><F7><F1>to automatically.<F1><FA><F7>
+02_3F,<EB>This map fills in<F1>the areas we['v]e<FA><F7><F1>explored in<F1>Alefgard.<FA><F7>
+02_40,"<EB>It speaks of<F1>compassion,<FA><F7><F1>sympathy and<F1>regard for others.<FA><F7>"
+02_41,"<EB>""How to Rely on<F1>Others""? And this?<FA><F7><F1>""Tapping Maternal<F1>Instinct""?<FA><F7><F1>…What is this?<F1><FA><F7>"
+02_42,<EB>I doubt it['s] of<F1>much use to men.<FA><F7>
+02_43,"<EB>""Become a Refined<F1>Lady!"" it says…<FA><F7><F1>Looks like a guide<F1>to table manners…<FA><F7>"
+02_44,"<EB>""Tricks to Develop<F1>a Great Brain!""<FA><F7><F1>""Lists of Foods to<F1>Build the Mind!""<FA><F7><F1>""How to be a Great<F1>Thinker!"" Hmm…<FA><F7>"
+02_45,"<EB>""Improve the Body!<F1>Toughen up!""<FA><F7><F1>""Power is All""?<F1>Huh, whew…<FA><F7>"
+02_46,"<EB>""Men, be Bold!<F1>Women, be Bold!<FA><F7><F1>Have More Guts!""<F1>…it says.<FA><F7>"
+02_47,"<EB>""You don['t] just<F1>get good luck!<FA><F7><F1>Summon it with<F1>this!"" …Hmm.<FA><F7>"
+02_48,"<EB>""All energetic and<F1>carefree kids!""<FA><F7><F1>""Mischievious<F1>tomboys, gather!""<FA><F7><F1>…What in the<F1>world?<FA><F7>"
+02_49,"<EB>""If this doesn['t]<F1>make you cry,<FA><F7><F1>you['r]e not human!<F1><FA><F7>Have a hankie<F1>ready!"" …Right…<FA><F7>"
+02_4A,"<EB>""Take that first<F1>step now!""<FA><F7><F1>You gain courage<F1>from reading this.<FA><F7>"
+02_4B,"<EB>""Never surrender,<F1>never lose hope.<FA><F7><F1>You can win!""<F1>it says.<FA><F7>"
+02_4C,"<EB>""Laughter is the<F1>best medicine!""<FA><F7><F1>""100 Great Jokes!""<F1>This looks fun.<FA><F7>"
+02_4D,"<EB>""Honest people are<F1>fools! Craftiness<FA><F7><F1>means survival!""<F1>…What is this!?<FA><F7>"
+02_4E,<EB>Th…this is…<F1>Gross! …Blush…<FA><F7>
+02_4F,
+02_50,"<EB>It seems if you<F1>attack with this,<FA><F7><F1>it hits twice.<F1><FA><F7>"
+02_51,
+02_52,"<EB>If you hit a weak<F1>spot, it should<FA><F7><F1>take any monster<F1>out in one hit.<FA><F7>"
+02_53,<EB>damage when you<F1>attack.<FA><F7>
+02_54,<EB>This causes one<F1>monster group some<FA><F7>
+02_55,<EB>It causes every<F1>monster some<FA><F7>
+02_56,<EB>It appears to be<F1>especially good<FA><F7><F1>against zombies.<F1><FA><F7>
+02_57,<EB>It appears to be<F1>particularly good<FA><F7><F1>when it['s] used<F1>against dragons.<FA><F7>
+02_58,<EB>It seems it has a<F1>special effect<FA><F7><F1>while equipped.<F1><FA><F7>
+02_59,
+02_5A,<EB>It['s] big and cute.<F1><FA><F7>It will cover you<F1>from head to toe.<FA><F7>
+02_5B,
+02_5C,<EB>If you happen to<F1>have it equipped…<FA><F7>
+02_5D,<EB>It will suppress<F1>damage from magic.<FA><F7>
+02_5E,<EB>It seems to reduce<F1>damage from fire.<FA><F7>
+02_5F,"<EB>When it['s] equipped,<F1>it reduces damage<FA><F7><F1>from magic, fire<F1>and ice.<FA><F7>"
+02_60,<EB>it reduces damage<F1>from fire and ice.<FA><F7>
+02_61,"<EB>Oh, wow!<F1><FA><F7>It restores your<F1>HP while you walk!<FA><F7>"
+02_62,
+02_63,
+02_64,
+02_65,
+02_66,
+02_67,
+02_68,
+02_69,
+02_6A,"<EB>Wear it, and your<F1>ATK is raised.<FA><F7>"
+02_6B,"<EB>Also, the wearer<F1>becomes valiant.<FA><F7>"
+02_6C,"<EB>Apply it, and your<F1>ATK increases.<FA><F7><F1>But I think its<F1>raw power will<FA><F7><F1>turn the bearer<F1>into a bully.<FA><F7>"
+02_6D,<EB>This kind of power<F1>will make people<FA><F7><F1>see the bearer as<F1>a boastful jock.<FA><F7>
+02_6E,"<EB>It toughens your<F1>body, so you['l]l be<FA><F7><F1>someone who['s] not<F1>to be messed with.<FA><F7>"
+02_6F,"<EB>Wear these, and<F1>your DEF goes up.<FA><F7>"
+02_70,<EB>Wear this to raise<F1>your LUCK.<FA><F7>
+02_71,"<EB>This makes you so<F1>lucky, your whole<FA><F7><F1>personality will<F1>change.<FA><F7>"
+02_72,<EB>Such luck would<F1>surely make the<FA><F7><F1>bearer a very<F1>happy person.<FA><F7>
+02_73,<EB>It makes you move<F1>like lightning.<FA><F7><F1>You['l]l be known<F1>for being quick.<FA><F7>
+02_74,<EB>But it will also<F1>make you cowardly.<FA><F7>
+02_75,<EB>This will surely<F1>make you known as<FA><F7><F1>an agile person.<F1><FA><F7>
+02_76,"<EB>It raises INT when<F1>worn.<FA><F7><F1>It['s] a powerful<F1>item, and makes<FA><F7><F1>you very smart.<F1><FA><F7>"
+02_77,<EB>Wear this to guard<F1>against instant<FA><F7><F1>death spells.<F1><FA><F7>
+02_78,"<EB>Wear this, and<F1>your AGL goes up.<FA><F7>"
+02_79,<EB>But equipping such<F1>a thing will make<FA><F7><F1>you seem silly.<F1><FA><F7>
+02_7A,
+02_7B,<EB>People who wear<F1>this will become<FA><F7><F1>hard-headed.<F1><FA><F7>
+02_7C,"<EB>With this, you['l]l<F1>find the strength<FA><F7><F1>prevail.<F1><FA><F7><F1>But you['l]l also<F1>feel the weight<FA><F7><F1>of the world['s]<F1>sorrows.<FA><F7>"
+02_7D,"<EB>If you had this in<F1>your mouth, you['d]<FA><F7><F1>be thought of as<F1>a helpless person.<FA><F7>"
+02_7E,<EB>Wearing this gives<F1>you compassion.<FA><F7><F1>You would become<F1>very kind.<FA><F7>
+02_7F,"<EB>If you wear this,<F1>you['l]l be able<FA><F7><F1>to lead a solitary<F1>life.<FA><F7>"
+02_80,"<EB>Wear this, and<F1>you['l]l think<FA><F7><F1>romantic thoughts.<F1><FA><F7>"
+02_81,<EB>The wearer of this<F1>little Slime just<FA><F7><F1>asks for<F1>loneliness.<FA><F7>
+02_82,"<EB>It['s] just a plain<F1>necklace, but<FA><F7><F1>it makes you<F1>feel lecherous.<FA><F7>"
+02_83,<EB>Wearing this makes<F1>you want to flaunt<FA><F7><F1>your own sexiness.<F1><FA><F7>
+02_84,
+02_85,<EB>It['s] a pretty<F1>bracelet.<FA><F7><F1>But it['l]l make you<F1>look vain.<FA><F7>
+02_86,<EB>It restores your<F1>MP as you walk if<FA><F7><F1>you have it on.<F1><FA><F7>
+02_87,<EB>Wearing this makes<F1>you feel ladylike.<FA><F7>
+02_88,
+02_89,
+02_8A,
+02_8B,
+02_8C,
+02_8D,
+02_8E,
+02_8F,
+02_90,<EB>This can['t] be<F1>equipped by men.<FA><F7>
+02_91,"<EB>Some girls might<F1>be a little shy<FA><F7><F1>about wearing this<F1>in battle, though.<FA><F7>"
+02_92,
+02_93,<EB>This is not for<F1>women like me.<FA><F7>
+02_94,
+02_95,
+03_00,<FE>Save data has been
+03_01,<FE>lost: Field Log <&3E><FA><F7>
+03_02,<FE>lost: Journal <&3E><FA><F7>
+03_03,<FE>There is a Field<F1>Log of <&00> LV<&3B>.<FA><F7><F1>Resuming from it<F1>deletes the Log.<FA><F7><F1>Resume quest from<F1>the Field Log?<xE7>
+03_04,<FE>Please enter your<F1>name.<F7>
+03_05,<FE>Journal <&3E> will be<F1>deleted. OK?<xE7>
+03_06,<FE>This Journal holds<F1><FA><F7><&00> LV<&3B>['s]<F1>Field Log.<FA><F7><F1>It will be deleted<F1>with this Journal.<FA><F7><F1>Is that fine?<F1><xFF>
+03_07,<FE>Journal <&3E> deleted.<F1><F7>
+03_08,<FE>The Game Link<F1>Cable isn['t] set.<FA><F7><F1>Please restart the<F1>link process.<F7>
+03_09,<FE>Select the Journal<F1>to be used.
+03_0A,<FE>Select the<F1>Pachisi track.
+03_0B,<FE>Medal Book<F1>deleted.<FA><F7>
+03_0C,<FE>Delete the<F1>Medal Book?<xE7>
+03_0D,<FE>You have no<F1>Monster Medals.<F7>
+03_0E,<FE>Incompatible menu<F1>selections.<FA><F7><F1>Please restart the<F1>link process.<F7>
+03_0F,<FE>Awaiting link.<F1>Please wait.<F7>
+03_10,<FE>Medal Book<F1>deleted.<F7>
+03_11,<FE>Journal <&3E> will be<F1>used. OK?<xFF>

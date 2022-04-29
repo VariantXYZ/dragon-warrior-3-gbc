@@ -47,6 +47,7 @@ SCRIPT_RES := $(SCRIPT)/res
 # Game Source Directories
 SRC := $(GAME)/src
 GFX_SRC := $(SRC)/gfx
+TEXT_SRC := $(SRC)/text
 COMMON := $(SRC)/common
 VERSION_SRC := $(SRC)/version
 
@@ -55,11 +56,14 @@ DIALOG_TEXT := $(TEXT)/dialog
 
 # Build Directories
 VERSION_OUT := $(BUILD)/version
+
+DIALOG_INT := $(BUILD)/intermediate/dialog
 DIALOG_OUT := $(BUILD)/dialog
 
 # Source Modules (directories in SRC), version directories are implied
 MODULES := \
-core
+core\
+text
 
 # Helper
 TOUPPER = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
@@ -78,12 +82,14 @@ MAP_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(MA
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 
+DIALOG_INT_FILES = $(foreach BIN,$(addsuffix .$(BIN_TYPE), $(notdir $(basename $(wildcard $(DIALOG_TEXT)/*.$(CSV_TYPE))))), $(DIALOG_INT)/$(BIN))
+
 # Intermediates for common sources (not in version folder)
 ## We explicitly rely on second expansion to handle version-specific files in the version specific objects
 OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD)/,$(OBJECT)))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
-core_ADDITIONAL :=
+text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 
 .PHONY: $(VERSIONS) all clean default test
 default: en
@@ -113,6 +119,23 @@ $(BASE)/$(OUTPUT_PREFIX)%.$(ROM_TYPE): $(OBJECTS) $$(addprefix $(VERSION_OUT)/$$
 $(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(subst ., ,$$*)).$(SOURCE_TYPE) $(COMMON_SRC) $$(wildcard $(SRC)/$$(firstword $$(subst ., ,$$*))/include/*.$(SOURCE_TYPE)) $$($$(firstword $$(subst ., ,$$*))_ADDITIONAL) $$($$(firstword $$(subst ., ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL) $$(subst PLACEHOLDER_VERSION,$$(lastword $$(subst /, ,$$(firstword $$(subst ., ,$$*)))),$$($$(firstword $$(subst /, ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL)) | $(BUILD) $(VERSION_OUT)
 	$(CC) $(CC_ARGS) -DGAMEVERSION=$(CURVERSION) -o $@ $<
 
+# build/intermediate/dialog/*.bin from dialog csv files
+$(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) | $(DIALOG_INT)
+	$(PYTHON) $(SCRIPT)/dialog2bin.py $@ $^
+
+# build/dialog/text_constants.asm from dialog bin files
+$(DIALOG_OUT)/text_constants.asm: $(DIALOG_INT_FILES) | $(DIALOG_OUT)
+	$(PYTHON) $(SCRIPT)/dialogbin2asm.py $@ $(DIALOG_OUT) $(TEXT_SRC)/text_data.asm $^
+
+### Dump Scripts
+
+.PHONY: dump dump_text
+dump: dump_text
+
+dump_text: | $(SCRIPT_RES) $(DIALOG_TEXT)
+	rm $(DIALOG_TEXT)/*.$(CSV_TYPE) || echo ""
+	$(PYTHON) $(SCRIPT)/dump_text.py "$(SCRIPT_RES)" "$(TEXT_SRC)" "$(DIALOG_TEXT)" "$(DIALOG_OUT)"
+
 #Make directories if necessary
 $(BUILD):
 	mkdir -p $(BUILD)
@@ -125,3 +148,9 @@ $(VERSION_OUT):
 
 $(DIALOG_TEXT):
 	mkdir -p $(DIALOG_TEXT)
+
+$(DIALOG_INT):
+	mkdir -p $(DIALOG_INT)
+
+$(DIALOG_OUT):
+	mkdir -p $(DIALOG_OUT)

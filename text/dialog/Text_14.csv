@@ -1,0 +1,59 @@
+﻿Index,Text
+00_00,<FE>The King has no<F1>items.<F7>
+00_01,<FE>The King was<F1>strong before.<F7>
+00_02,<FE>The King can['t]<F1>cast any spells.<F7>
+00_03,<FE>The King checked<F1>underfoot.<FA><F7><F1>There was nothing<F1>good for a king.<F7>
+00_04,<FE>There is nothing<F1>good for a king.<F7>
+00_05,<FE>The King peered<F1>into the vase.<FA><F7>
+00_06,<FE>The King checked<F1>the chest.<FA><F7><F1>There is nothing<F1>a king needs.<F7>
+00_07,<FE>The King checked<F1>the bookshelf.<FA><F7><F1>There were no<F1>books for a King.<F7>
+00_08,<FE>A king can['t] use<F1>a Field Log.<F7>
+00_09,<FE>The King tried to<F1>make plans.<FA><F7><F1>It['s] not necessary<F1>for the King now.<F7>
+00_0A,"<EB>[*:] That['s] wonderful,<F1>King <&40>!<FA><F7><F1>We will be happy<F1>together here!<F7>"
+00_0B,[*:] All hail the new<F1>King <&40>! Hooray!<F7>
+00_0C,"[*:] I['m] honored that<F1>you noticed me,<FA><F7><F1>your Majesty!<F1>I am blessed!<F7>"
+00_0D,[*:] Hail the new<F1>King!<F7>
+00_0E,"[*:] Halt!<F1><FA><F7>Who are you to<F1>dress as our King?<FA><F7><F1>Heh?<F1><FA><F7>You were conferred<F1>the title?<FA><F7><F1>I… I do beg your<F1>pardon, Sire.<FA><F7><F1>Incidentally, your<F1>new Majesty, the<FA><F7><F1>kingdom of Portoga<F1>is said to build<FA><F7><F1>ships for taking<F1>to the open seas.<FA><F7><F1>I long to go on an<F1>expedition like<FA><F7><F1>that, if even just<F1>once.<F7>"
+00_0F,"[*:] Ah, <&40>!<F1>You look grand!<FA><F7><F1>It['s] as if you['r]e<F1>the king here!<F7>"
+00_10,"[*:] We['v]e received<F1>word, Sire.<FA><F7><F1>King <&40>, as our<F1>new ruler, we must<FA><F7><F1>ask that you do<F1>not wander about.<F7>"
+00_11,"[*:] Hail the new<F1>King!<FA><F7><F1>Sire, you are the<F1>sun in our lives!<F7>"
+00_12,"Sire, did you<F1>know?<FA><F7><F1>The Wizard Wand<F1>attacks monsters<FA><F7><F1>with fireballs.<F1><FA><F7>It can be used<F1>over and over too.<FA><F7><F1>I would think it['s]<F1>convenient.<F7>"
+00_13,[*:] …Sigh… If only I['d]<F1>caught Kandar…<FA><F7><F1>Then I['d] be the<F1>King now…<F1><F7>
+00_14,"[*:] Waah! The new<F1>royal Majesty!<FA><F7><F1>Nothing, Sire!<F1>Nothing at all!<F7>"
+00_15,"[*:] King <&40>, we['v]e<F1>all heard of your<FA><F7><F1>heroics against<F1>the evil Kandar.<FA><F7><F1>We['r]e blessed to<F1>have you as our<FA><F7><F1>King!<F1><F7>"
+00_16,[*:] What? He made<F1>you the King?<FA><F7><F1>…Sigh… He hasn['t]<F1>lost any of his<FA><F7><F1>bad habits…<F1><F7>
+00_17,"[*:] Heh, you['r]e the<F1>new King?<FA><F7><F1>But I hear you let<F1>Kandar go.<FA><F7><F1>King, you['r]e too<F1>soft.<F7>"
+00_18,[*:] Ah! You must be<F1>our new King!<FA><F7><F1>May the gods bless<F1>Romaly and the new<FA><F7><F1>King!<F1><F7>
+00_19,"<EB>[*:] Sire, I beg you.<F1>Save Noaniels, a<FA><F7><F1>village far north,<F1>please!<FA><F7>"
+00_1A,<EB>[*:] Excuse me?<F1><FA><F7>The village['s] curse<F1>has been lifted?<FA><F7><F1>No wonder you['r]e<F1>our new King!<F7>
+00_1B,<EB>[*:] It['s] been several<F1>years since my<FA><F7><F1>cousin in Noaniels<F1>stopped writing.<FA><F7><F1>Something terrible<F1>must['v]e happened.<F7>
+00_1C,[*:] Oh my. The King<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<F7>
+00_1D,"[*:] Ah, the King!<F1><FA><F7>You['r]e much younger<F1>than the old King!<FA><F7><F1>You['l]l rejuvenate<F1>the kingdom!<FA><F7><F1>This calls for a<F1>celebration!<F7>"
+00_1E,[*:] Yay!<F1>It['s] the King!<FA><F7><F1>The new King!<F1>Hooray!<F7>
+00_1F,Bobby: Arf! Arf!<F1>Arf!<F7>
+00_20,"[*:] Oh, hello, your<F1>Majesty!<FA><F7><F1>By the way, Sire,<F1>has the hero from<FA><F7><F1>Aliahan arrived?<F1><FA><F7>He should be here<F1>by now…<F7>"
+00_21,"<EB>[*:] You would deign<F1>to speak to a<FA><F7><F1>traveler like me?<F1>Thank you, Sire!<F7>"
+00_22,"[*:] Ack! Sire!<F1>Why here…?<FA><F7><F1>I know!<F1>For your trouble,<FA><F7><F1>here['s] a useful<F1>piece of news.<FA><F7><F1>The village of<F1>Noaniels once sold<FA><F7><F1>Evade Cloaks.<F1><F7>"
+00_23,"[*:] Oh, Sire?<F1>Taking a walk?<xFF>"
+00_24,[*:] I understand<F1>completely!<FA><F7><F1>Who wants to grow<F1>moldy in the<FA><F7><F1>Castle on a day<F1>this beautiful?<F7>
+00_25,"[*:] Ah, then you['r]e<F1>on inspection?<FA><F7><F1>That['s] reassuring!<F1>Please take care!<F7>"
+00_26,"[*:] Hi, what can I…<F1><FA><F7>"
+00_27,"[*:] You gave me<F1>quite the start!<FA><F7><F1>I didn['t] recognize<F1>you, Sire!<FA><F7><F1>Thanks to your<F1>benevolence, my<FA><F7><F1>business is doing<F1>well, Sire.<F7>"
+00_28,"[*:] You are the new<F1>King, yes?<FA><F7><F1>Please! Please<F1>lower our taxes!<F7>"
+00_29,"[*:] Ah, Sire, I do<F1>hope you are well.<FA><F7><F1>Incidentally, the<F1>former King went<FA><F7><F1>downstairs looking<F1>rather happy.<F7>"
+00_2A,[*:] Your Majesty!<F1><FA><F7>It['s] unsafe to<F1>leave the castle!<F7>
+00_2B,[*:] Your Majesty!<F1><FA><F7>Please return to<F1>the Castle!<F7>
+00_2C,[*:] Sire! Why would<F1>you come here?<F7>
+00_2D,<EB>[*:] Hi! Aren['t] you<F1>dressed flashy?<FA><F7><F1>It looks darling<F1>on you! …Kiss…<F7>
+00_2E,[*:] Gambling?<F1>Not on your life!<FA><F7><F1>We['r]e just enjoying<F1>the show.<F7>
+00_2F,[*:] This is no place<F1>for our King.<FA><F7><F1>I must humbly beg<F1>you to depart.<F7>
+00_30,[*:] H… Hail the new<F1>King!<F7>
+00_31,<EB>[*:] Your Majesty!<F1>Why are you here<FA><F7><F1>in such an immoral<F1>place as this?<FA><F7><F1>Oh. For education?<F1>Me too! Hohohoho…<F7>
+00_32,[*:] Awawawah…<F1><F7>
+00_33,[*:] The King!<F1>Awaaaah!<F7>
+00_34,"[*:] Oh yes, I can<F1>understand!<FA><F7><F1>We['r]e all human,<F1>even kings!<FA><F7><F1>If something['s]<F1>forbidden, doesn['t]<FA><F7><F1>it look even more<F1>attractive?<FA><F7><F1>Well, Sire, I['m] a<F1>man like you!<FA><F7><F1>I never saw you<F1>here, Sire!<FA><F7><F1>Wahahah!<F1><F7>"
+00_35,"[*:] Wahahah! It['s] me.<F1>The former King.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Sire!<xFF>"
+00_36,[*:] We['l]l meet again!<F1>Wahahahah!<F7>
+00_37,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the King?<F1><xFF>
+00_38,"[*:] Ah, excellent!<F1>That['s] reassuring!<FA><F7><F1>We['l]l meet again!<F1>Wahahahah!<F7>"
+00_39,"[*:] I see… I can['t]<F1>force you to stay<FA><F7><F1>on if you['r]e not<F1>happy about it.<FA><F7><F1>Although it was<F1>much too brief,<FA><F7><F1>I did get to<F1>unwind a bit.<FA><F7><F1>Fine! <&40>!<F1><FA><F7>You should resume<F1>your journey!<F7>"

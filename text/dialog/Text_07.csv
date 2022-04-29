@@ -1,0 +1,234 @@
+﻿Index,Text
+00_00,[*:] The Traveler['s]<F1>Pachisi Track<FA><F7><F1>welcomes you!<F1><FA><F7>
+00_01,[*:] You can try for<F1>a single Token.<FA><F7><F1>Would you like to<F1>try Pachisi?<xFF><F1>
+00_02,"[*:] You can try for<F1>a single Token…<FA><F7><F1>Ah, my friend!<F1><FA><F7>I see you have the<F1>Gold Pass!<FA><F7><F1>You are a fan,<F1>aren['t] you?<FA><F7><F1>Well, here you go!<F1><FA><F7>"
+00_03,"[*:] Oh? You have no<F1>money at all.<FA><F7><F1>If you run out of<F1>money, you['r]e<FA><F7><F1>disqualified from<F1>Pachisi.<FA><F7><F1>"
+00_04,[*:] Please do come<F1>again!<F7>
+00_05,"[*:] Fine, that will<F1>be one Token.<FA><F7>"
+00_06,[*:] You have <&3D><F1>rolls of the die<FA><F7><F1>on this course.<F1>Good luck!<F7>
+00_07,[*:] It['s] one person<F1>at a time.<FA><F7><F1>Take care!<F1><F7>
+00_08,<FE>Your Token is not<F1>refunded if you<FA><F7><F1>decide to quit.<F1>Quit anyway?<xE7>
+00_09,[*:] People have<F1>their own reasons.<FA><F7><F1>Quitting could be<F1>a smart tactic.<FA><F7><F1>Please come again.<F1><F7>
+00_0A,"<FE>You have no dice<F1>rolls left.<FA><F7><F1>Sorry, but this<F1>game is over.<F7>"
+00_0B,"[*:] You ran out of<F1>dice rolls.<FA><F7><F1>Sorry, but it can['t]<F1>be helped.<FA><F7><F1>Better luck next<F1>time!<F7>"
+00_0C,<FE>You['r]e out of money<F1>and out of luck!<F7>
+00_0D,"[*:] If you don['t] have<F1>money in Pachisi,<FA><F7><F1>that['s] what could<F1>happen.<FA><F7><F1>Please be careful<F1>next time.<F7>"
+00_0E,[*:] Uh-oh… You were<F1>wiped out.<FA><F7><F1>Complacency is a<F1>killer even in<FA><F7><F1>Pachisi. Better<F1>luck next time.<F7>
+00_0F,[*:] Oh? But you have<F1>no Tokens at all.<FA><F7>
+00_10,<FE>Lucky! <&40><F1>obtained <&30>G!
+00_11,<FE>Aack!<F1><FA><F7><&40> dropped<F1><&30>G!
+00_12,<FE>A wicked jolt of<F1>electricity!<FA><F7><F1><&40> took<F1><&37> damage!
+00_13,<FE><&40> collapsed…<F1><F7>
+00_14,<FE>Advance by <&3B>!<F7>
+00_15,<FE>Go back by <&3B>!<F7>
+00_16,<FE>Disaster! Back to<F1>the start you go!<F7>
+00_17,A sinister voice<F1>echoes somewhere…<FA><F7>
+00_18,A fiery mountain<F1>blazes the night…<FA><F7><F1>A steel hammer<F1>rises and falls…<FA>
+00_19,<FE><&40>['s] STR rose<F1>by <&3B>!<F7>
+00_1A,May the gods of<F1>the land gather to<FA><F7><F1>give this soul<F1>strength!<FA>
+00_1B,Time is the wind.<F1>Its soothing flow<FA><F7><F1>gives wings to<F1>weary feet…<FA>
+UNUSED00_00_1B, <~>
+00_1C,<FE><&40>['s] AGL rose<F1>by <&3B>!<F7>
+00_1D,The glitter in the<F1>night sky… Its<FA><F7><F1>light travels 3000<F1>worlds in a blink…<FA>
+00_1E,Tireless be thy<F1>body.<FA><F7><F1>May it shoulder<F1>great boulders…<FA>
+00_1F,<FE><&40>['s] VIT rose<F1>by <&3B>!<F7>
+00_20,A million fists<F1>inflict no harm.<FA>
+00_21,"Make knowledge of<F1>what you know not.<FA><F7><F1>Know this, and<F1>shed ignorance.<FA>"
+00_22,<FE><&40>['s] INT rose<F1>by <&3B>!<F7>
+00_23,The fool clamors<F1>to teach.<FA><F7><F1>The wise chooses<F1>to learn.<FA><F7><F1>Learn you shall.<F1><FA>
+00_24,<FE><&40>['s] INT fell<F1>by <&3B>!<F7>
+00_25,The time of joy<F1>has come.<FA><F7><F1>May the moon and<F1>the stars shine.<FA>
+00_26,<FE><&40>['s] LUCK rose<F1>by <&3B>!<F7>
+00_27,Picture a spring<F1>deep in a forest…<FA><F7><F1>May the goddess of<F1>fortune bless you.<FA>
+00_28,The weak and weary<F1>walk in darkness.<FA>
+00_29,<FE><&40>['s] STR fell<F1>by <&3B>!<F7>
+00_2A,"The beckoning<F1>flicker of stars<FA><F7><F1>unseen, sleep<F1>deepens into lead.<FA>"
+00_2B,<FE><&40>['s] AGL fell<F1>by <&3B>!<F7>
+00_2C,"A desert under a<F1>glaring sun.<FA><F7><F1>The fount of life<F1>dries, assailed.<FA>"
+00_2D,<FE><&40>['s] VIT fell<F1>by <&3B>!<F7>
+00_2E,Fear not your<F1>ignorance…<FA><F7><F1>but shun false<F1>knowledge.<FA><F7><F1>Remember what it<F1>is to be humble.<FA>
+00_2F,<FE><&40>['s] INT fell<F1>by <&3B>!<F7>
+00_30,Laying blame to<F1>ill fortune brings<FA><F7><F1>only more woe.<F1><FA>
+00_31,<FE><&40>['s] LUCK fell<F1>by <&3B>!<F7>
+00_32,Time is an<F1>illusion.<FA><F7><F1>The time passed is<F1>but a lie.<FA><F7><F1><FE><&40> returned to<F1>the start!<F7>
+00_33,Is it a storm?<F1><FA><F7>A cyclone is on<F1>your horizon.
+00_34,"A giant eye looms<F1>in darkness, razor<FA><F7><F1>fangs below.<F1>The dark is torn!<F7>"
+00_35,The falling rain<F1>swells to a river.<FA><F7><F1>Death squirms on<F1>the bottom.<F7>
+00_36,Ghastly flapping<F1>of wings. Grisly<FA><F7><F1>beaks and claws<F1>leading to hell.<F7>
+00_37,A fool notices not<F1>a holed purse.<FA><F7><F1><FE><&40> lost <&30>G!<F1><F7>
+00_38,A gift from the<F1>heavens?<FA><F7><F1><FE><&40>['s] purse grew<F1>heavy!<FA><F7><F1><&40> obtained<F1><&30>G!<F7>
+00_39,Sleep comes to<F1>those who lurk.<FA><F7><F1><FE>Monsters seemed to<F1>disappear!<F7>
+00_3A,The chasm to void?<F1><FA><F7>A massive pit<F1>swallows you…<FA><F7>
+00_3B,<FE>Waah! A trapdoor!<F1>
+00_3C,Your trial is at<F1>hand.<FA><F7><F1>It is you who<F1>shapes your fate.<FA><F7><F1><FE><&40>['s] stats may<F1>change!<FA><F7><F1>Roll the die.<F1><F7>
+00_3D,What lies beneath<F1>the soil emerges.<FA><F7><F1><FE>A treasure chest!<F1>Open it?<xFF>
+00_3E,<FE><&40> obtained<F1>the <&12>.
+00_3F,Experience is the<F1>basis of all.<FA><F7><F1>Your actions shall<F1>make you grow.<FA><F7>
+00_40,<FE><&40> received<F1>1000 EX points!<F7>
+00_41,<FE><&40> received<F1>10000 EX points!<F7>
+00_42,Time floats by<F1>languidly.<FA><F7><F1>Time is lost among<F1>beckoning stars.<FA><F7><F1><FE>The number of dice<F1>rolls rose by 10!
+00_43,<FE>A sinister voice<F1>echoes somewhere…<F7>
+00_44,"People are people.<F1>You are you.<FA><F7><F1>Therefore, people<F1>are you.<FA>"
+00_45,<FE><&40> was replaced<F1>by <&00>!<F7>
+00_46,Birds chirrup for<F1>your relief.<FA><F7><F1><FE><&40> was blown to<F1>an inn!<F7>
+00_47,I make real your<F1><F1>wishes.<FA><F7><F1>Your next destiny<F1>will be by choice.<FA><F7><F1><FE>The next roll can<F1>be chosen!<F7>
+00_48,A gust of wind<F1>comes from<FA><F7><F1>behind.<F1>Advance by 6.<F7>
+00_49,A gust of wind<F1>comes from<FA><F7><F1>the front.<F1>Go back 5.<F7>
+00_4A,Flames consume and<F1>transform you.<FA><F7><F1><FE><&40> became the<F1><&12> type!<F7>
+00_4B,<FE>A treasure chest!<F1>Open it?<xFF>
+00_4C,<FE>A vase!<F1>Check inside it?<xFF>
+00_4D,<FE>A dresser!<F1>Open the drawers?<xFF>
+00_4E,<FE>Check underfoot?<xFF>
+00_4F,<FE>But the chest was<F1>empty…<F7>
+00_50,<FE>There was nothing<F1>in particular.<F7>
+00_51,<FE>But nothing was<F1>found.<F7>
+00_52,The <&12>?<F7>
+00_53,<FE>What['s] this?<F1>The Herb?<FA><F7><F1>Use it now?<F1><xFF>
+00_54,<&40>['s] wounds were<F1>healed!<F7>
+00_55,<FE>Yes! <&12>G was<F1>found!<F7>
+00_56,<FE>Lucky! <&30>G was<F1>found!<F7>
+00_57,<FE>The treasure chest<F1>was a Mimic!<F7>
+00_58,<FE>The treasure chest<F1>was a Cannibox!<F7>
+00_59,<FE>Waah! Monsters!<F7>
+00_5A,<FE>Oh no! Trapdoor!
+00_5B,<FE>Waah! Trapdoor!<F7>
+00_5C,<FE><&40>['s] HP and MP<F1>were restored.<F7>
+00_5D,<FE>A bizarre gas<F1>whooshed out!<FA><F7>
+00_5E,<FE><&40> lost <&37> MP!<F7>
+00_5F,<FE>What? <&40> lost<F1>all MP!<F7>
+00_60,<FE>Lucky! The number<F1>of remaining dice<FA><F7><F1>rolls rose by<F1><&3B>!
+00_61,<FE>Urgh! The number<F1>of remaining dice<FA><F7><F1>rolls fell by<F1><&3B>!<F7>
+00_62,<FE><&40>['s] stats may<F1>change!<FA><F7><F1>Roll the die!<F1><F7>
+00_63,<FE><&40>['s]
+00_64,<FE><&12> went<F1>
+00_65,<FE><&3B> points
+00_66,<FE> down!<F7>
+00_67,<FE> up!<F7>
+00_68,<FE>There is a sign<F1>that shows the<FA><F7><F1>direction of your<F1>travel.<F7>
+00_69,Time is an<F1>illusion.<FA><F7><F1>The time passed is<F1>but a lie.<FA><F7><F1><FE><&40> returned to<F1>the start!
+00_6A,Memories of the<F1>days gone by.<FA><F7><F1><FE><&40> and <&00> were<F1>returned in time!
+00_6B,
+00_6C,A gust of wind<F1>pushes your foe.<FA><F7><F1>It comes from<F1>the front.<FA><F7><F1>Advance by 5.<F1><F7>
+00_6D,A gust of wind<F1>pushes your foe.<FA><F7><F1>It comes from<F1>behind.<FA><F7><F1>Go back 6.<F1>
+00_6E,I make real your<F1>wishes.<FA><F7><F1>Roll two dice.<F1><FA><F7><FE>It['s] a chance to<F1>roll two dice.<F7>
+00_6F,An ethereal song<F1>calls you to a<FA><F7><F1>restful snooze.<F1><FA><F7><FE><&40> fell into<F1>a deep sleep!
+00_70,Time floats by<F1>languidly.<FA><F7><F1>Time is lost among<F1>beckoning stars.<FA><F7><F1><FE>The number of dice<F1>rolls rose by 20!
+01_00,"[*:] The Traveler['s]<F1>Pachisi Track<FA><F7><F1>welcomes you!<F1><FA><F7>Up to two players<F1>may take part.<FA><F7><F1>Let['s] choose who<F1>goes first.<FA><F7><F1><&40>, please cast<F1>your dice.<F7>"
+01_01,"[*:] You rolled <&38>.<F1><FA><F7><&00>, please cast<F1>your die.<F7>"
+01_02,"[*:] Oops… You both<F1>rolled the same.<FA><F7><F1>You['l]l have to<F1>roll once more.<FA><F7><F1><&40>, please cast<F1>your dice.<F7>"
+01_03,"[*:] The roll was <&38>.<F1><FA><F7>For rolling a<F1>higher number,<FA><F7><F1><&40> goes first.<F1><FA><F7>You both have <&3C><F1>rolls of the die<FA><F7><F1>on this course.<F1><FA><F7>Good luck to you<F1>both!<F7>"
+01_04,<&40> is in a<F1>monster battle.
+01_05,<&40> is sending up<F1>electric sparks.<F7>
+01_06,<&40> is in a deep<F1>sleep.<F7>
+01_07,<&40> won the<F1>monster battle.<F7>
+01_08,<&40> woke up.<F1><F7>
+01_09,"Congratulations,<F1><&40>.<FA><F7><F1>You['v]e won a Medal<F1>of your choice!"
+01_0A,"[*:] Oh my.<F1><FA><F7><&00> fell through<F1>a trapdoor.<FA><F7><F1>You['r]e the winner,<F1><&40>.<FA><F7><F1>You['v]e won a Medal<F1>of your choice!"
+01_0B,[*:] Choose a Medal.<F1><F7>
+01_0C,[*:] This Medal?<F1><xFF>
+01_0D,[*:] It['s] <&12>['s]<F1>Monster Medal.<FA><F7><F1>Here you go!<F1><FA><F7><FE><&40> obtained<F1><&12>['s] Medal!<F7>
+01_0E,[*:] Let['s] see what<F1>Medals are left.<FA><F7><F1>These are the<F1>remaining Medals.
+01_0F,[*:] This Pachisi<F1>match is over.<FA><F7><F1>Please do come<F1>again!<F7>
+01_10,[*:] Do you want to<F1>quit now?<xE7>
+01_11,Preparing to link.<F1>Please wait.
+01_12,Linkage was<F1>refused.
+01_13,<FE>A wicked jolt of<F1>electricity!
+01_14,<FE>Found <&12>['s]<F1>Monster Medal!<F7>
+02_00,"[*:] Aiyah, I lose<F1>again!<FA><F7><F1>But I not give up!<F1><FA><F7>One day, I will be<F1>a winner is me!<F7>"
+02_01,"[*:] Aiyah, you fall<F1>down too?<FA><F7><F1>My bum pain from<F1>fall too much!<F7>"
+02_02,"[*:] Hey, you see<F1>that there?<FA><F7><F1>There['s] a hole over<F1>the altar too.<FA><F7><F1>Where does it go<F1>do you think?<F7>"
+02_03,"[*:] Oh, that hole<F1>over the altar is<FA><F7><F1>where the winners<F1>come down.<FA><F7><F1>I never knew,<F1>but now I do.<F7>"
+02_04,"<F1>[*:] Don['t] go down<F1>the hole without<FA><F7><F1>getting the prizes<F1>first. Otherwise,<FA><F7><F1>you['l]l have to<F1>start all over."
+02_05,"[*:] I suppose it['s]<F1>your Tokens, so<FA><F7><F1>you are free to<F1>keep at it, but<FA><F7><F1>the treasure<F1>chests are<FA><F7><F1>empty.<F1><F7>"
+02_06,You did it! This<F1>is the goal!<FA><F7><F1>Take your prizes<F1>and drop down that<FA><F7><F1>hole to get out.<F1>Congratulations!
+02_07,"[*:] Ah, you['r]e here<F1>too?<FA><F7><F1>One needs to take<F1>breaks in a long<FA><F7><F1>journey. I decided<F1>to come before I<FA><F7><F1>make the long trek<F1>across the desert.<FA><F7><F1>But this course is<F1>very challenging.<FA><F7><F1>I['v]e had no success<F1>at all!"
+02_08,"<F1>[*:] Oh? You say<F1>you['v]e won before?<FA><F7><F1>Oh, I envy you!<F1>"
+02_09,[*:] See there?<F1><FA><F7>It splits into<F1>three courses.<FA><F7><F1>There must be one<F1>that['s] easy to get<FA><F7><F1>through.<F1>Which one is it?<F7>
+02_0A,[*:] Hmmm…<F1>I had heard of a<FA><F7><F1>spring inhabited<F1>by a spirit.<FA><F7><F1>It doesn['t] appear<F1>to be here…<F7>
+02_0B,<FE><&00> read the sign<F1>on the pedestal.<FA><F7><F1>The First King of<F1>Pachisi…<F7>
+02_0C,"[*:] Hello, hello!<F1>Welcome to Kol Hot<FA><F7><F1>Spring['s] renowned<F1>Pachisi Track!<F7>"
+02_0D,[*:] We['r]e just here<F1>to watch.<F7>
+02_0E,<EB>[*:] I hope somebody<F1>will fall here…<FA><F7><F1>It['s] so exciting!<F1><F7>
+02_0F,[*:] Who would have<F1>guessed there['d] be<FA><F7><F1>an entertainment<F1>joint this huge.<FA><F7><F1>It['s] good for this<F1>resort town!<F7>
+02_10,<FE><&40> read the note<F1>on the wall.<FA><F7><F1>It['s] not a statue<F1>of Hassan VI…<F7>
+02_11,<FE><&40> read the note<F1>on the wall.<FA><F7><F1>The Track is very<F1>tough here.<FA><F7><F1>Be persistent and<F1>choose your path<FA><F7><F1>wisely.<F1><F7>
+02_12,[*:] I am Himiko.<F1>Where am I?<FA><F7><F1>This… forsaken<F1>place…<FA><F7><F1>Ah! This must be<F1>Orochi['s] belly!<FA><F7><F1>The humiliation of<F1>it all…<F7>
+03_00,[*:] Zzz…<F1><F7>
+03_01,<EB>[*:] Ssss…<F1><F7>
+03_02,<EB>[*:] Ssss…<F1><F7>
+03_03,[*:] Zzz… Zzz…<F1><F7>
+03_04,<EB>[*:] Zzz…<F1><F7>
+03_05,[*:] Urrrrrgh…<F1>Zzz…<F7>
+03_06,[*:] Zzz… Zzz…<F1><F7>
+03_07,<EB>[*:] …Mumble… Grampa…<F1>Zzz…<F7>
+03_08,"[*:] Travelers,<F1>please help me!<FA><F7><F1>Please find and<F1>return the Dream<FA><F7><F1>Ruby to the elves.<F1><FA><F7>If it isn['t] given<F1>back, they won['t]<FA><F7><F1>lift the curse on<F1>this village.<FA><F7><F1>Elvenham, the<F1>hidden home of the<FA><F7><F1>elves, is near the<F1>cave in the west.<FA><F7><F1>It is said to be<F1>in a forest.<F7>"
+04_00,<FE><&40> shook out the<F1>Wake Dust.<F7>
+04_01,<FE>The wind scattered<F1>the Wake Dust!<F7>
+04_02,<FE>The villagers<F1>began waking up!<F7>
+05_00,[*:] Yawn… Welcome to<F1>Noaniels.<F7>
+05_01,"<EB>[*:] Oh dear, I was<F1>sleeping here?<FA><F7><F1>How embarrassing…<F1><FA><F7>But why was I<F1>asleep outside?<FA><F7><F1>And why does it<F1>feel like I was<FA><F7><F1>asleep for ages?<F1><F7>"
+05_02,[*:] Yeah! That was<F1>a great nap!<FA><F7><F1>How many years was<F1>I asleep?<FA><F7><F1>Hahah!<F1>Just joking!<FA><F7><F1>No one can sleep<F1>for years!<F7>
+05_03,<EB>[*:] I['m] not sleepy<F1>at all anymore!<F7>
+05_04,<EB>[*:] I must have<F1>dozed off.<FA><F7><F1>Did you do<F1>anything funny?
+05_05,<EB>[*:] Oh! You['r]e so<F1>rude!<F7>
+05_06,<EB>[*:] Oh… I['m] that<F1>unattractive?<F7>
+05_07,"<EB>[*:] I must have<F1>dozed off.<FA><F7><F1>I hope no man did<F1>anything funny.<FA><F7><F1>Ooh, that would be<F1>so terrible!<F7>"
+05_08,"[*:] I stopped for a<F1>rest while I was<FA><F7><F1>traveling and<F1>then… um…<FA><F7><F1>What was I doing?<F1><FA><F7>Anyway, I heard<F1>about a magic key<FA><F7><F1>when I was staying<F1>in Ashalam, a town<FA><F7><F1>east of Romaly.<F1><FA><F7>Anyway, what was I<F1>doing!?<F7>"
+05_09,<EB>[*:] My son eloped<F1>with a young elf<FA><F7><F1>maiden and hasn['t]<F1>returned.<FA><F7><F1>I was going to<F1>give them my<FA><F7><F1>blessing if they<F1>love each other…<FA><F7><F1>I have no idea<F1>where they are.<F7>
+05_0A,[*:] What is going on<F1>here?<FA><F7><F1>I take a nap and<F1>awaken to find the<FA><F7><F1>village overrun by<F1>weeds!<F7>
+05_0B,"[*:] If you have a<F1>Spider Web, you<FA><F7><F1>can slow monsters<F1>down in a battle.<FA><F7><F1>What? What am I<F1>blurting out?<FA><F7><F1>I must be still<F1>half-asleep.<F7>"
+05_0C,"<FE>[*:] ……<F1><FA><F7><EB>[*:] Oh, I remember!<F1><FA><F7>I was on my way to<F1>Grandpa['s]!<F7>"
+05_0D,"[*:] I hear them…<F1>I can hear them!<FA><F7><F1>I hear the people<F1>stirring!<FA><F7><F1>Travelers, I don['t]<F1>know who you are,<FA><F7><F1>but I thank you!<F1>Oh, what joy!<F7>"
+05_0E,"<EB>[*:] Oh, Ortega…<F1><FA><F7>Ortega['s] left…<F1>…Sob…<FA><F7><F1>He saved me from<F1>monsters and led<FA><F7><F1>me back to the<F1>village.<FA><F7><F1>He had such<F1>muscular arms…<FA><F7><F1>But Ortega left<F1>alone yesterday…<F7>"
+05_0F,"[*:] In my travels<F1>around the world,<FA><F7><F1>I['v]e seen countless<F1>warriors.<FA><F7><F1>But Ortega of<F1>Aliahan…<FA><F7><F1>A truer hero you['d]<F1>never find.<F7>"
+05_10,[*:] What? You['r]e…<F1><FA><F7>Aliahan['s] hero<F1>
+05_11,Ortega['s] son?<xFF>
+05_12,Ortega['s] daughter?<xFF>
+05_13,"[*:] Ah, I was<F1>mistaken, then.<F7>"
+05_14,[*:] Ortega stayed<F1>next door until<FA><F7><F1>he left just<F1>yesterday.<FA><F7><F1>He said he was<F1>going to Ashalam<FA><F7><F1>to find a magic<F1>key.<FA><F7><F1>But I['m] not sure if<F1>it was yesterday.<FA><F7><F1>I have this odd<F1>feeling that I<FA><F7><F1>slept for years.<F1><F7>
+06_00,[*:] Welcome to<F1>Noaniels.<F7>
+06_01,"<EB>[*:] You['r]e travelers,<F1>you know, right?<xFF>"
+06_02,<EB>[*:] Ah-hah!<F1>Just as I thought!<F7>
+06_03,<EB>[*:] There['s] supposed<F1>to be a village of<FA><F7><F1>pirates somewhere<F1>in the world.<FA><F7><F1>They raid and loot<F1>passing ships.<FA><F7><F1>That['s] frightening…<F1><F7>
+06_04,[*:] I haven['t] been<F1>sleeping well.<FA><F7><F1>I don['t] think I<F1>have any worries…<FA><F7><F1>Maybe I['m] really<F1>sensitive.<F7>
+06_05,<EB>[*:] I['m] not sleepy<F1>at all!<F7>
+06_06,<EB>[*:] The son of the<F1>house in the north<FA><F7><F1>fell in love with<F1>an elf maiden.<FA><F7><F1>They['r]e supposed<F1>to have eloped.<FA><F7><F1>I wish I was loved<F1>like that…<F7>
+06_07,"[*:] I stopped for a<F1>rest while I was <FA><F7><F1>traveling.<F1><FA><F7>I tried to leave<F1>today, but there<FA><F7><F1>appears to be a<F1>huge increase in<FA><F7><F1>the number of<F1>monsters.<FA><F7><F1>Worse, they are<F1>very tough.<FA><F7><F1>I can['t] very well<F1>go out there now.<FA><F7><F1>What am I to do?<F1><F7>"
+06_08,"<EB>[*:] My son eloped<F1>with a young elf<FA><F7><F1>maiden.<F1><FA><F7>I was going to<F1>give them my<FA><F7><F1>blessing if they<F1>love each other,<FA><F7><F1>so my husband went<F1>to look for them.<FA><F7><F1>He couldn['t] find<F1>them, though.<FA><F7><F1>That took a lot<F1>out of him.<FA><F7><F1>He looks so much<F1>older now.<FA><F7><F1>If you see my son,<F1>tell him to come<FA><F7><F1>home, together<F1>with his wife.<F7>"
+06_09,[*:] Urrrgh…<F1>My son…<F7>
+06_0A,"[*:] Whew! This is<F1>quite vexing.<FA><F7><F1>The village is<F1>overrun by weeds.<FA><F7><F1>Weeding takes<F1>forever, it seems.<F7>"
+06_0B,"[*:] If a jester<F1>matures, they won['t]<FA><F7><F1>remain a plain<F1>jester.<FA><F7><F1>What? What am I<F1>blurting out?<FA><F7><F1>I must be still<F1>half asleep.<F7>"
+06_0C,"<EB>[*:] Oh, Ortega…<F1><FA><F7>I will wait here<F1>in hopes that he<FA><F7><F1>will visit once<F1>again.<FA><F7><F1>He had such<F1>muscular arms…<FA><F7><F1>I wonder if there<F1>could be another<FA><F7><F1>hero as attractive<F1>as Ortega?<xFF>"
+06_0D,<EB>[*:] True… That['s] just<F1>not likely.<F7>
+06_0E,"<EB>[*:] Huh? You? Hmm…<F1><FA><F7>Close, but not<F1>quite there yet.<F7>"
+06_0F,"<EB>[*:] Huh? You?<F1><FA><F7>I['m] sorry, but I['m]<F1>not interested in<FA><F7><F1>girls.<F1><F7>"
+06_10,"[*:] Ah, the kind<F1>travelers!<FA><F7><F1>Thank you for all<F1>that you['v]e done!<FA><F7><F1>I haven['t] told the<F1>villagers, though.<FA><F7><F1>I think it would<F1>be best this way.<FA><F7><F1>I doubt any of<F1>them would believe<FA><F7><F1>me if I did tell<F1>them the truth<FA><F7><F1>that they were<F1>asleep for years.<F7>"
+06_11,[*:] I like Grandpa['s]<F1>house because it['s]<FA><F7><F1>so big! Yay!<F1><F7>
+07_00,[*:] ZZZZ! ZZZZ!<F1><F7>
+07_01,<EB>[*:] Sssss…<F1><F7>
+07_02,[*:] Zzz…<F1><F7>
+07_03,<EB>[*:] Waaah! I['m] not<F1>sleepy at all!<F7>
+08_00,<EB>[*:] This is Kazave.<F1><FA><F7>It['s] a tiny village<F1>among mountains.<F7>
+08_01,[*:] To the north is<F1>Noaniels.<FA><F7><F1>Shampane Tower is<F1>in the west.<F7>
+08_02,[*:] Even a weak mage<F1>can slay a monster<FA><F7><F1>just like that by<F1>striking its weak<FA><F7><F1>spot with a<F1>Poison[BrokenSword].<FA><F7><F1>The item shop sold<F1>them once before.<F7>
+08_03,[*:] A great fighter<F1>lies here.<FA><F7><F1>He is said to have<F1>slain bears with<FA><F7><F1>his bare fists.<F1><FA><F7>I wish I had his<F1>power.<F7>
+08_04,[*:] I['v]e come here<F1>after Kandar.<FA><F7><F1>He['s] supposed to<F1>be holed up in a<FA><F7><F1>tower somewhere.<F1>
+08_05,[*:] It['s] possible<F1>that he['s] already<FA><F7><F1>fled from the<F1>tower.<F7>
+08_06,[*:] This is the<F1>village tavern.<FA><F7><F1>Join us for a few.<F1><F7>
+08_07,"[*:] They say there['s]<F1>a sleeping village<FA><F7><F1>somewhere.<F1><FA><F7>That['s] farfetched,<F1>don['t] you think?<F7>"
+08_08,"<EB>[*:] I['m] telling you,<F1>the village was<FA><F7><F1>put to sleep for<F1>angering elves!<F7>"
+08_09,[*:] Wah! Excuse me!<F1><FA><F7>You shouldn['t] be<F1>in here!<F7>
+08_0A,<EB>[*:] Papa and Mama['l]l<F1>be back at night.<F7>
+09_00,[*:] Zzzz…<F1><F7>
+09_01,[*:] Zzz…<F1><FA><F7>No! Kandar! You['r]e<F1>not fooling me…<FA><F7><F1>Zzz…<F1><F7>
+09_02,[*:] Tch! They['r]e<F1>closed already.<F7>
+09_03,
+09_04,[*:] I was a great<F1>fighter…<FA><F7><F1>Rumor has it that<F1>I defeated bears<FA><F7><F1>with my bare<F1>hands.<FA><F7><F1>I was actually<F1>using Iron Claws!<F7>
+09_05,[*:] People say that<F1>a colony of elves<FA><F7><F1>hide in the forest<F1>west of Noaniels.<F7>
+09_06,<EB>[*:] Zzz…<F1><F7>
+09_07,<EB>[*:] Please! Don['t]!<F1>Stop!<FA><F7><F1>My husband is<F1>watching!<FA><F7><F1>Huh? I must have<F1>been dreaming…<F7>
+0A_00,"<EB>[*:] This is Luzami,<F1>the forgotten<FA><F7><F1>island.<F1><FA><F7>It['s] been years<F1>since the last<FA><F7><F1>time a traveler<F1>came before you.<F7>"
+0A_01,"[*:] I['m] glad you<F1>visited, but I<FA><F7><F1>unfortunately have<F1>nothing to sell.<FA><F7><F1>Ah, I['l]l sell you<F1>a rumor I heard.<FA><F7><F1>The Gaia Sword<F1>belonged to Simon.<FA><F7><F1>How much?<F1>No charge.<F7>"
+0A_02,"[*:] I see the<F1>future.<FA><F7><F1>I['v]e waited a long<F1>time for you.<FA><F7><F1>The Demon Lord['s]<F1>temple is deep in<FA><F7><F1>the mountains of<F1>Gondo.<FA><F7><F1>You shall hurl the<F1>Gaia Sword into a<FA><F7><F1>volcano, and a new<F1>path will reveal<FA><F7><F1>itself to you!<F1><F7>"
+0A_03,"[*:] The ground under<F1>our feet is really<FA><F7><F1>round, and it['s]<F1>always spinning<FA><F7><F1>around.<F1><FA><F7>Because the ground<F1>is spinning, the<FA><F7><F1>stars and the sun<F1>appear to move.<FA><F7><F1>But no one would<F1>believe me and<FA><F7><F1>I was banished to<F1>this island.<FA><F7><F1>But even now, the<F1>ground is spinning<FA><F7><F1>round and round,<F1>and furthermore<FA><F7><F1>it['s] round!<F1>"
+0A_04,"[*:] As such, if you<F1>travel south from<FA><F7><F1>here, you['l]l soon<F1>arrive at the icy<FA><F7><F1>continent of the<F1>north.<FA><F7><F1>There is a small<F1>grass patch on the<FA><F7><F1>continent where an<F1>odd old man lives.<FA><F7><F1>He should still be<F1>there, so look<FA><F7><F1>carefully for him.<F1><F7>"

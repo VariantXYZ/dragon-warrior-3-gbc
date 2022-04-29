@@ -1,0 +1,935 @@
+﻿Index,Text
+00_00,Hero
+00_01,Warrior
+00_02,Mage
+00_03,Cleric
+00_04,Fighter
+00_05,Sage
+00_06,Dealer
+00_07,Jester
+00_08,Thief
+00_09,Outlaw
+00_0A,Bard
+00_0B,Loto
+00_0C,Goon
+01_00,Ordinary
+01_01,Valiant
+01_02,Jock
+01_03,Bully
+01_04,Unique
+01_05,Amazon
+01_06,Tomboy
+01_07,Macho
+01_08,Tough
+01_09,Ironman
+01_0A,Stubborn
+01_0B,Diligent
+01_0C,Eager
+01_0D,Defiant
+01_0E,Fearless
+01_0F,Lewd
+01_10,Quick
+01_11,Agile
+01_12,Foolish
+01_13,Alert
+01_14,Careless
+01_15,Solitary
+01_16,Selfish
+01_17,Vain
+01_18,Sharp
+01_19,Smart
+01_1A,Logical
+01_1B,Romantic
+01_1C,Meddler
+01_1D,Lonesome
+01_1E,Cowardly
+01_1F,Helpless
+01_20,Silly
+01_21,Weepy
+01_22,Lazy
+01_23,Twisted
+01_24,Timid
+01_25,Honest
+01_26,Naive
+01_27,Carefree
+01_28,Kindly
+01_29,Happy
+01_2A,Lucky
+01_2B,Ladylike
+01_2C,Sexy
+02_00,Blaze
+02_01,Upper
+02_02,IceBolt
+02_03,Increase
+02_04,Firebal
+02_05,Return
+02_06,Bang
+02_07,SlowAll
+02_08,BlazeMore
+02_09,RobMagic
+02_0A,SnowStorm
+02_0B,BlizMost
+02_0C,Firebane
+02_0D,TwinHits
+02_0E,Boom
+02_0F,Bounce
+02_10,BlazeMost
+02_11,PanicAll
+02_12,Blizzard
+02_13,BeDragon
+02_14,Firebolt
+02_15,Transform
+02_16,Explodet
+02_17,Chance
+02_18,Outside
+02_19,X-Ray
+02_1A,StepGuard
+02_1B,Passtime
+02_1C,CurseOff
+02_1D,Invisible
+02_1E,Open
+02_1F,Sap
+02_20,Heal
+02_21,Expel
+02_22,Antidote
+02_23,Infernos
+02_24,SpeedUp
+02_25,Surround
+02_26,Sleep
+02_27,Defense
+02_28,HealMore
+02_29,Beat
+02_2A,NumbOff
+02_2B,Infermore
+02_2C,StopSpell
+02_2D,Disperse
+02_2E,Awaken
+02_2F,Barrier
+02_30,HealAll
+02_31,Defeat
+02_32,HealUs
+02_33,Infermost
+02_34,Vivify
+02_35,Sacrifice
+02_36,Revive
+02_37,Ironize
+02_38,Zap
+02_39,Thordain
+02_3A,HealUsAll
+02_3B,Repel
+02_3C,Recall
+02_3D,Forget
+02_3E,Remember
+02_3F,Recollect
+02_40,Excavate
+02_41,YellHelp
+02_42,EagleEye
+02_43,Location
+02_44,Tiptoe
+02_45,MapMagic
+02_46,Smell
+02_47,Whistle
+02_48, ?
+02_49, 
+03_00,Aliahan
+03_01,Reeve
+03_02,Romaly
+03_03,Kazave
+03_04,Noaniels
+03_05,Elvenham
+03_06,Ashalam
+03_07,Isis
+03_08,Portoga
+03_09,Baharata
+03_0A,Dharma
+03_0B,Lancel
+03_0C,Zipangu
+03_0D,Edinbear
+03_0E,Samanao
+03_0F,Soo
+03_10,Tedanki
+03_11,Muor
+03_12,Pirates' House
+03_13,Luzami
+03_14,Empress Castle
+03_15,Promontry Cave
+03_16,Prairie Cave
+03_17,Najimi Tower
+03_18,Reeve Shrine
+03_19,Tempt Cave
+03_1A,Allure Cave
+03_1B,Noaniels Cave
+03_1C,Shampane Tower
+03_1D,Desert Cave
+03_1E,Pyramid
+03_1F,Romaly Gate
+03_20,Norud Tunnel
+03_21,Baharata Cave
+03_22,Lighthouse
+03_23,Tedanki Shrine
+03_24,Zipangu Shrine
+03_25,Zipangu Cave
+03_26,Hobbit Shrine
+03_27,Spirit Spring
+03_28,Olivia Cape
+03_29,Shoal Shrine
+03_2A,Greenlad Stupa
+03_2B,Samanao Shrine
+03_2C,Samanao Cave
+03_2D,Wizard['s] Cabin
+03_2E,Phantom Ship
+03_2F,Shrine Jail
+03_30,Navel of Earth
+03_31,Garuna Tower
+03_32,Arp Tower
+03_33,burg
+03_34,burg
+03_35,burg
+03_36,burg
+03_37,burg
+03_38,burg
+03_39,Gondo Cave
+03_3A,Gondo Shrine
+03_3B,Lamia Altar
+03_3C,Giana Pit
+03_3D,Baramos Castle
+03_3E,Giana Pit
+03_3F,Tantegel
+03_40,Domdora
+03_41,Mercado
+03_42,Kol
+03_43,Rimuldar
+03_44,Tantegel Jetty
+03_45,Garin House
+03_46,Rocky Cave
+03_47,Nail Mark
+03_48,Spirit Shrine
+03_49,Sacred Shrine
+03_4A,Rubiss Tower
+03_4B,Zoma Castle
+03_4C,Sky Passage
+03_4D,Zenith
+03_4E,Sky Tower
+03_4F,Travel Gate
+03_50,Marshy Cave
+03_51,Field
+04_00,
+04_01,Stick[Stick]
+04_02,Club[Stick]
+04_03,Copper[Sword2]
+04_04,Knife[BrokenSword]
+04_05,Spear[Sword]
+04_06,Iron[Axe]
+04_07,Steel[Sword2]
+04_08,Wizard[Staff]
+04_09,Poison[BrokenSword]
+04_0A,Iron[Fist]
+04_0B,Spiny[Unk3]
+04_0C,Shears[Hammer]
+04_0D,Sickle[Sword2]
+04_0E,Thor[Sword2]
+04_0F,Snow[Sword2]
+04_10,Demon[Axe]
+04_11,Rain[Staff]
+04_12,Gaia[Sword2]
+04_13,Bounce[Staff]
+04_14,Devil[Sword2]
+04_15,2-Edged[Sword2]
+04_16,Force[Staff]
+04_17,Seduce[Sword2]
+04_18,Zombie[Sword2]
+04_19,Falcon[Sword2]
+04_1A,Hammer[Hammer]
+04_1B,Golden[Fist]
+04_1C,Thunder[Sword2]
+04_1D,Bolt[Staff]
+04_1E,Kings[Sword2]
+04_1F,Orochi[Sword2]
+04_20,Dragon[Sword2]
+04_21,Judge[Staff]
+04_22,Steel[Unk3]
+04_23,Chain[Unk3]
+04_24,Ultimate[Unk3]
+04_25,Mace[Unk3]
+04_26,Wooden<x62>
+04_27,Blade<x62>
+04_28,Flame<x62>
+04_29,Wreck[Unk3]
+04_2A,Iron[Unk1]
+04_2B,Magic[Unk1]
+04_2C,Justice[Unk1]
+04_2D,Bastard[Sword2]
+04_2E,Lune[Staff]
+04_2F,Sage[Staff]
+04_30,Sleep[Staff]
+04_31,Dagger[BrokenSword]
+04_32,Holy[Sword]
+04_33,Power[Fist]
+04_34,Dragon[Fist]
+04_35,Beast[Fist]
+04_36,Bronze[BrokenSword]
+04_37,Fan[Hammer]
+04_38,Mist[Staff]
+04_39,Vivify[Staff]
+04_3A,Battle[Axe]
+04_3B,War[Hammer]
+04_3C,Dragon[Unk3]
+04_3D,Cloth[Armor]
+04_3E,Training[Armor]
+04_3F,Leather[XShield]
+04_40,Flashy[Armor]
+04_41,Iron[XShield]
+04_42,Steel[XShield]
+04_43,Magic[XShield]
+04_44,Evade[Armor]
+04_45,Light[XShield]
+04_46,Iron[Unk2]
+04_47,Plush[Armor]
+04_48,Fighting[Armor]
+04_49,Magic<x5B>
+04_4A,Devil[XShield]
+04_4B,Water<x5B>
+04_4C,Chain[XShield]
+04_4D,Traveler[Armor]
+04_4E,Tight<x5C>
+04_4F,Magic<x5C>
+04_50,Shell[XShield]
+04_51,Terra[XShield]
+04_52,Dragon[XShield]
+04_53,Blade[XShield]
+04_54,Angel<x5B>
+04_55,Turtle[Armor]
+04_56,Kilt<x5D>
+04_57,Leather<x5B>
+04_58,Boxer<x5D>
+04_59,Skirt<x5B>
+04_5A,Light<x5B>
+04_5B,Dragon<x5B>
+04_5C,Black[Armor]
+04_5D,Silk<x5B>
+04_5E,Magic[Unk2]
+04_5F,Dandy[Armor]
+04_60,Party<x5B>
+04_61,Dark<x5B>
+04_62,Bolero<x5B>
+04_63,Sacred<x5C>
+04_64,Ninja[Armor]
+04_65,Leather[Shield]
+04_66,Iron[Shield]
+04_67,Heal[Shield]
+04_68,Hero[Shield]
+04_69,Sorrow[Shield]
+04_6A,Bronze[Shield]
+04_6B,Silver[Shield]
+04_6C,Scale[Shield]
+04_6D,Magic[Shield]
+04_6E,Dragon[Shield]
+04_6F,Expel[Shield]
+04_70,PotLid[Shield]
+04_71,Ogre[Shield]
+04_72,Crown<x5F>
+04_73,Iron[Helm]
+04_74,Magic<x5E>
+04_75,Misery[Helm]
+04_76,Ortega[Helm]
+04_77,Turban<x5E>
+04_78,NohMask[Helm]
+04_79,Leather<x5E>
+04_7A,IronMask[Helm]
+04_7B,Wooden<x5E>
+04_7C,Fur<x5E>
+04_7D,Silver<x5F>
+04_7E,Great[Helm]
+04_7F,Black<x5E>
+04_80,Bunny<x5F>
+04_81,Silk<x5E>
+04_82,Mythril[Helm]
+04_83,Horned<x5E>
+04_84,Crest
+04_85,Wizard[Ring]
+04_86,LUCKShoes
+04_87,Starry[Ring]
+04_88,Zen<x61>
+04_89,Rubiss[Sword2]
+04_8A,Life[Ring]
+04_8B,STR[Ring]
+04_8C,BunnyTail
+04_8D,AGLScarf
+04_8E,StoneWig
+04_8F,Garter
+04_90,MohawkWig
+04_91,Ruby[Ring]
+04_92,Tattoo
+04_93,Hero[Ring]
+04_94,INTSpecs
+04_95,Rosary<x60>
+04_96,Sucker
+04_97,Punk[Ring]
+04_98,Gold<x60>
+04_99,Speed[Ring]
+04_9A,PowerBelt
+04_9B,GoldBeak
+04_9C,Tiara<x5F>
+04_9D,Pierce
+04_9E,Love[Ring]
+04_9F,Flee[Ring]
+04_A0,Toughness
+04_A1,TubeSocks
+04_A2,Pepper
+04_A3,SageRock
+04_A4,LarMirror
+04_A5,Dry Vase
+04_A6,Dark Lamp
+04_A7,Change[Staff]
+04_A8,LifeStone
+04_A9,Hide Herb
+04_AA,MagicBomb
+04_AB,ThiefKey
+04_AC,MagicKey
+04_AD,FinalKey
+04_AE,DreamRuby
+04_AF,Wake Dust
+04_B0,Letter
+04_B1,Oricon
+04_B2,STRseed
+04_B3,AGLseed
+04_B4,VITseed
+04_B5,LUCKseed
+04_B6,INTseed
+04_B7,LifeAcorn
+04_B8,Herb
+04_B9,Antidote
+04_BA,Repellent
+04_BB,WarpWing
+04_BC,WorldLeaf
+04_BD,Music Box
+04_BE,LuvMemory
+04_BF,MoonHerb
+04_C0,SquirtGun
+04_C1,Bone
+04_C2,EchoFlute
+04_C3,PixyFlute
+04_C4,ShinyHarp
+04_C5,Light Orb
+04_C6,BugPowder
+04_C7,SpiderWeb
+04_C8,Sun Stone
+04_C9,RainbwDrp
+04_CA,SilverOrb
+04_CB,Red Orb
+04_CC,YellowOrb
+04_CD,PurpleOrb
+04_CE,Blue Orb
+04_CF,GreenOrb
+04_D0,TinyMedal
+04_D1,Magic Map
+04_D2,Pixy Map
+04_D3,Gold Pass
+04_D4,Goddess[Ring]
+04_D5,MysticNut
+04_D6,Kindly<x61>
+04_D7,Wimpy<x61>
+04_D8,Lady<x61>
+04_D9,Smart<x61>
+04_DA,Muscle<x61>
+04_DB,Hero<x61>
+04_DC,Lucky<x61>
+04_DD,Tomboy<x61>
+04_DE,Tragic<x61>
+04_DF,Brave<x61>
+04_E0,Defy<x61>
+04_E1,Joke<x61>
+04_E2,Sexy<x61>
+04_E3,Cheat<x61>
+04_E4,Token
+05_00,None
+05_01,Slime
+05_02,Raven
+05_03,Hornyhare
+05_04,Anteater
+05_05,Butterfly
+05_06,Froggore
+05_07,Babble
+05_08,Magician
+05_09,StingWasp
+05_0A,Healer
+05_0B,Echidna
+05_0C,Almiraj
+05_0D,VenomToad
+05_0E,Catapila
+05_0F,Manabat
+05_10,PutrePup
+05_11,KillerBee
+05_12,ArmyCrab
+05_13,GasCloud
+05_14,BigShroom
+05_15,VenomWorm
+05_16,MadRaven
+05_17,MadHound
+05_18,Toadstool
+05_19,Shadower
+05_1A,Vampire
+05_1B,CarniMoth
+05_1C,RogueNite
+05_1D,CatFly
+05_1E,KingToad
+05_1F,WildApe
+05_20,TrickBag
+05_21,MummyMan
+05_22,HellCrab
+05_23,Druid
+05_24,Flamepede
+05_25,Mummy
+05_26,DeadStool
+05_27,HunterFly
+05_28,DeadHound
+05_29,Mystifier
+05_2A,HeatCloud
+05_2B,Antbear
+05_2C,Curer
+05_2D,MadOx
+05_2E,Catula
+05_2F,EvilMage
+05_30,KillerApe
+05_31,Garuda
+05_32,Metaly
+05_33,Goategon
+05_34,Executer
+05_35,Demonite
+05_36,Deranger
+05_37,Cannibox
+05_38,Eliminato
+05_39,GreatBeak
+05_3A,Snaily
+05_3B,SkyDragon
+05_3C,Barnabas
+05_3D,Witch
+05_3E,MadPecker
+05_3F,HellArmor
+05_40,SeaSlime
+05_41,Jellyfish
+05_42,Merman
+05_43,KingSquid
+05_44,Crabus
+05_45,Merdane
+05_46,MadCondor
+05_47,Bruin
+05_48,Hork
+05_49,Bighorn
+05_4A,StingMoth
+05_4B,VenomHork
+05_4C,BlueBeak
+05_4D,KillArmor
+05_4E,Avenger
+05_4F,LavaMan
+05_50,Shaman
+05_51,OldHag
+05_52,Shadow
+05_53,IceMan
+05_54,Wyvern
+05_55,Kong
+05_56,Tortragon
+05_57,BlissBird
+05_58,BombCrag
+05_59,Grizzly
+05_5A,VoodooMan
+05_5B,TortoLord
+05_5C,IceDragon
+05_5D,Troll
+05_5E,IceCloud
+05_5F,JewelBag
+05_60,MiniDemon
+05_61,Tentacles
+05_62,Skeletor
+05_63,Mimic
+05_64,HellNite
+05_65,Hologhost
+05_66,Orochi
+05_67,Orochi
+05_68,StoneMan
+05_69,Salamandr
+05_6A,RedSlime
+05_6B,Goopi
+05_6C,VileShade
+05_6D,VoodooWiz
+05_6E,Metabble
+05_6F,Ghoul
+05_70,LionHead
+05_71,BossTroll
+05_72,GoldMan
+05_73,Skullgon
+05_74,MerKing
+05_75,Kragacle
+05_76,DarthBear
+05_77,GrndTitan
+05_78,Leona
+05_79,Archmage
+05_7A,MagWyvern
+05_7B,WingDemon
+05_7C,Hydra
+05_7D,TrollKing
+05_7E,Dragon
+05_7F,Balrog
+05_80,Putregon
+05_81,Mantigore
+05_82,Swordoid
+05_83,KingHydra
+05_84,BaraBomus
+05_85,BaraGonus
+05_86,Baramos
+05_87,Zoma
+05_88,Zoma
+05_89,Ortega
+05_8A,Kandar
+05_8B,Kandar
+05_8C,Goon
+05_8D,EX points
+05_8E,Money
+05_8F,Bad Pick
+05_90,Picker
+05_91,Pick Lord
+05_92,Pick 0
+05_93,Pick 1
+05_94,Pick 2
+05_95,Pick 3
+05_96,Phoenix
+05_97,GateGuard
+05_98,MtlWyvern
+05_99,DevilMage
+05_9A,EvilCrab
+05_9B,DarkTroll
+05_9C,DemonSwrd
+05_9D,BaraEvil
+05_9E,Divinegon
+05_9F,Goon
+05_A0,GrayBear
+05_A1,WhiteLion
+05_A2,BlueDragn
+05_A3,Dorasbox
+05_A4,IronNite
+05_A5,RedDragon
+05_A6,MtlGoopi
+05_A7,EvilCloud
+05_A8,SteelHulk
+05_A9,GranDragn
+05_AA,Slime
+05_AB,BossTroll
+05_AC,KingHydra
+05_AD,BaraBomus
+05_AE,BaraGonus
+05_AF,Baramos
+05_B0,Divinegon
+06_00,<&40>
+06_01,Ryan
+06_02,Nero
+06_03,Roy
+06_04,Tess
+06_05,Cito
+06_06,Nick
+06_07,Pete
+06_08,Jule
+06_09,Sami
+06_0A,Rose
+06_0B,Tina
+06_0C,Dara
+07_00,STR
+07_01,@07_00
+07_02,@07_00
+07_03,@07_00
+07_04,@07_00
+07_05,@07_00
+07_06,@07_00
+07_07,@07_00
+07_08,@07_00
+07_09,@07_00
+07_0A,@07_00
+07_0B,@07_00
+07_0C,@07_00
+07_0D,@07_00
+07_0E,@07_00
+07_0F,@07_00
+07_10,@07_00
+07_11,@07_00
+07_12,@07_00
+07_13,@07_00
+07_14,@07_00
+07_15,@07_00
+07_16,@07_00
+07_17,@07_00
+07_18,@07_00
+07_19,@07_00
+07_1A,@07_00
+07_1B,@07_00
+07_1C,@07_00
+07_1D,@07_00
+07_1E,@07_00
+07_1F,@07_00
+07_20,@07_00
+07_21,@07_00
+07_22,@07_00
+07_23,@07_00
+07_24,@07_00
+07_25,@07_00
+07_26,@07_00
+07_27,@07_00
+07_28,@07_00
+07_29,@07_00
+07_2A,@07_00
+07_2B,@07_00
+07_2C,@07_00
+07_2D,@07_00
+07_2E,@07_00
+07_2F,@07_00
+07_30,@07_00
+07_31,@07_00
+07_32,@07_00
+07_33,@07_00
+07_34,@07_00
+07_35,@07_00
+07_36,@07_00
+07_37,@07_00
+07_38,@07_00
+07_39,@07_00
+07_3A,@07_00
+07_3B,@07_00
+07_3C,@07_00
+07_3D,@07_00
+07_3E,@07_00
+07_3F,@07_00
+07_40,@07_00
+07_41,@07_00
+07_42,@07_00
+07_43,@07_00
+07_44,@07_00
+07_45,@07_00
+07_46,@07_00
+07_47,@07_00
+07_48,@07_00
+07_49,@07_00
+07_4A,@07_00
+07_4B,@07_00
+07_4C,@07_00
+07_4D,@07_00
+07_4E,@07_00
+07_4F,@07_00
+07_50,@07_00
+07_51,@07_00
+07_52,@07_00
+07_53,@07_00
+07_54,@07_00
+07_55,@07_00
+07_56,@07_00
+07_57,@07_00
+07_58,@07_00
+07_59,@07_00
+07_5A,@07_00
+07_5B,@07_00
+07_5C,@07_00
+07_5D,@07_00
+07_5E,@07_00
+07_5F,@07_00
+07_60,@07_00
+07_61,@07_00
+07_62,@07_00
+07_63,@07_00
+07_64,@07_00
+07_65,@07_00
+07_66,@07_00
+07_67,@07_00
+07_68,@07_00
+07_69,@07_00
+07_6A,@07_00
+07_6B,@07_00
+07_6C,@07_00
+07_6D,@07_00
+07_6E,@07_00
+07_6F,@07_00
+07_70,@07_00
+07_71,@07_00
+07_72,@07_00
+07_73,@07_00
+07_74,@07_00
+07_75,@07_00
+07_76,@07_00
+07_77,@07_00
+07_78,@07_00
+07_79,@07_00
+07_7A,@07_00
+07_7B,@07_00
+07_7C,@07_00
+07_7D,@07_00
+07_7E,@07_00
+07_7F,@07_00
+07_80,@07_00
+07_81,@07_00
+07_82,@07_00
+07_83,@07_00
+07_84,@07_00
+07_85,@07_00
+07_86,@07_00
+07_87,@07_00
+07_88,@07_00
+07_89,@07_00
+07_8A,@07_00
+07_8B,@07_00
+07_8C,@07_00
+07_8D,@07_00
+07_8E,@07_00
+07_8F,@07_00
+07_90,@07_00
+07_91,@07_00
+07_92,@07_00
+07_93,@07_00
+07_94,@07_00
+07_95,@07_00
+07_96,@07_00
+07_97,@07_00
+07_98,@07_00
+07_99,@07_00
+07_9A,@07_00
+07_9B,@07_00
+07_9C,@07_00
+07_9D,@07_00
+07_9E,@07_00
+07_9F,@07_00
+07_A0,@07_00
+07_A1,@07_00
+07_A2,@07_00
+07_A3,@07_00
+07_A4,@07_00
+07_A5,@07_00
+07_A6,@07_00
+07_A7,@07_00
+07_A8,@07_00
+07_A9,@07_00
+07_AA,@07_00
+07_AB,@07_00
+07_AC,@07_00
+07_AD,@07_00
+07_AE,@07_00
+07_AF,@07_00
+07_B0,@07_00
+07_B1,@07_00
+07_B2,@07_00
+07_B3,@07_00
+07_B4,@07_00
+07_B5,@07_00
+07_B6,@07_00
+07_B7,@07_00
+07_B8,@07_00
+07_B9,@07_00
+07_BA,@07_00
+07_BB,@07_00
+07_BC,@07_00
+07_BD,@07_00
+07_BE,@07_00
+07_BF,@07_00
+07_C0,@07_00
+07_C1,@07_00
+07_C2,@07_00
+07_C3,@07_00
+07_C4,@07_00
+07_C5,@07_00
+07_C6,@07_00
+08_00,@07_00
+08_01,AGL
+08_02,VIT
+08_03,INT
+08_04,LUCK
+08_05,MAX HP
+09_00,Aries
+09_01,Taurus
+09_02,Gemini
+09_03,Cancer
+09_04,Leo
+09_05,Virgo
+09_06,Libra
+09_07,Scorpio
+09_08,Sagittarius
+09_09,Capricorn
+09_0A,Aquarius
+09_0B,Pisces
+0A_00,Weapon  
+UNUSED00_0A_00,Armor   
+UNUSED01_0A_00,Shield  
+UNUSED02_0A_00,Headgear
+UNUSED03_0A_00,Access. 
+UNUSED04_0A_00,Item    
+0A_01,Item 
+UNUSED00_0A_01,STR  
+UNUSED01_0A_01,AGL  
+UNUSED02_0A_01,VIT  
+UNUSED03_0A_01,INT  
+UNUSED04_0A_01,LUCK 
+UNUSED05_0A_01,ATK  
+UNUSED06_0A_01,DEF  
+0A_02,Unable
+0A_03,Equip OK
+0A_04,Equipped
+0A_05,        ???       
+UNUSED00_0A_05,Single use only   
+UNUSED01_0A_05,Lifetime use      
+UNUSED02_0A_05,Limited use       
+UNUSED03_0A_05,Use as needed     
+UNUSED04_0A_05,Alters personality
+0A_06,Nothing
+0B_00,Restores at least 30 HP of one      party member.     <~>
+0B_01,Restores at least 80 HP of one      party member.     <~>
+0B_02,Fully restores theHP of one party   member.           <~>
+0B_03,Restores at least 80 HP of all      party members.    <~>
+0B_04,Fully restores theHP of all party   members.          <~>
+0B_05,May revive a      slain companion.                    <~>
+0B_06,Fully revives a   slain companion.                    <~>
+0B_07,Cures one person  of poison.                          <~>
+0B_08,Instantly fly to atown or castle    visited before.   <~>
+0B_09,Instantly escape  from a building orcave.             <~>
+0B_0A,Checks contents   of an unopened    treasure chest.   <~>
+0B_0B,Cures one person  of paralysis.                       <~>
+0B_0C,Protects against  damage-inflicting floors.           <~>
+0B_0D,Prevents weaker   monsters from     appearing.        <~>
+0B_0E,"Changes day into  night, and night  into day.         <~>"
+0B_0F,Lifts a curse.                                        <~>
+0B_10,Causes temporary  invisibility.                       <~>
+0B_11,Unlocks doors.                                        <~>
+0B_12,Locates nearby    towns and castles.                  <~>
+0B_13,Identifies the    current floor in abuilding or cave. <~>
+0B_14,Silence footsteps to avoid          detection.        <~>
+0B_15,Indicates the     remaining number  of treasures.     <~>
+0B_16,Locates suspiciousthings by magic.                    <~>
+0B_17,A whistle that    attracts monsters.                  <~>
+0B_18,Digs underfoot    to find buried    items.            <~>
+0B_19,Summons travellingmerchants and     services.         <~>
+0B_1A,Recall the words  of others.                          <~>
+0B_1B,Deeply remember   the words of      others.           <~>
+0B_1C,Recollect the     words of others   in detail.        <~>
+0B_1D,Forget the words  of others.                          <~>
+0B_1E,EQPT Dealer
+0B_1F,Item Dealer
+0B_20,Dealer
+0B_21,Innkeeper
+0B_22,Priest
+0C_00,The bag holds
+0C_01,.
+0C_02,none.
+0C_03,None.
+0C_04,Has it.
+0D_00,ITEM
+0D_01,CAST
+0D_02,INFO
+0D_03,Eqpt
+0D_04,Who
+0D_05,Who
+0D_06,Whose
+0D_07,Who
+0D_08,ATKDEF<~>
+0D_09,STRAGLVITNUCK[Ex]<~>
+0D_0A,****
+0D_0B,**********
+0E_00,I['m] no. <&00>!<F7>
+0E_01,And the age turns…<F7>
+0E_02,Changed data!<F7>
+0E_03,Thief!<F7>
+0E_04,[*:] Switch to the<F1>No Puppet Mode?<xFF>
+0E_05,[*:] Flag <&08>: <&00>.<F1><FA><F7>Switch? Yes:1 No:0<xFF>
+0E_06,<FE>Version: <&00>-<&10>-<&20><F7>
+0E_07,<FE>[*:] Use SEL to walk<F1>through walls?<xFF>
