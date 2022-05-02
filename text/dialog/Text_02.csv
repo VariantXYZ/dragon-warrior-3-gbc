@@ -1,235 +1,183 @@
 ﻿Index,Text
-00_00,[*:] This is Tempt<F1>Cave.<FA><F7><F1>But the stairs are<F1>sealed by a wall.<F7>
-00_01,[*:] This is Tempt<F1>Cave.<FA><F7><F1>The seal has been<F1>broken!<F7>
-00_02,[*:] Ah… So this is a<F1>Traveler['s] Gate…<FA><F7>
-00_03,<F1>[*:] I['v]e never seen<F1>one before.<F7>
-00_04,"<FE><&00> opened the<F1>treasure chest.<FA><F7><F1>There appears to<F1>be an engraving…<FA><F7><F1>""To those leaving<F1>Aliahan…<FA><F7><F1>Take this map.<F1>SELECT to see it.<FA><F7><F1>SELECT it again to<F1>remove icons.<FA><F7><F1>May you find glory<F1>always!""<FA><F7><F1><&00> obtained the<F1>Magic Map!<F7>"
-00_05,<FE><&40> set the<F1>MagicBomb.<F7>
-01_00,[*:] Somewhere in<F1>this cave is a<FA><F7><F1>sacred spring that<F1>will restore you.<FA><F7><F1>But why would it<F1>even exist?<FA><F7><F1>I['v]e heard dismal<F1>calls in here…<F7>
-01_01,"<FE>There was a note<F1>inside the chest!<FA><F7><F1><&40> read the<F1>note…<FA><F7><F1>""Please forgive<F1>us, Mother.<FA><F7><F1>If love between an<F1>elf and human is<FA><F7><F1>forbidden in this<F1>life… We will be<FA><F7><F1>lovers in heaven.<F1>Love, Ann.""<F7>"
-02_00,<FE>It['s] an imposing<F1>statue.<FA><F7><F1>Could it be the<F1>Pharaoh who lies<FA><F7><F1>in the pyramid?<F1><F7>
-02_01,<FE>A round button!<F1>Want to push it?<xFF>
-02_02,<FE><&00> pressed the<F1>round button.<FA><F7><F1>
-02_03,"<FE>There was a heavy,<F1>grating sound…<F7>"
-02_04,<FE>The button is<F1>already pressed.<F7>
-02_05,<FE>But nothing<F1>happened<F7>
-02_06,"<FE>It['s] a heavy,<F1>stone door…<F7>"
-02_07,<FE><&40> checked the<F1>stone casket…<FA><F7><F1>It was too heavy<F1>to open.<F7>
-02_08,<FE><&00> opened the<F1>treasure chest!<FA><F7><F1>An eerie voice<F1>called out…<FA><F7><F1><EA>[*:] Who disturbs our<F1>King['s] treasure?<FA><F7><F1>Who disturbs us in<F1>our sleep?<F7>
-02_09,<FE>An old casket is<F1>on the altar.<FA><F7><F1>Want to open it?<F1><xFF>
-02_0A,<FE><&00> opened the<F1>casket['s] lid…<FA><F7><F1>There was the<F1>Golden Claw!<FA><F7><F1><&00> found the<F1>Golden Claw!
-02_0B,<FE>An eerie voice<F1>called out…<FA><F7><F1><EA>[*:] May misfortune<F1>befall those who<FA><F7><F1>defile the Golden<F1>Claw…
-02_0C,<FE>An old casket is<F1>on the altar…<F7>
-03_00,[*:] I am Norud the<F1>hobbit.<FA><F7><F1>
-03_01,[*:] What is it?<F1>
-03_02,[*:] What is it?<F1>
-03_03,[*:] What is it?<F1>
-03_04,[*:] What is it?<F1>
-03_05,Out you go!<F7>
-03_06,<&40> read the<F1>King['s] Letter.<FA><F7><F1>
-03_07,"<FE>""My dear Norud,<F1>I ask that you <FA><F7><F1>show the bearer of<F1>this letter out <FA><F7><F1>through Bahn Pass.<F1>King of Portoga.""<FA><F7><F1>"
-03_08,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_09,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_0A,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_0B,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_0C,[*:] Hm! I can never<F1>refuse the King!<FA><F7><F1>Now! Follow me!<F1><F7>
-03_0D,"[*:] Is that so?<F1>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
-03_0E,"[*:] Is that so?<F1>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
-03_0F,"[*:] Is that so?<F1><FA><F7>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
-03_10,"[*:] Is that so?<F1>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
-03_11,[*:] Hm! Wait there!<F1><F7>
-03_12,[*:] There! Enter<F1>through here!<FA><F7><F1>This leads to Bahn<F1>Pass!<F7>
-03_13,"[*:] Humans I don['t]<F1>like, but not the<FA><F7><F1>King of Portoga.<F1>A human so pure of<FA><F7><F1>heart is rare!<F1><F7>"
-03_14,[*:] You wish for<F1>more of me?<FA><F7><F1>All I could do is<F1>to lead you to the<FA><F7><F1>way out east.<F1><xFF>
-04_00,"[*:] I['v]e spent years<F1>wandering here.<FA><F7><F1>I saw a man walk<F1>toward the dark<FA><F7><F1>place due south<F1>from here.<FA><F7><F1>When I checked the<F1>darkness, I heard<FA><F7><F1>the sound of a<F1>lock turning…<F7>"
-04_01,[*:] What['r]e you<F1>doing here?
-04_02,[*:] I['l]l say this as<F1>a favor to you.<FA><F7><F1>Get lost before<F1>you get hurt!<F7>
-04_03,[*:] Huh? Who are<F1>you?<FA><F7><F1>You want to join<F1>our band?<xFF>
-04_04,[*:] Our boss is out!<F1>Now scram!<F7>
-04_05,[*:] You['r]e not going<F1>anywhere… Do it!<F7>
-04_06,<EB>[*:] Help!<F1>I['m] Tania.<FA><F7><F1>I was kidnapped<F1>from Baharata!<F7>
-04_07,"Gupta: The wall<F1>straight ahead…<FA><F7><F1>There should be a<F1>lever that opens<FA><F7><F1>this door. Please,<F1>help me!<F7>"
-04_08,<FE>There is a large<F1>lever. Move it?<xFF>
-04_09,<FE>The lever has been<F1>moved already.<F7>
-04_0A,<FE><&00> moved the<F1>lever.<F7>
-04_0B,"Gupta: Ah, Tania!<F1>"
-04_0C,"<EB>Tania: Oh, Gupta!<F1>We can go home!<F7>"
-04_0D,"Gupta: Yes, let['s]<F1>go back home!<F7>"
-04_0E,<EB>Tania: Thank you!<F7>
-04_0F,<EB>Tania: Kiyaaaah!<F7>
-04_10,Kandar: Guess<F1>who['s] home?<FA><F7><F1>You folks aren['t]<F1>going anywhere!<F7>
-04_11,<EB>Tania: Help! Help!<F1><F7>
-04_12,Gupta: I don['t]<F1>care what happens<FA><F7><F1>to me!<F1>Please save Tania!<F7>
-04_13,[*:] Heheheh! You['r]e<F1>going nowhere!<F7>
-04_14,"Kandar: Huh?<F1><FA><F7>I don['t] remember<F1>abducting you…<FA><F7><F1>Wait a second…<F1>Dang, you again!<FA><F7><F1>You persistent<F1>dogs!<FA><F7><F1>But this time, I['m]<F1>going to win!<F7>"
-04_15,Kandar: I give!<F1>I can['t] beat you…<FA><F7><F1>I promise to go<F1>straight!<FA><F7><F1>Have mercy!<F1>Please?<xFF>
-04_16,Kandar: Yes!<F1>Thanks!<FA><F7><F1>Take care!<F1>Farewell!<F7>
-04_17,"Kandar: Aww, don['t]<F1>be so cold! Huh?<FA><F7><F1>I swear, I['l]l go<F1>straight! Promise!<FA><F7><F1>Have mercy!<F1>Please?<xFF>"
-04_18,Gupta: Th-thank<F1>you!<FA><F7><F1>I['l]l never forget<F1>what you['v]e done!<F7>
-04_19,"Gupta: Let['s] go,<F1>Tania!<F7>"
-04_1A,"<EB>Tania: Yes, dear.<F1><F7>"
-04_1B,Gupta: Do visit us<F1>in Baharata!<F7>
-04_1C,Gupta: I knew<F1>you['d] come back!<FA><F7>
+00_00,＊「ここは　いざないの<xE5>ぢくつじゃ.<F1><FA><F7>＊「じゃが　かいだんは　<xE5>Zカベで<F1>　　<xE5>ざじられておる.<F7>
+00_01,＊「ここは　いざないの<xE5>ぢくつじゃ.<F1>　　もはや　ふういんは　ほどかれた!<F7>
+00_02,＊「ほう[・・・][・・・]<F1>　　これが　<xE5>[Lv]のとびらか[・・・][・・・].<FA><F7><F1>＊「いや　じつは　わし　この<xE5>かで<F1>　　<xE5>ぐるのは　はじめて　なんじゃよ.<F7>
+00_03,<FE><&00>は　<xE5>デばこをあけた.<F1><FA><F7>ふたのうらに　なにやら　もじが<F1>きざまれている.<FA><F7><F1><xE5>　アリアハンより　<xE5>[Lv]<xE5>ソつ<xE5>ぎへ.<F1>　この<xE5>る<xE5><F4>を　あたえん!<FA><F7><F1><xE5>　<xE5>る<xE5><F4>を<xE5>ぐたくば　セレクトボタン.<F1><FA><F7><xE5>　さらに　セレクトで　より<xE5>ぐやすく<F1>　なるであろう.<FA><F7><F1><xE5>　なんじの　<xE5>[Lv]<xE5>ソちに<F1>　えいこうあれ!<FA><F7><F1><&00>は　ふしぎな<xE5>る<xE5><F4>を<F1><xE5>こに<xE5>Eれた!<F7>
+01_00,＊「この<xE5>ぢくつの　どこかに[・・・]<F1><FA><F7>＊「<xE5>ほ[カ]や<xE5>へ[カ]を　かいふくしてくれる<F1>　　せいなる　いずみが　あるらしい.<FA><F7><F1>＊「しかし　どうして　こんな<xE5>づに<F1>　　そんないずみが　わいたのか[・・・][・・・].<FA><F7><F1>＊「わたしには　かなしげな<xE5>ラび<xE5>▶が<F1>　　きこえますぞ.<F7>
+01_01,<FE>さらに<xE5>デばこには　<xE5>がきおきが<F1>のこされていた!<FA><F7><F1><&40>は　<xE5>がきおきを　よんだ.<F1><FA><F7><xE5>　お<xE5>ゆさま.　さきだつ　ふこうを<F1>　おゆるしください.<FA><F7><F1><xE5>　わたしたちは　エルフと　<xE5>D<xE5>ゥ.<F1>　この<xE5>Oで　ゆるされぬ　あいなら[・・・]<FA><F7><F1><xE5>　せめて　<xE5>り<xE5>ユで<F1>　いっしょに　なります[・・・][・・・].　アン<F7>
+02_00,<FE>りっぱなぞうが　ある.<F1><FA><F7>このピラミッドに　ねむっている<F1><xE5>0だろうか[・・・].<F7>
+02_01,<FE>カベには　<xE5>7さなまるいボタンがある.<F1>おしてみますか?<xFF>
+02_02,<FE><&00>は　ボタンを　おした.<F1><FA><F7>
+02_03,<FE>どこからか　おもいいわの　うごく<F1>おとが　した[・・・][・・・].<F7>
+02_04,<FE>しかし　そのボタンは　すでに<F1>おしてある.<F7>
+02_05,<FE>しかし　<xE5>やも　おこらなかった.<F1><F7>
+02_06,<FE>とても　おもそうな<xE5>Zのとびらだ.<F1>どうすれば　ひらくのだろうか[・・・].<F7>
+02_07,<FE><&40>は　ひつぎを　しらべた!<F1><FA><F7>ひつぎは　<xE5>Zで　できていた.<F1>おもくて　フタが　ひらかない!<F7>
+02_08,<FE><&00>は　<xE5>デばこを　あけた!<F1><FA><F7>どこからともなく　ぶきみな<xE5>▶が<F1>きこえる[・・・][・・・].<FA><F7><F1><EA>＊「[・・・][・・・]<xE5>0さまの　<xE5>ボ<xE5>デを<F1>　　あらすものは　だれだ.<FA><F7><F1>＊「われらの　<xE5>ズりを<F1>　　さまたげるものは　だれだ[・・・]<F7>
+02_09,<FE>さいだんには　<xE5>Xびた　ひつぎが<F1>まつられている.　あけてみますか?<xFF>
+02_0A,<FE><&00>は　ひつぎの　ふたを<F1>あけた!<FA><F7><F1>なんと　ひつぎの<xE5>6には<xE5>べ<xE5>ゼにかがやく<F1>おうごんのつめが　<xE5>Eっていた!<FA><F7><F1><&00>は　おうごんのつめを<F1><xE5>ぐつけた!
+02_0B,<FE>どこからともなく<F1>ぶきみな<xE5>▶が　きこえる[・・・][・・・].<FA><F7><F1><EA>＊「おうごんのつめを　うばう<xE5>ぎに<F1>　　わざわい　あれっ!
+02_0C,<FE>さいだんには　<xE5>Xびた　ひつぎが<F1>まつられている[・・・][・・・].<F7>
+03_00,＊「わしは　ホビットの　ノルド.<F1><FA><F7>
+03_01,＊「だんながたは　なんだね?<F1>
+03_02,＊「だんなは　なんだね?<F1>
+03_03,＊「おじょうさんがたは　なんだね?<F1>
+03_04,＊「おじょうさんは　なんだね?<F1>
+03_05,　　さっ　<xE5>せてゆきなされ!<F7>
+03_06,<&40>は　<xE5>0のてがみを　よんだ.<F1><FA><F7>
+03_07,<FE>「しんあいなる　ノルドよ.<F1>　このてがみを　もつ　<xE5>[Lv]<xE5>Dを[・・・]<FA><F7><F1>「バ-ンのぬけみちへ　あんない<F1>　してやってくれ.<FA><F7><F1>「ポルトガの<xE5>0　より.<F1><FA><F7>
+03_08,＊「ふむ!　すると　だんながたは<F1>　　ひがしへ　<xE5>”きたいのかね?<xFF>
+03_09,＊「ふむ!　すると　だんなは<F1>　　ひがしへ　<xE5>”きたいのかね?<xFF>
+03_0A,＊「ふむ!　するとおじょうさんがたは<F1>　　ひがしへ　<xE5>”きたいのかね?<xFF>
+03_0B,＊「ふむ!　すると　おじょうさんは<F1>　　ひがしへ　<xE5>”きたいのかね?<xFF>
+03_0C,＊「ふむ!　ほかならぬ　ポルトガの<F1>　　<xE5>0さまのたのみとあらば[・・・]<FA><F7><F1>＊「さ!　ついて<xE5>しなされ.<F1><F7>
+03_0D,＊「それじゃ　わしが　だんながたに<F1>　　してあげられることは[・・・]<FA><F7><F1>＊「なにもないですな.<F1><F7>
+03_0E,＊「それじゃ　わしが　だんなに<F1>　　してあげられることは[・・・]<FA><F7><F1>＊「なにもないですな.<F1><F7>
+03_0F,＊「それじゃわしがおじょうさんがたに<F1>　　してあげられることは[・・・]<FA><F7><F1>＊「なにもないですな.<F1><F7>
+03_10,＊「それじゃ　わしが　おじょうさんに<F1>　　してあげられることは[・・・]<FA><F7><F1>＊「なにもないですな.<F1><F7>
+03_11,＊「ふむ!　そこで<F1>　　まっていなされ!<F7>
+03_12,＊「さ　おとおりなされ!<F1><FA><F7>＊「これが　バ-ンのぬけみちへの<F1>　　<xE5>Eり<xE5>れじゃ!<F7>
+03_13,＊「わしゃ　<xE5>D<xE5>ゥは　<xE5>カきではないが<F1>　　ポルトガの<xE5>0は　<xE5>へにいっとる.<FA><F7><F1>＊「あれほど　じゅんすいな<xE5>Tを<xE5>・つ<F1>　　<xE5>D<xE5>ゥは　めずらしいからの.<F7>
+03_14,＊「まだ　なにか<xE5>ヲかね?<F1><FA><F7>＊「わしに　できるのは<F1>　　ひがしへの　ぬけみちへ[・・・]<FA><F7><F1>＊「あんないすること　くらいだが.<F1><xFF>
+04_00,＊「この<xE5>ぢくつで　まよって<F1>　　もう　<xE5>や<xE5>9になるだろうか[・・・].<FA><F7><F1>＊「みなみに　まっすぐ　つきあたりの<F1>　　くらやみの<xE5>Kへ[・・・]<FA><F7><F1>＊「<xE5><xEC>が　<xE5>Eって<xE5>”くのを　<xE5>ぐたので<F1>　　そちらへ<xE5>”ってみたら[・・・]<FA><F7><F1>＊「くらやみの<xE5>てこうから[・・・]<F1><FA><F7>＊「なにやら　カギを　かけるような<F1>　　おとが　きこえたのだが.<F7>
+04_01,＊「なんだ　おめえらは?<F1>
+04_02,＊「わるいことは　いわねえ.<F1><FA><F7>＊「いたいめに　あわないうちに<F1>　　とっとと　けえりな!<F7>
+04_03,＊「なんだ　おめえらは?<F1><FA><F7>＊「ひょっとして　オレたちの<xE5>ら<xE5>ゥに<F1>　　なりてえのか?<xFF>
+04_04,＊「おかしらは　いま　るすなんだ.<F1>　　でなおしてきな!<F7>
+04_05,＊「じゃ　とおすわけには<F1>　　いかねえな[・・・][・・・]やっちまえ!<F7>
+04_06,<EB>＊「<xE5>ごけて<xE5>4さい!<F1><FA><F7>＊「あたし　バハラタの<xE5>むから<F1>　　さらわれた　タニアです!<F7>
+04_07,グプタ「つきあたりの　カベに[・・・]<F1><FA><F7>グプタ「この　とびらを　あける<F1>　　レバ-が　あるはずだ!<FA><F7><F1>グプタ「どうか　そのレバ-をっ!<F1><F7>
+04_08,<FE>カベに　<xE5>5きなレバ-がある.<F1>うごかしますか?<xFF>
+04_09,<FE>レバ-は　すでに　うごかされている.<F7>
+04_0A,<FE><&00>は　レバ-をうごかした!<F1><F7>
+04_0B,グプタ「ああ　タニア!<F1>
+04_0C,<EB>タニア「ああ　グプタ!<F1>　　あたしたち　かえれるのね!<F7>
+04_0D,グプタ「ああ　いこう!<F1><F7>
+04_0E,<EB>タニア「ありがとう　ゆうしゃさん!<F7>
+04_0F,<EB>タニア「きゃ-っ!<F7>
+04_10,カンダタ「ふっふっふっ.　オレさまが<F1>　　かえってきたからには[・・・]<FA><F7><F1>カンダタ「<xE5>ドがしや　しねえぜっ!<F1><F7>
+04_11,<EB>タニア「<xE5>ごけて!　ゆうしゃさん!<F1><F7>
+04_12,グプタ「ボクは　どうなってもいい!<F1>　　どうか　タニアを!<F7>
+04_13,＊「ふっふっふっ.<F1>　　<xE5>ドがしや　しねえぜっ!<F7>
+04_14,カンダタ「うん?なんだ　こんなヤツを<F1>　　さらってきた　おぼえは[・・・][・・・]<FA><F7><F1>カンダタ「うぬぬ!　だれかと<xE5>どえば<F1>　　また　うぬらかっ!<FA><F7><F1>カンダタ「しつこいヤツらめ.<F1>　　だが　こんどは　まけはせんぞっ!<F7>
+04_15,カンダタ「まいった!　やっぱり<F1>　　あんたにゃ　かなわねえや[・・・][・・・].<FA><F7><F1>カンダタ「たのむ!　これっきり<F1>　　<xE5>Tをいれかえるから[・・・]<FA><F7><F1>カンダタ「ゆるしてくれよ!<F1>　　な!　な!<xFF>
+04_16,カンダタ「ありがてえ!<F1><FA><F7>カンダタ「じゃ　あんたも　<xE5>ね<xE5>へでな!<F1>　　あばよ!<F7>
+04_17,カンダタ「そんな　つめたいこと<F1>　　いわないでくれよ!　な!　な!<FA><F7><F1>カンダタ「たのむ!　これっきり<F1>　　<xE5>Tをいれかえるから[・・・]<FA><F7><F1>カンダタ「ゆるしてくれよ!<F1>　　な!　な!<xFF>
+04_18,グプタ「あ　ありがとうございました!<F1>　　このごおんは　<xE5>の<xE5>Sわすれません!<F7>
+04_19,グプタ「さあ　かえろう　タニア!<F1><F7>
+04_1A,<EB>タニア「ええ　あなた.<F1><F7>
+04_1B,グプタ「どうか　あとでバハラタの<xE5>むへ<F1>　　よってくださいね.では[・・・].<F7>
+04_1C,グプタ「やっぱり　また　<xE5>ごけに<F1>　　<xE5>してくれたんだね!<FA><F7>
 04_1D,
-04_1E,"[*:] Heh, boss is in<F1>Shampane Tower.<FA><F7><F1>Too bad for you!<F1><F7>"
-04_1F,"[*:] Heh, you didn['t]<F1>come looking to<FA><F7><F1>get our boss too,<F1>did you?<FA><F7>"
-04_20,[*:] I['m] telling you<F1>as a favor.<FA><F7><F1>Get lost before we<F1>lose our temper!<F7>
-05_00,<EA>[*:] Turn around!<F1><F7>
-05_01,"<EA>[*:] For your own<F1>good, turn around!<F7>"
-05_02,<EA>[*:] Fwahahaha…<F1><FA><F7>Your willpower is<F1>to be commended…<FA><F7><F1>But defiance alone<F1>is not courage.<FA><F7><F1>You need courage<F1>to listen to what<FA><F7><F1>others have to say<F1>at times.<F7>
-06_00,<EA>[*:] However harsh a<F1>storm may be…<FA><F7><F1>My ship will never<F1>sink! Wahahahah!<F7>
-06_01,<EA>[*:] Corpses suit a<F1>ghost ship…<FA><F7><F1>Join the crew in<F1>death!<F7>
-06_02,"[*:] Oh? You['r]e not a<F1>ghost it seems.<FA><F7><F1>Ah, you must be<F1>after treasure.<FA><F7><F1>But there are only<F1>ghosts here…<F7>"
-06_03,<EA>[*:] A storm… See the<F1>wind! Waves! Argh!<F7>
-06_04,"<EA>[*:] We['r]e slaves!<F1>Row, row, row!<F7>"
-06_05,<EA>[*:] It hurts…<F7>
-06_06,<EA>[*:] I never knew we<F1>could row even in<FA><F7><F1>death…<F1>Hahahaha…<F7>
-06_07,<FE>There is no reply.<F1>It['s] a corpse.
-06_08,<EA>[*:] Slaves and<F1>criminals row…<F7>
-06_09,<EA>[*:] It['s] horrible to<F1>drown…<FA><F7><F1>
-06_0A,<EA>[*:] No! I don['t] want<F1>to die!<F7>
-06_0B,[*:] I killed a man.<F1><FA><F7>I have no right to<F1>refuse any fate…<FA><F7><F1>But Eric there did<F1>nothing wrong…<FA><F7><F1>The poor soul…<F1><F7>
-06_0C,"Eric: Olivia, the<F1>ship is sinking…<FA><F7><F1>I['m] being taken<F1>from you forever…<FA><F7><F1>I will never<F1>forget you or<FA><F7><F1>the memory of<F1>our love…<FA><F7><F1>I hope you will<F1>find happiness…<F7>"
-06_0D,<FE>The corpse has a<F1>faint smile…<F7>
-07_00,"<EA>[*:] So you['v]e come<F1>this far, <&40>?<FA><F7><F1>You are remarkably<F1>impudent to dare<FA><F7><F1>defy me, the Demon<F1>Lord Baramos!<FA><F7><F1>Baramos: You will<F1>rue your defiance!<FA><F7><F1>So that you will<F1>never return…<FA><F7><F1>I will feast on<F1>your intestines!<F7>"
-07_01,"<EA>Baramos: Fool!<F1><FA><F7>You dare to defy<F1>Baramos again?<FA><F7><F1>You never learned<F1>your proper place.<FA><F7><F1>Things will never<F1>change for you.<FA><F7><F1>I, Baramos, will<F1>demonstrate the<FA><F7><F1>greatness of my<F1>power!<F7>"
-07_02,"<EA>Baramos: Urgh…<F1>You, <&40>…<FA><F7><F1>I… will… never…<F1>give up… Gwah!<FA><F7>"
-07_03,<FE>A warm light fills<F1>the chamber…
-07_04,<FE><&00> was revived!<F1><F7>
-07_05,<FE><&40>['s] party was<F1>fully restored!<FA><F7>
-07_06,<FE>A mystic voice is<F1>heard…<FA><F7><F1>
-07_07,<EB><&00>… <&00>…<F1>Hear me…<FA><F7><F1>You have fought<F1>bravely…<FA><F7><F1>Now return to<F1>those who await<FA><F7><F1>you…<F1><F7>
-08_00,"[*:] Nobody has ever<F1>returned from this<FA><F7><F1>pit. Who knows<F1>what['s] inside?<FA><F7><F1>If someone gets<F1>confused and tries<FA><F7><F1>to jump, slap them<F1>back into sense.<FA><F7><F1>Confusion can be<F1>cured by hitting.<FA><F7><F1>That holds true in<F1>battle too.<F7>"
-08_01,[*:] It['s] incredible!<F1><FA><F7>There was a huge<F1>tremor…<FA><F7><F1>And fissures<F1>opened everywhere.<FA><F7><F1>A huge beast raced<F1>into the pit!<FA><F7><F1>My poor partner<F1>fell in… Argh!<F7>
-08_02,"[*:] This is the<F1>Giana Pit.<FA><F7><F1>We stand guard to<F1>prevent fools from<FA><F7><F1>leaping in. It<F1>doesn['t] look like<FA><F7><F1>the gate to<F1>heaven, does it?<F7>"
-09_00,"[*:] Dig, dig, dig!<F1>Dig and dig again!<F7>"
-09_01,[*:] We['r]e digging a<F1>tunnel here.<F7>
-09_02,[*:] Dig and dig…<F1><FA><F7>I wish we['d] reach<F1>Rimuldar soon…<F7>
-09_03,"[*:] Heave, ho!<F1>Heave, ho!<F7>"
-0A_00,[*:] What? Morning['s]<F1>arrived outside?<FA><F7>
-0A_01,"[*:] We['d] better get<F1>cracking!<FA><F7><F1>Come on, people,<F1>bear down and dig!<F7>"
-0A_02,[*:] Yeah!<F1><F7>
-0A_03,[*:] Rimuldar['s]<F1>calling my name!<F7>
-0A_04,[*:] I want to see<F1>the light outside!<F7>
-0B_00,<FE>An eerie voice<F1>called out…<FA><F7><F1><EA>[*:] We guard the<F1>Demon King!<FA><F7><F1>Your journey ends<F1>with us!<F7>
-0B_01,<FE>A man is fighting<F1>monsters alone!<F7>
-0B_02,"[*:] What… Is… is…<F1>someone there?<FA><F7><F1>I can no longer<F1>see nor hear…<FA><F7><F1>If there is<F1>someone there…<FA><F7><F1>Convey a message<F1>for me…<FA><F7><F1>I am Ortega of<F1>Aliahan…<FA><F7><F1>Ortega: I have<F1>remembered now…<FA><F7><F1>If… if you were to<F1>visit Aliahan…<FA><F7><F1>Find <&40> who<F1>lives there…<FA><F7><F1>And pass this on<F1>from Ortega…<FA><F7><F1>I['v]e failed to<F1>bring peace…<FA><F7><F1>Forgive me, your<F1>wretched father…<FA><F7><F1>Urggah!<F1><F7>"
-0B_03,<EA>Zoma: <&40>! So<F1>good of you to<FA><F7><F1>come to my<F1>sacrificial altar!<FA><F7>
-0B_04,"<EA>Zoma: You again?<F1>Persistent…<FA><F7><F1><&40>, what compels<F1>you to cling so<FA><F7><F1>tenaciously to a<F1>non-existent hope?<FA><F7>"
-0B_05,"<EA>Zoma: I am the<F1>Destroyer of All!<FA><F7><F1>All life shall be<F1>sacrificed to me!<FA><F7><F1>Despair will rule<F1>the world!<FA><F7><F1><&40>! You shall be<F1>my sacrifice!<FA><F7><F1>Come hither, my<F1>loyal subjects!<FA><F7><F1>Destroy them, and<F1>shower me with<FA><F7><F1>their suffering<F1>and despair!<F7>"
-0B_06,"<EA>Zoma: <&40>!<F1>What drives you to<FA><F7><F1>struggle so for<F1>the sake of life?<FA><F7><F1>Destruction is my<F1>joy. There is no<FA><F7><F1>greater beauty<F1>than the dying.<FA><F7><F1>Come, you shall<F1>breathe your last<FA><F7><F1>within my arms!<F1><F7>"
-0B_07,<EA>Zoma: <&40>… Well<F1>done… You['v]e won…<FA><F7>
-0B_08,"<EA>Zoma: But so long<F1>as there is light,<FA><F7><F1>so too will there<F1>be darkness…<FA><F7>"
-0B_09,"<EA>Zoma: I see it,<F1>even now…<FA><F7><F1>Others will emerge<F1>from darkness…<FA><F7>"
-0B_0A,<EA>Zoma: You won['t]<F1>live to see it…<FA><F7><F1>Wahahaha…<F1>Ggggahh!<F7>
-0B_0B,<FE>Something closed<F1>in the sky…<F7>
-0B_0C,<FE><&00> was revived!
-0C_00,[*:] Ssssnore…<F1><F7>
-0C_01,"[*:] Here at last!<F1><&40>, you say?<FA><F7>"
-0C_02,[*:] I['v]e dreamt of<F1>this ceaselessly…<FA><F7><F1>Of giving you this<F1>Thief Key.<FA><F7><F1>You will take it?<F1><xFF>
-0C_03,[*:] My dreams are<F1>not always true…<F7>
-0C_04,<FE><&00> obtained the<F1>Thief Key!<FA><F7>
-0C_05,"[*:] By the way,<F1><&00>.<FA><F7><F1>There are books<F1>that can change<FA><F7><F1>the personality of<F1>any reader.<FA><F7><F1>They are that<F1>persuasive.<FA><F7><F1>Be careful if you<F1>find such a book.<FA><F7><F1>Now, go, <&00>.<F1>"
-0C_06,[*:] I shall resume<F1>my dreaming…<F7>
-0C_07,[*:] Sssnore…<F1>Hm… Mm…<FA><F7>
-0C_08,[*:] Here at last!<F1><FA><F7>Hm? <&40> is…<F1>In a coffin?<FA><F7>
-0C_09,[*:] I['d] dreamt so<F1>often of giving<FA><F7><F1>this key to <&40><F1>too…<FA><F7><F1>Anyway…<F1><FA><F7>You will take the<F1>Thief Key instead?<xFF>
-0C_0A,"[*:] Good of you to<F1>come, <&40>.<FA><F7><F1>Has my key been<F1>useful?<xFF>"
-0C_0B,[*:] Hm! My dreams do<F1>come true indeed!<F7>
-0C_0C,[*:] I did as my<F1>dream bid…<F7>
-0C_0D,"[*:] Ah, you['r]e the<F1>first guests in<FA><F7><F1>too long a while!<F1>I['m] delighted!<FA><F7>"
-0D_00,[*:] This here['s] the<F1>notorious Shampane<FA><F7><F1>Tower.<F1><F7>
-0D_01,"[*:] You defeated<F1>Kandar, huh?<FA><F7><F1>You must be one<F1>famous thief!<F7>"
-0D_02,[*:] This tower has<F1>been home to many<FA><F7><F1>bands of thieves<F1>over the ages.<F7>
-0D_03,[*:] Hey! Look what<F1>just came in!<F7>
-0D_04,[*:] We['d] better go<F1>tell the boss!<F7>
-0D_05,[*:] You made it<F1>here? That['s] good!<FA><F7><F1>But I['m] nobody['s]<F1>to catch! Not you!<FA><F7><F1>Goodbye! Wahahah!<F1><F7>
-0D_06,[*:] You['v]e dogged me<F1>long enough!<FA><F7><F1>Beg for mercy!<F1><F7>
-0D_07,Kandar: Mercy!<F1><FA><F7>You can have the<F1>Crown<x5F> back!<FA><F7><F1>So let me go!<F1>Huh? Huh?<xFF>
-0D_08,"Kandar: Aww, come<F1>on. Huh? Huh?<xFF>"
-0D_09,Kandar: Bless your<F1>forgiveness!<FA><F7><F1>I['l]l never forget<F1>you. Farewell!<F7>
-0D_0A,<FE>What['s] this?<F1>The Crown<x5F>?
-0D_0B,<FE><&00> obtained the<F1>Crown<x5F>!<F7>
-0E_00,[*:] Life is a long<F1>journey in search<FA><F7><F1>of enlightenment<F1>and salvation.<FA><F7><F1>Welcome to Garuna<F1>Tower.<F7>
-0E_01,[*:] Inside the tower<F1>lies a Zen Book.<FA><F7><F1>It is the key to<F1>becoming a sage.<F7>
-0E_02,<FE>[*:] ………………<F1><FA><F7><xE3>Can['t] you see I['m]<F1>meditating? Shoo!<F7>
-0F_00,"[*:] It was smart of<F1>you to come here.<FA><F7><F1>I['v]e sailed the<F1>world['s] seas.<FA><F7><F1>I['l]l tell you<F1>about the world!<FA><F7><F1>Sail south, down<F1>along the coast.<FA><F7><F1>You['l]l round the<F1>cape of Tedanki.<FA><F7><F1>Far to the cape['s]<F1>east is Lancel.<FA><F7><F1>And beyond it is<F1>Aliahan.<FA><F7><F1>Far to the north<F1>of Aliahan is<FA><F7><F1>Zipangu, the<F1>country of gold.<FA><F7><F1>Also, there are<F1>six Orbs all over <FA><F7><F1>the world. If you<F1>collect them all,<FA><F7><F1>you won['t] need a<F1>ship anymore.<FA><F7><F1>But first, you<F1>should sail south.<FA><F7><F1>Take note of what<F1>I said.<F7>"
-10_00,"[*:] If you have the<F1>Pixy Flute, take<FA><F7><F1>it to the tower['s]<F1>fifth floor.<F7>"
-10_01,[*:] The rotating<F1>floor tiles turn<FA><F7><F1>in a certain way.<F1>Think it out.<FA><F7><F1>Always rushing<F1>headlong doesn['t]<FA><F7><F1>make you any<F1>greater a hero.<F7>
-10_02,<FE><&40> gazed at the<F1>statue.<FA><F7><F1>It appears to be a<F1>beautiful goddess.<FA><F7><F1>It has an air of<F1>mystic elegance.<F7>
-10_03,"<EB>[*:] It['s] like a<F1>dream!<FA><F7><F1>Thank you for<F1>breaking the seal.<FA><F7><F1>I am Rubiss, the<F1>elemental.<FA><F7><F1>I made the world<F1>of Alefgard.<FA><F7><F1>As my thanks,<F1><&40>, you shall<FA><F7><F1>receive this<F1>Crest.<FA><F7><F1>If you were to<F1>defeat the evil<FA><F7><F1>grandmaster, I<F1>will be indebted.<FA><F7><F1>I am Rubiss, the<F1>elemental.<FA><F7><F1>I pray for peace<F1>in this world.<F7>"
-11_00,<FE>Ortega is glaring<F1>at King Hydra!<FA><F7>
-11_01,<FE>Ortega<F1>attacked!
-11_02,<FE>King Hydra took<F1>99 damage!
-11_03,<FE>King Hydra<F1>attacked!
-11_04,<FE>Miss! Ortega<F1>was unharmed!
-11_05,<FE>Ortega cast<F1>Infermost!
-11_06,<FE>King Hydra took<F1>106 damage!
-11_07,<FE>King Hydra spewed<F1>fire!
-11_08,<FE>Ortega took<F1>90 damage!
-11_09,<FE>Ortega cast<F1>HealAll!
-11_0A,<FE>Ortega['s] wound was<F1>healed!
-11_0B,<FE>Ortega cast<F1>Zap!
-11_0C,<FE>King Hydra took<F1>78 damage!
-11_0D,<FE>Ortega took<F1>120 damage!
-11_0E,<FE>Not enough MP!<F1>
-11_0F,<FE>Ortega took<F1>80 damage!
-11_10,<FE>Ortega took<F1>70 damage!
-12_00,<FE><&00> hurled the<F1>Gaia Sword into<FA><F7><F1>the volcano!<F1><F7>
-13_00,"<FE>A forlorn song<F1>echoes, lost…<F7>"
-13_01,<FE><&40> held aloft<F1>the LuvMemory!<FA>
-13_02,<FE>Eric and Olivia…<F1><FA><F7>Their memorys of<F1>love fill the air…
-13_03,"<EB>[*:] Oh, Eric!<F1>My beloved!<FA><F7><F1>I have waited so<F1>very long for you!<F7>"
-13_04,"[*:] Olivia, dearest!<F1><FA><F7>I won['t] ever let<F1>you go again!<F7>"
-13_05,<EB>[*:] Eric!<F1><F7>
-13_06,<FE>Olivia['s] curse<F1>dissipated!<F7>
-14_00,[*:] This is Dharma<F1>Temple.<FA><F7><F1>People gather here<F1>to switch classes.<FA><F7><F1>Do you wish to<F1>change classes?<xFF><F1>
-14_01,"[*:] Ah, so you do<F1>not wish to change<FA><F7><F1>classes?<F1>That too is fine.<FA><F7><F1>"
-14_02,[*:] Then go.<F1><F7>
-14_03,[*:] Who wishes to<F1>change classes?
-14_04,[*:] Hm? You wish to<F1>reconsider?<FA><F7><F1>That too is fine.<F1><FA><F7>
-14_05,[*:] Fool!<F1><&09> is dead!<FA><F7><F1>I can['t] make the<F1>dead change<FA><F7><F1>classes!<F1><FA><F7>
-14_06,[*:] Anyone else wish<F1>to change classes?<xFF>
-14_07,[*:] Fool!<F1><FA><F7>You no longer wish<F1>to be a hero?<FA><F7><F1>That is absolutely<F1>forbidden!<FA><F7><F1>
-14_08,[*:] What? But <&09><F1>is not competent<FA><F7><F1>yet as a <&31>.<F1><FA><F7>How dare you ask<F1>for a class change<FA><F7><F1>when you are still<F1>incompetent!<FA><F7>
-14_09,[*:] What class does<F1><&09> wish to take?<FA><F7>
-14_0A,[*:] So <&09> wishes<F1>to be a <&31>?<xFF>
-14_0B,[*:] Hm? But <&09> has<F1>that class now.<FA><F7>
-14_0C,"[*:] <&31> is the<F1>desired class?<FA><F7><F1>It goes with <&09><F1>being the <&20><FA><F7><F1>type, I suppose.<F1><FA><F7><F1>"
-14_0D,"[*:] What? <&31>?<F1><FA><F7>But <&09> is the<F1><&20> type…<FA><F7><F1>Well, that['s] fine.<F1><FA><F7><F1>"
-14_0E,"[*:] Hm? Despite<F1>being the <&20><FA><F7><F1>type, <&09> wants<F1>to be a <&31>?<FA><F7><F1>That['s] laughable!<F1><FA><F7><F1>"
-14_0F,"[*:] Ah, that suits<F1>being the <&20><FA><F7><F1>type well.<F1><FA><F7><&09>, you['v]e<F1>earned my respect!<FA><F7><F1>"
-14_10,"[*:] I see… Despite<F1>being the <&20><FA><F7><F1>type, <&09> wants<F1>to be a <&31>…<FA><F7><F1>Perhaps society is<F1>to blame for this…<FA><F7><F1>But, if that is<F1>what you wish,<FA><F7><F1>that is what you<F1>shall get.<FA><F7><F1>"
-14_11,"[*:] Hm? The <&20><F1>type <&09> wishes<FA><F7><F1>to be a <&31>?<F1>It may be a little<FA><F7><F1>tough, but that<F1>can['t] be helped.<FA><F7><F1>"
-14_12,"[*:] Fwahahahaha!<F1><FA><F7>In spite of being<F1>the <&20> type,<FA><F7><F1>you wish to become<F1>a <&31>?<FA><F7><F1>You must be after<F1>some laughs.<FA><F7><F1>Still, if that is<F1>what you wish…<FA><F7><F1>"
-14_13,"[*:] Ah, that['s] the<F1>perfect choice for<FA><F7><F1>the <&20> type<F1><&09>!<FA><F7><F1>"
-14_14,"[*:] Ah, the <&20><F1>type <&09> wishes<FA><F7><F1>to be a <&31>?<F1><FA><F7>My, haven['t] we<F1>grown up?<FA><F7><F1>"
-14_15,"[*:] Let me confirm,<F1>you['r]e willing to<FA><F7><F1>train again from<F1>Level 1?<xFF>"
-14_16,"[*:] Oh gods, we beg<F1>for your wise<FA><F7><F1>approval for <&09><F1>to take a new<FA><F7><F1>class!<F1><FA><F7><xE8>e"
-14_17,[*:] Fine. <&09> is<F1>now a <&31>.<FA><F7><F1><&09>['s] equipment<F1>from the previous<FA><F7><F1>class has all<F1>been removed.<FA><F7>
-14_18,"[*:] I am a cleric.<F1><FA><F7>I serve Marinan,<F1>the God of Names.<FA><F7><F1>If any of you wish<F1>to change your<FA><F7><F1>name, speak to me.<F1>Well? Anyone?<xFF><F1>"
-14_19,[*:] Fine. Come see<F1>me anytime if you<FA><F7><F1>wish to change<F1>your name.<FA><F7><F1>May the God of<F1>Names protect you.<F7>
-14_1A,[*:] Who wishes to<F1>change their name?<FA><F7>
-14_1B,[*:] Anyone else wish<F1>to change names?<xFF>
-14_1C,[*:] Hm? Is that…<F1>A bag?<FA><F7><F1>Hahahahah! Fine!<F1><FA><F7>I find it charming<F1>that you wish to<FA><F7><F1>give a name to an<F1>item.<FA><F7><F1>What do you wish<F1>to name the <&09>?<FA><F7>
-14_1D,"[*:] Oh, goodness me!<F1>That name has<FA><F7><F1>earned the ire of<F1>the God of Names!<FA><F7><F1>That name cannot<F1>be changed!<FA><F7><F1>However, if you<F1>must change it,<FA><F7><F1>you must appease<F1>the God of Names.<FA><F7><F1>It will cost<F1>5000G to do so.<FA><F7><F1>Is that acceptable<F1>to you?<xFF><F1>"
-14_1E,"[*:] Then, the name<F1>shall remain the<FA><F7><F1>way it is.<F1><FA><F7>"
-14_1F,[*:] So <&09> wishes<F1>for a new name?<FA><F7><F1>What should be the<F1>new name?<FA><F7>
-14_20,"[*:] Hm? You don['t]<F1>appear to have<FA><F7><F1>that much money.<F1>You have to live<FA><F7><F1>with that name, at<F1>least for now.<FA><F7><F1>"
-14_21,"<&40> offered<F1>5000G.<FA><F7><F1>[*:] Ah, fine.<F1><FA><F7>What name does<F1><&09> desire?<FA><F7>"
-14_22,[*:] Oh? You won['t]<F1>change names?<FA><F7><F1>That['s] fine.<F1><FA><F7>
-14_23,"[*:] <&00>? Uh-oh…<F1><FA><F7>The God of Names<F1>refused that name!<FA><F7><F1>Sorry, but you['l]l<F1>have to choose a<FA><F7><F1>different name.<F1><FA><F7>"
-14_24,"[*:] Ah, so you wish<F1>to go back to your<FA><F7><F1>original name?<F1><FA><F7>It['s] good that you<F1>cherish the name<FA><F7><F1>given to you by<F1>your parents. Hm!<FA><F7><F1><&09> shall once<F1>again become <&00>.<FA><F7><F1>Is that what you<F1>wish?<xFF><F1>"
-14_25,[*:] Hm. Perhaps a<F1>different name?<xFF><F1>
-14_26,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>Let <&09> take the<F1>original name of<FA><F7><F1><&00> again!<F1><FA><F7>There! Your name<F1>is back to <&00>!<FA><F7>"
-14_27,[*:] <&00> is it? Hm?<F1><FA><F7>Someone goes by<F1>that name already.<FA><F7>
-14_28,[*:] <&00>?<F1>Are you serious<FA><F7><F1>about assuming<F1>such a name?<xFF>
-14_29,[*:] It won['t] be my<F1>fault if the God<FA><F7><F1>of Names becomes<F1>enraged.<FA><F7><F1>Do you still wish<F1>for that name?<xFF><F1>
-14_2A,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>May you bless the<F1>new name of <&00>…"
-14_2B,[*:] Awaaaah!<F1><FA><F7>I told you!<F1><FA><F7>The God of Names<F1>is furious!<FA><F7><F1>Your name shall be<F1><&00> forever!<FA><F7>
-14_2C,[*:] <&00>?<F1><FA><F7>Are names that<F1>meaningless?<xFF>
-14_2D,[*:] You claim names<F1>are meaningful…<FA><F7><F1>But you still wish<F1>for that name?<xFF><F1>
-14_2E,[*:] Fine. <&09> shall<F1>be renamed <&00>.<FA><F7><F1>That is what you<F1>wish?<xFF><F1>
-14_2F,[*:] Then choose a<F1>different name.<FA><F7><F1>What name does<F1><&09> desire?<FA><F7>
-14_30,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>May you bless the<F1>new name of <&00>!<FA><F7>"
-14_31,[*:] Fine! <&09> has<F1>been blessed to<FA><F7><F1>assume the new<F1>name of <&00>!<FA><F7>
+04_1E,＊「しかし　ざんねんだったな.<F1><FA><F7>＊「おかしらは　<xE5>C<F1>　　シャンパ-ニの<xE5><xEE>よ.<F7>
+04_1F,＊「けっ!　まさか　おめえも[・・・]<F1><FA><F7>＊「おかしらを　おってきたんじゃ<F1>　　ないだろうな.<FA><F7>
+04_20,＊「わるいことは　いわねえ.<F1><FA><F7>＊「オレたちのきげんが　いいうちに<F1>　　とっとと　けえりな!<F7>
+05_00,<EA>＊「<xE5>タき<xE5>ぴせ!<F1><F7>
+05_01,<EA>＊「<xE5>タき<xE5>ぴした<xE5>Kが　いいぞ!<F7>
+05_02,<EA>＊「ふぁっ　ふぁっ　ふぁ[・・・]<F1><FA><F7>＊「お<xE5><EA>の　いしの<xE5><&2E>だけは<F1>　　みとめよう.だが[・・・][・・・]<FA><F7><F1>＊「<xE5>てこう<xE5>ぐずなだけでは<F1>　　ゆうきがあるとは　いえぬ.<FA><F7><F1>＊「<xE5><F7>には　<xE5>Dのことばにしたがう<F1>　　ゆうきもまた　<xE5>♂<xE5><FB>なのじゃ.<F7>
+06_00,<EA>＊「どんな　あらしが<xE5>しようと[・・・]<F1><FA><F7>＊「わしの<xE5>Vは　ぜったいに<F1>　　しずまないのだ!　わはははは!<F7>
+06_01,<EA>＊「ひひひっ[・・・].　ゆうれい<xE5>Vには<F1>　　しかばねが　ふさわしかろう.<FA><F7><F1>＊「おまえも　<xE5>ネぬがいい!<F1><F7>
+06_02,＊「おや?　あなたは　ぼうれいでは<F1>　　なさそうだ.<FA><F7><F1>＊「さては　あなたも<F1>　　<xE5>ボ<xE5>デが　お<xE5>か<xE5>ちてですね.<FA><F7><F1>＊「でも　この<xE5>Vに　いるのは<F1>　　ぼうれいばかり[・・・]まいりましたよ.<F7>
+06_03,<EA>＊「あ　あらしが<xE5>しる[・・・][・・・]　かぜが[・・・]<F1>　　なみが[・・・][・・・]　ああ!<F7>
+06_04,<EA>＊「おれたちゃ　ドレイよ!<F1>　　ギ-コ　ギコ!<F7>
+06_05,<EA>＊「つれ-よお[・・・][・・・].<F7>
+06_06,<EA>＊「<xE5>ネんじまってても　<xE5>Vが<F1>　　こげるなんて　<xE5>んらなかったよ.<FA><F7><F1>＊「ハハハ[・・・][・・・].<F1><F7>
+06_07,<FE>へんじが　ない[・・・][・・・].<F1>ただの　しかばねのようだ.
+06_08,<EA>＊「<xE5>Vをこぐのは　ドレイか<F1>　　ざいにんのしごとなのさ.<F7>
+06_09,<EA>＊「おぼれて　<xE5>ネぬのは　くるしい[・・・]<F1><FA><F7>
+06_0A,<EA>＊「いやだ!　<xE5>ネにたくねえよお!<F1><F7>
+06_0B,＊「おら　<xE5>Dをころしちまったでな.<F1><FA><F7>＊「どんな　<xE5>ネにかたしたって<F1>　　しかたねえって　<xE5>どうだよ.<FA><F7><F1>＊「でも　そこにいた　エリックって<F1>　　やつは　むじつのつみだったって[・・・]<FA><F7><F1>＊「かわいそうになあ[・・・][・・・].<F1><F7>
+06_0C,エリック「オリビア[・・・]　もう<xE5>Vが<F1>　　しずんでしまう[・・・]<FA><F7><F1>エリック「キミには　もう<F1>　　えいえんに　<xE5>Uえなくなるんだね[・・・]<FA><F7><F1>エリック「でも　ぼくは　えいえんに<F1>　　<xE5>モれないよ[・・・]<FA><F7><F1>エリック「キミとの<F1>　　あいの<xE5>どい<xE5>せを[・・・][・・・].<FA><F7><F1>エリック「せめて　キミだけは[・・・]<F1>　　しあわせに　<xE5>Sきておくれ[・・・][・・・].<F7>
+06_0D,<FE>しかし　そのかおには　<xE5>レらかな<F1>ほほえみが　うかんでいる[・・・].<F7>
+07_00,<EA>＊「ついに　ここまで<xE5>したか<F1>　　<&40>よ.<FA><F7><F1>＊「この　だいまおうバラモスさまに<F1>　　さからおうなどと[・・・]<FA><F7><F1>＊「みのほどを　わきまえぬ<F1>　　<xE5>ぎたちじゃな.<FA><F7><F1>バラモス「ここに　<xE5>したことを<F1>　　くやむが　よい.<FA><F7><F1>バラモス「ふたたび　<xE5>Sき<xE5>ぴらぬよう[・・・]<F1><FA><F7>バラモス「そなたらの　ハラワタを<F1>　　くらいつくしてくれるわっ!<F7>
+07_01,<EA>バラモス「おろかものめ!<F1><FA><F7>バラモス「まだ　このバラモスさまに<F1>　　さからおうと　いうのか!<FA><F7><F1>バラモス「みのほどを<F1>　　わきまえぬにも　ほどがあるぞ.<FA><F7><F1>バラモス「ふむ　まあ　よいわ.<F1>　　なんど　こようと　ムダなこと.<FA><F7><F1>バラモス「この　バラモスさまが[・・・]<F1><FA><F7>バラモス「どれほど　<xE5>ヂ<xE5>5かを<F1>　　<xE5>どい<xE5>んらせてくれるわっ!<F7>
+07_02,<EA>バラモス「ぐうっ[・・・][・・・]<F1>　　お[・・・]おのれ　<&40>[・・・][・・・]<FA><F7><F1>バラモス「わ[・・・]わしは[・・・][・・・]<F1>　　あきらめ[・・・]ぬぞ[・・・]ぐふっ!<FA><F7>
+07_03,<FE>あたたかい<xE5>そが　あたりを<F1>つつむ[・・・][・・・].
+07_04,<FE><&00>は　<xE5>Sき<xE5>ぴった!<F1><F7>
+07_05,<FE><&40>たちの　HPとMPが<F1>かいふくした!<FA><F7>
+07_06,<FE>どこからともなく　<xE5>▶が　きこえる[・・・]<F1><FA><F7>
+07_07,<EB><&40>[・・・]　<&40>[・・・]<F1><xE5>すの<xE5>▶が　きこえますね?<FA><F7><F1>あなたたちは　<xE5>た<xE5>ちに<F1>よく　がんばりました.<FA><F7><F1>さあ　おかえりなさい.<F1><FA><F7>あなたたちを　まっている<F1><xE5>D<xE5>なのところへ[・・・][・・・].<F7>
+08_00,＊「この<xE5>5<xE5>°に　<xE5>Eっていった<xE5>ぎは<F1>　　だれひとり　かえってこぬ.<FA><F7><F1>＊「<xE5>°の<xE5>6が　どうなっているのか<F1>　　だれも　<xE5>んらぬのだ.<FA><F7><F1>＊「もし　そなたの　なかまが<F1>　　こんらんして[・・・]<FA><F7><F1>＊「<xE5>°に　とびこもうと　した<xE5><F7>などは<F1>　　たたいてでも<xE5>き<xE5>へづかせることだ.<FA><F7><F1>＊「こんらんは　たたいて　なおす.<F1><FA><F7>＊「これは　せんとうちゅうでも<F1>　　いえることだがな.<F7>
+08_01,＊「たいへんだ!<F1><FA><F7>＊「ものすごい　<xE5>るひびきがして<F1>　　ひびわれが　はしったのだ!<FA><F7><F1>＊「<xE5>やか　<xE5>ム<xE5>5なものが　この<xE5>5<xE5>°を<F1>　　とおっていった　ようなのだ!<FA><F7><F1>＊「そして　<xE5>すのあいぼうが<F1>　　この<xE5>°に[・・・][・・・]　ああ!<F7>
+08_02,＊「ここは　ギアガの<xE5>5<xE5>°.<F1>　　われらは　ここを<xE5>ぐはっている.<FA><F7><F1>＊「<xE5><F7><xE5>な　やって<xE5>しる<xE5>ぎがいるのだ.<F1><FA><F7>＊「<xE5>D<xE5>Sを　はかなんで<F1>　　みを<xE5>プげようと　する<xE5>ぎがな.<FA><F7><F1>＊「どう<xE5>ぐても　<xE5>り<xE5>ユへ<F1>　　つながってるとは　<xE5>どえぬがな.<F7>
+09_00,＊「ほって　ほって　ほりぬいて<F1>　　ほって　ほって　またほって　と.<F7>
+09_01,＊「おれたちは　トンネルを<F1>　　ほってるんだ.<F7>
+09_02,＊「ほって　ほって[・・・][・・・].<F1><FA><F7>＊「ああ　<xE5>おく　リムルダ-ルに<F1>　　<xE5>”きてえもんよなあ[・・・][・・・].<F7>
+09_03,＊「えい　こ-ら.<F1>　　えい　こ-ら.<F7>
+0A_00,＊「なんだって?　<xE5>る<xE5>3に<F1>　　<xE5><F8>が　やってきたって?<FA><F7>
+0A_01,＊「こりゃ　モタモタしてらんねえっ.<F1><FA><F7>＊「みんな　こんじょう<xE5>Eれて<F1>　　ほりすすめっ!<F7>
+0A_02,＊「おうっ!!<F1><F7>
+0A_03,＊「リムルダ-ルの<xE5>むが<F1>　　オレを　よんでるぜっ!<F7>
+0A_04,＊「うお-っ　<xE5>おく　<xE5>ワの<xE5>そを<F1>　　あびたいぜっ!<F7>
+0B_00,<FE>どこからともなく　ぶきみな<xE5>▶が<F1>きこえてきた[・・・][・・・].<FA><F7><F1><EA>＊「われらは　まおうの<xE5>ニ<xE5>ぉを<F1>　　<xE5>つる<xE5>ぎ!<FA><F7><F1>＊「われらを　たおさぬかぎり<F1>　　<xE5>みには　すすめぬぞ!<F7>
+0B_01,<FE>なんと!　1<xE5>Dの<xE5><xEC>が<F1><xE5>ダ<xE5>:と　<xE5>げっている!<F7>
+0B_02,＊「だ　だれか　そこに<F1>　　いるのか[・・・][・・・]?<FA><F7><F1>＊「<xE5>すには　もう　なにも<xE5>ぐえぬ[・・・]<F1>　　なにも　きこえぬ[・・・][・・・].<FA><F7><F1>＊「も　もし　だれか　いるのなら<F1>　　どうか　<xE5>まえてほしい.<FA><F7><F1>＊「<xE5>すは　アリアハンのオルテガ.<F1>　　<xE5>C　すべてを　<xE5>どい<xE5>せした.<FA><F7><F1>オルテガ「も　もし　そなたが[・・・]<F1><FA><F7>オルテガ「アリアハンに　<xE5>”くことが<F1>　　あったなら[・・・][・・・].<FA><F7><F1>オルテガ「その<xE5>ユに　<xE5>ャむ<F1>　　<&40>をたずね[・・・]<FA><F7><F1>オルテガ「オルテガが<F1>　　こういっていたと　<xE5>まえてくれ.<FA><F7><F1>オルテガ「<xE5>く<xE5>けな<xE5>Oに　できなかった<F1>　　この<xE5>8を　ゆるしてくれ[・・・]とな.<FA><F7><F1>オルテガ「ぐふっ!<F1><F7>
+0B_03,<EA>ゾ-マ「<&40>よ!<F1><FA><F7>ゾ-マ「わが　いけにえの　さいだんに<F1>　　よくぞ　<xE5>した!<FA><F7>
+0B_04,<EA>ゾ-マ「ほほう　こりもせず<F1>　　また　やってきたようだな.<FA><F7><F1>ゾ-マ「<&40>よ　<xE5>やゆえ[・・・]<F1><FA><F7>ゾ-マ「ありもせぬ　きぼうに<F1>　　それほど　しがみつくのだ.<FA><F7>
+0B_05,<EA>ゾ-マ「われこそは　すべてを<F1>　　ほろぼすもの!<FA><F7><F1>ゾ-マ「すべての　<xE5>ジを<F1>　　わが　いけにえとし[・・・]<FA><F7><F1>ゾ-マ「ぜつぼうで　<xE5>O<xE5>びを<F1>　　おおいつくしてやろう!<FA><F7><F1>ゾ-マ「<&40>よ!<F1>　　わが　いけにえと　なれい!<FA><F7><F1>ゾ-マ「<xE5>せでよ　わが　しもべたち!<F1><FA><F7>ゾ-マ「こやつらを　ほろぼし　その<F1>　　くるしみを　わしに　ささげよ!<F7>
+0B_06,<EA>ゾ-マ「<&40>よ!<F1>　　なにゆえ　もがき　<xE5>Sきるのか?<FA><F7><F1>ゾ-マ「ほろびこそ　わが　よろこび.<F1>　　<xE5>ネにゆく<xE5>ぎこそ　うつくしい.<FA><F7><F1>ゾ-マ「さあ　わが　うでの<xE5>6で<F1>　　いきたえるがよい!<F7>
+0B_07,<EA>ゾ-マ「<&40>よ[・・・][・・・].<F1>　　よくぞ　わしを　たおした.<FA><F7>
+0B_08,<EA>ゾ-マ「だが　<xE5>そあるかぎり<F1>　　やみも　また　ある[・・・][・・・].<FA><F7>
+0B_09,<EA>ゾ-マ「わしには　<xE5>ぐえるのだ.<F1><FA><F7>ゾ-マ「ふたたび　<xE5>や<xE5>ぎかが<F1>　　やみから　あらわれよう[・・・][・・・].<FA><F7>
+0B_0A,<EA>ゾ-マ「だが　その<xE5><F7>は　おまえは<F1>　　<xE5>9<xE5>ァいて　<xE5>Sきては　いまい.<FA><F7><F1>ゾ-マ「わははは[・・・][・・・]っ.ぐふっ!<F1><F7>
+0B_0B,<FE><xE5>Nの<xE5>3のほうで　なにかが<F1>とじたような　おとがした.<F7>
+0B_0C,<FE>なんと　<&00>が　<xE5>Sき<xE5>ぴった!
+0C_00,＊「こっくり　こっくり[・・・][・・・].<F1><F7>
+0C_01,＊「おお　やっと<xE5>したようじゃな.<F1>　　そうか　<&40>というのか.<FA><F7>
+0C_02,＊「わしは　いくどとなく　おまえに<F1>　　カギをわたす　ゆめを　<xE5>ぐていた.<FA><F7><F1>＊「だから　おまえに　この<F1>　　とうぞくのカギを　わたそう.<FA><F7><F1>＊「<xE5>ハけ<xE5>じって　くれるな?<F1><xFF>
+0C_03,＊「そうか.　わしのゆめも　たまには<F1>　　<xE5>ワれることが　あるでなあ[・・・][・・・].<F7>
+0C_04,<FE><&00>は　とうぞくのカギを<F1><xE5>ハけ<xE5>じった!<FA><F7>
+0C_05,＊「ところで　<&00>よ.<F1><FA><F7>＊「この<xE5>O<xE5>びには　そなたの<F1>　　<xE5>ぽ<xE5><F1>を　<xE5>サえてしまうほど<FA><F7><F1>＊「えいきょうりょくのある<xE5>たが<F1>　　そんざいする.<FA><F7><F1>＊「もし　そのような<xE5>たを　<xE5>ぐつけたら<F1>　　<xE5>へをつけて　よむことじゃな.<FA><F7><F1>＊「では　ゆくがよい　<&00>よ.<F1>
+0C_06,＊「わしは　ゆめのつづきを<F1>　　<xE5>ぐるとしよう.<F7>
+0C_07,＊「こっくり　こっくり[・・・][・・・].<F1>　　ムニャ　ムニャ[・・・][・・・]<FA><F7>
+0C_08,＊「おお　やっと<xE5>したようじゃな.<F1><FA><F7>＊「おや?　<&40>は[・・・][・・・]<F1>　　なんと　カンオケの<xE5>6とな!?<FA><F7>
+0C_09,＊「いくどとなく　<&40>に[・・・]<F1><FA><F7>＊「カギをわたすゆめを　<xE5>ぐていたと<F1>　　いうのに[・・・][・・・].<FA><F7><F1>＊「まあ　ええ.<F1><FA><F7>＊「<xE5>ょわりに　この　とうぞくのカギを<F1>　　<xE5>ハけ<xE5>じって　くれるな?<xFF>
+0C_0A,＊「よく　<xE5>した　<&40>よ.<F1>　　カギは　<xE5>ぞに<xE5>ソったかな?<xFF>
+0C_0B,＊「ふむ!　やっぱり　わしのゆめは<F1>　　よく　<xE5>ちたる!<F7>
+0C_0C,＊「ゆめのとおりに　したんだがなあ.<F1><F7>
+0C_0D,＊「おお　しばらくぶりの<F1>　　お<xE5>/さんだ!　うれしいなあ.<FA><F7>
+0D_00,＊「ここが　あくみょうたかい<F1>　　シャンパ-ニの<xE5><xEE>だぜ!<F7>
+0D_01,＊「あの　カンダタを　たおすとは[・・・]<F1><FA><F7>＊「あんた　よほど　ゆうめいな<F1>　　とうぞく　なんだな.<F7>
+0D_02,＊「この<xE5><xEE>には　<xE5><F2>から[・・・]<F1><FA><F7>＊「いろんな　とうぞくどもが<F1>　　<xE5>ャみついてるらしい.<F7>
+0D_03,＊「おいっ!<F1>　　<xE5>サなやつらが　<xE5>したぞっ!<F7>
+0D_04,＊「よしっ!　おかしらに<F1>　　<xE5>んらせに<xE5>”こう!<F7>
+0D_05,＊「よく　ここまで　<xE5>しられたな.<F1>　　ほめてやるぜ!<FA><F7><F1>＊「だが　オレさまを　つかまえる<F1>　　ことは　だれにも　できん.<FA><F7><F1>＊「さらばだ!　わっははは!<F1><F7>
+0D_06,＊「しつこいやつらめ!<F1>　　やっつけてやる!<F7>
+0D_07,カンダタ「まいった!<F1><FA><F7>カンダタ「<xE5>べのかんむりを　<xE5>ぴすから<F1>　　ゆるしてくれよ!　な!　な!<xFF>
+0D_08,カンダタ「そんなこと　いわずにさ<F1>　　ゆるしてくれよ!　な!　な!<xFF>
+0D_09,カンダタ「ありがてえ!<F1><FA><F7>カンダタ「あんたのことは<F1>　　<xE5>モれないよ.　じゃあな!<F7>
+0D_0A,<FE>なんと!<F1><xE5>べのかんむりを　<xE5>ぐつけた!
+0D_0B,<FE><&00>は<F1><xE5>べのかんむりを　<xE5>こに<xE5>Eれた!<F7>
+0E_00,<EB>＊「<xE5>D<xE5>Sとは　さとりと　すくいを<F1>　　<xE5>ぺめる　じゅんれいの<xE5>[Lv].<FA><F7><F1>＊「ガルナの<xE5><xEE>へ　ようこそ.<F1><F7>
+0E_01,<EB>＊「この<xE5><xEE>のどこかに　さとりの<xE5>がと<F1>　　よばれる<xE5>:が　ねむっています.<FA><F7><F1>＊「さとりの<xE5>ががあれば<F1>　　けんじゃにも　なれましょう.<F7>
+0E_02,<FE>＊「[・・・][・・・][・・・][・・・]　[・・・][・・・][・・・][・・・].<F1><FA><F7><xE3>＊「これ!　めいそうの　じゃまを<F1>　　するでない!<F7>
+0F_00,＊「このとうだいに　<xE5>したのは<F1>　　せいかいだったぜ.<FA><F7><F1>＊「<xE5>ケの<xE5><xEC>の　オレさまが<F1>　　<xE5>O<xE5>びのことを　おしえてやる!<FA><F7><F1>＊「ここからみなみ　りくにそって<F1>　　<xE5>Vをこげば[・・・]<FA><F7><F1>＊「やがて　テドンのみさきを<F1>　　まわるだろう.<FA><F7><F1>＊「そして　テドンのみさきから<F1>　　ずっとひがしへ<xE5>”けばランシ-ル.<FA><F7><F1>＊「さらに　アリアハンたいりくが<F1>　　<xE5>ぐえるだろう.<FA><F7><F1>＊「アリアハンたいりくから<F1>　　ずっと<xE5>Pへ　<xE5>Vで<xE5>”くと[・・・]<FA><F7><F1>＊「おうごんの<xE5>ユ　ジパング.<F1><FA><F7>＊「で　<xE5>O<xE5>びのどこかにある　6つの<F1>　　オ-ブを　あつめた<xE5>ぎは[・・・]<FA><F7><F1>＊「<xE5>Vを　<xE5>♂<xE5><FB>としなくなるって<F1>　　はなしだ.<FA><F7><F1>＊「とにかく　みなみに　<xE5>”ってみな.<F1><FA><F7>＊「おっと　それから<F1>　　<xE5>Cのオレのことばを[・・・]<FA><F7><F1>＊「よおく　<xE5>Tに<F1>　　きざみこんでおけよ.<F7>
+10_00,＊「ようせいのふえを<xE5>・っているならば<F1>　　この<xE5><xEE>の　5かいに<xE5>”きなされ.<F7>
+10_01,＊「かいてんする　ゆかは　<xE5>グき<xE5>Kを<F1>　　<xE5><F6>えてからすすめば<xE5>グけるはずだ.<FA><F7><F1>＊「ただ　がむしゃらにすすむだけでは<F1>　　まことのゆうしゃとは　いえまい.<F7>
+10_02,<FE><&40>は　<xE5>かの<xE5><EA>の<F1>せきぞうを　ながめた.<FA><F7><F1>ふしぎな　きひんのただよう<F1>うつくしい　めがみぞうだ.<F7>
+10_03,<EB>＊「ああ　まるで　ゆめのよう!<F1><FA><F7>＊「よくぞ　ふういんを<F1>　　といてくれました.<FA><F7><F1>＊「<xE5>すは　せいれいルビス.<F1><FA><F7>＊「このアレフガルドの　<xE5>5<xE5>るを<F1>　　<xE5>うった<xE5>ぎです.<FA><F7><F1>＊「お<xE5>にに　<&40>に[・・・]<F1><FA><F7>＊「この　せいなるまもりを<F1>　　さしあげましょう.<FA><F7><F1>＊「そして　もし　だいまおうを<F1>　　たおしてくれたなら[・・・]<FA><F7><F1>＊「きっと　いつか<F1>　　その　おんがえしをしますわ.<FA><F7><F1>＊「<xE5>すは　せいれいルビス.<F1><FA><F7>＊「この<xE5>ユに　<xE5>く<xE5>けが<xE5>しることを<F1>　　いのっています.<F7>
+11_00,<FE>オルテガと　キングヒドラが<F1>にらみあっている!<FA><F7>
+11_01,<FE>オルテガの　こうげき!<F1>
+11_02,<FE>キングヒドラに<F1>99の　ダメ-ジ!!
+11_03,<FE>キングヒドラの　こうげき!<F1>
+11_04,<FE>ミス!　オルテガは<F1>ダメ-ジを　うけない!
+11_05,<FE>オルテガは<F1>バギクロスを　となえた!
+11_06,<FE>キングヒドラに<F1>106の　ダメ-ジ!!
+11_07,<FE>キングヒドラは<F1>もえさかる　かえんをはいた!
+11_08,<FE>オルテガは<F1>90の　ダメ-ジをうけた!!
+11_09,<FE>オルテガは<F1>ベホマを　となえた!
+11_0A,<FE>オルテガの　キズが<F1>かいふくした!
+11_0B,<FE>オルテガは<F1>ライデインを　となえた!
+11_0C,<FE>キングヒドラに<F1>78の　ダメ-ジ!!
+11_0D,<FE>オルテガは<F1>120の　ダメ-ジをうけた!!
+11_0E,<FE>しかし　MPが　たりない!<F1>
+11_0F,<FE>オルテガは<F1>80の　ダメ-ジをうけた!!
+11_10,<FE>オルテガは<F1>70の　ダメ-ジをうけた!!
+12_00,<FE><&40>は　ガイアの<xE5>チを<F1><xE5>M<xE5>Gの<xE5>M<xE5>れに　なげ<xE5>Eれた!<F7>
+13_00,<FE>どこからともなく　かなしげな<F1>うたごえが　きこえる[・・・][・・・].<F7>
+13_01,<FE><&40>は　あいのおもいでを<F1>そらに　かざした!<FA>
+13_02,<FE>エリックと　オリビア.<F1><FA><F7>2<xE5>Dの　あいの<xE5>どい<xE5>せが<F1>あたりを　つつむ.
+13_03,<EB>＊「ああ　エリック!<F1>　　<xE5>すの　いとしきひと.<FA><F7><F1>＊「あなたを　ずっと<F1>　　まっていたわ.<F7>
+13_04,＊「オリビア　ぼくのオリビア<F1>　　もうきみを　はなさない!<F7>
+13_05,<EB>＊「エリック-ッ!<F1><F7>
+13_06,<FE>オリビアの<xE5>さいが　とけた!<F1><F7>

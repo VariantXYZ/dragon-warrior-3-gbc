@@ -22,7 +22,7 @@ Main::
   ld a, [$c0f2]
   or a
   jr nz, .asm_181
-  ld hl, $5386
+  ld hl, $5339
   ld b, $3e
   rst $10
 .asm_181
@@ -31,18 +31,18 @@ Main::
   ld [$ff70], a
   ld [$ff56], a
   call $16e9
-  ld hl, $7361
+  ld hl, $4d3c
   ld b, $29
   rst $10
   ld hl, $473a
   ld b, $01
   rst $10
-  ld hl, $73ea
+  ld hl, $7248
   ld b, $08
   rst $10
   ld a, $ff
   ld [$c2c4], a
-  call $31df
+  call $31d9
 .asm_1a5
   call $07e0
   call $09f7
@@ -63,7 +63,7 @@ Main::
   ld [$ffbc], a
   ld a, $ff
   ld [$c25d], a
-  ld hl, $6a82
+  ld hl, $6963
   ld b, $09
   rst $10
   call $217

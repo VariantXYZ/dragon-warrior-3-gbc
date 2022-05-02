@@ -1,178 +1,119 @@
 ﻿Index,Text
-00_00,[*:] Hey!<F1><&40>['s] back!<F7>
-00_01,[*:] The hero!<F1><FA><F7>The hero['s] back<F1>from defeating<FA><F7><F1>Baramos!<F1><F7>
-00_02,"<EB>[*:] Yay, yay!<F1><F7>"
-00_03,[*:] This… This means<F1>peace at last…<F7>
-00_04,"<EB>[*:] Bless you, and<F1>thank you, <&40>!<F7>"
-00_05,<EB>[*:] Welcome back to<F1>Aliahan!<FA><F7><F1>Word that you<F1>defeated Baramos<FA><F7><F1>has already gotten<F1>to us!<F7>
-00_06,[*:] You defeated the<F1>Demon Lord…<FA><F7><F1>You are a true<F1>hero!<F7>
-00_07,[*:] Hurry to the<F1>Castle!<FA><F7><F1>The King must be<F1>delighted!<F7>
-00_08,[*:] Leave it to<F1>Ortega['s] child!<FA><F7><F1>It['s] the arrival<F1>of a young hero!<F7>
-00_09,<EB>[*:] The Demon Lord<F1>Baramos is gone.<FA><F7><F1>Does that mean the<F1>monsters will go<FA><F7><F1>away too?<F1><FA><F7>I want to go<F1>outside…<F7>
-00_0A,[*:] This will surely<F1>bring about peace!<F7>
-00_0B,[*:] You['r]e the one<F1>who defeated the<FA><F7><F1>Demon Lord?<F1>Amazing!<F7>
-00_0C,"[*:] Baramos may be<F1>gone, but my job<FA><F7><F1>doesn['t] change.<F1><F7>"
-00_0D,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1>I… I['m] so happy to<F1>see you…<FA><F7><F1>If only… If only<F1>your father were<FA><F7><F1>here to see you…<F1>Oh, <&40>…<F7>"
-00_0E,[*:] Incredible that<F1>my grandchild<FA><F7><F1>could be such a<F1>hero!<F7>
-00_0F,[*:] Greatness begets<F1>greatness.<FA><F7><F1>And so on down the<F1>line. Hohohoh!<F7>
-00_10,<EB>[*:] So you defeated<F1>Baramos? Wow!<FA><F7><F1>I knew that you<F1>were special!<F7>
-00_11,"[*:] If you['r]e taking<F1>anyone, a warrior,<FA><F7><F1>cleric and a mage<F1>are best! Hic!<F7>"
-00_12,<EB>[*:] This should save<F1>the world['s] people.<FA><F7><F1>I thank you from<F1>the heart.<F7>
-00_13,[*:] You are a truly<F1>great hero!<F7>
-00_14,<EB>[*:] Meooow.<F7>
-00_15,[*:] You say you slew<F1>Baramos?<FA><F7><F1>Isn['t] that<F1>something!<F7>
-00_16,"[*:] Hurry, the King<F1>is waiting!<F7>"
-00_17,"[*:] Hail <&40>, the<F1>hero!<F7>"
-00_18,"<EB>[*:] Baramos is gone,<F1>but…<FA><F7><F1>I['m] still not<F1>allowed to go out.<FA><F7><F1>Father just didn['t]<F1>want me to go out<FA><F7><F1>from the Castle,<F1>that['s] all it was…<F7>"
-00_19,[*:] The Demon Lord<F1>Baramos…<FA><F7><F1>What exactly was<F1>his purpose?<F7>
-00_1A,[*:] Ortega should be<F1>able to rest easy…<F7>
-00_1B,"[*:] Thanks to you,<F1>business will be<FA><F7><F1>easier.<F1>I['m] grateful!<F7>"
-00_1C,<EB>[*:] Oh… Baramos is<F1>gone…<FA><F7><F1>It['s] like a dream!<F1><F7>
-00_1D,[*:] Please! Hurry to<F1>his Majesty!<F7>
-00_1E,[*:] Your feat will<F1>raise Aliahan['s]<FA><F7><F1>stature throughout<F1>the land!<FA><F7><F1>What a fine cause<F1>for celebration!<F7>
-00_1F,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Ortega['s] son has<F1>triumphed!<FA><F7><F1>The entire kingdom<F1>sings your praise!<FA><F7><F1>Come, let us all<F1>celebrate!<F7>"
-00_20,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Ortega['s] daughter<F1>has triumphed!<FA><F7><F1>The entire kingdom<F1>sings your praise!<FA><F7><F1>Come, let us all<F1>celebrate!<F7>"
-00_21,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Not only that, you<F1>triumphed over the<FA><F7><F1>immensely powerful<F1>being alone!<FA><F7><F1>No denying you['r]e<F1>Ortega['s] child!<FA><F7><F1>You['r]e inordinately<F1>powerful.<FA><F7><F1>In recognition of<F1>your magnificence,<FA><F7><F1>let me confer a<F1>special reward.<FA><F7><F1>Take this!<F1><FA><F7><FE><&40> obtained the<F1>Bastard Sword!<FA><F7><F1><xE3>King: Come, let us<F1>all celebrate!<F7>"
-00_22,"<EA>[*:] Wahahahah!<F1><FA><F7>Did I startle you<F1>in your moment of <FA><F7><F1>celebration?<F1><FA><F7>My name is Zoma.<F1><FA><F7>Zoma: I rule the<F1>dark world.<FA><F7><F1>So long as I live,<F1>this world too<FA><F7><F1>shall be smothered<F1>in darkness.<FA><F7><F1>Suffer and despair<F1>for me.<FA><F7><F1>Your suffering is<F1>my joy…<FA><F7><F1>All that has life<F1>shall become my<FA><F7><F1>sacrifice.<F1><FA><F7>The world will<F1>know despair.<FA><F7><F1>My name is Zoma,<F1><FA><F7>the Destroyer of<F1>All.<FA><F7><F1>I will savor the<F1>day when you are<FA><F7><F1>sacrificed to me.<F1>Wahahahahah!<F7>"
-00_23,"King: How could<F1>this be…<FA><F7><F1>I thought that<F1>peace returned…<FA><F7><F1>How could I tell<F1>the people that<FA><F7><F1>darkness will soon<F1>be upon us…<FA><F7><F1><&40>, Zoma, the<F1>Demon King, must<FA><F7><F1>be kept a secret.<F1><FA><F7>I['m] tired…<F1>You may go…<F7>"
-00_24,[*:] It is a terrible<F1>thing…<FA><F7><F1>His Majesty has<F1>lost his will…<FA><F7><F1>I will stand in<F1>his place for a<FA><F7><F1>short while…<F1><FA><F7>
-00_25,"[*:] Wasn['t] his<F1>Majesty delighted?<FA><F7><F1>Oh, forgive me, I<F1>shouldn['t] ask about<FA><F7><F1>something that<F1>obvious.<F7>"
-00_26,[*:] Was there an<F1>earthquake?<xFF><F1>
-00_27,"[*:] It wasn['t] very<F1>strong, was it?<F7>"
-00_28,[*:] Is that right?<F1>I imagined it…<F7>
-00_29,[*:] That earthquake<F1>we just had…<FA><F7><F1>I get the feeling<F1>that it wasn['t] an<FA><F7><F1>ordinary quake.<F1><FA><F7>I hope it['s] not an<F1>evil omen…<F7>
-00_2A,[*:] I heard a lot of<F1>noise upstairs…<FA><F7><F1>Did something<F1>happen?<xFF>
-00_2B,"[*:] The Demon King<F1>appeared?<FA><F7><F1>Hahaha, that['s]<F1>rich.<FA><F7><F1>We know you['v]e<F1>defeated Baramos.<F7>"
-00_2C,"[*:] Oh… Well, I hope<F1>you['r]e right.<F7>"
-01_00,[*:] Hah? You beat<F1>Baramos?<FA><F7><F1>That['s] something!<F1>Buhahaha! Hic!<F7>
-01_01,[*:] Oh? What are you<F1>doing down here?<FA><F7><F1>What? You defeated<F1>Baramos?<FA><F7><F1>Then you should<F1>march in through<FA><F7><F1>the front gates!<F1><FA><F7>They['l]l all be<F1>waiting for you!<F7>
-02_00,<EB>[*:] Welcome back to<F1>Aliahan!<F7>
-02_01,"[*:] Baramos is gone,<F1>but…<FA><F7><F1>Is that enough to<F1>restore peace?<F7>"
-02_02,[*:] You really did<F1>defeat Baramos?<xFF>
-02_03,"[*:] Yes, you['r]e<F1>right.<FA><F7><F1>But why do I feel<F1>this horrid dread?<F7>"
-02_04,[*:] That can['t] be<F1>true.<FA><F7><F1>The soldiers said<F1>they confirmed it.<F7>
-02_05,"[*:] Ah, hello!<F1><FA><F7>I haven['t] seen you<F1>for some time now…<FA><F7><F1>Pardon? A world<F1>underground?<FA><F7><F1>I don['t] understand<F1>what you['r]e saying.<F7>"
-02_06,<EB>[*:] I went outside<F1>the town a little<FA><F7><F1>while ago.<F1><FA><F7>But a Raven glared<F1>at me.<FA><F7><F1>So I came running<F1>back home.<F7>
-02_07,"[*:] Even though the<F1>Demon Lord is no<FA><F7><F1>more, the monsters<F1>won['t] go away.<F7>"
-02_08,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1><&40>, isn['t] your<F1>quest over?<FA><F7><F1>The Demon Lord has<F1>been slain, right?<FA><F7><F1>…Oh… It['s] not over<F1>yet.<FA><F7><F1>Fine. I['l]l wait<F1>for you as long as<FA><F7><F1>it takes.<F1><F7>"
-02_09,<EB>[*:] Oh? Where is my<F1><&40>?<FA><F7><F1>Please tell <&40><F1>to come home.<F7>
-02_0A,"[*:] The man in the<F1>next room, he['s]<FA><F7><F1>finally getting<F1>better.<F7>"
-02_0B,[*:] Zzzz…<F7>
-02_0C,"[*:] Your journey<F1>should be a little<FA><F7><F1>easier now, huh?<F1>Why not consider<FA><F7><F1>having a jester in<F1>your party?<F7>"
-02_0D,[*:] Lululuu~<F1>Lalalala~<F7>
-02_0E,[*:] Aren['t] you those<F1>people… You are!<FA><F7><F1>Thank you for all<F1>you['v]e done!<F7>
-02_0F,[*:] Aren['t] you those<F1>people… You are!<FA><F7><F1>Thank you for all<F1>you['v]e done!<F7>
-02_10,"[*:] Ever since the<F1>death of Baramos,<FA><F7><F1>the King has been<F1>acting oddly.<FA><F7><F1>He seems strangely<F1>subdued…<FA><F7><F1>The Duke won['t] say<F1>why, either…<F7>"
-02_11,"[*:] Whew, yep, this<F1>is really tasty!<F7>"
-02_12,[*:] Go right ahead!<F1>Take whatever!<F7>
-02_13,"[*:] But, oops, they<F1>are all empty…<F7>"
-02_14,[*:] My studies have<F1>shown that there<FA><F7><F1>is a place known<F1>as the Giana Pit<FA><F7><F1>to the northwest<F1>of here.<FA><F7><F1>It appears to hide<F1>a major secret.<F7>
-02_15,"[*:] Ah, <&00>,<F1>welcome!<F7>"
-02_16,"[*:] Hello, <&00>!<F1><FA><F7>I hear that you['r]e<F1>still continuing<FA><F7><F1>on your journey.<F1>Best of luck!<F7>"
-02_17,"<EB>[*:] It['s] been quite<F1>some time since<FA><F7><F1>Baramos' defeat.<F1><FA><F7>It['s] boring, but I<F1>guess that['s] what<FA><F7><F1>peace is supposed<F1>to be like.<F7>"
-02_18,"King: <&00>…<F1><FA><F7>Perhaps you could<F1>face Zoma too…<FA><F7><F1>No, forget I even<F1>mentioned that.<FA><F7><F1>I['m] tired…<F1>You may go…<F7>"
-02_19,"[*:] Damn! Don['t] you<F1>expect me, Bakota,<FA><F7><F1>to face the end<F1>in jail!<F7>"
-03_00,"[*:] Urp, hic!<F1>Hahahahah!<FA><F7><F1>The stars are<F1>beautiful tonight!<F7>"
-03_01,"<EB>[*:] Since Baramos'<F1>defeat, I['v]e been<FA><F7><F1>able to sleep<F1>like a child.<FA><F7><F1>It['s] something to<F1>be grateful for.<F7>"
-04_00,<EB>[*:] It['s] wonderful<F1>news!<FA><F7><F1>Aliahan['s] hero<F1>Ortega returned!<F7>
-04_01,[*:] Ortega lives!<F1>That['s] a surprise!<F7>
-04_02,[*:] I saw Ortega for<F1>the first time in<FA><F7><F1>a long while.<F1><FA><F7>He['s] looking even<F1>tougher now.<FA><F7><F1>He['s] a tiger among<F1>men!<F7>
-04_03,<EB>[*:] Mr. Ortega came<F1>back!<F7>
+00_00,＊「おおっ　<&40>が<F1>　　かえってきたぞ!<F7>
+00_01,＊「ゆうしゃだ!<F1><FA><F7>＊「ゆうしゃが　まおうバラモスを<F1>　　たおして　もどってきた!<F7>
+00_02,<EB>＊「わ-い!　わ-い!<F1><F7>
+00_03,＊「これで[・・・]　これで　<xE5>く<xE5>けが<F1>　　やってくるのじゃな[・・・][・・・].<F7>
+00_04,<EB>＊「おつかれさま[・・・][・・・]　そして<F1>　　ありがとう　<&40>さん!<F7>
+00_05,<EB>＊「アリアハンに　ようこそ<F1>　　おかえりなさいまし!<FA><F7><F1>＊「バラモスを　たおしたという<F1>　　うわさは[・・・]<FA><F7><F1>＊「すでに　ここにも<F1>　　とどいて　いますわ!<F7>
+00_06,＊「まおうバラモスを　たおして<F1>　　しまうとは[・・・][・・・]<FA><F7><F1>＊「そなたこそ<F1>　　まことの　ゆうしゃじゃ!<F7>
+00_07,＊「さあ　はやく　お<xE5>ずに!<F1><FA><F7>＊「<xE5>0さまも　きっと<F1>　　およろこび　でしょう!<F7>
+00_08,＊「さすが　オルテガの<xE5><EB><xE5>1!<F1>　　<xE5><F5>き　えいゆうの　たんじょうだ!<F7>
+00_09,<EB>＊「もう　まおうバラモスは<F1>　　いなくなったんだよねっ.<FA><F7><F1>＊「これで　まものも　いなく<F1>　　なるのかなあ.<FA><F7><F1>＊「そしたら　<xE5>ワへ<F1>　　あそびに　いけるのに.<F7>
+00_0A,＊「これで　きっと　<xE5>く<xE5>けな　<xE5>Oの<xE5>6が<F1>　　おとずれることでしょう!<F7>
+00_0B,＊「なんと　まおうバラモスを<F1>　　たおしなさったと　いうか?<FA><F7><F1>＊「たいしたもんじゃ!<F1><F7>
+00_0C,＊「バラモスが　いなくなったって<F1>　　オレのしごとは　かわらないのさ.<F7>
+00_0D,<EB>＊「おかえりなさい　<&40>.<F1><FA><F7>＊「<xE5>ゆさんは　うれしくて<F1>　　うれしくて[・・・][・・・].<FA><F7><F1>＊「<xE5>Cの　おまえのすがたを<F1>　　<xE5>8さんに　<xE5>ぐせたかったわ.<FA><F7><F1>＊「ああ　<&40>[・・・][・・・].<F1><F7>
+00_0E,＊「<&40>くらい　りっぱな<F1>　　ゆうしゃは　おらん!<FA><F7><F1>＊「このじいの　マゴじゃ!<F1><F7>
+00_0F,＊「カエルの<xE5>1は　カエル.<F1><FA><F7>＊「カエルのマゴも　また　カエルと<F1>　　いうことじゃな.ふぉっふぉっ.<F7>
+00_10,<EB>＊「バラモスを　たおしたんですって?<F1>　　すごいじゃない!<FA><F7><F1>＊「さすが　<xE5>すが<F1>　　<xE5>ぐ<xE5>Ⅲんだだけのことは　あるわね!<F7>
+00_11,＊「つれてゆくなら[・・・]<F1><FA><F7>＊「せんし　そうりょ　まほうつかいの<F1>　　3<xE5>Dがいいぜ.　ひっく!<F7>
+00_12,＊「これで<xE5>O<xE5>び<xE5>6の　<xE5>D<xE5>なが<F1>　　すくわれることでしょう.<FA><F7><F1>＊「<xE5>Tより　かんしゃ　いたしますわ.<F1><F7>
+00_13,＊「あなたこそ　まことの<F1>　　ゆうしゃです!<F7>
+00_14,<EB>＊「にゃ~ん.<F7>
+00_15,＊「なんと　まおうバラモスを<F1>　　たおしなさったと　いうか?<FA><F7><F1>＊「たいしたもんじゃ!<F1><F7>
+00_16,＊「さあ　<xE5>おく　<xE5>0さまのもとへ!<F1>　　<xE5>0が　おまちかねですぞ!<F7>
+00_17,＊「ゆうしゃ　<&40>　ばんざい!<F7>
+00_18,<EB>＊「バラモスが　いなくなったのに[・・・]<F1><FA><F7>＊「まだ　お<xE5>ずの<xE5>ワに<F1>　　あそびに　<xE5>”かせてもらえないの.<FA><F7><F1>＊「お<xE5>8さまったら[・・・]<F1><FA><F7>＊「けっきょく　<xE5>すを<xE5>ワに<F1>　　<xE5>せしたくなかった　だけなのね[・・・].<F7>
+00_19,＊「まおうバラモス[・・・]　<xE5>の<xE5>ほヤツは<F1>　　<xE5>や<xE5>ぎだったのじゃろう?<F7>
+00_1A,＊「これで　オルテガさまも<F1>　　うかばれる　ことでしょう[・・・][・・・].<F7>
+00_1B,＊「あなたの　おかげで　<xE5>ス<xE5>ぶも<F1>　　やりやすく　なりますよ.<FA><F7><F1>＊「ありがたいことです.<F1><F7>
+00_1C,<EB>＊「ああ!　バラモスが<F1>　　いなくなったなんて[・・・]<FA><F7><F1>＊「まるで　ゆめのようですわ!<F1><F7>
+00_1D,＊「さあ　はやく　<xE5>0さまのもとへ!<F7>
+00_1E,＊「これで　また　アリアハンの<xE5>ろが<F1>　　<xE5>O<xE5>びに　とどろくだろう!<FA><F7><F1>＊「めでたい!　じつに　めでたい!<F1><F7>
+00_1F,<xE5>0「おお　<&40>よ!<F1><FA><F7><xE5>0「よくぞ　まおうバラモスを<F1>　　うちたおした!<FA><F7><F1><xE5>0「さすが　オルテガの<xE5><EB><xE5>1よ!<F1><FA><F7><xE5>0「<xE5>ユ<xE5>6の<xE5>ぎが　<&40>を<F1>　　たたえるであろう.<FA><F7><F1><xE5>0「さあ　みなのもの!<F1>　　いわいのうたげじゃ!<F7>
+00_20,<xE5>0「おお　<&40>よ!<F1><FA><F7><xE5>0「よくぞ　まおうバラモスを<F1>　　うちたおした!<FA><F7><F1><xE5>0「さすが　オルテガの　むすめよ!<F1><FA><F7><xE5>0「<xE5>ユ<xE5>6の<xE5>ぎが　<&40>を<F1>　　たたえるであろう.<FA><F7><F1><xE5>0「さあ　みなのもの!<F1>　　いわいのうたげじゃ!<F7>
+00_21,<xE5>0「おお　<&40>よ!<F1><FA><F7><xE5>0「よくぞ　まおうバラモスを<F1>　　うちたおした!<FA><F7><F1><xE5>0「しかも　そなた<xE5>の<xE5>Dで[・・・]<F1><FA><F7><xE5>0「あのきょうだいなまおうをたおして<F1>　　しまうとは!<FA><F7><F1><xE5>0「さすが　オルテガの<xE5>1!<F1><FA><F7><xE5>0「なみの<xE5><&2E>ではないと<F1>　　いうことじゃなっ.<FA><F7><F1><xE5>0「うむ!　その<xE5><&2E>をたたえ<F1>　　ほうびを　とらせようぞ!<FA><F7><F1><xE5>0「さあ　<xE5>ハけ<xE5>じるがよい!<F1><FA><F7><FE><&40>は　バスタ-ドソ-ドを<F1><xE5>ハけ<xE5>じった!<FA><F7><F1><xE3><xE5>0「さあ　みなのもの!<F1>　　いわいのうたげじゃ!<F7>
+00_22,<EA>＊「わははははっ!<F1><FA><F7>＊「よろこびの　ひとときに　<xE5>Hし<F1>　　おどろかせたようだな.<FA><F7><F1>＊「わが<xE5>ろは　ゾ-マ.<F1>　　やみの<xE5>Oを　しはいするもの.<FA><F7><F1>ゾ-マ「この　わしがいるかぎり[・・・]<F1><FA><F7>ゾ-マ「やがて　この<xE5>O<xE5>びも<F1>　　やみに　とざされるであろう.<FA><F7><F1>ゾ-マ「さあ　くるしみ<F1>　　なやむがよい.<FA><F7><F1>ゾ-マ「そなたらの　くるしみは<F1>　　わしの　よろこび[・・・][・・・].<FA><F7><F1>ゾ-マ「<xE5>ジあるもの　すべてを<F1>　　わが　いけにえとし[・・・]<FA><F7><F1>ゾ-マ「ぜつぼうで　<xE5>O<xE5>びを<F1>　　おおいつくしてやろう.<FA><F7><F1>ゾ-マ「わが<xE5>ろは　ゾ-マ.<F1>　　すべてを　ほろぼすもの.<FA><F7><F1>ゾ-マ「そなたらが　わがいけにえと<F1>　　なる<xE5>Bを　たのしみにしておるぞ.<FA><F7><F1>ゾ-マ「わははははははっ[・・・][・・・][・・・][・・・]!<F1><F7>
+00_23,<xE5>0「なんとしたことじゃ[・・・][・・・].<F1><FA><F7><xE5>0「やっと　<xE5>く<xE5>けが　とりもどせると<F1>　　<xE5>どったのに[・・・][・・・].<FA><F7><F1><xE5>0「やみの<xE5>O<xE5>びが　<xE5>しるなど<F1>　　みなに　どうしていえよう[・・・][・・・].<FA><F7><F1><xE5>0「<&40>よ　だいまおうゾ-マの<F1>　　こと　くれぐれも　ひみつにな[・・・].<FA><F7><F1><xE5>0「もう　つかれた[・・・][・・・].<F1>　　さがって　よいぞ[・・・][・・・].<F7>
+00_24,＊「おいたわしや[・・・].<F1><FA><F7>＊「<xE5>0さまは　すっかり　おちからを<F1>　　なくされたようじゃ.<FA><F7><F1>＊「<xE5>0の<xE5>ょわりは　しばらくは<F1>　　わしが　することにしよう.<FA><F7>
+00_25,＊「<xE5>0さまも　よろこんで<F1>　　おられたでしょう?<FA><F7><F1>＊「いや　<xE5>ロ<xE5>に.　<xE5>ぁかりきった<F1>　　しつもんを　してしまいましたね.<F7>
+00_26,＊「さっき　じしんが　なかったか?<F1><xFF>
+00_27,＊「まあ　たいした<xE5>5きさじゃ<F1>　　なかったがの.<F7>
+00_28,＊「そうかの?　わしの<xE5>へのせい<F1>　　じゃったか.<F7>
+00_29,＊「<xE5>みほどのじしん[・・・][・・・]<F1><FA><F7>＊「ふつうのじしんでは　ないような<F1>　　<xE5>へが　するのじゃ.<FA><F7><F1>＊「よくないことが　おきなければ<F1>　　よいが[・・・][・・・].<F7>
+00_2A,＊「<xE5>3のほうで　なにか<F1>　　<xE5>5きなおとが　したようですが[・・・]<FA><F7><F1>＊「なにか　あったのですか?<F1><xFF>
+00_2B,＊「だいまおうが　あらわれた?<F1>　　はっはっは　ごじょうだんを.<FA><F7><F1>＊「バラモスは　あなたがたが<F1>　　たおしてきたでは　ありませんか.<F7>
+00_2C,＊「それならば　いいのですが[・・・][・・・].<F1><F7>
+01_00,＊「ああん?　バラモスを<F1>　　たおしたってえ?<FA><F7><F1>＊「そりゃ　すげえや[・・・][・・・]<F1>　　ははは[・・・][・・・]ひっく!<F7>
+01_01,＊「おや　こんなところに<F1>　　なによう　ですかな?<xFF><F1>＊「なんですと!　まおうバラモスを<F1>　　うちたおしてきた　ですと!?<FA><F7><F1>＊「それならば　どうどうと<F1>　　おもてから<xE5>Eるが　よろしかろう.<FA><F7><F1>＊「みんな　まっていますぞ.<F1><F7>
+02_00,<EB>＊「アリアハンに　ようこそ<F1>　　おかえりなさいまし!<F7>
+02_01,＊「たしかに　バラモスは<F1>　　いなくなったが[・・・][・・・]<FA><F7><F1>＊「それで　<xE5>く<xE5>けが　もどったと<F1>　　いえるのじゃろうか.<F7>
+02_02,＊「バラモスは　<xE5>た<xE5>ちに<F1>　　たおされたんですよね?<xFF>
+02_03,＊「そうですよね.<F1><FA><F7>＊「では　この　けしようのない<xE5>わ<xE5>レは<F1>　　なんなのでしょう.<F7>
+02_04,＊「そんなハズは　ありません.<F1><FA><F7>＊「お<xE5>ずの<xE5>I<xE5>Jたちが　ちゃんと<F1>　　かくにんしたっていってましたよ.<F7>
+02_05,＊「おお　あなたがたは!<F1><FA><F7>＊「しばらく　お<xE5>Uいして<F1>　　いなかったような　<xE5>へがするが?<FA><F7><F1>＊「なに　<xE5>る<xE5>4にも　<xE5>O<xE5>びが[・・・][・・・]?<F1><FA><F7>＊「いってることが<F1>　　よく　わからないが[・・・].<F7>
+02_06,<EB>＊「こないだ　あそびに<xE5>”こうと<xE5>どって<F1>　　<xE5>むの<xE5>ワへ　<xE5>せてみたの.<FA><F7><F1>＊「そしたら　おおがらすに<F1>　　ギロッて　にらまれて[・・・]<FA><F7><F1>＊「こわくて　にげてきちゃったの.<F1><F7>
+02_07,＊「まおうが　いなくなっても<F1>　　まものはいなくならないんですね.<F7>
+02_08,<EB>＊「おかえりなさい　<&40>.<F1><FA><F7>＊「ねえ　<&40><F1>　　あなたの<xE5>[Lv]は　まだおわらないの?<FA><F7><F1>＊「まおうは　もう<F1>　　たおしたんでしょう?<FA><F7><F1>＊「[・・・][・・・]そう　まだ　なのね.<F1><FA><F7>＊「<xE5>ぁかったわ　<xE5>ゆさん　ずっと<F1>　　まってるから[・・・][・・・].<F7>
+02_09,<EB>＊「あら?　うちの　<&40>は<F1>　　どうしたのかしら?<FA><F7><F1>＊「ちゃんと<xE5>シに　かえってくるように<F1>　　<xE5>まえておいて　くださいね.<F7>
+02_0A,＊「となりの<xE5><xEC>　やっと　キズが<F1>　　いえてきた　みたいですね.<F7>
+02_0B,＊「ぐうぐう[・・・][・・・].<F7>
+02_0C,＊「そろそろ　よゆうが　できたろ?<F1><FA><F7>＊「どうだい　ためしに<F1>　　あそび<xE5>Dを　つれていったら?<F7>
+02_0D,＊「ル-ルルル~<F1>　　ラ-ラララ~.<F7>
+02_0E,＊「おまえさんたちは　いつぞやの.<F1>　　あの<xE5><F7>は　ありがとうじゃ.<F7>
+02_0F,＊「おまえさんたちは　いつぞやの.<F1>　　あの<xE5><F7>は　ありがとうじゃ.<F7>
+02_10,＊「バラモスが　たおされてから<F1>　　<xE5>0さまのようすがおかしいのです.<FA><F7><F1>＊「なにやら　ふさぎこんで<F1>　　いるようで[・・・][・・・]<FA><F7><F1>＊「<xE5>5<xE5><xE6>どのも　なにも<F1>　　おしえてくれませんし[・・・][・・・].<F7>
+02_11,＊「もぐもぐもぐ.<F1>　　うん!　<xE5>C<xE5>Bのは　おいしいぞ!<F7>
+02_12,＊「もう　どんどん<F1>　　<xE5>・っていって<xE5>4さい!
+02_13,＊「といっても　もう　どれも<F1>　　からっぽか[・・・][・・・].<F7>
+02_14,＊「<xE5>すのしらべによると<F1>　　ここより<xE5>P<xE5>Qの<xE5>るに[・・・]<FA><F7><F1>＊「ギアガの<xE5>5<xE5>°と<F1>　　<xE5>ラばれる<xE5>づがあってじゃな[・・・][・・・]<FA><F7><F1>＊「どうも　そこに　<xE5>5きなひみつが<F1>　　ありそうなのじゃ.<F7>
+02_15,＊「おお　これは　<&00>さま<F1>　　よく　いらっしゃいました.<F7>
+02_16,＊「これは　<&00>さん.<F1><FA><F7>＊「まだ　<xE5>[Lv]を<F1>　　つづけているそうですね.<FA><F7><F1>＊「がんばって　ください.<F1><F7>
+02_17,<EB>＊「バラモスが　いなくなって<F1>　　もう　けっこう　たつわね.<FA><F7><F1>＊「たいくつだけど　これが<F1>　　<xE5>く<xE5>けって　ものなのよね.<F7>
+02_18,<xE5>0「<&00>よ[・・・][・・・]<F1>　　そなたなら　ゾ-マをも[・・・][・・・]<FA><F7><F1><xE5>0「いや　なんでもない[・・・][・・・].<F1>　　<xE5>へに　しないでくれ.<FA><F7><F1><xE5>0「もう　つかれた[・・・][・・・].<F1>　　さがってよいぞ[・・・][・・・].<F7>
+02_19,＊「くそっ　このバコタさまが[・・・]<F1><FA><F7>＊「このまま　ろうの<xE5>6で<F1>　　おわると　<xE5>どうなよ!<F7>
+03_00,＊「う~い　ヒック!<F1>　　ほしがキレイだなあ　ハハハ.<F7>
+03_01,<EB>＊「バラモスが　たおされたから[・・・]<F1><FA><F7>＊「なんの<xE5>わ<xE5>レもなく　ゆっくりと<F1>　　<xE5>めめるの.ありがたいことね.<F7>
+04_00,<EB>＊「ニュ-ス　ニュ-ス!<F1><FA><F7>＊「ここアリアハンのゆうし　あの<F1>　　オルテガさんが　かえってきたの!<F7>
+04_01,＊「オルテガどのが<F1>　　<xE5>Sきておったとはのう.<FA><F7><F1>＊「もう　びっくりじゃわい.<F1><F7>
+04_02,＊「いやはや　<xE5>.しぶりに<F1>　　オルテガどのにあったが[・・・]<FA><F7><F1>＊「ますます　たくましくなられて.<F1><FA><F7>＊「あれぞ　<xE5><xEC>の<xE5>6の<xE5><xEC>ですな!<F1><F7>
+04_03,<EB>＊「オルテガのおじちゃん<F1>　　もどってきたんだって!<F7>
 04_04,
-04_05,"[*:] Ortega['s] back--<F1>we['r]e safe now!<FA><F7><F1>If any monsters<F1>threaten the town,<FA><F7><F1>why, he['d] destroy<F1>them!<F7>"
-04_06,"<EB>[*:] Welcome home,<F1><&40>!<FA><F7><F1>Your father, he['s]<F1>come home!<FA><F7><F1>I… It['s] so…<F1>I['m] elated!<FA><F7><F1><&40>, look!<F1>It['s] your father!<F7>"
-04_07,<EB>[*:] He was alive…<F1><FA><F7>I… I['m] so happy…<F1>…sob…<F7>
-04_08,"Ortega: So you['r]e<F1><&40>.<FA><F7><F1>Look how much<F1>you['v]e grown.<FA><F7><F1>You were so small<F1>when I left…<FA><F7><F1>I['m] sorry for all<F1>that has happened.<FA><F7><F1>Now, what are you<F1>doing?<FA><F7><F1>What!? You say you<F1>will carry on with<FA><F7><F1>my quest to slay<F1>the Demon King?<FA><F7><F1>I… Fine. I can['t]<F1>tell you not to.<FA><F7><F1>Just… Just try not<F1>to break your dear<FA><F7><F1>mother['s] heart.<F1><F7>"
-04_09,"Ortega: You['v]e<F1>distinguished<FA><F7><F1>yourself, <&40>.<F1><FA><F7>As your father,<F1>I long to travel<FA><F7><F1>again, but with<F1>you this time.<FA><F7><F1>But that would<F1>mean leaving your<FA><F7><F1>mother by herself<F1>again.<FA><F7><F1>I can['t] do that.<F1><FA><F7>Not after all that<F1>has happened…<FA><F7><F1>It['s] the changing<F1>of the guard.<FA><F7><F1>It is all in your<F1>hands now.<FA><F7><F1>Heh, don['t] worry.<F1><FA><F7>Even the Demon<F1>King will quail at<FA><F7><F1>how mighty you['v]e<F1>become!<F7>"
-04_0A,"<EB>[*:] Oh, where is<F1>that child?<FA><F7><F1>His father['s] come<F1>home…<F7>"
-04_0B,<FE>Ortega: ……………<F1><FA><F7>He appears to be<F1>deep in thought.<F7>
-04_0C,"<EB>[*:] Welcome home,<F1><&40>!<FA><F7><F1>I['m] bringing your<F1>father up to date.<FA><F7><F1>After all, he['s]<F1>been away for such<FA><F7><F1>a long time.<F1><FA><F7>It feels like I<F1>can keep talking<FA><F7><F1>to him forever…<F1><F7>"
-04_0D,<EB>[*:] I can keep<F1>talking to him<FA><F7><F1>forever…<F1><F7>
-04_0E,"Ortega: Hey, <&40>!<F1>Working hard?<FA><F7><F1>By the way…<F1><FA><F7>Your mother sure<F1>can carry on…<FA><F7><F1>It['s] a bit much.<F1>Do you suppose<FA><F7><F1>there['s] anything I<F1>can do about it?<F7>"
-04_0F,"Ortega: No, I<F1>suppose not…<FA><F7><F1>I just have to<F1>grin and bear it.<F7>"
-04_10,"[*:] Alive!<F1>Well done, my son!<FA><F7><F1>And <&40>, you['r]e<F1>my grandchild!<FA><F7><F1>You['r]e not to die,<F1>no matter what!<F7>"
-04_11,"[*:] Alive!<F1>Well done, my son!<F7>"
-04_12,[*:] Who would['v]e<F1>thought it?<FA><F7><F1>Ortega coming home<F1>alive.<FA><F7><F1>It['s] like a dream<F1>or something.<F7>
-04_13,"[*:] Have you heard?<F1>Ortega['s] back!<FA><F7><F1>If he were to<F1>leave on a new<FA><F7><F1>journey, I wouldn['t]<F1>let him go without<FA><F7><F1>me!<F1><F7>"
-04_14,[*:] Hmm… Miracles do<F1>happen…<F7>
-04_15,"[*:] Lalala~ Ortega<F1>the undying, lala~<F7>"
-04_16,"[*:] Ortega came back<F1>safely.<FA><F7><F1>We must all be<F1>grateful.<FA><F7><F1>Perhaps this old<F1>woman['s] prayers<FA><F7><F1>were answered by<F1>the gods.<FA><F7><F1>I can confess this<F1>now, but I['v]e been<FA><F7><F1>a fan of Ortega<F1>for many years…<FA><F7><F1>Oh, this is so<F1>embarrassing!<F7>"
-04_17,[*:] Ortega['s] back?<F1>It['s] a sign!<FA><F7><F1>It['s] a sign that<F1>peace is near!<F7>
-04_18,"[*:] This is<F1>something I heard.<FA><F7><F1>In the heavens<F1>lives Divinegon, a<FA><F7><F1>mythic dragon that<F1>grants wishes.<FA><F7><F1>Can you believe<F1>such a story?<xFF>"
-04_19,[*:] You must have a<F1>fun imagination.<F7>
-04_1A,"[*:] Yes, it does<F1>sound farfetched…<F7>"
-04_1B,"[*:] …Gulp… …chew…<F1><FA><F7>Yep, this is tasty<F1>indeed today!<F7>"
-04_1C,[*:] Go right ahead!<F1>Take whatever!<F7>
-04_1D,"[*:] But, oops, they<F1>are all empty…<F7>"
-04_1E,[*:] Ortega['s] supposed<F1>to have returned!<FA><F7><F1>I wish he['d] come to<F1>the Castle soon.<FA><F7><F1>I would like to<F1>see his imposing<FA><F7><F1>figure again.<F1><F7>
-04_1F,[*:] Hail Ortega!<F7>
-04_20,<EB>[*:] Oh! You came all<F1>the way out here<FA><F7><F1>just to see me?<F1><FA><F7>That really makes<F1>me happy.<FA><F7><F1>Oh? Ortega was<F1>alive?<FA><F7><F1>Ah… But I['m] sorry.<F1>I already knew.<FA><F7><F1>But thank you for<F1>coming out to tell<FA><F7><F1>me that. It['s] very<F1>kind of you.<F7>
-04_21,[*:] Please! The King<F1>is waiting!<F7>
-04_22,"King: I have heard<F1>the great news.<FA><F7><F1>Your father Ortega<F1>returned, <&40>.<FA><F7><F1>He sent word that<F1>he would come here<FA><F7><F1>right away, but he<F1>must be exhausted.<FA><F7><F1>I sent word that<F1>he should come<FA><F7><F1>when he has had<F1>sufficient rest.<F7>"
-04_23,"[*:] Ortega, who we['d]<F1>given up for dead,<FA><F7><F1>returned alive.<F1><FA><F7>That is a cause<F1>for celebration.<FA><F7><F1>However, should we<F1>tell Ortega about<FA><F7><F1>the Demon King<F1>Zoma?<FA><F7><F1>His Majesty is<F1>tormented by this<FA><F7><F1>dilemma.<F1><FA><F7>I will stand in<F1>his place for a<FA><F7><F1>short while…<F1><FA><F7>"
-04_24,[*:] Who would['v]e<F1>guessed that<FA><F7><F1>Ortega would be<F1>alive?<F7>
-04_25,"[*:] What do you want<F1>of me, Bakota?<FA><F7><F1>Ah, whatever.<F1>Listen to this.<FA><F7><F1>Divinegon, in the<F1>heavens, I heard<FA><F7><F1>grants you one<F1>wish each time<FA><F7><F1>you visit. That<F1>must mean it['s]<FA><F7><F1>safe to record<F1>your quest.<F7>"
-05_00,"[*:] Hah? Yeah, that['s]<F1>right, uh-huh.<FA><F7><F1>Ortega was alive.<F1>Great, huh? Hic!<F7>"
-05_01,[*:] Zzz…<F1><FA><F7>My bloodline is<F1>immune to death.<FA><F7><F1>Even I…<F1>Zzzz…<F7>
-05_02,"[*:] Lalala~ Ortega<F1>the undying, lala~<FA><F7><F1>Cough, cough…<F1><FA><F7>I['v]e been singing<F1>all day long.<FA><F7><F1>My throat is shot!<F1><F7>"
-05_03,[*:] A man we gave up<F1>for dead came back<FA><F7><F1>alive…<F1><FA><F7>It goes to show<F1>that you should<FA><F7><F1>never lose hope.<F1><F7>
-05_04,"<EB>[*:] My, Ortega['s]<F1>back…<FA><F7><F1>His wife must be<F1>overjoyed.<F7>"
-06_00,"[*:] Oh Tania, my<F1>love…<F7>"
-06_01,"[*:] Travelers,<F1>please listen.<FA><F7><F1>My dear grand-<F1>daughter Tania was<FA><F7><F1>abducted by a gang<F1>of bandits.<FA><F7><F1>The young man<F1>there is Tania['s]<FA><F7><F1>lover Gupta.<F1><FA><F7>I had hoped that<F1>they would marry<FA><F7><F1>and take over my<F1>shop.<FA><F7><F1>You look strong-<F1>Will you save Ta…<F7>"
-06_02,Gupta: I['l]l go!<F1><F7>
-06_03,Gupta: How could<F1>you ask traveling<FA><F7><F1>strangers for<F1>help?<FA><F7><F1>Just wait. I['l]l<F1><F1>rescue Tania!<F7>
-06_04,[*:] Gupta!<F1><F7>
-07_00,[*:] If Gupta were to<F1>be captured too…<FA><F7><F1>What am I to do?<F1><F7>
-07_01,<EB>[*:] Welcome to the<F1>town of Baharata.<F7>
-07_02,[*:] Pepper?<F1>The shop just to<FA><F7><F1>the south of here<F1>sells it. Anyway…<FA><F7>
-07_03,"[*:] I came to buy<F1>some Pepper.<FA><F7><F1>But they won['t] sell<F1>me any. Apparently,<FA><F7><F1>the shop['s] girl<F1>was abducted.<FA><F7><F1>What to do…<F1><F7>"
-07_04,"<EB>[*:] The Demon Lord<F1>wishes to destroy<FA><F7><F1>all life.<F1><FA><F7>He is the ruler of<F1>a dead world that<FA><F7><F1>is always frozen<F1>in darkness.<FA><F7><F1>If his power is<F1>left unchecked,<FA><F7><F1>the world['s] people<F1>will soon feel<FA><F7><F1>the horror of his<F1>evil ambition.<F7>"
-07_05,"[*:] I['v]e heard that<F1>kidnappers have<FA><F7><F1>holed up in a cave<F1>on the other side<FA><F7><F1>of the bridge.<F1><FA><F7>For your own sake,<F1>stay away.<F7>"
-UNUSED00_07_05, <~>
-07_06,<EB>[*:] I['m] purifying my<F1>body in the waters<FA><F7><F1>of the sacred<F1>river in prayer<FA><F7><F1>that I bear a<F1>healthy child.<F7>
-07_07,"[*:] I traveled all<F1>the way here to<FA><F7><F1>see the sacred<F1>river.<FA><F7><F1>Its water is not<F1>only good for<FA><F7><F1>drinking, it['s] said<F1>to repel monsters.<F7>"
-07_08,"[*:] The Force Rod is<F1>a unique weapon<FA><F7><F1>that changes MP<F1>into attack power.<FA><F7><F1>It consumes MP,<F1>but it['s] useful if<FA><F7><F1>spells can['t] be<F1>cast.<F7>"
-07_09,"[*:] In the north,<F1>among mountains,<FA><F7><F1>is the Dharma<F1>Temple.<FA><F7><F1>People can change<F1>classes there.<FA><F7><F1>I['d] like to become<F1>a jester…<FA><F7><F1>I mean, a great<F1>sage, that['s] what<FA><F7><F1>I['d] like to be.<F1><F7>"
-08_00,<EB>[*:] Ssss…<F7>
-08_01,[*:] The whole world<F1>is going to be<FA><F7><F1>destroyed by the<F1>Demon Lord?<F7>
-08_02,"[*:] I['v]e heard about<F1>the Demon Lord<FA><F7><F1>too, but it['s] just<F1>rumors.<F7>"
-08_03,[*:] Zzz… Zzz…<F1><F7>
-08_04,<EB>[*:] I will purify<F1>myself in the<FA><F7><F1>sacred river again<F1>tomorrow.<F7>
-08_05,<EB>[*:] The sacred river<F1>of Ganges is the<FA><F7><F1>source of life.<F1><F7>
-09_00,[*:] Welcome to our<F1>Pepper shop.<FA><F7>
-09_01,[*:] Oh? Hello!<F1><FA><F7>It['s] me - Gupta!<F1><FA><F7>Thank you so much<F1>for saving us!<FA><F7>
-09_02,Gupta: Oh? Hello!<F1>Were you looking<FA><F7><F1>for some Pepper?<F1><xFF>
-09_03,Gupta: Were you<F1>looking for some<FA><F7><F1>Pepper?<F1><xFF>
-09_04,Gupta: Then please<F1>take some!<FA><F7><F1>I can['t] take your<F1>money!<FA><F7><F1><FE><&40> obtained some<F1>Pepper.
-09_05,Gupta: Please take<F1>care.<FA><F7><F1>Dharma Temple is<F1>said to be among<FA><F7><F1>the mountains to<F1>the north.<F7>
-09_06,"Gupta: If you ever<F1>need Pepper again,<FA><F7><F1>please feel free<F1>to visit anytime.<F7>"
-09_07,"<EB>Tania: Oh, hello,<F1>heroes!<FA><F7><F1>Thank you so much<F1>for saving us.<FA><F7><F1>When we came back,<F1>my grandfather<FA><F7><F1>gave his shop to<F1>us!<F7>"
-09_08,"[*:] I['v]e heard what<F1>you did for us.<FA><F7><F1>I don['t] know how I<F1>could thank you.<FA><F7><F1>Thanks to you,<F1>I['m] able to<FA><F7><F1>retire in comfort.<F1>Thanks again!<F7>"
-09_09,[*:] I was able to<F1>buy Pepper because<FA><F7><F1>of your heroics.<F1>Thank you!<F7>
-0A_00,"[*:] There was an<F1>explorer who went<FA><F7><F1>around Tedanki['s]<F1>horn in the past.<FA><F7><F1>He reported seeing<F1>a deserted and<FA><F7><F1>derelict town.<F1><FA><F7>If that['s] true,<F1>could it be the<FA><F7><F1>Demon Lord['s] work?<F1><F7>"
-0A_01,[*:] Aack! The woman<F1>beside me splashes<FA><F7><F1>so much!<F1>It just ruins the<FA><F7><F1>atmosphere of the<F1>sacred river.<F7>
-0A_02,"<EB>[*:] If you purify<F1>yourself with this<FA><F7><F1>river['s] water, you<F1>should be able to<FA><F7><F1>retain your youth<F1>and beauty.<FA><F7><F1>I came all the way<F1>out here for it,<FA><F7><F1>so I can['t] waste<F1>the opportunity!<F7>"
-0A_03,"[*:] The Force Rod is<F1>a unique weapon<FA><F7><F1>that changes MP<F1>into attack power.<FA><F7><F1>It consumes MP,<F1>but it['s] useful if<FA><F7><F1>spells can['t] be<F1>cast.<FA><F7><F1>Blah, blah, blah…<F1><FA><F7>I['m] getting a bit<F1>tired of my own<FA><F7><F1>straight-laced<F1>personality…<FA><F7><F1>"
-0A_04,[*:] I['d] like to<F1>become sillier…<F7>
-0A_05,[*:] I envy you.<F1>You['r]e silly.<F7>
-0A_06,[*:] I envy the silly<F1>person behind you.<F7>
-0A_07,"[*:] In the north,<F1>among mountains,<FA><F7><F1>is the Dharma<F1>Temple.<FA><F7><F1>People can change<F1>classes there,<FA><F7><F1>right?<xFF><F1>"
-0A_08,"[*:] I['d] like to<F1>become a jester…<FA><F7><F1>I mean, a great<F1>sage, that['s] what<FA><F7><F1>I['d] like to be.<F1><F7>"
-0A_09,[*:] Huh? There isn['t]?<F1><FA><F7>That['s] not what<F1>I['v]e heard…<F7>
-0A_0A,"Gupta: Then, have<F1>some more Pepper!<FA><F7><F1>I['m] glad my Pepper<F1>is useful to you.<FA><F7><F1><FE><&40> obtained some<F1>Pepper.<FA><F7>"
-0A_0B,Gupta: Please take<F1>care.<FA><F7><F1>Feel free to visit<F1>anytime.<F7>
-0A_0C,"<EB>Tania: Oh, hello,<F1>good to see you!<FA><F7><F1>Thanks to you, our<F1>shop is doing<FA><F7><F1>excellently.<F1><F7>"
-0A_0D,[*:] Tania and Gupta<F1>run the shop well.<FA><F7><F1>Now all I have to<F1>do is wait for my<FA><F7><F1>great grandchild<F1>to come along!<F7>
-0B_00,[*:] Zzz… Zzz…<F1><F7>
-0B_01,"[*:] By soothing my<F1>throat with the<FA><F7><F1>sacred river['s]<F1>water, I can sing<FA><F7><F1>more beautifully<F1>than ever. Lalala.<FA><F7><F1>But please don['t]<F1>tell anyone--it['s]<FA><F7><F1>a trade secret!<F1><F7>"
-0B_02,"[*:] You have a ship?<F1>That['s] remarkable.<FA><F7><F1>In distant lands<F1>across the sea,<FA><F7><F1>there must be rare<F1>treasures.<FA><F7><F1>I['d] go, but only<F1>if there were no<FA><F7><F1>monsters.<F1><F7>"
-0B_03,<EB>[*:] Ssss…<F1><F7>
-0B_04,[*:] It['s] been years<F1>since I started<FA><F7><F1>prophesizing only<F1>dark futures.<FA><F7><F1>Even I am starting<F1>to put my stock in<FA><F7><F1>the gods…<F1><F7>
-0B_05,[*:] …Mumble…<F1><FA><F7>It['s] grandpa!<F1>Zzz…<F7>
-0B_06,[*:] Zzz…<F1><F7>
-0B_07,<EB>[*:] Ssss…<F1><F7>
-0B_08,[*:] Zzz… Zzz…<F1><F7>
-0B_09,"[*:] The woman who['s]<F1>staying next door-<FA><F7><F1>now there['s] a<F1>bully, I think."
-0B_0A,"[*:] Pardon?<F1>Your friend too?<FA><F7><F1>I… I… Uh, nothing!<F1><F7>"
-0B_0B,"[*:] Pardon?<F1>You are too?<FA><F7><F1>I… I… Uh, nothing!<F1><F7>"
-0B_0C,<EB>[*:] Sss… Sss…<F1>…Grind…<F7>
+04_05,＊「オルテガどのが　かえってきて<F1>　　これでもう　<xE5>レ<xE5>T!<FA><F7><F1>＊「たとえ　この<xE5>むが　まものに<F1>　　おそわれても[・・・]<FA><F7><F1>＊「きっと　やっつけてくれるさ.<F1><F7>
+04_06,<EB>＊「あっ!　おかえり　<&40>!<F1><FA><F7>＊「と　<xE5>8さんが　<xE5>8さんが<F1>　　もどってきたのよっ!<FA><F7><F1>＊「もう　うれしくって[・・・][・・・][・・・].<F1><FA><F7>＊「<&40>　ほら　ちゃんと<xE5>ぐて!<F1>　　<xE5>8さんだよ　おまえの<xE5>8さんだよ!<F7>
+04_07,<EB>＊「<xE5>Sきていたなんて[・・・][・・・].<F1><FA><F7>＊「<xE5>ゆさん　もう　うれしくって[・・・][・・・].<F1>　　ううう[・・・][・・・].<F7>
+04_08,オルテガ「そうか　おまえが<&40>[・・・]<F1>　　ずいぶん　<xE5>5きくなったなあ.<FA><F7><F1>オルテガ「<xE5>すが　<xE5>[Lv]に<xE5>せるときは<F1>　　まだ　こんなに　ちいさくて[・・・].<FA><F7><F1>オルテガ「ともかく　<xE5>Cまで<F1>　　<xE5>T<xE5><F3>をかけてすまなかったな.<FA><F7><F1>オルテガ「で　<xE5>Cは?　[・・・][・・・][・・・][・・・].<F1><FA><F7>オルテガ「なんと!　<xE5>すのあとをついで<F1>　　まおうを　たおすための<xE5>[Lv]をっ!<FA><F7><F1>オルテガ「そうか.そうなのか.<F1>　　ならば　なにも　いうまい.<FA><F7><F1>オルテガ「しかし　<xE5>ゆさんにだけは<F1>　　あまり<xE5>T<xE5><F3>をかけぬようにな.<F7>
+04_09,オルテガ「りっぱになったな.<&40><F1><FA><F7>オルテガ「<xE5>8さんも　おまえについて<F1>　　また　<xE5>[Lv]に<xE5>せたいが[・・・]<FA><F7><F1>オルテガ「そうすると　<xE5>ゆさんは<F1>　　また　ひとりだ.<FA><F7><F1>オルテガ「<xE5>Cまでのことを<xE5>どうと<F1>　　とても　それは　できない[・・・].<FA><F7><F1>オルテガ「<xE5>ァ<xE5>Iは　<xE5>よりゆくのみ.<F1><FA><F7>オルテガ「あとのことは　<&40><F1>　　おまえにまかせたぞ.<FA><F7><F1>オルテガ「な-に.<xE5>Cの　おまえなら[・・・]<F1><FA><F7>オルテガ「たとえ　だいまおうでも<F1>　　いちころだろう.<F7>
+04_0A,<EB>＊「もう　<xE5>8さんが　かえってきたって<F1>　　いうのに[・・・]<FA><F7><F1>＊「あの<xE5>1ったら<F1>　　どこで　どうしているのかしら?<F7>
+04_0B,<FE>オルテガ「[・・・][・・・][・・・][・・・][・・・][・・・].<F1><FA><F7>なにやら　もの<xE5>どいに<F1>ふけっているようだ.<F7>
+04_0C,<EB>＊「あっ　おかえり　<&40>!<F1><FA><F7>＊「<xE5>8さんに　これまでのことを<F1>　　ずっと　はなしていたのよ.<FA><F7><F1>＊「<xE5>8さん　ながい<xE5>ゥ　<xE5>シに<F1>　　いなかったでしょ.<FA><F7><F1>＊「もう　いくら　はなしても<F1>　　はなしたりなくて[・・・][・・・].<F7>
+04_0D,<EB>＊「ほんとうに　いくらはなしても<F1>　　はなしたりないわ.<F7>
+04_0E,オルテガ「おう　<&40>か!<F1>　　がんばっているようだな.<FA><F7><F1>オルテガ「ところで[・・・][・・・].<F1><FA><F7>オルテガ「<xE5>ゆさんの　はなしが<F1>　　ながくてな[・・・]<FA><F7><F1>オルテガ「ちょっとまいっているのだ.<F1>　　なんとか　ならないものか[・・・][・・・].<F7>
+04_0F,オルテガ「そうか[・・・][・・・].<F1>　　なんともならないか[・・・][・・・].<FA><F7><F1>オルテガ「がまんするしか<F1>　　なさそうだな.<F7>
+04_10,＊「<xE5>Sきておったとは　さすが<F1>　　わしの<xE5><EB><xE5>1じゃ!<FA><F7><F1>＊「<&40>も　わしのマゴじゃ.<F1><FA><F7>＊「どんなことが　あっても<F1>　　<xE5>ネんでは　ならんぞ.<F7>
+04_11,＊「<xE5>Sきておったとは　さすが<F1>　　わしの<xE5><EB><xE5>1じゃ!<F7>
+04_12,＊「あのオルテガが<F1>　　<xE5>Sきていたとはなあ.<FA><F7><F1>＊「まるで　ゆめみてえなはなしだな.<F1><F7>
+04_13,＊「きいたか!　オルテガどのが<F1>　　<xE5>Sきてかえってきたそうだ.<FA><F7><F1>＊「もし　また　オルテガどのが<F1>　　<xE5>[Lv]<xE5>ソつようなら[・・・]<FA><F7><F1>＊「こんどこそ<F1>　　つれていってもらうぞ!<F7>
+04_14,＊「ふ-む[・・・][・・・].<F1>　　きせきって　<xE5>た<xE5>ちに　あるのだな.<F7>
+04_15,＊「ララララ~　その<xE5>ろはオルテガ<F1>　　ふじみの<xE5><xEC>　ラララ-.<F7>
+04_16,＊「オルテガさまが　ぶじに<F1>　　もどってきた.<FA><F7><F1>＊「ありがたいことじゃ.<F1><FA><F7>＊「この　おばばの　いのりが<F1>　　<xE5>ヴに　つうじたのかも<xE5>んれんの.<FA><F7><F1>＊「<xE5>Cだからいうが　おばばは　ずっと<F1>　　オルテガどのの　ファンでのう[・・・].<FA><F7><F1>＊「おわっ　こっぱずかしい!<F1><F7>
+04_17,＊「そうか　オルテガどのがのう[・・・].<F1>　　こりゃ　<xE5>く<xE5>けが<xE5>ゃいあかしじゃ!<F7>
+04_18,＊「これは　きいたはなしですが[・・・]<F1><FA><F7>＊「<xE5>り<xE5>びには　ねがいをかなえてくれる<F1>　　<xE5>ヴ<xE5>[Ex]が　<xE5>ャんでいるとか.<FA><F7><F1>＊「このはなし　しんじられますか?<F1><xFF>
+04_19,＊「あなたは　たのしい<xE5>Dですね.<F7>
+04_1A,＊「そうですよねえ[・・・][・・・].<F7>
+04_1B,＊「もぐもぐもぐ.<F1>　　うん!　<xE5>C<xE5>Bのは　おいしいぞ!<F7>
+04_1C,＊「もう　どんどん<F1>　　もっていってください!
+04_1D,＊「といっても　もう　どれも<F1>　　からっぽか[・・・][・・・].<F7>
+04_1E,＊「オルテガさまが　<xE5>Sきて<F1>　　もどってきたそうです!<FA><F7><F1>＊「<xE5>おく　お<xE5>ずに　<xE5>しないかなあ.<F1><FA><F7>＊「あのりっぱだった　おすがたを<F1>　　もういちど　<xE5>ぐてみたいのです.<F7>
+04_1F,＊「オルテガさま　ばんざい!<F7>
+04_20,<EB>＊「まあ!　また　こんな<xE5>づまで<F1>　　<xE5>すに　<xE5>Uいに<xE5>してくれたのですね.<FA><F7><F1>＊「うれしゅうございます.<F1><FA><F7>＊「え?　オルテガさまが<F1>　　<xE5>Sきていた?<FA><F7><F1>＊「そうですか[・・・][・・・].<F1>　　でも　ごめんなさいね.<FA><F7><F1>＊「そのはなしは　もう<xE5>んってました.<F1><FA><F7>＊「でも　わざわざ<xE5>んらせてくれた<F1>　　おきもちは　ありがたいですわ.<F7>
+04_21,＊「さあ　<xE5>おく　<xE5>0さまの　もとへ.<F7>
+04_22,<xE5>0「はなしは　きいたぞ.<F1><FA><F7><xE5>0「<&40>の<xE5>8　オルテガが<F1>　　もどってきたそうじゃな.<FA><F7><F1><xE5>0「すぐにでも　<xE5>ずへと<F1>　　いってきおったが[・・・]<FA><F7><F1><xE5>0「オルテガも<F1>　　つかれているであろう.<FA><F7><F1><xE5>0「<xE5>ふ<xE5>ぁに　<xE5>めんでから<F1>　　<xE5>しるようにと　<xE5>まえておいたぞ.<F7>
+04_23,＊「<xE5>ネんだと<xE5>どっていたオルテガどのが<F1>　　<xE5>Sきて　もどってきた.<FA><F7><F1>＊「まずは　めでたいことじゃ.<F1><FA><F7>＊「しかし　オルテガどのに[・・・]<F1><FA><F7>＊「ゾ-マとかいうだいまおうのことを<F1>　　はなしていいものなのか[・・・][・・・]<FA><F7><F1>＊「<xE5>0は　まだ　その<xE5>-<xE5>Tがつかず<F1>　　おなやみの　ようす.<FA><F7><F1>＊「<xE5>0のかわりは　<xE5>Cしばらく<F1>　　わしが　することにしよう.<FA><F7>
+04_24,＊「あの　オルテガが<F1>　　<xE5>Sきていたとはなあ[・・・][・・・].<F7>
+04_25,＊「この　バコタさまに　なにか<xE5>ヲか?<F1>　　まあ　いいや.<FA><F7><F1>＊「いいことを　おしえてやろう.<F1><FA><F7>＊「なんでも　<xE5>り<xE5>びの<xE5>ヴ<xE5>[Ex]は<F1>　　1<xE5>ノに1つだけだが[・・・]<FA><F7><F1>＊「<xE5>”くたびに　ねがいを<F1>　　かなえてくれるらしいぞ.<FA><F7><F1>＊「ということはだな[・・・]<F1><FA><F7>＊「きろくしといても　<xE5>5<xE5>オ<xE5>いって<F1>　　ことじゃないのか?<F7>
+05_00,＊「ああん?　そうだよ<F1>　　オルテガどのが　<xE5>Sきていたんだ.<FA><F7><F1>＊「めでてえよなあ[・・・][・・・]ひっく.<F1><F7>
+05_01,＊「むにゃむにゃ.<F1><FA><F7>＊「わしのかけいは　ふじみじゃ.<F1>　　わしじゃって[・・・].ぐうぐう.<F7>
+05_02,＊「ララララ-　オルテガ<F1>　　ふじみの<xE5><xEC>　ラララ-.<FA><F7><F1>＊「げほ　げほ.<xE5><xED>からずっと<F1>　　うたいつづけて[・・・]<FA><F7><F1>＊「ノドが<F1>　　いたくなっちゃいましたよ.<F7>
+05_03,＊「<xE5>ネんだと<xE5>どわれていた<xE5><xEC>が<F1>　　<xE5>Sきて　もどってくるとは[・・・][・・・].<FA><F7><F1>＊「<xE5>D<xE5>ゥ　きぼうを<F1>　　すてちゃいけないな.<F7>
+05_04,<EB>＊「あの　オルテガさんがねえ[・・・].<F1><FA><F7>＊「おくさんは　きっと<F1>　　<xE5>5よろこびじゃないかしら.<F7>

@@ -1,268 +1,168 @@
 ﻿Index,Text
-00_00,[*:] Want my tip on<F1>the outcome of the<FA><F7><F1>next battle?<F1>Just 5G!<xFF><F1>
-00_01,"[*:] Excellent! This<F1>is what I predict!<FA><F7><F1>No doubt about it,<F1>it['s] <&00><&70>!<F7>"
-00_02,[*:] You can['t] part<F1>with a measly 5G?<FA><F7><F1>I suggest you just<F1>go on home.<F7>
-00_03,[*:] Right this way<F1>for the Stadium['s]<FA><F7><F1>best monster<F1>battles!<FA><F7><F1>Pick the winner<F1>and win big bucks!<FA><F7><F1>Tickets are <&13>G<F1>each.<FA><F7><F1>How about it?<xFF><F1>
-00_04,"[*:] Uh, you don['t]<F1>have enough money.<FA><F7><F1>"
-00_05,[*:] Hah? So you['r]e<F1>not going to bet?<FA><F7><F1>
-00_06,"[*:] Well, come back<F1>another time!<F7>"
-00_07,[*:] These monsters<F1>are up next.<FA><F7><F1>The odds are<F1>listed here.<FA><F7><F1>Which monster will<F1>you bet on?
-00_08,"[*:] <&00><&70>, you<F1>say? Thank you!<FA><F7><F1>The battle['s] about<F1>to start!<FA><F7><F1>Go to the Stadium!<F1><F7>"
-00_09,[*:] Hah? So you['r]e<F1>dropping out.<FA><F7><F1>Here['s] what you['v]e<F1>won so far.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
-00_0A,[*:] You were just<F1>unlucky!<FA><F7>
-00_0B,[*:] The next battle['s]<F1>about to start.<FA><F7><F1>Want to place<F1>another bet?<xFF>
-00_0C,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
-00_0D,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1>You can bet that<F1>on the next match.<FA><F7><F1>Would you like to<F1>give that a try?<xFF>
-00_0E,"[*:] <&40>, you can['t]<F1>possibly carry any<FA><F7><F1>more gold.<F1><FA><F7>You should deposit<F1>some at the bank.<FA><F7><F1>Well, come back<F1>another time!<F7>"
-00_0F,"[*:] Fine, here['s] your<F1>earnings.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>"
-01_00,<FE><&40> examined the<F1><&25>.<FA><F7>
-01_01,<&40>: <&25>…<F1>This is an item.<FA><F7>
-01_02,<&40>: <&25>…<F1>It['s] a weapon.<FA><F7>
-01_03,<&40>: <&25>…<F1>It['s] equipment. <FA><F7>
-01_04,<&40>: <&25>…<F1>It['s] a shield.<FA><F7>
-01_05,<&40>: <&25>…<F1>It['s] a helmet.<FA><F7>
-01_06,<&40>: This is<F1>something special.<FA><F7>
-01_07,<&40>: <&25><F1>is a book.<FA><F7>
-01_08,<&40>: <&25>…<F1>It['s] an accessory.<FA><F7>
-01_09,It appears to be<F1>for one use only.<FA><F7>
-01_0A,It appears to be<F1>for one use only.<FA><F7><F1>It['s] useless<F1>to men like me.<FA><F7>
-01_0B,It can be used<F1>repeatedly.<FA><F7>
-01_0C,It can be used as<F1>an item in battle.<FA><F7><F1>It appears to have<F1>a special effect.<FA><F7>
-01_0D,When it is used in<F1>battle as an item…<FA><F7><F1>It won['t] have any<F1>special effects.<FA><F7>
-01_0E,I can['t] tell what<F1>this will do.<FA><F7><F1>We['l]l have to try<F1>it and see.<FA><F7>
-01_0F,"This can be<F1>equipped by<FA><F7><F1><&00>, <&09>,<F1><&12> and <&1B>.<FA><F7>"
-01_10,"This can be<F1>equipped by<FA><F7><F1><&00>, <&09>,<F1>and <&12>.<FA><F7>"
-01_11,This can be<F1>equipped by<FA><F7><F1><&00> and <&09>.<F1><FA><F7>
-01_12,This can be<F1>equipped by <&00>.<FA><F7>
-01_13,"Unfortunately, no<F1>one among us can<FA><F7><F1>equip this.<F1><FA><F7>"
-01_14,It should sell for<F1><&30>G.<FA><F7>
-01_15,"If it were to be<F1>shown to a shop,<FA><F7><F1>they['l]l be unable<F1>to name a price.<FA><F7>"
-01_16,Hmm! I get a bad<F1>feeling from this…<F7>
-01_17,It doesn['t] appear<F1>to be cursed.<F7>
-01_18,"It['s] quite rare.<F1>It would be a<FA><F7><F1>shame, but it will<F1>sell for <&30>G.<FA><F7>"
-01_19,This is a healing<F1>medicine.<FA><F7>
-01_1A,It seems to be a<F1>poison antidote.<FA><F7>
-01_1B,It['s] a drug for<F1>curing paralysis.<FA><F7>
-01_1C,"When used, it<F1>repels weaker<FA><F7><F1>monsters for a<F1>short while.<FA><F7>"
-01_1D,"When used, it<F1>appears to carry<FA><F7><F1>you back to a<F1>place you visited.<FA><F7>"
-01_1E,"When this is used,<F1>you turn invisible<FA><F7><F1>for a short while.<F1><FA><F7>"
-01_1F,It appears to<F1>revive the dead.<FA><F7>
-01_20,I think you use it<F1>to restore MP.<FA><F7><F1>But it may break<F1>after use.<FA><F7>
-01_21,"If this is used,<F1>it should turn the<FA><F7><F1>day into night.<F1><FA><F7>"
-01_22,It['s] used for<F1>transforming into<FA><F7><F1>many guises.<F1><FA><F7>
-01_23,The strumming of<F1>this harp appears<FA><F7><F1>to lure monsters.<F1><FA><F7>
-01_24,
-01_25,
-01_26,This is a letter<F1>from the King of<FA><F7><F1>Portoga to the<F1>hobbit Norud.<FA><F7>
-01_27,Did you know?<F1><FA><F7>Inhaling this<F1>makes you sneeze.<FA><F7>
-01_28,"By holding this, a<F1>new class may be<FA><F7><F1>available to you.<F1><FA><F7>"
-01_29,I see my face<F1>reflected in it.<FA><F7>
-01_2A,What an incredibly<F1>beautiful gem.<FA><F7><F1>It can['t] be of<F1>this world.<FA><F7>
-01_2B,
-01_2C,"When used, I think<F1>it heals everyone<FA><F7><F1>at the same time.<F1><FA><F7>"
-01_2D,"If it is held, it<F1>seems to absorb a<FA><F7><F1>death spell in the<F1>holder['s] place.<FA><F7><F1>It['s] only good for<F1>one use, however.<FA><F7>"
-01_2E,
-01_2F,"It['s] used to raise<F1>STR, I believe.<FA><F7>"
-01_30,"It['s] used to raise<F1>AGL, I believe.<FA><F7>"
-01_31,"It['s] used to raise<F1>VIT, I believe.<FA><F7>"
-01_32,"It['s] used to raise<F1>INT, I believe.<FA><F7>"
-01_33,"It['s] used to raise<F1>LUCK, I believe.<FA><F7>"
-01_34,"It['s] used to raise<F1>max.HP, I believe.<FA><F7>"
-01_35,"It['s] used to raise<F1>max.MP, I believe.<FA><F7>"
-01_36,It['s] a metal with<F1>an odd glow.<FA><F7><F1>It may be used for<F1>making something.<FA><F7>
-01_37,Its sounds react<F1>to something.<FA><F7>
-01_38,It must be the<F1>romantic memories<FA><F7><F1>of the lovers Eric<F1>and Olivia.<FA><F7>
-01_39,This should open<F1>doors.<FA><F7>
-01_3A,This will open<F1>almost any door.<FA><F7>
-01_3B,It['s] a beautiful<F1>gem but…<FA><F7><F1>I feel faint<F1>looking at it.<FA><F7>
-01_3C,It['s] a lifetime<F1>pass that lets you<FA><F7><F1>play Pachisi for<F1>free. Wonderful!<FA><F7>
-01_3D,It['s] good for one<F1>Pachisi game.<FA><F7>
-01_3E,The map itself<F1>appears to fill in<FA><F7><F1>details while we<F1>explore new areas.<FA><F7>
-01_3F,This map appears<F1>to fill in details<FA><F7><F1>of Alefgard areas<F1>that we explore.<FA><F7>
-01_40,"Ah, it appears to<F1>contain writing on<FA><F7><F1>human compassion<F1>and consideration.<FA><F7>"
-01_41,"Ah, it appears to<F1>be a guide book on<FA><F7><F1>relying on others<F1>to do your work.<FA><F7>"
-01_42,It['s] useless<F1>to men like me.<FA><F7>
-01_43,"Ah, it describes<F1>how to become more<FA><F7><F1>refined as an<F1>attractive lady.<FA><F7>"
-01_44,It['s] a detailed<F1>account on how to<FA><F7><F1>nurture intellect.<F1><FA><F7>
-01_45,It appears to be a<F1>guide on training<FA><F7><F1>methods for body-<F1>building.<FA><F7>
-01_46,It seems to have<F1>tips for living<FA><F7><F1>courageously and<F1>valiantly.<FA><F7>
-01_47,It explains how to<F1>summon luck.<FA><F7>
-01_48,"It advocates being<F1>cheerful, fun and<FA><F7><F1>positive.<F1><FA><F7>"
-01_49,It contains many<F1>sorrowful tales.<FA><F7>
-01_4A,"It contains tales<F1>that boost the<FA><F7><F1>reader['s] courage.<F1>But courage isn['t]<FA><F7><F1>the same thing as<F1>temerity, is it?<FA><F7>"
-01_4B,It['s] an inspiring<F1>book that explains<FA><F7><F1>how not to give up<F1>against adversity.<FA><F7>
-01_4C,It['s] a collection<F1>of jokes and puns<FA><F7><F1>from across the<F1>ages.<FA><F7>
-01_4D,"Hm… It['s] not so<F1>much about how to<FA><F7><F1>cheat, but more of<F1>a lifestyle guide.<FA><F7>"
-01_4E,Uh… Um… Th-this!<F1><FA><F7>It['s]… uh… adult<F1>literature.<FA><F7>
-01_4F,
-01_50,"When used for an<F1>attack, it appears<FA><F7><F1>to strike twice at<F1>the same time.<FA><F7>"
-01_51,
-01_52,"If it strikes a<F1>weak spot, it will<FA><F7><F1>kill any monster<F1>instantly.<FA><F7>"
-01_53,damage in an<F1>attack.<FA><F7>
-01_54,It inflicts one<F1>monster group with<FA><F7>
-01_55,It inflicts all<F1>monsters with<FA><F7>
-01_56,It strikes zombies<F1>with greater<FA><F7>
-01_57,It leaves dragons<F1>with greater<FA><F7>
-01_58,It appears to have<F1>a special effect<FA><F7><F1>when equipped.<F1><FA><F7>
-01_59,
-01_5A,It['s] a costume-<F1>not clothing.<FA><F7>
-01_5B,
-01_5C,"When equipped,<F1><FA><F7>"
-01_5D,It reduces damage<F1>caused by spells.<FA><F7>
-01_5E,It reduces damage<F1>caused by fire.<FA><F7>
-01_5F,"When equipped, it<F1>will reduce damage<FA><F7><F1>caused by spells,<F1>fire and ice.<FA><F7>"
-01_60,It seems to reduce<F1>damage caused by<FA><F7><F1>fire and ice.<F1><FA><F7>
-01_61,Oh my!<F1><FA><F7>It restores your<F1>HP as you walk!<FA><F7>
-01_62,
-01_63,
-01_64,
-01_65,
-01_66,
-01_67,
-01_68,
-01_69,
-01_6A,It raises ATK when<F1>it['s] equipped.<FA><F7>
-01_6B,It also makes the<F1>wearer valiant.<FA><F7>
-01_6C,"When it['s] applied,<F1>it raises ATK.<FA><F7><F1>Since it['s] so<F1>powerful, its <FA><F7><F1>bearer becomes a<F1>bully.<FA><F7>"
-01_6D,Its power will<F1>turn the wearer<FA><F7><F1>into a boastful<F1>jock.<FA><F7>
-01_6E,"It strengthens the<F1>body, making the<FA><F7><F1>bearer tough.<F1><FA><F7>"
-01_6F,It raises DEF when<F1>it['s] equipped.<FA><F7>
-01_70,It improves LUCK<F1>when it['s] equipped.<FA><F7>
-01_71,"It raises LUCK so<F1>much, the wearer<FA><F7><F1>will be seen as<F1>one lucky soul.<FA><F7>"
-01_72,Its lucky power<F1>will make the<FA><F7><F1>bearer a very<F1>happy soul.<FA><F7>
-01_73,It will make the<F1>wearer lightning<FA><F7><F1>quick.<F1><FA><F7>
-01_74,But it also makes<F1>you cowardly.<FA><F7>
-01_75,I['m] certain it<F1>will make others<FA><F7><F1>think of you as<F1>agile.<FA><F7>
-01_76,"It raises INT when<F1>it['s] equipped.<FA><F7><F1>It['s] so effective,<F1>the wearer becomes<FA><F7><F1>an instant genius.<F1><FA><F7>"
-01_77,It appears to<F1>protect against<FA><F7><F1>death spells when<F1>equipped.<FA><F7>
-01_78,It raises AGL when<F1>it['s] worn.<FA><F7>
-01_79,"If you wore this,<F1>people would think<FA><F7><F1>that you['r]e silly.<F1><FA><F7>"
-01_7A,
-01_7B,"This hairpiece<F1>looks so hard,<FA><F7><F1>I think it would<F1>make the wearer<FA><F7><F1>rock-headed and<F1>inflexible.<FA><F7>"
-01_7C,Its indefatigable<F1>nature will make<FA><F7><F1>the wearer much<F1>more diligent.<FA><F7>
-01_7D,"If you had this in<F1>your mouth, you<FA><F7><F1>would certainly<F1>look helpless.<FA><F7>"
-01_7E,It gives the<F1>wearer a feeling<FA><F7><F1>of compassion and<F1>love for others.<FA><F7>
-01_7F,"If you had this<F1>on, you would be<FA><F7><F1>able to lead a<F1>solitary life.<FA><F7>"
-01_80,It will make the<F1>wearer romantic.<FA><F7>
-01_81,This Slime-shaped<F1>bangle will make<FA><F7><F1>the wearer feel<F1>lonesome.<FA><F7>
-01_82,"I don['t] understand<F1>it, but it appears<FA><F7><F1>to give the wearer<F1>a lecherous look.<FA><F7>"
-01_83,"It will make the<F1>wearer look very<FA><F7><F1>sexy, I['m] sure.<F1><FA><F7>"
-01_84,
-01_85,It undoubtedly is<F1>beautiful…<FA><F7><F1>But it will make<F1>you look vain.<FA><F7>
-01_86,"When it['s] equipped,<F1>it restores MP as<FA><F7><F1>you walk.<F1><FA><F7>"
-01_87,"If you wore this,<F1>you would want to<FA><F7><F1>act more ladylike,<F1>I'm sure.<FA><F7>"
-01_88,
-01_89,
-01_8A,
-01_8B,
-01_8C,
-01_8D,
-01_8E,
-01_8F,
-01_90,It can only be<F1>equipped by women.<FA><F7>
-01_91,"But, my oh my,<F1>this is extreme.<FA><F7>"
-01_92,
-01_93,This appears to be<F1>for men only.<FA><F7>
-01_94,
-01_95,
-02_00,<EB><&40>: <&25>…<F1>This is an item.<FA><F7>
+00_00,＊「ここは　てんしょくを　つかさどる<F1>　　ダ-マのしんでん.<FA><F7><F1>＊「しょくぎょうを　<xE5>サえたい<xE5>ぎが<F1>　　<xE5>しるところじゃ.<FA><F7><F1>＊「てんしょくを　ごきぼうか?<F1><xFF>
+00_01,＊「そうか.<F1>　　てんしょくをせぬのじゃな?<FA><F7><F1>＊「まあ　それも　よかろう.<F1><FA><F7>
+00_02,＊「では　ゆくがよい.<F1><F7>
+00_03,＊「どなたの　しょくぎょうを<F1>　　<xE5>サえたいのじゃ?
+00_04,＊「ふむ[・・・]　やめると<xE5>Wすか.<F1>　　それも　よろしかろう.<FA><F7>
+00_05,＊「たわけが!　<&09>は　<xE5>C<F1>　　<xE5>ネんでおるでは　ないか!<FA><F7><F1>＊「いくらわしでも　<xE5>ネんでおる<xE5>ぎを<F1>　　てんしょくさせることはできんぞ.<FA><F7>
+00_06,＊「ほかにも　てんしょくしたい<xE5>ぎは<F1>　　おるかな?<xFF>
+00_07,＊「おろか<xE5>ぎめ!<F1>　　ゆうしゃを　やめたいというのか?<FA><F7><F1>＊「それだけは　ならんっ!<F1><FA><F7>
+00_08,＊「なんと　<&09>は　まだ[・・・]<F1><FA><F7>＊「<xE5>の<xE5>D<xE5><EA>の　<&31>に<F1>　　なっていないというのに[・・・][・・・].<FA><F7><F1>＊「みじゅく<xE5>ぎの　ぶんざいで[・・・]<F1><FA><F7>＊「もう　しょくを<xE5>サえたいとは<F1>　　なにごとじゃ!<FA><F7>
+00_09,＊「<&09>が　なりたいのは<F1>　　どのしょくぎょうじゃな?<FA><F7>
+00_0A,＊「<&09>は　<&31>に<F1>　　なりたいと　<xE5>Wすか?<xFF>
+00_0B,＊「うん?　しかし　<&09>は<F1>　　もう　それに　なっているぞ.<FA><F7>
+00_0C,＊「<&31>に<F1>　　なりたいとは[・・・]<FA><F7><F1>＊「さすが　<&09>は　ねっからの<F1>　　<&20>じゃのう.<FA><F7><F1>
+00_0D,＊「しかし　<&31>とは[・・・][・・・]<F1><FA><F7>＊「<&09>は　なんという<F1>　　<&20>じゃ.まあよい[・・・]<FA><F7><F1>
+00_0E,＊「ふむ.<F1>　　<&20>の　ぶんざいで[・・・]<FA><F7><F1>＊「<&31>に　なりたいとは.<F1>　　けっこう　わらかしてくれるぞ.<FA><F7><F1>
+00_0F,＊「そうか!　さすが<&20><F1>　　<xE5>ぽ<xE5><F1>だけのことは　あるのう.<FA><F7><F1>＊「<&09>を　<xE5>Hし　<xE5>ぐなおしたぞ.<F1><FA><F7>
+00_10,＊「そうか[・・・]　<&09>ほどの<F1>　　<&20>が[・・・]<FA><F7><F1>＊「<&31>に　なりたいとはな.<F1><FA><F7>＊「これも　<xE5>Oの<xE5>6が<F1>　　いけないからかの.<FA><F7><F1>＊「まあ　どうしてもというなら<F1>　　それも　しかたあるまい.<FA><F7><F1>
+00_11,＊「ふむ[・・・].　<&09>みたいな<F1>　　<&20>が[・・・]<FA><F7><F1>＊「<&31>に　なるとは[・・・].<F1><FA><F7>＊「ちょっと　<xE5>5<xE5>サそうな<xE5>へもするが<F1>　　それも　しかたあるまい.<FA><F7><F1>
+00_12,＊「ふぁっふぁっふぁ.<F1><FA><F7>＊「<&20>の　くせに[・・・]<F1><FA><F7>＊「<&31>に　なりたいとは<F1>　　うけねらいかの?　まあ　よい[・・・].<FA><F7><F1>
+00_13,＊「おお!　<&20>の<F1>　　<&09>には[・・・]<FA><F7><F1>＊「てんしょくともいえる<F1>　　ナイスチョイスじゃのう.<FA><F7><F1>
+00_14,＊「<&20>の　<&09>が<F1>　　<&31>になりたいとは[・・・]<FA><F7><F1>＊「ずいぶん<F1>　　せいちょうしたものよのう.<FA><F7><F1>
+00_15,＊「いちど　レベル1にもどり[・・・]<F1><FA><F7>＊「しゅぎょうを　しなおすかくごも<F1>　　おありじゃな?<xFF>
+00_16,＊「おお　<xE5>ヴよ　<&09>が<F1>　　<xE5><xE9>たなしょくにつくことを[・・・]<FA><F7><F1>＊「なにとぞ　おゆるし<xE5>4さい!<F1><FA><F7><xE8>お
+00_17,＊「よろしい.では　<xE5>Cから<F1>　　<&09>は　<&31>じゃ!<FA><F7><F1>＊「<xE5><EA>の　しょくぎょうで　<&09>が<F1>　　そうびしていたものは[・・・]<FA><F7><F1>＊「とりあえず　ぜんぶ<F1>　　はずしておいたからな.<FA><F7>
+00_18,＊「わしは　<xE5>ジ<xE5>ろ<xE5>ヴマリナンさまに<F1>　　つかえる　しんかんじゃ.<FA><F7><F1>＊「おぬしたちの<xE5>6で[・・・]<F1><FA><F7>＊「<xE5>Cの<xE5>ろ<xE5><EA>を　<xE5>サえたい<xE5>ぎが<F1>　　おったら　わしに　いうがよい.<FA><F7><F1>＊「だれか　<xE5>ろ<xE5><EA>を<xE5>サえるか?<F1><xFF>
+00_19,＊「そうか.<xE5>ろ<xE5><EA>を<xE5>サえたくなったら<F1>　　いつでも　<xE5>しるがよいぞ.<FA><F7><F1>＊「<xE5>ろ<xE5><EA>の<xE5>つりが　あらんことを[・・・][・・・].<F1><F7>
+00_1A,＊「うむ　では　だれの<xE5>ろ<xE5><EA>を<F1>　　<xE5>サえたいと　いうのじゃ?<FA><F7>
+00_1B,＊「ほかに　だれか　<xE5>ろ<xE5><EA>を<F1>　　<xE5>サえたい<xE5>ぎは　おるか?<xFF>
+00_1C,＊「むう　それは[・・・][・・・]ふくろか?<F1>　　はっはっは　よいじゃろう.<FA><F7><F1>＊「<xE5>:に<xE5>ろ<xE5><EA>をつけて<F1>　　かわいがるとは[・・・]<FA><F7><F1>＊「おぬしも　かわいいところが<F1>　　あるのう.<FA><F7><F1>＊「<&09>の　<xE5>ろ<xE5><EA>を<F1>　　<xE5>サえるのじゃな.<FA><F7><F1>＊「では　<xE5><xE9>しい<xE5>ろ<xE5><EA>を<F1>　　わしに　おしえてくれ.<FA><F7>
+00_1D,＊「なんと!　その<xE5>ろは　<xE5>ジ<xE5>ろ<xE5>ヴの<F1>　　いかりに　ふれておる!<FA><F7><F1>＊「<xE5>ろ<xE5><EA>を　<xE5>サえることは<F1>　　できんぞ!<FA><F7><F1>＊「それでも　なお　<xE5>サえたいなら[・・・]<F1><FA><F7>＊「<xE5>ジ<xE5>ろ<xE5>ヴのいかりを　とくため<F1>　　5000ゴ-ルド　いただこう.<FA><F7><F1>＊「それで　よいかな.<F1><xFF>
+00_1E,＊「では　やはり　そのままじゃ.<FA><F7>
+00_1F,＊「<&09>の<F1>　　<xE5>ろ<xE5><EA>を<xE5>サえるのじゃな.<FA><F7><F1>＊「では　<xE5><xE9>しい<xE5>ろ<xE5><EA>を<F1>　　わしに　おしえてくれ.<FA><F7>
+00_20,＊「ん?　ざんねんながら<F1>　　そんな<xE5>5<xE5>べは　ないようじゃな.<FA><F7><F1>＊「<xE5>Cは　がまんするしかあるまい.<F1><FA><F7>
+00_21,<&40>は　5000ゴ-ルドを<F1>さしだした.<FA><F7><F1>＊「よろしい.<F1><FA><F7>＊「では<&09>の　<xE5><xE9>しい<F1>　　<xE5>ろ<xE5><EA>を　おしえてくれ.<FA><F7>
+00_22,＊「なんじゃ　<xE5>ろ<xE5><EA>を<xE5>サえないのか?<F1>　　まあ　それも　よかろう.<FA><F7>
+00_23,＊「<&00>じゃな?　[・・・][・・・]むむっ.<F1><FA><F7>＊「<xE5>ジ<xE5>ろ<xE5>ヴが　その<xE5>ろは　イカンと<F1>　　いっておる!<FA><F7><F1>＊「スマンが　ほかの<xE5>ろ<xE5><EA>に<F1>　　してもらえんじゃろうか?<FA><F7>
+00_24,＊「ほう　もとの<xE5>ろ<xE5><EA>に　もどすと<F1>　　いうのじゃな.<FA><F7><F1>＊「おやの　つけてくれた<xE5>ろ<xE5><EA>じゃ<F1>　　<xE5>5<xE5>ぇに　しなくてはな.うむうむ.<FA><F7><F1>＊「<&09>の<xE5>ろ<xE5><EA>を　もとの<F1>　　<&00>に　もどすぞ.　よいな?<xFF>
+00_25,＊「ほかの　<xE5>ろ<xE5><EA>に　<xE5>サえるか?<F1><xFF>
+00_26,＊「おお　<xE5>ジ<xE5>ろ<xE5>ヴマリナンよ!<F1><FA><F7>＊「<&09>の<xE5>ろを　もとの<&00>に<F1>　　もどしたまえ!!<FA><F7><F1>＊「よし!　おぬしの<xE5>ろは<F1>　　<&00>に　もどったぞ!<FA><F7>
+00_27,＊「<&00>じゃな[・・・][・・・]　おや?<F1><FA><F7>＊「その<xE5>ろ<xE5><EA>の<xE5>ぎが　すでに　おぬしの<F1>　　なかまに　いるようじゃな.<FA><F7>
+00_28,＊「<&00>じゃと[・・・][・・・]<F1><FA><F7>＊「おぬし<xE5>た<xE5>へで　そのような<F1>　　<xE5>ろ<xE5><EA>を　つけようと　いうのか?<xFF>
+00_29,＊「<xE5>ジ<xE5>ろ<xE5>ヴの　いかりにふれても<F1>　　わしは　しらんぞ!<FA><F7><F1>＊「それでも　かまわんのじゃな!?<F1><xFF>
+00_2A,＊「[・・・][・・・]おお　<xE5>ジ<xE5>ろ<xE5>ヴマリナンよ!<F1><FA><F7>＊「<xE5><xE9>たなる<xE5>ろ　<&00>に<F1>　　<xE5>ヴのしゅくふく[・・・][・・・]
+00_2B,うわっ!!<FA><F7><F1>＊「<xE5>ぐよ!　いわんことでは　ない!<F1><FA><F7>＊「おぬしは　<xE5>ジ<xE5>ろ<xE5>ヴのいかりに<F1>　　ふれてしまったぞ!!<FA><F7><F1>＊「おぬしの<xE5>ろは　<xE5>の<xE5>S<F1>　　<&00>のままじゃ!!<FA><F7>
+00_2C,＊「<&00>じゃと[・・・][・・・]<F1><FA><F7>＊「おぬし　<xE5>ろ<xE5><EA>というものを<F1>　　なめておるのか?<xFF>
+00_2D,＊「では　<xE5>ろをなめては　おらぬが[・・・]<F1><FA><F7>＊「そのような　<xE5>ろ<xE5><EA>を　つけたいと<F1>　　<xE5>Wすのか?<xFF>
+00_2E,＊「うむ　<&09>の<xE5>ろ<xE5><EA>を<F1>　　<&00>に　<xE5>サえるのじゃな.<FA><F7><F1>＊「<xE5>た<xE5>ちに　それでよいのじゃな?<F1><xFF>
+00_2F,＊「ならば　ほかの<xE5>ろにすることじゃ.<F1><FA><F7>＊「<&09>の　<xE5><xE9>しい<xE5>ろ<xE5><EA>を<F1>　　わしに　おしえてくれ.<FA><F7>
+00_30,＊「おお　<xE5>ジ<xE5>ろ<xE5>ヴマリナンよ!<F1><FA><F7>＊「<xE5><xE9>たなる<xE5>ろ　<&00>に<F1>　　<xE5>ヴのしゅくふくを!!<FA><F7>
+00_31,＊「よ-し!　これで　<&09>は[・・・]<F1><FA><F7>＊「これから　<&00>と<xE5>ろのることが<F1>　　ゆるされたぞ!<FA><F7>
+01_00,＊「<xE5>との　しあいの　よそうが<F1>　　たったの5ゴ-ルド!<FA><F7><F1>＊「おききに　なりますか?<F1><xFF>
+01_01,＊「よろしい!　では　よそうを<F1>　　おきかせしましょう!<FA><F7><F1>＊「<xE5>とは　ズバリ　<&00><&70><F1>　　これっきゃありませんよ.<F7>
+01_02,＊「おや?　たった5ゴ-ルドすら<F1>　　はらえない?<FA><F7><F1>＊「かえったほうが　いいですよ.<F1><F7>
+01_03,＊「さあ　<xE5>こにあせにぎる　かくとうぎ<F1>　　スタジアムは　こちらだよ.<FA><F7><F1>＊「どの　モンスタ-が　かつか<F1>　　ズバリあてれば　もうかるぜ!<FA><F7><F1>＊「かけふだは　1<xE5>ぷ　<&13>ゴ-ルドだ<F1>　　どうだ　かうかい?<xFF>
+01_04,＊「あれ　お<xE5>/さん<F1>　　お<xE5>べが<xE5>Fりないみたいだよ.<FA><F7><F1>
+01_05,＊「なんだ　やめるのか.<F1><FA><F7>
+01_06,＊「それじゃ　また<xE5>してくれよな!<F1><F7>
+01_07,＊「<xE5>との　しあいのモンスタ-と<F1>　　ばいりつはこれだ.<FA><F7><F1>＊「どのモンスタ-に　かける?<F1>
+01_08,＊「<&00><&70>だね.<F1>　　まいどありい!<FA><F7><F1>＊「おっ　そろそろ<F1>　　しあいが　はじまるころだ.<FA><F7><F1>＊「さあ　スタジアムへいっておくれ!<F1><F7>
+01_09,＊「なんだ　やめるのか.<F1><FA><F7>＊「それじゃ　<xE5><F3><xE5>ち<xE5>べを<F1>　　<xE5>ハけ<xE5>じってくれ.<FA><F7><F1><&40>は　<&17>ゴ-ルドを<F1>てにいれた.<FA><F7>
+01_0A,＊「いや-　ざんねんだったね.<FA><F7>
+01_0B,＊「<xE5>とのしあいが　そろそろはじまるが<F1>　　もういちど　ちょうせんするかい?<xFF>
+01_0C,＊「おめでとう!!<F1><FA><F7>＊「<xE5><F3><xE5>ち<xE5>べの　<&17><F1>　　ゴ-ルドだ!　<xE5>ハけ<xE5>じってくれ.<FA><F7><F1><&40>は　<&17>ゴ-ルドを<F1>てにいれた.<FA><F7>
+01_0D,＊「おめでとう!!<F1><FA><F7>＊「<xE5><F3><xE5>ち<xE5>べは　<&17><F1>　　ゴ-ルドだ!<FA><F7><F1>＊「<xE5>C　かくとくしたゴ-ルドを<F1>　　<xE5>とのしあいに　かけられるが[・・・]<FA><F7><F1>＊「ちょうせんするかい?<F1><xFF>
+01_0E,＊「んっ!　どうやら　<&40>の<F1>　　お<xE5>べが　いっぱいになったようだ.<FA><F7><F1>＊「いちど　ぎんこうに　あずけに<F1>　　<xE5>”った<xE5>Kが　いいと<xE5>どうぜ.<FA><F7><F1>＊「それじゃ　また<xE5>してくれよな!<F1><F7>
+01_0F,＊「それじゃ　<xE5><F3><xE5>ち<xE5>べを<F1>　　<xE5>ハけ<xE5>じってくれ.<FA><F7><F1><&40>は　<&17>ゴ-ルドを<F1>てにいれた.<FA><F7>
+02_00,<&40>「<&25>[・・・][・・・]<F1>　　これは　どうぐのようですね.<FA><F7>
 02_01,@02_00
-02_02,<EB><&40>: <&25>…<F1>It['s] a weapon.<FA><F7>
-02_03,<EB><&40>: <&25>…<F1><FA><F7>It['s] protective<F1>equipment.<FA><F7>
-02_04,<EB><&40>: <&25>…<F1>It['s] a shield.<FA><F7>
-02_05,<EB><&40>: <&25>…<F1>This is headgear.<FA><F7>
-02_06,<EB><&40>: My! This is<F1>rare.<FA><F7>
-02_07,<EB><&40>: <&25>…<F1>This is a book.<FA><F7>
-02_08,<EB><&40>: <&25>…<F1>It['s] an accessory.<FA><F7>
-02_09,<EB>It can be used<F1>only once.<FA><F7>
-02_0A,<EB>It can be used<F1>only once.<FA><F7><F1>I doubt it['s] of<F1>much use to men.<FA><F7>
-02_0B,"<EB>It won['t] break, no<F1>matter how much<FA><F7><F1>you use it.<F1><FA><F7>"
-02_0C,<EB>It has some sort<F1>of effect as an<FA><F7><F1>item in battle.<F1><FA><F7>
-02_0D,<EB>When it['s] used in<F1>battle as an item…<FA><F7><F1>It won['t] do<F1>anything special.<FA><F7><F1>
-02_0E,<EB>I don['t] know what<F1>it will do.<FA><F7><F1>Why not try it<F1>and see?<FA><F7>
-02_0F,"<EB>Looks like <&00>,<F1><&09>, <&12> and<FA><F7><F1><&1B> can equip<F1>this.<FA><F7>"
-02_10,"<EB>Looks like <&00>,<F1><&09> and <&12> can<FA><F7><F1>equip this.<F1><FA><F7>"
-02_11,<EB>Looks like <&00><F1>and <&09> can equip<FA><F7><F1>this.<F1><FA><F7>
-02_12,<EB>Looks like <&00><F1>can equip this.<FA><F7>
-02_13,<EB>My! Not one of us<F1>can equip this.<FA><F7>
-02_14,<EB>It['d] sell for<F1><&30>G at a shop.<FA><F7>
-02_15,<EB>A shop couldn['t]<F1>guess its value.<FA><F7>
-02_16,"<EB>My, I get a bad<F1>feeling from it.<F7>"
-02_17,<EB>It['s] safe.<F1>It isn['t] cursed.<F7>
-02_18,"<EB>It['d] be a shame to<F1>sell it, but it<FA><F7><F1>may fetch <&30>G<F1>at a shop.<FA><F7>"
-02_19,<EB>It looks like a<F1>curative.<FA><F7>
-02_1A,<EB>This seems to<F1>expel poison.<FA><F7>
-02_1B,<EB>It seems to be a<F1>paralysis cure.<FA><F7>
-02_1C,<EB>It seems to repel<F1>weak monsters for<FA><F7><F1>a while after use.<F1><FA><F7>
-02_1D,"<EB>When used, it<F1>seems it returns<FA><F7><F1>you to somewhere<F1>you['v]e visited.<FA><F7>"
-02_1E,<EB>It looks like you<F1>use it to become<FA><F7><F1>invisible for a<F1>short time.<FA><F7>
-02_1F,<EB>It seems to revive<F1>the dead.<FA><F7>
-02_20,<EB>It looks like it<F1>restores MP.<FA><F7><F1>But it may break<F1>from overuse.<FA><F7>
-02_21,<EB>It looks like it['s]<F1>used to turn day<FA><F7><F1>into night.<F1><FA><F7>
-02_22,<EB>This should let<F1>you change into<FA><F7><F1>many forms.<F1><FA><F7>
-02_23,<EB>Monsters must love<F1>the sound of this.<FA><F7>
+02_02,<&40>「<&25>[・・・][・・・]<F1>　　これは　ぶきのようですね.<FA><F7>
+02_03,<&40>「<&25>[・・・][・・・]<F1>　　これは　みにつける<xE5>:ですね.<FA><F7>
+02_04,<&40>「<&25>[・・・][・・・]<F1>　　これは　たてのようですね.<FA><F7>
+02_05,<&40>「<&25>[・・・][・・・]<F1>　　これは　かぶとのようですね.<FA><F7>
+02_06,<&40>「これは　かなり<F1>　　たいそうな　<xE5>[・・・]<xE5>:ですね.<FA><F7>
+02_07,<&40>「<&25>は<F1>　　<xE5>たのようです.<FA><F7>
+02_08,<&40>「<&25>[・・・][・・・]<F1>　　そうしょくひんのようですね.<FA><F7>
+02_09,<&40>「でも　いちど　<xE5>♀うと<F1>　　なくなってしまうようですね.<FA><F7>
+02_0A,<&40>「でも　いちど　<xE5>♀うと<F1>　　なくなってしまうようですね.<FA><F7><F1><&40>「わたしたち　<xE5><xEC><xE5>ぽが<F1>　　よんでも　いみがないようです.<FA><F7>
+02_0B,<&40>「しかも　<xE5>や<xE5>ノ<xE5>♀っても<F1>　　なくなりませんね.<FA><F7>
+02_0C,<&40>「<xE5>げいの<xE5><F7><F1>　　どうぐとして　<xE5>♀うと[・・・]<FA><F7><F1><&40>「とくべつな　こうかが<F1>　　ありそうです.<FA><F7>
+02_0D,<&40>「<xE5>げいの<xE5><F7><F1>　　どうぐとして　<xE5>♀っても[・・・]<FA><F7><F1><&40>「とくべつな　こうかは<F1>　　なさそうです.<FA><F7>
+02_0E,<&40>「どんな　こうかがあるのか<F1>　　わたしには　<xE5>ぁかりかねます.<FA><F7><F1><&40>「<xE5>♀ってみるしか<F1>　　ないでしょう.<FA><F7>
+02_0F,<&40>「これを　そうびできるのは[・・・]<F1><FA><F7><&40>「<&00>　<&09><F1>　　<&12>　<&1B>　のようです.<FA><F7>
+02_10,<&40>「これを　そうびできるのは[・・・]<F1><FA><F7><&40>「<&00>　<&09><F1>　　<&12>　のようです.<FA><F7>
+02_11,<&40>「これを　そうびできるのは[・・・]<F1><FA><F7><&40>「<&00>　<&09><F1>　　のようです.<FA><F7>
+02_12,<&40>「これを　そうびできるのは<F1>　　<&00>　のようです.<FA><F7>
+02_13,<&40>「ざんねんながら<F1>　　われわれの<xE5>6に[・・・]<FA><F7><F1><&40>「これを　そうびできる<xE5>ぎは<F1>　　1<xE5>Dも　いないようです.<FA><F7>
+02_14,<&40>「もし　みせやに　<xE5>ぶれば<F1>　　<&30>Gに　なるでしょう.<FA><F7>
+02_15,<&40>「みせやに　<xE5>ぐせても[・・・]<F1><FA><F7><&40>「この　<xE5>[・・・]<xE5>:の　ねうちは<F1>　　<xE5>ぁからない　でしょうね.<FA><F7>
+02_16,<&40>「むむっ　これは　なにか<F1>　　いやな　かんじが　しますね.<F7>
+02_17,<&40>「べつに　<xE5>さわれては<F1>　　いないようです.<F7>
+02_18,<&40>「なかなか　きちょうな<F1>　　<xE5>:なので　もったいないですが[・・・]<FA><F7><F1><&40>「もし　<xE5>ぶれば<F1>　　<&30>Gに　なるでしょう.<FA><F7>
+02_19,<&40>「これは　たいりょくを<F1>　　かいふくする　くすりのようです.<FA><F7>
+02_1A,<&40>「これは　からだから　どくを<F1>　　けしてくれる　くすりのようです.<FA><F7>
+02_1B,<&40>「これは　マヒを　なおして<F1>　　くれる　くすりのようです.<FA><F7>
+02_1C,<&40>「これを<xE5>♀うと　じぶんより<F1>　　よわい　まものを[・・・]<FA><F7><F1><&40>「しばらくの<xE5>ゥ<F1>　　よせつけなく　できるようです.<FA><F7>
+02_1D,<&40>「これを　<xE5>♀うと[・・・]<F1><FA><F7><&40>「いちど　たちよったところへ<F1>　　もどることが　できるようです.<FA><F7>
+02_1E,<&40>「これを　<xE5>♀うと[・・・]<F1><FA><F7><&40>「しばらくの<xE5>ゥ　すがたを<F1>　　けすことが　できそうです.<FA><F7>
+02_1F,<&40>「これを<xE5>♀うと[・・・]<F1><FA><F7><&40>「<xE5>ネんだ<xE5>Dを　<xE5>Sき<xE5>ぴらせる<F1>　　ことが　できそうです.<FA><F7>
+02_20,<&40>「これを<xE5>♀うと　MPを<F1>　　かいふくすることが<xE5>せ<xE5>しそうです.<FA><F7><F1><&40>「でも　<xE5>♀った<xE5>ヘで<F1>　　こわれることが　あるようですね.<FA><F7>
+02_21,<&40>「これを<xE5>♀うと[・・・]<F1><FA><F7><&40>「<xE5><xED>から　<xE5>ヅへ　<xE5><F7><xE5>ゥを<F1>　　すすめることが　できそうです.<FA><F7>
+02_22,<&40>「これを<xE5>♀うと[・・・]<F1><FA><F7><&40>「いろんなすがたに<F1>　　<xE5>ヌけることが　できそうです.<FA><F7>
+02_23,<&40>「この　たてごとのおとには[・・・]<F1><FA><F7><&40>「まものたちを　よびよせる<F1>　　こうかが　あるようです.<FA><F7>
 02_24,
 02_25,
-02_26,<EB>It['s] a letter for<F1>the hobbit Norud<FA><F7><F1>from the King of<F1>Portoga.<FA><F7>
-02_27,"<EB>Cook food with<F1>this, and it['l]l<FA><F7><F1>taste great.<F1><FA><F7>"
-02_28,"<EB>Carry this, and a<F1>new class will<FA><F7><F1>become available <F1>to you. <FA><F7>"
-02_29,<EB>What a lovely<F1>mirror… I feel<FA><F7><F1>transfixed by it…<F1><FA><F7>
-02_2A,<EB>What a beautiful<F1>gem!<FA><F7><F1>It just can['t] be<F1>of this world.<FA><F7>
+02_26,<&40>「これは　ポルトガの<xE5>0が<F1>　　ホビットのノルドあてに[・・・]<FA><F7><F1><&40>「かいた　てがみですね.<F1><FA><F7>
+02_27,<&40>「<xE5>んってます?<F1><FA><F7><&40>「こしょうを　すいこむと<F1>　　くしゃみが　でるんですよ.<FA><F7>
+02_28,<&40>「これを　<xE5>・っていると[・・・]<F1><FA><F7><&40>「<xE5><xE9>しい　しょくぎょう<F1>　　へのみちが　ひらかれそうです.<FA><F7>
+02_29,<&40>「おや　わたしのカオが<F1>　　うつって　いますよ.<FA><F7>
+02_2A,<&40>「なんと　うつくしい<F1>　　<xE5>デ<xE5>テなのでしょう.<FA><F7><F1><&40>「この<xE5>Oの<xE5>:とは<F1>　　<xE5>どえません.<FA><F7>
 02_2B,
-02_2C,<EB>It seems it can<F1>restore everyone['s]<FA><F7><F1>HP at once.<F1><FA><F7>
-02_2D,"<EB>Carry this, and<F1>death spells won['t]<FA><F7><F1>do any harm.<F1><FA><F7>But it breaks<F1>after one use.<FA><F7>"
+02_2C,<&40>「これを　<xE5>♀うと<F1>　　なかまぜんいんの　たいりょくを[・・・]<FA><F7><F1><&40>「いちどに<F1>　　かいふくできるようです.<FA><F7>
+02_2D,"<&40>「これは　<xE5>・っていると<F1>　　<xE5>ネの<xE5>さ<xE5>,に　かかった<xE5><F7>の[・・・]<FA><F7><F1><&40>「みがわりに　なるようです.<F1><FA><F7><&40>「でも　いちど　こうかを<F1>　　あらわすと　なくなるようですね.<FA><F7>"
 02_2E,
-02_2F,"<EB>If used, it should<F1>boost your STR.<FA><F7>"
-02_30,"<EB>If used, it should<F1>boost your AGL.<FA><F7>"
-02_31,"<EB>If used, it should<F1>boost your VIT.<FA><F7>"
-02_32,"<EB>If used, it should<F1>boost your INT.<FA><F7>"
-02_33,"<EB>If used, it should<F1>boost your LUCK.<FA><F7>"
-02_34,"<EB>If used, it should<F1>boost your max.HP.<FA><F7>"
-02_35,"<EB>If used, it should<F1>boost your max.MP.<FA><F7>"
-02_36,"<EB>It sparkles, and<F1>it['s] so pretty. <FA><F7><F1>I wonder what it<F1>could be for?<FA><F7>"
-02_37,"<EB>When it['s] played<F1>near something, it<FA><F7><F1>seems to create an<F1>echo.<FA><F7>"
-02_38,<EB>It['s] like hearing<F1>the loving words<FA><F7><F1>of the couple<F1>Eric and Olivia.<FA><F7>
-02_39,<EB>This should open<F1>many doors.<FA><F7>
-02_3A,<EB>This probably<F1>opens any door.<FA><F7>
-02_3B,<EB>What a mesmerizing<F1>gem…<FA><F7><F1>It feels like it['s]<F1>pulling me in…<FA><F7>
-02_3C,"<EB>With this, you can<F1>play Pachisi as<FA><F7><F1>much as you wish!<F1><FA><F7>"
-02_3D,<EB>This ticket is for<F1>one Pachisi<FA><F7><F1>game.<F1><FA><F7>
-02_3E,<EB>This map fills in<F1>places we['v]e been<FA><F7><F1>to automatically.<F1><FA><F7>
-02_3F,<EB>This map fills in<F1>the areas we['v]e<FA><F7><F1>explored in<F1>Alefgard.<FA><F7>
-02_40,"<EB>It speaks of<F1>compassion,<FA><F7><F1>sympathy and<F1>regard for others.<FA><F7>"
-02_41,"<EB>""How to Rely on<F1>Others""? And this?<FA><F7><F1>""Tapping Maternal<F1>Instinct""?<FA><F7><F1>…What is this?<F1><FA><F7>"
-02_42,<EB>I doubt it['s] of<F1>much use to men.<FA><F7>
-02_43,"<EB>""Become a Refined<F1>Lady!"" it says…<FA><F7><F1>Looks like a guide<F1>to table manners…<FA><F7>"
-02_44,"<EB>""Tricks to Develop<F1>a Great Brain!""<FA><F7><F1>""Lists of Foods to<F1>Build the Mind!""<FA><F7><F1>""How to be a Great<F1>Thinker!"" Hmm…<FA><F7>"
-02_45,"<EB>""Improve the Body!<F1>Toughen up!""<FA><F7><F1>""Power is All""?<F1>Huh, whew…<FA><F7>"
-02_46,"<EB>""Men, be Bold!<F1>Women, be Bold!<FA><F7><F1>Have More Guts!""<F1>…it says.<FA><F7>"
-02_47,"<EB>""You don['t] just<F1>get good luck!<FA><F7><F1>Summon it with<F1>this!"" …Hmm.<FA><F7>"
-02_48,"<EB>""All energetic and<F1>carefree kids!""<FA><F7><F1>""Mischievious<F1>tomboys, gather!""<FA><F7><F1>…What in the<F1>world?<FA><F7>"
-02_49,"<EB>""If this doesn['t]<F1>make you cry,<FA><F7><F1>you['r]e not human!<F1><FA><F7>Have a hankie<F1>ready!"" …Right…<FA><F7>"
-02_4A,"<EB>""Take that first<F1>step now!""<FA><F7><F1>You gain courage<F1>from reading this.<FA><F7>"
-02_4B,"<EB>""Never surrender,<F1>never lose hope.<FA><F7><F1>You can win!""<F1>it says.<FA><F7>"
-02_4C,"<EB>""Laughter is the<F1>best medicine!""<FA><F7><F1>""100 Great Jokes!""<F1>This looks fun.<FA><F7>"
-02_4D,"<EB>""Honest people are<F1>fools! Craftiness<FA><F7><F1>means survival!""<F1>…What is this!?<FA><F7>"
-02_4E,<EB>Th…this is…<F1>Gross! …Blush…<FA><F7>
+02_2F,<&40>「これを　<xE5>♀うと<F1>　　ちからが　あがるようです.<FA><F7>
+02_30,<&40>「これを　<xE5>♀うと<F1>　　すばやさが　あがるようです.<FA><F7>
+02_31,<&40>「これを　<xE5>♀うと<F1>　　たいりょくが　あがるようです.<FA><F7>
+02_32,<&40>「これを　<xE5>♀うと<F1>　　かしこさが　あがるようです.<FA><F7>
+02_33,<&40>「これを　<xE5>♀うと<F1>　　うんのよさが　あがるようです.<FA><F7>
+02_34,<&40>「これを　<xE5>♀うと<F1>　　さいだいHPが　あがるようです.<FA><F7>
+02_35,<&40>「これを　<xE5>♀うと<F1>　　さいだいMPが　あがるようです.<FA><F7>
+02_36,<&40>「ふしぎな　かがやきをもった<F1>　　きんぞくですね.<FA><F7><F1><&40>「なにかの　ざいりょうに<F1>　　<xE5>♀われるのでしょうか?<FA><F7>
+02_37,<&40>「このふえのおとは　<xE5>やかに<F1>　　はんのうするようですね.<FA><F7>
+02_38,<&40>「エリックと　オリビアの[・・・]<F1><FA><F7><&40>「2<xE5>Dのあいの　<xE5>どい<xE5>せが<F1>　　つまって　いるのでしょうね.<FA><F7>
+02_39,<&40>「これで　いろんなドアを<F1>　　あけられそうです.<FA><F7>
+02_3A,<&40>「これで　ほとんどのドアを<F1>　　あけられそうです.<FA><F7>
+02_3B,<&40>「うつくしい　<xE5>デ<xE5>Zですが<F1>　　<xE5>ぐていると[・・・]<FA><F7><F1><&40>「<xE5>へが　とおくなっていくような<F1>　　かんじが　します.<FA><F7>
+02_3C,<&40>「すごろくを　すきなだけ<F1>　　あそべる　すばらしいパスですよ.<FA><F7>
+02_3D,<&40>「このけん　1<xE5>ぷで<F1>　　1<xE5>ノ　すごろくがあそべます.<FA><F7>
+02_3E,<&40>「<xE5>る<xE5><F4>みずからが<F1>　　<xE5>O<xE5>びの　ようすを[・・・]<FA><F7><F1><&40>「かきとめていくようです.<F1><FA><F7>
+02_3F,<&40>「われわれが　<xE5>Cまでに<xE5>”った<F1>　　アレフガルドの　ようすが[・・・]<FA><F7><F1><&40>「かきとめられている<F1>　　ようです.<FA><F7>
+02_40,<&40>「ほほう　<xE5>Dのもつ<F1>　　やさしさや　<xE5>どいやりについて[・・・]<FA><F7><F1><&40>「<xE5>がいてあるようですね.<F1><FA><F7>
+02_41,<&40>「ほほう　<xE5>Dに<F1>　　あまえるための[・・・]<FA><F7><F1><&40>「ひけつのようなものが<F1>　　<xE5>がいてあるようですね.<FA><F7>
+02_42,<&40>「わたしたち　<xE5><xEC><xE5>ぽが<F1>　　よんでも　いみがないようです.<FA><F7>
+02_43,<&40>「ほほう　おしとやかで<F1>　　つつましい　<xE5>2<xE5>ぽになる[・・・]<FA><F7><F1><&40>「ほうほうについて<F1>　　<xE5>がいてあるようですね.<FA><F7>
+02_44,<&40>「ほほう　あたまのきたえかた<F1>　　<xE5>♀いかたについて[・・・]<FA><F7><F1><&40>「こまかく<F1>　　<xE5>がいてあるようですね.<FA><F7>
+02_45,<&40>「カラダを　きたえるための<F1>　　トレ-ニングほうなどについて[・・・]<FA><F7><F1><&40>「<xE5>がいてあるようですね.<F1><FA><F7>
+02_46,<&40>「いさましく　ごうかいに<F1>　　いきてゆくための　ひけつが[・・・]<FA><F7><F1><&40>「<xE5>がいてあるようですね.<F1><FA><F7>
+02_47,<&40>「うんを　みちびくほうほう<F1>　　について　<xE5>がいてあるようですね.<FA><F7>
+02_48,<&40>「あかるく　たのしく<F1>　　いきるための[・・・]<FA><F7><F1><&40>「おてんばの　ススメのような<F1>　　ことが　<xE5>がいてあるようですね.<FA><F7>
+02_49,<&40>「かなしいものがたりが<F1>　　たくさん　<xE5>がいてあるようですね.<FA><F7>
+02_4A,<&40>「よむ<xE5>Dを　ゆうきづける<F1>　　はなしがのっていますが[・・・]<FA><F7><F1><&40>「ゆうきと　むぼうは<F1>　　ちがいますよね.<FA><F7>
+02_4B,<&40>「まけても　くじけないほう<F1>　　まけても　あきらめないほうが[・・・]<FA><F7><F1><&40>「<xE5>がいてあるようですね.<F1><FA><F7>
+02_4C,<&40>「ここんとうざいの<F1>　　わらいばなしや　だじゃれなどが[・・・]<FA><F7><F1><&40>「おさめられて<F1>　　いるようですね.<FA><F7>
+02_4D,<&40>「ふ-む　ズルというよりは[・・・]<F1><FA><F7><&40>「せいかつのちえのような<F1>　　ものが　<xE5>でそうですね.<FA><F7>
+02_4E,<&40>「なっ　なんと　これは!<F1><FA><F7><&40>「いわゆる　その[・・・][・・・]<F1>　　エッチな<xE5>たですね.<FA><F7>
 02_4F,
-02_50,"<EB>It seems if you<F1>attack with this,<FA><F7><F1>it hits twice.<F1><FA><F7>"
+02_50,<&40>「これで　てきを<F1>　　こうげきすると[・・・]<FA><F7><F1><&40>「いちどに　2<xE5>ノ<F1>　　きりつけることが　できそうです.<FA><F7>
 02_51,
-02_52,"<EB>If you hit a weak<F1>spot, it should<FA><F7><F1>take any monster<F1>out in one hit.<FA><F7>"
-02_53,<EB>damage when you<F1>attack.<FA><F7>
-02_54,<EB>This causes one<F1>monster group some<FA><F7>
-02_55,<EB>It causes every<F1>monster some<FA><F7>
-02_56,<EB>It appears to be<F1>especially good<FA><F7><F1>against zombies.<F1><FA><F7>
-02_57,<EB>It appears to be<F1>particularly good<FA><F7><F1>when it['s] used<F1>against dragons.<FA><F7>
-02_58,<EB>It seems it has a<F1>special effect<FA><F7><F1>while equipped.<F1><FA><F7>
+02_52,<&40>「うまく　きゅうしょに<F1>　　<xE5>ちたれば[・・・]<FA><F7><F1><&40>「どんな　<xE5><&25>まものも<F1>　　いっぱつで　たおせるでしょう.<FA><F7>
+02_53,<&40>「ダメ-ジを　あたえることが<F1>　　できそうです.<FA><F7>
+02_54,<&40>「これで　こうげきすると<F1>　　てき　1グル-プに[・・・]<FA><F7>
+02_55,<&40>「これで　こうげきすると<F1>　　てき　ぜんいんに[・・・]<FA><F7>
+02_56,<&40>「ゾンビに　たいしては<F1>　　より<xE5>でくの[・・・]<FA><F7>
+02_57,<&40>「ドラゴンに　たいしては<F1>　　より<xE5>でくの[・・・]<FA><F7>
+02_58,<&40>「そうび<xE5>6は　とくべつな<F1>　　こうかが　ありそうです.<FA><F7>
 02_59,
-02_5A,<EB>It['s] big and cute.<F1><FA><F7>It will cover you<F1>from head to toe.<FA><F7>
+02_5A,<&40>「ふくと　いうよりは<F1>　　きぐるみに　みえますが[・・・][・・・].<FA><F7>
 02_5B,
-02_5C,<EB>If you happen to<F1>have it equipped…<FA><F7>
-02_5D,<EB>It will suppress<F1>damage from magic.<FA><F7>
-02_5E,<EB>It seems to reduce<F1>damage from fire.<FA><F7>
-02_5F,"<EB>When it['s] equipped,<F1>it reduces damage<FA><F7><F1>from magic, fire<F1>and ice.<FA><F7>"
-02_60,<EB>it reduces damage<F1>from fire and ice.<FA><F7>
-02_61,"<EB>Oh, wow!<F1><FA><F7>It restores your<F1>HP while you walk!<FA><F7>"
+02_5C,<&40>「これを　そうびしていると[・・・]<F1><FA><F7>
+02_5D,<&40>「まほうこうげきからの<F1>　　ダメ-ジが　へりそうです.<FA><F7>
+02_5E,<&40>「ほのおからの<F1>　　ダメ-ジが　へりそうです.<FA><F7>
+02_5F,<&40>「これを　そうびしていると<F1>　　まほうこうげきや[・・・]<FA><F7><F1><&40>「ほのおや　ふぶきからの<F1>　　ダメ-ジが　へりそうです.<FA><F7>
+02_60,<&40>「ほのおや　ふぶきからの<F1>　　ダメ-ジが　へりそうです.<FA><F7>
+02_61,<&40>「なんと!<F1><FA><F7><&40>「<xE5>グくたびに　<xE5>Hしずつ<F1>　　HPが　かいふくするようですよ!<FA><F7>
 02_62,
 02_63,
 02_64,
@@ -271,36 +171,36 @@
 02_67,
 02_68,
 02_69,
-02_6A,"<EB>Wear it, and your<F1>ATK is raised.<FA><F7>"
-02_6B,"<EB>Also, the wearer<F1>becomes valiant.<FA><F7>"
-02_6C,"<EB>Apply it, and your<F1>ATK increases.<FA><F7><F1>But I think its<F1>raw power will<FA><F7><F1>turn the bearer<F1>into a bully.<FA><F7>"
-02_6D,<EB>This kind of power<F1>will make people<FA><F7><F1>see the bearer as<F1>a boastful jock.<FA><F7>
-02_6E,"<EB>It toughens your<F1>body, so you['l]l be<FA><F7><F1>someone who['s] not<F1>to be messed with.<FA><F7>"
-02_6F,"<EB>Wear these, and<F1>your DEF goes up.<FA><F7>"
-02_70,<EB>Wear this to raise<F1>your LUCK.<FA><F7>
-02_71,"<EB>This makes you so<F1>lucky, your whole<FA><F7><F1>personality will<F1>change.<FA><F7>"
-02_72,<EB>Such luck would<F1>surely make the<FA><F7><F1>bearer a very<F1>happy person.<FA><F7>
-02_73,<EB>It makes you move<F1>like lightning.<FA><F7><F1>You['l]l be known<F1>for being quick.<FA><F7>
-02_74,<EB>But it will also<F1>make you cowardly.<FA><F7>
-02_75,<EB>This will surely<F1>make you known as<FA><F7><F1>an agile person.<F1><FA><F7>
-02_76,"<EB>It raises INT when<F1>worn.<FA><F7><F1>It['s] a powerful<F1>item, and makes<FA><F7><F1>you very smart.<F1><FA><F7>"
-02_77,<EB>Wear this to guard<F1>against instant<FA><F7><F1>death spells.<F1><FA><F7>
-02_78,"<EB>Wear this, and<F1>your AGL goes up.<FA><F7>"
-02_79,<EB>But equipping such<F1>a thing will make<FA><F7><F1>you seem silly.<F1><FA><F7>
+02_6A,<&40>「これを　みにつけていると<F1>　　こうげき[カ]が　あがるようです.<FA><F7>
+02_6B,<&40>「さらに　その<xE5>Dの<xE5>ぽ<xE5><F1>を<F1>　　ごうけつに　してしまうでしょう.<FA><F7>
+02_6C,<&40>「これを　はりつけていると<F1>　　こうげき[カ]が　あがるようです.<FA><F7><F1><&40>「その　あまりのちからは[・・・]<F1><FA><F7><&40>「その<xE5>Dを　らんぼうものに<F1>　　してしまうことでしょう.<FA><F7>
+02_6D,<&40>「そのちからで[・・・]<F1><FA><F7><&40>「<xE5>Dから　ちからじまんと<F1>　　よばれることでしょう.<FA><F7>
+02_6E,<&40>「しかも　からだが<F1>　　ひきしまり[・・・]<FA><F7><F1><&40>「タフガイと　よばれるに<F1>　　ふさわしい<xE5>Dと　なるでしょう.<FA><F7>
+02_6F,<&40>「これを　みにつけていると<F1>　　しゅび[カ]が　あがるようです.<FA><F7>
+02_70,<&40>「これを　みにつけていると<F1>　　うんが　よくなるようです.<FA><F7>
+02_71,<&40>「これだけ　よくなると<F1>　　その<xE5>Dは[・・・]<FA><F7><F1><&40>「ラッキ-マンとして<F1>　　<xE5>Oの<xE5>6を　わたっていけますね.<FA><F7>
+02_72,<&40>「そのうんは　きっと[・・・]<F1><FA><F7><&40>「その<xE5>Dを　しあわせものに<F1>　　することでしょう.<FA><F7>
+02_73,<&40>「いなずまのような<F1>　　うごきで[・・・]<FA><F7><F1><&40>「でんこうせっかと　<xE5>Dから<F1>　　よばれるように　なるでしょう.<FA><F7>
+02_74,<&40>「でも　そのかわり　いくじが<F1>　　なくなって　しまうようです.<FA><F7>
+02_75,<&40>「きっと　みんなから[・・・]<F1><FA><F7><&40>「すばしっこいって<F1>　　いわれると　<xE5>どいますよ.<FA><F7>
+02_76,<&40>「これを　みにつけていると<F1>　　かしこさが　あがるようです.<FA><F7><F1><&40>「みにつけた<xE5>Dを[・・・]<F1><FA><F7><&40>「ずのうめいせきに<F1>　　してしまうようです.<FA><F7>
+02_77,"<&40>「これを　みにつけていると<F1>　　<xE5>ネの<xE5>さ<xE5>,を　ふせげますね.<FA><F7>"
+02_78,<&40>「これを　みにつけていると<F1>　　すばやさが　あがるようです.<FA><F7>
+02_79,<&40>「これを　みにつけていたら[・・・]<F1><FA><F7><&40>「きっと　おちょうしものに<F1>　　<xE5>どわれてしまうでしょう.<FA><F7>
 02_7A,
-02_7B,<EB>People who wear<F1>this will become<FA><F7><F1>hard-headed.<F1><FA><F7>
-02_7C,"<EB>With this, you['l]l<F1>find the strength<FA><F7><F1>prevail.<F1><FA><F7><F1>But you['l]l also<F1>feel the weight<FA><F7><F1>of the world['s]<F1>sorrows.<FA><F7>"
-02_7D,"<EB>If you had this in<F1>your mouth, you['d]<FA><F7><F1>be thought of as<F1>a helpless person.<FA><F7>"
-02_7E,<EB>Wearing this gives<F1>you compassion.<FA><F7><F1>You would become<F1>very kind.<FA><F7>
-02_7F,"<EB>If you wear this,<F1>you['l]l be able<FA><F7><F1>to lead a solitary<F1>life.<FA><F7>"
-02_80,"<EB>Wear this, and<F1>you['l]l think<FA><F7><F1>romantic thoughts.<F1><FA><F7>"
-02_81,<EB>The wearer of this<F1>little Slime just<FA><F7><F1>asks for<F1>loneliness.<FA><F7>
-02_82,"<EB>It['s] just a plain<F1>necklace, but<FA><F7><F1>it makes you<F1>feel lecherous.<FA><F7>"
-02_83,<EB>Wearing this makes<F1>you want to flaunt<FA><F7><F1>your own sexiness.<F1><FA><F7>
+02_7B,<&40>「あまりに　かたくみえる<F1>　　かつらが[・・・]<FA><F7><F1><&40>「その<xE5>Dの　あたまの<xE5>6まで<F1>　　かたくして　しまいそうです.<FA><F7>
+02_7C,<&40>「どんなに　くろうしても<F1>　　くじけない<xE5>Tが[・・・]<FA><F7><F1><&40>「その<xE5>Dを　くろうにんに<F1>　　してしまうでしょう.<FA><F7>
+02_7D,<&40>「これを　しゃぶっていたら[・・・]<F1><FA><F7><&40>「あまえんぼうと　よばれても<F1>　　しかた　ありませんね.<FA><F7>
+02_7E,<&40>「みにつけている<xE5>Dに<F1>　　はくあいせいしんを　やどらせ[・・・]<FA><F7><F1><&40>「やさしい<xE5>へ<xE5>・ちに<F1>　　させるようです.<FA><F7>
+02_7F,<&40>「これを　みにつけていれば[・・・]<F1><FA><F7><&40>「いっぴきおおかみとして<F1>　　<xE5>Sきることが　てきるでしょう.<FA><F7>
+02_80,<&40>「みにつけた<xE5>Dを　ロマン<F1>　　あふれる<xE5>Dに　するでしょう.<FA><F7>
+02_81,<&40>「みみもとでゆれる<F1>　　スライムが[・・・]<FA><F7><F1><&40>「みにつけている<xE5>Dを<F1>　　さびしく　させるようです.<FA><F7>
+02_82,<&40>「なぜか　わかりませんが[・・・]<F1><FA><F7><&40>「みにつけている<xE5>Dを<F1>　　スケベっぽくしてしまいそうです.<FA><F7>
+02_83,<&40>「みにつけている<xE5>Dを[・・・]<F1><FA><F7><&40>「とても　セクシ-な<xE5>へ<xE5>ぁに<F1>　　してしまうでしょう.<FA><F7>
 02_84,
-02_85,<EB>It['s] a pretty<F1>bracelet.<FA><F7><F1>But it['l]l make you<F1>look vain.<FA><F7>
-02_86,<EB>It restores your<F1>MP as you walk if<FA><F7><F1>you have it on.<F1><FA><F7>
-02_87,<EB>Wearing this makes<F1>you feel ladylike.<FA><F7>
+02_85,<&40>「たしかに　キレイですが[・・・]<F1><FA><F7><&40>「みえをはっていると<F1>　　<xE5>どわれるでしょう.<FA><F7>
+02_86,<&40>「みにつけて　<xE5>グくと<F1>　　MPが　かいふくするようですよ.<FA><F7>
+02_87,<&40>「これを　みにつけると[・・・]<F1><FA><F7><&40>「おじょうさまのように<F1>　　ふるまいたくなるでしょう.<FA><F7>
 02_88,
 02_89,
 02_8A,
@@ -309,27 +209,177 @@
 02_8D,
 02_8E,
 02_8F,
-02_90,<EB>This can['t] be<F1>equipped by men.<FA><F7>
-02_91,"<EB>Some girls might<F1>be a little shy<FA><F7><F1>about wearing this<F1>in battle, though.<FA><F7>"
+02_90,<&40>「<xE5>2の<xE5>Dしか<F1>　　そうびできないみたいですよ.<FA><F7>
+02_91,<&40>「しかし　これは<F1>　　きわどい　ですね[・・・][・・・].<FA><F7>
 02_92,
-02_93,<EB>This is not for<F1>women like me.<FA><F7>
+02_93,<&40>「これは　<xE5><xEC>もの<F1>　　のようですね.<FA><F7>
 02_94,
 02_95,
-03_00,<FE>Save data has been
-03_01,<FE>lost: Field Log <&3E><FA><F7>
-03_02,<FE>lost: Journal <&3E><FA><F7>
-03_03,<FE>There is a Field<F1>Log of <&00> LV<&3B>.<FA><F7><F1>Resuming from it<F1>deletes the Log.<FA><F7><F1>Resume quest from<F1>the Field Log?<xE7>
-03_04,<FE>Please enter your<F1>name.<F7>
-03_05,<FE>Journal <&3E> will be<F1>deleted. OK?<xE7>
-03_06,<FE>This Journal holds<F1><FA><F7><&00> LV<&3B>['s]<F1>Field Log.<FA><F7><F1>It will be deleted<F1>with this Journal.<FA><F7><F1>Is that fine?<F1><xFF>
-03_07,<FE>Journal <&3E> deleted.<F1><F7>
-03_08,<FE>The Game Link<F1>Cable isn['t] set.<FA><F7><F1>Please restart the<F1>link process.<F7>
-03_09,<FE>Select the Journal<F1>to be used.
-03_0A,<FE>Select the<F1>Pachisi track.
-03_0B,<FE>Medal Book<F1>deleted.<FA><F7>
-03_0C,<FE>Delete the<F1>Medal Book?<xE7>
-03_0D,<FE>You have no<F1>Monster Medals.<F7>
-03_0E,<FE>Incompatible menu<F1>selections.<FA><F7><F1>Please restart the<F1>link process.<F7>
-03_0F,<FE>Awaiting link.<F1>Please wait.<F7>
-03_10,<FE>Medal Book<F1>deleted.<F7>
-03_11,<FE>Journal <&3E> will be<F1>used. OK?<xFF>
+03_00,<EB><&40>「<&25>[・・・][・・・]<F1>　　どうぐのようね.<FA><F7>
+03_01,@03_00
+03_02,<EB><&40>「<&25>[・・・][・・・]<F1>　　ぶきのようね.<FA><F7>
+03_03,<EB><&40>「<&25>[・・・][・・・]<F1>　　みをまもる<xE5>:のようね.<FA><F7>
+03_04,<EB><&40>「<&25>[・・・][・・・]<F1>　　たてのようね.<FA><F7>
+03_05,<EB><&40>「<&25>[・・・][・・・]<F1>　　あたまを　まもる<xE5>:のようね.<FA><F7>
+03_06,<EB><&40>「まあ!　これは<F1>　　かなり　めずらしい<xE5>:だわ!<FA><F7>
+03_07,<EB><&40>「<&25>は<F1>　　<xE5>たのようね.<FA><F7>
+03_08,<EB><&40>「<&25>[・・・]これは<F1>　　そうしょくひんのようね.<FA><F7>
+03_09,<EB><&40>「でも　いちど　<xE5>♀うと<F1>　　なくなってしまうみたい.<FA><F7>
+03_0A,<EB><&40>「でも　いちど　<xE5>♀うと<F1>　　なくなってしまうみたい.<FA><F7><F1><EB><&40>「<xE5><xEC>の<xE5>Dが　よんでも<F1>　　<xE5>ぞに<xE5>ソたなそうね.<FA><F7>
+03_0B,<EB><&40>「しかも　<xE5>や<xE5>ノ<xE5>♀っても<F1>　　なくならないみたい.<FA><F7>
+03_0C,<EB><&40>「<xE5>げいの<xE5><F7>　どうぐとして<F1>　　　<xE5>♀うと　なにか　おこりそうね.<FA><F7>
+03_0D,<EB><&40>「<xE5>げいの<xE5><F7>　どうぐとして<F1>　　<xE5>♀っても[・・・]<FA><F7><F1><&40>「なにも<F1>　　おこりそうに　ないわ.<FA><F7>
+03_0E,<EB><&40>「どんな　こうかがあるのか<F1>　　よく　<xE5>ぁからないわ.<FA><F7><F1><&40>「ためしに<F1>　　<xE5>♀ってみたら　どう?<FA><F7>
+03_0F,<EB><&40>「これを　そうびできるのは[・・・]<F1><FA><F7><&40>「<&00>　<&09><F1>　　<&12>　<&1B>　みたいね.<FA><F7>
+03_10,<EB><&40>「これを　そうびできるのは[・・・]<F1><FA><F7><&40>「<&00>　<&09><F1>　　<&12>　みたいね.<FA><F7>
+03_11,<EB><&40>「これを　そうびできるのは<F1>　　<&00>　<&09>　みたいね.<FA><F7>
+03_12,<EB><&40>「これを　そうびできるのは<F1>　　<&00>　みたいね.<FA><F7>
+03_13,<EB><&40>「あら?<F1>　　わたしたちの<xE5>6に[・・・]<FA><F7><F1><&40>「これを　そうびできる<xE5>Dは<F1>　　1<xE5>Dも　いないみたいね.<FA><F7>
+03_14,<EB><&40>「おみせに　<xE5>・っていけば<F1>　　<&30>Gで　<xE5>ぶれるわね.<FA><F7>
+03_15,<EB><&40>「おみせに　<xE5>・っていっても[・・・]<F1><FA><F7><&40>「これに　ねだんは<F1>　　つけられない　でしょうね.<FA><F7>
+03_16,<EB><&40>「なにかしら?<F1>　　いやな　かんじが　するわ[・・・][・・・].<F7>
+03_17,<EB><&40>「だいじょうぶ.<F1>　　<xE5>さいは　かかっていないわ.<F7>
+03_18,<EB><&40>「おみせに　<xE5>・っていくのは<F1>　　もったいないと　<xE5>どうけど[・・・]<FA><F7><F1><&40>「<&30>Gで<F1>　　<xE5>ぶれるわね.<FA><F7>
+03_19,<EB><&40>「これは　たいりょくを<F1>　　かいふくする　くすりのようね.<FA><F7>
+03_1A,<EB><&40>「これは　からだから　どくを<F1>　　けしてくれる　くすりのようね.<FA><F7>
+03_1B,<EB><&40>「これは　マヒを　なおして<F1>　　くれる　くすりのようね.<FA><F7>
+03_1C,<EB><&40>「これを<xE5>♀うと　じぶんより<F1>　　よわい　まものを[・・・]<FA><F7><F1><&40>「しばらくの<xE5>ゥ<F1>　　よせつけなく　できるようね.<FA><F7>
+03_1D,<EB><&40>「これを　<xE5>♀うと[・・・]<F1><FA><F7><&40>「いちど　たちよったところへ<F1>　　もどることが　できるようね.<FA><F7>
+03_1E,<EB><&40>「これを　<xE5>♀うと[・・・]<F1><FA><F7><&40>「<xE5>Hしの<xE5>ゥ　すがたを<F1>　　けすことが　できそうね.<FA><F7>
+03_1F,<EB><&40>「これを<xE5>♀うと[・・・]<F1><FA><F7><&40>「<xE5>ネんだ<xE5>Dを　<xE5>Sき<xE5>ぴらせる<F1>　　ことが　できそうよ.<FA><F7>
+03_20,<EB><&40>「これを<xE5>♀うと[・・・]<F1><FA><F7><&40>「MPを　かいふくすることが<F1>　　できるようね.<FA><F7><F1><&40>「でも　<xE5>♀いすぎると<F1>　　こわれてしまうみたい.<FA><F7>
+03_21,<EB><&40>「これを<xE5>♀えば[・・・]<F1><FA><F7><&40>「いきなり　お<xE5><xED>を　<xE5>ヅに<F1>　　してしまうことが　できそうね.<FA><F7>
+03_22,<EB><&40>「これを<xE5>♀えば[・・・]<F1><FA><F7><&40>「いろんなすがたに<F1>　　へんしんすることが　できそうよ.<FA><F7>
+03_23,<EB><&40>「まものたちは　この<F1>　　たてごとの　おとが[・・・]<FA><F7><F1><&40>「とっても　すきなようね.<F1><FA><F7>
+03_24,
+03_25,
+03_26,<EB><&40>「これは　ポルトガの<xE5>0さまが<F1>　　ホビットのノルドさんに　あてて[・・・]<FA><F7><F1><&40>「<xE5>がいてくれた　てがみね.<F1><FA><F7>
+03_27,<EB><&40>「これを　おりょうりに<F1>　　<xE5>♀うと[・・・]<FA><F7><F1><&40>「とっても　いいあじが<F1>　　でるのよね.<FA><F7>
+03_28,<EB><&40>「これを　<xE5>・っていれば[・・・]<F1><FA><F7><&40>「<xE5><xE9>しい　しょくぎょう<F1>　　へのみちが　ひらかれそうよ.<FA><F7>
+03_29,<EB><&40>「キレイな　カガミね[・・・]<F1>　　うっとり[・・・][・・・].<FA><F7>
+03_2A,<EB><&40>「なんて　うつくしい<F1>　　<xE5>デ<xE5>テなの!<FA><F7><F1><&40>「とても　この<xE5>Oの<xE5>:とは<F1>　　<xE5>どえないわ.<FA><F7>
+03_2B,
+03_2C,<EB><&40>「これを　<xE5>♀えば<F1>　　みんなの　たいりょくを[・・・]<FA><F7><F1><&40>「いっぺんに<F1>　　かいふくできるようね.<FA><F7>
+03_2D,"<EB><&40>「これは　<xE5>・っていると<F1>　　<xE5>ネの<xE5>さ<xE5>,に　かかった<xE5><F7>[・・・]<FA><F7><F1><&40>「みがわりになって<F1>　　くれそうよ.<FA><F7><F1><&40>「でも　それは　いちどだけで<F1>　　その<xE5>ヘ　こわれてしまうみたい.<FA><F7>"
+03_2E,
+03_2F,<EB><&40>「これを　<xE5>♀うと<F1>　　ちからが　あがるようね.<FA><F7>
+03_30,<EB><&40>「これを　<xE5>♀うと<F1>　　すばやさが　あがるようね.<FA><F7>
+03_31,<EB><&40>「これを　<xE5>♀うと<F1>　　たいりょくが　あがるようね.<FA><F7>
+03_32,<EB><&40>「これを　<xE5>♀うと<F1>　　かしこさが　あがるようね.<FA><F7>
+03_33,<EB><&40>「これを　<xE5>♀うと<F1>　　うんのよさが　あがるようね.<FA><F7>
+03_34,<EB><&40>「これを　<xE5>♀うと<F1>　　さいだいHPが　あがるようね.<FA><F7>
+03_35,<EB><&40>「これを　<xE5>♀うと<F1>　　さいだいMPが　あがるようね.<FA><F7>
+03_36,<EB><&40>「キラキラ　ひかって<F1>　　とても　キレイね.<FA><F7><F1><&40>「<xE5>やに　<xE5>♀う<xE5>:<F1>　　なのかしら?<FA><F7>
+03_37,<EB><&40>「このふえを　ふいたところに<F1>　　<xE5>やかが　あると[・・・]<FA><F7><F1><&40>「やまびこのように<F1>　　おとが　かえってくるようね.<FA><F7>
+03_38,<EB><&40>「エリックさんと<F1>　　オリビアさん[・・・]<FA><F7><F1><&40>「2<xE5>Dの　あいの　かたらいが<F1>　　きこえてくるようだわ.<FA><F7>
+03_39,<EB><&40>「これで　いろんなドアを<F1>　　あけられそうね.<FA><F7>
+03_3A,<EB><&40>「これなら　どんなドアも<F1>　　あいてしまうでしょうね.<FA><F7>
+03_3B,<EB><&40>「キレイな　<xE5>デ<xE5>Zね[・・・][・・・]<F1><FA><F7><&40>「なんだか　すいこまれて<F1>　　しまいそう[・・・][・・・].<FA><F7>
+03_3C,<EB><&40>「これがあれば　すごろくを<F1>　　すきなだけ　あそべるわよ.<FA><F7>
+03_3D,<EB><&40>「このけん　1<xE5>ぷで<F1>　　1<xE5>ノ　すごろくができるわ.<FA><F7>
+03_3E,<EB><&40>「この<xE5>る<xE5><F4>は　わたしたちが<F1>　　<xE5>”った<xE5>づを[・・・]<FA><F7><F1><&40>「じぶんで　かいていって<F1>　　くれるようね.<FA><F7>
+03_3F,<EB><&40>「<xE5>すたちが　<xE5>Cまでに<xE5>”った<F1>　　アレフガルドの　ようすが[・・・]<FA><F7><F1><&40>「かかれているようね.<F1><FA><F7>
+03_40,<EB><&40>「やさしさと　<xE5>どいやり[・・・][・・・]<F1><FA><F7><&40>「たにんへの　いたわりの<xE5>T<F1>　　とは[・・・][・・・]　だって.<FA><F7>
+03_41,<EB><&40>「<xE5>Dに　キラわれない<F1>　　あまえかた?<FA><F7><F1><&40>「ぼせいほんのうを<F1>　　くすぐるほう?　[・・・][・・・]なにコレ?<FA><F7>
+03_42,<EB><&40>「<xE5><xEC>の<xE5>Dが　よんでも<F1>　　<xE5>ぞに<xE5>ソたなそうね.<FA><F7>
+03_43,<EB><&40>「おしとやかな　<xE5>2<xE5>ぽを<F1>　　めざせ!<FA><F7><F1><&40>「テ-ブルマナ-を<F1>　　きわめよう[・・・][・・・]か.<FA><F7>
+03_44,<EB><&40>「きょういの　だいのう<F1>　　はったつじゅつ!<FA><F7><F1><&40>「あたまのよくなる<F1>　　しょくひんリスト!<FA><F7><F1><&40>「ちょうしこうほう!<F1>　　[・・・][・・・]ねえ.<FA><F7>
+03_45,<EB><&40>「カラダを　きたえよ!<F1>　　キンニクを　みがけ!<FA><F7><F1><&40>「パワ-こそ　すべてだっ[・・・]?<F1><FA><F7>
+03_46,<EB><&40>「<xE5><xEC>なら　だいたんに!<F1>　　<xE5>2でも　だいたんに!<FA><F7><F1><&40>「きもったまを　きたえろ!<F1>　　[・・・][・・・]だって.<FA><F7>
+03_47,<EB><&40>「うんは　やってくるものに<F1>　　あらず!<FA><F7><F1><&40>「こちらから　よびこむ<F1>　　ものなり!　[・・・][・・・]ふ-ん.<FA><F7>
+03_48,<EB><&40>「てんしん　らんまん<F1>　　げんきなこ!<FA><F7><F1><&40>「おてんば　イタズラ<F1>　　だいすきっこ　あつまれ!　[・・・][・・・]?<FA><F7>
+03_49,<EB><&40>「この<xE5>たで　なけない<xE5>Dは<F1>　　<xE5>D<xE5>ゥじゃありません.<FA><F7><F1><&40>「さあ　ハンカチの<F1>　　ごよういを[・・・][・・・]か.<FA><F7>
+03_4A,<EB><&40>「さあ　<xE5>Cこそ　その1<xE5>グを<F1>　　ふみだす<xE5><F7>!<FA><F7><F1><&40>「この<xE5>たをよめば　その<F1>　　ゆうきが　キミの<xE5>こに![・・・][・・・]ねえ.<FA><F7>
+03_4B,<EB><&40>「まけたら　あかん[・・・][・・・].<F1>　　あきらめたら　あかん[・・・][・・・].<FA><F7><F1><&40>「かつまで　やるんや!<F1>　　[・・・][・・・]だって!<FA><F7>
+03_4C,<EB><&40>「わらうカドには<F1>　　ふくきたる!<FA><F7><F1><&40>「ケッさくユ-モア<F1>　　100せん!　[・・・]おもしろそうね.<FA><F7>
+03_4D,<EB><&40>「しょうじき<xE5>ぎは<F1>　　バカをみる!<FA><F7><F1><&40>「<xE5>Oの<xE5>6　ズルイヤツが<F1>　　いきのこるのさ!　[・・・][・・・]なにコレ!<FA><F7>
+03_4E,<EB><&40>「!!　こ　これは[・・・][・・・]<F1>　　キャ-　キャ-!　ポッ.<FA><F7>
+03_4F,
+03_50,<EB><&40>「これで　こうげきすれば[・・・]<F1><FA><F7><&40>「いちどに　2<xE5>ノ<F1>　　きりつけることが　できそうよ.<FA><F7>
+03_51,
+03_52,<EB><&40>「これで　きゅうしょを<F1>　　ねらえば[・・・]<FA><F7><F1><&40>「どんな　<xE5><&25>まものも<F1>　　いちころ　でしょうね.<FA><F7>
+03_53,<EB><&40>「ダメ-ジを　あたえることが<F1>　　できそうよ.<FA><F7>
+03_54,<EB><&40>「これで　こうげきすれば<F1>　　てき　1グル-プに[・・・]<FA><F7>
+03_55,<EB><&40>「これで　こうげきすると<F1>　　ぜんぶのてきに[・・・]<FA><F7>
+03_56,<EB><&40>「ゾンビみたいな　てきには<F1>　　ふつうより　ダメ-ジを[・・・]<FA><F7><F1><&40>「<xE5>でく　あたえられそうね.<F1><FA><F7>
+03_57,<EB><&40>「ドラゴンみたいな　てきには<F1>　　ふつうより　ダメ-ジを[・・・]<FA><F7><F1><&40>「<xE5>でく　あたえられそうね.<F1><FA><F7>
+03_58,<EB><&40>「そうび<xE5>6は　とくべつな<F1>　　こうかが　ありそうね.<FA><F7>
+03_59,
+03_5A,<EB><&40>「<xE5>5きくて　かわいいわね.<F1><FA><F7><&40>「これなら　あたまから<F1>　　すっぽり　かぶれそうね.<FA><F7>
+03_5B,
+03_5C,<EB><&40>「これを　そうびしていれば[・・・]<F1><FA><F7>
+03_5D,<EB><&40>「まほうこうげきからの<F1>　　ダメ-ジを　へらせそうね.<FA><F7>
+03_5E,<EB><&40>「ほのおからの<F1>　　ダメ-ジを　へらせそうね.<FA><F7>
+03_5F,<EB><&40>「これを　そうびしていれば<F1>　　まほうこうげきや[・・・]<FA><F7><F1><EB><&40>「ほのおや　ふぶきからの<F1>　　ダメ-ジを　へらせそうね.<FA><F7>
+03_60,<EB><&40>「ほのおや　ふぶきからの<F1>　　ダメ-ジを　へらせそうね.<FA><F7>
+03_61,<EB><&40>「すごいわ!<F1><FA><F7><&40>「<xE5>グくたびに　<xE5>Hしずつ<F1>　　HPが　かいふくするみたいよ!<FA><F7>
+03_62,
+03_63,
+03_64,
+03_65,
+03_66,
+03_67,
+03_68,
+03_69,
+03_6A,<EB><&40>「これを　みにつけていれば<F1>　　こうげき[カ]が　あがるようよ.<FA><F7>
+03_6B,<EB><&40>「さらに　その<xE5>Dの<xE5>ぽ<xE5><F1>を<F1>　　ごうけつに　してしまうわ.<FA><F7>
+03_6C,<EB><&40>「これを　はりつけていれば<F1>　　こうげき[カ]が　あがるようよ.<FA><F7><F1><&40>「でも　そのすごいちからは[・・・]<F1><FA><F7><&40>「その<xE5>Dを　らんぼうものに<F1>　　してしまうと　<xE5>どうわ.<FA><F7>
+03_6D,<EB><&40>「このちからなら[・・・]<F1><FA><F7><&40>「みんなから　ちからじまんと<F1>　　よばれることでしょう.<FA><F7>
+03_6E,<EB><&40>「からだが　ひきしまって[・・・]<F1><FA><F7><&40>「タフガイって　よばれても<F1>　　おかしくない<xE5>Dに　なれるわ.<FA><F7>
+03_6F,<EB><&40>「これを　みにつけていれば<F1>　　しゅび[カ]が　あがるようね.<FA><F7>
+03_70,<EB><&40>「これを　みにつけていれば<F1>　　うんが　よくなるようよ.<FA><F7>
+03_71,<EB><&40>「これだけ　よくなれば<F1>　　その<xE5>Dは[・・・]<FA><F7><F1><&40>「ラッキ-マンとして<F1>　　<xE5>Oの<xE5>6　わたっていけるわね.<FA><F7>
+03_72,<EB><&40>「そのうんは　きっと[・・・]<F1><FA><F7><&40>「その<xE5>Dを　しあわせものに<F1>　　してくれると　<xE5>どうわ.<FA><F7>
+03_73,<EB><&40>「いなずまみたいな<F1>　　うごきで　みんなから[・・・]<FA><F7><F1><&40>「でんこうせっかって<F1>　　よばれるように　なるわね.<FA><F7>
+03_74,<EB><&40>「でも　そのかわり　いくじが<F1>　　なくなって　しまうみたいね.<FA><F7>
+03_75,<EB><&40>「きっと　みんなから[・・・]<F1><FA><F7><&40>「すばしっこいヤツって<F1>　　いわれるように　なるわね.<FA><F7>
+03_76,<EB><&40>「これを　みにつけていれば<F1>　　かしこさが　あがるようね.<FA><F7><F1><&40>「かけた<xE5>Dを<F1>　　ずのうめいせきに　してしまう[・・・]<FA><F7><F1><&40>「ちからが　あるみたいね.<F1><FA><F7>
+03_77,"<EB><&40>「これを　みにつけていれば<F1>　　<xE5>ネの<xE5>さ<xE5>,を　ふせげるようね.<FA><F7>"
+03_78,<EB><&40>「これを　みにつけていれば<F1>　　すばやさが　あがるようね.<FA><F7>
+03_79,<EB><&40>「でも　こんな<xE5>:<F1>　　そうびしてたら[・・・]<FA><F7><F1><&40>「おちょうしものと<F1>　　<xE5>どわれちゃうわよ.<FA><F7>
+03_7A,
+03_7B,<EB><&40>「これを　かぶっていると[・・・]<F1><FA><F7><&40>「その<xE5>Dの　あたまの<xE5>6まで<F1>　　カチカチになって　しまいそうね.<FA><F7>
+03_7C,<EB><&40>「どんな　くろうにも<F1>　　まけない<xE5>Tが[・・・]<FA><F7><F1><&40>「ぎゃくに　その<xE5>Dを<F1>　　くろうにんに　してしまうわね.<FA><F7>
+03_7D,<EB><&40>「これを　しゃぶっていたら[・・・]<F1><FA><F7><&40>「あまえんぼうって<F1>　　いわれても　しょうが　ないわね.<FA><F7>
+03_7E,<EB><&40>「みにつけている<xE5>Dは<F1>　　はくあいせいしんが　やどって[・・・]<FA><F7><F1><&40>「やさしい<xE5>へ<xE5>ぁに<F1>　　なれそうよ.<FA><F7>
+03_7F,<EB><&40>「これを　みにつけていれば[・・・]<F1><FA><F7><&40>「いっぴきおおかみのように<F1>　　<xE5>Sきることが　できるでしょうね.<FA><F7>
+03_80,<EB><&40>「みにつけた<xE5>Dを<F1>　　ロマンチックな<xE5>へ<xE5>ぁに[・・・]<FA><F7><F1><&40>「させてくれるみたいね.<F1><FA><F7>
+03_81,<EB><&40>「<xE5>7さな　スライムが[・・・]<F1><FA><F7><&40>「みにつけている<xE5>Dの<F1>　　さびしさを　さそうみたい.<FA><F7>
+03_82,<EB><&40>「ふつうのネックレスだけど[・・・]<F1><FA><F7><&40>「みにつけている<xE5>Dを<F1>　　すけべな<xE5>へ<xE5>ぁに　させるみたい.<FA><F7>
+03_83,<EB><&40>「これを　みにつけていると[・・・]<F1><FA><F7><&40>「じぶんの　セクシ-さを<F1>　　アピ-ルしたく　なるようね.<FA><F7>
+03_84,
+03_85,<EB><&40>「キレイな　うでわだけど[・・・]<F1><FA><F7><&40>「みえっぱりに<F1>　　<xE5>ぐえてしまうかも　しれないわね.<FA><F7>
+03_86,<EB><&40>「これをはめて　<xE5>グけば<F1>　　MPが　かいふくするみたいよ!<FA><F7>
+03_87,<EB><&40>「これを　かぶっていれば[・・・]<F1><FA><F7><&40>「おじょうさま<xE5>へ<xE5>ぁが<F1>　　あじわえそうね.<FA><F7>
+03_88,
+03_89,
+03_8A,
+03_8B,
+03_8C,
+03_8D,
+03_8E,
+03_8F,
+03_90,<EB><&40>「これは　<xE5><xEC>の<xE5>Dには<F1>　　そうびできないでしょうね.<FA><F7>
+03_91,<EB><&40>「でも　こんなの　きて<F1>　　<xE5>げえなんて　いわないわよね?<FA><F7>
+03_92,
+03_93,<EB><&40>「わたしたち<F1>　　<xE5>2<xE5>ぽむきでは　ないようだわ.<FA><F7>
+03_94,
+03_95,
+04_00,<FE>まことに　ざんねんながら
+04_01,<FE>ちゅうだんのしょ<&3E>　はきえました.<FA><F7>
+04_02,<FE><xE5><xEF><xE5>トの<xE5>が<&3E>　はきえました.<FA><F7>
+04_03,<FE>LV<&3B>　<&00>　の<F1>ちゅうだんの<xE5>がが　あります.<FA><F7><F1>ちゅうだんのしょから　<xE5>ぜめると<F1>きろくは　きえてしまいます.<FA><F7><F1>ちゅうだんの<xE5>がから<F1><xE5>ぜめますか?<xE7>
+04_04,<FE>あなたの　<xE5>ろ<xE5><EA>を<F1><xE5>Eれて<xE5>4さい.<F7>
+04_05,<FE><xE5><xEF><xE5>トの<xE5>が<&3E>を　けします.<F1>よろしいですか?<xE7>
+04_06,<FE>この<xE5><xEF><xE5>トの<xE5>がには[・・・]<F1><FA><F7>LV<&3B>　<&00>　の<F1>ちゅうだんの<xE5>がが　あります.<FA><F7><F1><xE5><xEF><xE5>トの<xE5>が<&3E>をけすと　ちゅうだんの<xE5>がも<F1>きえてしまいますが　よろしいですか?<xFF>
+04_07,<FE><xE5><xEF><xE5>トの<xE5>が<&3E>を　けしました.<F1><F7>
+04_08,<FE>つうしんケ-ブルが<F1>ささっていません.<FA><F7><F1>もういちど　はじめから<F1>メニュ-を　せんたくしてください.<F7>
+04_09,<FE><xE5>♀<xE5>ヲする　<xE5><xEF><xE5>トの<xE5>がを<F1>えらんでください.
+04_0A,<FE>すごろく<xE5>ぱを　えらんでください.
+04_0B,<FE>メダルの<xE5>が　はきえました.<FA><F7>
+04_0C,<FE>メダルの<xE5>がを　けします<F1>よろしいですか?<xE7>
+04_0D,<FE>モンスタ-メダルを<F1>1<xE5>ぷも　<xE5>・っていません.<F7>
+04_0E,<FE>つうしんあいてが<F1>べつのメニュ-を　せんたく<xE5>6です.<FA><F7><F1>もういちど　はじめから<F1>メニュ-を　せんたくしてください.<F7>
+04_0F,<FE>つうしんまちです<F1>しばらく　おまち<xE5>4さい.<F7>
+04_10,<FE>メダルの<xE5>がを　けしました.<F1><F7>
+04_11,<FE><xE5><xEF><xE5>トの<xE5>が<&3E>を　<xE5>♀<xE5>ヲします.<F1>よろしいですか?<xFF>

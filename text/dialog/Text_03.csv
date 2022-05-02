@@ -1,281 +1,278 @@
 ﻿Index,Text
-00_00,"[*:] Young one, have<F1>you the MagicBomb?<xFF>"
-00_01,[*:] Then make way to<F1>Tempt Cave.<FA><F7><F1>It is next to a<F1>spring.<F7>
-00_02,[*:] That won['t] do!<F1><FA><F7>Return to Reeve at<F1>once!<F7>
-00_03,<FE>A book on whips<F1>and boomerangs.<FA><F7><F1>Want to read it?<F1><xFF>
-00_04,"<FE>Whips and<F1>boomerangs can<FA><F7><F1>hit more than one<F1>target at once.<FA><F7><F1>A whip can strike<F1>one chosen group.<FA><F7><F1>A boomerang hits<F1>all enemies.<FA><F7><F1>Even though these<F1>weapons may be a<FA><F7><F1>little weak, they<F1>could be better<FA><F7><F1>than a stronger<F1>weapon in certain<FA><F7><F1>situations.<F1>Think wisely.<F7>"
-00_05,"[*:] Tempt Cave, like<F1>its name states,<FA><F7><F1>attracts travelers<F1>to new horizons.<FA><F7><F1>Where you choose<F1>to go, and what<FA><F7><F1>you choose to do<F1>are up to you.<F7>"
-00_06,[*:] The monsters<F1>seem to have<FA><F7><F1>vanished.<F1><FA><F7>Could it be just<F1>my imagination?<F7>
-01_00,[*:] This door leads<F1>to Portoga.<FA><F7><F1>You may open it<F1>and go through if<FA><F7><F1>you have the<F1>Magic Key.
-01_01,[*:] Are you asking<F1>where the Magic<FA><F7><F1>Key is?<F1><xFF>
-01_02,"[*:] If you can['t]<F1>find that on your<FA><F7><F1>own, it['s] futile<F1>to go on.<FA><F7><F1>Go home. It['s] for<F1>your own good.<F7>"
-01_03,[*:] That['s] right.<F1><FA><F7>You have to find<F1>it on your own.<F7>
-02_00,[*:] You['r]e searching<F1>for the Magic Key?<xFF>
-02_01,"[*:] I hear the key<F1>is in the Pyramid,<FA><F7><F1>in the north end<F1>of the desert.<FA><F7><F1>But before you go,<F1>visit Isis.<FA><F7><F1>It is near the<F1>oasis, I believe.<F7>"
-02_02,[*:] Then I have<F1>nothing to say.<F7>
-03_00,[*:] I['m] from the land<F1>of the rising sun.<FA><F7><F1>A monster named<F1>Orochi preys on<FA><F7><F1>our people.<F1>It is terrible.<F7>
-03_01,"[*:] I was headed to<F1>Dharma Temple, but<FA><F7><F1>I lost my way.<F1><FA><F7>I found this quiet<F1>and comfortable<FA><F7><F1>place. I plan to<F1>to stay here.<F7>"
-04_00,<EB>[*:] Our small temple<F1>serves sailors.<FA><F7><F1>The villagers of<F1>Tedanki used to<FA><F7><F1>visit here often.<F1><FA><F7>But now…<F1><F7>
-05_00,<EB>[*:] We are guardians<F1><FA><F7>
-05_01,<EB>[*:] We are guardians<F1><FA><F7>of the egg.<F1><FA><F7>of the egg.<F1><FA><F7>When the six Orbs<F1>from around the<FA><F7><F1>world are put on<F1>the gold stands…<FA><F7><F1>The legendary bird<F1>Lamia will awaken.
-05_02,<EB>[*:] You have already<F1>placed these orbs:<FA><F7><F1>
-05_03,<EB><&00> 
-05_04,  
+00_00,＊「お<xE5><F5>いの.<F1>　　まほうの<xE5>テは　お<xE5>・ちかな?<xFF>
+00_01,＊「ならば　いざないの<xE5>ぢくつに<F1>　　おゆきなされ.<FA><F7><F1>＊「いずみのそばのはずじゃ.<F1><F7>
+00_02,＊「それは　いかん!<F1>　　レ-ベの<xE5>ぅに　もどるがよい!<F7>
+00_03,<FE>ムチや　ブ-メランについて<F1>かかれた<xE5>たを　<xE5>ぐつけた.<FA><F7><F1>よんでみますか?<F1><xFF>
+00_04,<FE>ムチや　ブ-メランは　いちどに<F1><xE5>でくのてきを　<xE5>パげきできるぶきだ.<FA><F7><F1>ムチは　そのグル-プに.<F1><FA><F7>ブ-メランは　てき　すべてに<F1>ダメ-ジを　<xE5>もえるであろう.<FA><F7><F1>たとえ　<xE5>Cより　こうげき[カ]が<F1>おちようとも[・・・]<FA><F7><F1>そちらの<xE5>Kがとく　という<F1><xE5>ぱ<xE5>ぬもある.　<xE5><F6>えて　<xE5>♀うべし.<F7>
+00_05,＊「いざないの<xE5>ぢくつは　もじどおり[・・・]<F1><FA><F7>＊「<xE5>[Lv]<xE5>Dたちを　かの<xE5>るへ<F1>　　いざなうための　ものなのじゃ.<FA><F7><F1>＊「いざなわれた<xE5>みで　<xE5>やをするかは<F1>　　おまえさんたち　しだいじゃがの.<F7>
+00_06,＊「まわりから　まものの<xE5>へ<xE5><F3>が<F1>　　きえたようだが[・・・]<FA><F7><F1>＊「<xE5>へのせい　だろうか[・・・].<F1><F7>
+01_00,＊「とびらを　ひらけば<F1>　　その<xE5>みは　ポルトガの<xE5>ユだ.<FA><F7><F1>＊「まほうのカギを　<xE5>・っているなら<F1>　　とおるがよい.
+01_01,＊「なに?　まほうのカギは<F1>　　どこに　あるのかだと?<xFF>
+01_02,＊「それすら　<xE5>ォ<xE5>ぁで<F1>　　<xE5>ぐつけられぬなら[・・・]<FA><F7><F1>＊「この<xE5>みに　<xE5>”っても　いいことは<F1>　　<xE5>やも　ないだろう.<FA><F7><F1>＊「さあ　かえった　かえった!<F1><F7>
+01_03,＊「そうだな.　そのくらいは<F1>　　<xE5>ォ<xE5>ぁの<xE5>Fで　<xE5>ぐつけないとな.<F7>
+02_00,＊「まほうのカギを　おさがしか?<xFF>
+02_01,＊「カギは　さばくの<xE5>P<F1>　　ピラミッドに　<xE5>ズるときく.<FA><F7><F1>＊「しかし　その<xE5><EA>に　まず<F1>　　イシスの<xE5>ずを　たずねなされ.<FA><F7><F1>＊「たしか　オアシスの<xE5>ゃくに<F1>　　あるはずじゃ.<F7>
+02_02,＊「ならば　なにも　いいますまい.<F1><F7>
+03_00,＊「われは　<xE5>B　いずる<xE5>ユより<F1>　　<xE5>したもの.<FA><F7><F1>＊「<xE5>ユでは　やまたのおろちなる<F1>　　かいぶつが　おりもうして[・・・]<FA><F7><F1>＊「みな　こまっておりまする.<F1><F7>
+03_01,＊「ダ-マのしんでんに<xE5>”こうとしたら<F1>　　みちに　まよっちゃって[・・・].<FA><F7><F1>＊「でも　ここは　のどかで<F1>　　いごこちが　いいよ.<FA><F7><F1>＊「このまま　くらしていようと<F1>　　<xE5>どうんだ.<F7>
+04_00,<EB>＊「ここは　まよえる<xE5>V<xE5>Dたちが<F1>　　たちよる　<xE5>7さなきょうかい.<FA><F7><F1>＊「<xE5><F2>は　テドンの<xE5>ぅ<xE5>Dたちも<F1>　　よく　<xE5>していました.<FA><F7><F1>＊「でも　<xE5>Cは[・・・][・・・].<F1><F7>
+05_00,<EB>＊「わたしたちは<F1><FA><F7>
+05_01,<EB>＊「わたしたちは<F1><FA><F7>＊「たまごを　まもっています.<F1><FA><F7>＊「たまごを　まもっています.<F1><FA><F7>＊「<xE5>O<xE5>び<xE5>6にちらばる　6つのオ-ブを<F1>　　きんのだいざに　ささげた<xE5><F7>[・・・][・・・].<FA><F7><F1>＊「でんせつのふしちょう　ラ-ミアは<F1>　　よみがえりましょう.
+05_02,<EB>＊「あなたがたは　すでに[・・・][・・・]<F1><FA><F7>
+05_03,<EB><&00>　
+05_04,　　
 05_05,@05_04
-05_06,[*:] 
-05_07,<EB>already.<F1><F7>
-05_08,<FE><&00> gently<F1>touched the egg.<FA><F7><F1>Warmth spread to<F1>the hand…<F7>
-05_09,<FE>The egg is shaking<F1>as if it is ready<FA><F7><F1>to hatch!<F1><F7>
-05_0A,<FE>The <&00> on<F1>the pedestal is<FA><F7><F1>glowing faintly.<F1><F7>
-05_0B,<EB>[*:] We have waited<F1><FA><F7>
-05_0C,<EB>[*:] We have waited<F1><FA><F7>so long for this<F1><FA><F7>so long for this<F1><FA><F7>day to come.<F1><FA><F7>Let us pray.<F1><FA><F7>Let us pray.<F1><FA><F7>The time has come<F1>for you to rise.<FA><F7><F1>The sky is yours.<F1>Rise! Take flight!<F7>
-05_0D,<EB>[*:] The legendary<F1>bird Lamia has<FA><F7><F1>been born again.<F1><FA><F7>Lamia is the gods'<F1>disciple.<FA><F7><F1>Only the pure of<F1>soul may ride it.<FA><F7><F1>Lamia is waiting<F1>for you.<FA><F7><F1>Go outside and<F1>see.<F7>
-05_0E,"<EB>[*:] Please wait!<F1>You are the chosen<FA><F7><F1>who brought the<F1>mystic Orbs.<FA><F7><F1>Please witness the<F1>egg['s] hatching.<FA><F7><F1>This way, please.<F1><F7>"
-05_0F,<EB>[*:] The legendary<F1>bird Lamia has<FA><F7><F1>been born again.<F1><FA><F7>Lamia is the gods'<F1>disciple.<FA><F7><F1>Only the pure of<F1>soul may ride it.<F7>
-05_10,<EB>[*:] Lamia is the<F1>gods' disciple.<FA><F7><F1>The legendary bird<F1>has risen again.<FA><F7><F1>The sight of Lamia<F1>in flight…<FA><F7><F1>We did not think<F1>that we would ever<FA><F7><F1>get to witness it…<F1><F7>
-05_11,<FE><&40> placed the<F1><&00> on the<FA><F7><F1>pedestal.<F1><F7>
-05_12,<FE>The <&00> on<F1>the pedestal is<FA><F7><F1>glowing faintly.<F1><F7>
-06_00,<EA>[*:] I speak of the<F1>ancients…<FA><F7><F1>South of Isis'<F1>desert…<FA><F7><F1>In the mountains<F1>of Gondo gapes the<FA><F7><F1>Giana Pit.<F1><FA><F7>It is thence<F1>that evil came…<F7>
-06_01,"[*:] Ah, travelling,<F1>are you?<FA><F7><F1>You remind me of<F1>my youth.<FA><F7><F1>In the past, I<F1>accompanied a hero<FA><F7><F1>by the name of<F1>Ortega.<FA><F7><F1>He is said to have<F1>perished in a fall<FA><F7><F1>into the mouth of<F1>a volcano.<FA><F7><F1>But I refuse to<F1>believe that.<F7>"
-06_02,<EB>[*:] Meow.<F1><xFF>
-06_03,"<EB>[*:] Meow?<F1>Fine, go south.<FA><F7><F1>Search the middle<F1>of four mountains.<F7>"
-06_04,<EB>[*:] Meow…<F1><F7>
-06_05,<EB>[*:] Meow.<F7>
-07_00,"[*:] This is Olivia<F1>Cape.<FA><F7><F1>Olivia is said to<F1>have leapt to her<FA><F7><F1>death here when<F1>she heard of her<FA><F7><F1>lover['s] death in a<F1>storm.<FA><F7><F1>But she can['t] find<F1>peace in death.<FA><F7><F1>So she calls back<F1>passing ships.<FA><F7><F1>If someone were to<F1>present her soul<FA><F7><F1>with a memento of<F1>her lover Eric,<FA><F7><F1>her soul should<F1>rise to heaven.<FA><F7><F1>It['s] rumored that<F1>Eric['s] ship roams<FA><F7><F1>the seas as a<F1>ghost ship.<F7>"
-07_01,[*:] I hear there is<F1>a shrine in the<FA><F7><F1>middle of this<F1>lake.<FA><F7><F1>It['s] supposed to<F1>have a dungeon.<FA><F7><F1>I also hear the<F1>souls of prisoners<FA><F7><F1>still haunt the<F1>shrine.<F7>
-08_00,[*:] The Cape has<F1>become calm.<FA><F7><F1>Perhaps Olivia['s]<F1>sorrow is no more…<F7>
-09_00,[*:] Rumor has it<F1>that the King of<FA><F7><F1>Samanao has become<F1>a changed man.<FA><F7><F1>He decreed that<F1>the hero Simon be<FA><F7><F1>banished through<F1>the Traveler['s]<FA><F7><F1>Gate on the right.<F1><FA><F7>Samanao is to the<F1>west of here.<FA><F7><F1>Go west along the<F1>mountains.<F7>
-0A_00,<EA>[*:] This is the<F1>Shrine Jail…<F7>
-0A_01,<EA>[*:] I am Simon['s]<F1>soul…<FA><F7><F1>Examine the ground<F1>near my corpse…<F7>
-0B_00,"[*:] It['s] been years<F1>since I last saw<FA><F7><F1>anyone. In fact,<F1>not since the time<FA><F7><F1>the pirates left<F1>me an odd bone.<FA><F7><F1>No matter.<F1><FA><F7>Do you know of the<F1>Change Staff?<xFF>"
-0B_01,"[*:] Ah, you do?<F1><FA><F7>I would like to<F1>get that, hahah!<F7>"
-0B_02,"[*:] It['s] a staff<F1>that transforms<FA><F7><F1>people into other<F1>guises.<FA><F7><F1>Supposedly, it is<F1>in the possession<FA><F7><F1>of Samanao['s] King.<F1><FA><F7>If you have the<F1>Final Key, you<FA><F7><F1>will be able to go<F1>to Samanao through<FA><F7><F1>Traveler['s] Gate.<F1><F7>"
-0B_03,"[*:] Ah, that is the<F1>Change Staff!<FA><F7><F1>I want that!<F1><FA><F7>How would you like<F1>to trade that for<FA><F7><F1>the pirate['s] Bone<F1>I have here?<xFF>"
-0B_04,"[*:] You will? Hah,<F1>nothing['s] gained<FA><F7><F1>by being too shy<F1>to ask!<FA><F7><F1>Here, take the<F1>Bone!<FA><F7><F1><FE><&40> traded the<F1>Change Staff for<FA><F7><F1>the Bone!<F1><FA><F7>"
-0B_05,"[*:] Ah, wonderful!<F1>Wahahahah!<F7>"
-0B_06,"[*:] No? Well, I<F1>suppose so.<FA><F7><F1>Wahahahah!<F1><F7>"
-0B_07,"[*:] Ah, welcome.<F1><FA><F7>It['s] rare to see<F1>visitors here.<F7>"
-0B_08,[*:] Who the heck are<F1>you?<FA><F7><F1>What gives you the<F1>right to walk in?<F7>
-0B_09,"<EB>[*:] Oh, hello!<F1><FA><F7>So nice to see<F1>you. I was lonely…<F7>"
-0B_0A,<EA>[*:] Humans! Here!<F1>Destroy them!<F7>
-0B_0B,[*:] Just joking!<F1>It['s] me! Hahahah!<F7>
-0C_00,[*:] Incredible!<F1>You made it here?<FA><F7><F1>You must take this<F1>Silver Orb!<FA><F7><F1><FE><&00> obtained the<F1>Silver Orb!<FA><F7>
-0C_01,"[*:] I am certain<F1>that you must have<FA><F7><F1>the power to beat<F1>the Demon Lord!<FA><F7><F1>The legendary bird<F1>Lamia will come to<FA><F7><F1>your help, I['m]<F1>also sure.<F7>"
-0C_02,[*:] The Demon Lord<F1>Baramos has been<FA><F7><F1>felled by your<F1>valiant efforts.<FA><F7><F1>But what of this<F1>evil pulse coming<FA><F7><F1>from deep under<F1>the ground?<F7>
-0D_00,"[*:] Hah? Yet another<F1>guest?<FA><F7><F1>Ah, you must have<F1>come from the<FA><F7><F1>world above too!<F1><FA><F7>This is Alefgard,<F1>the dark world.<FA><F7><F1>Don['t] you forget<F1>it.<F7>"
-0D_01,<EB>[*:] Tantegel Castle<F1>is to the east.<FA><F7><F1>Papa said you can<F1>use the boat.<F7>
-0E_00,"<EB>[*:] Yay, yay! The<F1>world is at peace!<F7>"
-0E_01,[*:] You['v]e come to<F1>the right place!<FA><F7><F1>There['s] good news!<F1>You['l]l be shocked!<FA><F7><F1>The King of Demons<F1>is no more!<FA><F7><F1>Peace has come to<F1>the world!<FA><F7><F1>Huh? You know?<F1><FA><F7>You defeated the<F1>King of Demons?<FA><F7><F1>Awaaaah!<F1><F7>
-0F_00,"<EB>[*:] Our son Garin is<F1>a headache.<FA><F7><F1>He left to travel<F1>as a bard, and has<FA><F7><F1>not come home.<F1><F7>"
-0F_01,[*:] The Shiny Harp?<F1><FA><F7>I think my son<F1>Garin took it.<F7>
-10_00,"<EB>[*:] Garin, my son<F1>Garin is coming<FA><F7><F1>home!<F1>I['m] overjoyed!<F7>"
-10_01,[*:] My shiftless son<F1>Garin has started<FA><F7><F1>thinking about his<F1>future now that<FA><F7><F1>the world has<F1>turned peaceful.<FA><F7><F1>We owe everything<F1>to you.<FA><F7><F1>Thank you.<F1><F7>
-11_00,"<EB>[*:] I hate humans,<F1>but I like Ortega.<FA><F7><F1>He['l]l slay the<F1>Demon King.<F7>"
-11_01,"<EB>[*:] I am a fairy who<F1>attended to Rubiss<FA><F7><F1>in the past.<F1><FA><F7>On that day,<F1><&10>/<&20>, it was I<FA><F7><F1>who called you in<F1>Rubiss' place.<FA><F7><F1>I may have said<F1>terrible things<FA><F7><F1>then. Forgive me.<F1><FA><F7>But now, <&00>, you<F1>have finally come.<FA><F7><F1>I wish to confer<F1>the Rain Staff to<FA><F7><F1>you as a token of<F1>my feelings.<F7>"
-11_02,<EB>[*:] Please save this<F1>world for the sake<FA><F7><F1>of Rubiss.<F1><F7>
-12_00,<EB>[*:] You defeated the<F1>Demon King?<FA><F7><F1>Then it wasn['t]<F1>Ortega?<xFF><F1>
-12_01,<EB>[*:] ……<F1><F7>
-12_02,"<EB>[*:] Thank you.<F1><FA><F7><&40>, I will never<F1>forget your deed.<FA><F7><F1>Let us meet again.<F1><FA><F7>Rubiss asked me to<F1>tell you that.<F7>"
-UNUSED00_12_02, <~>
-13_00,[*:] This is the<F1>Sacred Shrine.<FA><F7><F1>
-13_01,"[*:] When rain and<F1>sun come together,<FA><F7><F1>a rainbow will<F1>form a bridge.<FA><F7><F1>Go forth, and find<F1>them.<F7>"
-13_02,"[*:] If you are a<F1>true hero, you<FA><F7><F1>should have the<F1>Crest with you.<FA><F7><F1>Come back when you<F1>do.<F7>"
-13_03,"[*:] Ah, you['r]e here<F1>at last!<FA><F7><F1>The rain and sun<F1>shall be joined!"
-13_04,[*:] The Rainbow Drop<F1>is yours!<F7>
-13_05,[*:] There is nothing<F1>here for you. Go.<FA><F7><F1>What? The treasure<F1>chest behind me?<FA><F7><F1>It is empty now.<F1>Don['t] fret over it.<F7>
-14_00,[*:] Make sure that<F1>your bloodline as<FA><F7><F1>a hero continues<F1>for the sake of<FA><F7><F1>lasting peace in<F1>the future.<FA><F7><F1>I shall always be<F1>waiting!<F7>
-14_01,"[*:] Your powers will<F1>be needed again.<FA><F7><F1>When that time<F1>comes, come see me<FA><F7><F1>again. I shall be<F1>waiting.<F7>"
-15_00,<EB>[*:] Who are you?<F7>
-15_01,<EB>[*:] Wow! Slime!<F7>
-15_02,[*:] Aiyah! Help!<F7>
-15_03,[*:] Waah! Monster!<F7>
-15_04,[*:] Awawawawah…<F7>
-15_05,[*:] What!? What are<F1>these beasts!?<F7>
-15_06,[*:] Please!<F1>Spare me!<F7>
-15_07,"[*:] Foul hell-spawn!<F1>Be gone, or be<FA><F7><F1>smitten by divine<F1>retribution!<F7>"
-15_08,[*:] Wh-why monsters?<F1><FA><F7>I must get them<F1>for my research!<F7>
-15_09,"[*:] What? Come on,<F1> if you dare!<F7>"
-15_0A,[*:] Damned freaks!<F1><FA><F7>Get lost or die!<F1>It['s] your choice!<F7>
-15_0B,[*:] Huh? Slime?<F1>Shoo. Move it.<F7>
-15_0C,[*:] What do you<F1>want? Come on!<F7>
-15_0D,[*:] Oh? You feeling<F1>brave? I['m] game!<F7>
-15_0E,[*:] Whoa!<F7>
-15_0F,[*:] M-m-monsters!<F1>H-h-h-help!<F7>
-15_10,[*:] Monsters? What?<F1>Here?<F7>
-15_11,[*:] Gwah! Monsters!<F1>Help me!<F7>
-15_12,"[*:] Hah, cruising<F1>for a bruising?<F7>"
+05_06,＊「
+05_07,<EB>＊「を　ささげています.<F1><F7>
+05_08,<FE><&00>は　たまごに<F1>そっと　ふれてみた.<FA><F7><F1><xE5>このひらに　あたたかさが<F1>つたわってくる[・・・][・・・].<F7>
+05_09,<FE>たまごは　<xE5>Cにも　われそうに<F1>ふるえている!<F7>
+05_0A,<FE>＊「だいざの<xE5>3の　<&00>は<F1>　　かすかな<xE5>そを　はなっている.<F7>
+05_0B,<EB>＊「わたしたち<F1><FA><F7>
+05_0C,<EB>＊「わたしたち<F1><FA><F7>＊「この<xE5>Bを　どんなに<F1><FA><F7>＊「この<xE5>Bを　どんなに<F1><FA><F7>＊「まちのぞんでいたことでしょう.<F1><FA><F7>＊「さあ　いのりましょう.<F1><FA><F7>＊「さあ　いのりましょう.<F1><FA><F7>＊「<xE5><F7>は　<xE5>したれり<F1>＊「<xE5>Cこそ　めざめるとき<FA><F7><F1>＊「<xE5>5<xE5>Nはお<xE5><EA>のもの<F1>＊「まいあがれ　<xE5>Nたかく!<F7>
+05_0D,<EB>＊「でんせつのふしちょう　ラ-ミアは<F1>　　よみがえりました.<FA><F7><F1>＊「ラ-ミアは　<xE5>ヴのしもべ.<F1><FA><F7>＊「<xE5>T<xE5>きしき<xE5>ぎだけが　そのせに<F1>　　のることが　ゆるされるのです.<FA><F7><F1>＊「さあ　ラ-ミアが<F1>　　あなたがたを　まっています.<FA><F7><F1>＊「<xE5>ワに<xE5>せて　ごらんなさい.<F1><F7>
+05_0E,<EB>＊「おまちください!<F1><FA><F7>＊「あなたがたは　オ-ブをささげた<F1>　　えらばれし<xE5>ぎ[・・・].<FA><F7><F1>＊「どうか　たまごを<F1>　　<xE5>ぐとどけて<xE5>4さい.<FA><F7><F1>＊「さあ　<xE5>すたちのもとへ.<F1><F7>
+05_0F,<EB>＊「でんせつのふしちょう　ラ-ミアは<F1>　　よみがえりました.<FA><F7><F1>＊「ラ-ミアは　<xE5>ヴのしもべ.<F1><FA><F7>＊「<xE5>T<xE5>きしき<xE5>ぎだけが<F1>　　そのせに　のれるそうです.<F7>
+05_10,<EB>＊「ラ-ミアは　<xE5>ヴのしもべ.<F1><FA><F7>＊「でんせつのふしちょう　ラ-ミアは<F1>　　よみがえりました.<FA><F7><F1>＊「ラ-ミアが　<xE5>Nにまうすがたを[・・・]<F1><FA><F7>＊「<xE5>Nにまうすがたを　ふたたび<F1>　　この<xE5>かで　<xE5>ぐれるなんて[・・・][・・・].<F7>
+05_11,<FE><&40>は　<&00>を<F1>だいざに　ささげた.<F7>
+05_12,<FE>だいざの<xE5>3の　<&00>は<F1>かすかな　<xE5>そを　はなっている.<F7>
+06_00,<EA>＊「<xE5>すは　いにしえを<F1>　　かたりつたえる<xE5>ぎ.<FA><F7><F1>＊「イシスさばくのみなみ[・・・]<F1><FA><F7>＊「ネクロゴンドの<xE5>Gおくに<F1>　　ギアガの<xE5>5<xE5>°　ありき.<FA><F7><F1>＊「すべての　わざわいは<F1>　　その<xE5>5<xE5>°より　いずるものなり.<F7>
+06_01,＊「<xE5>[Lv]の<xE5>ぎか[・・・]そなたらを　<xE5>ぐていると<F1>　　わしの<xE5><F5>いころを　<xE5>どい<xE5>せすのう.<FA><F7><F1>＊「わしも　<xE5><F2>は[・・・]<F1><FA><F7>＊「オルテガという　ゆうしゃさまの<F1>　　お<xE5>コをして　<xE5><xEF><xE5>トしたものじゃ.<FA><F7><F1>＊「オルテガさまは　<xE5>M<xE5>Gの<xE5>M<xE5>れに<F1>　　おちて　<xE5>ホくなったそうじゃが[・・・]<FA><F7><F1>＊「わしには　まだ　しんじられぬ.<F1><F7>
+06_02,<EB>＊「にゃ~ん.<F1><xFF>
+06_03,<EB>＊「では　ここから　みなみ.<F1><FA><F7>＊「4つのいわやまの　まんなかを<F1>　　しらべてみてください.にゃ~ん.<F7>
+06_04,<EB>＊「にゃ~ん[・・・][・・・].<F1><F7>
+06_05,<EB>＊「にゃ~ん.<F7>
+07_00,＊「ここは　オリビアのみさき.<F1><FA><F7>＊「あらしで<xE5>ネんだ　こいびとを<xE5>どい<F1>　　オリビアは　みを<xE5>プげました.<FA><F7><F1>＊「しかし　<xE5>ネにきれぬのか　とおり<F1>　　ゆく<xE5>Vを　よびもどすそうです.<FA><F7><F1>＊「もし　こいびとエリックとの<F1>　　<xE5>どい<xE5>せの<xE5>[・・・]でも　ささげれば[・・・][・・・]<FA><F7><F1>＊「オリビアのたましいも　<xE5>りに<F1>　　めされましょうに.<FA><F7><F1>＊「うわさでは　エリックの　のった<F1>　　<xE5>Vもまた[・・・]<FA><F7><F1>＊「ゆうれい<xE5>Vとして　<xE5>ケを<F1>　　さまよっているそうな.<F7>
+07_01,＊「うわさでは　このみずうみの<F1>　　まんなかに[・・・]<FA><F7><F1>＊「ほこらのろうごくが　あるらしい.<F1><FA><F7>＊「とらわれていた<xE5>ぎたちの<F1>　　たましいが[・・・]<FA><F7><F1>＊「<xE5>Cでも　さまよっている　ときく.<F1><F7>
+08_00,＊「みさきが　しずけさを<F1>　　とりもどしました.<FA><F7><F1>＊「オリビアのかなしみが<F1>　　いやされたのでしょうか[・・・][・・・].<F7>
+09_00,＊「うわさでは　サマンオサの<xE5>0が<F1>　　<xE5>Dがわり　したらしい.<FA><F7><F1>＊「ゆうしゃサイモンが　みぎの<F1>　　<xE5>[Lv]のとびらより[・・・]<FA><F7><F1>＊「ついほうされたのも<F1>　　<xE5>0のめいれいときく.<FA><F7><F1>＊「サマンオサは　このほこらの<xE5>Q.<F1><FA><F7>＊「<xE5>Gぞいに　ぐるりと　<xE5>Qに<F1>　　すすまれるが　よかろう.<F7>
+0A_00,<EA>＊「ここは　さびしい<F1>　　ほこらの　ろうごく[・・・][・・・].<F7>
+0A_01,<EA>＊「<xE5>すは　サイモンの　たましい.<F1><FA><F7>＊「<xE5>すの　しかばねの　そばを<F1>　　しらべよ[・・・][・・・].<F7>
+0B_00,＊「こうして　<xE5>Dに<xE5>Uうのは<F1>　　<xE5>や<xE5>9ぶりじゃろう.<FA><F7><F1>＊「おお　そうじゃ.<F1>　　いつぞや　かいぞくたちが[・・・]<FA><F7><F1>＊「おかしなほねを<F1>　　おいていって<xE5>キ<xE5>しじゃな.<FA><F7><F1>＊「まあ　よい.<F1><FA><F7>＊「ところで　おまえさんたち<F1>　　<xE5>サ<xE5>ヌのつえを　<xE5>んっておるか?<xFF>
+0B_01,＊「なんと　まことか!?<F1><FA><F7>＊「じつは　わしは　あれが<F1>　　ほしいのじゃ.　わっはっは.<F7>
+0B_02,＊「<xE5>やにでも　<xE5>ヌけられるという<F1>　　つえじゃよ.<FA><F7><F1>＊「サマンオサの<xE5>0が<F1>　　<xE5>・っていると　きいているが[・・・][・・・].<FA><F7><F1>＊「さいごのカギが　あれば<F1>　　<xE5>[Lv]のとびらを　<xE5>♀い[・・・]<FA><F7><F1>＊「サマンオサに　<xE5>”けるというぞ.<F1><F7>
+0B_03,＊「おお!　それは　<xE5>サ<xE5>ヌのつえ!<F1>　　わしも　ほしかったのじゃ.<FA><F7><F1>＊「ものは　そうだんじゃが[・・・]<F1><FA><F7>＊「この　ふなのりのほねと　つえを<F1>　　とりかえっこせぬか?<xFF>
+0B_04,＊「なんと　まことか!?<F1>　　なんでも　いってみるものじゃ.<FA><F7><F1>＊「では　ふなのりのほねをわたそう!<F1><FA><F7><&40>は　へんげのつえを<F1>ふなのりのほねと　こうかん　した!<FA><F7>
+0B_05,＊「いや-　ありがたい!<F1>　　わっはっはっ.<F7>
+0B_06,＊「やっぱり　だめか.<F1>　　そうじゃろうのう[・・・][・・・].<FA><F7><F1>＊「わっはっはっ.<F1><F7>
+0B_07,＊「おや　いらっしゃい.<F1><FA><F7>＊「こんなところに　お<xE5>/さんとは<F1>　　めずらしいですね.<F7>
+0B_08,＊「なんだ　おまえらは!<F1><FA><F7>＊「<xE5>Dの<xE5>シに　かってに<F1>　　<xE5>Eってくるな!<F7>
+0B_09,<EB>＊「あら~ん　いらっしゃ~い.<F1><FA><F7>＊「よく　<xE5>してくれたわねん.<F1>　　まってたわよ.<F7>
+0B_0A,<EA>＊「<xE5>D<xE5>ゥだ!　<xE5>D<xE5>ゥが<xE5>したぞ!<F1>　　やっつけろっ　ガオ-!!<F7>
+0B_0B,＊「な~んての.わしじゃよ　わし.<F1>　　わっはっはっ!<F7>
+0C_00,＊「なんと!　ここまで<F1>　　たどりつく<xE5>ぎが　いようとは!<FA><F7><F1>＊「さあ　このシルバ-オ-ブを<F1>　　さずけようぞ!<FA><F7><F1><FE><&00>は　シルバ-オ-ブを<F1><xE5>ハけ<xE5>じった!<FA><F7>
+0C_01,＊「そなたなら　きっと　まおうを<F1>　　うちほろぼしてくれるであろう!<FA><F7><F1>＊「でんせつの　ふしちょう<F1>　　ラ-ミアも[・・・]<FA><F7><F1>＊「そなたらの<xE5>ごけと<F1>　　なってくれるであろう.<F7>
+0C_02,＊「まおうバラモスは<F1>　　そなたらの<xE5>こにより　ほろびた!<FA><F7><F1>＊「しかし　<xE5>るのそこよりかんじる<F1>　　このじゃあくなはどうは　<xE5>の<xE5>ほ[・・・].<F7>
+0D_00,＊「おや?　また　お<xE5>/さんか.<F1><FA><F7>＊「そうか!　あんたも　<xE5>3の<xE5>O<xE5>びから<F1>　　やってきたんだろう!<FA><F7><F1>＊「ここは　やみの<xE5>O<xE5>び<F1>　　アレフガルドっていうんだ.<FA><F7><F1>＊「おぼえて　おくんだな.<F1><F7>
+0D_01,<EB>＊「ここから　ひがしに<xE5>”くと<F1>　　ラダト-ムの　お<xE5>ずだよ.<FA><F7><F1>＊「あのね.　<xE5>8さんが　<xE5>Vなら<F1>　　<xE5>ォ<xE5>＊に　<xE5>♀っていいって.<F7>
+0E_00,<EB>＊「わ-い　わ-い<F1>　　<xE5>O<xE5>びが<xE5>く<xE5>けになったよお!<F7>
+0E_01,＊「おまえさんたち　いいところに<F1>　　やってきたな.<FA><F7><F1>＊「いい<xE5>んらせが　あるんだ.<F1>　　いいか　おどろくなよ!<FA><F7><F1>＊「あのだいまおうが　たおされて<F1>　　<xE5>O<xE5>びが<xE5>く<xE5>けになったってことだ.<FA><F7><F1>＊「え?　<xE5>んってる?　だいまおうを<F1>　　たおしたのは　<xE5>ォ<xE5>ぁたちだって?<FA><F7><F1>＊「ど　どひゃ-っっ!!<F1><F7>
+0F_00,<EB>＊「<xE5><EB><xE5>1の　ガライには<F1>　　こまって　いますのよ.<FA><F7><F1>＊「うたを　うたいながら　<xE5>[Lv]をすると<F1>　　<xE5>シを<xE5>せて　かえって<xE5>しませんの.<F7>
+0F_01,＊「ぎんのたてごと　なら[・・・]<F1><FA><F7>＊「<xE5><EB><xE5>1の　ガライが<F1>　　<xE5>・っていたと<xE5>どうが[・・・][・・・].<F7>
+10_00,<EB>＊「ガライが　<xE5><EB><xE5>1のガライが<F1>　　かえってくるというのです!<FA><F7><F1>＊「よろこんで　くださいまし!<F1><F7>
+10_01,＊「あの　ほうとう<xE5><EB><xE5>1のガライも<F1>　　<xE5>O<xE5>びが　<xE5>く<xE5>けになったので[・・・]<FA><F7><F1>＊「しょうらいのことを<F1>　　<xE5><F6>え<xE5>ぜめたようだ.<FA><F7><F1>＊「それも　これも<F1>　　あなたたちの　おかげです.<FA><F7><F1>＊「ありがとうございました.<F1><F7>
+11_00,<EB>＊「<xE5>D<xE5>ゥは　きらいだけど<F1>　　オルテガは　<xE5>カきよ.<FA><F7><F1>＊「きっと　だいまおうを<F1>　　たおしてくれるわ.<F7>
+11_01,<EB>＊「<xE5>すは　その<xE5><F2>　ルビスさまに<F1>　　おつかえしていた　ようせいです.<FA><F7><F1>＊「そして　あの<xE5>B　<&10><xE5>A<&20><xE5>B[・・・]<F1><FA><F7>＊「ルビスさまに<xE5>ょわり　<&40>に<F1>　　よびかけたのも　この　<xE5>す.<FA><F7><F1>＊「あの<xE5><F7>は　ずいぶんと<xE5>ロ<xE5>になことを<F1>　　いったかも　しれません.<FA><F7><F1>＊「ゆるしてくださいね.<F1><FA><F7>＊「しかし　<&00>は　ついに<F1>　　ここまで　<xE5>してくれました.<FA><F7><F1>＊「<xE5>すの<xE5>どいを<xE5>Ⅲめ　あなたに　この<F1>　　あまぐものつえをさずけましょう.<F7>
+11_02,<EB>＊「どうか　ルビスさまのためにも<F1>　　この<xE5>O<xE5>びを　おすくい<xE5>4さいまし.<F7>
+12_00,<EB>＊「あなたが　だいまおうを<F1>　　たおしたの?<FA><F7><F1>＊「それじゃ　オルテガは[・・・][・・・]?<F1><xFF>
+12_01,<EB>＊「[・・・][・・・].<F1><F7>
+12_02,<EB>＊「ありがとうございました.<F1><FA><F7>＊「<&40>の　はたらきは<F1>　　けっして　わすれません.<FA><F7><F1>＊「また　いつの<xE5>Bか　<xE5>Uいましょう.<F1><FA><F7>＊「と　ルビスさまは　そういって<F1>　　おられましたわ.<F7>
+13_00,＊「ここは　せいなるほこら.<F1><FA><F7>
+13_01,＊「あめとたいようが　あわさる<xE5><F7><F1>　　<xE5>メのはしが　できる.<FA><F7><F1>＊「<xE5>”くがよい.<F1>　　そして　さがすがよい.<F7>
+13_02,＊「そなたが　まことのゆうしゃなら[・・・]<F1><FA><F7>＊「そのみに　せいなるまもりを<F1>　　たずさえるはず.<FA><F7><F1>＊「<xE5>せなおしてくるがよい.<F1><F7>
+13_03,＊「よくぞ　<xE5>した!　<xE5>Cこそ<F1>　　あめとたいようが　あわさる<xE5><F7>.
+13_04,＊「そなたに　この<F1>　　<xE5>メのしずくを　あたえよう!<F7>
+13_05,＊「もはや　ここには<xE5>ヲがないはず.<F1>　　<xE5>”くが　よい.<FA><F7><F1>＊「ちなみに　わしの　<xE5>ヘにある<F1>　　<xE5>デばこは[・・・]<FA><F7><F1>＊「もう　<xE5>Nっぽだから<F1>　　<xE5>へに　することは　ないぞ.<F7>
+14_00,＊「そなたの　ゆうしゃとしての<F1>　　ちすじを[・・・]<FA><F7><F1>＊「のちの<xE5>Oのために　のこされよ!<F1><FA><F7>＊「わしは　まっておるぞ!<F1><F7>
+14_01,＊「そなたらの[カ]が　<xE5>♂<xE5><FB>になる<xE5><F7>が<F1>　　いずれまた<xE5>しるであろう.<FA><F7><F1>＊「その<xE5><F7>は　また<F1>　　ここを　たずねてくるが　よい.<FA><F7><F1>＊「わしは　まっておるぞ!<F1><F7>
+15_00,<EB>＊「きみ　だあれ?<F7>
+15_01,<EB>＊「あっ　スライムだ!<F7>
+15_02,＊「ひゃ-っ　<xE5>せた-っ!<F7>
+15_03,＊「うわっ　ば　ばけものっ!<F7>
+15_04,＊「あわわわわ[・・・][・・・].<F7>
+15_05,＊「おおおっ.<F1>　　この　<xE5>ヌけ<xE5>:は　なんじゃっ!<F7>
+15_06,＊「ひいいっ<F1>　　<xE5>ジばかりは　おたすけをっ!<F7>
+15_07,＊「このばけものめっ!<F1><FA><F7>＊「ここから　<xE5>ソち<xE5>よらないと<F1>　　てんばつが　くだるぞっ.<F7>
+15_08,＊「おおっ　なぜ　まものがっ!<F1><FA><F7>＊「つ[・・・]つかまえて<F1>　　けんきゅうざいりょうに!<F7>
+15_09,＊「むっ　なんだ　こいつ.<F1>　　<xE5>しるなら　<xE5>しいっ.<F7>
+15_0A,＊「おのれ　もののけめ!<F1><FA><F7>＊「さっさと　ゆかぬと<F1>　　せいばいして　くれるぞっ!<F7>
+15_0B,＊「ふん　なんだ　スライムか.<F1>　　とっとと　あっちへ　きえな.<F7>
+15_0C,＊「なんだ　てめえはっ.<F1>　　どこからでも　かかってこい!<F7>
+15_0D,＊「おっ　やる<xE5>へあるか?<F1>　　おあいて　するあるよっ!<F7>
+15_0E,＊「うわっと!<F7>
+15_0F,＊「かっかっ　<xE5>ダ<xE5>:だ~.<F1>　　た~すけ~て~.<F7>
+15_10,＊「なんで　<xE5>ダ<xE5>:が<F1>　　こんな　ところに!<F7>
+15_11,＊「げげっ　まものが!<F1>　　た　たすけてくれっ.<F7>
+15_12,＊「この　<xE5>ダ<xE5>:めっ<F1>　　やっつけて　やろうかっ.<F7>
 15_13,
-15_14,"[*:] Well, if it<F1>isn['t]…<FA><F7><F1>Why are you<F1>looking that way?<F7>"
-15_15,[*:] Awaaargh!<F7>
-15_16,[*:] I-I-I…<F1>I can['t] walk!<F7>
-15_17,<EB>[*:] Wah! What are<F1>you? Monster?<F7>
-15_18,"<EB>[*:] Oh! I know!<F1>Slime, Slime!<F7>"
-15_19,[*:] Whoa. A monster<F1>come out.<F7>
-15_1A,"[*:] Monster!<F1>Help, help!<F7>"
-15_1B,[*:] Why did you<F1>come? You leave!<F7>
-15_1C,<EB>[*:] Waaaah!<F1>I['m] scared!<F7>
-15_1D,<EB>[*:] Wow! Slime!<F1>It['s] squishy!<F7>
-15_1E,<EB>[*:] Eeek! M-monster!<F1>Help me!<F7>
-15_1F,<EB>[*:] Eeek!<F1>It['s] so cute!<F7>
-15_20,<EB>[*:] Ayeeh!<F7>
-15_21,<EB>[*:] No! This is only<F1>for people!<F7>
-15_22,[*:] I… I don['t] taste<F1>good! Blecch!<F7>
-15_23,<EB>[*:] Who… Who…<F1>Call the guards!<F7>
-15_24,"<EB>[*:] Aiyeeee!<F1>Someone, help!<F7>"
-15_25,<EB>[*:] Please. Mercy!<F1>Don['t] eat me!<F7>
-15_26,<EB>[*:] Slime in here?<F1><FA><F7>Must have wandered<F1>in.<F7>
-15_27,<EB>[*:] Aiyeeeeh!<F7>
-15_28,<EB>[*:] This is no place<F1>for you!<FA><F7><F1>Get out at once!<F1><F7>
-15_29,<EB>[*:] You fiends!<F1><FA><F7>Did you know this<F1>to be our hideout?<F7>
-15_2A,<EB>[*:] Ayeeh!<F1>Spare me!<F7>
-15_2B,<EB>[*:] Monster scary!<F1>Not like you!<F7>
-15_2C,"<EB>[*:] Soo gods, help!<F7>"
-15_2D,<EB>[*:] We aren['t] fooled<F1>by your disguise.<FA><F7>
-15_2E,<EB>[*:] Guards? Guards!<F1><FA><F7>Get rid of these<F1>beasts.<F7>
-15_2F,"<EB>[*:] I don['t] fear the<F1>likes of you.<FA><F7><F1>Be gone, fools!<F1><F7>"
-15_30,"<EB>[*:] Oh, dear Lord…<F1>Save this child…<F7>"
-15_31,<EB>[*:] What is it?<F1>Who are you?<FA><F7><F1>We have plenty of<F1>tough customers!<F7>
-15_32,"<EB>[*:] Oh, hello there.<F1><FA><F7>There aren['t] any<F1>Slime here, sorry.<F7>"
-15_33,<EB>[*:] Oh! Dear!<F1>Protect me…<F7>
-15_34,<EB>[*:] Hiss!<F7>
-15_35,[*:] Grrrrr…<F7>
-15_36,[*:] Whinny!<F7>
-15_37,"<EA>[*:] Huh? Oh, just<F1>monsters…<F7>"
-15_38,<EA>[*:] You think you<F1>could fool me?<FA><F7><F1>Think again!<F1><F7>
-15_39,<EA>[*:] Pikiiih!<F7>
-15_3A,"<EA>[*:] Why, hello!<F1>Wobble…<F7>"
-16_00,<FE><&40>['s] <&25><F1>
-16_01,<&40> used the<F1><&25>.<FA><F7>
-16_02,<&40> read the<F1><&25>.<FA><F7>
-16_03,But nothing<F1>happened here.<F7>
-16_04,But nothing<F1>happened now.<F7>
-16_05,<&40> has no items.<F1><F7>
-16_06,The <&40> contains<F1>no items.<F7>
-16_07,<&40> gave the<F1><&25> to <&00>.
-16_08,<&40> hefted the<F1><&25>.
-16_09,<&40> put the<F1><&25> in the<FA><F7><F1><&00>.<F1><F7>
-16_0A,<&40> put the<F1><&25> among<FA><F7><F1><&00>['s] effects.<F1>
-16_0B,<&00> took the<F1><&25> from the<FA><F7><F1><&40>.<F1>
-16_0C,<&09> took the<F1><&25> from the<FA><F7><F1><&40> and put it in<F1><&00>['s] coffin.
-16_0D,<&09> moved the<F1><&25> in the<FA><F7><F1><&40>.<F1><F7>
-16_0E,<&00> took the<F1><&25> from<FA><F7><F1><&40>['s] coffin.<F1>
-16_0F,<&09> moved the<F1><&25> from<FA><F7><F1><&40>['s] coffin to<F1><&00>['s] coffin.
-16_10,<&09> moved the<F1><&25> from<FA><F7><F1><&40>['s] coffin to<F1>the <&00>.
-16_11,<&40> traded the<F1><&25> for<FA><F7><F1><&00>['s] <&12>.<F1>
-16_12,<&00> traded the<F1><&12> for<FA><F7><F1><&40>['s] <&25>.<F1>
-16_13,<&09> exchanged<F1><&40>['s] <&25><FA><F7><F1>with <&00>['s]<F1><&12>.
-16_14,<&40>['s] <&25><F1>was exchanged<FA><F7><F1>with <&00>['s]<F1><&12>.
-16_15,Equip it?<F1><xFF>
-16_16,<&40> equipped the<F1><&25>.<F7>
-16_17,<&40> can['t] equip<F1>the <&25>.<F7>
-16_18,The <&25><F1>can['t] be equipped.<F7>
-16_19,<&25> is stuck<F1>due to curse.<F7>
-16_1A,No! You must NOT<F1>throw that out!<F7>
-16_1B,Discard the<F1><&25>?<xFF>
-16_1C,The <&25> may<F1>never be obtained<FA><F7><F1>again. Discard it?<F1><xFF>
-16_1D,The <&25> was<F1>thrown out.<F7>
-16_1E,The <&25> was<F1>cursed!<F7>
-16_1F,The <&25> is<F1>cursed!<F7>
-16_20,and unable to use<FA><F7><F1>the <&25>.<F7>
-16_21,was used!<FA><F7>
-16_22,<&00>['s] wounds were<F1>healed.<FA><F7>
-16_23,The poison left<F1><&00>['s] body.<F7>
-16_24,<&00> was cured of<F1>paralysis.<F7>
-16_25,was sprinkled on!<F7>
-16_26,was tossed up!<F7>
-16_27,was sprinkled on!<FA><F7>
-16_28,was fed to <&00>!<FA><F7>
-UNUSED00_16_28, <~>
-16_29,<&00> came back to<F1>life!<F7>
-16_2A,was eaten!<FA><F7>
-16_2B,was prayed upon!<FA><F7>
-16_2C,<&40>['s] MP was<F1>restored by <&3D>!<F7>
-16_2D,<&40>['s] MP was<F1>restored by <&3D>!<FA><F7><F1>The Ring crumbled<F1>silently.<F7>
-16_2E,<&40> lit the<F1>Dark Lamp!<FA><F7>
-16_2F,It turned day into<F1>night!<F7>
-16_30,was held aloft!<F7>
-16_31,was held aloft!<FA><F7>
-16_32,was strummed.<xE8>y
-16_33,was strummed.<FA><F7>
-16_34,was tried.<FA><F7><F1>But there is no<F1>place to set it.<F7>
-16_35,was flicked!<FA><F7><F1><&00>: Ow!<F1><FA><F7>The Medal hit<F1><&00>.<FA><F7><F1><&40> bashfully<F1>picked it up.<F7>
-16_36,was flicked!<FA><F7><F1><&00>: Ouch!<F1><FA><F7>The Medal hit<F1><&00>.<FA><F7><F1><&40> bashfully<F1>picked it up.<F7>
-16_37,<&40> read the<F1>King['s] letter.
-16_38,"""My dear Norud,<F1>I ask that you <FA><F7><F1>show the bearer of<F1>this letter out <FA><F7><F1>through Bahn Pass.<F1>King of Portoga."""
-16_39,But Norud isn['t]<F1>here…<F7>
-16_3A,<&40> scattered the<F1>Pepper!<FA>
-16_3B,<&00> sneezed!
+15_14,＊「おや　あんたは[・・・][・・・].<F1><FA><F7>＊「どうしたのかね?<F1>　　そんな　かっこうをして?<F7>
+15_15,＊「<xE5>せた-っ!<F7>
+15_16,＊「ひいいっ<F1>　　こしが　ぬけたっ!<F7>
+15_17,<EB>＊「わっ　おまえ　なに?<F1>　　ばけもの?<F7>
+15_18,<EB>＊「あっ　ぼく　しってる.<F1>　　スライム　スライム.<F7>
+15_19,＊「うお.<F1>　　<xE5>せたな　ばけもの.<F7>
+15_1A,＊「ばけもの　ばけもの!<F1>　　たすけて　たすけて!<F7>
+15_1B,＊「おまえ　なにしに　きた.<F1>　　むらから　でていけ.<F7>
+15_1C,<EB>＊「うわ-ん　こわいよ-.<F7>
+15_1D,<EB>＊「わ-い　スライムだ-.<F1>　　プニ　プニ.<F7>
+15_1E,<EB>＊「きゃ-っ　ま　まものよっ.<F1>　　たすけて-っ!<F7>
+15_1F,<EB>＊「きゃ-っ!　かわいい-っ!<F7>
+15_20,<EB>＊「ひっ!<F7>
+15_21,<EB>＊「だめっ!<F1>　　ここは　<xE5>D<xE5>ゥせんようなのよ.<F7>
+15_22,＊「わ　わしなぞ　くっても<F1>　　うまく　ないぞ!<F7>
+15_23,<EB>＊「なんですの　あなたは!<F1>　　だれか!　だれか　<xE5>Iをっ.<F7>
+15_24,<EB>＊「あれ-っ!<F1>　　だれか-っ!<F7>
+15_25,<EB>＊「ごめんなさい　ゆるして!<F1>　　たべないで!<F7>
+15_26,<EB>＊「あら　こんなところに<F1>　　スライムが[・・・][・・・].<FA><F7><F1>＊「きっと　まよいこんだのね.<F1><F7>
+15_27,<EB>＊「あれ-っ!<F7>
+15_28,<EB>＊「ここは　あなたがたの<F1>　　<xE5>しるような<xE5>づでは　ありません.<FA><F7><F1>＊「<xE5>せていきなさいっ!<F1><F7>
+15_29,<EB>＊「この　ばけものめっ!<F1><FA><F7>＊「ここが　あたいらのアジトと<xE5>んって<F1>　　<xE5>Eってきたのか!<F7>
+15_2A,<EB>＊「あれ-っ<F1>　　おみのがしを-っ!<F7>
+15_2B,<EB>＊「ばけもの　こわい!<F1>　　ばけもの　キライ!<F7>
+15_2C,<EB>＊「ス-の<xE5>ヴさま　たすけて!<F7>
+15_2D,<EB>＊「すがたを　かえても<F1>　　わたしたちには　<xE5>ぁかります.<FA><F7>
+15_2E,<EB>＊「<xE5>Iは?　<xE5>Iは　<xE5>やを<F1>　　しているのです!<FA><F7><F1>＊「このまものを　おいはらいなさい.<F1><F7>
+15_2F,<EB>＊「なんじゃ.　おまえらなぞ<F1>　　おそろしくも　なんとも　ないわ.<FA><F7><F1>＊「きえうせい!<F1><F7>
+15_30,<EB>＊「おお　<xE5>ヴよ[・・・][・・・]　あわれな<F1>　　<xE5>ヴの<xE5>1を　おすくいください!<F7>
+15_31,<EB>＊「なによ　あんたたちっ!<F1><FA><F7>＊「ここには　<xE5><&25><xE5>Dたちが<F1>　　いっぱい　いるんだからねっ!<F7>
+15_32,<EB>＊「あらあら　いらっしゃい.<F1><FA><F7>＊「でも　ゴメンね.　スライムの<F1>　　なかまは　ここには　いないのよ.<F7>
+15_33,<EB>＊「ああ　あなた!<F1>　　<xE5>すを　<xE5>つって[・・・][・・・].<F7>
+15_34,<EB>＊「ふぎゃあご-っ!<F7>
+15_35,＊「がるるるる.<F7>
+15_36,＊「い-ひひひひ-んっ!<F7>
+15_37,<EA>＊「なんだ　まものか[・・・][・・・].<F7>
+15_38,<EA>＊「すがたを　かえて<F1>　　おれさまを　ゆだんさせる<xE5>へか?<FA><F7><F1>＊「その<xE5>こには　のらぬわい.<F1><F7>
+15_39,<EA>＊「ピキ-ッ!<F7>
+15_3A,<EA>＊「やあ　こんにちはっ.<F1>　　プルルン　プルン.<F7>
+16_00,<FE><&40>は　<&25>を<F1>
+16_01,<&40>は<F1><&25>を　<xE5>♀った!<FA><F7>
+16_02,<&40>は<F1><xE5>　<&25><xE5>[カ]を　よんだ.<FA><F7>
+16_03,しかし　ここでは<F1>なにも　おこらなかった!<F7>
+16_04,しかし　いまは<F1>なにも　おこらなかった!<F7>
+16_05,<&40>は　どうぐを<F1><xE5>・っていない.<F7>
+16_06,<&40>には　どうぐが　ひとつも<F1><xE5>Eっていない.<F7>
+16_07,<&40>は　<&25>を<F1><&00>に　てわたした.
+16_08,<&40>は　<&25>を<F1><xE5>・ちかえた.
+16_09,<&40>は　<&25>を<F1><&00>に　いれた.<F7>
+16_0A,<&40>は　<&25>を<F1><&00>の　<xE5>・ち<xE5>:に　いれた.
+16_0B,<&00>は　<&40>から<F1><&25>を　だした.
+16_0C,<&09>は　<&40>から<F1><&25>を　とりだし[・・・]<FA><F7><F1><&00>の　<xE5>・ち<xE5>:に　いれた.<F1>
+16_0D,<&09>は　<&40>の<F1><&25>を　いれかえた.<F7>
+16_0E,<&00>は　<&25>を<F1><&40>の<xE5>・ち<xE5>:から　とりだした.
+16_0F,<&09>は　<&25>を<F1><&40>の<xE5>・ち<xE5>:から　とりだし[・・・]<FA><F7><F1><&00>の　<xE5>・ち<xE5>:に　いれた.<F1>
+16_10,<&09>は　<&25>を<F1><&40>の<xE5>・ち<xE5>:から　とりだし[・・・]<FA><F7><F1><&00>に　いれた.<F1>
+16_11,<&40>は　<&25>と<F1><&00>の　<&12>を[・・・]<FA><F7><F1>こうかんした.<F1>
+16_12,<&00>は　<&12>と<F1><&40>の　<&25>を[・・・]<FA><F7><F1>こうかんした.<F1>
+16_13,<&09>は　<&40>の<F1><&25>と　<&00>の[・・・]<FA><F7><F1><&12>を　こうかんした.<F1>
+16_14,<&40>の　<&25>と<F1><&00>の　<&12>を[・・・]<FA><F7><F1>こうかんした.<F1>
+16_15,そうびしますか?<F1><xFF>
+16_16,そうびした.<F7>
+16_17,<&40>は　<&25>を<F1>そうびできない.<F7>
+16_18,<&25>は<F1>そうびできない.<F7>
+16_19,<xE5>さいで　<&25>が<F1>からだから　はずれない!<F7>
+16_1A,それを　すてるなんて<F1>とんでもない!<F7>
+16_1B,<&25>を<F1>すててもいいですか?<xFF>
+16_1C,<&25>を　すててしまうと<F1>2どと　<xE5>こに<xE5>Eらないかもしれません.<FA><F7><F1><xE5>た<xE5>ちに　すててもいいですか?<F1><xFF>
+16_1D,<&25>を　なげすてた.<F7>
+16_1E,<&25>には<F1><xE5>さいが　かけられていた!<FA><F7>
+16_1F,<&25>は<F1>のろわれている!<F7>
+16_20,<&25>を　<xE5>♀えない.<F7>
+16_21,どうぐとして　<xE5>♀ってみた.<FA><F7>
+16_22,<&00>の　キズが　かいふくした!<F1><F7>
+16_23,<&00>の　からだから<F1>どくが　きえた!<F7>
+16_24,<&00>の　しびれが　きえた!<F1><F7>
+16_25,からだに　ふりかけた.<F7>
+16_26,ほうり　なげた!<F7>
+16_27,からだに　ふりかけた.<FA><F7>
+16_28,すりつぶして　<&00>に　あたえた!<FA><F7>
+16_29,なんと　<&00>が<F1><xE5>Sき<xE5>ぴった!<F7>
+16_2A,すりつぶして　のんでみた.<FA><F7>
+16_2B,ゆびに　はめて　いのった!<FA><F7>
+16_2C,<&40>のMPが<F1><&3D>かいふくした!<F7>
+16_2D,<&40>のMPが<F1><&3D>かいふくした!<FA><F7><F1>ゆびわは　おともなく　くずれさった.<F1><F7>
+16_2E,<&40>は　やみのランプに<F1>ひを　ともした.<FA><F7>
+16_2F,ランプから　くらやみが　しみわたり<F1>あたりを　<xE5>ヅに　そめた.<F7>
+16_30,ふりかざした!<F7>
+16_31,ふりかざした!<FA><F7>
+16_32,かきならした.<xE8>の
+16_33,かきならした.<FA><F7>
+16_34,<xE5>♀おうとした.<FA><F7><F1>しかし　ここには<F1>しかける<xE5>ぱ<xE5>づが　ない!<F7>
+16_35,ゆびで　はじいた.<FA><F7><F1><&00>「わっ!<F1><FA><F7>メダルは　<&00>に<F1><xE5>ちたってしまった.<FA><F7><F1><&40>は　てれながら<F1>メダルを　ひろった.<F7>
+16_36,ゆびで　はじいた.<FA><F7><F1><&00>「きゃっ!<F1><FA><F7>メダルは　<&00>に<F1><xE5>ちたってしまった.<FA><F7><F1><&40>は　てれながら<F1>メダルを　ひろった.<F7>
+16_37,<&40>は　<xE5>0のてがみを　よんだ.
+16_38,「しんあいなる　ノルドよ.<F1><FA><F7>「このてがみを　もつ　<xE5>[Lv]<xE5>Dを[・・・]<F1><FA><F7>「バ-ンのぬけみちへ　あんない<F1>　してやってくれ.<FA><F7><F1>「ポルトガの<xE5>0　より.<F1>
+16_39,しかし　ここには　ノルドが<F1>いなかった!<F7>
+16_3A,<&40>は　くろこしょうを　まいた!<FA>
+16_3B,<&00>は　くしゃみを　した!
 16_3C,
 16_3D,
-16_3E,was hefted.<FA><F7><F1>The weight of its<F1>words is obvious.<F7>
-16_3F,was put down.
-16_40,was floated.<F7>
-16_41,was looked at.<FA><F7>
-16_42,was hefted.<FA><F7><F1>The <&25><F1>feels oddly warm.<F7>
-16_43,was played.
-16_44,was hefted.<FA><F7><F1>The Light Orb is<F1>glowing faintly.<F7>
-16_45,<FE>was held aloft!<FA><F7>
-16_46,was gazed at.<FA><F7><F1>Rainbow colors<F1>sparkle and glow.<FA><F7><F1>It has to be used<F1>at a certain spot.<F7>
-16_47,was tried.<FA><F7><F1>But there are no<F1>monsters nearby.<F7>
-16_48,But nothing<F1>happened.<F7>
-16_49,<&00>['s] STR rose<F1>by <&3B>!<F7>
-16_4A,<&00>['s] AGL rose<F1>by <&3B>!<F7>
-16_4B,<&00>['s] VIT rose<F1>by <&3B>!<F7>
-16_4C,<&00>['s] INT rose<F1>by <&3B>!<F7>
-16_4D,<&00>['s] LUCK rose<F1>by <&3B>!<F7>
-16_4E,<&00>['s] max.HP rose<F1>by <&3B>!<F7>
-16_4F,<&00>['s] max.MP rose<F1>by <&3B>!<F7>
-16_50,<FE>An echo came back!<F1><F7>
-16_51,<FE>No echo came back<F1>here.<F7>
-16_52,was suspended.<FA><F7>
-16_53,<FE>The Bone spun<F1>and pointed to<FA><F7><F1><&25> <&2C>  and<F1><&30> <&37>.<F7>
-16_54,was held aloft!<FA><F7>
-16_55,was held.<FA><F7><F1>A key need not be<F1>used if it fits.<F7>
-16_56,was peered into.<FA><F7><F1>A lightheaded<F1>feeling grows…<FA><F7><F1><&40> became<F1>paralyzed!<F7>
-16_57,was taken in hand.<FA><F7>
-16_58,The Wake Dust must<F1>be used elsewhere.<F7>
-16_59,was gripped.<FA><F7><F1>The desire to roll<F1>a die welled up…<F7>
-16_5A,was gripped.<FA><F7><F1>Excitement started<F1>building.<F7>
-16_5B,was spread.<F7>
-16_5C,Compassion and<F1>consideration…<FA><F7><F1>The words touch<F1>the heart.<FA><F7><F1><&40> became more<F1>compassionate!<F7>
-16_5D,It described how<F1>to curry favors.<FA><F7><F1><&40> got better at<F1>begging!<F7>
-16_5E,<&40> flipped the<F1>pages…<FA><F7><F1><&40> couldn['t]<F1>understand it…<F7>
-16_5F,The lifestyles of<F1>upper-class ladies<FA><F7><F1>were glowingly<F1>described.<FA><F7><F1><&40> became more<F1>lady-like!<F7>
-16_60,Practical advice<F1>drew out <&40>['s]<FA><F7><F1>intelligence.<F1><FA><F7><&40> became much<F1>smarter.<F7>
-16_61,It describes how<F1>to build muscles.<FA><F7><F1><&40> became<F1>powerful and bold.<F7>
-16_62,"""Power is all!<F1>It is everything!""<FA><F7><F1>The words struck a<F1>chord!<FA><F7><F1><&40> decided to<F1>live valiantly!<F7>"
-16_63,"""There is no good<F1>or bad luck.<FA><F7><F1>There is only your<F1>way of thinking.""<FA><F7><F1><&40> had a<F1>revelation.<FA><F7><F1><&40> learned to<F1>live positively!<F7>"
-16_64,<&40> idly flipped<F1>through it.<FA><F7><F1>It['s] obviously<F1>boring to <&40>…<F7>
-16_65,Memories as an<F1>energetic child<FA><F7><F1>came flooding<F1>back.<FA><F7><F1><&40> became a<F1>little bit rowdy!<F7>
-16_66,It provoked a<F1>flood of tears…<FA><F7><F1><&40> became more<F1>sensitive to the<FA><F7><F1>concealed sorrows<F1>of others!<F7>
-16_67,Courage swelled<F1>needlessly!<FA><F7><F1><&40> became more<F1>recklessly brave!<F7>
-16_68,<&40>['s] pride is<F1>touched by the<FA><F7><F1>author['s] confident<F1>words.<FA><F7><F1><&40> learned there<F1>are times when<FA><F7><F1>losing is simply<F1>inexcusable!<F7>
-16_69,These dark times<F1>call for humor.<FA><F7><F1><&40> decided to<F1>lighten up!<F7>
-16_6A,It described how<F1>living wisely<FA><F7><F1>helps make loved<F1>ones happy.<FA><F7><F1><&40> decided that<F1>being devious is<FA><F7><F1>not shameful!<F1><F7>
-16_6B,It was full of<F1>indescribably<FA><F7><F1>lecherous writing.<F1><FA><F7><&40> thought that<F1>he was a bit lewd<FA><F7><F1>for sneaking a<F1>look at this book…<F7>
-16_6C,It was full of<F1>indescribably<FA><F7><F1>lecherous writing.<F1><FA><F7><&40> began to<F1>blush deeply!<F7>
-16_6D,Its pages were<F1>crammed with a<FA><F7><F1>huge collection of<F1>sexy pictures!<FA><F7><F1><&40> snuck a hot<F1>one into a pocket!<F7>
-16_6E,Its pages were<F1>crammed with a<FA><F7><F1>huge collection of<F1>sexy pictures!<FA><F7><F1><&40> began to<F1>blush deeply!<F7>
-16_6F,"Marilyn['s] Diary<F1><FA><F7>""Why must he leave<F1>me alone? I miss<FA><F7><F1>him so. Must I<F1>slake my desire…""<FA><F7><F1><&40> became glued<F1>to the pages!<FA><F7><F1>He didn['t] care that<F1>he looked lewd!<F7>"
-16_70,It had sexy<F1>lingerie ads!<FA><F7><F1><&40> felt she<F1>could be bolder!<F7>
-16_71,"""You! Reading the<F1>book! You['r]e lewd!""<FA><F7><F1><&40> felt somewhat<F1>offended, but<FA><F7><F1>realized there was<F1>truth in that….<F7>"
-16_72,"""You! Reading the<F1>book! You['r]e lewd!""<FA><F7><F1><&40>, being told<F1>bluntly, became<FA><F7><F1>more confident in<F1>her sexiness!<F7>"
-16_73,The book described<F1>how to be lewd<FA><F7><F1>without drawing<F1>any attention.<FA><F7><F1><&40> was glad to<F1>know that!<F7>
-16_74,was held aloft!<FA><F7><F1>The Golden Claw<F1>glowed darkly.<F7>
-16_75,"was tallied!<FA><F7><F1>Click, click…<F1><FA><F7>But its use is a<F1>mystery!<F7>"
-16_76,"was tallied!<FA><F7><F1>Click, click…<F1><FA><F7><&40>: We have<F1><&30>G in all!<F7>"
-16_77,was spread.<FA><F7><F1>A bashful grin<F1>appeared!<F7>
-16_78,was gazed at.<FA><F7><F1>Imagined Father<F1>fighting…<F7>
-16_79,was gripped.<FA><F7><F1>It feels a little<F1>embarrassing!<F7>
-16_7A,"was gripped.<FA><F7><F1>""I am always<F1>watching, <&40>.<FA><F7><F1>Rubiss['s] voice<F1>seemed to echo!<F7>"
-16_7B,was clutched!<FA><F7><F1>Inner happiness<F1>bubbled up!<F7>
-16_7C,was checked.<FA><F7><F1>Courage welled up!<F1><F7>
-16_7D,was gripped.<FA><F7><F1>Inner happiness<F1>welled up!<F7>
-16_7E,<&40> is confused<F1>and unable to use<FA><F7><F1>the <&25>.<F1><F7>
-16_7F,was tossed up!<FA><F7><F1>But a sinister<F1>force voided it!<F7>
+16_3E,<xE5>こに　とった.<FA><F7><F1><xE5>がいてあることの　おもさが<F1>つたわってくる.<F7>
+16_3F,じめんに　おいた.
+16_40,<xE5>ケに　うかべた.<F7>
+16_41,のぞきこんだ.<FA><F7>
+16_42,てにとった.<FA><F7><F1><&25>は　なぜか<F1>かすかに　あたたかい.<F7>
+16_43,ふいた.
+16_44,てにとった.<FA><F7><F1>ひかりのたまは　いまは<F1>しずかなひかりを　はなっている.<F7>
+16_45,<FE>てんに　かざした.<FA><F7>
+16_46,てにとって　ながめた.<FA><F7><F1><xE5>メのしずくの　<xE5>6<xE5>Tから<F1>なないろの<xE5>そが　もれている.<FA><F7><F1>ただしい<xE5>ぱ<xE5>づで　<xE5>♀えば<F1><xE5>やかが　おきそうだ.<F7>
+16_47,<xE5>♀おうとした.<FA><F7><F1>しかし　まわりには<F1>てきが　いない.<F7>
+16_48,しかし　なにも　おこらなかった.<F1><F7>
+16_49,<&00>の　ちからが<F1><&3B>あがった!<F7>
+16_4A,<&00>の　すばやさが<F1><&3B>あがった!<F7>
+16_4B,<&00>の　たいりょくが<F1><&3B>あがった!<F7>
+16_4C,<&00>の　かしこさが<F1><&3B>あがった!<F7>
+16_4D,<&00>の　うんのよさが<F1><&3B>あがった!<F7>
+16_4E,<&00>の　さいだいHPが<F1><&3B>あがった!<F7>
+16_4F,<&00>の　さいだいMPが<F1><&3B>あがった!<F7>
+16_50,なんと<F1>やまびこが　<xE5>ぴってきた!<F7>
+16_51,しかし　ここでは<F1>やまびこは　<xE5>ぴらなかった.<F7>
+16_52,いとで　つるして　もった.<FA><F7>
+16_53,<FE>ふなのりのほねは<F1>ぐるぐると　まわりだし[・・・][・・・]<FA><F7><F1><&25>に<&2C>　<&30>に<&37><F1>の　<xE5>K<xE5>てを　さししめした!<F7>
+16_54,そらに　かざした!<FA><F7>
+16_55,<xE5>こに　とった!<FA><F7><F1>カギが　あえば<F1>もっているだけで　トビラはひらくぞ.<F7>
+16_56,のぞきこんだ.<FA><F7><F1>なんだか　きがとおくなってゆく[・・・][・・・]<F1><FA><F7><&40>は　しびれて<F1>うごけなくなった!<F7>
+16_57,てのひらに　のせた.<FA><F7>
+16_58,めざめのこなは　もっと<xE5>ヤい<xE5>ぱ<xE5>づで<F1><xE5>♀った<xE5>Kが　よさそうだ.<F7>
+16_59,にぎりしめた.<FA><F7><F1>なんだか　サイコロが<F1>ふりたくなってきた[・・・][・・・].<F7>
+16_5A,にぎりしめた!<FA><F7><F1>なんだか　むねが　わくわくする.<F1><F7>
+16_5B,<xE5>ヤげた.<F7>
+16_5C,やさしさと　<xE5>どいやり[・・・][・・・].<F1><FA><F7><xE5>がいてあることが　<&40>の<F1>こころに　しみてくる.<FA><F7><F1><&40>は　とても　やさしい<xE5>Dに<F1>なれるようなきがした!<F7>
+16_5D,<xE5>Dに　あまえるための　ひけつが<F1>みるみる　みについてくる.<FA><F7><F1><&40>は　<F1>とても　あまえ<xE5>3<xE5>こ　になった!<F7>
+16_5E,<&40>は　<xE5>　しゅくじょへのみち<xE5>[カ]を<F1>パラパラと　ながめた.<FA><F7><F1>どうも　<&40>には<F1>りかいできそうにない.<F7>
+16_5F,じょうりゅうしゃかいの<F1><xE5>2<xE5>ぽとしての　<xE5>Sき<xE5>Kが[・・・]<FA><F7><F1>とても　すばらしく　えがかれている.<F1><FA><F7><&40>は　みもこころも<F1>おじょうさまに　なりきってしまった!<F7>
+16_60,ごうりてきな　あたまの　<xE5>♀いかたが<F1><&40>の　かしこさをひきだす!<FA><F7><F1><&40>は　<xE5>Dに<F1>きれもの　と<xE5>ラばれるようになった!<F7>
+16_61,かんたんに　ちからを　<xE5><&2B>できる<F1>ほうほうが　かかれている!<FA><F7><F1><&40>は<F1>ちからじまん　になった!<F7>
+16_62,<xE5>+なんじ　なにごとも　ちから!<F1>　ちからで　おすべし!!<xE5>Ⅳ<FA><F7><F1>そのおしえが　<&40>の<F1>こころをうつ!<FA><F7><F1><&40>は　これから<F1>ごうけつにいきる　けついをした!<F7>
+16_63,<xE5>+この<xE5>Oに　こうもふこうもない.<xE5>Ⅳ<F1><FA><F7><xE5>+あるのは　おのれの<F1>　<xE5><F6>えかたのみ<xE5>Ⅳ<FA><F7><F1><&40>は　<xE5>かからウロコがおちた.<F1><FA><F7><&40>は　<xE5>Yてのことを　プラスに<F1><xE5><F6>える　<xE5>Sき<xE5>Kを　みにつけた!<F7>
+16_64,<&40>は　<xE5>　おてんばじてん<xE5>[カ]を<F1>パラパラと　ながめた.<FA><F7><F1><&40>には　あまり<F1>おもしろくなさそうだ.<F7>
+16_65,げんきいっぱいだった　おさないころの<F1>きおくが　よみがえってくる[・・・].<FA><F7><F1><&40>は　ちょっぴり<F1>おてんばに　なった!<F7>
+16_66,あまりにかなしい　できごとに<F1>なみだが　とまらなくなる[・・・].<FA><F7><F1><&40>は　<xE5>Dの<F1>こころのそこにある[・・・]<FA><F7><F1>かなしみを　とても　かんじやすく<F1>なってしまった!<F7>
+16_67,なにやら　<xE5>♂<xE5><FB><xE5>キ<xE5>3に<F1>ゆうきが　わいてくる!<FA><F7><F1><&40>は　むてっぽうな　ほどの<F1>ゆうきを　じぶんのものにした!<F7>
+16_68,さくしゃの　じしんにあふれたことばが<F1><&40>のプライドを　しげきする!<FA><F7><F1><&40>は　けっして　まけては<F1>いけない<xE5><F7>が　あることを　<xE5>んった!<F7>
+16_69,こんな　<xE5>Oの<xE5>6だからこそ　いかに<F1>ユ-モアが<xE5>5<xE5>ぇか　<xE5>へづいた.<FA><F7><F1><&40>は　かたのちからを　ぬいて<F1>いきてゆくことにした!<F7>
+16_6A,かしこくいきることが[・・・]<F1><FA><F7>ひいては　じぶんの<F1><xE5>5<xE5>ぇな<xE5>Dを　しあわせにする.<FA><F7><F1>そのようなことが　<xE5>がいてあった.<F1><FA><F7><&40>は　じぶんのズルさを<F1>はずかしいとは　<xE5>どわなくなった!<F7>
+16_6B,そこには　とても　いえないような<F1>エッチなことが　<xE5>がいてあった.<FA><F7><F1><&40>は　こんな<xE5>たを　かくれて<F1>よんでしまったじぶんが[・・・]<FA><F7><F1>とても　むっつりスケベに　<xE5>どえた!<F1><F7>
+16_6C,そこには　とても　いえないような<F1>エッチなことが　<xE5>がいてあった.<FA><F7><F1><&40>は　なんだか　ちょっぴり<F1>エッチなきぶんに　なってしまった!<F7>
+16_6D,そこには　だれかが　コツコツと<F1>あつめた　エッチなえが[・・・]<FA><F7><F1>いっぱい　はさんであった!<F1><FA><F7><&40>は　<xE5>どわず　<xE5>へに<xE5>Eったえを<F1>ポケットに　しのばせた!<F7>
+16_6E,そこには　だれかが　コツコツと<F1>あつめた　エッチなえが[・・・]<FA><F7><F1>いっぱい　はさんであった!<F1><FA><F7><&40>は　なんだか　ちょっぴり<F1>エッチなきぶんに　なってしまった!<F7>
+16_6F,マリリンのにっき<F1><FA><F7><xE5>+<xE5>&がつ　<xE5><xE0><xE5>B.きょうも　あの<xE5>Dは<F1>　こないの[・・・]?<FA><F7><F1>　あたしは　また<F1>　1<xE5>D　さみしく[・・・][・・・]<xE5>Ⅳ<FA><F7><F1><&40>は　むちゅうになって<F1>つづきを　よんでしまった!<FA><F7><F1>もう　スケベと　<xE5>ラばれても<F1>しかたない[・・・].<F7>
+16_70,そこには　<xE5><xEC>の<xE5>Dを<F1>のうさつする　セクシ-な[・・・]<FA><F7><F1>ふくの　カタログが　のっていた.<F1><FA><F7><&40>は　いままでより　だいたんに<F1>なれそうな　じぶんを　かんじた!<F7>
+16_71,<xE5>+このほんを　ひらいた　あなた!<F1>　あなたは　かなり　エッチです.<xE5>Ⅳ<FA><F7><F1>そんな!　と<&40>は<F1><xE5>どいながらも[・・・]<FA><F7><F1><xE5>へ<xE5>・ちは　すでに<F1>むっつりスケベに　なっていた[・・・].<F7>
+16_72,<xE5>+このほんを　ひらいた　あなた!<F1>　あなたは　かなり　エッチです.<xE5>Ⅳ<FA><F7><F1><&40>は<F1>はっきり　いわれて[・・・]<FA><F7><F1>かえって　セクシ-なじぶんに<F1>じしんがもてた!<F7>
+16_73,そこには<F1><xE5>Dに　エッチと　<xE5>どわれずに[・・・]<FA><F7><F1>エッチでいるほうほうが<F1>わかりやすく　<xE5>がいてあった.<FA><F7><F1><&40>は　これで　あんしんして<F1>むっつりスケベに　なれそうだ!<F7>
+16_74,てんにかざした!<FA><F7><F1>おうごんのつめは　あやしく<F1>かがやいた.<F7>
+16_75,はじいた!<FA><F7><F1>パチ[・・・]パチ[・・・][・・・]　しかし<F1><xE5>♀い<xE5>Kが　わからなかった!<F7>
+16_76,はじいた!<FA><F7><F1>パチパチパチパチ[・・・][・・・]<F1><&40>「<&30>ゴ-ルド!<FA><F7><F1>げんざいのしょじきんが　わかった!<F1><F7>
+16_77,<xE5>ヤげてみた.<FA><F7><F1>ちょっぴり　カオが<F1>にやけてしまった.<F7>
+16_78,じっと　<xE5>ぐつめた.<FA><F7><F1>ちちおやの　<xE5>げうすがたが<F1><xE5>ぐえたような<xE5>へがした.<F7>
+16_79,にぎりしめた!<FA><F7><F1>ちょっぴり　はずかしさが<F1>こみあげてくる.<F7>
+16_7A,にぎりしめた!<FA><F7><F1>がんばって　<&40>[・・・][・・・]<F1><FA><F7>わたしは　いつでも<F1>あなたを　<xE5>ぐ<xE5>つっていますよ[・・・][・・・].<FA><F7><F1>ルビスの<xE5>▶が　きこえたような<F1><xE5>へがした!<F7>
+16_7B,だきかかえた!<FA><F7><F1>ちょっと　しあわせな<F1><xE5>へ<xE5>ぁになった!<F7>
+16_7C,たしかめた!<FA><F7><F1><xE5>Hし　ゆうきが　わいてきた!<F1><F7>
+16_7D,にぎりしめた!<FA><F7><F1>ちょっぴり　うれしさが<F1>こみあげてくる.<F7>
+16_7E,<&40>は　こんらんしていて<F1><&25>を　<xE5>♀えない.<F7>
+16_7F,ほうり　なげた!<FA><F7><F1>しかし　ふしぎなちからで<F1>かきけされた!<F7>
 16_80,@16_7F
-16_81,There is no Dealer<F1>to appraise it!<F7>
-16_82,<&40> is paralyzed<F1>and unable to use<FA><F7><F1>the <&25>.<F1><F7>
-16_83,<&40> is dead and<F1>can['t] appraise.<F7>
-16_84,<FE><&40> appraised the<F1><&25>.<FA><F7>
-16_85,<&40> must be well<FA><F7><F1>to use <&25>.<F1><F7>
+16_81,<xE5>[・・・]<xE5>:を　かんていできる<xE5>ス<xE5>Dが<F1><xE5>ら<xE5>ゥに　なっていないっ!<F7>
+16_82,<&40>は　からだが　しびれて<F1><&25>を　<xE5>♀えない.<F7>
+16_83,<&40>は　しんでいるので<F1>どうぐを　しらべることが　できない.<F7>
+16_84,<FE><&40>は　<&25>を<F1>てにとって　みさだめた.<FA><F7>

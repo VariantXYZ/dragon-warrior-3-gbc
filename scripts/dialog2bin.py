@@ -16,7 +16,7 @@ input_file = sys.argv[2]
 
 base_name = os.path.splitext(os.path.basename(input_file))[0]
 char_table = utils.reverse_dict(utils.merge_dicts([
-            tilesets.get_tileset("en", override_offset=0x0),
+            tilesets.get_tileset("ja", override_offset=0x0),
         ]))
 
 with open(input_file, 'r', encoding='utf-8-sig') as fp:

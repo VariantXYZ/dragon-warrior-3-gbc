@@ -1,7 +1,7 @@
 export LC_CTYPE=C
 export PYTHONIOENCODING=utf-8
 
-VERSIONS := en
+VERSIONS := ja
 OUTPUT_PREFIX := dq3_
 ORIGINAL_PREFIX := baserom_
 
@@ -92,7 +92,7 @@ OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD)/,$(OBJECT)))
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 
 .PHONY: $(VERSIONS) all clean default test
-default: en
+default: ja
 all: $(VERSIONS)
 
 clean:
@@ -100,9 +100,9 @@ clean:
 
 # Support building specific versions
 # Unfortunately make has no real good way to do this dynamically from VERSIONS so we just manually set CURVERSION here to propagate to the rgbasm call
-en: CURVERSION:=en
-en: CURNAME:=DW 3
-en: CURID:=BD3E
+ja: CURVERSION:=ja
+ja: CURNAME:=GBDQ3
+ja: CURID:=BD3J
 
 $(VERSIONS): %: $(OUTPUT_PREFIX)%.$(ROM_TYPE)
 

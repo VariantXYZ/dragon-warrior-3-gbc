@@ -1,183 +1,241 @@
 ﻿Index,Text
-00_00,[*:] Welcome to<F1>Romaly Castle!<F7>
-00_01,"[*:] This is just a<F1>rumor, but…<FA><F7><F1>A hero is supposed<F1>to come from<FA><F7><F1>Aliahan and defeat<F1>the Demon Lord.<F7>"
-00_02,"[*:] It['s] deplorable.<F1><FA><F7>Public morality<F1>has plummeted,<FA><F7><F1>perhaps because of<F1>rumors that the<FA><F7><F1>Demon Lord will<F1>destroy the world.<F7>"
-00_03,"[*:] You['r]e from<F1>another country,<FA><F7><F1>aren['t] you?<F1><FA><F7>Let me tell you<F1>something.<FA><F7><F1>The King here is<F1>pretty silly.<FA><F7><F1>Watch your step<F1>around him.<F7>"
-00_04,Bobby: Grrr…<F1>Arf! Arf!<F7>
-00_05,<EB>[*:] The Demon Lord<F1>is going to take<FA><F7><F1>over the world?<F1><FA><F7>That['s] rather hard<F1>to believe.<F7>
-00_06,<EB>[*:] You hail from<F1>Aliahan!<FA><F7><F1>I could tell right<F1>away!<F7>
-00_07,"[*:] Wheeew! Fweeeh!<F1>I can['t] whistle!<FA><F7><F1>Bobby! Where are<F1>you, Bobby?<FA><F7><F1>It['s] time to go<F1>home!<F7>"
-00_08,"[*:] I hear things<F1>are turning mean<FA><F7><F1>and ugly, even<F1>here in Romaly.<FA><F7><F1>The King has to<F1>buck up, but…<F7>"
-00_09,<EB>[*:] The village of<F1>Kazave is far to<FA><F7><F1>the north.<F1><F7>
-00_0A,[*:] This is the<F1>Stadium where<FA><F7><F1>gripping monster<F1>battles are held!<F7>
-00_0B,<EB>[*:] Oh? You['r]e from<F1>another country.<FA><F7><F1>I hope you earn<F1>lots of money as a<FA><F7><F1>good reminder of<F1>Romaly!<F7>
-00_0C,"[*:] If you want to<F1>watch a battle,<FA><F7><F1>place your bet at<F1>the left counter.<F7>"
-00_0D,<EB>[*:] Please don['t] talk<F1>to me.<FA><F7><F1>It['s] distracting.<F1><F7>
-00_0E,[*:] Yes! That['s] it!<F1>Gah! From behind?<F7>
-00_0F,[*:] Wahahah!<F1>I haven['t] lost yet!<F7>
-00_10,[*:] Tch! I['m] having<F1>no luck today!<F7>
-00_11,[*:] Are… Are you<F1>from Aliahan?<FA><F7><F1>We['v]e been waiting<F1>for you!<F7>
-00_12,"[*:] Please, the King<F1>is waiting.<F7>"
-00_13,[*:] Paralysis fades<F1>after a while.<FA><F7><F1>A Moon Herb cures<F1>it instantly.<F7>
-00_14,[*:] Hmm… Monsters<F1>have become very<FA><F7><F1>numerous in these<F1>parts.<F7>
-00_15,[*:] Vicious monsters<F1>are in the east.<FA><F7><F1>You should first<F1>head north.<F7>
-00_16,"[*:] I came from<F1>Kazave in the<FA><F7><F1>north.<F1><FA><F7>On the way,<F1><FA><F7>I was attacked by<F1>monsters.<FA><F7><F1>I ended up losing<F1>all my wares.<FA><F7><F1>I made it here,<F1>but my business is<FA><F7><F1>ruined!<F1>…Moan…<F7>"
-00_17,"[*:] Portoga, the<F1>kingdom in the<FA><F7><F1>west, makes ships.<F1><FA><F7>A ship is great,<F1>let me tell you.<FA><F7><F1>If you have one,<F1>you can explore<FA><F7><F1>the corners of the<F1>world.<F7>"
-00_18,"[*:] Ah, visiting<F1>from Aliahan!<FA><F7><F1>Welcome!<F1><F7>"
-00_19,[*:] I heard the<F1>winds whispering…<FA><F7><F1>Would you like to<F1>hear them?<xFF><F1>
-00_1A,"[*:] Far to the west,<F1>west of Kazave…<FA><F7><F1>Shampane Tower<F1>casts its shadow.<F7>"
-00_1B,[*:] You have no<F1>sense of wonder.<F7>
-00_1C,[*:] I beg you to<F1>lend an ear to his<FA><F7><F1>Majesty['s] request.<F1><F7>
-00_1D,<EB>[*:] I have heard<F1>that Aliahan is a<FA><F7><F1>beautiful place.<F1><FA><F7>The hearts of the<F1>people must also<FA><F7><F1>be beautiful.<F1><F7>
-00_1E,[*:] Damn it!<F1><FA><F7>How many times do<F1>I have to tell you<FA><F7><F1>that I['m] not a<F1>cohort of Kandar!?<FA><F7><F1>
-00_1F,[*:] Huh?<F1>Who are you?<FA><F7><F1>I thought it was<F1>another soldier to<FA><F7><F1>interrogate me.<F1>Anyway…<FA><F7><F1>Kandar makes me<F1>look like a saint.
-00_20,"[*:] He['s] holed up in<F1>Shampane Tower<FA><F7><F1>with his goons.<F1><FA><F7>If you['r]e confident<F1>in yourself,<FA><F7><F1>go punish him.<F1>"
-00_21,"[*:] My son likes to<F1>play too much.<FA><F7><F1>That habit still<F1>persists, even<FA><F7><F1>though he['s] now<F1>the King…<F7>"
-01_00,<FE>The Queen has no<F1>items.<F7>
-01_01,<FE>The Queen was<F1>strong before.<F7>
-01_02,<FE>The Queen can['t]<F1>cast any spells.<F7>
-01_03,<FE>The Queen checked<F1>underfoot.<FA><F7><F1>There was nothing<F1>good for a queen.<F7>
-01_04,<FE>There is nothing<F1>good for a queen.<F7>
-01_05,<FE>The Queen peered<F1>into the vase.<FA><F7>
-01_06,<FE>The Queen checked<F1>the chest.<FA><F7><F1>There is nothing<F1>a queen needs.<F7>
-01_07,<FE>The Queen checked<F1>the bookshelf.<FA><F7><F1>There were no<F1>books for a queen.<F7>
-01_08,<FE>A queen can['t] use<F1>a Field Log.<F7>
-01_09,<FE>The Queen tried to<F1>make plans.<FA><F7><F1>It['s] not necessary<F1>for the Queen now.<F7>
-01_0A,"<EB>[*:] That['s] wonderful,<F1>Queen <&40>!<FA><F7><F1>My husband, the<F1>last king, did the<FA><F7><F1>best he could,<F1>but…<FA><F7><F1>There are some<F1>jobs that demand a<FA><F7><F1>woman['s] delicate<F1>touch.<FA><F7><F1>I hope for your<F1>success, <&40>.<F7>"
-01_0B,[*:] All hail our<F1>first Queen!<FA><F7><F1>Queen <&40>!<F1>Hooray!<F7>
-01_0C,"[*:] Romaly is a<F1>beautiful country.<FA><F7><F1>Lady <&40>, only<F1>someone of your<FA><F7><F1>beauty is fit to<F1>rule as the Queen.<FA><F7><F1>Lalala~<F1><FA><F7>A beacon of beauty<F1>she stands~<FA><F7><F1>Our divine Queen<F1>and savior~<F7>"
-01_0D,[*:] Hail the new<F1>Queen <&40>!<F7>
-01_0E,"[*:] Halt!<F1><FA><F7>Who are you to<F1>dress like a king?<FA><F7><F1>Heh?<F1><FA><F7>You were conferred<F1>the throne?<FA><F7><F1>The kingdom['s] new<F1>Queen?<FA><F7><F1>I… I do beg your<F1>pardon.<FA><F7><F1>Incidentally, your<F1>new Highness, the<FA><F7><F1>kingdom of Portoga<F1>is said to build<FA><F7><F1>ships for taking<F1>to the open seas.<FA><F7><F1>I long to go on an<F1>expedition like<FA><F7><F1>that, if even just<F1>once.<F7>"
-01_0F,"[*:] Ah, <&40>!<F1>You look grand!<FA><F7><F1>It['s] as if you['r]e<F1>the queen here!<F7>"
-01_10,"[*:] We['v]e received<F1>word, Highness.<FA><F7><F1>Queen <&40>, as our<F1>new ruler, we must<FA><F7><F1>ask that you do<F1>not wander about.<F7>"
-01_11,"[*:] Hail Queen <&40>!<F1><FA><F7>Your Highness, you<F1>are the sun in my…<FA><F7><F1>Our!<F1>Sun in our lives!<F7>"
-01_12,"[*:] Your Highness,<F1>did you know?<FA><F7><F1>The Wizard Wand<F1>attacks monsters<FA><F7><F1>with fireballs.<F1><FA><F7>It can be used<F1>over and over too.<FA><F7><F1>I would think it['s]<F1>convenient."
-01_13,[*:] …………<F1>Your Highness?<FA><F7><F1>Is there something<F1>else?<xFF>
-01_14,[*:] Fine.<F1>May I be excused?<F7>
-01_15,"[*:] Pardon!?<F1>Weed the garden?<FA><F7><F1>Please forgive me!<F1>I was shirking!<FA><F7><F1>But I didn['t] think<F1>that weeding would<FA><F7><F1>be so important a<F1>chore to be under<FA><F7><F1>your supervision,<F1>your Highness.<FA><F7>"
-01_16,"[*:] I must confess,<F1>I found this job<FA><F7><F1>to be thankless.<F1><FA><F7>I longed to be a<F1>mage or a warrior.<FA><F7><F1>But not anymore!<F1>From now on, I<FA><F7><F1>will weed with<F1>pride and passion!"
-01_17,[*:] Incidentally…<F1><FA><F7>
-01_18,[*:] …Sigh… The wife['s]<F1>the boss at home…<FA><F7><F1>And now the Queen<F1>is my work boss…<F7>
-01_19,"[*:] Waah! Lady Queen<F1><&40>, ma'am!<FA><F7><F1>Nothing, Highness!<F1>Nothing at all!<F7>"
-01_1A,"[*:] Lady <&40>, we['v]e<F1>all heard of your<FA><F7><F1>heroics against<F1>the evil Kandar.<FA><F7><F1>We['r]e blessed to<F1>have you as our<FA><F7><F1>Queen!<F1><F7>"
-01_1B,[*:] What? He made<F1>you the Queen?<FA><F7><F1>…Sigh… He hasn['t]<F1>lost any of his<FA><F7><F1>bad habits…<F1><F7>
-01_1C,"[*:] Heh, you['r]e the<F1>talk-of-the-town<FA><F7><F1>Queen?<F1><FA><F7>Hah, a woman to<F1>rule a kingdom!<FA><F7><F1>I hear you let<F1>Kandar go.<FA><F7><F1>That['s] typical of<F1>a woman. Lenient.<F7>"
-01_1D,[*:] Ah! You must be<F1>our new Queen!<FA><F7><F1>May the gods bless<F1>Romaly and Queen<FA><F7><F1><&40>!<F1><F7>
-01_1E,"<EB>[*:] Your Highness,<F1>I beg you.<FA><F7><F1>Save Noaniels, a<F1>village far north,<FA><F7><F1>please!<F1><FA><F7>"
-01_1F,<EB>[*:] Excuse me?<F1><FA><F7>The village['s] curse<F1>has been lifted?<FA><F7><F1>No wonder you['r]e<F1>our Queen!<F7>
-01_20,<EB>[*:] It['s] been several<F1>years since my<FA><F7><F1>cousin in Noaniels<F1>stopped writing.<FA><F7><F1>Something terrible<F1>must['v]e happened.<F7>
-01_21,[*:] Oh my. The Queen<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<xFF>
-01_22,"[*:] In the Castle['s]<F1>courtyard is a<FA><F7><F1>garden of flowers.<F1><FA><F7>Lately, it has<F1>been neglected<FA><F7><F1>by the gardener.<F1><FA><F7>The garden was the<F1>late Empress' most<FA><F7><F1>cherished place.<F1><FA><F7>But now it['s] being<F1>overrun by weeds!<FA><F7><F1>Please, command<F1>the man in the<FA><F7><F1>courtyard garden<F1>to weed it!<F7>"
-01_23,"[*:] Eh? Pardon?<F1><FA><F7>I['m] sorry, I didn['t]<F1>quite catch that.<FA><F7><F1>Thank you so much,<F1>your Highness.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<xFF>"
-01_24,[*:] Oh my. The Queen<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<F7>
-01_25,"[*:] Ah, the Queen!<F1><FA><F7>A young, beautiful<F1>and strong woman!<FA><F7><F1>You['l]l brighten up<F1>the kingdom!<FA><F7><F1>This calls for a<F1>celebration!<F7>"
-01_26,<EB>[*:] Yay!<F1>It['s] the Queen!<FA><F7><F1>So pretty!<F1><F7>
-01_27,Bobby: Arf! Arf!<F1>Arf!<F7>
-01_28,"[*:] Oh, hello, your<F1>Highness!<FA><F7><F1>By the way, has<F1>the hero from<FA><F7><F1>Aliahan arrived?<F1><FA><F7>He should be here<F1>by now…<F7>"
-01_29,"<EB>[*:] You would deign<F1>to speak to a<FA><F7><F1>traveler like me?<F1><FA><F7>Thank you, your<F1>Highness!<F7>"
-01_2A,"[*:] Ack!<F1>Your Highness!?<FA><F7><F1>You shouldn['t] be<F1>here…<FA><F7><F1>I know!<F1>For your trouble,<FA><F7><F1>here['s] a useful<F1>piece of news.<FA><F7><F1>The village of<F1>Noaniels once sold<FA><F7><F1>Evade Cloaks.<F1><FA><F7>Of course, your<F1>Highness, nothing<FA><F7><F1>could match what<F1>you have on now!<FA><F7><F1>Wahahahah!<F1><F7>"
-01_2B,"[*:] Oh, Highness?<F1>Taking a walk?<xFF>"
-01_2C,"[*:] I understand<F1>completely!<FA><F7><F1>When the weather<F1>is this beautiful,<FA><F7><F1>it['s] only natural<F1>to get outside to<FA><F7><F1>gaze at flowers<F1>and plants.<F7>"
-01_2D,[*:] Pardon? You wish<F1>to stay a night?<FA><F7><F1>Hahahah!<F1>…Are you joking?<xFF>
-01_2E,[*:] A queen wouldn['t]<F1>spend a night in<FA><F7><F1>an inn for the<F1>common people!<FA><F7><F1>Hahahah!<F1><F7>
-01_2F,[*:] I beg your<F1>pardon?<FA><F7><F1>You really do<F1>intend to stay?<FA><F7><F1>Ayieeeh!<F1>P… please wait!<FA><F7><F1>I['l]l ready the<F1>room upstairs!<F7>
-01_30,"[*:] Gasp… Pant…<F1><FA><F7>This way to your<F1>room, please.<F7>"
-01_31,[*:] Here it is.<F1><FA><F7>I do hope you will<F1>enjoy your stay.<F7>
-01_32,[*:] It is a great<F1>honor to have you<FA><F7><F1>visit our inn.<F1><FA><F7>I do hope you will<F1>enjoy your stay.<F7>
-01_33,<FE>A fluffy duvet…<F1>Rest a while?<xFF>
-01_34,"[*:] Good morning,<F1>your Highness.<FA><F7>"
-01_35,[*:] I['v]e run this<F1>inn for 20 years.<FA><F7><F1>I['v]e never felt<F1>happier than now!<FA><F7><F1>Thank you so much!<F1><F7>
-01_36,"<FE>""Welcome to Hotel<F1>Casa Romaly<FA><F7><F1>~ The Choice of<F1>Romaly Royalty!""<F7>"
-01_37,"[*:] Hi, what can I…<F1><F7>"
-01_38,"[*:] You gave me<F1>quite the start!<FA><F7><F1>I didn['t] recognize<F1>you, our Queen!<FA><F7><F1>Thanks to your<F1>benevolence, my<FA><F7><F1>business is doing<F1>well, Highness.<F7>"
-01_39,"[*:] You are the new<F1>Queen, yes?<FA><F7><F1>Please! Please<F1>lower our taxes!<F7>"
-01_3A,"[*:] Ah, hello, your<F1>Highness.<FA><F7><F1>Pardon me?<F1>Lower the taxes?<FA><F7><F1>You['r]e asking the<F1>impossible.<FA><F7><F1>Things are tight<F1>enough as it is…<FA><F7><F1>If the former King<F1>hadn['t] spent so…<FA><F7><F1>Wah! Nothing!<F1>Nothing at all!<F7>"
-01_3B,"[*:] Ah, Highness, I<F1>hope you are well.<FA><F7><F1>Incidentally, the<F1>former King went<FA><F7><F1>downstairs looking<F1>rather happy.<F7>"
-01_3C,[*:] Your Highness!<F1><FA><F7>It['s] unsafe to<F1>leave the castle!<F7>
-01_3D,[*:] Your Highness!<F1><FA><F7>Please return to<F1>the Castle!<F7>
-01_3E,[*:] Your Highness!<F1>Why come here?<F7>
-01_3F,<EB>[*:] Hi! You look<F1>rather rich.<FA><F7><F1>I hope you spend<F1>lots of money!<F7>
-01_40,[*:] Gambling?<F1>Not on your life!<FA><F7><F1>We['r]e just enjoying<F1>the show.<F7>
-01_41,[*:] This is no place<F1>for our Queen.<FA><F7><F1>I must humbly beg<F1>you to depart.<F7>
-01_42,[*:] H… Hail Queen<F1><&40>!<F7>
-01_43,<EB>[*:] Your Highness!<F1>Why are you here<FA><F7><F1>in such an immoral<F1>place as this?<FA><F7><F1>Oh. For education?<F1>Me too! Hohohoho…<F7>
-01_44,[*:] Awawawah…<F1><F7>
-01_45,[*:] The Queen!<F1>Awaaaah!<F7>
-01_46,"[*:] Oh yes, I can<F1>understand!<FA><F7><F1>We['r]e all human,<F1>even a queen!<FA><F7><F1>If something['s]<F1>forbidden, doesn['t]<FA><F7><F1>it look even more<F1>attractive?<FA><F7><F1>Well, Highness, I['m]<F1>not the sort of<FA><F7><F1>cad who['d] expose<F1>the secrets of the<FA><F7><F1>weaker sex!<F1><FA><F7>I never saw you<F1>here, Highness!<FA><F7><F1>Wahahah!<F1><F7>"
-01_47,"[*:] Wahahah! It['s] me.<F1>The former king.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Queen!<xFF>"
-01_48,[*:] We['l]l meet again!<F1>Wahahahah!<F7>
-01_49,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the Queen?<F1><xFF>
-01_4A,"[*:] Ah, excellent!<F1>That['s] reassuring!<F7>"
-01_4B,"[*:] I see… I can['t]<F1>force you to stay<FA><F7><F1>on if you['r]e not<F1>happy about it.<FA><F7><F1>Although it was<F1>much too brief,<FA><F7><F1>I did get to<F1>unwind a bit.<FA><F7><F1>Fine! <&40>!<F1><FA><F7>You should resume<F1>your journey!<F7>"
-01_4C,"[*:] Q… Queen <&40>!<F1>What an honor!<FA><F7><F1>Ever since your<F1>stay with us,<FA><F7><F1>our inn has been<F1>very busy!<F7>"
-01_4D,[*:] Oh? A Queen<F1>rules us again!<FA><F7><F1>All hail Queen<F1><&40>!<F7>
-01_4E,"[*:] Ah, Queen <&40>.<F1><FA><F7>See? I made the<F1>floral garden more<FA><F7><F1>impressive and<F1>beautiful.<FA><F7><F1>Incidentally…<F1><FA><F7>Your Highness, did<F1>you know?<FA><F7><F1>The Wizard Wand<F1>attacks monsters<FA><F7><F1>with fireballs.<F1><FA><F7>It can be used<F1>over and over too.<FA><F7><F1>I would think it['s]<F1>convenient.<F7>"
-02_00,"<EB>[*:] I wanted to see<F1>a country ruled by<FA><F7><F1>a young king like<F1>you.<FA><F7><F1>But, it can['t] be<F1>helped.<FA><F7><F1>You have something<F1>you must do.<F7>"
-02_01,"<EB>[*:] I wanted to see<F1>a country ruled by<FA><F7><F1>a woman like you.<F1><FA><F7>But, it can['t] be<F1>helped.<FA><F7><F1>You have something<F1>you must do.<F7>"
-02_02,"<EB>[*:] I thought that a<F1>new king would<FA><F7><F1>make the kingdom<F1>more prosperous.<FA><F7><F1>But, it can['t] be<F1>helped.<F7>"
-02_03,[*:] I heard the<F1>winds again…<FA><F7><F1>Would you like to<F1>hear them?<xFF><F1>
-02_04,[*:] Shampane Tower<F1>has gone silent.<FA><F7><F1>Thank you…<F1>Thank you…<F7>
-02_05,[*:] You have no<F1>sense of wonder.<F7>
-02_06,[*:] I will pray for<F1>your safe journey.<F7>
-02_07,"[*:] This is between<F1>you and I.<FA><F7><F1>I was made the<F1>King five times<FA><F7><F1>so far.<F1><FA><F7>If you wish to<F1>become our King<FA><F7><F1>again, visit the<F1>Castle anytime.<F7>"
-02_08,"[*:] Oh, <&40>?<F1><FA><F7>Your king look,<F1>"
-02_09,"[*:] Oh, <&40>?<F1><FA><F7>Your queen look,<F1>"
-02_0A,you gave it up?<FA><F7><F1>The way you are<F1>now looks best!<F7>
-02_0B,"[*:] Ah, the former<F1>Majesty.<FA><F7><F1>Always a pleasure<F1>to see you.<F7>"
-02_0C,"[*:] Ah, our former<F1>Queen.<FA><F7><F1>Always a pleasure<F1>to see you.<F7>"
-02_0D,"[*:] Ah, our friends<F1>from Aliahan!<FA><F7><F1>I wish you well on<F1>your journey!<F7>"
-02_0E,[*:] His Majesty is<F1>upstairs.<F7>
-02_0F,"[*:] Hello, did you<F1>know?<FA><F7><F1>The Wizard Wand<F1>attacks monsters<FA><F7><F1>with fireballs.<F1><FA><F7>It can be used<F1>over and over too.<FA><F7><F1>I would think it['s]<F1>convenient.<F7>"
-02_10,[*:] You quit being<F1>the King?<FA><F7><F1>
-02_11,[*:] You quit being<F1>the Queen?<FA><F7><F1>
-02_12,[*:] What a waste!<F1>I wish you would['v]e<FA><F7><F1>conferred the<F1>title to me.<F7>
-02_13,[*:] The Gate in the<F1>northwest is under<FA><F7><F1>full watch by our<F1>guards.<FA><F7><F1>No monsters have<F1>broken through.<F7>
-02_14,"[*:] Actually, I was<F1>hoping that you<FA><F7><F1>would teach me to<F1>sword fight.<FA><F7><F1>It['s] too bad.<F1><F7>"
-02_15,"[*:] Listen, could<F1>you ask the hero<FA><F7><F1>if he['d] be the<F1>King again?<F7>"
-02_16,"[*:] Listen, could<F1>you ask the hero<FA><F7><F1>if she['d] be the<F1>Queen again?<F7>"
-02_17,"[*:] Rather than the<F1>fool, it may have<FA><F7><F1>been better if you<F1>remained the king.<FA><F7><F1>Still, even he is<F1>a true blueblood.<FA><F7><F1>He['l]l just have to<F1>work harder.<F7>"
-02_18,[*:] A king…<F1><FA><F7>Anyone can easily<F1>be a king…<FA><F7><F1>But my son doesn['t]<F1>understand.<F7>
-02_19,[*:] Kandar isn['t] that<F1>easily beaten.<FA><F7><F1>I['d] say he['s] cooking<F1>up something else.<F7>
-02_1A,"<EB>[*:] What['s] happened<F1>to Noaniels, the <FA><F7><F1>village far to the<F1>north?<FA><F7><F1>Oh, dear hero! <F1><FA><F7>Please save<F1>Noaniels!<F7>"
-02_1B,"<EB>[*:] I just received<F1>a letter from my<FA><F7><F1>cousin who lives<F1>in Noaniels.<FA><F7><F1>It was strange--<F1>even though I['v]e<FA><F7><F1>not seen her for<F1>years, she wrote<FA><F7><F1>that she enjoyed<F1>seeing me two days<FA><F7><F1>ago.<F1><FA><F7>I don['t] know what<F1>is going on.<F7>"
-02_1C,[*:] It['s] a shame.<F1>I thought that you<FA><F7><F1>would make this<F1>kingdom better…<F7>
-02_1D,"[*:] Oh my…<F1><FA><F7>We have to rely on<F1>the old King to<FA><F7><F1>guide us to a<F1>better tomorrow…<FA><F7><F1>Dear, dear…<F1><F7>"
-02_1E,[*:] Tweet!<F1><FA><F7>I finally did it!<F1>I can whistle!<FA><F7><F1>Tweet! Tweet!<F1><FA><F7>… Nope!<F1>Bobby won['t] come…<F7>
-02_1F,<EB>[*:] Oh? You['r]e not<F1>the King anymore?<xFF>
-02_20,<EB>[*:] Oh. Too bad.<F1>You were striking!<F7>
-02_21,<EB>[*:] Oh! Sssssh.<F1><FA><F7>So you['r]e traveling<F1>undercover?<FA><F7><F1>Take care!<F1><F7>
-02_22,<EB>[*:] Oh? You['r]e not<F1>the Queen anymore?<xFF>
-02_23,"[*:] Argh! Your Maje…<F1>Huh?<FA><F7><F1>Oh, you quit being<F1>the King already?<FA><F7><F1>Don['t] scare me like<F1>that.<F7>"
-02_24,"[*:] Argh! Your High…<F1>Huh?<FA><F7><F1>Oh, you quit being<F1>the Queen already?<FA><F7><F1>Don['t] scare me like<F1>that.<F7>"
-02_25,[*:] Rumor has it<F1>that the hero of<FA><F7><F1>Aliahan came and<F1>became the King.<F7>
-02_26,[*:] Rumor has it<F1>that the hero of<FA><F7><F1>Aliahan came and<F1>became the Queen.<F7>
-03_00,<EB>[*:] Sssh.<F1>You['l]l wake my boy.<F7>
-03_01,<EB>[*:] Zzzz…<F1><FA><F7>…I['l]l protect Mama<F1>if the Demon Lord<FA><F7><F1>comes… Zzzz…<F1><F7>
-03_02,Bobby: …Whine…<F1><F7>
-03_03,[*:] Zzz…<F1><F7>
-03_04,… Ssss…<F1><F7>
-03_05,[*:] Demon Lord?<F1>Just a rumor!<F7>
-03_06,"[*:] Ah, our guests<F1>from Aliahan!<FA><F7><F1>Good to see you<F1>working so late!<F7>"
-03_07,"[*:] Stay at an inn,<F1>and come back in<FA><F7><F1>the morning.<F1><F7>"
-03_08,[*:] His Majesty<F1>should be in bed!<F7>
-03_09,"[*:] Gazing at the<F1>stars like this<FA><F7><F1>feels cleansing.<F1>By the way…<FA><F7><F1>Portoga, the<F1>kingdom in the<FA><F7><F1>west, makes ships.<F1><FA><F7>A ship is great,<F1>let me tell you.<FA><F7><F1>If you have one,<F1>you can explore<FA><F7><F1>the corners of the<F1>world.<F7>"
-04_00,<EB>[*:] This is<F1>Elvenham…<FA><F7><F1>Oh no!<F1><FA><F7>I['m] not supposed<F1>to talk to humans!<FA><F7><F1>Mama will get mad!<F1><F7>
-04_01,<EB>[*:] This is<F1>Elvenham.<F7>
-04_02,[*:] Whinny!<F7>
-04_03,"[*:] It['s] my son['s]<F1>fault that the<FA><F7><F1>people of Noaniels<F1>were put to sleep.<FA><F7><F1>He just had to<F1>elope with the<FA><F7><F1>elf princess…<F1><FA><F7>I['v]e come to<F1>apologize for him,<FA><F7><F1>but they won['t]<F1>even listen.<FA><F7><F1>What am I to do?<F1><F7>"
-04_04,<EB>[*:] I['v]e nothing to<F1>sell you humans.<FA><F7><F1>I ask that you<F1>leave.<F7>
-04_05,[*:] Whinny! Snort…<F7>
-04_06,<EB>[*:] Aiyeeeh! Humans!<F1>They['l]l abduct us!<F7>
-04_07,<EB>[*:] I don['t] like<F1>hobbits! Humph!<F7>
-04_08,<EB>[*:] What could you<F1>humans want of<FA><F7><F1>Elvenham?<F1><FA><F7>
-04_09,<EB>[*:] I ask that you<F1>leave.<F7>
-04_0A,"<EB>[*:] What is it?<F1>Noaniels?<FA><F7><F1>Ah, there was such<F1>an incident…<FA><F7>"
-04_0B,"<EB>[*:] Long ago, my<F1>daughter Ann fell<FA><F7><F1>in love with a<F1>human.<FA><F7><F1>She stole away<F1>with this man and<FA><F7><F1>our treasured<F1>Dream Ruby, and<FA><F7><F1>has not been heard<F1>from since.<FA><F7><F1>An elf and a<F1>human…<FA><F7><F1>It never works.<F1><FA><F7>No doubt Ann was<F1>taken for a fool.<FA><F7><F1>He must have taken<F1>the Dream Ruby.<FA><F7><F1>She must have<F1>suffered, unable<FA><F7><F1>to return.<F1><FA><F7>I can['t] bear to<F1>even see humans.<FA><F7><F1>Leave at once.<F1><F7>"
-04_0C,<EB>[*:] I can['t] bear to<F1>even see humans.<FA><F7><F1>Leave at once.<F1><FA><F7>…Stop. <F1><FA><F7>
-04_0D,<EB>[*:] That!<F1>In your hand…<FA><F7><F1>Could it be the<F1>Dream Ruby?<FA><F7>
-04_0E,"<EB>[*:] What?<F1><FA><F7>Ann and the human<F1>threw themselves<FA><F7><F1>into the lake<F1>underground?<FA><F7><F1>All because I did<F1>not approve of<FA><F7><F1>their love for<F1>each other…<FA><F7><F1>………………<F1>Fine.<FA><F7><F1>Take this Wake<F1>Dust and go back<FA><F7><F1>to the village<F1><FA><F7>and undo the<F1>curse.<FA><F7><F1>Ann would have<F1>wanted that…<FA><F7><F1>Oh, Ann! Forgive<F1>your mother!<F7>"
-04_0F,<EB>[*:] I have to thank<F1>you. However…<FA><F7><F1>It doesn['t] mean I<F1>like humans now.<FA><F7><F1>Now leave.<F1><F7>
-04_10,"[*:] Oh!<F1>My son is dead…<FA><F7><F1>My wife will be<F1>crushed if she<FA><F7><F1>hears this upon<F1>waking…<FA><F7><F1>Oh, please, tell<F1>me it['s] a lie!<F7>"
-05_00,[*:] What are you<F1>humans doing here?<FA><F7><F1>Don['t] ever fall in<F1>love with an elf.<FA><F7><F1>It will only end<F1>in misfortune.<FA><F7><F1>Now go on home.<F1><F7>
-05_01,"[*:] Yo, brother!<F1><FA><F7>Elvenham['s] a good<F1>place!<FA><F7><F1>It['s] relaxing.<F1><F7>"
-05_02,"<EB>[*:] I have to thank<F1>you. However…<FA><F7><F1>I must uphold our<F1>edicts.<FA><F7><F1>Now leave,<F1><FA><F7>so a tragedy like<F1>this never befalls<FA><F7><F1>us again…<F1><F7>"
+00_00,＊「ようこそ　ロマリアの　お<xE5>ずに!<F1><F7>
+00_01,＊「これは　うわさですが[・・・][・・・]<F1><FA><F7>＊「やがて　アリアハンのゆうしゃが<F1>　　やってきて[・・・]<FA><F7><F1>＊「まおうをたいじして<F1>　　くれるそうですよ.<F7>
+00_02,＊「まおうが　<xE5>O<xE5>びを　ほろぼすという<F1>　　うわさのせいかも<xE5>んれんが[・・・]<FA><F7><F1>＊「<xE5><F2>にくらべ　<xE5>D<xE5>なの<xE5>Tも<F1>　　みだれたものよ.<FA><F7><F1>＊「なげかわしいことだ!<F1><F7>
+00_03,＊「あんた　よその<xE5>ユの<xE5>Dだな.<F1>　　だったら　おしえておいてやる.<FA><F7><F1>＊「ここの　<xE5>0さまは<F1>　　おちょうしもんだぜ.<FA><F7><F1>＊「<xE5>へをつけるこったな.<F1><F7>
+00_04,ボビ-「う-っ　わん　わん!<F1><F7>
+00_05,<EB>＊「まおうが　<xE5>O<xE5>びをせいふくするって<F1>　　<xE5>た<xE5>ちかしら?<FA><F7><F1>＊「とても　しんじられませんわ.<F1><F7>
+00_06,<EB>＊「ねえ　お<xE5>Rちゃんたち<F1>　　アリアハンから　きたんでしょ?<FA><F7><F1>＊「ボク　すぐに　わかったよ!<F1><F7>
+00_07,＊「フュ-　フュ-.<F1>　　ああ　くちぶえが　うまくふけん.<FA><F7><F1>＊「ボビ-や!<F1>　　どこへ　<xE5>”ったんじゃ　ボビ-!<FA><F7><F1>＊「そろそろ　<xE5>シにかえるぞい!<F1><F7>
+00_08,＊「<xE5>ややら　<xE5>Oの<xE5>6が　ぶっそうに<F1>　　なってきている　らしいねえ.<FA><F7><F1>＊「ここ　ロマリアも[・・・]<F1><FA><F7>＊「せいぜい　<xE5>0さまに　がんばって<F1>　　いただかねば　ならんのに[・・・][・・・].<F7>
+00_09,<EB>＊「この<xE5>ずの　はるか<xE5>Pに<F1>　　カザ-ブの<xE5>ぅが　ありますわ.<F7>
+00_0A,＊「ここは　モンスタ-<xE5>ッ<xE5>Jが<xE5>げう[・・・]<F1><FA><F7>＊「<xE5>こにあせにぎる<F1>　　かくとう<xE5>ぱです!<F7>
+00_0B,<EB>＊「あら?　よその<xE5>ユの　おかたね.<F1><FA><F7>＊「ロマリアでの　いい<xE5>どい<xE5>せに<F1>　　どんどん　かせいで　<xE5>”ってね!<F7>
+00_0C,＊「しあいを　<xE5>ぐたかったら[・・・]<F1><FA><F7>＊「ひだりのカウンタ-で<F1>　　かけふだを　かってくるんだな.<F7>
+00_0D,<EB>＊「はなしかけないで<F1>　　<xE5>へがちるザマス!<F7>
+00_0E,＊「よおし　そこじゃ-　いけ-!<F1>　　ふがっ!<F7>
+00_0F,＊「わっはっは.<F1>　　もう　かちっぱなし!<F7>
+00_10,＊「ち!　<xE5>C<xE5>Bは　ついてないぜ!<F1><F7>
+00_11,＊「もしや　アリアハンから<F1>　　まいられた　おかたでは?<FA><F7><F1>＊「おお!　おまちしていました!<F1><F7>
+00_12,＊「さあ　<xE5>0さまが<F1>　　おまちかね　ですぞ.<F7>
+00_13,＊「しびれは　ほうっておいても<F1>　　なおりますが[・・・]<FA><F7><F1>＊「まん<xE5>Aそうだと<F1>　　すぐに　なおりますよ.<F7>
+00_14,＊「ふ-む.このあたりは　とくに<F1>　　まものが　ふえているようだな.<F7>
+00_15,＊「ひがしには　<xE5>ガろしい<xE5>ダ<xE5>:が[・・・][・・・].<F1><FA><F7>＊「まず　<xE5>Pに　<xE5>[Lv]<xE5>ソち<F1>　　うでだめしを　するがよかろう.<F7>
+00_16,＊「<xE5>Pのカザ-ブから<xE5>しる　とちゅう[・・・]<F1><FA><F7>＊「まものに　おそわれて　にもつを<F1>　　みんなおとして　しまいました.<FA><F7><F1>＊「なんとか　ロマリアに<F1>　　ついたものの[・・・]<FA><F7><F1>＊「もう　<xE5>ス<xE5>ぶ　あがったりですよ.<F1>　　トホホ[・・・][・・・].<F7>
+00_17,＊「<xE5>Qの<xE5>ユ　ポルトガでは　<xE5>Vという<F1>　　<xE5>:を　<xE5>うっているそうだな.<FA><F7><F1>＊「<xE5>Vは　いいぞ　<xE5>Vは.<F1><FA><F7>＊「<xE5>Vがあれば　<xE5>O<xE5>びのはてにでも<F1>　　<xE5>”けるからな.<F7>
+00_18,＊「これは　アリアハンのおかた!<F1>　　よくぞ　まいられました.<F7>
+00_19,＊「<xE5>すは　かぜの　ささやきを<F1>　　ききました.<FA><F7><F1>＊「あなたも　ききますか?<F1><xFF>
+00_1A,＊「カザ-ブの<xE5>ぅの　はるか<xE5>Qに[・・・]<F1><FA><F7>＊「シャンパ-ニの<xE5><xEE>が<F1>　　そびえているよ　そびえているよ[・・・]<F7>
+00_1B,＊「あなたは　ゆめの<xE5>ゾい<xE5>Dですね.<F1><F7>
+00_1C,＊「どうか　わが<xE5>0の　たのみを<F1>　　ききとどけて<xE5>4され!<F7>
+00_1D,<EB>＊「アリアハンは　うつくしい<xE5>づと<F1>　　ききます.<FA><F7><F1>＊「きっと　<xE5>D<xE5>なの　<xE5>Tも<F1>　　うつくしいのでしょうね.<F7>
+00_1E,＊「うるせえなあ!　オレは<F1>　　カンダタの　なかまじゃねえって[・・・]<FA><F7><F1>＊「なんどいったら　<xE5>ぁかるんだ!<F1><FA><F7>
+00_1F,＊「あれ?　おまえ　だれ?<F1><FA><F7>＊「オレはてっきり　また　この<xE5>ずの<F1>　　<xE5>I<xE5>Jが　ききに<xE5>したと<xE5>どって[・・・]<FA><F7><F1>＊「まあ　いいや.<F1><FA><F7>＊「カンダタってのは　オレなんかより<F1>　　よっぽどあく<xE5>Dだぜ.
+00_20,＊「シャンパ-ニって　<xE5><xEE>に<F1>　　<xE5>1<xE5>ぁをあつめて　<xE5>ャんでるから[・・・]<FA><F7><F1>＊「じしんが　あるなら<F1>　　やっつけてやれよ.
+00_21,＊「わしの　<xE5><EB><xE5>1は　あそび<xE5>カきでな[・・・]<F1><FA><F7>＊「<xE5>0さまに　なっても　そのくせが<F1>　　ぬけん.　こまったやつじゃ.<F7>
+01_00,<FE><xE5>0さまは　どうぐを　<xE5>・っていない.<F1><F7>
+01_01,<FE><xE5>0さまは　その<xE5><F2><F1>とても　<xE5><&29>ったらしい.<F7>
+01_02,"<FE><xE5>0さまは　<xE5>さ<xE5>,を　<xE5>♀えない.<F1><F7>"
+01_03,<FE><xE5>0さまは　<xE5>ォ<xE5>ぁの　あしもとを<F1>しらべた.<FA><F7><F1>しかし　<xE5>0さまの　<xE5>ぞに<xE5>ソつ<xE5>:は<F1>なにも　<xE5>ぐつからなかった.<F7>
+01_04,<FE><xE5>0さまに　<xE5>ぞ<xE5>ソつような<xE5>:は<F1><xE5>Eっていないようだ.<F7>
+01_05,<FE><xE5>0さまは　ツボの<xE5>6を<F1>のぞきこんだ.<FA><F7>
+01_06,<FE><xE5>0さまは　<xE5>デばこを　しらべた.<F1><FA><F7><xE5>0さまに　<xE5>♂<xE5><FB>な<xE5>:は<F1><xE5>Eっていないようだ.<F7>
+01_07,<FE><xE5>0さまは　<xE5>ただなを　しらべた.<F1><FA><F7><xE5>0さまに　<xE5>ぞ<xE5>ソつような<xE5>たは<F1>とくに　<xE5>ぐあたらなかった.<F7>
+01_08,<FE><xE5>0さまは　ちゅうだんのしょを<F1>つかえない!<F7>
+01_09,<FE><xE5>0さまは　さくせんを<F1>たてようとした.<FA><F7><F1>しかし　<xE5>Cは　その<xE5>♂<xE5><FB>がないようだ.<F1><F7>
+01_0A,<EB>＊「ごりっぱですわ　<&40>さま!<F1><FA><F7>＊「どうか　この<xE5>_と　<xE5>ヒに<F1>　　すえながく　くらしましょうね.<F7>
+01_0B,＊「<xE5><xE9>しい<xE5>0さまの　たん<xE5>Sじゃ!<F1>　　<&40><xE5>0　ばんざい!<F7>
+01_0C,＊「ああ!　<xE5>0さまから　<xE5>▶を<F1>　　かけてもらえるとは[・・・][・・・].<FA><F7><F1>＊「<xE5>すは　しあわせ<xE5>ぎでございます.<F1><F7>
+01_0D,＊「<xE5><xE9>しい　<xE5>0さまに　けいれい!<F1><F7>
+01_0E,＊「うん?　<xE5>0のすがたなどをして<F1>　　おまえは　<xE5>や<xE5>ぎだっ!?<FA><F7><F1>＊「この<xE5>すは　だまされないぞ!<F1><FA><F7>＊「へ?　<xE5>0<xE5>~を　ゆずられた?<F1>　　そ　そうでしたか[・・・][・・・].<FA><F7><F1>＊「これは　ご<xE5>ゾ<xE5>にいたしました[・・・].<F1>　　ところで　<xE5><xE9>しい<xE5>0さま.<FA><F7><F1>＊「はるか<xE5>Qの<xE5>ユ　ポルトガには<F1>　　<xE5>Vという<xE5>:が　あるそうです.<FA><F7><F1>＊「いちどでいいから　<xE5>Vにのって<F1>　　<xE5>5<xE5>ケを　<xE5><xEF><xE5>トしたいですなあ.<F7>
+01_0F,＊「やや　これは　<&40>さま!<F1>　　りっぱに　なられましたなあ.<FA><F7><F1>＊「そのすがたは　まるで　この<xE5>ユの<F1>　　<xE5>0さま　みたいですよ.<F7>
+01_10,＊「はなしは　きいております.<F1><FA><F7>＊「<&40>さまは　すでに<F1>　　この<xE5>ユの<xE5>0.<FA><F7><F1>＊「あまり　<xE5>へままに　お<xE5>ずを<F1>　　<xE5>せぬように　おねがいいたします.<F7>
+01_11,＊「<xE5><xE9>しい<xE5>0さまに　けいれい!<F1><FA><F7>＊「<xE5>0さまは　みんなの　たいようで<F1>　　ございます.<F7>
+01_12,＊「<xE5>0さま　<xE5>んっていますか?<F1><FA><F7>＊「まどうしのつえは　<xE5>Mの<xE5>テをとばし<F1>　　てきを　こうげきできるそうです.<FA><F7><F1>＊「しかも　<xE5>や<xE5>ノでも　<xE5>♀えるとか.<F1><FA><F7>＊「<xE5>・っていたら　きっと<F1>　　べんりでしょうねっ.<F7>
+01_13,＊「あ~あ　カンダタを　オレが<F1>　　やっつけてればなあ[・・・][・・・]<FA><F7><F1>＊「<xE5>Cごろ　このオレが　<xE5>0さまに[・・・]<F1><F7>
+01_14,＊「はっ!<F1>　　これは　<xE5><xE9>しい<xE5>0さま!<FA><F7><F1>＊「いえ　なんでも　ありません!<F1><F7>
+01_15,＊「<&40><xE5>0さまが　カンダタを<F1>　　こらしめたという　ぶゆうでん.<FA><F7><F1>＊「しかと　きいています.<F1><FA><F7>＊「あなたさまこそ　この<xE5>ユの<xE5>0に<F1>　　ふさわしい　お<xE5>Kで　ございます.<F7>
+01_16,＊「なんと!<F1>　　<xE5>0さまに　されたのか[・・・][・・・].<FA><F7><F1>＊「やれやれ　あいつは　まだ<F1>　　わるいクセが　なおらんらしいのう.<F7>
+01_17,＊「へ-　あんたが　<xE5><xE9>しい<xE5>0か.<F1><FA><F7>＊「けどよ　カンダタを　<xE5>ドがして<F1>　　やったんだってな.<FA><F7><F1>＊「<xE5>0さま　あんたは　あまいよ.<F1><F7>
+01_18,＊「おお!　あなたさまが　この<xE5>ユの<F1>　　<xE5><xE9>しい<xE5>0で　ございますか.<FA><F7><F1>＊「わが<xE5>ユ　ロマリアと　<xE5><xE9>しい<xE5>0に<F1>　　<xE5>ヴの　ごかごが　ありますように.<F7>
+01_19,<EB>＊「<xE5>0さま　おねがいでございます.<F1><FA><F7>＊「はるか<xE5>Pの<xE5>ぅ　ノアニ-ルを<F1>　　おすくい<xE5>4さいまし.<FA><F7>
+01_1A,<EB>＊「え?　もう　<xE5>ぅの<xE5>さいは<F1>　　とけているですって?<FA><F7><F1>＊「さすが　<xE5>0さま　ですわ!<F1><F7>
+01_1B,<EB>＊「ノアニ-ルに<xE5>ャむ　イトコから<F1>　　れんらくが　とだえて　すう<xE5>9[・・・].<FA><F7><F1>＊「きっと　よくないことが<F1>　　おこったに　ちがいありませんわ!<F7>
+01_1C,＊「まあ　まあ　<xE5>0さまが<F1>　　こんな　ばあさまの<xE5>づに[・・・][・・・].<FA><F7><F1>＊「ありがたや　ありがたや.<F1><F7>
+01_1D,＊「おお!　<xE5>0さまじゃ!<F1><FA><F7>＊「しかも　<xE5><EA>の<xE5>0さまよりも<F1>　　ずっと　<xE5><F5>いぞい!<FA><F7><F1>＊「ふむ!　これで　この<xE5>ユも<F1>　　もっともっと　<xE5><F5><xE5>ぴるはずじゃ!<FA><F7><F1>＊「めでたいのう.<F1><F7>
+01_1E,＊「わ-い　<xE5>0さまだ!<F1>　　<xE5><xE9>しい<xE5>0さまだ!　わ-い!<F7>
+01_1F,ボビ-「わん　わん　わん!<F7>
+01_20,＊「あっ　<xE5>0さま　こんにちは.<F1><FA><F7>＊「ところで　<xE5>0さま　アリアハンの<F1>　　ゆうしゃは　まだ　<xE5>しませんか?<FA><F7><F1>＊「おかしいなあ[・・・].<F1><F7>
+01_21,<EB>＊「まあ!　わたしのような<F1>　　<xE5>[Lv]の<xE5>ぎにまで　お<xE5>▶を.<FA><F7><F1>＊「かんげきですわ　<xE5>0さま!<F1><F7>
+01_22,＊「げっ!　<xE5>0さま!<F1>　　どうして　こんな<xE5>づへ[・・・][・・・].<FA><F7><F1>＊「そうだ!　せっかくですから<F1>　　いいことを　おしえましょう.<FA><F7><F1>＊「なんでも<F1>　　ノアニ-ルという<xE5>ぅでは[・・・]<FA><F7><F1>＊「みかわしのふくを<F1>　　<xE5>ぶっていたそうで　ございますよ.<F7>
+01_23,＊「やや　<xE5>0さま<F1>　　おさんぽ　ですか?<xFF>
+01_24,＊「<xE5>ぁかります　<xE5>ぁかります.<F1>　　こんな　いい<xE5>り<xE5>へだ.<FA><F7><F1>＊「<xE5>ずの<xE5>6なんかに　いたら<F1>　　くさっちゃいますもんね.<F7>
+01_25,＊「もしかして　<xE5>ぐまわりですか?<F1><FA><F7>＊「それは　ごくろうさまです.<F1>　　どうか　お<xE5>へをつけて.<F7>
+01_26,＊「へい　いらっしゃい!<F1><FA><F7>
+01_27,＊「あ~　びっくりした.<F1><FA><F7>＊「だれかと<xE5>どったら　<xE5>0さまじゃ<F1>　　ありませんか!<FA><F7><F1>＊「へい　おかげさんで　こうして<F1>　　まいにち[・・・]<FA><F7><F1>＊「<xE5>ス<xE5>ぶさせて　もらってます.<F1>　　ありがてえこってす.<F7>
+01_28,＊「<xE5><xE9>しい<xE5>0さま　ですよね?<F1><FA><F7>＊「だったら　おねがいします!<F1>　　ぜい<xE5>べを　もっと<xE5>レくして<xE5>4さい!<F7>
+01_29,＊「やや　これは　<xE5>0さま　ごきげん<F1>　　うるわしゅう　ございます.<FA><F7><F1>＊「ところで　つい　<xE5>みほど[・・・]<F1><FA><F7>＊「<xE5><EA>の<xE5>0が　うれしそうに<F1>　　<xE5>る<xE5>4におりて<xE5>”ったようですが[・・・].<F7>
+01_2A,＊「<xE5>0さま　お<xE5>ずから　<xE5>せては<F1>　　きけんで　ございます!<F7>
+01_2B,＊「<xE5>0さまは　なにとぞ<F1>　　お<xE5>ずに　もどられますように.<F7>
+01_2C,＊「やや　<xE5>0さま!<F1>　　どうして　こんな<xE5>づへ?<F7>
+01_2D,<EB>＊「は-い!　ちょっと　ハデな<F1>　　おじさま.ステキよ　ちゅっ!<F7>
+01_2E,＊「かけごと?　めっそうもねえ!<F1><FA><F7>＊「オレたちは　ただしあいを<xE5>ぐせて<F1>　　たのしんでもらってるだけでさあ.<F7>
+01_2F,＊「ここは　<xE5>0さまが<F1>　　<xE5>しるような<xE5>づでは　ございません.<FA><F7><F1>＊「どうか　おひきとりを[・・・][・・・].<F1><F7>
+01_30,＊「あ　あ　<xE5><xE9>しい<xE5>0さまに<F1>　　けいれいっ!<F7>
+01_31,<EB>＊「まあ　<xE5>0さま.　どうして<F1>　　このような　いかがわしい<xE5>づへ[・・・].<FA><F7><F1>＊「まあっ　こうがくのために?<F1>　　<xE5>すも　ですのよ.　おほほほほ.<F7>
+01_32,＊「ふがふが[・・・][・・・].<F1><F7>
+01_33,＊「<xE5>0さまだ!　どひゃ-!<F7>
+01_34,＊「わかりますよ!<F1>　　<xE5>0さまだって　<xE5>Dの<xE5>1だし!<FA><F7><F1>＊「いけないって　いわれたら[・・・]<F1><FA><F7>＊「よけいに　やりたくなることって<F1>　　ありますもんね.<FA><F7><F1>＊「ようガス　オレもおとこだ!<F1><FA><F7>＊「ここで　<xE5>0さまを<xE5>ぐたってことは<F1>　　ナイショに　しておきましょう!<FA><F7><F1>＊「わっはっはっ!<F1><F7>
+01_35,＊「わっはっはっ　わしじゃよ.<F1>　　<xE5><EA>の　<xE5>0さまじゃ.<FA><F7><F1>＊「しかし　しょみんは　ええのう.<F1><FA><F7>＊「かけごとが　こんなにおもしろい<F1>　　とは　<xE5>どわんかったわい!<FA><F7><F1>＊「そなた　がんばって<F1>　　この<xE5>ユを　<xE5>ィめてくれよ.<xFF>
+01_36,＊「それでは　いずれ　また!<F1>　　わっはっはっ.<F7>
+01_37,＊「なんと　<xE5>0さまになってるのは<F1>　　もう　いやじゃと<xE5>Wすのか?<xFF>
+01_38,＊「よかった!　ひと<xE5>レ<xE5>Tじゃ.<F1><FA><F7>＊「それでは　いずれ　また!<F1>　　わっはっはっ.<F7>
+01_39,＊「そうか[・・・][・・・].いやなものを<F1>　　つづけさすわけにも　ゆくまい.<FA><F7><F1>＊「わしも　しばらくではあるが<F1>　　<xE5>Hしは　<xE5><EB>ぬきが　できたしな.<FA><F7><F1>＊「あいわかった!　<&40>よ!<F1><FA><F7>＊「そなたは　やはり　<xE5>[Lv]を<F1>　　つづけるが　よかろう!<F7>
+02_00,<FE><xE5>2<xE5>0さまは　どうぐを　<xE5>・っていない.<F1><F7>
+02_01,<FE><xE5>2<xE5>0さまは　その<xE5><F2><F1>とても　<xE5><&29>ったらしい.<F7>
+02_02,"<FE><xE5>2<xE5>0さまは　<xE5>さ<xE5>,を　<xE5>♀えない.<F1><F7>"
+02_03,<FE><xE5>2<xE5>0さまは　<xE5>ォ<xE5>ぁの　あしもとを<F1>しらべた.<FA><F7><F1>しかし　<xE5>2<xE5>0さまの　<xE5>ぞにたつ<xE5>:は<F1>なにも　<xE5>ぐつからなかった.<F7>
+02_04,<FE><xE5>2<xE5>0さまに　<xE5>ぞ<xE5>ソつような<xE5>:は<F1><xE5>Eっていないようだ.<F7>
+02_05,<FE><xE5>2<xE5>0さまは　ツボの<xE5>6を<F1>のぞきこんだ.<FA><F7>
+02_06,<FE><xE5>2<xE5>0さまは　<xE5>デばこを　しらべた.<F1><FA><F7><xE5>2<xE5>0さまに　<xE5>♂<xE5><FB>な<xE5>:は<F1><xE5>Eっていないようだ.<F7>
+02_07,<FE><xE5>2<xE5>0さまは　<xE5>ただなを　しらべた.<F1><FA><F7><xE5>2<xE5>0さまに　<xE5>ぞ<xE5>ソつような<xE5>たは<F1>とくに　<xE5>ぐあたらなかった.<F7>
+02_08,<FE><xE5>2<xE5>0さまは　ちゅうだんのしょを<F1>つかえない!<F7>
+02_09,<FE><xE5>2<xE5>0さまは　さくせんを<F1>たてようとした.<FA><F7><F1>しかし　<xE5>Cは　その<xE5>♂<xE5><FB>がないようだ.<F1><F7>
+02_0A,<EB>＊「ごりっぱですわ　<&40>さま!<F1><FA><F7>＊「わたくしの<xE5>い　つまり　<xE5><EA>の<xE5>0も<F1>　　よく　やってはいたのですけれど[・・・]<FA><F7><F1>＊「やはり　<xE5><xEC><xE5>ぽでは　<xE5>へがつかない<F1>　　こまやかなしごともございますの.<FA><F7><F1>＊「きたいしていますわ　<&40>さま.<F1><F7>
+02_0B,＊「この<xE5>ユはじめての<F1>　　<xE5>2<xE5>0さまの　たんじょうじゃ!<FA><F7><F1>＊「<&40><xE5>2<xE5>0　ばんざい!<F1><F7>
+02_0C,＊「ロマリアは　うつくしい<xE5>ユ.<F1><FA><F7>＊「<&40>さまのような<xE5>Kこそ　この<F1>　　<xE5>ユの<xE5>2<xE5>0に　ふさわしいのです.<FA><F7><F1>＊「ラララ[・・・]　ロマリアの<xE5>るに<xE5>ソつ-<F1>　　うつくしきすがたよ-<FA><F7><F1>＊「われらを　すくわんと-<F1>　　<xE5>ヴが　<xE5>もえし　<xE5>2<xE5>0よ-　ラララ.<F7>
+02_0D,＊「<&40><xE5>2<xE5>0さまに　けいれい!<F1><F7>
+02_0E,＊「うん?　<xE5>0のようなすがたをして<F1>　　おまえは　<xE5>や<xE5>ぎだ!?<FA><F7><F1>＊「この<xE5>すは　だまされないぞ!<F1><FA><F7>＊「へ?　<xE5>0<xE5>~を　ゆずられた?<F1>　　こ　この<xE5>ユの　<xE5>2<xE5>0に?<FA><F7><F1>＊「これは　ご<xE5>ゾ<xE5>にいたしました.<F1><FA><F7>＊「ところで　<xE5>2<xE5>0さま.<F1><FA><F7>＊「はるか<xE5>Qの<xE5>ユ　ポルトガには<F1>　　<xE5>Vという<xE5>:が　あるそうです.<FA><F7><F1>＊「いちどでいいから　<xE5>Vにのって<F1>　　<xE5>5<xE5>ケを　<xE5><xEF><xE5>トしたいですなあ.<F7>
+02_0F,＊「やや　これは　<&40>さま!<F1>　　りっぱに　なられましたなあ.<FA><F7><F1>＊「そのすがたは　まるで　この<xE5>ユの<F1>　　<xE5>2<xE5>0さま　みたいですよ.<F7>
+02_10,＊「はなしは　きいております.<F1><FA><F7>＊「<&40>さまは　すでに<F1>　　この<xE5>ユの<xE5>2<xE5>0.<FA><F7><F1>＊「あまり　<xE5>へままに　お<xE5>ずを<xE5>せぬ<F1>　　ように　おねがいいたします.<F7>
+02_11,＊「<&40><xE5>2<xE5>0さまに　けいれい!<F1><FA><F7>＊「<xE5>2<xE5>0さまは　<xE5>すの[・・・]　いえ<F1>　　みんなのたいようで　ございます.<F7>
+02_12,＊「<xE5>2<xE5>0さま　<xE5>んっていますか?<F1><FA><F7>＊「まどうしのつえは　<xE5>Mの<xE5>テをとばし<F1>　　てきを　こうげきできるそうです.<FA><F7><F1>＊「しかも　<xE5>や<xE5>ノでも　<xE5>♀えるとか.<F1><FA><F7>＊「<xE5>・っていたら　きっと<F1>　　べんりでしょうねっ.
+02_13,＊「[・・・][・・・]　[・・・][・・・].<F1><FA><F7>＊「あのう　<xE5>2<xE5>0さま<F1>　　まだ　<xE5>すに　なにか[・・・]?<xFF>
+02_14,＊「そうですか.　では[・・・].<F1><F7>
+02_15,＊「えっ!?<F1>　　はなばたけのくさむしりをっ?<FA><F7><F1>＊「こ　これは　<xE5>Wしわけありません<F1>　　<xE5>すたしかに　さぼっておりました.<FA><F7><F1>＊「し　しかし　<xE5>2<xE5>0さま　じきじきに<F1>　　ごしじを　<xE5>ハけるほど[・・・]<FA><F7><F1>＊「くさむしりが<F1>　　<xE5>5<xE5>ぇなしごとだったとは!<FA><F7>
+02_16,＊「じつは　この　お<xE5>ぞ<xE5>かに<F1>　　やりがいが　なくて[・・・]<FA><F7><F1>＊「<xE5>げ<xE5>Jや　まほうつかいのしょくに<F1>　　あこがれてばかり　いたのです.<FA><F7><F1>＊「でも　これからは　ちがいますよ.<F1><FA><F7>＊「きっと　りっぱに　くさむしりを<F1>　　やりとげて<xE5>ぐせます!
+02_17,＊「ところで[・・・][・・・]<F1><FA><F7>
+02_18,＊「あ~あ　<xE5>シでは　カミさんの<F1>　　シリにしかれて[・・・]<FA><F7><F1>＊「しごとでまで<F1>　　<xE5>2<xE5>0さまに　つかえるとはなあ[・・・]<F7>
+02_19,＊「はっ!これは　<&40><xE5>2<xE5>0さま!<F1>　　いえ　なんでも　ありません.<F7>
+02_1A,＊「<&40>さまが　カンダタを<F1>　　こらしめた　ぶゆうでん.<FA><F7><F1>＊「しかときいています.<F1><FA><F7>＊「あなたこそ　この<xE5>ユの<xE5>2<xE5>0に<F1>　　ふさわしい　おかたでございます.<F7>
+02_1B,＊「なんと!<F1>　　<xE5>2<xE5>0さまに　されたのか[・・・][・・・].<FA><F7><F1>＊「やれやれ　あいつは　まだ　わるい<F1>　　クセが　なおらんらしいのう.<F7>
+02_1C,＊「へ-　あんたが　ウワサの<xE5>2<xE5>0か.<F1>　　まさか　<xE5>2が　<xE5>ユを<xE5>ィめるとはな.<FA><F7><F1>＊「けどよ　カンダタを　<xE5>ドがして<F1>　　やったんだって?<FA><F7><F1>＊「これだから<F1>　　<xE5>2は　あまくて　ダメだよ.<F7>
+02_1D,＊「おお!　あなたさまが　この<xE5>ユの<F1>　　<xE5><xE9>しい<xE5>2<xE5>0で　ございますか.<FA><F7><F1>＊「わが<xE5>ユ　ロマリアと<F1>　　<&40><xE5>2<xE5>0に[・・・]<FA><F7><F1>＊「<xE5>ヴの　ごかごが　ありますように.<F1><F7>
+02_1E,<EB>＊「<xE5>2<xE5>0さま!<F1>　　おねがいで　ございます!<FA><F7><F1>＊「はるか<xE5>Pの<xE5>ぅ　ノアニ-ルを<F1>　　おすくいくださいまし!<FA><F7>
+02_1F,<EB>＊「え?　もう　<xE5>ぅの<xE5>さいは<F1>　　とけているですって?<FA><F7><F1>＊「さすが　<xE5>2<xE5>0さま　ですわ!<F1><F7>
+02_20,<EB>＊「ノアニ-ルに<xE5>ャむ　イトコから<F1>　　れんらくが　とだえて　すう<xE5>9[・・・].<FA><F7><F1>＊「きっと　よくないことが<F1>　　おこったに　ちがいありませんわ!<F7>
+02_21,＊「まあ　まあ　<xE5>2<xE5>0さまが<F1>　　こんな　ばあさまの<xE5>づに[・・・][・・・].<FA><F7><F1>＊「ありがたや　ありがたや.<F1>　　ありがたい　ついでに　<xE5>2<xE5>0さま.<FA><F7><F1>＊「この　ばあさまの　ねがいを<F1>　　きいては　くださりませぬか?<xFF>
+02_22,＊「じつは　お<xE5>ずの　<xE5>6にわの<F1>　　はなばたけを　<xE5>こ<xE5>Eれする<xE5><xEC>が[・・・]<FA><F7><F1>＊「さい<xE5>ゃ　しごとを　さぼって<F1>　　ばかり　おりますのじゃ.<FA><F7><F1>＊「あのはなばたけは　<xE5>み<xE5>ょの<xE5>0<xE5>フの<F1>　　<xE5>どい<xE5>せの　<xE5>ぱ<xE5>づ[・・・].<FA><F7><F1>＊「なのに　このままでは　ざっそうに<F1>　　おおわれてしまいまする.<FA><F7><F1>＊「どうか　<xE5>6にわの<F1>　　はなばたけにいる　<xE5><xEC>に[・・・]<FA><F7><F1>＊「くさむしりを　するよう　<xE5>2<xE5>0さま<F1>　　から　いいつけて　くださいまし.<F7>
+02_23,＊「えっ?　なんですと?<F1><FA><F7>＊「すみませんが　<xE5>マがとおくて<F1>　　きこえませなんだ.<FA><F7><F1>＊「ありがたい　ついでに　<xE5>2<xE5>0さま.<F1><FA><F7>＊「この　ばあさまの　ねがいを<F1>　　きいては　くださりませぬか?<xFF>
+02_24,＊「まあ　まあ　<xE5>2<xE5>0さまが<F1>　　こんな　ばあさまの<xE5>づに[・・・][・・・].<FA><F7><F1>＊「ありがたや　ありがたや.<F1><F7>
+02_25,＊「おお!　<xE5>2<xE5>0さまじゃ!<F1><FA><F7>＊「しかも　そのように　<xE5><&2B><F1>　　うつくしい<xE5>2<xE5>ぽ　だぞい!<FA><F7><F1>＊「ふむ!これで　この<xE5>ユも　もっと<F1>　　はなやかに　なるはずじゃ!<FA><F7><F1>＊「めでたいのう.<F1><F7>
+02_26,<EB>＊「わ-い　<xE5>2<xE5>0さまだ!<F1>　　きれいだなあ.<F7>
+02_27,ボビ-「わん　わん　わん!<F1><F7>
+02_28,＊「あっ　<xE5>2<xE5>0さま　こんにちは.<F1><FA><F7>＊「ところで　<xE5>2<xE5>0さま.<F1><FA><F7>＊「アリアハンのゆうしゃは　まだ<F1>　　<xE5>しませんか?　おかしいなあ[・・・].<F7>
+02_29,<EB>＊「まあ!　わたしのような<F1>　　<xE5>[Lv]の<xE5>ぎにまで　お<xE5>▶を.<FA><F7><F1>＊「かんげきですわ　<xE5>2<xE5>0さま!<F1><F7>
+02_2A,＊「げっ!　<xE5>2<xE5>0さま!<F1>　　どうして　こんな<xE5>づへ[・・・][・・・].<FA><F7><F1>＊「そうだ!　せっかくですから<F1>　　いいことを　おしえましょう.<FA><F7><F1>＊「なんでも<F1>　　ノアニ-ルという<xE5>ぅでは[・・・]<FA><F7><F1>＊「みかわしのふくを<F1>　　<xE5>ぶっていたそうで　ございますよ.<FA><F7><F1>＊「もっとも　<xE5>2<xE5>0さまには[・・・]<F1><FA><F7>＊「<xE5>Cのおすがたの<xE5>Kが　ずっと<F1>　　おにあいですがね.　わっはっは.<F7>
+02_2B,＊「やや　<xE5>2<xE5>0さま<F1>　　おさんぽ　ですか?<xFF>
+02_2C,＊「<xE5>ぁかります　<xE5>ぁかります.<F1>　　こんな　いい<xE5>り<xE5>へだ.<FA><F7><F1>＊「お<xE5>ずの<xE5>ワに<xE5>せて　くさばなや<xE5>えを<F1>　　ながめる<xE5>Kが　たのしいですよね.<F7>
+02_2D,＊「おや?　ここに　<xE5>エまりたいと<F1>　　おっしゃるのですか?<FA><F7><F1>＊「はっはっは<F1>　　これは　ごじょうだんを.<xFF>
+02_2E,＊「このような　しょみんの<xE5>ェに[・・・]<F1><FA><F7>＊「<xE5>2<xE5>0さまが　お<xE5>エまりになれるはず<F1>　　ありませんよ.　はっはっは.<F7>
+02_2F,＊「え?　<xE5>た<xE5>ちに　お<xE5>エまりに[・・・].<F1><FA><F7>＊「ひゃ-!<F1>　　す　すこし　おまちを!<FA><F7><F1>＊「いそいで　2かいの　おへやを<F1>　　したくして　まいります!<F7>
+02_30,＊「はあ　はあ[・・・][・・・]<F1><FA><F7>＊「し　したくが　ととのいました.<F1>　　どうぞ　こちらへ!<F7>
+02_31,＊「こ　こちらで　ございます.<F1>　　では　どうぞ　ごゆっくり[・・・][・・・].<F7>
+02_32,＊「わが<xE5>ェに　おこしいただけて<F1>　　<xE5>そえいで　ございます!<FA><F7><F1>＊「どうぞ　ごゆっくり[・・・].<F1><F7>
+02_33,<FE>フカフカの　ふとんが　かけてある.<F1><xE5>Hし　<xE5>めみますか?<xFF>
+02_34,＊「おはようございます　<xE5>2<xE5>0さま.<F1><FA><F7>
+02_35,＊「<xE5>すが　<xE5>ェ<xE5>ぉを<xE5>ぜめて　20<xE5>9[・・・]<F1><FA><F7>＊「これほど　うれしかったことは<F1>　　ありません!<FA><F7><F1>＊「ありがとうございました!<F1><F7>
+02_36,<FE><xE5>Ⅳロマリア<xE5>0ぞく　ごようたつの<xE5>ェ<F1>　ホテル・ロマリア<xE5>ずへ　ようこそ!<xE5>Ⅳ<F7>
+02_37,＊「へい　いらっしゃい!<F1><F7>
+02_38,＊「あ~　びっくりした.<F1><FA><F7>＊「だれかと　<xE5>どったら<F1>　　<xE5>2<xE5>0さまじゃ　ありませんか!<FA><F7><F1>＊「へい　おかげさんで[・・・]<F1><FA><F7>＊「こうして　まいにち<F1>　　<xE5>ス<xE5>ぶさせて　もらってます.<FA><F7><F1>＊「ありがてえこってす.<F1><F7>
+02_39,＊「<xE5><xE9>しい<xE5>0さま[・・・]<F1>　　<xE5>2<xE5>0さま　ですよね?<FA><F7><F1>＊「だったら　おねがいします!<F1>　　ぜい<xE5>べを　もっと<xE5>レくして<xE5>4さい!<F7>
+02_3A,＊「おや　<xE5>2<xE5>0さま.　え?<F1>　　ぜいきんを　<xE5>レくしようですと?<FA><F7><F1>＊「ムチャを<F1>　　おっしゃらないで<xE5>4さい.<FA><F7><F1>＊「<xE5>Cのままでも　ギリギリなのに<F1>　　<xE5><EA>の<xE5>0が　ムダづかいを[・・・]<FA><F7><F1>＊「あわわ　なんでもございません.<F1><F7>
+02_3B,＊「やや　これは　<xE5>2<xE5>0さま　ごきげん<F1>　　うるわしゅう　ございます.<FA><F7><F1>＊「ところで　つい　<xE5>みほど[・・・]<F1><FA><F7>＊「<xE5><EA>の<xE5>0が　うれしそうに　<xE5>る<xE5>4に<F1>　　おりて<xE5>”ったようですが[・・・].<F7>
+02_3C,＊「<xE5>2<xE5>0さま　お<xE5>ずから　<xE5>せては<F1>　　きけんで　ございます.<F7>
+02_3D,＊「<xE5>2<xE5>0さま　なにとぞ　<xE5>ず<xE5>ぃに<F1>　　もどられますように.<F7>
+02_3E,＊「やや　<xE5>2<xE5>0さま!<F1>　　どうして　こんな<xE5>づへ?<F7>
+02_3F,<EB>＊「あ~ら　リッチそうな<F1>　　お<xE5>/さま.<FA><F7><F1>＊「どんどん　お<xE5>べを<F1>　　<xE5>♀って<xE5>”ってね.<F7>
+02_40,＊「かけごと?　めっそうもねえ!<F1><FA><F7>＊「オレたちは　ただしあいを<xE5>ぐせて<F1>　　たのしんでもらってるだけでさあ.<F7>
+02_41,＊「ここは　<xE5>2<xE5>0さまが<F1>　　<xE5>しるような<xE5>づでは　ございません.<FA><F7><F1>＊「どうか　おひきとりを[・・・][・・・].<F1><F7>
+02_42,＊「わっ　<&40><xE5>2<xE5>0さま!<F1>　　と　とにかく　けいれいっ!<F7>
+02_43,<EB>＊「まあ　<xE5>2<xE5>0さま.　どうして<F1>　　このような　いかがわしい<xE5>づへ[・・・].<FA><F7><F1>＊「まあっ　こうがくのために?<F1>　　<xE5>すも　ですのよ.　おほほほほ.<F7>
+02_44,＊「ふがふが[・・・][・・・].<F1><F7>
+02_45,＊「<xE5>2<xE5>0さまだ!　どひゃ-!<F1><F7>
+02_46,＊「わかりますよ.<F1>　　<xE5>2<xE5>0さまだって　<xE5>Dの<xE5>1だし!<FA><F7><F1>＊「いけないって　いわれたら[・・・]<F1><FA><F7>＊「よけいに　やりたくなることって<F1>　　ありますもんね.<FA><F7><F1>＊「ようガス!　オレは<F1>　　かよわき<xE5>2<xE5>ぽの　ヒミツを[・・・]<FA><F7><F1>＊「たにんに　はなすような　ヤボな<F1>　　<xE5><xEC>じゃ　ございません.<FA><F7><F1>＊「ここで　<xE5>2<xE5>0さまを<xE5>ぐたってことは<F1>　　ナイショに　しておきましょう.<FA><F7><F1>＊「わっはっはっ.<F1><F7>
+02_47,＊「わっはっはっ　わしじゃよ.<F1>　　<xE5><EA>の　<xE5>0さまじゃ.<FA><F7><F1>＊「しかし　しょみんは　ええのう.<F1><FA><F7>＊「かけごとが　こんなに　おもしろい<F1>　　とは　<xE5>どわんかったわい!<FA><F7><F1>＊「そなた　がんばって<F1>　　この<xE5>ユを　<xE5>ィめてくれよ.<xFF>
+02_48,＊「それでは　いずれ　また!<F1>　　わっはっはっ.<F7>
+02_49,＊「なんと　<xE5>2<xE5>0さまになってるのは<F1>　　もう　いやじゃと<xE5>Wすのか?<xFF>
+02_4A,＊「よかった!　ひと<xE5>レ<xE5>Tじゃ.<F1><F7>
+02_4B,＊「そうか[・・・][・・・].　いやなものを<F1>　　つづけさせるわけにも　ゆくまい.<FA><F7><F1>＊「わしも　しばらくではあるが<F1>　　<xE5>Hしは　<xE5><EB>ぬきが　できたしな.<FA><F7><F1>＊「あいわかった!　<&40>よ!<F1><FA><F7>＊「そなたは　やはり　<xE5>[Lv]を<F1>　　つづけるが　よかろう!<F7>
+02_4C,＊「こ　これは　<&40><xE5>2<xE5>0さま.<F1>　　ようこそ　おいでくださいました.<FA><F7><F1>＊「<xE5>2<xE5>0さまが　<xE5>エまってくださった<F1>　　おかげで[・・・]<FA><F7><F1>＊「<xE5>すの<xE5>ェは　<xE5>5はんじょうで<F1>　　ございます!<F7>
+02_4D,＊「なんと　ふたたび<F1>　　この<xE5>ユに　<xE5>2<xE5>0が!<FA><F7><F1>＊「<&40><xE5>2<xE5>0　ばんざい!<F1><F7>
+02_4E,＊「これは　<&40><xE5>2<xE5>0さま.<F1><FA><F7>＊「<xE5>ぐてください　はなばたけが<F1>　　こんなに　りっぱに!<FA><F7><F1>＊「ところで[・・・][・・・].<F1><FA><F7>＊「<xE5>2<xE5>0さま　<xE5>んっていますか?<F1><FA><F7>＊「まどうしのつえは　<xE5>Mの<xE5>テをとばし<F1>　　てきを　こうげきできるそうです.<FA><F7><F1>＊「しかも　<xE5>や<xE5>ノでも　<xE5>♀えるとか.<F1><FA><F7>＊「<xE5>・っていたら　きっと<F1>　　べんりでしょうねっ.<F7>
+03_00,<EB>＊「あなたのような　<xE5><F5>い<xE5>0が　<xE5>ィめる<F1>　　<xE5>ユを　<xE5>ぐてみたかったですわ.<FA><F7><F1>＊「でも　しかたありませんわね.<F1><FA><F7>＊「あなたには　やらなくては<F1>　　いけないことが　ありますものね.<F7>
+03_01,<EB>＊「あなたのような　<xE5>2<xE5>ぽが　<xE5>ィめる<F1>　　<xE5>ユを　<xE5>ぐてみたかったですわ.<FA><F7><F1>＊「でも　しかたありませんわね.<F1><FA><F7>＊「あなたには　やらなくては<F1>　　いけないことが　ありますものね.<F7>
+03_02,<EB>＊「<xE5><xE9>しい<xE5>0に　かわったことで[・・・]<F1><FA><F7>＊「この<xE5>ユも　もっと　さかえて<F1>　　いくと　<xE5>どいましたのに[・・・][・・・].<FA><F7><F1>＊「しかたありませんわね.<F1><F7>
+03_03,＊「また　かぜのささやきが<F1>　　きこえたんです.<FA><F7><F1>＊「あなたも　ききますか?<F1><xFF>
+03_04,＊「シャンパ-ニの<xE5><xEE>が<F1>　　しずかに　なったよ.<FA><F7><F1>＊「ありがとう　ありがとう[・・・][・・・].<F1><F7>
+03_05,＊「あなたは　ゆめの<xE5>ゾい<xE5>Dですね.<F1><F7>
+03_06,＊「これからの<xE5>[Lv]の　ごぶうんを<F1>　　おいのり　しています.<F7>
+03_07,＊「ここだけのはなしだが　じつは[・・・]<F1><FA><F7>＊「<xE5>すも　5<xE5>ノほど　<xE5>0さまに<F1>　　されたことが　あるのだ.<FA><F7><F1>＊「そなたも　また　<xE5>0さまを<F1>　　やりたくなったら[・・・]<FA><F7><F1>＊「いつでも　この<xE5>ずに<F1>　　<xE5>ソちよってくれよ.<F7>
+03_08,＊「おや　<&40>さま[・・・]<F1><FA><F7>＊「<xE5>0さまみたいな　かっこうは<F1>
+03_09,＊「おや　<&40>さま[・・・]<F1><FA><F7>＊「<xE5>2<xE5>0さまみたいな　かっこうは<F1>
+03_0A,　　おやめに　なったのですか?<FA><F7><F1>＊「やっぱり　あなたには　その<xE5>Kが<F1>　　よく　にあってらっしゃいますよ.<F7>
+03_0B,＊「おや　これは　もと<xE5>0さま<F1>　　ごきげん　うるわしゅう.<F7>
+03_0C,＊「おや　これは　もと<xE5>2<xE5>0さま<F1>　　ごきげん　うるわしゅう.<F7>
+03_0D,＊「おお　アリアハンの　おかた!<F1><FA><F7>＊「また　<xE5>[Lv]<xE5>ソたれるのですね.<F1>　　どうか　お<xE5>へをつけて!<F7>
+03_0E,＊「<xE5>0さまは<F1>　　この<xE5>3に　おわします.<F7>
+03_0F,＊「あなた　<xE5>んっていますか?<F1><FA><F7>＊「まどうしのつえは　<xE5>Mの<xE5>テをとばし<F1>　　てきを　こうげきできるそうです.<FA><F7><F1>＊「しかも　<xE5>や<xE5>ノでも　<xE5>♀えるとか.<F1><FA><F7>＊「<xE5>・っていたら　きっと<F1>　　べんりでしょうねっ.<F7>
+03_10,＊「あんた　<xE5>0さま　やめたんだって?<F1><FA><F7>
+03_11,＊「あんた　<xE5>2<xE5>0さま<F1>　　やめたんだって?<FA><F7><F1>
+03_12,＊「もったいないなあ　オレに<F1>　　ゆずって　くれればいいのに.<F7>
+03_13,＊「<xE5>P<xE5>Qのせきしょは　ちゃんと<F1>　　<xE5>ぐはりの<xE5>Iが　いるから[・・・]<FA><F7><F1>＊「まものの　しんにゅうは　<xE5>ゾい<F1>　　[・・・][・・・]と.<F7>
+03_14,＊「じつは　あなたに[・・・]<F1><FA><F7>＊「<xE5>チのケイコを　つけてもらおうと<F1>　　<xE5>どっていたのですが[・・・]<FA><F7><F1>＊「ざんねんです.<F1><F7>
+03_15,＊「なあ　あんたから　ゆうしゃさまに<F1>　　たのんでくれないか?<FA><F7><F1>＊「もういちど　<xE5>0さまを<F1>　　やってくれってさ.<F7>
+03_16,＊「なあ　あんたから　ゆうしゃさまに<F1>　　たのんでくれないか?<FA><F7><F1>＊「もういちど　<xE5>2<xE5>0さまを<F1>　　やってくれってさ.<F7>
+03_17,＊「あいつよりも<F1>　　あんたが　あのまま[・・・]<FA><F7><F1>＊「<xE5>0さまを　つづけた<xE5>Kが<F1>　　よかったのかも　しれないのう.<FA><F7><F1>＊「まあ　あんなのでも　ちゃんとした<F1>　　<xE5>0<xE5>シの<xE5>ぎじゃからな.<FA><F7><F1>＊「がんばって　もらわなあ<F1>　　なるまいて.<F7>
+03_18,＊「<xE5>0さまなんて[・・・]<F1><FA><F7>＊「そう　かんたんに　だれでもできる<F1>　　ものじゃ　ないんじゃがのう[・・・][・・・].<FA><F7><F1>＊「あいつには　それが<F1>　　<xE5>ぁかっとらんらしいな.<F7>
+03_19,＊「カンダタは　ひとすじなわじゃ<F1>　　いかないヤツだぜ.<FA><F7><F1>＊「きっと　また　<xE5>やか　やらかすと<F1>　　オレは　にらんでるんだ.<F7>
+03_1A,<EB>＊「はるか<xE5>Pの<xE5>ぅ　ノアニ-ルは　<xE5>の<xE5>ほ<F1>　　どうなって　しまったでしょう?<FA><F7><F1>＊「ああ　ゆうしゃさま!　どうか<F1>　　ノアニ-ルを　おすくい<xE5>4さい!<F7>
+03_1B,<EB>＊「つい　<xE5>みほど　ノアニ-ルに<xE5>ャむ<F1>　　イトコから　てがみが<xE5>したんです.<FA><F7><F1>＊「すう<xE5>9ぶりのはずなのに[・・・]<F1><FA><F7>＊「おととい<xE5>Uった<xE5><F7>は　たのしかった<F1>　　[・・・][・・・]なんて　<xE5>がいてあって[・・・]<FA><F7><F1>＊「<xE5>の<xE5>ほ　<xE5>やが　あったのか　<xE5>すには<F1>　　さっぱり　<xE5>ぁかりませんわ.<F7>
+03_1C,＊「ざんねんだねえ.<F1>　　わしは　あんたなら<FA><F7><F1>＊「きっと　この<xE5>ユを　よくして<F1>　　くれると　<xE5>どったのに[・・・][・・・].<F7>
+03_1D,＊「これで　また[・・・]<F1><FA><F7>＊「あの<xE5>0さまに　がんばって<F1>　　いただかないと　ダメなんだねえ[・・・]<FA><F7><F1>＊「やれやれ.<F1><F7>
+03_1E,＊「ピュ-ッ!<F1><FA><F7>＊「おおっ　やっと　くちぶえが<F1>　　ふけたぞい.<FA><F7><F1>＊「ピュ-ッ!　ピュ-ッ!<F1><FA><F7>＊「[・・・][・・・].　だめじゃ!　やっぱり<F1>　　ボビ-は　かえってこんぞい.<F7>
+03_1F,<EB>＊「あれっ　お<xE5>Rちゃん　もう<F1>　　<xE5>0さまは　<xE5>ウめちゃったの?<xFF>
+03_20,<EB>＊「ふ-ん　けっこう<F1>　　かっこよかったのになあ.<F7>
+03_21,<EB>＊「あっ　じゃあ　あれだね.<F1><FA><F7>＊「おしのびの<xE5>[Lv]って　やつだね.<F1>　　いってらっしゃい!<F7>
+03_22,<EB>＊「あれっ　おねえちゃん　もう<F1>　　<xE5>2<xE5>0さまは　<xE5>ウめちゃったの?<xFF>
+03_23,＊「げっ　<xE5>0さ[・・・][・・・]<F1>　　あれ?<FA><F7><F1>＊「なんだ　もう　<xE5>0さまは<F1>　　やめちまったのか?<FA><F7><F1>＊「おどろかすなよな.<F1><F7>
+03_24,＊「げっ　<xE5>2<xE5>0さ[・・・][・・・]<F1>　　あれ?<FA><F7><F1>＊「なんだ　もう　<xE5>2<xE5>0さまは<F1>　　やめちまったのか?<FA><F7><F1>＊「おどろかすなよな.<F1><F7>
+03_25,＊「これは　うわさですが[・・・][・・・]<F1><FA><F7>＊「アリアハンのゆうしゃが<F1>　　やってきて[・・・]<FA><F7><F1>＊「なんと　この<xE5>ユの<xE5>0さまを<F1>　　やっていたそうですよ.<F7>
+03_26,＊「これは　うわさですが[・・・][・・・]<F1><FA><F7>＊「アリアハンのゆうしゃが<F1>　　やってきて[・・・]<FA><F7><F1>＊「なんと　この<xE5>ユの<xE5>2<xE5>0さまを<F1>　　やっていたそうですよ.<F7>
+04_00,<EB>＊「しずかに[・・・][・・・].<F1>　　ぼうやが　おきてしまいますわ.<F7>
+04_01,<EB>＊「むにゃむにゃ[・・・][・・・].<F1><FA><F7>＊「まおうが　きたって　ボクが<F1>　　ママを　<xE5>つってやるんだい[・・・][・・・].<F7>
+04_02,ボビ-「く-ん　く-ん.<F1><F7>
+04_03,＊「ぐう　ぐう[・・・][・・・].<F1><F7>
+04_04,＊「スヤ　スヤ[・・・][・・・].<F1><F7>
+04_05,＊「まおう?<F1>　　ただの　うわさだろ.<F7>
+04_06,＊「おお　アリアハンの　おかた!<F1><FA><F7>＊「こんな　<xE5>ヅ<xE5>6まで<F1>　　おつかれさまです.<F7>
+04_07,＊「<xE5>C<xE5>ヅは　<xE5>ェに<xE5>エまるなどし<F1>　　<xE5><F8>になったら　<xE5>しるがよい.<F7>
+04_08,＊「<xE5>0さまは　すでに<F1>　　お<xE5>めみのはずだ!<F7>
+04_09,＊「こうして　ほしを<xE5>ぐていると<F1>　　<xE5>Tが　あらわれるようだな.<FA><F7><F1>＊「ところで[・・・]<F1><FA><F7>＊「<xE5>Qの<xE5>ユ　ポルトガでは　<xE5>Vと<F1>　　いう<xE5>:を　<xE5>うっているそうだな.<FA><F7><F1>＊「<xE5>Vは　いいぞ　<xE5>Vは.<F1><FA><F7>＊「<xE5>Vがあれば　<xE5>O<xE5>びのはてにでも<F1>　　いけるからな.<F7>
+05_00,<EB>＊「ここは　エルフのかくれざとよ.<F1><FA><F7>＊「あっ　<xE5>D<xE5>ゥと　はなしちゃ<F1>　　いけなかったんだわ.<FA><F7><F1>＊「ママに　しかられちゃう.<F1><F7>
+05_01,<EB>＊「ここは　エルフのかくれざとよ.<F1><F7>
+05_02,＊「ヒヒ-ン.<F7>
+05_03,＊「ノアニ-ルの<xE5>ぅの　みなが<F1>　　<xE5>ズらされたのは[・・・]<FA><F7><F1>＊「わしの　<xE5><EB><xE5>1のせいじゃ.<F1><FA><F7>＊「あいつが　エルフの　お<xE5>_さまと<F1>　　かけおちなんかしたから[・・・][・・・].<FA><F7><F1>＊「だから　<xE5><EB><xE5>1に<xE5>ょわって<F1>　　あやまりに　<xE5>しておるのに[・・・]<FA><F7><F1>＊「はなしさえ　きいてもらえぬ.<F1><FA><F7>＊「ああ　わしは　どうすれば<F1>　　ええんじゃ!<F7>
+05_04,<EB>＊「あなたがた　<xE5>D<xE5>ゥには<F1>　　ものは　<xE5>ぶれませんわ.<FA><F7><F1>＊「おひきとりあそばせ.<F1><F7>
+05_05,＊「ヒヒ-ン!　ブルルル[・・・][・・・].<F7>
+05_06,<EB>＊「ひ-っ　<xE5>D<xE5>ゥだわ!<F1>　　さらわれてしまうわ!<F7>
+05_07,<EB>＊「あたし　ホビットなんて<F1>　　<xE5>5キライよ!　ぷんぷん!<F7>
+05_08,<EB>＊「あなたがた　<xE5>D<xE5>ゥが　この<F1>　　エルフのさとに　<xE5>の<xE5>ほ<xE5>やの<xE5>ヲです?<FA><F7>
+05_09,<EB>＊「どうぞ　おひきとりください.<F1><F7>
+05_0A,<EB>＊「なんですって?<F1>　　ノアニ-ルの<xE5>ぅの[・・・][・・・].<FA><F7><F1>＊「そう　そんなことも<F1>　　ありましたね.<FA><F7>
+05_0B,<EB>＊「その<xE5><F2>　<xE5>すのむすめ　アンは[・・・]<F1><FA><F7>＊「1<xE5>Dの　<xE5>D<xE5>ゥの<xE5><xEC>を<F1>　　あいしてしまったのです.<FA><F7><F1>＊「そして　エルフの<xE5>デ[・・・]<F1><FA><F7>＊「ゆめみるルビ-を　<xE5>・って　<xE5><xEC>の<F1>　　<xE5>づへ　いったまま　かえりません.<FA><F7><F1>＊「しょせん　エルフと　<xE5>D<xE5>ゥ.<F1><FA><F7>＊「アンは　だまされたのに<F1>　　<xE5>-まっています.<FA><F7><F1>＊「<xE5>で<xE5>ぁ　ゆめみるルビ-も<F1>　　その<xE5><xEC>に　うばわれ[・・・]<FA><F7><F1>＊「このさとへも　かえれずに<F1>　　つらい<xE5>どいを　したのでしょう.<FA><F7><F1>＊「ああ　<xE5>D<xE5>ゥなど　<xE5>ぐたくも<F1>　　ありません.　<xE5>ソちさりなさい.<F7>
+05_0C,<EB>＊「ああ　<xE5>D<xE5>ゥなど　<xE5>ぐたくも<F1>　　ありません.　<xE5>ソちさりなさい.<FA><F7><F1>＊「おまちなさい.<F1><FA><F7>
+05_0D,<EB>＊「その<xE5>こに　<xE5>・っているのは<F1>　　ゆめみるルビ-では[・・・][・・・]?<FA><F7>
+05_0E,<EB>＊「なんと!<F1><FA><F7>＊「アンと　<xE5><xEC>は　ちていのみずうみに<F1>　　みを<xE5>プげたと　いうのですか!?<FA><F7><F1>＊「おお!　わたしが　2<xE5>Dを<F1>　　ゆるさなかったばっかりに[・・・][・・・].<FA><F7><F1>＊「[・・・][・・・][・・・][・・・][・・・][・・・][・・・][・・・].<F1>　　<xE5>ぁかりました.<FA><F7><F1>＊「さあ　この<xE5>かざめのこなを　<xE5>・って<F1>　　<xE5>ぅに　おもどりなさい.<FA><F7><F1>＊「そして　<xE5>さいをときなさい.<F1><FA><F7>＊「アンもきっと　それを<F1>　　ねがっていることでしょう[・・・][・・・].<FA><F7><F1>＊「おお　アン!<F1>　　ママを　ゆるしておくれ[・・・][・・・].<F7>
+05_0F,<EB>＊「あなたがたには　お<xE5>にを<F1>　　いわねばなりませんね.　けれど[・・・]<FA><F7><F1>＊「わたしは　<xE5>D<xE5>ゥを　<xE5>カきに<F1>　　なったわけでは　ありません.<FA><F7><F1>＊「さあ　おゆきなさい.<F1><F7>
+05_10,＊「なんということじゃ!<F1>　　<xE5><EB><xE5>1が　<xE5>ネんでいたなど[・・・][・・・].<FA><F7><F1>＊「わしのつまが　<xE5>かをさまして<F1>　　このはなしを　きいたら[・・・]<FA><F7><F1>＊「どれほど　かなしむことか[・・・]<F1><FA><F7>＊「ああ　うそだと<F1>　　いってくだされ!<F7>
+06_00,＊「<xE5>D<xE5>ゥの　おまえさんが<F1>　　この<xE5>ぅに　<xE5>やの<xE5>ヲだい?<FA><F7><F1>＊「うっかり　エルフと<F1>　　こいに　おちたりしたら[・・・]<FA><F7><F1>＊「とんだ　ふこうになるぞ.<F1><FA><F7>＊「さあ　おまえさんの　<xE5>シに<F1>　　おかえり.<F7>
+06_01,＊「よう　きょうだい!<F1><FA><F7>＊「エルフの<xE5>ぅは　いいなあ.<F1>　　ここにいると　おちつくよ.<F7>
+06_02,<EB>＊「あなたがたには　お<xE5>にを<F1>　　いわねばなりませんね.　けれど[・・・]<FA><F7><F1>＊「エルフのおきては　この<xE5>すが<F1>　　<xE5>つらねばなりません.<FA><F7><F1>＊「さあ　おゆきなさい.<F1><FA><F7>＊「ふたたび　あの　ひげきを<F1>　　くりかえすことのないよう[・・・][・・・].<F7>

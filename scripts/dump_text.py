@@ -26,8 +26,14 @@ class SpecialCharacter():
         self.do_print = do_print
         self.parser = parser if parser else { 0: lambda x: None, 1: utils.read_byte, 2: utils.read_short }[self.bts]
 
+rom_filename = "baserom_ja.gbc"
+rom_version = "ja"
+rom_bank_bank = 0x2
+rom_bank_addr = 0x4083
+rom_bank_count = 18
+
 table = utils.merge_dicts([
-            tilesets.get_tileset("en", override_offset=0x0),
+            tilesets.get_tileset(rom_version, override_offset=0x0),
         ])
 
 table[0xEA] = "<EA>"
@@ -47,12 +53,6 @@ table[0xFB] = "<FB>" # Unknown
 table[0xFC] = "<FC>" # Unknown
 table[0xFD] = "<FD>" # Unknown
 table[0xFE] = "<FE>" # Start of dialog? Does not appear every time
-
-rom_filename = "baserom_en.gbc"
-rom_version = "en"
-rom_bank_bank = 0x2
-rom_bank_addr = 0x4083
-rom_bank_count = 25
 
 with open(rom_filename, "rb") as rom:
     rom.seek(utils.rom2realaddr((rom_bank_bank, rom_bank_addr)))

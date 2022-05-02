@@ -41,6 +41,6 @@ dpalette: MACRO
 padend: MACRO
   .end\@
     REPT \1 - .end\@
-      nop
+      db $FF
     ENDR
   ENDM
