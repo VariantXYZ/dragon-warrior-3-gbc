@@ -1,6 +1,5 @@
 #!/bin/python
 import csv
-import copy
 import os
 import sys
 from collections import OrderedDict

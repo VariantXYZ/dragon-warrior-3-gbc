@@ -28,11 +28,10 @@ INT_TYPE := o
 
 RAW_TSET_SRC_TYPE := png
 TSET_SRC_TYPE := 2bpp
-TMAP_TYPE := map
+MAP_TYPE := map
 TEXT_TYPE := txt
 CSV_TYPE = csv
 BIN_TYPE := bin
-TABLE_TYPE := tbl
 
 # Directories
 ## It's important these remain relative
@@ -51,11 +50,13 @@ TEXT_SRC := $(SRC)/text
 COMMON := $(SRC)/common
 VERSION_SRC := $(SRC)/version
 
-# Text Directories
+# Text/Gfx Directories
 DIALOG_TEXT := $(TEXT)/dialog
+MAPS_GFX := $(GFX_SRC)/maps
 
 # Build Directories
 VERSION_OUT := $(BUILD)/version
+GFX_OUT := $(BUILD)/gfx
 
 DIALOG_INT := $(BUILD)/intermediate/dialog
 DIALOG_OUT := $(BUILD)/dialog
@@ -63,12 +64,16 @@ DIALOG_OUT := $(BUILD)/dialog
 # Source Modules (directories in SRC), version directories are implied
 MODULES := \
 core\
-text
+text\
+gfx\
+gfx/maps
 
 # Helper
 TOUPPER = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
 FILTER = $(strip $(foreach v,$(2),$(if $(findstring $(1),$(v)),$(v),)))
 FILTER_OUT = $(strip $(foreach v,$(2),$(if $(findstring $(1),$(v)),,$(v))))
+# Necessary for patsubst expansion
+pc := %
 
 # Inputs
 ORIGINALS := $(foreach VERSION,$(VERSIONS),$(BASE)/$(ORIGINAL_PREFIX)$(VERSION).$(ROM_TYPE))
@@ -76,7 +81,7 @@ ORIGINALS := $(foreach VERSION,$(VERSIONS),$(BASE)/$(ORIGINAL_PREFIX)$(VERSION).
 # Outputs (used by clean)
 TARGETS := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(ROM_TYPE))
 SYM_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(SYM_TYPE))
-MAP_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(MAP_TYPE))
+MAP_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(MAP_TYPE)) # Not to be confused with tile/attribute maps
 
 # Sources
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC)/$(MODULE)/*.$(SOURCE_TYPE)))))))
@@ -116,7 +121,7 @@ $(BASE)/$(OUTPUT_PREFIX)%.$(ROM_TYPE): $(OBJECTS) $$(addprefix $(VERSION_OUT)/$$
 # Build objects
 .SECONDEXPANSION:
 .SECONDARY: # Don't delete intermediate files
-$(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(subst ., ,$$*)).$(SOURCE_TYPE) $(COMMON_SRC) $$(wildcard $(SRC)/$$(firstword $$(subst ., ,$$*))/include/*.$(SOURCE_TYPE)) $$($$(firstword $$(subst ., ,$$*))_ADDITIONAL) $$($$(firstword $$(subst ., ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL) $$(subst PLACEHOLDER_VERSION,$$(lastword $$(subst /, ,$$(firstword $$(subst ., ,$$*)))),$$($$(firstword $$(subst /, ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL)) | $(BUILD) $(VERSION_OUT)
+$(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(subst ., ,$$*)).$(SOURCE_TYPE) $(COMMON_SRC) $$(wildcard $(SRC)/$$(firstword $$(subst ., ,$$*))/include/*.$(SOURCE_TYPE)) $$($$(firstword $$(subst ., ,$$*))_ADDITIONAL) $$($$(firstword $$(subst ., ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL) $$(subst PLACEHOLDER_VERSION,$$(lastword $$(subst /, ,$$(firstword $$(subst ., ,$$*)))),$$($$(firstword $$(subst /, ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL)) | $$(patsubst $$(pc)/,$$(pc),$$(dir $$@)) $(VERSION_OUT)
 	$(CC) $(CC_ARGS) -DGAMEVERSION=$(CURVERSION) -o $@ $<
 
 # build/intermediate/dialog/*.bin from dialog csv files
@@ -129,12 +134,16 @@ $(DIALOG_OUT)/text_constants.asm: $(DIALOG_INT_FILES) | $(DIALOG_OUT)
 
 ### Dump Scripts
 
-.PHONY: dump dump_text
-dump: dump_text
+.PHONY: dump dump_text dump_maps
+dump: dump_text dump_maps
 
 dump_text: | $(SCRIPT_RES) $(DIALOG_TEXT)
 	rm $(DIALOG_TEXT)/*.$(CSV_TYPE) || echo ""
 	$(PYTHON) $(SCRIPT)/dump_text.py "$(SCRIPT_RES)" "$(TEXT_SRC)" "$(DIALOG_TEXT)" "$(DIALOG_OUT)"
+
+dump_maps: | $(SCRIPT_RES) $(MAPS_GFX)
+	rm $(MAPS_GFX)/*.$(SOURCE_TYPE) || echo ""
+	$(PYTHON) $(SCRIPT)/dump_maps.py "$(SCRIPT_RES)" "$(GFX_SRC)" "$(MAPS_GFX)"
 
 #Make directories if necessary
 $(BUILD):
@@ -154,3 +163,9 @@ $(DIALOG_INT):
 
 $(DIALOG_OUT):
 	mkdir -p $(DIALOG_OUT)
+
+$(MAPS_GFX):
+	mkdir -p $(MAPS_GFX)
+
+$(GFX_OUT):
+	mkdir -p $(GFX_OUT)
