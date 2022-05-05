@@ -22,5 +22,5 @@ OAMDMA_FromC0:: ; 8e
   jr nz, .wait
   ret
 BankSwapAndJump::
-	ld [$2100], a
-	jp hl
+  ld [$2100], a
+  jp hl

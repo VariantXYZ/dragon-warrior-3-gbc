@@ -1,6 +1,6 @@
 INCLUDE "game/src/common/constants.asm"
 
-SECTION "Text Variables", WRAM0[$C202]
+SECTION UNION "Text Variables", WRAM0[$C202]
 W_TextBankIndex: ds 1
 W_TextGroupIndex: ds 1
 W_TextIndex: ds 1
