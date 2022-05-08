@@ -90,7 +90,7 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   ld e, $b3
   call $419a
   call $4244
-  ld de, $40eb
+  ld de, .data
 .asm_4089
   ld a, $65
   ld [hli], a
@@ -147,8 +147,9 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   ld [hli], a
   ld [hl], $d0
   ret
-
-  padend $40eb
+.data
+  db $FC, $FD ; Top tile, bottom tile for first 'line'
+  db $20, $21 ; Top tile, bottom tile for second 'line'
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::
