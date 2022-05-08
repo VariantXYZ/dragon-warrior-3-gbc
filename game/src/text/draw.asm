@@ -130,9 +130,10 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   call CopyHLtoDE
   ld a, c
   ld [$ff70], a
-  ld hl, .data1
+  ; Load offsets for the top and bottom of the text box
+  ld hl, .attribmap_data
   call $1716
-  ld hl, .data2
+  ld hl, .tilemap_data
   call $1716
   ld a, $08
   ld [W_TextConfiguration], a
@@ -150,13 +151,13 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
 .initial_tiles
   db $FC, $FD ; Top tile, bottom tile for first 'line'
   db $20, $21 ; Top tile, bottom tile for second 'line'
-.data1
-  db $D0, $00
-  db $9E, $40
+.attribmap_data
+  db $D0, $00 ; Source address
+  db $9E, $40 ; Destination VRAM (attributes)
   db $07, $01, $0F, $00
-.data2
-  db $D1, $00
-  db $9E, $40
+.tilemap_data
+  db $D1, $00 ; Source address
+  db $9E, $40 ; Destination VRAM (tiles)
   db $07, $00, $0F, $00
 
 
