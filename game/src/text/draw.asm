@@ -82,7 +82,73 @@ Func_405e::
   pop bc
   ret
 
-  padend $4077
+DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
+  ld a, [$ff70]
+  ld c, a
+  ld a, $07
+  ld [$ff70], a
+  ld e, $b3
+  call $419a
+  call $4244
+  ld de, $40eb
+.asm_4089
+  ld a, $65
+  ld [hli], a
+  ld a, [de]
+  inc de
+  ld b, $12
+.asm_4090
+  ld [hli], a
+  inc a
+  inc a
+  dec b
+  jr nz, .asm_4090
+  ld [hl], $65
+  inc hl
+  cp $45
+  jr z, .asm_40a6
+  ld a, $7e
+  ld b, $0c
+  call $07ff
+  jr .asm_4089
+.asm_40a6
+  ld a, $7e
+  ld b, $0c
+  call $07ff
+  ld a, $65
+  ld [hli], a
+  ld a, $7e
+  ld b, $12
+  call $07ff
+  ld a, $65
+  ld [hli], a
+  ld e, l
+  ld d, h
+  ld hl, $ffe0
+  add hl, de
+  ld b, $20
+  call CopyHLtoDE
+  ld a, c
+  ld [$ff70], a
+  ld hl, $40ef
+  call $1716
+  ld hl, $40f7
+  call $1716
+  ld a, $08
+  ld [W_TextConfiguration], a
+  ld hl, $c20c
+  ld a, $01
+  ld [hli], a
+  ld a, $00
+  ld [hli], a
+  ld a, $60 ; Load tileset here
+  ld [hli], a
+  ld a, $00
+  ld [hli], a
+  ld [hl], $d0
+  ret
+
+  padend $40eb
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 TileDrawingHelper::
