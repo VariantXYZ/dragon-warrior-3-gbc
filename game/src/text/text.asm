@@ -1,16 +1,8 @@
 INCLUDE "game/src/common/constants.asm"
-
-SECTION UNION "Text Variables", WRAM0[$C202]
-W_TextBankIndex: ds 1
-W_TextGroupIndex: ds 1
-W_TextIndex: ds 1
-W_Unk1: ds 1
-W_TextBank: ds 1
-W_CurrentTextLo: ds 1
-W_CurrentTextHi: ds 1
+INCLUDE "game/src/common/macros.asm"
 
 SECTION "Prepare data to load text", ROMX[$403d], BANK[$02]
-SetupWriteText:: ; 803d (2:403d)
+SetupWriteText::
   ld hl, W_TextBankIndex
   ld a, [hli]
   ld e, a
@@ -57,4 +49,7 @@ SetupWriteText2::
   inc bc
   ld hl, $4001 ; Every text bank has a text loading routine at $4001
   jp BankSwapAndJump
+
+  padend $4083
+
   ; TextBanks (text_data.asm)
