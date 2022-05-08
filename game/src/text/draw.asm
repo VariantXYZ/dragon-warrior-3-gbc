@@ -151,7 +151,7 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   padend $40eb
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
-TileDrawingHelper::
+ClearTiles::
 .loop
   ld a, $ff ; Writes ff 'bc' every other character
   ld [hli], a
