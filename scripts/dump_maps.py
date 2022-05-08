@@ -24,7 +24,6 @@ meta_filetable = {}
 meta_fp = None
 if os.path.exists(meta_filename):
     meta_filetable = utils.read_table(meta_filename, keystring=True)
-    print(meta_filename)
 else:
     meta_fp = open(meta_filename, 'w')
 

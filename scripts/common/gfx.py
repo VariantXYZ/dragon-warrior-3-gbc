@@ -338,3 +338,16 @@ def convert_2bpp_to_png(image, **kwargs):
         px_map    = [[pixel for pixel in line] for line in lines]
 
     return width, height, palette, greyscale, bitdepth, px_map
+
+def dump_2bpp_to_png(filename, data):
+    with open(filename, "wb") as uncompressed:
+        width, height, palette, greyscale, bitdepth, px_map = convert_2bpp_to_png(data)
+        w = png.Writer(
+            width,
+            height,
+            palette=palette,
+            compression=9,
+            greyscale=greyscale,
+            bitdepth=bitdepth
+        )
+        w.write(uncompressed, px_map)

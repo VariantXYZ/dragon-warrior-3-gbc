@@ -160,8 +160,6 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   db $9E, $40 ; Destination VRAM (tiles)
   db $07, $00, $0F, $00
 
-
-
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::
 .loop
@@ -177,7 +175,6 @@ ClearTiles::
   ld a, e
   ld [$ff70], a
   ret
-
 
 SECTION "Dialog special drawing function", ROMX[$4001], BANK[$02]
 ; Sets up for drawing special text that starts with an '*'
