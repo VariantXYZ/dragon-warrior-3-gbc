@@ -60,7 +60,7 @@ CopyCharacterFromStandardTileset::
   add hl, hl
   add hl, hl
   add hl, hl
-  ld bc, $5000 ; 1:5000 is the base character tileset
+  ld bc, TilesetNormalCharacters
   add hl, bc
   ld b, $10
   call CopyHLtoDE
@@ -88,38 +88,38 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   ld a, $07
   ld [$ff70], a
   ld e, $b3
-  call $419a
-  call $4244
+  call TextBoxSetupAttributes
+  call TextBoxSetupTilemap
   ld de, .initial_tiles
-.asm_4089
+.double_row_loop
   ld a, $65
   ld [hli], a
   ld a, [de]
   inc de
   ld b, $12
-.asm_4090
+.setup_row_tiles
   ld [hli], a
-  inc a
+  inc a ; Double-height characters, so each row is every 2 tiles
   inc a
   dec b
-  jr nz, .asm_4090
+  jr nz, .setup_row_tiles
   ld [hl], $65
   inc hl
   cp $45
-  jr z, .asm_40a6
+  jr z, .finished_double_row
   ld a, $7e
   ld b, $0c
-  call $07ff
-  jr .asm_4089
-.asm_40a6
+  call WriteAtoHLMultiple
+  jr .double_row_loop
+.finished_double_row
   ld a, $7e
   ld b, $0c
-  call $07ff
+  call WriteAtoHLMultiple
   ld a, $65
   ld [hli], a
   ld a, $7e
   ld b, $12
-  call $07ff
+  call WriteAtoHLMultiple
   ld a, $65
   ld [hli], a
   ld e, l
@@ -132,9 +132,9 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   ld [$ff70], a
   ; Load offsets for the top and bottom of the text box
   ld hl, .attribmap_data
-  call $1716
+  call CopyDEtoHLAndOffset
   ld hl, .tilemap_data
-  call $1716
+  call CopyDEtoHLAndOffset
   ld a, $08
   ld [W_TextConfiguration], a
   ld hl, $c20c
@@ -142,9 +142,9 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   ld [hli], a
   ld a, $00
   ld [hli], a
-  ld a, $60 ; Load tileset here
+  ld a, HIGH(TilesetDoubleHeightCharacters) ; Load tileset here
   ld [hli], a
-  ld a, $00
+  ld a, LOW(TilesetDoubleHeightCharacters)
   ld [hli], a
   ld [hl], $d0
   ret
@@ -159,6 +159,75 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   db $D1, $00 ; Source address
   db $9E, $40 ; Destination VRAM (tiles)
   db $07, $00, $0F, $00
+
+SECTION "Text box setup functions 1", ROMX[$419a], BANK[$01]
+TextBoxSetupAttributes::
+  ld hl, $d000
+  ld a, $88
+  ld [hli], a
+  ld a, $88
+  ld b, $12
+  call WriteAtoHLMultiple
+  ld a, $a8
+  ld [hli], a
+  xor a
+  ld b, $0c
+  call WriteAtoHLMultiple
+  ld a, $c8
+  ld [hli], a
+  ld a, $c8
+  ld b, $12
+  call WriteAtoHLMultiple
+  ld a, $e8
+  ld [hli], a
+  xor a
+  ld b, $0c
+  call WriteAtoHLMultiple
+  ld a, $88
+  ld b, e
+  call WriteAtoHLMultiple
+  ld a, $88
+  ld [$d040], a
+  ld [$d060], a
+  ld [$d080], a
+  ld [$d0a0], a
+  ld [$d0e0], a
+  ld a, $a8
+  ld [$d053], a
+  ld [$d073], a
+  ld [$d093], a
+  ld [$d0b3], a
+  ld [$d0d3], a
+  ld [$d0f3], a
+  ret
+
+  padend $41ef
+
+SECTION "Text box setup functions 2", ROMX[$4244], BANK[$01]
+TextBoxSetupTilemap::
+  ld hl, $d100
+  ld a, $64
+  ld [hli], a
+  ld b, $12
+  ld a, $66
+  call WriteAtoHLMultiple
+  ld a, $64
+  ld [hli], a
+  ld a, $7e
+  ld b, $0c
+  call WriteAtoHLMultiple
+  ld a, $64
+  ld [hli], a
+  ld a, $66
+  ld b, $12
+  call WriteAtoHLMultiple
+  ld a, $64
+  ld [hli], a
+  ld a, $7e
+  ld b, $0c
+  jp WriteAtoHLMultiple
+
+  padend $426f
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::
