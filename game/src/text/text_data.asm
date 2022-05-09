@@ -49,6 +49,7 @@ TextBank00::
 
 SECTION "Text_00", ROMX[$4FE5], BANK[$60]
   INCBIN cText_00
+SECTION "Text_00 End", ROMX[$7467], BANK[$60]
 
 SECTION "Text Bank 01", ROMX[$4039], BANK[$61]
 TextBank01::
@@ -61,6 +62,7 @@ TextBank01::
 
 SECTION "Text_01", ROMX[$4045], BANK[$61]
   INCBIN cText_01
+SECTION "Text_01 End", ROMX[$7AED], BANK[$61]
 
 SECTION "Text Bank 02", ROMX[$4039], BANK[$62]
 TextBank02::
@@ -88,6 +90,7 @@ TextBank02::
 
 SECTION "Text_02", ROMX[$4063], BANK[$62]
   INCBIN cText_02
+SECTION "Text_02 End", ROMX[$7D3B], BANK[$62]
 
 SECTION "Text Bank 03", ROMX[$4039], BANK[$63]
 TextBank03::
@@ -117,6 +120,7 @@ TextBank03::
 
 SECTION "Text_03", ROMX[$4067], BANK[$63]
   INCBIN cText_03
+SECTION "Text_03 End", ROMX[$7CE7], BANK[$63]
 
 SECTION "Text Bank 04", ROMX[$4039], BANK[$64]
 TextBank04::
@@ -127,6 +131,7 @@ TextBank04::
 
 SECTION "Text_04", ROMX[$4041], BANK[$64]
   INCBIN cText_04
+SECTION "Text_04 End", ROMX[$7B4D], BANK[$64]
 
 SECTION "Text Bank 05", ROMX[$4039], BANK[$65]
 TextBank05::
@@ -143,6 +148,7 @@ TextBank05::
 
 SECTION "Text_05", ROMX[$404D], BANK[$65]
   INCBIN cText_05
+SECTION "Text_05 End", ROMX[$7F80], BANK[$65]
 
 SECTION "Text Bank 06", ROMX[$4039], BANK[$66]
 TextBank06::
@@ -154,6 +160,7 @@ TextBank06::
 
 SECTION "Text_06", ROMX[$4043], BANK[$66]
   INCBIN cText_06
+SECTION "Text_06 End", ROMX[$774B], BANK[$66]
 
 SECTION "Text Bank 07", ROMX[$4039], BANK[$67]
 TextBank07::
@@ -171,6 +178,7 @@ TextBank07::
 
 SECTION "Text_07", ROMX[$404F], BANK[$67]
   INCBIN cText_07
+SECTION "Text_07 End", ROMX[$7B98], BANK[$67]
 
 SECTION "Text Bank 08", ROMX[$4039], BANK[$68]
 TextBank08::
@@ -183,6 +191,7 @@ TextBank08::
 
 SECTION "Text_08", ROMX[$4045], BANK[$68]
   INCBIN cText_08
+SECTION "Text_08 End", ROMX[$7C8D], BANK[$68]
 
 SECTION "Text Bank 09", ROMX[$4039], BANK[$69]
 TextBank09::
@@ -202,6 +211,7 @@ TextBank09::
 
 SECTION "Text_09", ROMX[$4053], BANK[$69]
   INCBIN cText_09
+SECTION "Text_09 End", ROMX[$754F], BANK[$69]
 
 SECTION "Text Bank 0A", ROMX[$4039], BANK[$6A]
 TextBank0A::
@@ -221,6 +231,7 @@ TextBank0A::
 
 SECTION "Text_0A", ROMX[$4053], BANK[$6A]
   INCBIN cText_0A
+SECTION "Text_0A End", ROMX[$7C4A], BANK[$6A]
 
 SECTION "Text Bank 0B", ROMX[$4039], BANK[$6B]
 TextBank0B::
@@ -231,6 +242,7 @@ TextBank0B::
 
 SECTION "Text_0B", ROMX[$4041], BANK[$6B]
   INCBIN cText_0B
+SECTION "Text_0B End", ROMX[$7F0E], BANK[$6B]
 
 SECTION "Text Bank 0C", ROMX[$4039], BANK[$6C]
 TextBank0C::
@@ -239,6 +251,7 @@ TextBank0C::
 
 SECTION "Text_0C", ROMX[$403D], BANK[$6C]
   INCBIN cText_0C
+SECTION "Text_0C End", ROMX[$7CF5], BANK[$6C]
 
 SECTION "Text Bank 0D", ROMX[$4039], BANK[$6D]
 TextBank0D::
@@ -248,6 +261,7 @@ TextBank0D::
 
 SECTION "Text_0D", ROMX[$403F], BANK[$6D]
   INCBIN cText_0D
+SECTION "Text_0D End", ROMX[$76F6], BANK[$6D]
 
 SECTION "Text Bank 0E", ROMX[$4039], BANK[$6E]
 TextBank0E::
@@ -269,6 +283,7 @@ TextBank0E::
 
 SECTION "Text_0E", ROMX[$4057], BANK[$6E]
   INCBIN cText_0E
+SECTION "Text_0E End", ROMX[$7A5F], BANK[$6E]
 
 SECTION "Text Bank 0F", ROMX[$4039], BANK[$6F]
 TextBank0F::
@@ -279,6 +294,7 @@ TextBank0F::
 
 SECTION "Text_0F", ROMX[$4041], BANK[$6F]
   INCBIN cText_0F
+SECTION "Text_0F End", ROMX[$79C4], BANK[$6F]
 
 SECTION "Text Bank 10", ROMX[$4039], BANK[$78]
 TextBank10::
@@ -288,6 +304,7 @@ TextBank10::
 
 SECTION "Text_10", ROMX[$403F], BANK[$78]
   INCBIN cText_10
+SECTION "Text_10 End", ROMX[$7880], BANK[$78]
 
 SECTION "Text Bank 11", ROMX[$4039], BANK[$79]
 TextBank11::
@@ -306,6 +323,7 @@ TextBank11::
 
 SECTION "Text_11", ROMX[$4051], BANK[$79]
   INCBIN cText_11
+SECTION "Text_11 End", ROMX[$7BA7], BANK[$79]
 
 SECTION "Text Bank 12", ROMX[$4039], BANK[$2A]
 TextBank12::
@@ -316,6 +334,7 @@ TextBank12::
 
 SECTION "Text_12", ROMX[$4041], BANK[$2A]
   INCBIN cText_12
+SECTION "Text_12 End", ROMX[$544C], BANK[$2A]
 
 SECTION "Text Bank 13", ROMX[$4039], BANK[$1D]
 TextBank13::
@@ -323,6 +342,7 @@ TextBank13::
 
 SECTION "Text_13", ROMX[$403B], BANK[$1D]
   INCBIN cText_13
+SECTION "Text_13 End", ROMX[$55A2], BANK[$1D]
 
 SECTION "Text Bank 14", ROMX[$4039], BANK[$1F]
 TextBank14::
@@ -330,6 +350,7 @@ TextBank14::
 
 SECTION "Text_14", ROMX[$403B], BANK[$1F]
   INCBIN cText_14
+SECTION "Text_14 End", ROMX[$51A9], BANK[$1F]
 
 SECTION "Text Bank 15", ROMX[$4039], BANK[$2F]
 TextBank15::
@@ -340,6 +361,7 @@ TextBank15::
 
 SECTION "Text_15", ROMX[$4041], BANK[$2F]
   INCBIN cText_15
+SECTION "Text_15 End", ROMX[$56CB], BANK[$2F]
 
 SECTION "Text Bank 16", ROMX[$4039], BANK[$2E]
 TextBank16::
@@ -351,6 +373,7 @@ TextBank16::
 
 SECTION "Text_16", ROMX[$4043], BANK[$2E]
   INCBIN cText_16
+SECTION "Text_16 End", ROMX[$5B35], BANK[$2E]
 
 SECTION "Text Bank 17", ROMX[$4039], BANK[$04]
 TextBank17::
@@ -361,6 +384,7 @@ TextBank17::
 
 SECTION "Text_17", ROMX[$4041], BANK[$04]
   INCBIN cText_17
+SECTION "Text_17 End", ROMX[$5AD5], BANK[$04]
 
 SECTION "Text Bank 18", ROMX[$4039], BANK[$29]
 TextBank18::
@@ -376,4 +400,5 @@ TextBank18::
 
 SECTION "Text_18", ROMX[$404B], BANK[$29]
   INCBIN cText_18
+SECTION "Text_18 End", ROMX[$6626], BANK[$29]
 

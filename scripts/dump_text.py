@@ -106,7 +106,6 @@ with open(rom_filename, "rb") as rom:
                 # Group all the text together, the first pointer is where the pointers start, and the text follows immediately afterwards
                 source_fp.write(f'SECTION "Text_{bankidx:02X}", ROMX[${ordertable_ptrs[0]:04X}], BANK[${bank:02X}]\n')
                 source_fp.write(f'  INCBIN cText_{bankidx:02X}\n')
-                source_fp.write('\n')
 
                 # Get the first text pointer to indicate the 'end' of the pointer list
                 table_addr = ordertable_ptrs[0]
@@ -192,3 +191,5 @@ with open(rom_filename, "rb") as rom:
                                         # If we pass into the 'next' string, it's no terminator
                                         text.append(f'<~>') 
                                     writer.writerow([identity, "".join(text)])
+                source_fp.write(f'SECTION "Text_{bankidx:02X} End", ROMX[${utils.real2romaddr(rom.tell())[1]:04X}], BANK[${bank:02X}]\n')
+                source_fp.write('\n')
