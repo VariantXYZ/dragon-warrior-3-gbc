@@ -227,7 +227,27 @@ TextBoxSetupTilemap::
   ld b, $0c
   jp WriteAtoHLMultiple
 
-  padend $426f
+; Text box is drawn using stat interrupts to allow for smooth text scrolling
+; Set FFBC to 'jp IntStatDialogBoxScroll' (LCD Interrupt)
+TextBoxSetupInterrupt::
+  ld hl, $ff41 ; STAT
+  res 6, [hl] ; Disable LY interrupt
+  ld [$c217], a
+  or a
+  jr z, .is_zero
+  dec a
+.is_zero
+  ld [$ff45], a ; Configure LYC
+  ld a, LOW(IntStatDialogBoxScrollPart1)
+  ld [$ffbd], a
+  ld a, HIGH(IntStatDialogBoxScrollPart1)
+  ld [$ffbe], a
+  ld a, $c3 ; 'c3' is jp
+  ld [$ffbc], a
+  set 6, [hl] ; Enable LY interrupt
+  ret
+
+  padend $428c
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::
