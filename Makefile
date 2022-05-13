@@ -127,7 +127,6 @@ $(VERSIONS): %: $(OUTPUT_PREFIX)%.$(ROM_TYPE)
 $(BASE)/$(OUTPUT_PREFIX)%.$(ROM_TYPE): $(OBJECTS) $$(addprefix $(VERSION_OUT)/$$*., $$(addsuffix .$(INT_TYPE), $$(notdir $$(basename $$(wildcard $(SRC)/version/$$*/*.$(SOURCE_TYPE)))))) | $(BASE)/$(ORIGINAL_PREFIX)%.$(ROM_TYPE)
 	$(LD) $(LD_ARGS) -n $(OUTPUT_PREFIX)$*.$(SYM_TYPE) -m $(OUTPUT_PREFIX)$*.$(MAP_TYPE) -O $| -o $@ $^
 	$(FIX) $(FIX_ARGS) -v -C -k B4 -l 0x33 -m 0x1B -p 0 -r 3 $@ -i "$(CURID)" -t "$(CURNAME)"
-	cmp -l $| $@
 
 # Build objects
 .SECONDEXPANSION:
