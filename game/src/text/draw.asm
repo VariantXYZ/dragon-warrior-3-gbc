@@ -36,11 +36,7 @@ DrawCharacter::
   add hl, hl
   add hl, hl
   ld a, [W_TextConfiguration]
-  bit 3, a
   ld a, $10
-  jr z, .asm_4041
-  ld a, $20
-  add hl, hl
 .asm_4041
   add hl, bc
   ld b, a
@@ -99,19 +95,23 @@ DrawTextBoxAndSetupTilesetLoad::
   ld b, $12
 .setup_row_tiles
   ld [hli], a
-  inc a ; Double-height characters, so each row is every 2 tiles
   inc a
   dec b
   jr nz, .setup_row_tiles
   ld [hl], $65
   inc hl
-  cp $45
+  cp $32
   jr z, .finished_double_row
   ld a, $7e
   ld b, $0c
   call WriteAtoHLMultiple
   jr .double_row_loop
 .finished_double_row
+  
+  ; Write the blanks for two more rows so we don't glitch when scrolling
+  push de
+  ld e, $02
+.loop_blank
   ld a, $7e
   ld b, $0c
   call WriteAtoHLMultiple
@@ -122,12 +122,10 @@ DrawTextBoxAndSetupTilesetLoad::
   call WriteAtoHLMultiple
   ld a, $65
   ld [hli], a
-  ld e, l
-  ld d, h
-  ld hl, $ffe0
-  add hl, de
-  ld b, $20
-  call CopyHLtoDE
+  dec e
+  jr nz, .loop_blank
+  pop de
+
   ld a, c
   ld [$ff70], a
   ; Load offsets for the top and bottom of the text box
@@ -138,19 +136,19 @@ DrawTextBoxAndSetupTilesetLoad::
   ld a, $08
   ld [W_TextConfiguration], a
   ld hl, W_TextTilesetBank
-  ld a, BANK(TilesetDoubleHeightCharacters)
+  ld a, BANK(TilesetNormalCharacters)
   ld [hli], a
-  ld a, $00
+  xor a
   ld [hli], a
-  ld a, HIGH(TilesetDoubleHeightCharacters) ; Load tileset here
+  ld a, HIGH(TilesetNormalCharacters) ; Load tileset here
   ld [hli], a
-  ld a, LOW(TilesetDoubleHeightCharacters)
+  ld a, LOW(TilesetNormalCharacters)
   ld [hli], a
   ld [hl], $d0
   ret
 .initial_tiles
-  db $FC, $FD ; Top tile, bottom tile for first 'line'
-  db $20, $21 ; Top tile, bottom tile for second 'line'
+  db $FC, $0E ; Top tile, bottom tile for first 'line'
+  db $20, $32 ; Top tile, bottom tile for second 'line'
 .attribmap_data
   db $D0, $00 ; Source address
   db $9E, $40 ; Destination VRAM (attributes)
