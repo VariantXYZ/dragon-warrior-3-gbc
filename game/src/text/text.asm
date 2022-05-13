@@ -53,3 +53,29 @@ SetupWriteText2::
   padend $4083
 
   ; TextBanks (text_data.asm)
+
+SECTION "Load Y/N text box", ROMX[$440f], BANK[$02]
+SetupYesNoTextBox::
+  ld a, $13
+  call $3d65
+  ld a, [$c217]
+  or a
+  ld hl, .table
+  jr z, .load_info
+  ld de, $3
+  add hl, de
+  cp $63
+  jr z, .load_info
+  add hl, de
+.load_info
+  ld a, l
+  ld [$ffc2], a
+  ld a, h
+  ld [$ffc3], a
+  call DrawMap
+  ret
+.table
+  ; Offset
+  dwb $00CE, $1D ; Under dialog box
+  dwb $00EE, $1D
+  dwb $010E, $1D
