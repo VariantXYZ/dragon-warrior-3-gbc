@@ -6,7 +6,7 @@ W_TextIndex:: ds 1
 ; Bit 0
 ; Bit 1
 ; Bit 2
-; Bit 3 - Two tiles per character?
+; Bit 3 - Is dialog text? (Also implies double-height characters)
 ; Bit 4
 ; Bit 5
 ; Bit 6
@@ -15,7 +15,8 @@ W_TextConfiguration:: ds 1
 W_TextBank:: ds 1
 W_TextCurrent:: ds 2
 
-SECTION UNION "Text Variables 3", WRAM0[$C20D]
+SECTION UNION "Text Variables 3", WRAM0[$C20C]
+W_TextTilesetBank:: ds 1
 W_TextTilesetSrc:: ds 2
 W_TextTilesetDst:: ds 2
 

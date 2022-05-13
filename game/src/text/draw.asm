@@ -137,8 +137,8 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   call CopyDEtoHLAndOffset
   ld a, $08
   ld [W_TextConfiguration], a
-  ld hl, $c20c
-  ld a, $01
+  ld hl, W_TextTilesetBank
+  ld a, BANK(TilesetDoubleHeightCharacters)
   ld [hli], a
   ld a, $00
   ld [hli], a
@@ -283,5 +283,5 @@ SetupAdditionalTileset::
   ld [hli], a
   ld [hl], d
   ld a, [$c211]
-  ld [$c20c], a
+  ld [W_TextTilesetBank], a
   ret
