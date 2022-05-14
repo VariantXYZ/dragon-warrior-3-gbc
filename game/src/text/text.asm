@@ -76,9 +76,11 @@ SetupYesNoTextBox::
   ret
 .table
   ; Offset
-  dwb $00CE, $1D ; Under dialog box
+  dwb $00CE, $1D ; Under dialog box (1D is Yes/No tilemap)
   dwb $00EE, $1D
   dwb $010E, $1D
+
+  padend $4439
 
 SECTION "Dialog Tileset Helper", ROMX[$416b], BANK[$02]
 ; Unsure if this is the correct moniker for this...
@@ -109,20 +111,51 @@ DialogSetupScrollingTiles::
   ld a, [W_TextTilesetDst]
   cp $40
   jp nz, .asm_81aa
-  ld a, [$c210]
+  ld a, [W_TextTilesetDst+1]
   cp $d2
   jp z, .asm_81b5
 .asm_81aa
   ld a, e
   ld [W_TextTilesetDst], a
   ld a, d
-  ld [$c210], a
+  ld [W_TextTilesetDst+1], a
   jp $2c88
 .asm_81b5
   ld a, e
   ld [W_TextTilesetDst], a
   ld a, d
-  ld [$c210], a
+  ld [W_TextTilesetDst+1], a
   jp $2c8f
 
   padend $41c0
+
+
+SECTION "Dialog Helper 2", ROMX[$44d5], BANK[$02]
+ ; Sets various parameters for text from a table
+TextSetupHelper::
+  ld a, [hl]
+  bit 3, a
+  ld hl, $0010
+  jr z, .asm_84e3
+  and $10
+  rrca
+  ld l, a
+  ld h, $00
+.asm_84e3
+  ld bc, .table
+  add hl, bc
+  call CopyDEtoHLAndOffset
+  ret
+.table
+  ; Working area and first row's tile index
+  db $D0, $00 
+  db $8F, $C0
+  db $07, $01, $23, $00
+  ; Working area and second row's tile index
+  db $D2, $40
+  db $92, $00
+  db $07, $01, $23, $00
+  ; Scrolling
+  db $D0, $00
+  db $92, $00
+  db $07, $01, $23, $00
