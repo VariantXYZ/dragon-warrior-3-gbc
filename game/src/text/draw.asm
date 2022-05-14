@@ -82,7 +82,7 @@ Func_405e::
   pop bc
   ret
 
-DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
+DrawTextBoxAndSetupTilesetLoad::
   ld a, [$ff70]
   ld c, a
   ld a, $07
@@ -159,6 +159,8 @@ DrawTextBoxAndSetupTilesetLoad:: ; 4077 (1:4077)
   db $D1, $00 ; Source address
   db $9E, $40 ; Destination VRAM (tiles)
   db $07, $00, $0F, $00
+
+  padend $40ff
 
 SECTION "Text box setup functions 1", ROMX[$419a], BANK[$01]
 TextBoxSetupAttributes::
