@@ -86,7 +86,7 @@ IntStatDialogBoxScrollPart2:: ; 428 (0:428)
   ld [$ffbe], a
   ld a, [W_TextConfiguration]
   and $08
-  add $10 ; Originally $18, this controls the scanline when we draw the bottom of the box
+  add $12 ; Originally $18, this controls the scanline when we draw the bottom of the box
   ld h, a
   ld a, [$ff45]
   add h
