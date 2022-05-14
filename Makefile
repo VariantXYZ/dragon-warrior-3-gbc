@@ -65,6 +65,10 @@ TILESET_OUT := $(GFX_OUT)/tilesets
 DIALOG_INT := $(BUILD)/intermediate/dialog
 DIALOG_OUT := $(BUILD)/dialog
 
+# Patch Directories
+PATCH_TILESET_GFX := $(TILESET_GFX)/patch
+PATCH_TILESET_OUT := $(TILESET_OUT)/patch
+
 # Source Modules (directories in SRC), version directories are implied
 MODULES := \
 patch\
@@ -103,6 +107,12 @@ OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD)/,$(OBJECT)))
 
 TILESET_FILES_2BPP := $(foreach FILE,$(TILESETS_2BPP),$(TILESET_OUT)/$(basename $(FILE)).$(2BPP_TYPE))
 TILESET_FILES_1BPP := $(foreach FILE,$(TILESETS_1BPP),$(TILESET_OUT)/$(basename $(FILE)).$(1BPP_TYPE))
+
+# Patch specific
+PATCH_TILESETS_2BPP = $(notdir $(basename $(wildcard $(PATCH_TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE))))
+PATCH_TILESETS_1BPP = $(notdir $(basename $(wildcard $(PATCH_TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE))))
+PATCH_TILESET_FILES_2BPP := $(foreach FILE,$(PATCH_TILESETS_2BPP),$(PATCH_TILESET_OUT)/$(basename $(FILE)).$(2BPP_TYPE))
+PATCH_TILESET_FILES_1BPP := $(foreach FILE,$(PATCH_TILESETS_1BPP),$(PATCH_TILESET_OUT)/$(basename $(FILE)).$(1BPP_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
@@ -149,6 +159,15 @@ $(TILESET_OUT)/%.$(2BPP_TYPE): $(TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE) | $(TILESET
 
 # build/tilesets/*.1bpp from source png
 $(TILESET_OUT)/%.$(1BPP_TYPE): $(TILESET_GFX)/%.$(RAW_1BPP_SRC_TYPE) | $(TILESET_OUT)
+	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
+
+## Patch Specific
+# build/tilesets/patch/*.2bpp from source png
+$(PATCH_TILESET_OUT)/%.$(2BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE) | $(PATCH_TILESET_OUT)
+	$(CCGFX) $(CCGFX_ARGS) -d 2 -o $@ $<
+
+# build/tilesets/patch/*.1bpp from source png
+$(PATCH_TILESET_OUT)/%.$(1BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_1BPP_SRC_TYPE) | $(PATCH_TILESET_OUT)
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
 ### Dump Scripts
@@ -199,3 +218,6 @@ $(TILESET_GFX):
 
 $(TILESET_OUT):
 	mkdir -p $(TILESET_OUT)
+
+$(PATCH_TILESET_OUT):
+	mkdir -p $(PATCH_TILESET_OUT)
