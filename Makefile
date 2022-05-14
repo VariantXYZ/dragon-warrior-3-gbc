@@ -127,6 +127,9 @@ PATCH_TILESET_FILES_1BPP := $(foreach FILE,$(PATCH_TILESETS_1BPP),$(PATCH_TILESE
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
 
+# Patch specific
+patch_vwf_ADDITIONAL := $(PATCH_TILESET_FILES_1BPP) $(PATCH_TILESET_FILES_2BPP)
+
 .PHONY: $(VERSIONS) all clean default test
 default: en
 all: $(VERSIONS)
