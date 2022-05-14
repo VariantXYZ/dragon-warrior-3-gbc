@@ -110,7 +110,7 @@ DrawTextBoxAndSetupTilesetLoad::
   
   ; Write the blanks for two more rows so we don't glitch when scrolling
   push de
-  ld e, $02
+  ld e, $03
 .loop_blank
   ld a, $7e
   ld b, $0c
