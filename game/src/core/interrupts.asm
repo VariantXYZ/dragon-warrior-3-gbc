@@ -25,11 +25,9 @@ IntSerial::
 
   padend $0060
 
-IntJoypad::
-  
-  padend $0080
+IntJoypad:: nop
 
-; core
+; Rst31Cont
 
 SECTION "stat interrupts", ROM0[$03f7]
 IntStatReturn:

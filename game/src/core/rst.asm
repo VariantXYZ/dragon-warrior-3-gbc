@@ -38,6 +38,33 @@ rst10::
 rst30::
   jp hl
 
+  padend $38
+
+rst38:: ; HackPredef
+  push af
+  ld a, [C_CurrentBank]
+  jr rst38Cont
+
   padend $40
 
   ; interrupts
+
+SECTION "rst38 cont", ROM0[$61]
+rst38Cont:
+  ld [W_PreservedBank], a ; Preserve old bank
+  ld a, LOW(BANK(HackPredef))
+  ld [$2100], a
+  ld a, HIGH(BANK(HackPredef))
+  ld [$3100], a
+  pop af
+  call HackPredef
+  ; Restore bank and return
+  xor a
+  ld [$3100], a
+  ld a, [W_PreservedBank]
+  ld [$2100], a
+  ret
+
+  padend $0080
+
+  ; core

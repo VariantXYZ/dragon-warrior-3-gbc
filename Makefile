@@ -67,6 +67,7 @@ DIALOG_OUT := $(BUILD)/dialog
 
 # Source Modules (directories in SRC), version directories are implied
 MODULES := \
+patch\
 core\
 text\
 gfx\
