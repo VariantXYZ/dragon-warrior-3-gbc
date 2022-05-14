@@ -76,6 +76,6 @@ SetupYesNoTextBox::
   ret
 .table
   ; Offset
-  dwb $00CE, $1D ; Under dialog box
+  dwb $00AE, $1D ; Under dialog box
   dwb $00EE, $1D
   dwb $010E, $1D
