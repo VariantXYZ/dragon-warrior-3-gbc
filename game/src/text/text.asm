@@ -79,3 +79,50 @@ SetupYesNoTextBox::
   dwb $00CE, $1D ; Under dialog box
   dwb $00EE, $1D
   dwb $010E, $1D
+
+SECTION "Dialog Tileset Helper", ROMX[$416b], BANK[$02]
+; Unsure if this is the correct moniker for this...
+; It gets called and sets the tile index to start drawing the next line
+DialogSetupScrollingTiles::
+  ld hl, W_TextConfiguration
+  bit 0, [hl]
+  jr z, .asm_817d
+  ld a, [$c22b]
+  or a
+  jr nz, .asm_817d
+  ld a, $01
+  ld [$c22b], a
+.asm_817d
+  ld a, $12
+  ld [$c213], a
+  ld hl, W_TextConfiguration
+  res 2, [hl]
+  set 1, [hl]
+  bit 3, [hl]
+  ld de, $d120
+  jr z, .asm_8193
+  ld de, $d240
+.asm_8193
+  bit 4, [hl]
+  set 4, [hl]
+  jp z, .asm_81b5
+  ld a, [W_TextTilesetDst]
+  cp $40
+  jp nz, .asm_81aa
+  ld a, [$c210]
+  cp $d2
+  jp z, .asm_81b5
+.asm_81aa
+  ld a, e
+  ld [W_TextTilesetDst], a
+  ld a, d
+  ld [$c210], a
+  jp $2c88
+.asm_81b5
+  ld a, e
+  ld [W_TextTilesetDst], a
+  ld a, d
+  ld [$c210], a
+  jp $2c8f
+
+  padend $41c0
