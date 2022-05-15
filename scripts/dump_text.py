@@ -43,7 +43,7 @@ table[0xF8] = "<F8>" # Unknown
 table[0xF9] = SpecialCharacter("&") # F9 XX loads string from [D480 + XX]
 table[0xFA] = "<FA>" # Show down arrow
 table[0xFB] = "<FB>" # Unknown
-table[0xFC] = "<FC>" # Unknown
+table[0xFC] = SpecialCharacter("*") # Unknown, but clearly takes a byte argument
 table[0xFD] = "<FD>" # Unknown
 table[0xFE] = "<FE>" # Start of dialog? Does not appear every time
 
