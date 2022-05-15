@@ -11,7 +11,7 @@
 00_09,[*:] Zzz… Zzz…<F7>
 00_0A,"[*:] Travelers, this<F1>is a great town!<FA><F7><F1>Especially at<F1>night! Wahahahah!<F7>"
 00_0B,"[*:] Sorry, the<F1>theater doesn['t]<FA><F7><F1>open till sunset.<F1><FA><F7>Don['t] interfere<F1>with the practice<FA><F7><F1>session, please.<F1><F7><F1>"
-00_0C,"[*:] Shake'em ladies!<F1>1,<FC>G 2,<FC>G 1,<FC>G 2…<F7>"
+00_0C,"[*:] Shake'em ladies!<F1>1,<*10> 2,<*10> 1,<*10> 2…<F7>"
 00_0D,"<EB>[*:] Come on, work!<F1>Don['t] whine!<F7>"
 00_0E,"<EB>[*:] Gasp, gasp…<F1>Sister, I can['t]…<F7>"
 00_0F,<EB>[*:] Lalalala!<F7>
@@ -53,7 +53,7 @@
 01_1F,<EB>[*:] Could I turn the<F1>lights off?<xFF>
 01_20,"<EB>[*:] OK, I['l]l turn<F1>out the lights…<F7>"
 01_21,<EB>[*:] Oh please don['t]<F1>be so mean.<FA><F7><F1>
-01_22,"<EB>[*:] Puff, puff.<FC>W <F1>Puff, puff.<FC>W <FA><F7><F1><xE3><&00>: Urrrrrghhh…<F1><FA><F7><EB>[*:] Puff, puff.<FC>W <F1>Puff, puff.<FC>W <FA><F7><F1><xE3><&00>: Th…<FC>G This…<F1><FA><F7><EB>[*:] Puff, puff.<FC>W <F1>Puff, puff.<FC>W <FA><F7><F1><xE3><&00>: It…<FC>G Feels…<F1>Ooooh… Awesome…<FA><F7><F1>[*:] What do you<F1>think, son?<FA><F7><F1>My powderpuff<F1>massage is great!<F7>"
+01_22,"<EB>[*:] Puff, puff.<*20> <F1>Puff, puff.<*20> <FA><F7><F1><xE3><&00>: Urrrrrghhh…<F1><FA><F7><EB>[*:] Puff, puff.<*20> <F1>Puff, puff.<*20> <FA><F7><F1><xE3><&00>: Th…<*10> This…<F1><FA><F7><EB>[*:] Puff, puff.<*20> <F1>Puff, puff.<*20> <FA><F7><F1><xE3><&00>: It…<*10> Feels…<F1>Ooooh… Awesome…<FA><F7><F1>[*:] What do you<F1>think, son?<FA><F7><F1>My powderpuff<F1>massage is great!<F7>"
 01_23,"<EB>[*:] My father is a<F1>powderpuff massage<FA><F7><F1>expert!<F1><FA><F7><xE3>[*:] Wahahah!<F1>Well, I['m] done!<F7>"
 01_24,<EB>[*:] See? He worked<F1>out your kinks.<FA><F7><F1>Please come again!<F1><F7>
 01_25,<&09>: How was it?<F1><FA><F7><FE><&00>: …………<F1><FA><F7><xE3><&09>: Oh…<F1>Let['s] go!<F7>

@@ -162,29 +162,29 @@ UNUSED00_02_11,<EB>[*:] <&40> is equipped<F1>with more than one<FA><F7><F1>curse
 04_3E,<FE><&40> couldn['t]<F1>forget…
 04_3F,<FE><&40> forgot those<F1>words!<F7>
 04_40,<FE><&40> memorized<F1>those words.<F7>
-05_00,"<xE1><EB>[*:] Pant, pant…<FC>['r]<F1>Is it true that<F1>Ortega had a baby?<FC><x80>"
-05_01,<xE1>[*:] That['s] right!<FC>['r]<F1>I hear the baby['s]<F1>really lively too.<FC><x80>
-05_02,"<xE1>[*:] Any child of<F1>Ortega, Aliahan['s]<FC><x80><F1>hero, is sure to<F1>become a great<FC><x80><F1>warrior.<F1><FC>['r]"
-05_03,<xE1><EB>[*:] That['s] true.<FC>m<F1>We should go see<F1>the baby!<FC><x80>
-05_04,"<xE1>King: Listen!<F1>Ortega, the hero<FC><x80><F1>of Aliahan, will<F1>finally depart for<FC><x80><F1>the evil lord['s]<F1>castle!<FC><x80><F1>The journey is<F1>sure to be hard.<FC><x80><F1>But Ortega is our-<F1>no - the world['s],<FC><x80><F1>only hope! I am<F1>confident he will<FC><x80><F1>wrest peace back<F1>from the wicked.<FC><x80><F1>Now, let us give a<F1>hero['s] send off to<FC><x80><F1>the great Ortega!<F1><FC>['r]"
-05_05,<xE1>Soldiers: Aye!<FC>['r]
-05_06,"<xE1>[*:] Good morning,<F1>madam.<FC><x80><F1>Your Ortega['s]<F1>leaving soon.<FC><x80>"
-05_07,<xE1>[*:] We['d] like him to<F1>have this.<FC><x80><F1>It['s] the least we<F1>can do.<FC><x80>
-05_08,<xE1><EB>[*:] Oh… This helmet?<FC><x80>
-05_09,<xE1><EB>[*:] Can['t] this wait<F1>until the baby is<FC><x80><F1>a little older?<F1><FC>['r]
-05_0A,"<xE1>Ortega: I['m] sorry,<F1>understand this.<FC>['r]<F1>There will not be<F1>peace without<FC><x80><F1>sacrifice.<FC>['r]<F1>Not only for the<F1>others…<FC><x80><F1>But for you and<F1>the baby too.<FC><x80>"
-05_0B,"<xE1><EB>[*:] I understand,<F1>dear. I['m] sorry.<FC><x80><F1>But please…<F1>Please be careful…<FC><x80>"
-05_0C,<xE1><EB>[*:] Grandpa! There['s]<F1>a man passed out!<FC><x80><F1>He has a weird<F1>helmet on!<FC><x80>
-05_0D,"<xE1>[*:] What? Quick, go<F1>get your father!<FC><x80>"
-05_0E,"<xE1>[*:] Yes, Grandpa.<F1><FC>['r]"
-05_0F,"<xE1>King: Hurry, what<F1>is the word?<FC><x80>"
-05_10,"<xE1>Soldier: Sorry,<F1>your Majesty.<FC><x80><F1>We failed to scale<F1>the volcano.<FC><x80><F1>Ortega['s] effects<F1>were not found.<FC><x80>"
-05_11,<xE1>King: So even<F1>Ortega was slain…<FC><x80><F1>What am I to tell<F1>his family…<FC><x80>
-05_12,<xE1>King: Your husband<F1>Ortega was…<FC><x80>
-05_13,"<xE1><EB>[*:] Thank you, your<F1>Majesty.<FC><x80><F1>I['v]e been prepared<F1>for this day.<FC><x80><F1>My husband fought<F1>with honor.<FC><x80><F1>I['m] sure it was<F1>what he wanted…<FC><x80>"
-05_14,<xE1>King: His loss is<F1>a grave blow.<FC><x80><F1>There is none who<F1>can challenge the<FC><x80><F1>evil lord. We are<F1>without hope…<FC><x80>
-05_15,<xE1><EB>[*:] No. There is<F1>still this child<FC><x80><F1>who carries<F1>Ortega['s] blood.<FC><x80>
-05_16,<xE1><EB>[*:] This child will<F1>carry on after<FC><x80><F1>Ortega!<F1><FC>['r]
+05_00,"<xE1><EB>[*:] Pant, pant…<*40><F1>Is it true that<F1>Ortega had a baby?<*80>"
+05_01,<xE1>[*:] That['s] right!<*40><F1>I hear the baby['s]<F1>really lively too.<*80>
+05_02,"<xE1>[*:] Any child of<F1>Ortega, Aliahan['s]<*80><F1>hero, is sure to<F1>become a great<*80><F1>warrior.<F1><*40>"
+05_03,<xE1><EB>[*:] That['s] true.<*30><F1>We should go see<F1>the baby!<*80>
+05_04,"<xE1>King: Listen!<F1>Ortega, the hero<*80><F1>of Aliahan, will<F1>finally depart for<*80><F1>the evil lord['s]<F1>castle!<*80><F1>The journey is<F1>sure to be hard.<*80><F1>But Ortega is our-<F1>no - the world['s],<*80><F1>only hope! I am<F1>confident he will<*80><F1>wrest peace back<F1>from the wicked.<*80><F1>Now, let us give a<F1>hero['s] send off to<*80><F1>the great Ortega!<F1><*40>"
+05_05,<xE1>Soldiers: Aye!<*40>
+05_06,"<xE1>[*:] Good morning,<F1>madam.<*80><F1>Your Ortega['s]<F1>leaving soon.<*80>"
+05_07,<xE1>[*:] We['d] like him to<F1>have this.<*80><F1>It['s] the least we<F1>can do.<*80>
+05_08,<xE1><EB>[*:] Oh… This helmet?<*80>
+05_09,<xE1><EB>[*:] Can['t] this wait<F1>until the baby is<*80><F1>a little older?<F1><*40>
+05_0A,"<xE1>Ortega: I['m] sorry,<F1>understand this.<*40><F1>There will not be<F1>peace without<*80><F1>sacrifice.<*40><F1>Not only for the<F1>others…<*80><F1>But for you and<F1>the baby too.<*80>"
+05_0B,"<xE1><EB>[*:] I understand,<F1>dear. I['m] sorry.<*80><F1>But please…<F1>Please be careful…<*80>"
+05_0C,<xE1><EB>[*:] Grandpa! There['s]<F1>a man passed out!<*80><F1>He has a weird<F1>helmet on!<*80>
+05_0D,"<xE1>[*:] What? Quick, go<F1>get your father!<*80>"
+05_0E,"<xE1>[*:] Yes, Grandpa.<F1><*40>"
+05_0F,"<xE1>King: Hurry, what<F1>is the word?<*80>"
+05_10,"<xE1>Soldier: Sorry,<F1>your Majesty.<*80><F1>We failed to scale<F1>the volcano.<*80><F1>Ortega['s] effects<F1>were not found.<*80>"
+05_11,<xE1>King: So even<F1>Ortega was slain…<*80><F1>What am I to tell<F1>his family…<*80>
+05_12,<xE1>King: Your husband<F1>Ortega was…<*80>
+05_13,"<xE1><EB>[*:] Thank you, your<F1>Majesty.<*80><F1>I['v]e been prepared<F1>for this day.<*80><F1>My husband fought<F1>with honor.<*80><F1>I['m] sure it was<F1>what he wanted…<*80>"
+05_14,<xE1>King: His loss is<F1>a grave blow.<*80><F1>There is none who<F1>can challenge the<*80><F1>evil lord. We are<F1>without hope…<*80>
+05_15,<xE1><EB>[*:] No. There is<F1>still this child<*80><F1>who carries<F1>Ortega['s] blood.<*80>
+05_16,<xE1><EB>[*:] This child will<F1>carry on after<*80><F1>Ortega!<F1><*40>
 06_00,<FE>Oops! <&40> dropped<F1>the <&25> in<FA><F7><F1>the spring!<F1><F7>
 06_01,<EB>[*:] Wait!<F7>
 06_02,"<EB>[*:] I am Aurhea, the<F1>spring['s] spirit.<FA><F7>"
