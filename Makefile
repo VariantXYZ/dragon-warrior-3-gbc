@@ -136,7 +136,7 @@ $(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(su
 	$(CC) $(CC_ARGS) -DGAMEVERSION=$(CURVERSION) -o $@ $<
 
 # build/intermediate/dialog/*.bin from dialog csv files
-$(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) | $(DIALOG_INT)
+$(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) $(SCRIPT_RES)/tilesets/en.lst | $(DIALOG_INT)
 	$(PYTHON) $(SCRIPT)/dialog2bin.py $@ $^
 
 # build/dialog/text_constants.asm from dialog bin files
