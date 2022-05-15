@@ -86,6 +86,9 @@ SECTION "Dialog Tileset Helper", ROMX[$416b], BANK[$02]
 ; Unsure if this is the correct moniker for this...
 ; It gets called and sets the tile index to start drawing the next line
 DialogSetupScrollingTiles::
+  ; New line, so reset relevant VWF vars
+  ld a, HACKIDX_VWFNewLineReset
+  rst $38
   ld hl, W_TextConfiguration
   bit 0, [hl]
   jr z, .asm_817d
@@ -107,13 +110,13 @@ DialogSetupScrollingTiles::
 .asm_8193
   bit 4, [hl]
   set 4, [hl]
-  jp z, .asm_81b5
+  jr z, .asm_81b5
   ld a, [W_TextTilesetDst]
   cp $40
-  jp nz, .asm_81aa
+  jr nz, .asm_81aa
   ld a, [W_TextTilesetDst+1]
   cp $d2
-  jp z, .asm_81b5
+  jr z, .asm_81b5
 .asm_81aa
   ld a, e
   ld [W_TextTilesetDst], a
