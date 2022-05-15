@@ -18,7 +18,10 @@ DrawCharacter::
 .not_special
   bit 3, [hl]
   set 1, [hl]
-  jr nz, .asm_4022
+  ; TODO: Need to verify that bit 3 actually corresponds to 'dialog'
+  ; jr nz, .asm_4022
+  ld a, HACKIDX_VWFDrawCharacter
+  jp nz, rst38 ; HackPredef
   set 2, [hl]
 .asm_4022
   ld hl, W_TextTilesetDst
@@ -35,11 +38,9 @@ DrawCharacter::
   add hl, hl
   add hl, hl
   add hl, hl
-  ld a, [W_TextConfiguration]
-  ld a, $10
 .asm_4041
   add hl, bc
-  ld b, a
+  ld b, $10
   call CopyHLtoDE
   ld hl, W_TextTilesetDst
   ld a, e
@@ -86,45 +87,37 @@ DrawTextBoxAndSetupTilesetLoad::
   ld e, $b3
   call TextBoxSetupAttributes
   call TextBoxSetupTilemap
-  ld de, .initial_tiles
-.double_row_loop
-  ld a, $65
-  ld [hli], a
-  ld a, [de]
-  inc de
-  ld b, $12
-.setup_row_tiles
+
+  ld a, $FC ; Initial tile
+  ld d, $02 ; 2 rows
+.new_row
+  ld b, $12 ; 18 characters per row
+  ld [hl], $65
+  inc hl
+.draw_row
   ld [hli], a
   inc a
   dec b
-  jr nz, .setup_row_tiles
-  ld [hl], $65
-  inc hl
-  cp $32
-  jr z, .finished_double_row
+  jr nz, .draw_row
+  push af
+  ; Row finished, blank out things past the border and the next row
+  ld a, $65 ; End border
+  ld [hli], a
   ld a, $7e
   ld b, $0c
   call WriteAtoHLMultiple
-  jr .double_row_loop
-.finished_double_row
+  call .blank_row
+  pop af
+  add $12 ; The next characters will be 18 characters later
+  dec d
+  jr nz, .new_row
   
   ; Write the blanks for two more rows so we don't glitch when scrolling
-  push de
-  ld e, $03
+  ld d, $02
 .loop_blank
-  ld a, $7e
-  ld b, $0c
-  call WriteAtoHLMultiple
-  ld a, $65
-  ld [hli], a
-  ld a, $7e
-  ld b, $12
-  call WriteAtoHLMultiple
-  ld a, $65
-  ld [hli], a
-  dec e
+  call .blank_row
+  dec d
   jr nz, .loop_blank
-  pop de
 
   ld a, c
   ld [$ff70], a
@@ -145,10 +138,22 @@ DrawTextBoxAndSetupTilesetLoad::
   ld a, LOW(TilesetNormalCharacters)
   ld [hli], a
   ld [hl], $d0
+  ; Initialize VWF vars for drawing
+  ld a, HACKIDX_VWFInitializeDialog
+  rst $38
   ret
-.initial_tiles
-  db $FC, $0E ; Top tile, bottom tile for first 'line'
-  db $20, $32 ; Top tile, bottom tile for second 'line'
+.blank_row
+  ; Create an empty row
+  ld a, $65
+  ld [hli], a
+  ld a, $7e
+  ld b, $12
+  call WriteAtoHLMultiple
+  ld a, $65
+  ld [hli], a
+  ld a, $7e
+  ld b, $0c
+  jp WriteAtoHLMultiple
 .attribmap_data
   db $D0, $00 ; Source address
   db $9E, $40 ; Destination VRAM (attributes)
@@ -256,7 +261,7 @@ TextBoxSetupInterruptConfig::
   cp $60
   ld a, $00
   jr c, .asm_4309
-  ld a, $63
+  ld a, $6b ; Originally 63, the start scanline used for regular boxes
 .asm_4309
   push af
 .asm_430a
@@ -301,7 +306,7 @@ TextBoxSetupInterruptConfig::
   inc [hl]
   ret
 .asm_4347:
-  ld a, $63
+  ld a, $6b ; Originally 63, the start scanline used for 'shop' dialog boxes
   jr .asm_4309
   
   padend $434b
