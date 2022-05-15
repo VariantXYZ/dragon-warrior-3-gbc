@@ -92,7 +92,7 @@ with open(input_file, 'r', encoding='utf-8-sig') as fp:
                     if special_type == '&': # Pull text from WRAM relative to D480
                         bintext.append(0xF9)
                         bintext.append(int(''.join(special_data), 16))
-                    elif special_type == '*': # Unknown control code
+                    elif special_type == '*': # Delay text scroll by number of frames
                         bintext.append(0xFC)
                         bintext.append(int(''.join(special_data), 16))
                     elif special_type == 'x': # Literal hex
