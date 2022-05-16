@@ -58,7 +58,7 @@ SECTION "Load Y/N text box", ROMX[$440f], BANK[$02]
 SetupYesNoTextBox::
   ld a, $13
   call $3d65
-  ld a, [$c217]
+  ld a, [W_TextBoxInitialScanline]
   or a
   ld hl, .table
   jr z, .load_info
