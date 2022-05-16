@@ -54,7 +54,7 @@
 01_01,[*:] What compelled<F1>you to visit this<FA><F7><F1>temple at this<F1>late hour?
 01_02,<F1>[*:] Who should be<F1>summoned back?
 01_03,<F1>[*:] Surely you jest.<F1><&40> is alive.<FA><F7>
-01_04,[*:] I must ask for a<F1>small donation of<FA><F7><F1><&09>G.<F1><FA><F7>Do you accept?<F1><xFF>
+01_04,[*:] I must ask for a<F1>small donation of<FA><F7><F1><&09>G.<F1><FA><F7>Do you accept?<F1><FF>
 01_05,<F1>[*:] Oh? You wish to<F1>reconsider…<FA><F7><F1>
 01_06,[*:] How else may I<F1>be of service?
 01_07,[*:] A donation shows<F1>your appreciation<FA><F7><F1>to the gods.<F1>How shameful to<FA><F7><F1>begrudge that…<F1><FA><F7>
@@ -73,7 +73,7 @@ UNUSED00_01_11,[*:] <&40> has several<F1>cursed items on.<FA><F7><F1>Which shoul
 02_01,"<EB>[*:] Ah, wandering<F1>souls.<FA><F7><F1>What brings you to<F1>our temple this<FA><F7><F1>late in the night?<F1>"
 02_02,<F1><EB>[*:] Who should be<F1>revived?
 02_03,<F1><EB>[*:] Oh? But <&40><F1>seems to be alive.<FA><F7>
-02_04,"<EB>[*:] Please, I need a<F1>small donation of<FA><F7><F1><&09>G.<F1><FA><F7>Is that fine?<F1><xFF>"
+02_04,"<EB>[*:] Please, I need a<F1>small donation of<FA><F7><F1><&09>G.<F1><FA><F7>Is that fine?<F1><FF>"
 02_05,<F1><EB>[*:] Oh? You don['t]<F1>wish to do this.<FA><F7>
 02_06,<F1><EB>[*:] How else may I<F1>serve you?
 02_07,<EB>[*:] I cannot force<F1>you to pay.<FA><F7><F1>It is all the<F1>will of the gods.<FA><F7><F1>
@@ -145,7 +145,7 @@ UNUSED00_02_11,<EB>[*:] <&40> is equipped<F1>with more than one<FA><F7><F1>curse
 04_2D,
 04_2E,
 04_2F,<FE><&40> whistled!<F1>
-04_30,<FE><&40> whistled!<xE9>N<F1>
+04_30,<FE><&40> whistled!<e17><F1>
 04_31,<FE><&40> began digging<F1>underfoot!
 04_32,<FE>What['s] this?<F1><&30>G was found!
 04_33,<FE>What['s] this?<F1>The <&25>?
@@ -162,53 +162,53 @@ UNUSED00_02_11,<EB>[*:] <&40> is equipped<F1>with more than one<FA><F7><F1>curse
 04_3E,<FE><&40> couldn['t]<F1>forget…
 04_3F,<FE><&40> forgot those<F1>words!<F7>
 04_40,<FE><&40> memorized<F1>those words.<F7>
-05_00,"<xE1><EB>[*:] Pant, pant…<*40><F1>Is it true that<F1>Ortega had a baby?<*80>"
-05_01,<xE1>[*:] That['s] right!<*40><F1>I hear the baby['s]<F1>really lively too.<*80>
-05_02,"<xE1>[*:] Any child of<F1>Ortega, Aliahan['s]<*80><F1>hero, is sure to<F1>become a great<*80><F1>warrior.<F1><*40>"
-05_03,<xE1><EB>[*:] That['s] true.<*30><F1>We should go see<F1>the baby!<*80>
-05_04,"<xE1>King: Listen!<F1>Ortega, the hero<*80><F1>of Aliahan, will<F1>finally depart for<*80><F1>the evil lord['s]<F1>castle!<*80><F1>The journey is<F1>sure to be hard.<*80><F1>But Ortega is our-<F1>no - the world['s],<*80><F1>only hope! I am<F1>confident he will<*80><F1>wrest peace back<F1>from the wicked.<*80><F1>Now, let us give a<F1>hero['s] send off to<*80><F1>the great Ortega!<F1><*40>"
-05_05,<xE1>Soldiers: Aye!<*40>
-05_06,"<xE1>[*:] Good morning,<F1>madam.<*80><F1>Your Ortega['s]<F1>leaving soon.<*80>"
-05_07,<xE1>[*:] We['d] like him to<F1>have this.<*80><F1>It['s] the least we<F1>can do.<*80>
-05_08,<xE1><EB>[*:] Oh… This helmet?<*80>
-05_09,<xE1><EB>[*:] Can['t] this wait<F1>until the baby is<*80><F1>a little older?<F1><*40>
-05_0A,"<xE1>Ortega: I['m] sorry,<F1>understand this.<*40><F1>There will not be<F1>peace without<*80><F1>sacrifice.<*40><F1>Not only for the<F1>others…<*80><F1>But for you and<F1>the baby too.<*80>"
-05_0B,"<xE1><EB>[*:] I understand,<F1>dear. I['m] sorry.<*80><F1>But please…<F1>Please be careful…<*80>"
-05_0C,<xE1><EB>[*:] Grandpa! There['s]<F1>a man passed out!<*80><F1>He has a weird<F1>helmet on!<*80>
-05_0D,"<xE1>[*:] What? Quick, go<F1>get your father!<*80>"
-05_0E,"<xE1>[*:] Yes, Grandpa.<F1><*40>"
-05_0F,"<xE1>King: Hurry, what<F1>is the word?<*80>"
-05_10,"<xE1>Soldier: Sorry,<F1>your Majesty.<*80><F1>We failed to scale<F1>the volcano.<*80><F1>Ortega['s] effects<F1>were not found.<*80>"
-05_11,<xE1>King: So even<F1>Ortega was slain…<*80><F1>What am I to tell<F1>his family…<*80>
-05_12,<xE1>King: Your husband<F1>Ortega was…<*80>
-05_13,"<xE1><EB>[*:] Thank you, your<F1>Majesty.<*80><F1>I['v]e been prepared<F1>for this day.<*80><F1>My husband fought<F1>with honor.<*80><F1>I['m] sure it was<F1>what he wanted…<*80>"
-05_14,<xE1>King: His loss is<F1>a grave blow.<*80><F1>There is none who<F1>can challenge the<*80><F1>evil lord. We are<F1>without hope…<*80>
-05_15,<xE1><EB>[*:] No. There is<F1>still this child<*80><F1>who carries<F1>Ortega['s] blood.<*80>
-05_16,<xE1><EB>[*:] This child will<F1>carry on after<*80><F1>Ortega!<F1><*40>
+05_00,"<E1><EB>[*:] Pant, pant…<*40><F1>Is it true that<F1>Ortega had a baby?<*80>"
+05_01,<E1>[*:] That['s] right!<*40><F1>I hear the baby['s]<F1>really lively too.<*80>
+05_02,"<E1>[*:] Any child of<F1>Ortega, Aliahan['s]<*80><F1>hero, is sure to<F1>become a great<*80><F1>warrior.<F1><*40>"
+05_03,<E1><EB>[*:] That['s] true.<*30><F1>We should go see<F1>the baby!<*80>
+05_04,"<E1>King: Listen!<F1>Ortega, the hero<*80><F1>of Aliahan, will<F1>finally depart for<*80><F1>the evil lord['s]<F1>castle!<*80><F1>The journey is<F1>sure to be hard.<*80><F1>But Ortega is our-<F1>no - the world['s],<*80><F1>only hope! I am<F1>confident he will<*80><F1>wrest peace back<F1>from the wicked.<*80><F1>Now, let us give a<F1>hero['s] send off to<*80><F1>the great Ortega!<F1><*40>"
+05_05,<E1>Soldiers: Aye!<*40>
+05_06,"<E1>[*:] Good morning,<F1>madam.<*80><F1>Your Ortega['s]<F1>leaving soon.<*80>"
+05_07,<E1>[*:] We['d] like him to<F1>have this.<*80><F1>It['s] the least we<F1>can do.<*80>
+05_08,<E1><EB>[*:] Oh… This helmet?<*80>
+05_09,<E1><EB>[*:] Can['t] this wait<F1>until the baby is<*80><F1>a little older?<F1><*40>
+05_0A,"<E1>Ortega: I['m] sorry,<F1>understand this.<*40><F1>There will not be<F1>peace without<*80><F1>sacrifice.<*40><F1>Not only for the<F1>others…<*80><F1>But for you and<F1>the baby too.<*80>"
+05_0B,"<E1><EB>[*:] I understand,<F1>dear. I['m] sorry.<*80><F1>But please…<F1>Please be careful…<*80>"
+05_0C,<E1><EB>[*:] Grandpa! There['s]<F1>a man passed out!<*80><F1>He has a weird<F1>helmet on!<*80>
+05_0D,"<E1>[*:] What? Quick, go<F1>get your father!<*80>"
+05_0E,"<E1>[*:] Yes, Grandpa.<F1><*40>"
+05_0F,"<E1>King: Hurry, what<F1>is the word?<*80>"
+05_10,"<E1>Soldier: Sorry,<F1>your Majesty.<*80><F1>We failed to scale<F1>the volcano.<*80><F1>Ortega['s] effects<F1>were not found.<*80>"
+05_11,<E1>King: So even<F1>Ortega was slain…<*80><F1>What am I to tell<F1>his family…<*80>
+05_12,<E1>King: Your husband<F1>Ortega was…<*80>
+05_13,"<E1><EB>[*:] Thank you, your<F1>Majesty.<*80><F1>I['v]e been prepared<F1>for this day.<*80><F1>My husband fought<F1>with honor.<*80><F1>I['m] sure it was<F1>what he wanted…<*80>"
+05_14,<E1>King: His loss is<F1>a grave blow.<*80><F1>There is none who<F1>can challenge the<*80><F1>evil lord. We are<F1>without hope…<*80>
+05_15,<E1><EB>[*:] No. There is<F1>still this child<*80><F1>who carries<F1>Ortega['s] blood.<*80>
+05_16,<E1><EB>[*:] This child will<F1>carry on after<*80><F1>Ortega!<F1><*40>
 06_00,<FE>Oops! <&40> dropped<F1>the <&25> in<FA><F7><F1>the spring!<F1><F7>
 06_01,<EB>[*:] Wait!<F7>
 06_02,"<EB>[*:] I am Aurhea, the<F1>spring['s] spirit.<FA><F7>"
 06_03,<EB>Aurhea: I will<F1>locate what you<FA><F7><F1>have dropped.<F1><F7>
-06_04,"<EB>Aurhea: <&40>,<F1>could this be your<FA><F7><F1>Stick[Stick]? <F1><xFF>"
-06_05,<EB>Aurhea: Really?<F1><FA><F7>Is this truly your<F1>Stick[Stick]?<xFF>
+06_04,"<EB>Aurhea: <&40>,<F1>could this be your<FA><F7><F1>Stick[Pole]? <F1><FF>"
+06_05,<EB>Aurhea: Really?<F1><FA><F7>Is this truly your<F1>Stick[Pole]?<FF>
 06_06,<EB>Aurhea: I thought<F1>so. Do take care.<FA><F7><F1><FE><&40> got the<F1><&25> back!<F7>
 06_07,"<EB>Aurhea: So it<F1>wasn['t] that, then?<FA><F7><F1>Well, just wait a<F1>while.<F7>"
-06_08,"<EB>Aurhea: Well, you<F1>don['t] seem greedy.<FA><F7><F1>So, please take<F1>this.<FA><F7><F1><FE><&40> obtained the<F1>Stick[Stick]!<F7>"
-06_09,"<EB>Aurhea: Well, is<F1>it this Demon[Axe]?<xFF>"
+06_08,"<EB>Aurhea: Well, you<F1>don['t] seem greedy.<FA><F7><F1>So, please take<F1>this.<FA><F7><F1><FE><&40> obtained the<F1>Stick[Pole]!<F7>"
+06_09,"<EB>Aurhea: Well, is<F1>it this Demon[Axe]?<FF>"
 06_0A,<EB>Aurhea: <&40>!<F1>I despise liars.<FA><F7><F1>I['v]e no desire to<F1>see the likes of<FA><F7><F1>you again.<F1><FA><F7>Take this and<F1>leave.<FA><F7><F1><FE><&40> got the<F1><&25> back!<F7>
 06_0B,"<EB>Aurhea: Oh, that['s]<F1>not it? Stay here.<F7>"
-06_0C,<EB>Aurhea: Then is it<F1>this <&25>?<xFF>
-06_0D,"<EB>Aurhea: I am glad.<F1><FA><F7>I was hoping you<F1>wouldn['t] lie.<FA><F7><F1>So, please take<F1>the <&25>.<FA><F7><F1>Also, you may have<F1>this Stick[Stick] as a<FA><F7><F1>gift from me.<F1><FA><F7><FE><&40> got the<F1><&25> back!<FA><F7><F1><&40> also obtained<F1>the Stick[Stick]!<FA><F7><F1><EB>Aurhea: Well then,<F1>take care now.<F7>"
+06_0C,<EB>Aurhea: Then is it<F1>this <&25>?<FF>
+06_0D,"<EB>Aurhea: I am glad.<F1><FA><F7>I was hoping you<F1>wouldn['t] lie.<FA><F7><F1>So, please take<F1>the <&25>.<FA><F7><F1>Also, you may have<F1>this Stick[Pole] as a<FA><F7><F1>gift from me.<F1><FA><F7><FE><&40> got the<F1><&25> back!<FA><F7><F1><&40> also obtained<F1>the Stick[Pole]!<FA><F7><F1><EB>Aurhea: Well then,<F1>take care now.<F7>"
 06_0E,"<EB>Aurhea: Oh? Didn['t]<F1>you say it wasn['t]<FA><F7><F1>this one before?<F1>Ah, it['s] fine.<FA><F7><F1>Everyone makes<F1>mistakes.<FA><F7><F1>Well, I['l]l return<F1>this to you.<FA><F7><F1><FE><&40> got the<F1><&25> back!<F7>"
-06_0F,"<EB>Aurhea: Oh, didn['t]<F1>you drop a weapon<FA><F7><F1>here before?<F1><xFF>"
+06_0F,"<EB>Aurhea: Oh, didn['t]<F1>you drop a weapon<FA><F7><F1>here before?<F1><FF>"
 06_10,"<EB>Aurhea: I see.<F1>Well, I will pick<FA><F7><F1>up anything you<F1>have dropped.<F7>"
-06_11,<EB>Aurhea: Could it<F1>be you dropped<FA><F7><F1>this on purpose?<F1><xFF>
+06_11,<EB>Aurhea: Could it<F1>be you dropped<FA><F7><F1>this on purpose?<F1><FF>
 06_12,"<EB>Aurhea: What a<F1>bad thing to do!<FA><F7><F1><&40>, I despise<F1>greed!<FA><F7><F1>I['v]e no desire to<F1>see the likes of<FA><F7><F1>you again.<F1>Take this, and go.<FA><F7><F1><FE><&40> got the<F1><&25> back!<F7>"
-06_13,"<EB>Aurhea: What shall<F1>I do?<FA><F7><F1>I could not find<F1>the item you lost.<FA><F7><F1><&40>, won['t] you<F1>forgive me?<xFF>"
+06_13,"<EB>Aurhea: What shall<F1>I do?<FA><F7><F1>I could not find<F1>the item you lost.<FA><F7><F1><&40>, won['t] you<F1>forgive me?<FF>"
 06_14,<EB>Aurhea: I see.<F1>I will look again.<F7>
 06_15,"<EB>Aurhea: Ah, <&40>.<F1>You['r]e too kind.<FA><F7><F1>Please check the<F1>ground underfoot.<FA><F7><F1>It is my way of<F1>apologizing.<F7>"
 06_16,<FE><&40> checked the<F1>ground underfoot!<FA><F7><F1><&40> found 50G!<F1><FA><F7>The <&25> was<F1>also found!<F7>
-06_17,<EB>Aurhea: Sorry to<F1>keep you.<FA><F7><F1>Is this <&25><F1>what you dropped?<xFF>
+06_17,<EB>Aurhea: Sorry to<F1>keep you.<FA><F7><F1>Is this <&25><F1>what you dropped?<FF>
 07_00,<FE><&40> checked<F1>underfoot.<FA><F7>
 07_01,<FE><&40> peered into<F1>the water.<FA><F7>
 07_02,<FE><&40> looked down<F1>at the ground.<FA><F7>
@@ -263,14 +263,14 @@ UNUSED00_02_11,<EB>[*:] <&40> is equipped<F1>with more than one<FA><F7><F1>curse
 07_33,<FE>Hide Herb['s] effect<F1>wore off.<F7>
 07_34,<FE>But the chest is<F1>locked!<F7>
 07_35,<FE>An odd mask…<F1><F7>
-07_36,<FE>It['s] the holy<F1>river.<FA><F7><F1>Splash on the<F1>water?<xFF>
+07_36,<FE>It['s] the holy<F1>river.<FA><F7><F1>Splash on the<F1>water?<FF>
 07_37,<FE><&00> splashed on<F1>the water.<FA><F7><F1>The body feels<F1>purified somehow.<F7>
 07_38,<FE>It['s] the huge fire<F1>of the Lighthouse.<F7>
 07_39,<FE>Yayoi is hiding.<F1><F7>
 07_3A,<FE>Human bones are<F1>scattered about…<FA><F7><F1>This must be the<F1>sacrificial altar.<F7>
 07_3B,<FE>The ship['s] wheel<F1>turns on its own…<F7>
 07_3C,<FE><&00> checked the<F1>posted notice.<FA><F7><F1>Beware of fake<F1>dancers!<FA><F7><F1>Nothing is as good<F1>as it seems!<F7>
-07_3D,<FE>Give up and start<F1>over?<xFF>
+07_3D,<FE>Give up and start<F1>over?<FF>
 07_3E,<FE>Repellent['s] effect<F1>wore off!<F7>
 08_00,[*:] L… Listen!<F1><FA><F7>The Demon King has<F1>been felled!<FA><F7><F1>The world is at<F1>peace!<F7>
 08_01,[*:] Are… Are you the<F1>people who slayed<FA><F7><F1>the Demon King?<F1><FA><F7>You did!<F1><FA><F7>I never would have<F1>expected someone<FA><F7><F1>so young would be<F1>triumphant.<F7>
@@ -278,7 +278,7 @@ UNUSED00_02_11,<EB>[*:] <&40> is equipped<F1>with more than one<FA><F7><F1>curse
 08_03,"[*:] Hello!<F1><FA><F7>I['m] so happy today,<F1>I['v]e halved the<FA><F7><F1>prices of all my<F1>merchandise!<FA><F7><F1>Pardon?<F1>You don['t] need<FA><F7><F1>weapons or armor<F1>anymore?<FA><F7><F1>Oh… That['s] true…<F1><F7>"
 08_04,"[*:] We['v]e finally<F1>picked our son['s]<FA><F7><F1>name!<F1><FA><F7>Yes, that['s] right,<F1>we did go with the<FA><F7><F1>name Yukinov.<F1><FA><F7>The name will be<F1>passed down to<FA><F7><F1>future generations<F1>of our family.<F7>"
 08_05,"[*:] Welcome to our<F1>inn.<FA><F7><F1>But it['s] too early<F1>to stay!<FA><F7><F1>Look how light it<F1>is still outside.<FA><F7><F1>Heh, I can say<F1>that because you['v]e<FA><F7><F1>brought peace to<F1>the world.<FA><F7><F1>Thank you!<F1><F7>"
-08_06,<EB>[*:] Have you found a<F1>flute?<xFF><F1>
+08_06,<EB>[*:] Have you found a<F1>flute?<FF><F1>
 08_07,<EB>[*:] Good! So my tip<F1>was useful!<F7>
 08_08,<EB>[*:] Oh… You must be<F1>surprisingly dim.<F7>
 08_09,"[*:] Let me compose a<F1>song about you.<FA><F7><F1>Lalala~ <F1>The name is <&40>!<FA><F7><F1>Strong and tough,<F1>even more than the<FA><F7><F1>wicked Demon King,<F1>lalala~<FA><F7><F1>Hm… That wasn['t]<F1>very good…<FA><F7><F1>I can['t] do better<F1>than Garin yet…<F7>"

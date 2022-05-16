@@ -6,7 +6,7 @@
 00_04,"[*:] Dry Vase belong<F1>to village.<FA><F7><F1>But many years<F1>ago, men crossed<FA><F7><F1>sea in east and<F1>come here.<FA><F7><F1>They take it.<F1><F7>"
 00_05,[*:] This my horse.<F1>Very good horse.<F7>
 00_06,"[*:] Hi, I['m] Mr. Edo,<F1>the talking horse.<FA><F7><F1>Hey, well there,<F1>listen to this.<FA><F7><F1>If you find the<F1>Dry Vase, use it<FA><F7><F1>in front of the<F1>shoal in the<FA><F7><F1>western sea.<F1><F7>"
-00_07,[*:] Due east of<F1>here…<FA><F7><F1>Was there a town<F1>on small grassy<FA><F7><F1>clearing on coast?<F1><xFF>
+00_07,[*:] Due east of<F1>here…<FA><F7><F1>Was there a town<F1>on small grassy<FA><F7><F1>clearing on coast?<F1><FF>
 00_08,"[*:] Ah, good!<F1>That is good!<F7>"
 00_09,"[*:] So, failure<F1>after all…<FA><F7><F1>Many years ago,<F1>a man from village<FA><F7><F1>left to build town<F1>there.<F7>"
 00_0A,"[*:] On northern sea,<F1>is frozen island<FA><F7><F1>of Greenlad.<F1><FA><F7>Great mage is said<F1>to live on meadow<FA><F7><F1>there.<F1><F7>"
@@ -34,9 +34,9 @@
 03_09,"[*:] Tch, you['d] think<F1>he['d] be a bit more<FA><F7><F1>generous in his<F1>offers.<FA><F7><F1>Yes, what we have<F1>we stole, but just<FA><F7><F1>7G for a Copper<F1>Sword? Ridiculous!<F7>"
 03_0A,[*:] From Aliahan are<F1>you?<FA><F7><F1>I['v]e been there<F1>several times.<FA><F7><F1>It['s] a real nice<F1>place.<F7>
 03_0B,[*:] This is our<F1>captain['s] quarters.<F7>
-03_0C,<EB>[*:] Do you think it['s]<F1>funny that a woman<FA><F7><F1>like me commands a<F1>crew of pirates?<xFF>
+03_0C,<EB>[*:] Do you think it['s]<F1>funny that a woman<FA><F7><F1>like me commands a<F1>crew of pirates?<FF>
 03_0D,<EB>[*:] Humph. I don['t]<F1>like bootlickers!<F7>
-03_0E,"<EB>[*:] Well, aren['t] you<F1>blunt?<FA><F7><F1>I like that!<F1><FA><F7>Do you know the<F1>island of Luzami?<FA><F7><F1>It['s] a little<F1>south, then a bit<FA><F7><F1>west from here.<F1><FA><F7>I doubt anyone<F1>other than us<FA><F7><F1>would even know<F1>about it.<FA><F7><F1>By the way, are<F1>you lot really on<FA><F7><F1>a quest to defeat<F1>the Demon Lord?<xFF>"
+03_0E,"<EB>[*:] Well, aren['t] you<F1>blunt?<FA><F7><F1>I like that!<F1><FA><F7>Do you know the<F1>island of Luzami?<FA><F7><F1>It['s] a little<F1>south, then a bit<FA><F7><F1>west from here.<F1><FA><F7>I doubt anyone<F1>other than us<FA><F7><F1>would even know<F1>about it.<FA><F7><F1>By the way, are<F1>you lot really on<FA><F7><F1>a quest to defeat<F1>the Demon Lord?<FF>"
 03_0F,"<EB>[*:] Yeah?<F1>You really are?<FA><F7><F1>I['m] not sure if<F1>you could do it,<FA><F7><F1>but if you do,<F1>come see us.<F7>"
 03_10,<EB>[*:] You['r]e traveling<F1>aimlessly?<FA><F7><F1>That['s] not a bad<F1>thing either.<F7>
 04_00,"[*:] Oh, if it isn['t]<F1>you lot!<FA><F7><F1>You felled the<F1>Demon Lord, hey?<FA><F7><F1>That['s] something<F1>else!<FA><F7><F1>Huh? How do I know<F1>that already?<FA><F7><F1>We roam the seven<F1>seas. We['v]e heard<FA><F7><F1>all about you lot<F1>everywhere we go!<F7>"
@@ -44,25 +44,25 @@
 04_02,[*:] ZZZ… ZZZ…!<F7>
 04_03,"[*:] Hey, the evil-<F1>doers never go<FA><F7><F1>away!<F1><FA><F7>You['l]l find them<F1>easily!<FA><F7><F1>Our job['s] not done<F1>yet at all!<F7>"
 04_04,"[*:] Please, I<F1>implore you!<FA><F7><F1>The best I can do<F1>is 500G, no more!<F7>"
-04_05,"[*:] Tch, 500G for a<F1>Spear?<FA><F7><F1>That['s] too low, you<F1>agree with me?<xFF>"
+04_05,"[*:] Tch, 500G for a<F1>Spear?<FA><F7><F1>That['s] too low, you<F1>agree with me?<FF>"
 04_06,[*:] Darn tootin'!<F1><F7>
 04_07,[*:] I don['t] know<F1>about that…<F7>
 04_08,"<EB>[*:] I['v]e heard the<F1>rumors!<FA><F7><F1>You lot really did<F1>beat the Demon<FA><F7><F1>Lord!<F1><FA><F7>Heh, I['m] not<F1>conceding a thing!<FA><F7><F1>There['s] absolutely<F1>nothing that a man<FA><F7><F1>can do better than<F1>a woman.<FA><F7><F1>It['s] how you go<F1>about doing it.<FA><F7><F1>If you['r]e beaten<F1>by strength, there<FA><F7><F1>are other ways of<F1>winning."
 04_09,<EB>[*:] What was your<F1>name? <&40>?<FA><F7><F1>Don['t] think that<F1>being a man makes<FA><F7><F1>you special!<F1>Ahahahaha!<F7>
-UNUSED00_04_09,"<EB>[*:] You['r]e <&40>, was<F1>it?<FA><F7><F1>There you are, the<F1>woman who defeated<FA><F7><F1>the Demon Lord.<F1><FA><F7>I think we can<F1>be friends.<FA><F7><F1>What do you say,<F1>come spend the<FA><F7><F1>evening with me.<F1><xFF>"
+UNUSED00_04_09,"<EB>[*:] You['r]e <&40>, was<F1>it?<FA><F7><F1>There you are, the<F1>woman who defeated<FA><F7><F1>the Demon Lord.<F1><FA><F7>I think we can<F1>be friends.<FA><F7><F1>What do you say,<F1>come spend the<FA><F7><F1>evening with me.<F1><FF>"
 04_0A,"<EB>[*:] You['r]e <&40>, was<F1>it?<FA><F7><F1>There you are, the<F1>woman who defeated<FA><F7><F1>the Demon Lord.<F1><FA><F7><F1>"
-04_0B,"<EB>[*:] I think we can<F1>be friends.<FA><F7><F1>What do you say,<F1>come spend the<FA><F7><F1>evening with me.<F1><xFF>"
+04_0B,"<EB>[*:] I think we can<F1>be friends.<FA><F7><F1>What do you say,<F1>come spend the<FA><F7><F1>evening with me.<F1><FF>"
 04_0C,<EB>[*:] Yeah? I thought<F1>we could tip back<FA><F7><F1>a few drinks.<F1><F7>
-04_0D,"<EB>[*:] When I get a few<F1>sheets to the<FA><F7><F1>wind, I tend to go<F1>on a bit.<FA><F7><F1>Is that all right<F1>with you?<xFF><F1>"
+04_0D,"<EB>[*:] When I get a few<F1>sheets to the<FA><F7><F1>wind, I tend to go<F1>on a bit.<FA><F7><F1>Is that all right<F1>with you?<FF><F1>"
 04_0E,"<EB>[*:] Heh, you['r]e quite<F1>obliging!<FA><F7><F1>That['s] settled<F1>then!<FA><F7><F1>Let['s] get started!<F1><FA><F7>"
 04_0F,"<EB>[*:] Hey! You louts,<F1>break out all the<FA><F7><F1>grog from the<F1>cellar!<FA><F7><F1>We are going to<F1>drink tonight!<F7>"
 04_10,"[*:] Aye-aye,<F1>Captain!<F7>"
 04_11,"<FE>And so <&40> came<F1>to share drinks<FA><F7><F1>with the captain.<F1><FA><F7><&40> learned that<F1>the captain was<FA><F7><F1>the only child of<F1>a powerful pirate<FA><F7><F1>captain who taught<F1>her sternly in<FA><F7><F1>seamanship.<F1><FA><F7>The captain also<F1>spoke of her pride<FA><F7><F1>in not being<F1>bested by men.<FA><F7><F1>All the while,<F1>the captain kept<FA><F7><F1>pouring more grog<F1>for <&40>…<F7>"
-04_12,"<EB>[*:] …So yeah, I['v]e<F1>lived this way to<FA><F7><F1>uphold my father['s]<F1>will.<FA><F7><F1>You['v]e seen the<F1>roughnecks I deal<FA><F7><F1>with every day, I<F1>can['t] use the fact<FA><F7><F1>that I['m] a woman<F1>as an excuse.<FA><F7><F1>Are you like me?<F1>Do you think that<FA><F7><F1>you won['t] ever<F1>lose to men?<xFF>"
+04_12,"<EB>[*:] …So yeah, I['v]e<F1>lived this way to<FA><F7><F1>uphold my father['s]<F1>will.<FA><F7><F1>You['v]e seen the<F1>roughnecks I deal<FA><F7><F1>with every day, I<F1>can['t] use the fact<FA><F7><F1>that I['m] a woman<F1>as an excuse.<FA><F7><F1>Are you like me?<F1>Do you think that<FA><F7><F1>you won['t] ever<F1>lose to men?<FF>"
 04_13,<EB>[*:] Huh… But you['v]e<F1>still made it this<FA><F7><F1>far. That['s] really<F1>something.<FA><F7>
 04_14,<EB>[*:] Yeah! You bet!<F1>Let['s] be friends<FA><F7><F1>as a pair of hard-<F1>nosed Amazons!<F7>
-04_15,<EB>[*:] Huh… I wasn['t]<F1>expecting that.<FA><F7><F1>I thought <&40> was<F1>just the <&00><FA><F7><F1>type to be honest.<F1>Or are you telling<FA><F7><F1>me that you want<F1>to live the way I<FA><F7><F1>do from now on?<F1><xFF>
-04_16,"<EB>[*:] Huh! So you['r]e<F1>going to beat men<FA><F7><F1>in your own way,<F1>is that right?<FA><F7><F1>…………<F1><FA><F7>You['r]e not thinking<F1>about using your<FA><F7><F1>looks to get what<F1>you want, are you?<xFF>"
+04_15,<EB>[*:] Huh… I wasn['t]<F1>expecting that.<FA><F7><F1>I thought <&40> was<F1>just the <&00><FA><F7><F1>type to be honest.<F1>Or are you telling<FA><F7><F1>me that you want<F1>to live the way I<FA><F7><F1>do from now on?<F1><FF>
+04_16,"<EB>[*:] Huh! So you['r]e<F1>going to beat men<FA><F7><F1>in your own way,<F1>is that right?<FA><F7><F1>…………<F1><FA><F7>You['r]e not thinking<F1>about using your<FA><F7><F1>looks to get what<F1>you want, are you?<FF>"
 04_17,"<EB>[*:] Hahahah!<F1>That['s] rich!<FA><F7><F1>You are the sexy<F1>little minx!<FA><F7><F1>Anyway, whichever<F1>way you go about<FA><F7><F1>doing it, I like<F1>the way you['r]e<FA><F7><F1>determined to not<F1>lose to men!<FA><F7><F1>Heh, oh hey, you<F1>need more grog!<FA><F7>"
 04_18,"<EB>[*:] Oh, that['s] not<F1>it?<FA><F7><F1>Heh, I thought<F1>that would be fun.<FA><F7>"
 04_19,"<EB>[*:] Anyway, let['s]<F1>keep going on with<FA><F7><F1>life in our own<F1>ways, hey?<FA><F7><F1>Hey look, your cup<F1>needs filling!<FA><F7>"

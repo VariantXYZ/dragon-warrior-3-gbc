@@ -13,75 +13,75 @@
 01_00,<EB>[*:] Oh! I envy you!<F1><FA><F7>You['v]e been to the<F1>Sky World!<F7>
 02_00,<FE><&40>… <&40>…<F1>You hear my voice…<FA><F7>
 02_01,"<FE>I represent all.<F1>Soon you will<FA><F7><F1>appear before me<F1>as a true hero.<FA><F7><F1>But before that,<F1>I wish to know<FA><F7><F1>what kind of<F1>person you are…<FA><F7><F1>"
-02_02,<FE>Truthfully answer<F1>my questions.<FA><F7><F1>Are you ready?<F1><xFF>
+02_02,<FE>Truthfully answer<F1>my questions.<FA><F7><F1>Are you ready?<F1><FF>
 02_03,<FE>You appear to be<F1>quite cautious.<FA><F7><F1>Or perhaps you are<F1>merely difficult…<FA><F7><F1>That will soon<F1>become apparent.<FA><F7><F1>I shall wait in<F1>the meantime.<F7>
 02_04,"<FE>First, tell me<F1>your real name."
 02_05,<FE>In which month<F1>were you born?
 02_06,<FE>On which day were<F1>you born?
-02_07,"<FE><&00>…<F1>Born <&23>/<&26>,<FA><F7><F1><&29>.<F1>Is this correct?<xFF><F1>"
+02_07,"<FE><&00>…<F1>Born <&23>/<&26>,<FA><F7><F1><&29>.<F1>Is this correct?<FF><F1>"
 02_08,<FE><&00>.<F1><FA><F7>I will ask you<F1>several questions.<FA><F7><F1>Don['t] think too<F1>deeply or hard.<FA><F7><F1>Just reply with<F1>complete honesty.<FA><F7><F1>It will help me to<F1>know more about<FA><F7><F1>your personality.<F1>Let us begin.<FA><F7><F1>
-02_09,<FE>Do you find life<F1>boring?<xFF>
-02_0A,<FE>Is the sun the<F1>king of nature?<xFF>
-02_0B,<FE>Is victory earned<F1>in battle?<xFF>
-02_0C,"<FE>On a journey, do<F1>you feel more<FA><F7><F1>confident with<F1>strong equipment<FA><F7><F1>as opposed to<F1>taking allies?<xFF>"
-02_0D,<FE>Is adventuring a<F1>hardship to you?<xFF>
-02_0E,<FE>Is it fun to speak<F1>with townspeople?<xFF>
-02_0F,"<FE>When you spot a<F1>cave, do you feel<FA><F7><F1>an urge to go<F1>explore it?<xFF>"
-02_10,<FE>Do you prefer to<F1>battle with magic<FA><F7><F1>rather than fight<F1>with a sword?<xFF>
-02_11,<FE>Have you ever<F1>thought of how<FA><F7><F1>wonderful flying<F1>could be?<xFF>
-02_12,<FE>Do you think birds<F1>are free?<xFF>
-02_13,<FE>Do you find it<F1>hard to turn down<FA><F7><F1>peoples' request?<F1><xFF>
-02_14,<FE>Do you sometimes<F1>daydream and amuse<FA><F7><F1>yourself with your<F1>imagination?<xFF>
-02_15,"<FE>If there were one<F1>wish in the world<FA><F7><F1>that would come<F1>true, could you<FA><F7><F1>say that wish<F1>right now?<xFF>"
-02_16,"<FE>When you begin<F1>something, do you<FA><F7><F1>often lose sight<F1>of other things?<xFF>"
-02_17,<FE>Is there anything<F1>precious that you<FA><F7><F1>want to protect no<F1>matter what?<xFF>
-02_18,<FE>Do you spend more<F1>money on weapons<FA><F7><F1>than protective<F1>equipment?<xFF>
-02_19,"<FE>If you see someone<F1>in trouble, do you<FA><F7><F1>get the urge to<F1>help?<xFF>"
-02_1A,<FE>Do you often have<F1>trouble sleeping<FA><F7><F1>because you are<F1>thinking too much?<xFF>
-02_1B,"<FE>Rather than an<F1>expensive inn that<FA><F7><F1>is nearby, would<F1>you stay at an<FA><F7><F1>inexpensive inn<F1>that is far away?<xFF>"
-02_1C,<FE>Do you often<F1>dream?<xFF>
-02_1D,<FE>Do you have dreams<F1>of being chased?<xFF>
-02_1E,<FE>Do you find it<F1>tiring to be with<FA><F7><F1>people you don['t]<F1>know well?<xFF>
-02_1F,<FE>Do you believe in<F1>fortune telling?<xFF>
-02_20,"<FE>If you could be<F1>reborn, would you<FA><F7><F1>like to be reborn<F1>as a prince or<FA><F7><F1>princess?<F1><xFF>"
-02_21,"<FE>If you make a<F1>mistake, do you<FA><F7><F1>tend to shrug it<F1>off?<xFF>"
-02_22,<FE>Do you have many<F1>friends?<xFF>
-02_23,<FE>Are you bothered<F1>by gossip?<xFF>
-02_24,<FE>Do you often think<F1>about the past?<xFF>
-02_25,<FE>Do you think the<F1>world has more<FA><F7><F1>sadness than<F1>happiness?<xFF>
-02_26,"<FE>When eating, do<F1>you save your<FA><F7><F1>favorite food for<F1>last?<xFF>"
-02_27,"<FE>You trip and fall<F1>on a boulder.<FA><F7><F1>Instead of the<F1>boulder, do you<FA><F7><F1>blame yourself?<F1><xFF>"
-02_28,<FE>Do you prefer the<F1>mountains to the<FA><F7><F1>sea?<F1><xFF>
-02_29,"<FE>If you are doing<F1>nothing, does<FA><F7><F1>boredom annoy you?<F1><xFF>"
-02_2A,<FE>Do you like<F1>physical activity?<xFF>
-02_2B,"<FE>If your opinion<F1>differs from<FA><F7><F1>someone else['s],<F1>would you rather<FA><F7><F1>not argue about<F1>it?<xFF>"
-02_2C,<FE>Are cats cuter<F1>than dogs?<xFF>
-02_2D,<FE>Is it wrong to be<F1>attracted to your<FA><F7><F1>friend['s] lover?<F1><xFF>
-02_2E,"<FE>If someone praises<F1>you, are you<FA><F7><F1>embarrassed?<F1><xFF>"
-02_2F,"<FE>If someone is<F1>conned, do you<FA><F7><F1>feel some of the<F1>responsibility<FA><F7><F1>lies with the<F1>victim?<xFF>"
-02_30,<FE>Do you want to<F1>grow up quickly?<FA><F7><F1>Or have you felt<F1>that way?<xFF>
-02_31,"<FE>Let['s] say there is<F1>something that you<FA><F7><F1>want very badly.<F1>If you realized it<FA><F7><F1>is unattainable,<F1>does it make you<FA><F7><F1>want it even more?<F1><xFF>"
-02_32,"<FE>Do you have the<F1>confidence to<FA><F7><F1>uphold what you<F1>believe in, no<FA><F7><F1>matter what?<F1><xFF>"
-02_33,<FE>Do you put your<F1>thoughts into<FA><F7><F1>action right away?<F1><xFF>
-02_34,<FE>Do little things<F1>irritate you?<xFF>
-02_35,<FE>Do you think it is<F1>unforgivable to<FA><F7><F1>break a promise<F1>for any reason?<xFF>
-02_36,<FE>Do you believe in<F1>gods?<xFF>
-02_37,<FE>Do you worry about<F1>the way you are<FA><F7><F1>dressed?<F1><xFF>
+02_09,<FE>Do you find life<F1>boring?<FF>
+02_0A,<FE>Is the sun the<F1>king of nature?<FF>
+02_0B,<FE>Is victory earned<F1>in battle?<FF>
+02_0C,"<FE>On a journey, do<F1>you feel more<FA><F7><F1>confident with<F1>strong equipment<FA><F7><F1>as opposed to<F1>taking allies?<FF>"
+02_0D,<FE>Is adventuring a<F1>hardship to you?<FF>
+02_0E,<FE>Is it fun to speak<F1>with townspeople?<FF>
+02_0F,"<FE>When you spot a<F1>cave, do you feel<FA><F7><F1>an urge to go<F1>explore it?<FF>"
+02_10,<FE>Do you prefer to<F1>battle with magic<FA><F7><F1>rather than fight<F1>with a sword?<FF>
+02_11,<FE>Have you ever<F1>thought of how<FA><F7><F1>wonderful flying<F1>could be?<FF>
+02_12,<FE>Do you think birds<F1>are free?<FF>
+02_13,<FE>Do you find it<F1>hard to turn down<FA><F7><F1>peoples' request?<F1><FF>
+02_14,<FE>Do you sometimes<F1>daydream and amuse<FA><F7><F1>yourself with your<F1>imagination?<FF>
+02_15,"<FE>If there were one<F1>wish in the world<FA><F7><F1>that would come<F1>true, could you<FA><F7><F1>say that wish<F1>right now?<FF>"
+02_16,"<FE>When you begin<F1>something, do you<FA><F7><F1>often lose sight<F1>of other things?<FF>"
+02_17,<FE>Is there anything<F1>precious that you<FA><F7><F1>want to protect no<F1>matter what?<FF>
+02_18,<FE>Do you spend more<F1>money on weapons<FA><F7><F1>than protective<F1>equipment?<FF>
+02_19,"<FE>If you see someone<F1>in trouble, do you<FA><F7><F1>get the urge to<F1>help?<FF>"
+02_1A,<FE>Do you often have<F1>trouble sleeping<FA><F7><F1>because you are<F1>thinking too much?<FF>
+02_1B,"<FE>Rather than an<F1>expensive inn that<FA><F7><F1>is nearby, would<F1>you stay at an<FA><F7><F1>inexpensive inn<F1>that is far away?<FF>"
+02_1C,<FE>Do you often<F1>dream?<FF>
+02_1D,<FE>Do you have dreams<F1>of being chased?<FF>
+02_1E,<FE>Do you find it<F1>tiring to be with<FA><F7><F1>people you don['t]<F1>know well?<FF>
+02_1F,<FE>Do you believe in<F1>fortune telling?<FF>
+02_20,"<FE>If you could be<F1>reborn, would you<FA><F7><F1>like to be reborn<F1>as a prince or<FA><F7><F1>princess?<F1><FF>"
+02_21,"<FE>If you make a<F1>mistake, do you<FA><F7><F1>tend to shrug it<F1>off?<FF>"
+02_22,<FE>Do you have many<F1>friends?<FF>
+02_23,<FE>Are you bothered<F1>by gossip?<FF>
+02_24,<FE>Do you often think<F1>about the past?<FF>
+02_25,<FE>Do you think the<F1>world has more<FA><F7><F1>sadness than<F1>happiness?<FF>
+02_26,"<FE>When eating, do<F1>you save your<FA><F7><F1>favorite food for<F1>last?<FF>"
+02_27,"<FE>You trip and fall<F1>on a boulder.<FA><F7><F1>Instead of the<F1>boulder, do you<FA><F7><F1>blame yourself?<F1><FF>"
+02_28,<FE>Do you prefer the<F1>mountains to the<FA><F7><F1>sea?<F1><FF>
+02_29,"<FE>If you are doing<F1>nothing, does<FA><F7><F1>boredom annoy you?<F1><FF>"
+02_2A,<FE>Do you like<F1>physical activity?<FF>
+02_2B,"<FE>If your opinion<F1>differs from<FA><F7><F1>someone else['s],<F1>would you rather<FA><F7><F1>not argue about<F1>it?<FF>"
+02_2C,<FE>Are cats cuter<F1>than dogs?<FF>
+02_2D,<FE>Is it wrong to be<F1>attracted to your<FA><F7><F1>friend['s] lover?<F1><FF>
+02_2E,"<FE>If someone praises<F1>you, are you<FA><F7><F1>embarrassed?<F1><FF>"
+02_2F,"<FE>If someone is<F1>conned, do you<FA><F7><F1>feel some of the<F1>responsibility<FA><F7><F1>lies with the<F1>victim?<FF>"
+02_30,<FE>Do you want to<F1>grow up quickly?<FA><F7><F1>Or have you felt<F1>that way?<FF>
+02_31,"<FE>Let['s] say there is<F1>something that you<FA><F7><F1>want very badly.<F1>If you realized it<FA><F7><F1>is unattainable,<F1>does it make you<FA><F7><F1>want it even more?<F1><FF>"
+02_32,"<FE>Do you have the<F1>confidence to<FA><F7><F1>uphold what you<F1>believe in, no<FA><F7><F1>matter what?<F1><FF>"
+02_33,<FE>Do you put your<F1>thoughts into<FA><F7><F1>action right away?<F1><FF>
+02_34,<FE>Do little things<F1>irritate you?<FF>
+02_35,<FE>Do you think it is<F1>unforgivable to<FA><F7><F1>break a promise<F1>for any reason?<FF>
+02_36,<FE>Do you believe in<F1>gods?<FF>
+02_37,<FE>Do you worry about<F1>the way you are<FA><F7><F1>dressed?<F1><FF>
 02_38,"<FE>You lied to me.<F1>You claimed that<FA><F7><F1>you did not like<F1>physical activity.<FA><F7><F1>Well, that is also<F1>fine.<FA><F7><F1>This is the final<F1>question.<F7>"
-02_39,"<FE>If you hold onto<F1>your dream for a<FA><F7><F1>long time, do you<F1>think it will come<FA><F7><F1>true some day?<F1><xFF>"
+02_39,"<FE>If you hold onto<F1>your dream for a<FA><F7><F1>long time, do you<F1>think it will come<FA><F7><F1>true some day?<F1><FF>"
 02_3A,<FE>I see…<F1>I have a better<FA><F7><F1>idea of what kind<F1>of person you are.<FA><F7><F1>This is the final<F1>question.<F7>
 03_00,"[*:] Oh? Did you come<F1>all the way here<FA><F7><F1>for the challenge<F1>too?<FA><F7><F1>Well, so did I.<F1><FA><F7>But up here, it['s]<F1>nothing like the<FA><F7><F1>way it looks from<F1>below.<FA><F7><F1>I['v]e got a good<F1>mind to turn and<FA><F7><F1>head back down<F1>now. Wahahah!<F7>"
 03_01,[*:] I didn['t] expect<F1>it to be this<FA><F7><F1>terrifying!<F1>Wahahah!<F7>
 03_02,"[*:] What is it?<F1>If you['r]e going to<FA><F7><F1>leap, line up<F1>behind me!<F7>"
 03_03,"<EB>[*:] My courage is<F1>being tested.<FA><F7><F1>If I can do this,<F1>I won['t] have<FA><F7><F1>anything to fear<F1>anymore.<F7>"
-03_04,"[*:] Aiyeee, scary!<F1><FA><F7>Even if they say<F1>you['r]e courageous,<FA><F7><F1>isn['t] life more<F1>important than<FA><F7><F1>proving your<F1>courage?<xFF>"
+03_04,"[*:] Aiyeee, scary!<F1><FA><F7>Even if they say<F1>you['r]e courageous,<FA><F7><F1>isn['t] life more<F1>important than<FA><F7><F1>proving your<F1>courage?<FF>"
 03_05,[*:] Is… Isn['t] that<F1>right?<FA><F7><F1>We should turn<F1>around now!<F7>
 03_06,[*:] But… But…<F1><FA><F7>
 03_07,"[*:] OK, OK. I['l]l do<F1>it. I['l]l jump."
 03_08,"[*:] Go!<F1><FA><F7>… No, I can['t].<F1>My feet failed me…<F7>"
 03_09,[*:] Quit yapping<F1>about it! Make up<FA><F7><F1>your mind already!<F1><F7>
 03_0A,"[*:] What['s] wrong?<F1>If you can['t] wait,<FA><F7><F1>you can jump right<F1>here too.<F7>"
-03_0B,[*:] Hm? Do you want<F1>to turn back?<xFF><F1>
+03_0B,[*:] Hm? Do you want<F1>to turn back?<FF><F1>
 03_0C,"[*:] OK,<F1><FA><F7>that will be<F1>fine too.<FA><F7><F1>"
 03_0D,[*:] You can<F1>take the stairs<FA><F7><F1>back down.<F1><F7>
 03_0E,[*:] Hm…<F1>Then keep going.<F7>
@@ -106,12 +106,12 @@
 03_21,<EB>[*:] H… Help…<F1>Someone help me…<F7>
 03_22,"<EB>[*:] I['m] trapped by<F1>this boulder…<FA><F7><F1>P-please, help…<F1><F7>"
 03_23,<EB>[*:] Th-thank you…<F1>I thought that you<FA><F7><F1>would travel due<F1>north too.<FA><F7><F1>I must go. They['r]e<F1>waiting for me…<FA><F7><F1>Thank you.<F1><F7>
-03_24,[*:] Oh? Leaving so<F1>soon?<xFF><F1>
+03_24,[*:] Oh? Leaving so<F1>soon?<FF><F1>
 03_25,[*:] Come again!<F1><F7>
 03_26,"[*:] That['s] right,<F1>that['s] right.<FA><F7><F1>Stick around and<F1>enjoy!<F7>"
 03_27,[*:] Please come<F1>again!<F7>
 03_28,[*:] Ooh la-la.<F1>Ponny['s] dancing is<FA><F7><F1>always special!<F1><F7>
-03_29,[*:] Did you know?<F1><xFF>
+03_29,[*:] Did you know?<F1><FF>
 03_2A,[*:] Isn['t] that the<F1>truth!<FA><F7><F1>You['d] have to be<F1>a fool to not<FA><F7><F1>know about Ponny!<F1><F7>
 03_2B,"[*:] Hah?<F1>You don['t] know?<FA><F7><F1>Dancing up on the<F1>stage is Ponny.<FA><F7><F1>She is some kind<F1>of popular!<FA><F7><F1>She['s] cute, sexy…<F1>She['s] perfection!<F7>"
 03_2C,Ooh! I can['t] take<F1>this! Fweeeeet!<F7>
@@ -130,7 +130,7 @@
 03_39,"Old man: Oh, but<F1>I['v]e left my purse<FA><F7><F1>at home.<F1>Let me fetch it.<F7>"
 03_3A,"<EB>Waif: No, no!<F1><FA><F7>Grandpa, you walk<F1>too slowly!<F7>"
 03_3B,Old man: Oh my…<F1>What to do…<F7>
-03_3C,Old man: Hello!<F1>You there!<xFF><F1>
+03_3C,Old man: Hello!<F1>You there!<FF><F1>
 03_3D,"Old man: Don['t]<F1>look bewildered!<FA><F7><F1>Yes, you there!<F1><FA><F7>"
 03_3E,"Old man: Yes!<F1>That['s] right, you!<FA><F7><F1>"
 03_3F,"Old man: May I ask<F1>a favor of you?<FA><F7><F1>I left my purse at<F1>home…<FA><F7><F1>It['s] that house<F1>right over there.<FA><F7><F1>But my feet are<F1>weak, as you see.<FA><F7><F1>So could you fetch<F1>my purse for me?<FA><F7><F1>I think I left it<F1>in the dresser.<FA><F7><F1>Please, as a favor<F1>for me?<F7>"
@@ -148,14 +148,14 @@
 03_4B,[*:] Now come on!<F1><F7>
 03_4C,[*:] Padre! We caught<F1>ourselves a thief!<F7>
 03_4D,"[*:] Stole a purse<F1>from a dresser,<FA><F7><F1>that rat did!<F1><F7>"
-03_4E,"Priest: By gods!<F1>How deplorable!<FA><F7><F1>There are the<F1>innocent, like the<FA><F7><F1>old man and child,<F1>and there also are<FA><F7><F1>those rogues who<F1>steal from them.<FA><F7><F1>Listen. The old<F1>man, despite his<FA><F7><F1>bad leg, has taken<F1>in that orphan.<FA><F7><F1>Without the old<F1>man['s] compassion,<FA><F7><F1>that child would<F1>not have survived.<FA><F7><F1>And then we have<F1>the likes of you…<FA><F7><F1>Answer me.<F1>Did you steal of<FA><F7><F1>your own<F1>free will?<xFF><F1>And what do you<F1>mean by that?<F7>"
+03_4E,"Priest: By gods!<F1>How deplorable!<FA><F7><F1>There are the<F1>innocent, like the<FA><F7><F1>old man and child,<F1>and there also are<FA><F7><F1>those rogues who<F1>steal from them.<FA><F7><F1>Listen. The old<F1>man, despite his<FA><F7><F1>bad leg, has taken<F1>in that orphan.<FA><F7><F1>Without the old<F1>man['s] compassion,<FA><F7><F1>that child would<F1>not have survived.<FA><F7><F1>And then we have<F1>the likes of you…<FA><F7><F1>Answer me.<F1>Did you steal of<FA><F7><F1>your own<F1>free will?<FF><F1>And what do you<F1>mean by that?<F7>"
 03_4F,"Old man: Father!<F1>Have mercy! We all<FA><F7><F1>make mistakes!<F1><FA><F7>It may have been<F1>rash indiscretion…<FA><F7><F1>Please, forgive<F1>this young soul.<F7>"
 03_50,Priest: Ah!<F1>Such noble words!<FA><F7><F1>But a crime has<F1>been committed.<FA><F7><F1>There must be fair<F1>judgement passed.<F7>
-03_51,"Priest: Let me ask<F1>you again.<FA><F7><F1>You sneaked into a<F1>person['s] home and<FA><F7><F1>stole a purse, is<F1>that correct?<xFF>"
-03_52,"Priest: You were<F1>tempted by the<FA><F7><F1>lure of money, is<F1>that correct?<xFF>"
-03_53,"Priest: No, you<F1>say? Then why?<FA><F7><F1>Were you perhaps<F1>tricked into it?<FA><F7><F1>Is that correct?<F1><xFF>"
-03_54,Priest: Could you<F1>point out the one<FA><F7><F1>who tricked you?<F1><xFF>
-03_55,Priest: Then you<F1>did steal of your<FA><F7><F1>own free will.<F1>Is that correct?<xFF><F1>
+03_51,"Priest: Let me ask<F1>you again.<FA><F7><F1>You sneaked into a<F1>person['s] home and<FA><F7><F1>stole a purse, is<F1>that correct?<FF>"
+03_52,"Priest: You were<F1>tempted by the<FA><F7><F1>lure of money, is<F1>that correct?<FF>"
+03_53,"Priest: No, you<F1>say? Then why?<FA><F7><F1>Were you perhaps<F1>tricked into it?<FA><F7><F1>Is that correct?<F1><FF>"
+03_54,Priest: Could you<F1>point out the one<FA><F7><F1>who tricked you?<F1><FF>
+03_55,Priest: Then you<F1>did steal of your<FA><F7><F1>own free will.<F1>Is that correct?<FF><F1>
 03_56,"Priest: If you<F1>can['t] do so, your<FA><F7><F1>claim of innocence<F1>rings hollow.<FA><F7>"
 03_57,"Priest: So you are<F1>guilty… However,<FA><F7><F1>your confession of<F1>guilt is noble.<FA><F7><F1>By gods, may you<F1>bring justice upon<FA><F7><F1>this fallen soul!<F1><F7>"
 03_58,Old man: F-Father!<F1>Wait! Please wait!<F7>
@@ -191,13 +191,13 @@
 03_76,"[*:] Gasp… Pant…<F1>I-I can['t] go on…<FA><F7><F1>Dirk, you go on…<F1>Save yourself…<FA><F7><F1>Dirk: But, bro!<F1><FA><F7>[*:] No, listen.<F1>Gasp… Pant…<FA><F7><F1>Dirk: ………………<F1><FA><F7>[*:] Go north. You<F1>should be clear of<FA><F7><F1>this desert in<F1>three days.<FA><F7><F1>There['s] only one<F1>day['s] water left…<FA><F7><F1>It may be enough<F1>for you alone…<FA><F7><F1>Dirk: But, bro!<F1>What about you?<FA><F7><F1>[*:] Listen, Dirk.<F1>That water will<FA><F7><F1>last the both of<F1>us only one day.<FA><F7><F1>That['s] not enough<F1>to reach the town.<FA><F7><F1>No need for the<F1>both of us to die…<FA><F7><F1>Besides, I<F1>can['t] move.<FA><F7><F1>Dirk: But, bro!<F1><FA><F7>[*:] Quiet! Take this<F1>canteen and go!<FA><F7><F1>Urrrgh!<F1><FA><F7>Dirk: Bro!<F1><F7>"
 03_77,<FE>[*:] ……………………<F1><FA><F7>He appears to have<F1>fainted…<F7>
 03_78,Dirk: Argh! What<F1>should I to do?<F7>
-03_79,Dirk: Wh-who are<F1>you?<FA><F7><F1>Were you listening<F1>to us?<xFF>
+03_79,Dirk: Wh-who are<F1>you?<FA><F7><F1>Were you listening<F1>to us?<FF>
 03_7A,"Dirk: Then, get<F1>lost.<F7>"
 03_7B,"Dirk: Yeah? Well,<F1>it doesn['t] matter<FA><F7><F1>who you are.<F1><FA><F7>"
-03_7C,Dirk: Tell me!<F1>What should I do?<FA><F7><F1>Should I do as he<F1>says--take his<FA><F7><F1>canteen and strike<F1>out on my own?<xFF>
-03_7D,Dirk: But you know<F1>what that means.<FA><F7><F1>Leave him to die<F1>and save myself.<FA><F7><F1>Could I really do<F1>that?<xFF><F1>
-03_7E,"Dirk: So I should<F1>carry my bro and<FA><F7><F1>walk toward the<F1>town with him?<FA><F7><F1>There['s] only one<F1>day['s] worth of<FA><F7><F1>water for the both<F1>of us.<FA><F7><F1>We risk not coming<F1>out alive, so<FA><F7><F1>should we?<F1><xFF>"
-03_7F,"Dirk: Then how<F1>about this?<FA><F7><F1>I will leave my<F1>bro here, but I['l]l<FA><F7><F1>leave the canteen<F1>with him. And I['l]l<FA><F7><F1>try to reach town<F1>without any water.<xFF>"
+03_7C,Dirk: Tell me!<F1>What should I do?<FA><F7><F1>Should I do as he<F1>says--take his<FA><F7><F1>canteen and strike<F1>out on my own?<FF>
+03_7D,Dirk: But you know<F1>what that means.<FA><F7><F1>Leave him to die<F1>and save myself.<FA><F7><F1>Could I really do<F1>that?<FF><F1>
+03_7E,"Dirk: So I should<F1>carry my bro and<FA><F7><F1>walk toward the<F1>town with him?<FA><F7><F1>There['s] only one<F1>day['s] worth of<FA><F7><F1>water for the both<F1>of us.<FA><F7><F1>We risk not coming<F1>out alive, so<FA><F7><F1>should we?<F1><FF>"
+03_7F,"Dirk: Then how<F1>about this?<FA><F7><F1>I will leave my<F1>bro here, but I['l]l<FA><F7><F1>leave the canteen<F1>with him. And I['l]l<FA><F7><F1>try to reach town<F1>without any water.<FF>"
 03_80,Dirk: You have to<F1>answer me!<FA><F7><F1>Those three<F1>choices were all I<FA><F7><F1>could think of!<F1><FA><F7>
 03_81,"Dirk: Yeah… It has<F1>to be that way…<FA><F7><F1>But I don['t] know,<F1>I['l]l never know…<FA><F7>"
 03_82,Dirk: Bro!<F1><F7>
@@ -211,20 +211,20 @@
 03_8A,"Hanvil: How true,<F1>your Majesty!<F7>"
 03_8B,"King: Excellent!<F1><FA><F7>Now go, our brave<F1>soldiers!<F7>"
 03_8C,"Hanvil: Yes, your<F1>Majesty!<F7>"
-03_8D,King: Hm? I don['t]<F1>recall your face…<FA><F7><F1>Will you be<F1>joining the force?<xFF>
+03_8D,King: Hm? I don['t]<F1>recall your face…<FA><F7><F1>Will you be<F1>joining the force?<FF>
 03_8E,"King: Ah, you['r]e<F1>not a soldier.<FA><F7><F1>You are dismissed.<F1> <F7>"
 03_8F,King: What!? You<F1>are on the force?<FA><F7><F1>
 03_90,King: Fool! The<F1>others have left!<FA><F7><F1>Hurry after them!<F1><F7>
 03_91,Duke: Urrr…<F1>What to do…<F7>
 03_92,"Duke: Hm? I['v]e not<F1>seen you before…<FA><F7><F1>Ah, no matter.<F1>You['l]l do.<FA><F7><F1>Listen, this is<F1>all hypothetical…<FA><F7>"
-03_93,"Duke: Consider<F1>this example.<FA><F7><F1>Even if the King<F1>is clearly wrong,<FA><F7><F1>must his orders be<F1>followed?<xFF>"
-03_94,Duke: I see… So<F1>the King['s] orders<FA><F7><F1>are absolute and<F1>must be followed.<FA><F7><F1>That is what you<F1>believe?<xFF>
-03_95,"Duke: Hm? The<F1>King['s] words don['t]<FA><F7><F1>carry that much<F1>weight, you say?<FA><F7><F1>His orders can be<F1>ignored if they<FA><F7><F1>are clearly wrong?<F1><xFF>"
-03_96,Duke: So what are<F1>you suggesting?<FA><F7><F1>Just pretend to<F1>listen to the<FA><F7><F1>King?<xFF>
+03_93,"Duke: Consider<F1>this example.<FA><F7><F1>Even if the King<F1>is clearly wrong,<FA><F7><F1>must his orders be<F1>followed?<FF>"
+03_94,Duke: I see… So<F1>the King['s] orders<FA><F7><F1>are absolute and<F1>must be followed.<FA><F7><F1>That is what you<F1>believe?<FF>
+03_95,"Duke: Hm? The<F1>King['s] words don['t]<FA><F7><F1>carry that much<F1>weight, you say?<FA><F7><F1>His orders can be<F1>ignored if they<FA><F7><F1>are clearly wrong?<F1><FF>"
+03_96,Duke: So what are<F1>you suggesting?<FA><F7><F1>Just pretend to<F1>listen to the<FA><F7><F1>King?<FF>
 03_97,"Duke: What are you<F1>trying to tell me?<FA><F7><F1>Fine, I['l]l ask you<F1>once again.<FA><F7><F1>"
-03_98,"Duke: So even if<F1>the King ordered<FA><F7><F1>it, if I believe<F1>it to be wrong, I<FA><F7><F1>can ignore him.<F1>Is that right?<xFF>"
-03_99,"Duke: How people<F1>decide on what is<FA><F7><F1>wrong or right<F1>often depends on<FA><F7><F1>the individual.<F1>In that case, you<FA><F7><F1>would rather make<F1>your own decision<FA><F7><F1>than follow the<F1>King['s] decision.<FA><F7><F1>Is that what you<F1>are saying?<xFF>"
-03_9A,"Duke: Then I<F1>should believe the<FA><F7><F1>King['s] decision to<F1>be correct, and<FA><F7><F1>follow his orders?<F1><xFF>"
+03_98,"Duke: So even if<F1>the King ordered<FA><F7><F1>it, if I believe<F1>it to be wrong, I<FA><F7><F1>can ignore him.<F1>Is that right?<FF>"
+03_99,"Duke: How people<F1>decide on what is<FA><F7><F1>wrong or right<F1>often depends on<FA><F7><F1>the individual.<F1>In that case, you<FA><F7><F1>would rather make<F1>your own decision<FA><F7><F1>than follow the<F1>King['s] decision.<FA><F7><F1>Is that what you<F1>are saying?<FF>"
+03_9A,"Duke: Then I<F1>should believe the<FA><F7><F1>King['s] decision to<F1>be correct, and<FA><F7><F1>follow his orders?<F1><FF>"
 03_9B,"Duke: So you can['t]<F1>act upon your own<FA><F7><F1>decisions, but you<F1>also can['t] obey<FA><F7><F1>the King['s] orders.<F1>That['s] vexing…<FA><F7><F1>Ah, fine. Asking<F1>you was a mistake.<FA><F7>"
 03_9C,Duke: I see…<F1><FA><F7>So that['s] what you<F1>would do…<FA><F7>
 03_9D,"Duke: That['s] quite<F1>wishy-washy, but<FA><F7><F1>sometimes, maybe<F1>that is the right<FA><F7><F1>course of action…<F1><FA><F7>"

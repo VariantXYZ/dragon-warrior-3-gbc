@@ -1,8 +1,8 @@
 ﻿Index,Text
-00_00,[*:] Want my tip on<F1>the outcome of the<FA><F7><F1>next battle?<F1>Just 5G!<xFF><F1>
+00_00,[*:] Want my tip on<F1>the outcome of the<FA><F7><F1>next battle?<F1>Just 5G!<FF><F1>
 00_01,"[*:] Excellent! This<F1>is what I predict!<FA><F7><F1>No doubt about it,<F1>it['s] <&00><&70>!<F7>"
 00_02,[*:] You can['t] part<F1>with a measly 5G?<FA><F7><F1>I suggest you just<F1>go on home.<F7>
-00_03,[*:] Right this way<F1>for the Stadium['s]<FA><F7><F1>best monster<F1>battles!<FA><F7><F1>Pick the winner<F1>and win big bucks!<FA><F7><F1>Tickets are <&13>G<F1>each.<FA><F7><F1>How about it?<xFF><F1>
+00_03,[*:] Right this way<F1>for the Stadium['s]<FA><F7><F1>best monster<F1>battles!<FA><F7><F1>Pick the winner<F1>and win big bucks!<FA><F7><F1>Tickets are <&13>G<F1>each.<FA><F7><F1>How about it?<FF><F1>
 00_04,"[*:] Uh, you don['t]<F1>have enough money.<FA><F7><F1>"
 00_05,[*:] Hah? So you['r]e<F1>not going to bet?<FA><F7><F1>
 00_06,"[*:] Well, come back<F1>another time!<F7>"
@@ -10,9 +10,9 @@
 00_08,"[*:] <&00><&70>, you<F1>say? Thank you!<FA><F7><F1>The battle['s] about<F1>to start!<FA><F7><F1>Go to the Stadium!<F1><F7>"
 00_09,[*:] Hah? So you['r]e<F1>dropping out.<FA><F7><F1>Here['s] what you['v]e<F1>won so far.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
 00_0A,[*:] You were just<F1>unlucky!<FA><F7>
-00_0B,[*:] The next battle['s]<F1>about to start.<FA><F7><F1>Want to place<F1>another bet?<xFF>
+00_0B,[*:] The next battle['s]<F1>about to start.<FA><F7><F1>Want to place<F1>another bet?<FF>
 00_0C,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>
-00_0D,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1>You can bet that<F1>on the next match.<FA><F7><F1>Would you like to<F1>give that a try?<xFF>
+00_0D,[*:] Congratulations!<F1><FA><F7>Your payout is<F1><&17>G!<FA><F7><F1>You can bet that<F1>on the next match.<FA><F7><F1>Would you like to<F1>give that a try?<FF>
 00_0E,"[*:] <&40>, you can['t]<F1>possibly carry any<FA><F7><F1>more gold.<F1><FA><F7>You should deposit<F1>some at the bank.<FA><F7><F1>Well, come back<F1>another time!<F7>"
 00_0F,"[*:] Fine, here['s] your<F1>earnings.<FA><F7><F1><FE><&40> obtained<F1><&17>G.<FA><F7>"
 01_00,<FE><&40> examined the<F1><&25>.<FA><F7>
@@ -318,18 +318,18 @@
 03_00,<FE>Save data has been
 03_01,<FE>lost: Field Log <&3E><FA><F7>
 03_02,<FE>lost: Journal <&3E><FA><F7>
-03_03,<FE>There is a Field<F1>Log of <&00> LV<&3B>.<FA><F7><F1>Resuming from it<F1>deletes the Log.<FA><F7><F1>Resume quest from<F1>the Field Log?<xE7>
+03_03,<FE>There is a Field<F1>Log of <&00> LV<&3B>.<FA><F7><F1>Resuming from it<F1>deletes the Log.<FA><F7><F1>Resume quest from<F1>the Field Log?<E7>
 03_04,<FE>Please enter your<F1>name.<F7>
-03_05,<FE>Journal <&3E> will be<F1>deleted. OK?<xE7>
-03_06,<FE>This Journal holds<F1><FA><F7><&00> LV<&3B>['s]<F1>Field Log.<FA><F7><F1>It will be deleted<F1>with this Journal.<FA><F7><F1>Is that fine?<F1><xFF>
+03_05,<FE>Journal <&3E> will be<F1>deleted. OK?<E7>
+03_06,<FE>This Journal holds<F1><FA><F7><&00> LV<&3B>['s]<F1>Field Log.<FA><F7><F1>It will be deleted<F1>with this Journal.<FA><F7><F1>Is that fine?<F1><FF>
 03_07,<FE>Journal <&3E> deleted.<F1><F7>
 03_08,<FE>The Game Link<F1>Cable isn['t] set.<FA><F7><F1>Please restart the<F1>link process.<F7>
 03_09,<FE>Select the Journal<F1>to be used.
 03_0A,<FE>Select the<F1>Pachisi track.
 03_0B,<FE>Medal Book<F1>deleted.<FA><F7>
-03_0C,<FE>Delete the<F1>Medal Book?<xE7>
+03_0C,<FE>Delete the<F1>Medal Book?<E7>
 03_0D,<FE>You have no<F1>Monster Medals.<F7>
 03_0E,<FE>Incompatible menu<F1>selections.<FA><F7><F1>Please restart the<F1>link process.<F7>
 03_0F,<FE>Awaiting link.<F1>Please wait.<F7>
 03_10,<FE>Medal Book<F1>deleted.<F7>
-03_11,<FE>Journal <&3E> will be<F1>used. OK?<xFF>
+03_11,<FE>Journal <&3E> will be<F1>used. OK?<FF>

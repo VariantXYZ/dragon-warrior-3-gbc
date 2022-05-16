@@ -2,7 +2,7 @@
 00_00,<FE>It was the morning<F1>of <&40>['s] 16th<FA><F7><F1>birthday.<F1><FA><F7>
 00_01,"<EB>[*:] Wake up.<F1><FA><F7>Wake up, dear<F1><&40>.<F7>"
 00_02,"[*:] Hey, isn['t] it<F1><&40>?<FA><F7><F1>Listen, this is<F1>important.<FA><F7><F1>You can memorize<F1>what people say by<FA><F7><F1>pressing SELECT<F1>afterwards.<FA><F7><F1>It works even if<F1>you move a little,<FA><F7><F1>so if something<F1>sounds important,<FA><F7><F1>memorize it with<F1>the SELECT button.<F7>"
-00_03,"<EB>[*:] Can['t] this wait<F1>until the baby is<FA><F7><F1>a little older?<F1><FA><F7><xE3>Ortega: I['m] sorry.<F1>Please understand<FA><F7><F1>peace requires<F1>sacrifice.<FA><F7><F1>For you, and for<F1><&40>['s] sake.<FA><F7><F1>Don['t] worry,<F1>I['l]l be back soon.<F7>"
+00_03,"<EB>[*:] Can['t] this wait<F1>until the baby is<FA><F7><F1>a little older?<F1><FA><F7><E3>Ortega: I['m] sorry.<F1>Please understand<FA><F7><F1>peace requires<F1>sacrifice.<FA><F7><F1>For you, and for<F1><&40>['s] sake.<FA><F7><F1>Don['t] worry,<F1>I['l]l be back soon.<F7>"
 00_04,"<EB>[*:] Wake up.<F1><FA><F7>Wake up, dear<F1><&40>.<FA><F7><F1>Rise and shine,<F1><&40>.<FA><F7><F1>Today is your big<F1>day.<FA><F7><F1>His Majesty, the<F1>King, is going to<FA><F7><F1>give his blessings<F1>for you to depart<FA><F7><F1>on your journey.<F1><F7>"
 00_05,"<EB>[*:] Rise and shine,<F1><&40>.<FA><F7><F1>Today is your big<F1>day.<FA><F7><F1>His Majesty, the<F1>King, is going to<FA><F7><F1>give his blessings<F1>for you to depart<FA><F7><F1>on your journey.<F1><FA><F7>"
 00_06,"<EB>[*:] For this day,<F1>I have tried to<FA><F7><F1>raise you as a<F1>worthy lad.<F7>"
@@ -10,12 +10,12 @@
 00_08,"<EB>[*:] Follow me, my<F1>child.<F7>"
 00_09,"<EB>[*:] Aliahan Castle<F1>is straight up<FA><F7><F1>from here.<F1><FA><F7>Be courteous to<F1>his Majesty.<FA><F7><F1>Now, go on.<F1><F7>"
 00_0A,"<EB>[*:] <&40>, what['s]<F1>wrong?<FA><F7><F1>Go see his<F1>Majesty, the King.<F7>"
-00_0B,"<EB>[*:] <&40>, where are<F1>you going?<FA><F7><F1>Are you leaving<F1>without seeing<FA><F7><F1>the King?<F1><xFF>"
+00_0B,"<EB>[*:] <&40>, where are<F1>you going?<FA><F7><F1>Are you leaving<F1>without seeing<FA><F7><F1>the King?<F1><FF>"
 00_0C,<EB>[*:] I thought so.<F1><FA><F7>Then make sure you<F1>go see the King.<F7>
-00_0D,"<EB>[*:] Is that right?<F1><FA><F7>If you don['t] see<F1>the King today, he<FA><F7><F1>may not see you at<F1>all, <&40>.<FA><F7><F1>Is that what you<F1>really want?<xFF>"
+00_0D,"<EB>[*:] Is that right?<F1><FA><F7>If you don['t] see<F1>the King today, he<FA><F7><F1>may not see you at<F1>all, <&40>.<FA><F7><F1>Is that what you<F1>really want?<FF>"
 00_0E,"<EB>[*:] I see… If that['s]<F1>how you feel, I<FA><F7><F1>won['t] say another<F1>thing about it.<F7>"
-00_0F,"<EB>[*:] I['m] going home,<F1>but I['l]l ask you<FA><F7><F1>one last time.<F1><FA><F7>You['r]e absolutely<F1>certain about not<FA><F7><F1>seeing the King?<F1><xFF>"
-00_10,"<EB>[*:] I see… <&40>, you<F1>are old enough to<FA><F7><F1>think and decide<F1>for yourself.<FA><F7><F1>Do as you like,<F1><&40>.<FA><F7><F1>Just don['t] do<F1>anything reckless.<xFF>"
+00_0F,"<EB>[*:] I['m] going home,<F1>but I['l]l ask you<FA><F7><F1>one last time.<F1><FA><F7>You['r]e absolutely<F1>certain about not<FA><F7><F1>seeing the King?<F1><FF>"
+00_10,"<EB>[*:] I see… <&40>, you<F1>are old enough to<FA><F7><F1>think and decide<F1>for yourself.<FA><F7><F1>Do as you like,<F1><&40>.<FA><F7><F1>Just don['t] do<F1>anything reckless.<FF>"
 00_11,<EB>[*:] Thank you.<F1>That['s] reassuring.<FA><F7><F1>Take care.<F1><F7>
 00_12,<EB>[*:] ……………<F1><FA><F7>I['m] going now.<F1>Take care.<F7>
 00_13,<EB>[*:] This is the town<F1>of Aliahan.<FA><F7><F1>The village of<F1>Reeve is to the<FA><F7><F1>north.<F1><F7>
@@ -26,22 +26,22 @@
 00_18,[*:] Your father was<F1>a brave hero!<F7>
 00_19,"<EB>[*:] When you['r]e in<F1>town, it['s] hard<FA><F7><F1>to believe that<F1>the Demon Lord is<FA><F7><F1>threatening to<F1>destroy the world.<F7>"
 00_1A,"[*:] If you walk for<F1>a while outside of<FA><F7><F1>town, the day will<F1>turn into night.<FA><F7><F1>The night belongs<F1>to monsters.<FA><F7><F1>Be careful.<F1><F7>"
-00_1B,[*:] Have you seen<F1>the island to the<FA><F7><F1>west of Aliahan?<F1><xFF>
+00_1B,[*:] Have you seen<F1>the island to the<FA><F7><F1>west of Aliahan?<F1><FF>
 00_1C,[*:] On that island<F1>is Najimi Tower.<F7>
 00_1D,"[*:] If you walk west<F1>from the Castle,<FA><F7><F1>you can['t] miss it.<F1><F7>"
 00_1E,"[*:] I['m] on guard<F1>duty.<FA><F7><F1>If anything were<F1>to happen, I['m] here<FA><F7><F1>to take care of<F1>it.<FA><F7><F1>Don['t] worry about<F1>us, enjoy your<FA><F7><F1>journey!<F1><F7>"
 00_1F,"<EB>[*:] Welcome home,<F1>dear <&40>.<FA><F7><F1>You must be tired.<F1>I['v]e made your bed."
 00_20,<EB>[*:] Your friends<F1>should rest too.<F7>
 00_21,"<EB>[*:] Good morning,<F1><&40>!<FA><F7><F1>Take care now!<F1><F7>"
-00_22,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1>Did you remember<F1>your manners when<FA><F7><F1>you met the King?<F1><xFF>"
+00_22,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1>Did you remember<F1>your manners when<FA><F7><F1>you met the King?<F1><FF>"
 00_23,"<EB>[*:] That['s] good.<F1><FA><F7>I was worried that<F1>you might be too<FA><F7><F1>nervous and make a<F1>mistake.<FA><F7><F1>I guess I worried<F1>over nothing.<FA><F7><F1>After all, <&40>,<F1>you['r]e not a baby.<FA><F7>"
 00_24,"<EB>[*:] Oh. I see…<F1><FA><F7>Well, it was your<F1>first formal visit<FA><F7><F1>to his Majesty.<F1>A little case of<FA><F7><F1>the nerves can['t]<F1>be helped.<FA><F7>"
 00_25,"<EB>[*:] Anyway, you must<F1>be tired today.<FA><F7><F1>Off to bed you go!<F1><F7>"
-00_26,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1>Did you go see<F1>the King?<xFF>"
+00_26,"<EB>[*:] Welcome home,<F1><&40>.<FA><F7><F1>Did you go see<F1>the King?<FF>"
 00_27,"<EB>[*:] I see… You don['t]<F1>want to see the<FA><F7><F1>King that much?<F1><FA><F7>It can['t] be helped,<F1>then.<FA><F7><F1><&40>, I imagine<F1>you have your own<FA><F7><F1>reasons, so I won['t]<F1>say another thing.<FA><F7>"
 00_28,"<EB>[*:] Wait… <&40>, I<F1>heard the truth.<FA><F7><F1>You haven['t] really<F1>met the King.<FA><F7><F1><&40>, I imagine<F1>you have your own<FA><F7><F1>reasons, so I won['t]<F1>say a thing.<FA><F7><F1>Just be sure to<F1>take care.<FA><F7><F1>Now, go on.<F1><F7>"
 00_29,"<EB>[*:] Oh! After all<F1>that you['d] said,<FA><F7><F1>you did go see the<F1>King.<FA><F7><F1>I['m] so glad that<F1>you did.<FA><F7>"
-00_2A,"<EB>[*:] What['s] the<F1>matter, <&40>?<FA><F7><F1>Is leaving that<F1>difficult for you?<xFF>"
+00_2A,"<EB>[*:] What['s] the<F1>matter, <&40>?<FA><F7><F1>Is leaving that<F1>difficult for you?<FF>"
 00_2B,"<EB>[*:] I see… As your<F1>mom, I would also<FA><F7><F1>like to have you<F1>forever by my<FA><F7><F1>side. But a child<F1>has to leave home<FA><F7><F1>one day.<F1>Now, go on.<FA><F7><F1>Just like your<F1>brave father…<F7>"
 00_2C,"<EB>[*:] Yes! The blood<F1>of Ortega, the<FA><F7><F1>brave hero, is in<F1>you.<FA><F7><F1>Now, go on.<F1><FA><F7>As bravely as your<F1>father did…<F7>"
 00_2D,"<EB>[*:] Oh! But…<F1>My, my dear <&40>…<FA><F7><F1>But it['s] not like<F1>my husband who was<FA><F7><F1>burned up in a<F1>volcano!<FA><F7><F1>Please help <&40>!<F1>My only child…<F7>"
@@ -73,7 +73,7 @@
 00_47,[*:] I enlisted as a<F1>soldier because I<FA><F7><F1>idolized the great<F1>hero Ortega.<FA><F7><F1>But Ortega failed<F1>to return from<FA><F7><F1>battle…<F1><FA><F7>But I refuse to<F1>believe the hero<FA><F7><F1>could have died so<F1>easily.<FA><F7><F1>I['m] convinced he['s]<F1>alive somewhere!<F7>
 00_48,[*:] Magic Bomb is an<F1>explosive device.<FA><F7><F1>I hear it['s] used to<F1>smash walls.
 00_49,[*:] Oh! You know<F1>that? Excuse me!<F7>
-00_4A,<EB>[*:] Oh! You came all<F1>the way out here<FA><F7><F1>just to see me?<F1><xFF>
+00_4A,<EB>[*:] Oh! You came all<F1>the way out here<FA><F7><F1>just to see me?<F1><FF>
 00_4B,<EB>[*:] Oh… You just<F1>happened to come.<FA><F7><F1>I shouldn['t] have<F1>been impressed…<F7>
 00_4C,"<EB>[*:] You['r]e lying, but<F1>it['s] nice of you.<FA><F7><F1>So here['s] a useful<F1>tip.<FA><F7><F1>In the past, there<F1>was a Traveler['s]<FA><F7><F1>Gate in the far<F1>east of this land.<FA><F7><F1>I hear it['s] sealed<F1>now, though.<F7>"
 00_4D,<EB>[*:] The hero Ortega<F1>is said to have<FA><F7><F1>left from a Gate<F1>at the far east of<FA><F7><F1>this continent.<F1>I wonder what sort<FA><F7><F1>of a world awaits<F1>beyond the<FA><F7><F1>Traveler['s] Gate?<F1>It['s] so exciting.<F7>
@@ -124,14 +124,14 @@
 00_7A,"[*:] Ah, welcome to<F1>the Medal Manor.<FA><F7><F1>The Master may not<F1>look like much,<FA><F7><F1>but he is a great,<F1>great man.<F7>"
 00_7B,"[*:] I can['t] explain<F1>it, but when I met<FA><F7><F1>the Master, I felt<F1>I had to protect<FA><F7><F1>him as if he were<F1>a king.<F7>"
 00_7C,<FE>What['s] this? The<F1>Medal Prize List?<FA><F7>
-01_00,"[*:] Yo, you['r]e that<F1>fella I met in the<FA><F7><F1>tavern today, yes,<F1>you are!<xFF>"
-01_01,"[*:] Yo, you['r]e that<F1>sweetie I met in<FA><F7><F1>the tavern today,<F1>yes, you are!<xFF>"
+01_00,"[*:] Yo, you['r]e that<F1>fella I met in the<FA><F7><F1>tavern today, yes,<F1>you are!<FF>"
+01_01,"[*:] Yo, you['r]e that<F1>sweetie I met in<FA><F7><F1>the tavern today,<F1>yes, you are!<FF>"
 01_02,"[*:] It don['t] matter<F1>either way anyway.<FA><F7><F1>Chilled ale on a<F1>moonlit night is<FA><F7><F1>about as good as<F1>it gets, hic!<F7>"
 01_03,[*:] We['r]e closing<F1>up.<FA><F7><F1>Sleep it off and<F1>see you tomorrow!<F7>
 01_04,"<EB>[*:] My, you were so<F1>late!<FA><F7><F1>But I['m] glad to see<F1>that you['r]e safe.<FA><F7><F1>Quick, let['s] get<F1>you inside.<F7>"
 01_05,[*:] Ortega! My son…<F1>Why did you… Zzz…<F7>
 01_06,[*:] Zzz…<F1><F7>
-01_07,[*:] Oh? Are you<F1>staying here too?<xFF>
+01_07,[*:] Oh? Are you<F1>staying here too?<FF>
 01_08,"[*:] Oh, that['s] right.<F1><FA><F7>I met you upstairs<F1>in the tavern.<FA><F7><F1>Isn['t] the moonlight<F1>beautiful again?<F7>"
 01_09,[*:] That['s] odd.<F1><FA><F7>I wasn['t] told that<F1>I had to share…<F7>
 01_0A,[*:] But… But… We<F1>mustn['t]… …Blush…<F7>
@@ -147,15 +147,15 @@
 01_14,"[*:] Movement in or<F1>out of the Castle<FA><F7><F1>is forbidden at<F1>night, sorry.<FA><F7><F1>I must ask you to<F1>leave for now.<F7>"
 02_00,<FE>You have no<F1>monster medals.<FA><F7>
 02_01,<FE>Choose the medals<F1>to be given.<F7>
-02_02,<FE>You have only one<F1>of this kind of<FA><F7><F1>monster medal.<F1>Give it away?<xFF>
-02_03,<FE>Give this monster<F1>medal away?<xFF>
-02_04,<FE>No medal to be<F1>given away. OK?<xFF>
+02_02,<FE>You have only one<F1>of this kind of<FA><F7><F1>monster medal.<F1>Give it away?<FF>
+02_03,<FE>Give this monster<F1>medal away?<FF>
+02_04,<FE>No medal to be<F1>given away. OK?<FF>
 02_05,<FE>Link standby.<F1>Please wait.
 02_06,<FE>There is no medal<F1>to be given away.<F7>
 02_07,<FE>You have not<F1>received a medal.<F7>
 02_08,<FE>Monster medal<F1>trade completed.<FA><F7><F1>Closing link.<F1><F7>
-02_09,<FE>Quit trading<F1>monster medals?<xFF>
+02_09,<FE>Quit trading<F1>monster medals?<FF>
 02_0A,<FE>Link standby.<F1>Please wait.
 02_0B,
 02_0C,<FE>Link error. Please<F1>start again.<FA><F7>
-02_0D,<FE>Cancel?<F1><xE7>
+02_0D,<FE>Cancel?<F1><E7>

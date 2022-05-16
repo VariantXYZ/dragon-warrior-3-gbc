@@ -29,8 +29,24 @@ table = utils.merge_dicts([
             tilesets.get_tileset("en", override_offset=0x0),
         ])
 
+# E1-EF are sound effects or modifiers
+table[0xE1] = "<E1>"
+table[0xE2] = "<E2>"
+table[0xE3] = "<E3>"
+table[0xE4] = "<E4>"
+table[0xE5] = "<E5>"
+table[0xE6] = "<E6>"
+table[0xE7] = "<E7>"
+table[0xE8] = SpecialCharacter("j") # E8 XX loads jingle XX
+table[0xE9] = SpecialCharacter("e") # E9 XX loads sound effect XX
 table[0xEA] = "<EA>"
 table[0xEB] = "<EB>"
+table[0xEC] = "<EC>"
+table[0xED] = "<ED>"
+table[0xEE] = "<EE>"
+table[0xEF] = "<EF>"
+
+# F0-FF are the 
 table[0xF0] = SpecialCharacter(None, end = True, bts = 0, do_print = False) # F0 is terminator
 table[0xF1] = "<F1>" # F1 is auto-newline
 table[0xF2] = "<F2>" # Unknown
@@ -43,9 +59,10 @@ table[0xF8] = "<F8>" # Unknown
 table[0xF9] = SpecialCharacter("&") # F9 XX loads string from [D480 + XX]
 table[0xFA] = "<FA>" # Show down arrow
 table[0xFB] = "<FB>" # Unknown
-table[0xFC] = SpecialCharacter("*") # Delay text by a number of frames
+table[0xFC] = SpecialCharacter("*") # FC XX pauses text for XX frames
 table[0xFD] = "<FD>" # Unknown
 table[0xFE] = "<FE>" # Start of dialog? Does not appear every time
+table[0xFF] = "<FF>" # Unknown
 
 rom_filename = "baserom_en.gbc"
 rom_version = "en"

@@ -4,7 +4,7 @@
 00_02,[*:] Please don['t] tell<F1>the Queen that I<FA><F7><F1>sneaked out of<F1>work to be here.<F7>
 00_03,"[*:] This is strictly<F1>confidential, but<FA><F7><F1>the Queen has come<F1>here just once on <FA><F7><F1>the sly.<F1><F7>"
 00_04,[*:] I['m] not here to<F1>gamble.<FA><F7><F1>I['m] studying how<F1>monsters battle.<F7>
-00_05,"[*:] Hey, do you know<F1>who won the<FA><F7><F1>last battle?<F1><xFF>"
+00_05,"[*:] Hey, do you know<F1>who won the<FA><F7><F1>last battle?<F1><FF>"
 00_06,[*:] Wait! Don['t] say<F1>it.<FA><F7><F1>I didn['t] bet<F1>anyway…<F7>
 00_07,[*:] What is it?<F1><FA><F7>I['m] not giving my<F1>spot up!<F7>
 00_08,"[*:] Welcome to Isis,<F1>the kingdom in the<FA><F7><F1>desert.<F1><FA><F7>It was founded by<F1>the late Pharaoh.<F7>"
@@ -17,7 +17,7 @@
 00_0F,<EB>[*:] Would you like<F1>some cold water?<FA><F7><F1>Water is our<F1>treasure.<F7>
 00_10,"[*:] Glug, glug…<F1>Whew! Delicious!<FA><F7>"
 00_11,"<F1>[*:] The desert left<F1>me parched.<FA><F7><F1>It['s] also full of<F1>horrid monsters.<FA><F7><F1>But my, the Queen<F1>is beautiful.<FA><F7><F1>It was worth the <F1>effort to come!<F7>"
-00_12,"[*:] Travelers, would<F1>you like to hear<FA><F7><F1>my song?<F1><xFF>"
+00_12,"[*:] Travelers, would<F1>you like to hear<FA><F7><F1>my song?<F1><FF>"
 00_13,[*:] Lalala ~ The<F1>Starry Bracelet<FA><F7><F1>enhances agility<F1>delightfully lala!<F7>
 00_14,<FE>[*:] …………<F1><F7>
 00_15,<EB>[*:] My husband runs<F1>a weapon and armor<FA><F7><F1>shop in this town.<F1><F7>
@@ -28,8 +28,8 @@
 01_04,<EB>[*:] Aiyeeh!<F1>Please stay away!<FA><F7><F1>I['m] bathing on the<F1>sly!<F7>
 01_05,<EB>[*:] I['m] bathing<F1>because I was all<FA><F7><F1>gritty with sand.<F1><FA><F7>But it['s] so cold<F1>at night in the<FA><F7><F1>desert…<F1>Hah-choo!<F7>
 01_06,"[*:] I am Sokras.<F1><FA><F7>I['m] waiting for<F1>dawn to come.<FA><F7><F1>Oh, I wish it<F1>would be morning<FA><F7><F1>soon…<F1><F7>"
-01_07,[*:] Oh? Did you want<F1>some weapons?<xFF><F1>
-01_08,[*:] Or are you after<F1>some armor?<xFF><F1>
+01_07,[*:] Oh? Did you want<F1>some weapons?<FF><F1>
+01_08,[*:] Or are you after<F1>some armor?<FF><F1>
 01_09,[*:] Then you should<F1>come to my shop in<FA><F7><F1>the daytime.<F1><F7>
 01_0A,"[*:] Ah, I know!<F1><FA><F7>You want the<F1>Starry Bracelet!<FA><F7><F1>That['s] supposed to<F1>be safely stored<FA><F7><F1>in the Castle.<F1><F7>"
 02_00,[*:] Welcome to Isis<F1>Castle.<F7>
@@ -59,9 +59,9 @@
 02_18,<EB>[*:] Our Queen has<F1>nothing to fear.<FA><F7><F1>Even the Demon<F1>Lord will grovel<FA><F7><F1>before her beauty…<F1><F7>
 02_19,<EB>[*:] We['r]e the Queen['s]<F1>handmaidens.<FA><F7><F1>It['s] a job coveted<F1>by every woman in<FA><F7><F1>Isis.<F1><F7>
 02_1A,<EB>[*:] This is the<F1>Queen['s] chamber.<FA><F7><F1>You must not enter<F1>without cause.<F7>
-02_1B,<EA>[*:] Is it you who<F1>disturbs my sleep?<xFF>
+02_1B,<EA>[*:] Is it you who<F1>disturbs my sleep?<FF>
 02_1C,<EA>[*:] It wasn['t] you?<F1><FA><F7>I apologize for my<F1>rash accusation.<F7>
-02_1D,<EA>[*:] Then was it you<F1>who took what lay<FA><F7><F1>in the chest?<F1><xFF>
+02_1D,<EA>[*:] Then was it you<F1>who took what lay<FA><F7><F1>in the chest?<F1><FF>
 02_1E,"<EA>[*:] Since you['r]e<F1>honest, you can<FA><F7><F1>have it. It['s] of<F1>no use to me.<FA><F7><F1>It['s] yours.<F1>Farewell…<F7>"
 03_00,<EA>[*:] Kikiki!<F1><FA><F7>I am the Demon<F1>Lord['s] familiar!<FA><F7><F1>Renounce your<F1>pathetic struggle<FA><F7><F1>against his great<F1>lordship and go<FA><F7><F1>home to Aliahan.<F1><FA><F7>Or face a cruel<F1>and pitiless end…<FA><F7><F1>Kikikiki…<F1><FA><F7>
 03_01,<EB>[*:] ……Meeow?<F1><F7>
@@ -87,7 +87,7 @@
 04_00,<EB>[*:] This is Portoga.<F7>
 04_01,"[*:] Lovers gather<F1>here to talk.<FA><F7><F1>There was one<F1>couple who came<FA><F7><F1>often in the past.<F1><FA><F7>Where are they<F1>now, I wonder?<F7>"
 04_02,[*:] The King loves<F1>Pepper.<FA><F7><F1>It can be obtained<F1>quite cheaply in a<FA><F7><F1>country far to the<F1>east…<FA><F7><F1>But few would make<F1>the treacherous<FA><F7><F1>trip to the east<F1>just for Pepper.
-04_03,[*:] Hah? You brought<F1>Pepper back?<xFF>
+04_03,[*:] Hah? You brought<F1>Pepper back?<FF>
 04_04,[*:] Good! The King<F1>will be delighted.<F7>
 04_05,[*:] Don['t] lie.<F1><F7>
 04_06,<EB>[*:] I would like to<F1>try Pepper once<FA><F7><F1>before I die.<F1><F7>
@@ -98,7 +98,7 @@
 04_0B,"<EB>[*:] I am Sabrina.<F1>I pine for my love<FA><F7><F1>all day like this.<F1><FA><F7>But when night<F1>comes…<FA><F7><F1>I['m] afraid of the<F1>night…<FA><F7><F1>Oh, my Carlos…<F1><F7>"
 04_0C,"[*:] There once was<F1>a brave swordsman<FA><F7><F1>and his beautiful<F1>lover.<FA><F7><F1>They often gazed<F1>at the sea and<FA><F7><F1>dreamt of a world<F1>at peace.<FA><F7><F1>But, the horrible<F1>Demon Lord Baramos<FA><F7><F1>cast a curse on<F1>the lovers.<FA><F7><F1>And so the two of<F1>them…<FA><F7><F1>I can['t] go on.<F1>It['s] tragic.<F7>"
 05_00,[*:] Zzz… Zzz…<F7>
-05_01,"[*:] Oh, my beloved<F1>Sabrina…<FA><F7><F1>I can no longer<F1>see her, let alone<FA><F7><F1>speak to her…<F1><FA><F7>Do you know<F1>Sabrina?<xFF>"
+05_01,"[*:] Oh, my beloved<F1>Sabrina…<FA><F7><F1>I can no longer<F1>see her, let alone<FA><F7><F1>speak to her…<F1><FA><F7>Do you know<F1>Sabrina?<FF>"
 05_02,[*:] Then please tell<F1>her this…<FA><F7><F1>Carlos loves her<F1>still.<F7>
 05_03,"[*:] Oh…<F1><FA><F7>Oh, is my Sabrina<F1>still well?<F7>"
 05_04,[*:] Zzz…<F7>
@@ -111,7 +111,7 @@
 06_01,"[*:] Although the<F1>kingdom is small,<FA><F7><F1>our King is a<F1>great man.<FA><F7><F1>Please show the<F1>utmost respect.<F7>"
 06_02,"[*:] In the east, I<F1>hear that there is<FA><F7><F1>a temple that lets<F1>you change<FA><F7><F1>classes. I wouldn['t]<F1>mind going there.<F7>"
 06_03,"<EB>[*:] The others say<F1>they want to go to<FA><F7><F1>the country in the<F1>east, but not me.<FA><F7><F1>I would be too<F1>frightened.<FA><F7><F1>I thought only<F1>savages lived in<FA><F7><F1>the east.<F1><F7>"
-06_04,[*:] I speak the<F1>truth.<FA><F7><F1>Would you like to<F1>hear the truth?<xFF>
+06_04,[*:] I speak the<F1>truth.<FA><F7><F1>Would you like to<F1>hear the truth?<FF>
 06_05,[*:] What goes around<F1>comes around.<FA><F7><F1>That['s] the truth!<F1>Fwahahahah!<F7>
 06_06,[*:] That['s] too bad.<F1><F7>
 06_07,"[*:] Many struck out<F1>for the east, and<FA><F7><F1>many died.<F1>Be careful.<F7>"

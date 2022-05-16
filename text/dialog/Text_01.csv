@@ -9,35 +9,35 @@
 00_07,<EB>[*:] Who should I<F1>call?<FA><F7><F1>
 00_08,"<EB>[*:] Oh, fine.<F1>Nevermind then.<FA><F7><F1>"
 00_09,<EB>[*:] You want <&09> to<F1>join you. Fine.<FA><F7><F1><&09>!<F1><&40>['s] calling!<FA><F7><F1><FE><&09> joined the<F1>party!<FA><F7><F1>
-00_0A,<EB>[*:] Should I call<F1>anyone else?<xFF>
+00_0A,<EB>[*:] Should I call<F1>anyone else?<FF>
 00_0B,"<EB>[*:] Dismiss? Who?<F1><&40>, you['r]e alone<FA><F7><F1>now, aren['t] you?<F1><FA><F7>"
 00_0C,<EB>[*:] Who['s] going to<F1>be staying here?
 00_0D,<EB>[*:] Surely you must<F1>be joking.<FA><F7><F1>The dead can['t]<F1>travel alone.<FA><F7>
 00_0E,"<EB>[*:] Oh, no. <&09><F1>can['t] stay here.<FA><F7><F1>Who will lead your<F1>party?<FA><F7>"
-00_0F,<EB>[*:] You['r]e leaving<F1><&09> like that?<FA><F7><F1>How terrible of<F1>you!<FA><F7><F1>Do you have the<F1>money to help?<xFF>
-00_10,<EB>[*:] <&09> is staying<F1>here with us?<xFF>
+00_0F,<EB>[*:] You['r]e leaving<F1><&09> like that?<FA><F7><F1>How terrible of<F1>you!<FA><F7><F1>Do you have the<F1>money to help?<FF>
+00_10,<EB>[*:] <&09> is staying<F1>here with us?<FF>
 00_11,<EB>[*:] Then see that<F1><&09> gets help!<FA><F7><F1>The poor thing…<F1><FA><F7>
 00_12,"<EB>[*:] Oh. It can['t] be<F1>avoided, I guess.<FA><F7><F1>We['l]l hold <&09>['s]<F1>coffin for you.<FA><F7>"
 00_13,"<EB>[*:] <&09>, you can<F1>rest for a while.<FA><F7>"
 00_14,<EB>[*:] I['l]l put all the<F1>items in that <&00><FA><F7><F1>except for what['s]<F1>already equipped.<FA><F7>
 00_15,<EB>[*:] I have to do<F1>that.<FA><F7><F1>Some people forget<F1>who was holding<FA><F7><F1>important items.<F1><FA><F7>
-00_16,<EB>[*:] Do you want to<F1>leave anyone else?<xFF>
+00_16,<EB>[*:] Do you want to<F1>leave anyone else?<FF>
 00_17,<EB>[*:] None of your<F1>friends are here.<FA><F7>
 00_18,"[*:] Hello, I am<F1>the registrar of<FA><F7><F1>adventurers.<F1><FA><F7>"
 00_19,"[*:] I will find you<F1>companions, and<FA><F7><F1>register them in<F1>the roster.<FA><F7><F1>Once registered,<F1>they can be called<FA><F7><F1>to Ruida['s] Tavern.<F1><F7>"
-00_1A,Should I register<F1>someone new?<xFF>
+00_1A,Should I register<F1>someone new?<FF>
 00_1B,[*:] Come see me if<F1>you need to find<FA><F7><F1>new companions for<F1>your journeys.<F7>
-00_1C,[*:] I can['t] register<F1>another person.<FA><F7><F1>Will you reduce<F1>your roster?<xFF>
+00_1C,[*:] I can['t] register<F1>another person.<FA><F7><F1>Will you reduce<F1>your roster?<FF>
 00_1D,[*:] Have you changed<F1>your mind?<FA><F7><F1>That is probably<F1>for the best.<FA><F7>
 00_1E,[*:] Fine. What sort<F1>of person?<FA><F7>
 00_1F,[*:] Who should be<F1>deleted?<FA><F7><F1>
 00_20,[*:] So you won['t]?<F1>That['s] okay.<FA><F7>
 00_21,[*:] Pardon? <&09>?<F1>That['s] ridiculous.<FA><F7><F1>Removing the hero<F1>would be a sin!<FA><F7>
-00_22,[*:] Oh? That person<F1>is registered.<FA><F7><F1>Should I look for<F1>someone else?<xFF><F1>
-00_23,[*:] Remove <&09> from<F1>the roster?<FA><F7><F1>You won['t] ever see<F1>this person again.<FA><F7><F1>Are you sure?<F1><xFF>
+00_22,[*:] Oh? That person<F1>is registered.<FA><F7><F1>Should I look for<F1>someone else?<FF><F1>
+00_23,[*:] Remove <&09> from<F1>the roster?<FA><F7><F1>You won['t] ever see<F1>this person again.<FA><F7><F1>Are you sure?<F1><FF>
 00_24,"[*:] With regrets,<F1>I['v]e removed <&09>.<FA><F7><F1><&09>['s] belongings<F1>are in that <&00>.<FA><F7><F1>You can register<F1>someone new now.<FA><F7>"
 00_25,[*:] Loto!? That['s]<F1>blasphemous!<FA><F7><F1>Loto means one<F1>close to the gods.<FA><F7><F1>Only a true hero<F1>is permitted to<FA><F7><F1>claim that name.<F1>Even I can['t] find<FA><F7><F1>that person.<F1><F7>
-00_26,[*:] I['v]e found some-<F1>one who may meet<FA><F7><F1>your requirements.<F1>Well?<xFF>
+00_26,[*:] I['v]e found some-<F1>one who may meet<FA><F7><F1>your requirements.<F1>Well?<FF>
 00_27,"[*:] <&40>, the King<F1>has provided your<FA><F7><F1>companion with a<F1>gift of seeds.<FA><F7><F1>There are five<F1>kinds of seeds<FA><F7><F1>including STRseed<F1>and AGLseed.<FA><F7><F1>Your companion can<F1>be given several.<FA><F7><F1><&40>, you can pick<F1>the seeds, or I<FA><F7><F1>could select them<F1>randomly for you.<FA><F7>"
 00_28,[*:] How do you want<F1>to give the seeds<FA><F7><F1>to <&09>?<F1>
 00_29,[*:] The number of<F1>seeds left is <&1E>.<FA><F7>
@@ -47,13 +47,13 @@
 00_2D,"[*:] Ah, quite the<F1><&20> type!<FA><F7>"
 00_2E,"[*:] Ah, quite the<F1><&20> type!<FA><F7>"
 00_2F,"[*:] Ah, quite the<F1><&20> type!<FA><F7>"
-00_30,"[*:] Well, <&09> can<F1>be registered.<FA><F7><F1>Should I do so?<F1><xFF>"
+00_30,"[*:] Well, <&09> can<F1>be registered.<FA><F7><F1>Should I do so?<F1><FF>"
 00_31,[*:] There. I['m] done<F1>registering.<FA><F7><F1>You can meet this<F1>person downstairs<FA><F7><F1>in Ruida['s] Tavern.<F1><FA><F7>
 00_32,[*:] Oh. That['s] too<F1>bad.<FA><F7>
-00_33,[*:] Would you like<F1>to register some<FA><F7><F1>other people?<F1><xFF>
+00_33,[*:] Would you like<F1>to register some<FA><F7><F1>other people?<F1><FF>
 00_34,"[*:] Ah, quite the<F1><&20> type!<FA><F7>"
-00_35,[*:] Would you like<F1>to register some<FA><F7><F1>other people?<F1><xFF>
-00_36,"[*:] I['m] sorry, but I<F1>can['t] search for<FA><F7><F1>someone by that<F1>name.<FA><F7><F1>Should I look for<F1>someone else?<xFF><F1>"
+00_35,[*:] Would you like<F1>to register some<FA><F7><F1>other people?<F1><FF>
+00_36,"[*:] I['m] sorry, but I<F1>can['t] search for<FA><F7><F1>someone by that<F1>name.<FA><F7><F1>Should I look for<F1>someone else?<FF><F1>"
 01_00,"[*:] I can offer full<F1>protection of your<FA><F7><F1>hard-earned money<F1>from monsters.<FA><F7><F1>Withdrawals and<F1>deposits may be<FA><F7><F1>made in groups of<F1>1000G.<FA><F7><F1>Naturally, there<F1>is no cost to you!<FA><F7><F1><&40>, how may I<F1>serve you?<FA><F7>"
 01_01,[*:] Welcome to the<F1>Gold Bank of<FA><F7><F1>Loving Trust!<F1><FA><F7>
 01_02,"[*:] <&40>, you have<F1>saved <&09>000G.<FA><F7><F1>How may I serve<F1>you?"
@@ -231,14 +231,14 @@
 02_9D,
 02_9E,
 02_9F,
-03_00,<&00> appears!<F1><xED>
-03_01,<&00> appears!<F1><&11> appears!<xED>
-03_02,But <&00><F1>looks stunned!<xED>
-03_03,But the monsters<F1>look stunned!<xED>
-03_04,But the monsters<F1>look stunned!<xED>
-03_05,<&00><F1>suddenly attack!<xED>
-03_06,Monsters suddenly<F1>attack!<xED>
-03_07,Monsters suddenly<F1>attack!<xED>
+03_00,<&00> appears!<F1><ED>
+03_01,<&00> appears!<F1><&11> appears!<ED>
+03_02,But <&00><F1>looks stunned!<ED>
+03_03,But the monsters<F1>look stunned!<ED>
+03_04,But the monsters<F1>look stunned!<ED>
+03_05,<&00><F1>suddenly attack!<ED>
+03_06,Monsters suddenly<F1>attack!<ED>
+03_07,Monsters suddenly<F1>attack!<ED>
 03_08,No battle spells<F1>have been learned!<F7>
 03_09,Not enough MP!<F1><F7>
 03_0A,<&40> has no items!<F1><F7>
@@ -247,25 +247,25 @@
 03_0D,<&40> can['t] equip<F1>the <&00>.<F7>
 03_0E,The <&00><F1>clings on!<F7>
 03_0F,The <&00> is<F1>cursed!<F7>
-03_10,<&00> fled!<F1><xE9>T<F7>
-03_11,<&00>['s] party fled!<F1><xE9>T<F7>
-03_12,<&00> fled!<F1><xE9>T<xED><F2>But the escape<F1>route was cut off!<xED>
-03_13,<&00>['s] party fled!<F1><xE9>T<xED><F2>But the escape<F1>route was cut off!<xED>
+03_10,<&00> fled!<F1><e1D><F7>
+03_11,<&00>['s] party fled!<F1><e1D><F7>
+03_12,<&00> fled!<F1><e1D><ED><F2>But the escape<F1>route was cut off!<ED>
+03_13,<&00>['s] party fled!<F1><e1D><ED><F2>But the escape<F1>route was cut off!<ED>
 03_14,<&00>['s] party was<F1>wiped out!<FA><F7>
-03_15,<&09> was<F1>defeated!<xE8>f<FA><F7>
-03_16,The monsters were<F1>defeated!<xE8>f<FA><F7>
-03_17,The monsters were<F1>defeated!<xE8>f<FA><F7>
-03_18,<&09> left<F1>the scene.<xE8>f<FA><F7>
-03_19,The monsters left<F1>the scene.<xE8>f<FA><F7>
-03_1A,The monsters left<F1>the scene.<xE8>f<FA><F7>
-03_1B,<&09> fled!<F1><xE8>f<F7>
-03_1C,The monsters fled!<F1><xE8>f<F7>
-03_1D,The monsters fled!<F1><xE8>f<F7>
+03_15,<&09> was<F1>defeated!<j29><FA><F7>
+03_16,The monsters were<F1>defeated!<j29><FA><F7>
+03_17,The monsters were<F1>defeated!<j29><FA><F7>
+03_18,<&09> left<F1>the scene.<j29><FA><F7>
+03_19,The monsters left<F1>the scene.<j29><FA><F7>
+03_1A,The monsters left<F1>the scene.<j29><FA><F7>
+03_1B,<&09> fled!<F1><j29><F7>
+03_1C,The monsters fled!<F1><j29><F7>
+03_1D,The monsters fled!<F1><j29><F7>
 03_1E,<&00> earned <&12><F1>EX points!<FA>
 03_1F,Each earned <&12><F1>EX points!<FA>
 03_20,Obtained <&12>G!<F1>
 03_21,<&09> found an<F1>extra <&12>G!<F7>
-03_22,<&40> was promoted<F1>to Level <&00> !<FA><xE8>e<F7>
+03_22,<&40> was promoted<F1>to Level <&00> !<FA><j28><F7>
 03_23,Max.HP rose by <&03>!<F1>Max.MP rose by <&06>!<FA><F7>
 03_24,Max.HP rose by <&03>!<F1><FA><F7>
 03_25,Max.MP rose by <&06>!<F1><FA><F7>
@@ -273,230 +273,230 @@
 03_27,STR up <&09> AGL up <&0F><F1>VIT up <&0C> INT up <&12><FA><F7><F2>LUCK up <&15><F1>
 03_28,<&40> learned<F1><&00>!<FA>
 03_29,@03_28
-03_2A,<&00> had a<F1>treasure chest!<FA><F7><F2><&11> pried open<F1>the chest.<xE9>E<FA><F7>
+03_2A,<&00> had a<F1>treasure chest!<FA><F7><F2><&11> pried open<F1>the chest.<e0E><FA><F7>
 03_2B,@03_2A
 03_2C,The <&1A> was<F1>inside!<FA><F7><F2><&11> obtained the<F1><&1A>!<F7>
 03_2D,Obtained <&2D>G!<F1><F7>
 03_2E,<&00> had stolen<F1>the <&09>!<F7>
 03_2F,Obtained the<F1><&00> medal!<F7>
-03_30,<&00><F1>attacked!<xED>
-03_31,<&00> attacked the<F1>party!<xED>
-03_32,Critical hit!<F1><xE9><x65><xED>
-03_33,A brutal hit!<F1><xE9><x65><xED>
-03_34,<&13> quickly<F1>dodged the attack!<xED>
-03_35,<&13> nailed<F1><&00>!<xE9>s<xED>
-03_36,<&13> was<F1>defeated!<xED>
-03_37,<&13> took<F1><&26> damage!<xED>
-03_38,Miss! <&13><F1>was unharmed!<xED>
-03_39,<&13> took<F1><&26> damage!<xED>
-03_3A,Miss! <&13><F1>avoided damage!<xED>
-03_3B,<&13> died!<F1><xED>
-03_3C,<&13> was<F1>defeated!<xED>
-03_3D,<&13> fell<F1>asleep!<xED>
-03_3E,<&13> was<F1>poisoned!<xED>
-03_3F,<&13> is<F1>paralyzed!<xED>
-03_40,<&13><F1>woke up!<xED>
-03_41,But <&13> didn['t]<F1>wake up!<xED>
-03_42,<&13> snapped<F1>out of confusion!<xED>
-03_43,But <&13> remains<F1>confused!<xED>
-03_44,But <&13> was<F1>awake already!<xED>
-03_45,<&00> cast<F1><&29>!<xE9>S<xED>
-03_46,But there weren['t]<F1>enough MP!<xED>
-03_47,But <&13> was<F1>unaffected!<xED>
-03_48,<&13> was<F1>instantly slain!<xE9>s<xED>
-03_49,<&13> didn['t]<F1>die!<xED>
-03_4A,LifeStone broke<F1>in <&13>['s] place!<xED>
-03_4B,<&13><F1>exploded!<xED>
-03_4C,<&00> dropped<F1>dead!<xED>
-03_4D,<&13> faded<F1>into the light!<xED>
-03_4E,<&13> was<F1>blown far away!<xED>
-03_4F,<&13> was<F1>blown far away!<xED>
-03_50,<&13> was<F1>stripped of <&26>MP!<xED>
-03_51,<&13> was<F1>stripped of <&26>MP!<xED>
-03_52,<&13>['s] AGL<F1>was cut by <&26>!<xED>
-03_53,<&13>['s] AGL was<F1>reduced by <&26>!<xED>
-03_54,<&13>['s] wound<F1>was healed!<xED>
-03_55,<&13> came<F1>back to life!<xED>
-03_56,<&13> did not<F1>come back to life!<xED>
-03_57,But nothing<F1>happened!<xED>
-03_58,<&13> was put<F1>to sleep!<xED>
-03_59,<&13> didn['t]<F1>fall asleep!<xED>
-03_5A,<&00> is<F1>asleep.<xED>
-03_5B,<&13> can['t]<F1>use spells now!<xED>
-03_5C,<&13>['s] spells<F1>were sealed!<xED>
-03_5D,Spells can['t] be<F1>cast!<xED>
-03_5E,<&13> is lost<F1>in a daze!<xED>
-03_5F,<&13>['s] DEF<F1>fell by <&26>!<xED>
-03_60,<&13>['s] DEF was<F1>reduced by <&26>!<xED>
-03_61,<&13>['s] DEF<F1>rose by <&26>!<xED>
-03_62,<&13>['s] AGL<F1>rose by <&26>!<xED>
-03_63,<&13> became<F1>confused!<xED>
-03_64,<&13> became<F1>more confused!<xED>
-03_65,<&00> is<F1>confused!<xED>
-03_66,<&00> assumed<F1><&13>['s] form!<xED>
-03_67,But it looks<F1>unchanged.<xED>
-03_68,<&13> turned<F1>back to normal!<xED>
-03_69,<&00> turned<F1>into a dragon!<xED>
-03_6A,<&00>['s] party<F1>turned into iron!<xED>
-03_6B,<&00>['s] party<F1>can['t] be harmed!<xED>
-03_6C,<&29>['s] effect<F1>wore off!<xED>
-03_6D,<&00> formed<F1>a wall of light!<xED>
-03_6E,The wall of light<F1>bounced the spell!<xED>
-03_6F,<&00>['s] party<F1>became cloaked!<xED>
-03_70,<&13>['s] ATK<F1>increased!<xED>
-03_71,<&13> was cured of<F1>poison.<xED>
-03_72,<&13> was cured of<F1>paralysis.<xED>
-03_73,Time stopped!<F1><xED>
-03_74,Darkness descended<F1>on the area!<xED>
-03_75,But the spell was<F1>dissipated!<xED>
-03_76,<&00> summoned a<F1>vile being!<xED>
-03_77,<&13> fainted!<F1><xED>
-03_78,<&13> fled!<F1><xE9>T<xED>
-03_79,The monsters were<F1>shocked!<xED>
-03_7A,<&00>['s] party was<F1>made powerful!<xED>
-03_7B,<&13> left.<F1><xED>
-03_7C,<&13> lost<F1>all its MP!<xED>
-03_7D,<&00>['s] party<F1>was shuffled!<xED>
-03_7E,"""Chance, Chance,<F1>Chance…""<xED><F2><&00>['s] call echoed<F1>over and over!<xED>"
-03_7F,<&00><F1>breathed fire!<xED>
-03_80,<&00> spewed<F1>fire!<xED>
-03_81,<&00> blasted<F1>intense flames!<xED>
-03_82,<&00> blasted<F1>enormous flames!<xED>
-03_83,<&00> was<F1>unharmed!<xED>
-03_84,<&00><F1>breathed cold air!<xED>
-03_85,<&00> exhaled<F1>icy air!<xED>
-03_86,<&00> blasted<F1>out a blizzard!<xED>
-03_87,<&00> exhaled<F1>poison!<xED>
-03_88,<&13> warded<F1>off the poison!<xED>
-03_89,<&00> exhaled<F1>a sweet breath!<xED>
-03_8A,<&00> exhaled<F1>a paralyzing gas!<xED>
-03_8B,<&13> dodged<F1>the monster['s]<xED><F2>breath!<F1><xED>
-03_8C,<&00> is<F1>paralyzed!<xED>
-03_8D,<&00> called<F1>for help!<xED>
-03_8E,<&13> newly<F1>appeared!<xED>
-03_8F,But no help came.<F1><xED>
-03_90,<&00> did a<F1>peculiar dance!<xED>
-03_91,<&13> was<F1>stripped of <&26>MP!<xED>
-03_92,<&00> fired<F1>an icy pulse!<xED>
-03_93,It voided <&13>['s]<F1>party['s] spells!<xED>
-03_94,<&00> is in a<F1>defensive pose.<xED>
-03_95,<&00> is<F1>watching.<xED>
-03_96,<&00> chewed<F1>on <&13>!<xED>
-03_97,<&00> flopped<F1>onto <&13>['s] party!<xED>
-03_98,<&00> stared<F1>at <&13>!<xED>
-03_99,<&00> turned<F1>into an iron hunk!<xED>
-03_9A,<&00> can['t]<F1>be harmed!<xED>
-03_9B,<&00> became<F1>cloaked in light!<xED>
-03_9C,<&00> became<F1>powerful!<xED>
-03_9D,<&00> flopped<F1>onto <&13>!<xED>
-03_9E,<&00>['s] head bumped<F1>the ceiling!<xED>
-03_9F,<&00> dropped<F1>a treasure chest!<FA><F7><F2><&11>['s] party pried<F1>open the chest.<xE9>E<FA><F7>
+03_30,<&00><F1>attacked!<ED>
+03_31,<&00> attacked the<F1>party!<ED>
+03_32,Critical hit!<F1><e65><ED>
+03_33,A brutal hit!<F1><e65><ED>
+03_34,<&13> quickly<F1>dodged the attack!<ED>
+03_35,<&13> nailed<F1><&00>!<e36><ED>
+03_36,<&13> was<F1>defeated!<ED>
+03_37,<&13> took<F1><&26> damage!<ED>
+03_38,Miss! <&13><F1>was unharmed!<ED>
+03_39,<&13> took<F1><&26> damage!<ED>
+03_3A,Miss! <&13><F1>avoided damage!<ED>
+03_3B,<&13> died!<F1><ED>
+03_3C,<&13> was<F1>defeated!<ED>
+03_3D,<&13> fell<F1>asleep!<ED>
+03_3E,<&13> was<F1>poisoned!<ED>
+03_3F,<&13> is<F1>paralyzed!<ED>
+03_40,<&13><F1>woke up!<ED>
+03_41,But <&13> didn['t]<F1>wake up!<ED>
+03_42,<&13> snapped<F1>out of confusion!<ED>
+03_43,But <&13> remains<F1>confused!<ED>
+03_44,But <&13> was<F1>awake already!<ED>
+03_45,<&00> cast<F1><&29>!<e1C><ED>
+03_46,But there weren['t]<F1>enough MP!<ED>
+03_47,But <&13> was<F1>unaffected!<ED>
+03_48,<&13> was<F1>instantly slain!<e36><ED>
+03_49,<&13> didn['t]<F1>die!<ED>
+03_4A,LifeStone broke<F1>in <&13>['s] place!<ED>
+03_4B,<&13><F1>exploded!<ED>
+03_4C,<&00> dropped<F1>dead!<ED>
+03_4D,<&13> faded<F1>into the light!<ED>
+03_4E,<&13> was<F1>blown far away!<ED>
+03_4F,<&13> was<F1>blown far away!<ED>
+03_50,<&13> was<F1>stripped of <&26>MP!<ED>
+03_51,<&13> was<F1>stripped of <&26>MP!<ED>
+03_52,<&13>['s] AGL<F1>was cut by <&26>!<ED>
+03_53,<&13>['s] AGL was<F1>reduced by <&26>!<ED>
+03_54,<&13>['s] wound<F1>was healed!<ED>
+03_55,<&13> came<F1>back to life!<ED>
+03_56,<&13> did not<F1>come back to life!<ED>
+03_57,But nothing<F1>happened!<ED>
+03_58,<&13> was put<F1>to sleep!<ED>
+03_59,<&13> didn['t]<F1>fall asleep!<ED>
+03_5A,<&00> is<F1>asleep.<ED>
+03_5B,<&13> can['t]<F1>use spells now!<ED>
+03_5C,<&13>['s] spells<F1>were sealed!<ED>
+03_5D,Spells can['t] be<F1>cast!<ED>
+03_5E,<&13> is lost<F1>in a daze!<ED>
+03_5F,<&13>['s] DEF<F1>fell by <&26>!<ED>
+03_60,<&13>['s] DEF was<F1>reduced by <&26>!<ED>
+03_61,<&13>['s] DEF<F1>rose by <&26>!<ED>
+03_62,<&13>['s] AGL<F1>rose by <&26>!<ED>
+03_63,<&13> became<F1>confused!<ED>
+03_64,<&13> became<F1>more confused!<ED>
+03_65,<&00> is<F1>confused!<ED>
+03_66,<&00> assumed<F1><&13>['s] form!<ED>
+03_67,But it looks<F1>unchanged.<ED>
+03_68,<&13> turned<F1>back to normal!<ED>
+03_69,<&00> turned<F1>into a dragon!<ED>
+03_6A,<&00>['s] party<F1>turned into iron!<ED>
+03_6B,<&00>['s] party<F1>can['t] be harmed!<ED>
+03_6C,<&29>['s] effect<F1>wore off!<ED>
+03_6D,<&00> formed<F1>a wall of light!<ED>
+03_6E,The wall of light<F1>bounced the spell!<ED>
+03_6F,<&00>['s] party<F1>became cloaked!<ED>
+03_70,<&13>['s] ATK<F1>increased!<ED>
+03_71,<&13> was cured of<F1>poison.<ED>
+03_72,<&13> was cured of<F1>paralysis.<ED>
+03_73,Time stopped!<F1><ED>
+03_74,Darkness descended<F1>on the area!<ED>
+03_75,But the spell was<F1>dissipated!<ED>
+03_76,<&00> summoned a<F1>vile being!<ED>
+03_77,<&13> fainted!<F1><ED>
+03_78,<&13> fled!<F1><e1D><ED>
+03_79,The monsters were<F1>shocked!<ED>
+03_7A,<&00>['s] party was<F1>made powerful!<ED>
+03_7B,<&13> left.<F1><ED>
+03_7C,<&13> lost<F1>all its MP!<ED>
+03_7D,<&00>['s] party<F1>was shuffled!<ED>
+03_7E,"""Chance, Chance,<F1>Chance…""<ED><F2><&00>['s] call echoed<F1>over and over!<ED>"
+03_7F,<&00><F1>breathed fire!<ED>
+03_80,<&00> spewed<F1>fire!<ED>
+03_81,<&00> blasted<F1>intense flames!<ED>
+03_82,<&00> blasted<F1>enormous flames!<ED>
+03_83,<&00> was<F1>unharmed!<ED>
+03_84,<&00><F1>breathed cold air!<ED>
+03_85,<&00> exhaled<F1>icy air!<ED>
+03_86,<&00> blasted<F1>out a blizzard!<ED>
+03_87,<&00> exhaled<F1>poison!<ED>
+03_88,<&13> warded<F1>off the poison!<ED>
+03_89,<&00> exhaled<F1>a sweet breath!<ED>
+03_8A,<&00> exhaled<F1>a paralyzing gas!<ED>
+03_8B,<&13> dodged<F1>the monster['s]<ED><F2>breath!<F1><ED>
+03_8C,<&00> is<F1>paralyzed!<ED>
+03_8D,<&00> called<F1>for help!<ED>
+03_8E,<&13> newly<F1>appeared!<ED>
+03_8F,But no help came.<F1><ED>
+03_90,<&00> did a<F1>peculiar dance!<ED>
+03_91,<&13> was<F1>stripped of <&26>MP!<ED>
+03_92,<&00> fired<F1>an icy pulse!<ED>
+03_93,It voided <&13>['s]<F1>party['s] spells!<ED>
+03_94,<&00> is in a<F1>defensive pose.<ED>
+03_95,<&00> is<F1>watching.<ED>
+03_96,<&00> chewed<F1>on <&13>!<ED>
+03_97,<&00> flopped<F1>onto <&13>['s] party!<ED>
+03_98,<&00> stared<F1>at <&13>!<ED>
+03_99,<&00> turned<F1>into an iron hunk!<ED>
+03_9A,<&00> can['t]<F1>be harmed!<ED>
+03_9B,<&00> became<F1>cloaked in light!<ED>
+03_9C,<&00> became<F1>powerful!<ED>
+03_9D,<&00> flopped<F1>onto <&13>!<ED>
+03_9E,<&00>['s] head bumped<F1>the ceiling!<ED>
+03_9F,<&00> dropped<F1>a treasure chest!<FA><F7><F2><&11>['s] party pried<F1>open the chest.<e0E><FA><F7>
 03_A0,Found <&1A><F1>inside!<FA><F7><F2>Put <&1A><F1>in the bag.<F7>
-03_A1,It voided <&13>['s]<F1>spells!<xED>
-03_A2,Monsters appear!<F1><xED>
-04_00,<&00> struck a<F1>defensive pose…<xED>
-04_01,<&00> just gawked<F1>at the scene…<xED>
-04_02,<&00> yelled for<F1>help!<xED><F2>But even good pals<F1>couldn['t] come…<xED>
-04_03,<&00> turned tail<F1>and ran!<xED><F2>But the escape<F1>route was cut off!<xED>
-04_04,<&00> fooled around<F1>and tripped!<xED>
-04_05,…And fell into<F1><&13>!<xED>
-04_06,…And ended up with<F1>a skinned knee…<xED>
-04_07,<&00> smiled<F1>serenely.<xED>
-04_08,<&00> suddenly<F1>keeled over!<xED><F2><&00> started<F1>snoring!<xED>
-04_09,<&00> started<F1>juggling stones!<xED><F2><&00>: Ack!<F1><xED>
-04_0A,The dropped stone<F1>hit <&13>!<xED>
-04_0B,The stone dropped<F1>on <&00>['s] foot!<xED>
-04_0C,<&00> is singing<F1>and dancing gaily…<xED>
-04_0D,<&00> put on a<F1>tough guy act!<xED><F2><&00>: You talkin'<F1>to me?<xED><F2>But no one fell<F1>for it!<xED>
-04_0E,<&00> flicked her<F1>disheveled hair!<xED><F2>The look was<F1>remarkably sexy!<xED>
-04_0F,<&00> tap danced to<F1>the battle['s] beat!<xED><F2>The dancer became<F1>harder to hit!<xED>
-04_10,<&00> spun a finger<F1>at <&13>!<xED>
-04_11,<&13> became<F1>dizzy!<xED>
-04_12,But <&13><F1>was unaffected!<xED>
-04_13,<&00> became dizzy!<F1><xED>
-04_14,<&00> goosed<F1><&13>!<xED><F2><&13> yelled<F1>and slapped <&00>!<xED>
-04_15,<&00> preened with<F1>her mirror…<xED>
-04_16,<&00> suddenly<F1>keeled over!<xED><F2><&00> started<F1>snoring!<xED><F2><&00>: Groan…<F1>I… I can['t] move!<xED><F2><&00> appears to be<F1>only half awake…<xED>
-04_17,<&00> cast some<F1>gibberish!<xED><F2><&00>: <&13><&18>!<F1><xED><F2>But nothing<F1>happened!<xED>
-04_18,<&00> prayed!<F1><xED><F2><&00>: I pray for<F1>peace…<xED><F2>This isn['t] the<F1>time for that!<xED>
-04_19,<&00> was plagued<F1>by self doubt!<xED><F2><&00>: Am I to be a<F1>clown forever?<xED><F2><&00>: There has to<F1>be more to this!<xED><F2><&00>: Ummmm…<F1><xED><F2><&00> is muttering<F1>something!<xED>
-04_1A,<&00> thought up a<F1>pun!<xED>
-04_1B,<&00>: A warrior<F1>isn['t] smart enough<xED><F2>to be a worrier!<F1><xED>
-04_1C,<&00>: A bird was<F1>badly sunburned!<xED><F2>It['s] a blistered<F1>BlissBird!<xED>
-04_1D,<&00>: You can['t]<F1>blame a Hornyhare<xED><F2>for wanting a<F1>honey bunny!<xED>
-04_1E,<&00>: An easily<F1>enraged healer is<xED><F2>a choleric cleric!<F1><xED>
-04_1F,<&00>: An old bear<F1>developed bladder <xED><F2>trouble. It['s] a<F1>drizzly Grizzly!<xED>
-04_20,<&00>: The King of<F1>Romaly is a royal<xED><F2>anomaly!<F1><xED>
-04_21,<&00>: The beggars<F1>of Portoga dress<xED><F2>in rags!<F1>Poor-toga!<xED>
-04_22,<&00>: They found<F1>orangutans in the<xED><F2>orient! They named<F1>it Zipangutan!<xED>
-04_23,<&00>: A monster<F1>was in an anime…<xED><F2>My Neighbor<F1>TortoLord!<xED>
-04_24,Hit! <&13><F1>began laughing!<xED>
-04_25,<&13> is<F1>still laughing!<xED>
-04_26,<&13> didn['t]<F1>get the pun!<xED>
-04_27,<&00> rolled a die!<F1><xED><F2>It came up '<&09>'!<F1>But so what?<xED>
-04_28,<&00> began singing<F1>loudly!<xED>
-04_29,A beautiful song<F1>echoed!<xED>
-04_2A,<&13> was<F1>enraptured!<xED>
-04_2B,<&00> is<F1>enraptured.<xED>
-04_2C,It['s] a terrible<F1>singing voice!<xED>
-04_2D,<&13> fled!<F1><xED>
-04_2E,<&13> wasn['t]<F1>listening…<xED>
-04_2F,<&00> imagined lewd<F1>situations!<xED>
-04_30,<&00>: Heheheh…<F1><xED><F2><&00> started<F1>drooling!<xED>
-04_31,<&00>: Giggle…<F1><xED><F2><&00>['s] face turned<F1>red!<xED>
-04_32,<&00>: Hahahachoo!<F1><xED><F2><&00> suddenly<F1>sneezed!<xED>
-04_33,<&00>: Hachoo!<F1><xED><F2><&00> suddenly<F1>sneezed!<xED>
-04_34,<&13> was<F1>surprised!<xED>
-04_35,<&00> is<F1>surprised.<xED>
-04_36,<&00> started a<F1>word game!<xED><F2><&00>: Use the last<F1>letter of the word<xED><F2>I say! No words<F1>ending in X!<xED><F2>Ready?<F1><&20>! Ack!<xED><F2><&00> lost!<F1><xED>
-04_37,<&00> gazed sexily<F1>at <&13>.<xED>
-04_38,<&13> averted<F1>its eyes!<xED>
-04_39,But <&13><F1>failed to notice!<xED>
-04_3A,<&00> looks<F1>embarrassed!<xED>
-04_3B,"<&00> started<F1>telling a story!<xED><F2><&00>: One by one,<F1>they disappeared…<xED><F2>It was horribly<F1>frightening!<xED>"
-04_3C,<&13> got<F1>goose bumps!<xED>
-04_3D,But nobody paid<F1>any attention!<xED>
-04_3E,<&00> is<F1>shivering!<xED>
-04_3F,<&00> pulled out a<F1>crown and wore it!<xED><F2><&00>: I am the<F1>king! Step closer!<xED><F2><&00> beckoned<F1><&13>!<xED>
-04_40,<&13> kneeled<F1>in deference!<xED><F2><&00> smacked<F1><&13>!<xED>
-04_41,But <&13><F1>ignored the ruse!<xED>
-04_42,<&00> put on heels<F1>and held a whip!<xED><F2><&00>: I am the<F1>queen! Kneel!<xED><F2><&00> beckoned<F1><&13>!<xED>
-04_43,<&13> kneeled<F1>in supplication!<xED><F2><&00> trod on<F1><&13>!<xED>
-04_44,<&00> sneaked up<F1>behind <&13>!<xED><F2><&00>: Guess who?<F1><xED><F2><&13>: You['r]e<F1>a jester!<xED><F2><&13> guessed<F1>right!<xED>
-04_45,"<&00> laughed<F1>maniacally!<xED><F2><&00>: Uhahahahaha!<F1>Hahahah, heheheh!<xED>"
-04_46,<&00> laughed<F1>maniacally!<xED><F2><&00>: Ufufufufufu!<F1>Kyahahahahahah!<xED>
-04_47,<&13> fled in<F1>terror!<xED>
-04_48,"<&00> cheered<F1>everyone up!<xED><F2><&00>: Let['s] go,<F1>team! Fight!<xED>"
-04_49,<&00>['s] cheering<F1>got people pumped!<xED>
-04_4A,<&00>['s] cheering<F1>was depressing!<xED>
-04_4B,But no one was<F1>listening!<xED>
-04_4C,<&00> guzzled a<F1>bottle of ale!<xED><F2><&00>: Urp! Hic!<F1><xED>
-04_4D,<&00>: Urp!<F1><xED><F2><&00> got sick!<F1><xED>
-04_4E,<&00> is feeling<F1>nauseous!<xED>
-04_4F,"<&00>: Listen, he['s]<F1>mean, right?<xED><F2><&00> buttonholed<F1><&13>!<xED>"
-04_50,<&00> is haranguing<F1><&13>!<xED>
-04_51,<&13> is hounded<F1>by <&00>!<xED>
-04_52,<&00> heckled<F1><&13>!<xED><F2><&00>: <&13>['s]<F1>a pathetic wimp!<xED>
-04_53,<&13> became<F1>enraged!<xED>
-04_54,<&13> was<F1>traumatized!<xED>
-04_55,<&00> tossed up a<F1>boulder!<xED><F2>It fell straight<F1>down!<xED>
-04_56,It landed on<F1><&13>['s] head!<xED>
-04_57,But it didn['t] hit<F1>anything!<xED>
-04_58,<&00> massaged<F1><&13>!<xED><F2><&00>: Puff-puff…<F1><xED>
-04_59,But it felt<F1>hideous!<xED>
-04_5A,<&13> looks<F1>content!<xED>
-04_5B,<&00> wears a<F1>dreamy expression!<xED>
-04_5C,<&13> looks<F1>content…<xED><F2>But <&13><F1>squirmed away!<xED>
-04_5D,<&00> used a move<F1>on <&09>!<xED><F2><&00>: <&1C><&21>!<F1><xED><F2>But it['s] the usual<F1>attack…<xED>
-04_5E,<&00> started doing<F1>something illicit!<xED><F2>It['s] disgusting!<F1>Avert your eyes!<xED>
-04_5F,<&00> lit some<F1>paper on fire!<xED><F2><&00>: Yowch!<F1><xED><F2><&00> threw it at<F1><&13>!<xED>
-04_60,<&00> ran out of<F1>things to do…<xED><F2>And realized the<F1>need for peace!<xED><F2><&00> became<F1>sentimental!<xED><F2>The feeling spread<F1>to the others!<xED>
+03_A1,It voided <&13>['s]<F1>spells!<ED>
+03_A2,Monsters appear!<F1><ED>
+04_00,<&00> struck a<F1>defensive pose…<ED>
+04_01,<&00> just gawked<F1>at the scene…<ED>
+04_02,<&00> yelled for<F1>help!<ED><F2>But even good pals<F1>couldn['t] come…<ED>
+04_03,<&00> turned tail<F1>and ran!<ED><F2>But the escape<F1>route was cut off!<ED>
+04_04,<&00> fooled around<F1>and tripped!<ED>
+04_05,…And fell into<F1><&13>!<ED>
+04_06,…And ended up with<F1>a skinned knee…<ED>
+04_07,<&00> smiled<F1>serenely.<ED>
+04_08,<&00> suddenly<F1>keeled over!<ED><F2><&00> started<F1>snoring!<ED>
+04_09,<&00> started<F1>juggling stones!<ED><F2><&00>: Ack!<F1><ED>
+04_0A,The dropped stone<F1>hit <&13>!<ED>
+04_0B,The stone dropped<F1>on <&00>['s] foot!<ED>
+04_0C,<&00> is singing<F1>and dancing gaily…<ED>
+04_0D,<&00> put on a<F1>tough guy act!<ED><F2><&00>: You talkin'<F1>to me?<ED><F2>But no one fell<F1>for it!<ED>
+04_0E,<&00> flicked her<F1>disheveled hair!<ED><F2>The look was<F1>remarkably sexy!<ED>
+04_0F,<&00> tap danced to<F1>the battle['s] beat!<ED><F2>The dancer became<F1>harder to hit!<ED>
+04_10,<&00> spun a finger<F1>at <&13>!<ED>
+04_11,<&13> became<F1>dizzy!<ED>
+04_12,But <&13><F1>was unaffected!<ED>
+04_13,<&00> became dizzy!<F1><ED>
+04_14,<&00> goosed<F1><&13>!<ED><F2><&13> yelled<F1>and slapped <&00>!<ED>
+04_15,<&00> preened with<F1>her mirror…<ED>
+04_16,<&00> suddenly<F1>keeled over!<ED><F2><&00> started<F1>snoring!<ED><F2><&00>: Groan…<F1>I… I can['t] move!<ED><F2><&00> appears to be<F1>only half awake…<ED>
+04_17,<&00> cast some<F1>gibberish!<ED><F2><&00>: <&13><&18>!<F1><ED><F2>But nothing<F1>happened!<ED>
+04_18,<&00> prayed!<F1><ED><F2><&00>: I pray for<F1>peace…<ED><F2>This isn['t] the<F1>time for that!<ED>
+04_19,<&00> was plagued<F1>by self doubt!<ED><F2><&00>: Am I to be a<F1>clown forever?<ED><F2><&00>: There has to<F1>be more to this!<ED><F2><&00>: Ummmm…<F1><ED><F2><&00> is muttering<F1>something!<ED>
+04_1A,<&00> thought up a<F1>pun!<ED>
+04_1B,<&00>: A warrior<F1>isn['t] smart enough<ED><F2>to be a worrier!<F1><ED>
+04_1C,<&00>: A bird was<F1>badly sunburned!<ED><F2>It['s] a blistered<F1>BlissBird!<ED>
+04_1D,<&00>: You can['t]<F1>blame a Hornyhare<ED><F2>for wanting a<F1>honey bunny!<ED>
+04_1E,<&00>: An easily<F1>enraged healer is<ED><F2>a choleric cleric!<F1><ED>
+04_1F,<&00>: An old bear<F1>developed bladder <ED><F2>trouble. It['s] a<F1>drizzly Grizzly!<ED>
+04_20,<&00>: The King of<F1>Romaly is a royal<ED><F2>anomaly!<F1><ED>
+04_21,<&00>: The beggars<F1>of Portoga dress<ED><F2>in rags!<F1>Poor-toga!<ED>
+04_22,<&00>: They found<F1>orangutans in the<ED><F2>orient! They named<F1>it Zipangutan!<ED>
+04_23,<&00>: A monster<F1>was in an anime…<ED><F2>My Neighbor<F1>TortoLord!<ED>
+04_24,Hit! <&13><F1>began laughing!<ED>
+04_25,<&13> is<F1>still laughing!<ED>
+04_26,<&13> didn['t]<F1>get the pun!<ED>
+04_27,<&00> rolled a die!<F1><ED><F2>It came up '<&09>'!<F1>But so what?<ED>
+04_28,<&00> began singing<F1>loudly!<ED>
+04_29,A beautiful song<F1>echoed!<ED>
+04_2A,<&13> was<F1>enraptured!<ED>
+04_2B,<&00> is<F1>enraptured.<ED>
+04_2C,It['s] a terrible<F1>singing voice!<ED>
+04_2D,<&13> fled!<F1><ED>
+04_2E,<&13> wasn['t]<F1>listening…<ED>
+04_2F,<&00> imagined lewd<F1>situations!<ED>
+04_30,<&00>: Heheheh…<F1><ED><F2><&00> started<F1>drooling!<ED>
+04_31,<&00>: Giggle…<F1><ED><F2><&00>['s] face turned<F1>red!<ED>
+04_32,<&00>: Hahahachoo!<F1><ED><F2><&00> suddenly<F1>sneezed!<ED>
+04_33,<&00>: Hachoo!<F1><ED><F2><&00> suddenly<F1>sneezed!<ED>
+04_34,<&13> was<F1>surprised!<ED>
+04_35,<&00> is<F1>surprised.<ED>
+04_36,<&00> started a<F1>word game!<ED><F2><&00>: Use the last<F1>letter of the word<ED><F2>I say! No words<F1>ending in X!<ED><F2>Ready?<F1><&20>! Ack!<ED><F2><&00> lost!<F1><ED>
+04_37,<&00> gazed sexily<F1>at <&13>.<ED>
+04_38,<&13> averted<F1>its eyes!<ED>
+04_39,But <&13><F1>failed to notice!<ED>
+04_3A,<&00> looks<F1>embarrassed!<ED>
+04_3B,"<&00> started<F1>telling a story!<ED><F2><&00>: One by one,<F1>they disappeared…<ED><F2>It was horribly<F1>frightening!<ED>"
+04_3C,<&13> got<F1>goose bumps!<ED>
+04_3D,But nobody paid<F1>any attention!<ED>
+04_3E,<&00> is<F1>shivering!<ED>
+04_3F,<&00> pulled out a<F1>crown and wore it!<ED><F2><&00>: I am the<F1>king! Step closer!<ED><F2><&00> beckoned<F1><&13>!<ED>
+04_40,<&13> kneeled<F1>in deference!<ED><F2><&00> smacked<F1><&13>!<ED>
+04_41,But <&13><F1>ignored the ruse!<ED>
+04_42,<&00> put on heels<F1>and held a whip!<ED><F2><&00>: I am the<F1>queen! Kneel!<ED><F2><&00> beckoned<F1><&13>!<ED>
+04_43,<&13> kneeled<F1>in supplication!<ED><F2><&00> trod on<F1><&13>!<ED>
+04_44,<&00> sneaked up<F1>behind <&13>!<ED><F2><&00>: Guess who?<F1><ED><F2><&13>: You['r]e<F1>a jester!<ED><F2><&13> guessed<F1>right!<ED>
+04_45,"<&00> laughed<F1>maniacally!<ED><F2><&00>: Uhahahahaha!<F1>Hahahah, heheheh!<ED>"
+04_46,<&00> laughed<F1>maniacally!<ED><F2><&00>: Ufufufufufu!<F1>Kyahahahahahah!<ED>
+04_47,<&13> fled in<F1>terror!<ED>
+04_48,"<&00> cheered<F1>everyone up!<ED><F2><&00>: Let['s] go,<F1>team! Fight!<ED>"
+04_49,<&00>['s] cheering<F1>got people pumped!<ED>
+04_4A,<&00>['s] cheering<F1>was depressing!<ED>
+04_4B,But no one was<F1>listening!<ED>
+04_4C,<&00> guzzled a<F1>bottle of ale!<ED><F2><&00>: Urp! Hic!<F1><ED>
+04_4D,<&00>: Urp!<F1><ED><F2><&00> got sick!<F1><ED>
+04_4E,<&00> is feeling<F1>nauseous!<ED>
+04_4F,"<&00>: Listen, he['s]<F1>mean, right?<ED><F2><&00> buttonholed<F1><&13>!<ED>"
+04_50,<&00> is haranguing<F1><&13>!<ED>
+04_51,<&13> is hounded<F1>by <&00>!<ED>
+04_52,<&00> heckled<F1><&13>!<ED><F2><&00>: <&13>['s]<F1>a pathetic wimp!<ED>
+04_53,<&13> became<F1>enraged!<ED>
+04_54,<&13> was<F1>traumatized!<ED>
+04_55,<&00> tossed up a<F1>boulder!<ED><F2>It fell straight<F1>down!<ED>
+04_56,It landed on<F1><&13>['s] head!<ED>
+04_57,But it didn['t] hit<F1>anything!<ED>
+04_58,<&00> massaged<F1><&13>!<ED><F2><&00>: Puff-puff…<F1><ED>
+04_59,But it felt<F1>hideous!<ED>
+04_5A,<&13> looks<F1>content!<ED>
+04_5B,<&00> wears a<F1>dreamy expression!<ED>
+04_5C,<&13> looks<F1>content…<ED><F2>But <&13><F1>squirmed away!<ED>
+04_5D,<&00> used a move<F1>on <&09>!<ED><F2><&00>: <&1C><&21>!<F1><ED><F2>But it['s] the usual<F1>attack…<ED>
+04_5E,<&00> started doing<F1>something illicit!<ED><F2>It['s] disgusting!<F1>Avert your eyes!<ED>
+04_5F,<&00> lit some<F1>paper on fire!<ED><F2><&00>: Yowch!<F1><ED><F2><&00> threw it at<F1><&13>!<ED>
+04_60,<&00> ran out of<F1>things to do…<ED><F2>And realized the<F1>need for peace!<ED><F2><&00> became<F1>sentimental!<ED><F2>The feeling spread<F1>to the others!<ED>
 04_61,<&13> died!<F1><F7>
 05_00,But nothing<F1>happened!<F7>
 05_01,There is nobody to<F1>switch places.<F7>
-05_02,Put away all<F1>unequipped items?<xFF>
-05_03,Reorder items in<F1>the bag by type?<xFF>
-05_04,Reorder items in<F1>the bag A~Z?<xFF>
+05_02,Put away all<F1>unequipped items?<FF>
+05_03,Reorder items in<F1>the bag by type?<FF>
+05_04,Reorder items in<F1>the bag A~Z?<FF>
 05_05,The <&25><F1>clings on!<F7>
 05_06,The <&25><F1>was cursed!<F7>
 05_07,The <&25><F1>had a curse on it!<F7>

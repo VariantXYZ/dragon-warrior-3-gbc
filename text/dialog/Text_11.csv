@@ -32,23 +32,23 @@
 00_1E,[*:] Your feat will<F1>raise Aliahan['s]<FA><F7><F1>stature throughout<F1>the land!<FA><F7><F1>What a fine cause<F1>for celebration!<F7>
 00_1F,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Ortega['s] son has<F1>triumphed!<FA><F7><F1>The entire kingdom<F1>sings your praise!<FA><F7><F1>Come, let us all<F1>celebrate!<F7>"
 00_20,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Ortega['s] daughter<F1>has triumphed!<FA><F7><F1>The entire kingdom<F1>sings your praise!<FA><F7><F1>Come, let us all<F1>celebrate!<F7>"
-00_21,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Not only that, you<F1>triumphed over the<FA><F7><F1>immensely powerful<F1>being alone!<FA><F7><F1>No denying you['r]e<F1>Ortega['s] child!<FA><F7><F1>You['r]e inordinately<F1>powerful.<FA><F7><F1>In recognition of<F1>your magnificence,<FA><F7><F1>let me confer a<F1>special reward.<FA><F7><F1>Take this!<F1><FA><F7><FE><&40> obtained the<F1>Bastard Sword!<FA><F7><F1><xE3>King: Come, let us<F1>all celebrate!<F7>"
+00_21,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Not only that, you<F1>triumphed over the<FA><F7><F1>immensely powerful<F1>being alone!<FA><F7><F1>No denying you['r]e<F1>Ortega['s] child!<FA><F7><F1>You['r]e inordinately<F1>powerful.<FA><F7><F1>In recognition of<F1>your magnificence,<FA><F7><F1>let me confer a<F1>special reward.<FA><F7><F1>Take this!<F1><FA><F7><FE><&40> obtained the<F1>Bastard Sword!<FA><F7><F1><E3>King: Come, let us<F1>all celebrate!<F7>"
 00_22,"<EA>[*:] Wahahahah!<F1><FA><F7>Did I startle you<F1>in your moment of <FA><F7><F1>celebration?<F1><FA><F7>My name is Zoma.<F1><FA><F7>Zoma: I rule the<F1>dark world.<FA><F7><F1>So long as I live,<F1>this world too<FA><F7><F1>shall be smothered<F1>in darkness.<FA><F7><F1>Suffer and despair<F1>for me.<FA><F7><F1>Your suffering is<F1>my joy…<FA><F7><F1>All that has life<F1>shall become my<FA><F7><F1>sacrifice.<F1><FA><F7>The world will<F1>know despair.<FA><F7><F1>My name is Zoma,<F1><FA><F7>the Destroyer of<F1>All.<FA><F7><F1>I will savor the<F1>day when you are<FA><F7><F1>sacrificed to me.<F1>Wahahahahah!<F7>"
 00_23,"King: How could<F1>this be…<FA><F7><F1>I thought that<F1>peace returned…<FA><F7><F1>How could I tell<F1>the people that<FA><F7><F1>darkness will soon<F1>be upon us…<FA><F7><F1><&40>, Zoma, the<F1>Demon King, must<FA><F7><F1>be kept a secret.<F1><FA><F7>I['m] tired…<F1>You may go…<F7>"
 00_24,[*:] It is a terrible<F1>thing…<FA><F7><F1>His Majesty has<F1>lost his will…<FA><F7><F1>I will stand in<F1>his place for a<FA><F7><F1>short while…<F1><FA><F7>
 00_25,"[*:] Wasn['t] his<F1>Majesty delighted?<FA><F7><F1>Oh, forgive me, I<F1>shouldn['t] ask about<FA><F7><F1>something that<F1>obvious.<F7>"
-00_26,[*:] Was there an<F1>earthquake?<xFF><F1>
+00_26,[*:] Was there an<F1>earthquake?<FF><F1>
 00_27,"[*:] It wasn['t] very<F1>strong, was it?<F7>"
 00_28,[*:] Is that right?<F1>I imagined it…<F7>
 00_29,[*:] That earthquake<F1>we just had…<FA><F7><F1>I get the feeling<F1>that it wasn['t] an<FA><F7><F1>ordinary quake.<F1><FA><F7>I hope it['s] not an<F1>evil omen…<F7>
-00_2A,[*:] I heard a lot of<F1>noise upstairs…<FA><F7><F1>Did something<F1>happen?<xFF>
+00_2A,[*:] I heard a lot of<F1>noise upstairs…<FA><F7><F1>Did something<F1>happen?<FF>
 00_2B,"[*:] The Demon King<F1>appeared?<FA><F7><F1>Hahaha, that['s]<F1>rich.<FA><F7><F1>We know you['v]e<F1>defeated Baramos.<F7>"
 00_2C,"[*:] Oh… Well, I hope<F1>you['r]e right.<F7>"
 01_00,[*:] Hah? You beat<F1>Baramos?<FA><F7><F1>That['s] something!<F1>Buhahaha! Hic!<F7>
 01_01,[*:] Oh? What are you<F1>doing down here?<FA><F7><F1>What? You defeated<F1>Baramos?<FA><F7><F1>Then you should<F1>march in through<FA><F7><F1>the front gates!<F1><FA><F7>They['l]l all be<F1>waiting for you!<F7>
 02_00,<EB>[*:] Welcome back to<F1>Aliahan!<F7>
 02_01,"[*:] Baramos is gone,<F1>but…<FA><F7><F1>Is that enough to<F1>restore peace?<F7>"
-02_02,[*:] You really did<F1>defeat Baramos?<xFF>
+02_02,[*:] You really did<F1>defeat Baramos?<FF>
 02_03,"[*:] Yes, you['r]e<F1>right.<FA><F7><F1>But why do I feel<F1>this horrid dread?<F7>"
 02_04,[*:] That can['t] be<F1>true.<FA><F7><F1>The soldiers said<F1>they confirmed it.<F7>
 02_05,"[*:] Ah, hello!<F1><FA><F7>I haven['t] seen you<F1>for some time now…<FA><F7><F1>Pardon? A world<F1>underground?<FA><F7><F1>I don['t] understand<F1>what you['r]e saying.<F7>"
@@ -98,7 +98,7 @@
 04_15,"[*:] Lalala~ Ortega<F1>the undying, lala~<F7>"
 04_16,"[*:] Ortega came back<F1>safely.<FA><F7><F1>We must all be<F1>grateful.<FA><F7><F1>Perhaps this old<F1>woman['s] prayers<FA><F7><F1>were answered by<F1>the gods.<FA><F7><F1>I can confess this<F1>now, but I['v]e been<FA><F7><F1>a fan of Ortega<F1>for many years…<FA><F7><F1>Oh, this is so<F1>embarrassing!<F7>"
 04_17,[*:] Ortega['s] back?<F1>It['s] a sign!<FA><F7><F1>It['s] a sign that<F1>peace is near!<F7>
-04_18,"[*:] This is<F1>something I heard.<FA><F7><F1>In the heavens<F1>lives Divinegon, a<FA><F7><F1>mythic dragon that<F1>grants wishes.<FA><F7><F1>Can you believe<F1>such a story?<xFF>"
+04_18,"[*:] This is<F1>something I heard.<FA><F7><F1>In the heavens<F1>lives Divinegon, a<FA><F7><F1>mythic dragon that<F1>grants wishes.<FA><F7><F1>Can you believe<F1>such a story?<FF>"
 04_19,[*:] You must have a<F1>fun imagination.<F7>
 04_1A,"[*:] Yes, it does<F1>sound farfetched…<F7>"
 04_1B,"[*:] …Gulp… …chew…<F1><FA><F7>Yep, this is tasty<F1>indeed today!<F7>"
@@ -141,8 +141,8 @@ UNUSED00_07_05, <~>
 08_05,<EB>[*:] The sacred river<F1>of Ganges is the<FA><F7><F1>source of life.<F1><F7>
 09_00,[*:] Welcome to our<F1>Pepper shop.<FA><F7>
 09_01,[*:] Oh? Hello!<F1><FA><F7>It['s] me - Gupta!<F1><FA><F7>Thank you so much<F1>for saving us!<FA><F7>
-09_02,Gupta: Oh? Hello!<F1>Were you looking<FA><F7><F1>for some Pepper?<F1><xFF>
-09_03,Gupta: Were you<F1>looking for some<FA><F7><F1>Pepper?<F1><xFF>
+09_02,Gupta: Oh? Hello!<F1>Were you looking<FA><F7><F1>for some Pepper?<F1><FF>
+09_03,Gupta: Were you<F1>looking for some<FA><F7><F1>Pepper?<F1><FF>
 09_04,Gupta: Then please<F1>take some!<FA><F7><F1>I can['t] take your<F1>money!<FA><F7><F1><FE><&40> obtained some<F1>Pepper.
 09_05,Gupta: Please take<F1>care.<FA><F7><F1>Dharma Temple is<F1>said to be among<FA><F7><F1>the mountains to<F1>the north.<F7>
 09_06,"Gupta: If you ever<F1>need Pepper again,<FA><F7><F1>please feel free<F1>to visit anytime.<F7>"
@@ -156,7 +156,7 @@ UNUSED00_07_05, <~>
 0A_04,[*:] I['d] like to<F1>become sillier…<F7>
 0A_05,[*:] I envy you.<F1>You['r]e silly.<F7>
 0A_06,[*:] I envy the silly<F1>person behind you.<F7>
-0A_07,"[*:] In the north,<F1>among mountains,<FA><F7><F1>is the Dharma<F1>Temple.<FA><F7><F1>People can change<F1>classes there,<FA><F7><F1>right?<xFF><F1>"
+0A_07,"[*:] In the north,<F1>among mountains,<FA><F7><F1>is the Dharma<F1>Temple.<FA><F7><F1>People can change<F1>classes there,<FA><F7><F1>right?<FF><F1>"
 0A_08,"[*:] I['d] like to<F1>become a jester…<FA><F7><F1>I mean, a great<F1>sage, that['s] what<FA><F7><F1>I['d] like to be.<F1><F7>"
 0A_09,[*:] Huh? There isn['t]?<F1><FA><F7>That['s] not what<F1>I['v]e heard…<F7>
 0A_0A,"Gupta: Then, have<F1>some more Pepper!<FA><F7><F1>I['m] glad my Pepper<F1>is useful to you.<FA><F7><F1><FE><&40> obtained some<F1>Pepper.<FA><F7>"

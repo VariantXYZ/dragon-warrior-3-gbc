@@ -1,16 +1,16 @@
 ﻿Index,Text
-00_00,"[*:] Young one, have<F1>you the MagicBomb?<xFF>"
+00_00,"[*:] Young one, have<F1>you the MagicBomb?<FF>"
 00_01,[*:] Then make way to<F1>Tempt Cave.<FA><F7><F1>It is next to a<F1>spring.<F7>
 00_02,[*:] That won['t] do!<F1><FA><F7>Return to Reeve at<F1>once!<F7>
-00_03,<FE>A book on whips<F1>and boomerangs.<FA><F7><F1>Want to read it?<F1><xFF>
+00_03,<FE>A book on whips<F1>and boomerangs.<FA><F7><F1>Want to read it?<F1><FF>
 00_04,"<FE>Whips and<F1>boomerangs can<FA><F7><F1>hit more than one<F1>target at once.<FA><F7><F1>A whip can strike<F1>one chosen group.<FA><F7><F1>A boomerang hits<F1>all enemies.<FA><F7><F1>Even though these<F1>weapons may be a<FA><F7><F1>little weak, they<F1>could be better<FA><F7><F1>than a stronger<F1>weapon in certain<FA><F7><F1>situations.<F1>Think wisely.<F7>"
 00_05,"[*:] Tempt Cave, like<F1>its name states,<FA><F7><F1>attracts travelers<F1>to new horizons.<FA><F7><F1>Where you choose<F1>to go, and what<FA><F7><F1>you choose to do<F1>are up to you.<F7>"
 00_06,[*:] The monsters<F1>seem to have<FA><F7><F1>vanished.<F1><FA><F7>Could it be just<F1>my imagination?<F7>
 01_00,[*:] This door leads<F1>to Portoga.<FA><F7><F1>You may open it<F1>and go through if<FA><F7><F1>you have the<F1>Magic Key.
-01_01,[*:] Are you asking<F1>where the Magic<FA><F7><F1>Key is?<F1><xFF>
+01_01,[*:] Are you asking<F1>where the Magic<FA><F7><F1>Key is?<F1><FF>
 01_02,"[*:] If you can['t]<F1>find that on your<FA><F7><F1>own, it['s] futile<F1>to go on.<FA><F7><F1>Go home. It['s] for<F1>your own good.<F7>"
 01_03,[*:] That['s] right.<F1><FA><F7>You have to find<F1>it on your own.<F7>
-02_00,[*:] You['r]e searching<F1>for the Magic Key?<xFF>
+02_00,[*:] You['r]e searching<F1>for the Magic Key?<FF>
 02_01,"[*:] I hear the key<F1>is in the Pyramid,<FA><F7><F1>in the north end<F1>of the desert.<FA><F7><F1>But before you go,<F1>visit Isis.<FA><F7><F1>It is near the<F1>oasis, I believe.<F7>"
 02_02,[*:] Then I have<F1>nothing to say.<F7>
 03_00,[*:] I['m] from the land<F1>of the rising sun.<FA><F7><F1>A monster named<F1>Orochi preys on<FA><F7><F1>our people.<F1>It is terrible.<F7>
@@ -37,7 +37,7 @@
 05_12,<FE>The <&00> on<F1>the pedestal is<FA><F7><F1>glowing faintly.<F1><F7>
 06_00,<EA>[*:] I speak of the<F1>ancients…<FA><F7><F1>South of Isis'<F1>desert…<FA><F7><F1>In the mountains<F1>of Gondo gapes the<FA><F7><F1>Giana Pit.<F1><FA><F7>It is thence<F1>that evil came…<F7>
 06_01,"[*:] Ah, travelling,<F1>are you?<FA><F7><F1>You remind me of<F1>my youth.<FA><F7><F1>In the past, I<F1>accompanied a hero<FA><F7><F1>by the name of<F1>Ortega.<FA><F7><F1>He is said to have<F1>perished in a fall<FA><F7><F1>into the mouth of<F1>a volcano.<FA><F7><F1>But I refuse to<F1>believe that.<F7>"
-06_02,<EB>[*:] Meow.<F1><xFF>
+06_02,<EB>[*:] Meow.<F1><FF>
 06_03,"<EB>[*:] Meow?<F1>Fine, go south.<FA><F7><F1>Search the middle<F1>of four mountains.<F7>"
 06_04,<EB>[*:] Meow…<F1><F7>
 06_05,<EB>[*:] Meow.<F7>
@@ -47,10 +47,10 @@
 09_00,[*:] Rumor has it<F1>that the King of<FA><F7><F1>Samanao has become<F1>a changed man.<FA><F7><F1>He decreed that<F1>the hero Simon be<FA><F7><F1>banished through<F1>the Traveler['s]<FA><F7><F1>Gate on the right.<F1><FA><F7>Samanao is to the<F1>west of here.<FA><F7><F1>Go west along the<F1>mountains.<F7>
 0A_00,<EA>[*:] This is the<F1>Shrine Jail…<F7>
 0A_01,<EA>[*:] I am Simon['s]<F1>soul…<FA><F7><F1>Examine the ground<F1>near my corpse…<F7>
-0B_00,"[*:] It['s] been years<F1>since I last saw<FA><F7><F1>anyone. In fact,<F1>not since the time<FA><F7><F1>the pirates left<F1>me an odd bone.<FA><F7><F1>No matter.<F1><FA><F7>Do you know of the<F1>Change Staff?<xFF>"
+0B_00,"[*:] It['s] been years<F1>since I last saw<FA><F7><F1>anyone. In fact,<F1>not since the time<FA><F7><F1>the pirates left<F1>me an odd bone.<FA><F7><F1>No matter.<F1><FA><F7>Do you know of the<F1>Change Staff?<FF>"
 0B_01,"[*:] Ah, you do?<F1><FA><F7>I would like to<F1>get that, hahah!<F7>"
 0B_02,"[*:] It['s] a staff<F1>that transforms<FA><F7><F1>people into other<F1>guises.<FA><F7><F1>Supposedly, it is<F1>in the possession<FA><F7><F1>of Samanao['s] King.<F1><FA><F7>If you have the<F1>Final Key, you<FA><F7><F1>will be able to go<F1>to Samanao through<FA><F7><F1>Traveler['s] Gate.<F1><F7>"
-0B_03,"[*:] Ah, that is the<F1>Change Staff!<FA><F7><F1>I want that!<F1><FA><F7>How would you like<F1>to trade that for<FA><F7><F1>the pirate['s] Bone<F1>I have here?<xFF>"
+0B_03,"[*:] Ah, that is the<F1>Change Staff!<FA><F7><F1>I want that!<F1><FA><F7>How would you like<F1>to trade that for<FA><F7><F1>the pirate['s] Bone<F1>I have here?<FF>"
 0B_04,"[*:] You will? Hah,<F1>nothing['s] gained<FA><F7><F1>by being too shy<F1>to ask!<FA><F7><F1>Here, take the<F1>Bone!<FA><F7><F1><FE><&40> traded the<F1>Change Staff for<FA><F7><F1>the Bone!<F1><FA><F7>"
 0B_05,"[*:] Ah, wonderful!<F1>Wahahahah!<F7>"
 0B_06,"[*:] No? Well, I<F1>suppose so.<FA><F7><F1>Wahahahah!<F1><F7>"
@@ -73,7 +73,7 @@
 11_00,"<EB>[*:] I hate humans,<F1>but I like Ortega.<FA><F7><F1>He['l]l slay the<F1>Demon King.<F7>"
 11_01,"<EB>[*:] I am a fairy who<F1>attended to Rubiss<FA><F7><F1>in the past.<F1><FA><F7>On that day,<F1><&10>/<&20>, it was I<FA><F7><F1>who called you in<F1>Rubiss' place.<FA><F7><F1>I may have said<F1>terrible things<FA><F7><F1>then. Forgive me.<F1><FA><F7>But now, <&00>, you<F1>have finally come.<FA><F7><F1>I wish to confer<F1>the Rain Staff to<FA><F7><F1>you as a token of<F1>my feelings.<F7>"
 11_02,<EB>[*:] Please save this<F1>world for the sake<FA><F7><F1>of Rubiss.<F1><F7>
-12_00,<EB>[*:] You defeated the<F1>Demon King?<FA><F7><F1>Then it wasn['t]<F1>Ortega?<xFF><F1>
+12_00,<EB>[*:] You defeated the<F1>Demon King?<FA><F7><F1>Then it wasn['t]<F1>Ortega?<FF><F1>
 12_01,<EB>[*:] ……<F1><F7>
 12_02,"<EB>[*:] Thank you.<F1><FA><F7><&40>, I will never<F1>forget your deed.<FA><F7><F1>Let us meet again.<F1><FA><F7>Rubiss asked me to<F1>tell you that.<F7>"
 UNUSED00_12_02, <~>
@@ -165,14 +165,14 @@ UNUSED00_12_02, <~>
 16_12,<&00> traded the<F1><&12> for<FA><F7><F1><&40>['s] <&25>.<F1>
 16_13,<&09> exchanged<F1><&40>['s] <&25><FA><F7><F1>with <&00>['s]<F1><&12>.
 16_14,<&40>['s] <&25><F1>was exchanged<FA><F7><F1>with <&00>['s]<F1><&12>.
-16_15,Equip it?<F1><xFF>
+16_15,Equip it?<F1><FF>
 16_16,<&40> equipped the<F1><&25>.<F7>
 16_17,<&40> can['t] equip<F1>the <&25>.<F7>
 16_18,The <&25><F1>can['t] be equipped.<F7>
 16_19,<&25> is stuck<F1>due to curse.<F7>
 16_1A,No! You must NOT<F1>throw that out!<F7>
-16_1B,Discard the<F1><&25>?<xFF>
-16_1C,The <&25> may<F1>never be obtained<FA><F7><F1>again. Discard it?<F1><xFF>
+16_1B,Discard the<F1><&25>?<FF>
+16_1C,The <&25> may<F1>never be obtained<FA><F7><F1>again. Discard it?<F1><FF>
 16_1D,The <&25> was<F1>thrown out.<F7>
 16_1E,The <&25> was<F1>cursed!<F7>
 16_1F,The <&25> is<F1>cursed!<F7>
@@ -195,7 +195,7 @@ UNUSED00_16_28, <~>
 16_2F,It turned day into<F1>night!<F7>
 16_30,was held aloft!<F7>
 16_31,was held aloft!<FA><F7>
-16_32,was strummed.<xE8>y
+16_32,was strummed.<j3C>
 16_33,was strummed.<FA><F7>
 16_34,was tried.<FA><F7><F1>But there is no<F1>place to set it.<F7>
 16_35,was flicked!<FA><F7><F1><&00>: Ow!<F1><FA><F7>The Medal hit<F1><&00>.<FA><F7><F1><&40> bashfully<F1>picked it up.<F7>
