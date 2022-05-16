@@ -234,7 +234,7 @@ TextBoxSetupTilemap::
 TextBoxSetupInterrupt::
   ld hl, $ff41 ; STAT
   res 6, [hl] ; Disable LY interrupt
-  ld [$c217], a
+  ld [W_TextBoxInitialScanline], a
   or a
   jr z, .is_zero
   dec a
@@ -250,6 +250,31 @@ TextBoxSetupInterrupt::
   ret
 
   padend $428c
+
+SECTION "Text box setup functions 4", ROMX[$42fc], BANK[$01]
+TextBoxSetupInterruptConfig::
+  ld a, [$cca6]
+  sub $20
+  cp $60
+  ld a, $00
+  jr c, .asm_4309
+  ld a, $63
+.asm_4309
+  push af
+.asm_430a
+  ld a, [$ff44]
+  cp $48
+  jr nz, .asm_430a
+  pop af
+  ; a is scanline to draw text box
+  call TextBoxSetupInterrupt
+  ld hl, $c214
+  xor a
+  ld [hli], a
+  call $21d5
+  jp $2ddb
+
+  padend $431f
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::

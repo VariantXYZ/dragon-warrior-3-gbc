@@ -50,7 +50,7 @@ IntStatDialogBoxScrollPart1::
   ld [$ff40], a
   xor a
   ld [$ff43], a ; Scroll X = 0
-  ld a, [$c217]
+  ld a, [W_TextBoxInitialScanline]
   ld h, a
   ld a, $90
   sub h
@@ -128,7 +128,7 @@ IntStatDialogBoxScrollPart4::
   ld [$ff43], a
   ld a, [$ff9a]
   ld [$ff42], a
-  ld a, [$c217]
+  ld a, [W_TextBoxInitialScanline]
   or a
   jr z, .asm_490
   dec a

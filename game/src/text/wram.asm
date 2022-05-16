@@ -22,3 +22,6 @@ W_TextTilesetDst:: ds 2
 
 SECTION UNION "Text Variables 4", WRAM0[$C212]
 W_TextFrameDelay:: ds 1 ; A frame counter for when to auto-advance text
+
+SECTION UNION "Text Variables 5", WRAM0[$C217]
+W_TextBoxInitialScanline:: ds 1 ; Initial scanline for the text box (63 for bottom, 00 for top)

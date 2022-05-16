@@ -58,7 +58,7 @@ Main::
   ld [$c180], a
   dec a
   ld [$c181], a
-  ld [$c217], a
+  ld [W_TextBoxInitialScanline], a
   ld a, $d9
   ld [$ffbc], a
   ld a, $ff
