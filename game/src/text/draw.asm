@@ -273,8 +273,40 @@ TextBoxSetupInterruptConfig::
   ld [hli], a
   call $21d5
   jp $2ddb
-
-  padend $431f
+.asm_431f:
+  ld a, [$c214]
+  rst $0
+  add hl, hl
+  ld b, e
+  ld c, e
+  ld b, e
+  ld sp, $cd43
+  ld [hl], a
+  ld b, b
+  ld hl, $c214
+  inc [hl]
+  ret
+.asm_4331
+  ld a, $00
+  jr .asm_4309
+.asm_4335:
+  ld a, [$c214]
+  rst $0
+  ccf
+  ld b, e
+  ld c, e
+  ld b, e
+  ld b, a
+  ld b, e
+  call DrawTextBoxAndSetupTilesetLoad
+  ld hl, $c214
+  inc [hl]
+  ret
+.asm_4347:
+  ld a, $63
+  jr .asm_4309
+  
+  padend $434b
 
 SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
 ClearTiles::
