@@ -8,14 +8,14 @@
 00_06,"[*:] Are you<F1>traveling?<FA><F7><F1>Oh, from Aliahan,<F1>you say?<FA><F7><F1>Don['t] tell me--you<F1>are looking for<FA><F7><F1>the Magic Bomb.<F1>Why do all people<FA><F7><F1>long to explore<F1>unknown horizons?<F7>"
 00_07,"[*:] Magic Bomb, huh?<F1><FA><F7>Gramps and his<F1>foolish hobby…"
 00_08,<EB>[*:] Beat up lots of<F1>monsters please!<FA><F7><F1>They… They took my<F1>Mama and Papa…<F7>
-00_09,"<EB>[*:] Oh, my goodness!<F1><&40> is a lady!<xFF>"
+00_09,"<EB>[*:] Oh, my goodness!<F1><&40> is a lady!<FF>"
 00_0A,<EB>[*:] Oh! You['r]e not?<F1><FA><F7>But you look like<F1>a lady to me.<F7>
 00_0B,<EB>[*:] I knew it!<F1><FA><F7>It['s] so amazing<F1>that a lady is on<FA><F7><F1>a trip to battle<F1>monsters!<FA><F7>
-00_0C,[*:] Have you gotten<F1>the Thief Key?<xFF>
+00_0C,[*:] Have you gotten<F1>the Thief Key?<FF>
 00_0D,[*:] That['s] nice.<F1><F7>
 00_0E,[*:] I hear that<F1>there is a cave<FA><F7><F1>that connects to<F1>Najimi Tower in<FA><F7><F1>the forest south<F1>of the village.<FA><F7><F1>The old man who<F1>lives in the tower<FA><F7><F1>is supposed to<F1>have the key.<F7>
 00_0F,<FE>The huge pot is<F1>bubbling with a<FA><F7><F1>mysterious broth…<F1><F7>
-00_10,[*:] Hm? Who are you?<F1>How['d] you get in?<FA><F7><F1>Didn['t] I lock up<F1>tight?<xFF>
+00_10,[*:] Hm? Who are you?<F1>How['d] you get in?<FA><F7><F1>Didn['t] I lock up<F1>tight?<FF>
 00_11,[*:] What? That['s] the<F1>Thief Key!<FA><F7>
 00_12,[*:] What? A spell<F1>that opens locks?<FA><F7><F1>A user of a spell<F1>that advanced…<FA><F7>
 00_13,"[*:] Oh! So you['r]e<F1>the hero Ortega['s]…<FA><F7><F1>I understand now…<F1><FA><F7>Then, I must give<F1>you this.<FA><F7><F1><FE><&40> obtained the<F1>Magic Bomb!<FA><F7>"
@@ -23,11 +23,11 @@
 00_15,[*:] The countries<F1>across the seas<FA><F7><F1>should be waiting<F1>desperately for<FA><F7><F1>the hero from<F1>Aliahan.<FA><F7><F1>I hope that you<F1>will help them.<F7>
 00_16,"[*:] Travel east from<F1>here, and cross<FA><F7><F1>some mountains.<F1><FA><F7>You should find a<F1>small spring.<FA><F7><F1>I['v]e heard rumors<F1>that a hero['s] party<FA><F7><F1>recently departed<F1>from there.<F7>"
 00_17,[*:] Oof! Oof!<F1><FA><F7>Nope… It just<F1>won['t] move…<F7>
-00_18,"[*:] By the way, did<F1>your strength help<FA><F7><F1>you in any way?<F1><xFF>"
+00_18,"[*:] By the way, did<F1>your strength help<FA><F7><F1>you in any way?<F1><FF>"
 00_19,[*:] I thought so!<F1>Didn['t] I tell you?<F7>
 00_1A,[*:] Is that right?<F1>That['s] too bad.<F7>
 00_1B,"[*:] Well, if it<F1>helped you any…<FA><F7><F1>Gramp['s] tinkering<F1>with explosives<FA><F7><F1>isn['t] a complete<F1>waste of time.<F7>"
-00_1C,<EB>[*:] Did you beat<F1>lots of monsters?<xFF>
+00_1C,<EB>[*:] Did you beat<F1>lots of monsters?<FF>
 00_1D,<EB>[*:] Really?<F1>Yay! Thank you!<FA><F7><F1>I['m] sure Mama and<F1>Papa will be happy<FA><F7><F1>in heaven!<F1><F7>
 00_1E,<EB>[*:] Why!?<F1>I asked you to<FA><F7><F1>beat lots of<F1>monsters for me!<FA><F7>
 00_1F,<EB>[*:] They… They…<F1><FA><F7>Took my Mama and<F1>Papa… …sob…<F7>

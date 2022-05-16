@@ -1,11 +1,11 @@
 ﻿Index,Text
 00_00,[*:] Ah! It['s] you!<F1>Word of you has<FA><F7><F1>already reached us<F1>here in Tantegel.<FA><F7>
 00_01,[*:] But to defeat<F1>the Demon King…<FA><F7><F1>Who are you?<F1><FA><F7>It['s] just so<F1>incredible.<F7>
-00_02,[*:] Oh? But I don['t]<F1>see the hero?<xFF>
+00_02,[*:] Oh? But I don['t]<F1>see the hero?<FF>
 00_03,[*:] Oh! You defeated<F1>the Demon King<FA><F7><F1>without the hero!<F1>That['s] incredible!<F7>
 00_04,"[*:] Ah, the hero<F1>must be shy and<FA><F7><F1>avoiding exposure.<F1><F7>"
 00_05,[*:] Isn['t] it great?<F1>We won['t] have to<FA><F7><F1>live with the fear<F1>of monsters!<F7>
-00_06,<EB>[*:] Is it true that<F1>you defeated the<FA><F7><F1>Demon King Zoma?<F1><xFF>
+00_06,<EB>[*:] Is it true that<F1>you defeated the<FA><F7><F1>Demon King Zoma?<F1><FF>
 00_07,<EB>[*:] Wow! That['s] why<F1>the world suddenly<FA><F7><F1>became bright!<F1><F7>
 00_08,"<EB>[*:] Wow! I mean, you<F1>went all alone.<FA><F7><F1>Unbelievable!<F1><F7>"
 00_09,<EB>[*:] I didn['t] think<F1>so…<FA><F7><F1>You just don['t] look<F1>that strong.<FA><F7><F1>It must be that<F1>dashing man…<FA><F7><F1>Ortega must have<F1>defeated Zoma.<F7>
@@ -13,7 +13,7 @@
 00_0B,"<EB>[*:] Yes, it must<F1>have been Ortega<FA><F7><F1>who defeated Zoma!<F1>I['m] convinced!<F7>"
 00_0C,<EB>[*:] You should be<F1>ashamed.<FA><F7><F1>Don['t] claim Ortega['s]<F1>glory as your own.<F7>
 00_0D,<EB>[*:] Oh! Didn['t] you<F1>totally dropkick<FA><F7><F1>that stupid Demon<F1>King Zoma?!<FA><F7>
-00_0E,<EB>[*:] And is the hero-<F1>I mean Ortega-<FA><F7><F1>here?<F1><xFF>
+00_0E,<EB>[*:] And is the hero-<F1>I mean Ortega-<FA><F7><F1>here?<F1><FF>
 00_0F,"<EB>[*:] Yes, but… You['r]e<F1>not Ortega!<FA><F7><F1>Oh, where is my<F1>dearest Ortega?<F7>"
 00_10,<EB>[*:] Not here?<F1>But why?<F7>
 00_11,"[*:] Our ancestors<F1>descended through<FA><F7><F1>the Giana Pit and<F1>settled here.<FA><F7><F1>I don['t] know who<F1>named this land<FA><F7><F1>Alefgard, but I['m]<F1>sure my ancestors<FA><F7><F1>would be delighted<F1>that Alefgard is<FA><F7><F1>awash in light.<F1><F7>"
@@ -30,12 +30,12 @@
 00_1C,"[*:] When rain and<F1>sun come together,<FA><F7><F1>a rainbow will<F1>form a bridge.<FA><F7><F1>The old saying was<F1>true…<FA><F7><F1>It helped bring<F1>peace to our land<FA><F7><F1>finally. We must<F1>be grateful.<F7>"
 00_1D,"<EB>[*:] Meow, meow,<F1>meow!<F7>"
 00_1E,"[*:] Well, isn['t] this<F1>an honor!<FA><F7><F1>You have the King<F1>waiting for you,<FA><F7><F1>and yet you stop<F1>to see me in a<FA><F7><F1>place like this.<F1><FA><F7>I won['t] forget you<F1>people forever!<FA><F7><F1>I['l]l keep your<F1>memory alive to my<FA><F7><F1>grandchildren['s]<F1>generation and<FA><F7><F1>beyond that too!<F1><F7>"
-00_1F,[*:] Are you the hero<F1>who defeated the<FA><F7><F1>Demon King?<F1><xFF>
+00_1F,[*:] Are you the hero<F1>who defeated the<FA><F7><F1>Demon King?<F1><FF>
 00_20,"[*:] That['s] strange.<F1>You don['t] match the<FA><F7><F1>description I<F1>heard about you.<FA><F7><F1>Well, anyway.<F1><FA><F7>Thanks for beating<F1>the Demon King!<F7>"
 00_21,[*:] That['s] amazing!<F1>That must mean you<FA><F7><F1>are stronger than<F1>the hero!<F7>
 00_22,"[*:] Ah, you['r]e back!<F1><FA><F7>Our King is simply<F1>delighted that you<FA><F7><F1>defeated the Demon<F1>King Zoma.<F7>"
 00_23,<EB>[*:] It['s] fantastic<F1>that you beat the<FA><F7><F1>Demon King!<F1>You['r]e so amazing!<F7>
-00_24,[*:] Alefgard is said<F1>to have been made<FA><F7><F1>by the elemental<F1>spirit Rubiss.<FA><F7><F1>Oh? You['v]e met<F1>Rubiss?<xFF>
+00_24,[*:] Alefgard is said<F1>to have been made<FA><F7><F1>by the elemental<F1>spirit Rubiss.<FA><F7><F1>Oh? You['v]e met<F1>Rubiss?<FF>
 00_25,[*:] Oh! And you<F1>obtained a Crest<FA><F7><F1>from Rubiss?<F1>I envy you!<F7>
 00_26,[*:] Oh. Oh…<F1><F7>
 00_27,[*:] You['v]e done it!<F1>Thank you!<FA><F7><F1>But there is no<F1>guarantee that<FA><F7><F1>this won['t] happen<F1>again.<FA><F7><F1>You must keep your<F1>heroic bloodline<FA><F7><F1>alive as your<F1>legacy.<FA><F7><F1>I will always<F1>await your kind!<F7>
@@ -43,17 +43,17 @@
 00_29,"<EB>[*:] Oh, I['m] terribly<F1>busy now!<FA><F7><F1>We have to prepare<F1>a big feast!<FA><F7>"
 00_2A,"<EB>[*:] We['l]l make the<F1>grandest feast we<FA><F7><F1>can, so please eat<F1>hearty, heroes!<F7>"
 00_2B,"<EB>[*:] Well? What are<F1>you, stunned?<FA><F7><F1>Pitch in and help<F1>if you['r]e free…<FA><F7><F1>Oh! You beat the<F1>Demon King?<FA><F7><F1>I… I beg for your<F1>forgiveness!<F7>"
-00_2C,[*:] Th… That['s] the<F1>Kings Sword!<FA><F7><F1>B… But how?<F1>It was supposedly<FA><F7><F1>shattered by the<F1>Demon King…<xFF>
+00_2C,[*:] Th… That['s] the<F1>Kings Sword!<FA><F7><F1>B… But how?<F1>It was supposedly<FA><F7><F1>shattered by the<F1>Demon King…<FF>
 00_2D,[*:] I see…<F1><FA><F7>So that['s] how.<F1>What an ordeal!<F7>
 00_2E,"[*:] Oh, wait…<F1>I was wrong.<FA><F7><F1><&09>?<F1>That['s] all?<FA><F7><F1>That['s] incredible.<F1>How did you win<FA><F7><F1>against the Demon<F1>King?<F7>"
 00_2F,"[*:] Ah, aren['t] you<F1>the people who<FA><F7><F1>slayed the Demon<F1>King?<FA><F7><F1>May I have a look<F1>at your weapons?<FA><F7>"
 00_30,"[*:] Oh, my.<F1><&09>?<FA><F7><F1>You defeated the<F1>Demon King without<FA><F7><F1>the Kings Sword…<F1><F7>"
 00_31,"<EB>[*:] You['r]e the first<F1>hero to return<FA><F7><F1>from the castle of<F1>the Demon King.<FA><F7><F1>Not only that, you<F1>defeated the Demon<FA><F7><F1>King…<F1><FA><F7>Th… Thank you…<F1><F7>"
-00_32,"<EB>[*:] Excuse me…<F1><FA><F7>But, I don['t] see<F1>the hero…<FA><F7><F1>Did the Demon King<F1>get the hero?<xFF>"
+00_32,"<EB>[*:] Excuse me…<F1><FA><F7>But, I don['t] see<F1>the hero…<FA><F7><F1>Did the Demon King<F1>get the hero?<FF>"
 00_33,<EB>[*:] What a tragedy!<F1>The hero and the<FA><F7><F1>Demon King went<F1>down together!<F7>
 00_34,<EB>[*:] Of course not!<F1><FA><F7>The hero wouldn['t]<F1>lose!<FA><F7><F1>Bless the hero!<F1><F7>
 00_35,"[*:] Dawn has finally<F1>come to this land,<FA><F7><F1>and we owe it all<F1>to you!<FA><F7><F1>I thank you for<F1>the joy you have<FA><F7><F1>brought us.<F1><FA><F7>Now, did you want<F1>something of me?<FA><F7>"
-00_36,[*:] Oh! You…<F1>Did you come to<FA><F7><F1>entrust me with<F1>the Sun Stone?<xFF>
+00_36,[*:] Oh! You…<F1>Did you come to<FA><F7><F1>entrust me with<F1>the Sun Stone?<FF>
 00_37,[*:] Then my dream<F1>was true!<FA><F7><F1>I will guard the<F1>Sun Stone with<FA><F7><F1>honor!<F1><F7>
 00_38,[*:] Oh… I must be<F1>mistaken…<FA><F7><F1>That dream I had<F1>of someone giving<FA><F7><F1>me a stone…<F1>What did it mean?<F7>
 00_39,[*:] There may come<F1>another time when<FA><F7><F1>darkness returns<F1>to this land.<FA><F7><F1>The Sun Stone will<F1>be kept safely for<FA><F7><F1>those dark days.<F1><F7>
@@ -78,7 +78,7 @@
 01_11,[*:] Especially not<F1>anyone so young…<FA><F7>
 01_12,[*:] Especially not<F1>anyone so lovely…<FA><F7><F1>
 01_13,[*:] And alone too!<F1>It defies belief!<FA><F7>
-01_14,"[*:] What? Ortega['s]<F1>only child?<FA><F7><F1>I see!<F1><FA><F7>Then, did you meet<F1>Ortega?<xFF><F1>"
+01_14,"[*:] What? Ortega['s]<F1>only child?<FA><F7><F1>I see!<F1><FA><F7>Then, did you meet<F1>Ortega?<FF><F1>"
 01_15,"[*:] Oh! That['s] what<F1>happened…<FA><F7><F1>But your mighty<F1>feat, I['m] certain<FA><F7><F1>your father Ortega<F1>witnessed it from<FA><F7><F1>the clouds above.<F1><F7>"
 01_16,[*:] I see…<F1><FA><F7>That['s] what became<F1>of Ortega…<FA><F7><F1>There was a great<F1>man…<F7>
 01_17,[*:] The hero <&40><F1>chose you.<FA><F7><F1>Your victory isn['t]<F1>a miracle.<FA><F7><F1>
@@ -118,7 +118,7 @@
 02_0B,"<EB>[*:] The Life Ring is<F1>vitality itself!<FA><F7><F1>Wear it, and it<F1>will heal you on<FA><F7><F1>every step.<F1><F7>"
 02_0C,"[*:] Aliahan?<F1><FA><F7>I['v]e heard that<F1>somewhere…<FA><F7><F1>Oh, right!<F1>There was a man<FA><F7><F1>who said he came<F1>from there.<F7>"
 02_0D,<EB>[*:] Meeeow.<F7>
-02_0E,[*:] You['r]e not a<F1>familiar face…<FA><F7><F1>You came from the<F1>world above to<FA><F7><F1>defeat the Demon<F1>King?<xFF>
+02_0E,[*:] You['r]e not a<F1>familiar face…<FA><F7><F1>You came from the<F1>world above to<FA><F7><F1>defeat the Demon<F1>King?<FF>
 02_0F,"[*:] Ah, I was right!<F1>But this, this<FA><F7><F1>unfamiliar world,<F1>it must be rather<FA><F7><F1>daunting.<F1>I know, you ought<FA><F7><F1>to take this.<F1>This map should<FA><F7><F1>serve you in its<F1>small way.<FA><F7><F1><FE><&40> obtained the<F1>Pixy Map."
 02_10,<FE>Press SELECT to<F1>view the map.<F7>
 02_11,[*:] Oh…<F1>I do apologize.<FA><F7><F1>I['m] sorry to have<F1>misheard you.<FA><F7><F1>My desperation<F1>must be making me<FA><F7><F1>delusional…<F1><F7>

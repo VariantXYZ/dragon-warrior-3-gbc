@@ -95,6 +95,12 @@ with open(input_file, 'r', encoding='utf-8-sig') as fp:
                     elif special_type == '*': # Delay text scroll by number of frames
                         bintext.append(0xFC)
                         bintext.append(int(''.join(special_data), 16))
+                    elif special_type == 'j': # Play jingle
+                        bintext.append(0xE8)
+                        bintext.append(int(''.join(special_data), 16))
+                    elif special_type == 'e': # Play sound effect
+                        bintext.append(0xE9)
+                        bintext.append(int(''.join(special_data), 16))
                     elif special_type == 'x': # Literal hex
                         bintext.append(int(''.join(special_data), 16))
                     elif special_type == '~': # No terminator

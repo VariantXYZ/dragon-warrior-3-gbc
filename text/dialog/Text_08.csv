@@ -24,7 +24,7 @@
 00_16,"[*:] I came from<F1>Kazave in the<FA><F7><F1>north.<F1><FA><F7>On the way,<F1><FA><F7>I was attacked by<F1>monsters.<FA><F7><F1>I ended up losing<F1>all my wares.<FA><F7><F1>I made it here,<F1>but my business is<FA><F7><F1>ruined!<F1>…Moan…<F7>"
 00_17,"[*:] Portoga, the<F1>kingdom in the<FA><F7><F1>west, makes ships.<F1><FA><F7>A ship is great,<F1>let me tell you.<FA><F7><F1>If you have one,<F1>you can explore<FA><F7><F1>the corners of the<F1>world.<F7>"
 00_18,"[*:] Ah, visiting<F1>from Aliahan!<FA><F7><F1>Welcome!<F1><F7>"
-00_19,[*:] I heard the<F1>winds whispering…<FA><F7><F1>Would you like to<F1>hear them?<xFF><F1>
+00_19,[*:] I heard the<F1>winds whispering…<FA><F7><F1>Would you like to<F1>hear them?<FF><F1>
 00_1A,"[*:] Far to the west,<F1>west of Kazave…<FA><F7><F1>Shampane Tower<F1>casts its shadow.<F7>"
 00_1B,[*:] You have no<F1>sense of wonder.<F7>
 00_1C,[*:] I beg you to<F1>lend an ear to his<FA><F7><F1>Majesty['s] request.<F1><F7>
@@ -52,7 +52,7 @@
 01_10,"[*:] We['v]e received<F1>word, Highness.<FA><F7><F1>Queen <&40>, as our<F1>new ruler, we must<FA><F7><F1>ask that you do<F1>not wander about.<F7>"
 01_11,"[*:] Hail Queen <&40>!<F1><FA><F7>Your Highness, you<F1>are the sun in my…<FA><F7><F1>Our!<F1>Sun in our lives!<F7>"
 01_12,"[*:] Your Highness,<F1>did you know?<FA><F7><F1>The Wizard Wand<F1>attacks monsters<FA><F7><F1>with fireballs.<F1><FA><F7>It can be used<F1>over and over too.<FA><F7><F1>I would think it['s]<F1>convenient."
-01_13,[*:] …………<F1>Your Highness?<FA><F7><F1>Is there something<F1>else?<xFF>
+01_13,[*:] …………<F1>Your Highness?<FA><F7><F1>Is there something<F1>else?<FF>
 01_14,[*:] Fine.<F1>May I be excused?<F7>
 01_15,"[*:] Pardon!?<F1>Weed the garden?<FA><F7><F1>Please forgive me!<F1>I was shirking!<FA><F7><F1>But I didn['t] think<F1>that weeding would<FA><F7><F1>be so important a<F1>chore to be under<FA><F7><F1>your supervision,<F1>your Highness.<FA><F7>"
 01_16,"[*:] I must confess,<F1>I found this job<FA><F7><F1>to be thankless.<F1><FA><F7>I longed to be a<F1>mage or a warrior.<FA><F7><F1>But not anymore!<F1>From now on, I<FA><F7><F1>will weed with<F1>pride and passion!"
@@ -66,9 +66,9 @@
 01_1E,"<EB>[*:] Your Highness,<F1>I beg you.<FA><F7><F1>Save Noaniels, a<F1>village far north,<FA><F7><F1>please!<F1><FA><F7>"
 01_1F,<EB>[*:] Excuse me?<F1><FA><F7>The village['s] curse<F1>has been lifted?<FA><F7><F1>No wonder you['r]e<F1>our Queen!<F7>
 01_20,<EB>[*:] It['s] been several<F1>years since my<FA><F7><F1>cousin in Noaniels<F1>stopped writing.<FA><F7><F1>Something terrible<F1>must['v]e happened.<F7>
-01_21,[*:] Oh my. The Queen<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<xFF>
+01_21,[*:] Oh my. The Queen<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<FF>
 01_22,"[*:] In the Castle['s]<F1>courtyard is a<FA><F7><F1>garden of flowers.<F1><FA><F7>Lately, it has<F1>been neglected<FA><F7><F1>by the gardener.<F1><FA><F7>The garden was the<F1>late Empress' most<FA><F7><F1>cherished place.<F1><FA><F7>But now it['s] being<F1>overrun by weeds!<FA><F7><F1>Please, command<F1>the man in the<FA><F7><F1>courtyard garden<F1>to weed it!<F7>"
-01_23,"[*:] Eh? Pardon?<F1><FA><F7>I['m] sorry, I didn['t]<F1>quite catch that.<FA><F7><F1>Thank you so much,<F1>your Highness.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<xFF>"
+01_23,"[*:] Eh? Pardon?<F1><FA><F7>I['m] sorry, I didn['t]<F1>quite catch that.<FA><F7><F1>Thank you so much,<F1>your Highness.<FA><F7><F1>Seeing as how you<F1>are here now… <FA><F7><F1>May I beg you to<F1>hear my plea?<FF>"
 01_24,[*:] Oh my. The Queen<F1>visits an old maid<FA><F7><F1>like me at home…<F1>Thank you so much.<F7>
 01_25,"[*:] Ah, the Queen!<F1><FA><F7>A young, beautiful<F1>and strong woman!<FA><F7><F1>You['l]l brighten up<F1>the kingdom!<FA><F7><F1>This calls for a<F1>celebration!<F7>"
 01_26,<EB>[*:] Yay!<F1>It['s] the Queen!<FA><F7><F1>So pretty!<F1><F7>
@@ -76,15 +76,15 @@
 01_28,"[*:] Oh, hello, your<F1>Highness!<FA><F7><F1>By the way, has<F1>the hero from<FA><F7><F1>Aliahan arrived?<F1><FA><F7>He should be here<F1>by now…<F7>"
 01_29,"<EB>[*:] You would deign<F1>to speak to a<FA><F7><F1>traveler like me?<F1><FA><F7>Thank you, your<F1>Highness!<F7>"
 01_2A,"[*:] Ack!<F1>Your Highness!?<FA><F7><F1>You shouldn['t] be<F1>here…<FA><F7><F1>I know!<F1>For your trouble,<FA><F7><F1>here['s] a useful<F1>piece of news.<FA><F7><F1>The village of<F1>Noaniels once sold<FA><F7><F1>Evade Cloaks.<F1><FA><F7>Of course, your<F1>Highness, nothing<FA><F7><F1>could match what<F1>you have on now!<FA><F7><F1>Wahahahah!<F1><F7>"
-01_2B,"[*:] Oh, Highness?<F1>Taking a walk?<xFF>"
+01_2B,"[*:] Oh, Highness?<F1>Taking a walk?<FF>"
 01_2C,"[*:] I understand<F1>completely!<FA><F7><F1>When the weather<F1>is this beautiful,<FA><F7><F1>it['s] only natural<F1>to get outside to<FA><F7><F1>gaze at flowers<F1>and plants.<F7>"
-01_2D,[*:] Pardon? You wish<F1>to stay a night?<FA><F7><F1>Hahahah!<F1>…Are you joking?<xFF>
+01_2D,[*:] Pardon? You wish<F1>to stay a night?<FA><F7><F1>Hahahah!<F1>…Are you joking?<FF>
 01_2E,[*:] A queen wouldn['t]<F1>spend a night in<FA><F7><F1>an inn for the<F1>common people!<FA><F7><F1>Hahahah!<F1><F7>
 01_2F,[*:] I beg your<F1>pardon?<FA><F7><F1>You really do<F1>intend to stay?<FA><F7><F1>Ayieeeh!<F1>P… please wait!<FA><F7><F1>I['l]l ready the<F1>room upstairs!<F7>
 01_30,"[*:] Gasp… Pant…<F1><FA><F7>This way to your<F1>room, please.<F7>"
 01_31,[*:] Here it is.<F1><FA><F7>I do hope you will<F1>enjoy your stay.<F7>
 01_32,[*:] It is a great<F1>honor to have you<FA><F7><F1>visit our inn.<F1><FA><F7>I do hope you will<F1>enjoy your stay.<F7>
-01_33,<FE>A fluffy duvet…<F1>Rest a while?<xFF>
+01_33,<FE>A fluffy duvet…<F1>Rest a while?<FF>
 01_34,"[*:] Good morning,<F1>your Highness.<FA><F7>"
 01_35,[*:] I['v]e run this<F1>inn for 20 years.<FA><F7><F1>I['v]e never felt<F1>happier than now!<FA><F7><F1>Thank you so much!<F1><F7>
 01_36,"<FE>""Welcome to Hotel<F1>Casa Romaly<FA><F7><F1>~ The Choice of<F1>Romaly Royalty!""<F7>"
@@ -104,9 +104,9 @@
 01_44,[*:] Awawawah…<F1><F7>
 01_45,[*:] The Queen!<F1>Awaaaah!<F7>
 01_46,"[*:] Oh yes, I can<F1>understand!<FA><F7><F1>We['r]e all human,<F1>even a queen!<FA><F7><F1>If something['s]<F1>forbidden, doesn['t]<FA><F7><F1>it look even more<F1>attractive?<FA><F7><F1>Well, Highness, I['m]<F1>not the sort of<FA><F7><F1>cad who['d] expose<F1>the secrets of the<FA><F7><F1>weaker sex!<F1><FA><F7>I never saw you<F1>here, Highness!<FA><F7><F1>Wahahah!<F1><F7>"
-01_47,"[*:] Wahahah! It['s] me.<F1>The former king.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Queen!<xFF>"
+01_47,"[*:] Wahahah! It['s] me.<F1>The former king.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Queen!<FF>"
 01_48,[*:] We['l]l meet again!<F1>Wahahahah!<F7>
-01_49,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the Queen?<F1><xFF>
+01_49,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the Queen?<F1><FF>
 01_4A,"[*:] Ah, excellent!<F1>That['s] reassuring!<F7>"
 01_4B,"[*:] I see… I can['t]<F1>force you to stay<FA><F7><F1>on if you['r]e not<F1>happy about it.<FA><F7><F1>Although it was<F1>much too brief,<FA><F7><F1>I did get to<F1>unwind a bit.<FA><F7><F1>Fine! <&40>!<F1><FA><F7>You should resume<F1>your journey!<F7>"
 01_4C,"[*:] Q… Queen <&40>!<F1>What an honor!<FA><F7><F1>Ever since your<F1>stay with us,<FA><F7><F1>our inn has been<F1>very busy!<F7>"
@@ -115,7 +115,7 @@
 02_00,"<EB>[*:] I wanted to see<F1>a country ruled by<FA><F7><F1>a young king like<F1>you.<FA><F7><F1>But, it can['t] be<F1>helped.<FA><F7><F1>You have something<F1>you must do.<F7>"
 02_01,"<EB>[*:] I wanted to see<F1>a country ruled by<FA><F7><F1>a woman like you.<F1><FA><F7>But, it can['t] be<F1>helped.<FA><F7><F1>You have something<F1>you must do.<F7>"
 02_02,"<EB>[*:] I thought that a<F1>new king would<FA><F7><F1>make the kingdom<F1>more prosperous.<FA><F7><F1>But, it can['t] be<F1>helped.<F7>"
-02_03,[*:] I heard the<F1>winds again…<FA><F7><F1>Would you like to<F1>hear them?<xFF><F1>
+02_03,[*:] I heard the<F1>winds again…<FA><F7><F1>Would you like to<F1>hear them?<FF><F1>
 02_04,[*:] Shampane Tower<F1>has gone silent.<FA><F7><F1>Thank you…<F1>Thank you…<F7>
 02_05,[*:] You have no<F1>sense of wonder.<F7>
 02_06,[*:] I will pray for<F1>your safe journey.<F7>
@@ -143,10 +143,10 @@
 02_1C,[*:] It['s] a shame.<F1>I thought that you<FA><F7><F1>would make this<F1>kingdom better…<F7>
 02_1D,"[*:] Oh my…<F1><FA><F7>We have to rely on<F1>the old King to<FA><F7><F1>guide us to a<F1>better tomorrow…<FA><F7><F1>Dear, dear…<F1><F7>"
 02_1E,[*:] Tweet!<F1><FA><F7>I finally did it!<F1>I can whistle!<FA><F7><F1>Tweet! Tweet!<F1><FA><F7>… Nope!<F1>Bobby won['t] come…<F7>
-02_1F,<EB>[*:] Oh? You['r]e not<F1>the King anymore?<xFF>
+02_1F,<EB>[*:] Oh? You['r]e not<F1>the King anymore?<FF>
 02_20,<EB>[*:] Oh. Too bad.<F1>You were striking!<F7>
 02_21,<EB>[*:] Oh! Sssssh.<F1><FA><F7>So you['r]e traveling<F1>undercover?<FA><F7><F1>Take care!<F1><F7>
-02_22,<EB>[*:] Oh? You['r]e not<F1>the Queen anymore?<xFF>
+02_22,<EB>[*:] Oh? You['r]e not<F1>the Queen anymore?<FF>
 02_23,"[*:] Argh! Your Maje…<F1>Huh?<FA><F7><F1>Oh, you quit being<F1>the King already?<FA><F7><F1>Don['t] scare me like<F1>that.<F7>"
 02_24,"[*:] Argh! Your High…<F1>Huh?<FA><F7><F1>Oh, you quit being<F1>the Queen already?<FA><F7><F1>Don['t] scare me like<F1>that.<F7>"
 02_25,[*:] Rumor has it<F1>that the hero of<FA><F7><F1>Aliahan came and<F1>became the King.<F7>

@@ -102,86 +102,86 @@
 06_0C,[*:] Can I think of<F1>you as my boss<FA><F7><F1>from now on?<F1><F7>
 06_0D,[*:] You defeated the<F1>King of Demons?<FA><F7><F1>I… I['m] stunned!<F1><F7>
 06_0E,[*:] Zzzz… Huh?<F1>Why['s] it bright?<FA><F7><F1>Must be a dream…<F1>Grunt… Zzzzz…<F7>
-07_00,<&00> used the<F1><&26>!<xED>
-07_01,<&00> held aloft<F1>the <&26>!<xED>
-07_02,<&00> held aloft<F1>the <&26>!<xED>
-07_03,<&00> gripped the<F1><&26>.<xED>
-07_04,<&00> is paralyzed<F1>by a curse!<xED>
-07_05,Flames leapt from<F1>the wand!<xED>
-07_06,Thunderbolts rend<F1>the sky!<xED>
-07_07,A blizzard howls<F1>from the sword!<xED>
-07_08,Dark rain clouds<F1>cloak the enemy!<xED>
-07_09,Waves of light<F1>form a wall!<xED>
-07_0A,A pink mist drifts<F1>from the sword!<xED>
-07_0B,Bolts of lightning<F1>lashed out!<xED>
-07_0C,Bolts of lightning<F1>lashed out!<xED>
-07_0D,Thunderbolts rend<F1>the sky!<xED>
-07_0E,A blue light races<F1>across the ground!<xED>
-07_0F,The heavens create<F1>a raging storm!<xED>
-07_10,The <&26> glows<F1>mysteriously.<xED>
-07_11,<&00> tallied the<F1><&26>.<xED>
-07_12,"Clink, clink,<F1>clink…<xED><F2><&00>: We have<F1><&39> in all!<xED>"
-07_13,But didn['t] know<F1>how to use it!<xED>
-07_14,A single ray of<F1>light descended!<xED>
-07_15,A sweet aroma<F1>covered the enemy!<xED>
-07_16,A sinister fog<F1>covers the enemy!<xED>
-07_17,The soul is drawn<F1>by the staff…<xED>
-07_18,<&00> examined the<F1><&26> closely!<xED>
-07_19,A bashful grin<F1>appeared!<xED>
-07_1A,<&00> stared at the<F1><&26>!<xED>
-07_1B,Courage welled up<F1>from deep within!<xED>
-07_1C,"""I am always<F1>watching, <&00>…""<xED><F2>Rubiss['s] voice<F1>seemed to echo!<xED>"
-07_1D,<&00> clutched the<F1><&26> tightly!<xED><F2>Happy feelings<F1>bubbled up!<xED>
-07_1E,Happiness<F1>welled up!<xED>
-07_1F,<&00> checked the<F1><&26>!<xED><F2>Courage welled up!<F1><xED>
-07_20,It feels a little<F1>embarrassing!<xED>
-07_21,<&00> prayed with<F1>the <&26>!<xED>
-07_22,<&00>['s] MP was<F1>restored by <&39>!<xED>
-07_23,The Ring crumbled<F1>silently.<xED>
-07_24,<&00> scattered the<F1><&26>!<xED>
-07_25,<&13><F1>sneezed!<xED>
-07_26,But nothing<F1>happened now.<xED>
-07_27,<&00> took the<F1><&26> in hand.<xED>
-07_28,But there is no<F1>place to set it!<xED>
-07_29,<&00> peered into<F1>the <&26>.<xED>
-07_2A,<&00> took the<F1><&26> in hand.<xED><F2>But nothing<F1>happened here.<xED>
-07_2B,<&00> read the<F1><&26>.<xED><F2>But no one was<F1>listening…<xED>
-07_2C,<&00>['s] <&09><F1>rose by <&16> points!<xED>
-07_2D,<&13> was cured of<F1>poison.<xED>
-07_2E,<&00> tossed the<F1><&26> up.<xED>
-07_2F,<&00> gave the<F1><&26> to <&13>.<xED>
-07_30,<&00> ate the<F1><&26>.<xED>
-07_31,<&00> held aloft<F1>the <&26>!<xED>
-07_32,<&13> was cured of<F1>paralysis.<xED>
-07_33,<&00> played the<F1><&26>!<xED>
-07_34,But this isn['t] the<F1>time for that!<xED>
-07_35,<&00> strummed the<F1><&26>.<xE8>y<xED>
-07_36,<&13> is<F1>overjoyed!<xED>
-07_37,<&00> held the<F1><&26> high!<xED>
-07_38,A bright light<F1>floods the gloom!<xED>
-07_39,<&00> scattered the<F1><&26>!<xED>
-07_3A,<&00> hurled the<F1><&26>!<xED>
-07_3B,Its warmth spread<F1>into the hand!<xED>
-07_3C,<&00> rolled up the<F1><&26> and<xED><F2>swatted <&13><F1>with it!<xED>
-07_3D,<&00> gripped the<F1><&26> tightly!<xED>
-07_3E,The <&26> was<F1>slightly bent!<xED>
-07_3F,<&00> tried to read<F1>the <&26>!<xED>
-07_40,But there['s] no<F1>time to read now!<xED>
-07_41,The <&26> tore<F1>a little!<xED>
-07_42,"Zoma: Ah…<F1><xED><F2>So you knew how to<F1>remove my barrier…<xED><F2>But it is futile,<F1>nonetheless.<xED><F2>Come. Suffer in my<F1>embrace.<xED>"
-07_43,But nothing<F1>happened here!<xED>
-07_44,<&00>['s] max.HP rose<F1>by <&09>!<xED>
-07_45,<&00>['s] max.MP rose<F1>by <&09>!<xED>
-07_46,Raging lightning<F1>smites the enemy!<xED>
-07_47,<&00> played the<F1><&26>!<&35><xED>
-07_48,But it didn['t]<F1>affect <&13>!<xED>
+07_00,<&00> used the<F1><&26>!<ED>
+07_01,<&00> held aloft<F1>the <&26>!<ED>
+07_02,<&00> held aloft<F1>the <&26>!<ED>
+07_03,<&00> gripped the<F1><&26>.<ED>
+07_04,<&00> is paralyzed<F1>by a curse!<ED>
+07_05,Flames leapt from<F1>the wand!<ED>
+07_06,Thunderbolts rend<F1>the sky!<ED>
+07_07,A blizzard howls<F1>from the sword!<ED>
+07_08,Dark rain clouds<F1>cloak the enemy!<ED>
+07_09,Waves of light<F1>form a wall!<ED>
+07_0A,A pink mist drifts<F1>from the sword!<ED>
+07_0B,Bolts of lightning<F1>lashed out!<ED>
+07_0C,Bolts of lightning<F1>lashed out!<ED>
+07_0D,Thunderbolts rend<F1>the sky!<ED>
+07_0E,A blue light races<F1>across the ground!<ED>
+07_0F,The heavens create<F1>a raging storm!<ED>
+07_10,The <&26> glows<F1>mysteriously.<ED>
+07_11,<&00> tallied the<F1><&26>.<ED>
+07_12,"Clink, clink,<F1>clink…<ED><F2><&00>: We have<F1><&39> in all!<ED>"
+07_13,But didn['t] know<F1>how to use it!<ED>
+07_14,A single ray of<F1>light descended!<ED>
+07_15,A sweet aroma<F1>covered the enemy!<ED>
+07_16,A sinister fog<F1>covers the enemy!<ED>
+07_17,The soul is drawn<F1>by the staff…<ED>
+07_18,<&00> examined the<F1><&26> closely!<ED>
+07_19,A bashful grin<F1>appeared!<ED>
+07_1A,<&00> stared at the<F1><&26>!<ED>
+07_1B,Courage welled up<F1>from deep within!<ED>
+07_1C,"""I am always<F1>watching, <&00>…""<ED><F2>Rubiss['s] voice<F1>seemed to echo!<ED>"
+07_1D,<&00> clutched the<F1><&26> tightly!<ED><F2>Happy feelings<F1>bubbled up!<ED>
+07_1E,Happiness<F1>welled up!<ED>
+07_1F,<&00> checked the<F1><&26>!<ED><F2>Courage welled up!<F1><ED>
+07_20,It feels a little<F1>embarrassing!<ED>
+07_21,<&00> prayed with<F1>the <&26>!<ED>
+07_22,<&00>['s] MP was<F1>restored by <&39>!<ED>
+07_23,The Ring crumbled<F1>silently.<ED>
+07_24,<&00> scattered the<F1><&26>!<ED>
+07_25,<&13><F1>sneezed!<ED>
+07_26,But nothing<F1>happened now.<ED>
+07_27,<&00> took the<F1><&26> in hand.<ED>
+07_28,But there is no<F1>place to set it!<ED>
+07_29,<&00> peered into<F1>the <&26>.<ED>
+07_2A,<&00> took the<F1><&26> in hand.<ED><F2>But nothing<F1>happened here.<ED>
+07_2B,<&00> read the<F1><&26>.<ED><F2>But no one was<F1>listening…<ED>
+07_2C,<&00>['s] <&09><F1>rose by <&16> points!<ED>
+07_2D,<&13> was cured of<F1>poison.<ED>
+07_2E,<&00> tossed the<F1><&26> up.<ED>
+07_2F,<&00> gave the<F1><&26> to <&13>.<ED>
+07_30,<&00> ate the<F1><&26>.<ED>
+07_31,<&00> held aloft<F1>the <&26>!<ED>
+07_32,<&13> was cured of<F1>paralysis.<ED>
+07_33,<&00> played the<F1><&26>!<ED>
+07_34,But this isn['t] the<F1>time for that!<ED>
+07_35,<&00> strummed the<F1><&26>.<j3C><ED>
+07_36,<&13> is<F1>overjoyed!<ED>
+07_37,<&00> held the<F1><&26> high!<ED>
+07_38,A bright light<F1>floods the gloom!<ED>
+07_39,<&00> scattered the<F1><&26>!<ED>
+07_3A,<&00> hurled the<F1><&26>!<ED>
+07_3B,Its warmth spread<F1>into the hand!<ED>
+07_3C,<&00> rolled up the<F1><&26> and<ED><F2>swatted <&13><F1>with it!<ED>
+07_3D,<&00> gripped the<F1><&26> tightly!<ED>
+07_3E,The <&26> was<F1>slightly bent!<ED>
+07_3F,<&00> tried to read<F1>the <&26>!<ED>
+07_40,But there['s] no<F1>time to read now!<ED>
+07_41,The <&26> tore<F1>a little!<ED>
+07_42,"Zoma: Ah…<F1><ED><F2>So you knew how to<F1>remove my barrier…<ED><F2>But it is futile,<F1>nonetheless.<ED><F2>Come. Suffer in my<F1>embrace.<ED>"
+07_43,But nothing<F1>happened here!<ED>
+07_44,<&00>['s] max.HP rose<F1>by <&09>!<ED>
+07_45,<&00>['s] max.MP rose<F1>by <&09>!<ED>
+07_46,Raging lightning<F1>smites the enemy!<ED>
+07_47,<&00> played the<F1><&26>!<&35><ED>
+07_48,But it didn['t]<F1>affect <&13>!<ED>
 08_00,[*:] Leaving? Better<F1>luck next time!<F7>
 08_01,[*:] Leaving already?<F1>There['s] no refund!
 08_02,[*:] Do come again!<F1><F7>
-08_03,<&09> won as<F1>predicted!<xE8>k<F7>
+08_03,<&09> won as<F1>predicted!<j2E><F7>
 08_04,<&16> won!<F1>But <&00> didn['t]…<F7>
 08_05,[*:] Ladies and<F1>gentlemen!<FA><F7><F2>The current match<F1>ended in a draw.<FA><F7>
 08_06,"[*:] However, <&00>['s]<F1>choice was beaten.<FA><F7><F2>So there is no<F1>refund.<FA><F7><F2>Please try your<F1>luck again!<F7>"
 08_07,[*:] We['l]l refund<F1>your wager.<FA><F7><F2>Please try your<F1>luck again!<F7>
-08_08,<&09> won as<F1>predicted!<xE8>l<F7>
-08_09,<&09> won as<F1>predicted!<xE8>m<F7>
+08_08,<&09> won as<F1>predicted!<j2F><F7>
+08_09,<&09> won as<F1>predicted!<j30><F7>

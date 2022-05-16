@@ -34,7 +34,7 @@
 00_20,"[*:] Oh, hello, your<F1>Majesty!<FA><F7><F1>By the way, Sire,<F1>has the hero from<FA><F7><F1>Aliahan arrived?<F1><FA><F7>He should be here<F1>by now…<F7>"
 00_21,"<EB>[*:] You would deign<F1>to speak to a<FA><F7><F1>traveler like me?<F1>Thank you, Sire!<F7>"
 00_22,"[*:] Ack! Sire!<F1>Why here…?<FA><F7><F1>I know!<F1>For your trouble,<FA><F7><F1>here['s] a useful<F1>piece of news.<FA><F7><F1>The village of<F1>Noaniels once sold<FA><F7><F1>Evade Cloaks.<F1><F7>"
-00_23,"[*:] Oh, Sire?<F1>Taking a walk?<xFF>"
+00_23,"[*:] Oh, Sire?<F1>Taking a walk?<FF>"
 00_24,[*:] I understand<F1>completely!<FA><F7><F1>Who wants to grow<F1>moldy in the<FA><F7><F1>Castle on a day<F1>this beautiful?<F7>
 00_25,"[*:] Ah, then you['r]e<F1>on inspection?<FA><F7><F1>That['s] reassuring!<F1>Please take care!<F7>"
 00_26,"[*:] Hi, what can I…<F1><FA><F7>"
@@ -52,8 +52,8 @@
 00_32,[*:] Awawawah…<F1><F7>
 00_33,[*:] The King!<F1>Awaaaah!<F7>
 00_34,"[*:] Oh yes, I can<F1>understand!<FA><F7><F1>We['r]e all human,<F1>even kings!<FA><F7><F1>If something['s]<F1>forbidden, doesn['t]<FA><F7><F1>it look even more<F1>attractive?<FA><F7><F1>Well, Sire, I['m] a<F1>man like you!<FA><F7><F1>I never saw you<F1>here, Sire!<FA><F7><F1>Wahahah!<F1><F7>"
-00_35,"[*:] Wahahah! It['s] me.<F1>The former King.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Sire!<xFF>"
+00_35,"[*:] Wahahah! It['s] me.<F1>The former King.<FA><F7><F1>Life is good among<F1>the common people!<FA><F7><F1>I never knew that<F1>gambling could be<FA><F7><F1>so fun!<F1><FA><F7>Rule the kingdom<F1>wisely, Sire!<FF>"
 00_36,[*:] We['l]l meet again!<F1>Wahahahah!<F7>
-00_37,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the King?<F1><xFF>
+00_37,[*:] Oh? Have you<F1>grown tired of<FA><F7><F1>being the King?<F1><FF>
 00_38,"[*:] Ah, excellent!<F1>That['s] reassuring!<FA><F7><F1>We['l]l meet again!<F1>Wahahahah!<F7>"
 00_39,"[*:] I see… I can['t]<F1>force you to stay<FA><F7><F1>on if you['r]e not<F1>happy about it.<FA><F7><F1>Although it was<F1>much too brief,<FA><F7><F1>I did get to<F1>unwind a bit.<FA><F7><F1>Fine! <&40>!<F1><FA><F7>You should resume<F1>your journey!<F7>"

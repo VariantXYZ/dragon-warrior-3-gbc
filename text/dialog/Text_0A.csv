@@ -1,6 +1,6 @@
 ﻿Index,Text
 00_00,"[*:] This is Muor, a<F1>village far in the<FA><F7><F1>hinterlands.<F1><F7>"
-00_01,[*:] Did you come<F1>here by ship?<xFF><F1>
+00_01,[*:] Did you come<F1>here by ship?<FF><F1>
 00_02,[*:] I thought so.<F1><FA><F7>Let me tell you<F1>something useful.<FA><F7><F1>Cross the sea to<F1>the land northeast<FA><F7><F1>from here. I hear<F1>that there is a<FA><F7><F1>magic spring.<F1><F7>
 00_03,[*:] What? You walked<F1>all the way here?<FA><F7><F1>You['r]e something<F1>special.<F7>
 00_04,"<EB>[*:] Oh, hello<F1>Pokapa.<FA><F7><F1>Popota was hoping<F1>to see you again.<F7>"
@@ -23,14 +23,14 @@
 00_15,<EB>[*:] I['m] Popota.<F1><FA><F7>The helmet<F1>downstairs?<FA><F7><F1>Pokapa gave me it<F1>for saving him.<FA><F7><F1>Really. He didn['t]<F1>forget it.<F7>
 00_16,<EB>[*:] Yay! Pokapa!<F1><FA><F7>Huh? You['r]e not?<F1><FA><F7>But you look just<F1>like him…<F7>
 00_17,<EB>[*:] I wish Pokapa<F1>would come visit…<F7>
-00_18,[*:] Are you perhaps<F1>from Aliahan?<xFF>
+00_18,[*:] Are you perhaps<F1>from Aliahan?<FF>
 00_19,"[*:] Yes, I thought<F1>so.<FA><F7><F1>Pokapa said he<F1>came from there.<FA><F7><F1>In Aliahan, I<F1>believe he went by<FA><F7><F1>the name Ortega…<F1><FA><F7>"
 00_1A,[*:] He told me how<F1>it pained him to<FA><F7><F1>think of the baby<F1>son he had to<FA><F7><F1>leave back home.<F1>
-00_1B,[*:] Oh! You['r]e that<F1>baby son?<xFF>
+00_1B,[*:] Oh! You['r]e that<F1>baby son?<FF>
 00_1C,[*:] He told me how<F1>it pained him to<FA><F7><F1>think of the baby<F1>daughter he had to<FA><F7><F1>leave back home.<F1>
-00_1D,[*:] Oh! You['r]e that<F1>baby daughter?<xFF>
+00_1D,[*:] Oh! You['r]e that<F1>baby daughter?<FF>
 00_1E,"[*:] Ah, forgive me.<F1><F7>"
-00_1F,"[*:] Yes… You do look<F1>a lot like Pokapa.<FA><F7><F1>Anyway, is Pokapa,<F1>I mean Ortega,<FA><F7><F1>doing all right?<F1><xFF>"
+00_1F,"[*:] Yes… You do look<F1>a lot like Pokapa.<FA><F7><F1>Anyway, is Pokapa,<F1>I mean Ortega,<FA><F7><F1>doing all right?<F1><FF>"
 00_20,[*:] I see… I must<F1>have heard wrong.<F7>
 00_21,"[*:] Ah, good. That['s]<F1>good to hear.<F7>"
 00_22,[*:] That['s] troubling.<F1><FA><F7>Please tell him to<F1>take good care.<F7>
@@ -44,15 +44,15 @@
 00_2A,[*:] I overheard what<F1>was said upstairs.<FA><F7>
 00_2B,[*:] I['m] simply amazed<F1>that you['r]e Pokapa['s]<FA><F7><F1>child.<F1><F7>
 00_2C,"[*:] Please, take<F1>this helmet.<FA><F7><F1>I['m] sure that you['l]l<F1>be able to use it.<F7>"
-00_2D,<FE><&40> obtained<F1>Ortega['s] helmet!<xE8>i<F7>
+00_2D,<FE><&40> obtained<F1>Ortega['s] helmet!<j2C><F7>
 00_2E,
 00_2F,<EB>[*:] I heard that<F1>you['r]e Pokapa['s]<FA><F7><F1>child.<F1><FA><F7>I['m] sorry that I<F1>mistook you for<FA><F7><F1>him.<F1>How silly of me!<F7>
 00_30,"<EB>[*:] Hello, have you<F1>heard?<FA><F7><F1>Pokapa['s] child came<F1>to the village.<FA><F7><F1>Oh, I['m] sorry.<F1>Travelers like you<FA><F7><F1>wouldn['t] know what<F1>I['m] talking about.<F7>"
 00_31,"[*:] I get it now.<F1>Your resemblance<FA><F7><F1>to Pokapa is very<F1>strong.<FA><F7><F1>The way you carry<F1>yourself, your<FA><F7><F1>expressions…<F1>Things like that.<F7>"
-00_32,[*:] Has Pokapa gone<F1>back to Aliahan?<xFF>
+00_32,[*:] Has Pokapa gone<F1>back to Aliahan?<FF>
 00_33,"[*:] Ah, that['s] good.<F7>"
 00_34,"[*:] Ah, he['s] still<F1>on his journey.<FA><F7><F1>I do hope he is<F1>fine.<F7>"
-00_35,"[*:] Ah, hello!<F1><FA><F7>How is the helmet?<F1>Is it useful?<xFF>"
+00_35,"[*:] Ah, hello!<F1><FA><F7>How is the helmet?<F1>Is it useful?<FF>"
 00_36,[*:] That['s] good to<F1>hear.<FA><F7><F1>Popota will be<F1>happy about that.<F7>
 00_37,[*:] That doesn['t]<F1>sound right…<F7>
 00_38,<EB>[*:] I wonder how<F1>Pokapa is doing?<F7>
@@ -81,7 +81,7 @@ UNUSED00_00_41,;<~>
 03_00,[*:] Welcome to<F1>Tedanki village!<F7>
 03_01,"[*:] There['s] a volcano<F1>not far from here.<FA><F7><F1>Go east around the<F1>horn of Tedanki,<FA><F7><F1>hug the coast and<F1>go up a river.<FA><F7><F1>The volcano will<F1>be on your left.<FA><F7><F1>The volcano is the<F1>key to Gondo.<FA><F7><F1>However, unless<F1>you are truly<FA><F7><F1>strong, going near<F1>the crater would<FA><F7><F1>be nothing short<F1>of foolhardy.<F7>"
 03_02,"[*:] If the Demon<F1>Lord attacks, we['l]l<FA><F7><F1>protect the<F1>village ourselves!<F7>"
-03_03,"[*:] If the Demon<F1>Lord attacks, we['l]l<FA><F7><F1>protect the<F1>village ourselves!<FA><F7><F1>What? You say the<F1>village has been<FA><F7><F1>destroyed already?<F1><xFF>"
+03_03,"[*:] If the Demon<F1>Lord attacks, we['l]l<FA><F7><F1>protect the<F1>village ourselves!<FA><F7><F1>What? You say the<F1>village has been<FA><F7><F1>destroyed already?<F1><FF>"
 03_04,[*:] Then what are we<F1>doing standing<FA><F7><F1>here and talking?<F1><FA><F7>Don['t] try to play<F1>me for a fool!<F7>
 03_05,[*:] Of course not!<F1><FA><F7>No Demon Lord will<F1>defeat us!<F7>
 03_06,"[*:] The Demon Lord<F1>is said to be in<FA><F7><F1>Gondo, deep in the<F1>mountains to the<FA><F7><F1>north.<F1><FA><F7>Because we['r]e so<F1>close, it feels<FA><F7><F1>as if his evil<F1>presence surrounds<FA><F7><F1>our village.<F1><F7>"
@@ -94,7 +94,7 @@ UNUSED00_00_41,;<~>
 04_01,"[*:] There are three<F1>boulders in the<FA><F7><F1>castle['s] basement.<F1><FA><F7>If they['r]e lined<F1>up properly on the<FA><F7><F1>blue floor, then<F1>something happens.<FA><F7><F1>If you fail, just<F1>step out. You can<FA><F7><F1>try it from the<F1>start again.<F7>"
 04_02,"<EB>[*:] Heheh, I know<F1>something.<FA><F7><F1>The final key is<F1>in a shrine.<F7>"
 04_03,"[*:] Oh? Are you the<F1>rumored bumpkins?<FA><F7><F1>Hmm, I see that<F1>you are indeed<FA><F7><F1>hicks!<F1><F7>"
-04_04,"[*:] Oh, I haven['t]<F1>seen you before.<FA><F7><F1>Are you travelers?<F1><xFF>"
+04_04,"[*:] Oh, I haven['t]<F1>seen you before.<FA><F7><F1>Are you travelers?<F1><FF>"
 04_05,"[*:] I knew right<F1>away from the way<FA><F7><F1>you['r]e dressed.<F1><FA><F7>And, you['r]e<F1>bumpkins.<F7>"
 04_06,"[*:] It['s] no use<F1>lying.<FA><F7><F1>The way you['r]e<F1>dressed, it['s]<FA><F7><F1>obvious that you['r]e<F1>travelers.<FA><F7><F1>And, you['r]e<F1>bumpkins.<F7>"
 04_07,"[*:] My, my…<F1><FA><F7>The Castle watch<F1>tires me out.<FA><F7><F1>Ah, to rest, to<F1>rest…<F7>"
@@ -157,7 +157,7 @@ UNUSED00_00_41,;<~>
 07_09,<EB>Himiko: Hiss…<F1>Hiss…<F7>
 08_00,[*:] Himiko!<F1><FA><F7>We must tend to<F1>your wounds!<FA><F7><F1>Where could Himiko<F1>have sustained<FA><F7><F1>such injuries?<F1>They['r]e terrible!<F7>
 08_01,[*:] Himiko is hurt.<F1>You must leave.<F7>
-08_02,"<FE>Himiko silently<F1>communicated…<FA><F7><F1><EA>Himiko: Only you<F1>have seen me in my<FA><F7><F1>true form.<F1><FA><F7>Keep silent<F1>what you['v]e seen,<FA><F7><F1>and I will allow<F1>you to live.<FA><F7><F1>Do you accept?<F1><xFF>"
+08_02,"<FE>Himiko silently<F1>communicated…<FA><F7><F1><EA>Himiko: Only you<F1>have seen me in my<FA><F7><F1>true form.<F1><FA><F7>Keep silent<F1>what you['v]e seen,<FA><F7><F1>and I will allow<F1>you to live.<FA><F7><F1>Do you accept?<F1><FF>"
 08_03,<EA>Himiko: Ohohoho…<F1>A wise decision.<F7>
 08_04,"<EA>Himiko: Ohohoho…<F1>That is fine.<FA><F7><F1>Then, I won['t] let<F1>you live.<FA><F7><F1>I will eat you<F1>alive!<F7>"
 08_05,<FE>Himiko was Orochi!<F1><FA><F7>Word of this<F1>spread quickly.<FA><F7><F1>Morning dawned.<F1><F7>

@@ -5,18 +5,18 @@
 00_03,"[*:] If you value<F1>your life, you['d]<FA><F7><F1>best keep clear of<F1>the Castle.<F7>"
 00_04,[*:] There are also<F1>rumors that the<FA><F7><F1>Demon Lord will<F1>destroy the world…<FA><F7><F1>I shouldn['t] have<F1>lived so long…<F7>
 00_05,"[*:] The King sleeps<F1>alone at night on<FA><F7><F1>the second floor.<F1><FA><F7>Though it is in<F1>the Castle, it<FA><F7><F1>seems dangerously<F1>unguarded.<F7>"
-00_06,"[*:] This is between<F1>you and me, but I<FA><F7><F1>think the King<F1>turned tyrannical<FA><F7><F1>after obtaining<F1>the Change Staff.<FA><F7><F1>That['s] what I<F1>think. Do you<FA><F7><F1>agree?<F1><xFF>"
+00_06,"[*:] This is between<F1>you and me, but I<FA><F7><F1>think the King<F1>turned tyrannical<FA><F7><F1>after obtaining<F1>the Change Staff.<FA><F7><F1>That['s] what I<F1>think. Do you<FA><F7><F1>agree?<F1><FF>"
 00_07,"[*:] Yes, I thought<F1>you['d] say that.<FA><F7><F1>By the way, if a<F1>friend is blown<FA><F7><F1>away by the spell<F1>Disperse, you can<FA><F7><F1>find him at Ruida['s]<F1>Tavern.<F7>"
 00_08,<EB>[*:] Isn['t] Papa coming<F1>home anymore?<FA><F7><F1>Did he go<F1>somewhere?<F7>
 00_09,[*:] Wahahah!<F1><FA><F7>You came up the<F1>wrong stairs!<FA><F7><F1>Go around to the<F1>other side!<F7>
 00_0A,[*:] I['v]e heard about<F1>the Change Staff.<FA><F7><F1>An ordinary dealer<F1>like me wouldn['t]<FA><F7><F1>carry that.<F1><F7>
 00_0B,[*:] I['m] Simon['s] son.<F1><FA><F7>I['v]e been traveling<F1>to find my missing<FA><F7><F1>father.<F1><FA><F7>
 00_0C,[*:] I['v]e heard rumors<F1>that he is in jail<FA><F7><F1>somewhere.<F1><F7>
-00_0D,[*:] This is the<F1>Castle['s] trade<FA><F7><F1>entrance.<F1><FA><F7>Are you here on<F1>business?<xFF>
+00_0D,[*:] This is the<F1>Castle['s] trade<FA><F7><F1>entrance.<F1><FA><F7>Are you here on<F1>business?<FF>
 00_0E,[*:] Then enter.<F1><F7>
 00_0F,"[*:] Go around to the<F1>front, then.<F7>"
 00_10,[*:] This is Samanao<F1>Castle.<F7>
-00_11,[*:] Were you called<F1>for by the King?<xFF>
+00_11,[*:] Were you called<F1>for by the King?<FF>
 00_12,[*:] Don['t] lie!<F1><FA><F7>We haven['t] been<F1>notified that the<FA><F7><F1>likes of you are<F1>coming!<F7>
 00_13,[*:] Then get lost!<F1><FA><F7>We don['t] allow<F1>anyone to enter<FA><F7><F1>without the proper<F1>authorization.<F7>
 00_14,[*:] His Majesty['s]<F1>chamber is ahead.<FA><F7><F1>You have no<F1>business there.<F7>
@@ -78,7 +78,7 @@
 02_02,<EB>[*:] Peace will<F1>finally return to<FA><F7><F1>this kingdom.<F1><F7>
 02_03,[*:] Thank you.<F1>We won['t] have to<FA><F7><F1>leave the town<F1>any more.<F7>
 02_04,[*:] The real King<F1>has returned.<FA><F7><F1>I['m] so glad I lived<F1>a long life.<F7>
-02_05,"[*:] Well? What I<F1>predicted came<FA><F7><F1>true, didn['t] it?<F1><xFF>"
+02_05,"[*:] Well? What I<F1>predicted came<FA><F7><F1>true, didn['t] it?<F1><FF>"
 02_06,"[*:] Yes, I thought<F1>you['d] say that.<F7>"
 02_07,"[*:] Yes, I thought<F1>you['d] say that.<FA><F7><F1>By the way, on the<F1>east coast of the<FA><F7><F1>continent in the<F1>north, a new town<FA><F7><F1>has been founded.<F1>I['d] like to go.<F7>"
 02_08,"[*:] Ah, it['s] you!<F1><FA><F7>You really don['t]<F1>need to come in<FA><F7><F1>through the trade<F1>door anymore.<F7>"
@@ -114,11 +114,11 @@
 04_05,"[*:] Even though<F1>peace has been<FA><F7><F1>restored, the dead<F1>won['t] return.<FA><F7><F1>I intend to guard<F1>their graves and<FA><F7><F1>memories for the<F1>rest of my life.<F7>"
 04_06,<EB>[*:] Raising my son<F1>is the only thing<FA><F7><F1>that keeps me<F1>going.<FA><F7><F1>I['d] better cook him<F1>a good meal!<F7>
 04_07,"[*:] Yo, it['s] me!<F1><FA><F7>The fool who had<F1>glory snatched<FA><F7><F1>away by you lot!<F1><FA><F7>I decided I needed<F1>a job, so…<FA><F7><F1>Oh, this is so<F1>pathetic…<F7>"
-04_08,[*:] That sword!<F1><FA><F7>It['s] my father['s]<F1>Gaia Sword!<FA><F7><F1>Did you meet my<F1>father somewhere?<xFF><F1>
+04_08,[*:] That sword!<F1><FA><F7>It['s] my father['s]<F1>Gaia Sword!<FA><F7><F1>Did you meet my<F1>father somewhere?<FF><F1>
 04_09,[*:] Oh… So he was in<F1>the Lake Jail…<FA><F7><F1>I understand…<F1><F7>
-04_0A,[*:] Then you didn['t]<F1>receive that sword<FA><F7><F1>from my father?<F1><xFF>
+04_0A,[*:] Then you didn['t]<F1>receive that sword<FA><F7><F1>from my father?<F1><FF>
 04_0B,"[*:] I see…<F1><FA><F7>If my father were<F1>alive, he would['v]e<FA><F7><F1>never given that<F1>sword away.<FA><F7><F1>I fear the worst…<F1><F7>"
-04_0C,[*:] What? You did<F1>get that from my<FA><F7><F1>father?<F1>Is that true?<xFF><F1>
+04_0C,[*:] What? You did<F1>get that from my<FA><F7><F1>father?<F1>Is that true?<FF><F1>
 04_0D,[*:] My father was<F1>imprisoned on a<FA><F7><F1>trumped-up charge.<F1><FA><F7>It must have been<F1>terrible for him.<FA><F7><F1>But I['m] glad that<F1>the Gaia Sword<FA><F7><F1>went to you.<F1><FA><F7>Please put that<F1>sword to good use<FA><F7><F1>for my father['s]<F1>sake.<F7>
 04_0E,[*:] Lalala~ La~lala~<F1>La~la~la~<F7>
 04_0F,"<EB>[*:] I['m] practicing<F1>my dance steps to<FA><F7><F1>his singing.<F1><FA><F7>There! Up, up, up!<F1><F7>"
@@ -141,9 +141,9 @@
 06_07,[*:] So there is yet<F1>another funeral in<FA><F7><F1>town…<F1><F7>
 07_00,[*:] I want to make a<F1>town here.<FA><F7><F1>A town here will<F1>make people happy.<FA><F7><F1>But a dealer is<F1>needed in town.<FA><F7>
 07_01,[*:] Level not matter<F1>at all.<FA><F7><F1>Any dealer will<F1>do.<FA><F7><F1>Will anyone come?<F1><F7>
-07_02,[*:] Leave <&28> here.<F1>Please hear me.<xFF>
+07_02,[*:] Leave <&28> here.<F1>Please hear me.<FF>
 07_03,[*:] Oh… That is too<F1>bad…<F7>
-07_04,[*:] Do you mean<F1>that?<FA><F7><F1><&28> will leave<F1>your quest.<FA><F7><F1>May end life here.<F1>Is that fine?<xFF>
+07_04,[*:] Do you mean<F1>that?<FA><F7><F1><&28> will leave<F1>your quest.<FA><F7><F1>May end life here.<F1>Is that fine?<FF>
 07_05,"[*:] Ah, very good!<F1><FA><F7>I start building<F1>town with <&28>!<F7>"
 07_06,"<&28>: Well, I['l]l<F1>be staying here.<FA><F7><F1>Everything I had,<F1>I['l]l put in your<FA><F7><F1>bag.<F1><F7>"
 07_07,"<EB><&28>: It looks<F1>like I['m] staying.<FA><F7><F1>All the equipment<F1>and items I had,<FA><F7><F1>I['l]l put in your<F1>bag.<F7>"
@@ -180,9 +180,9 @@
 0D_08,"<&28>: Ah, welcome!<F1>Don['t] you think the<FA><F7><F1>town is looking<F1>much better?<FA><F7><F1>But watch me, I['v]e<F1>still got a long<FA><F7><F1>way to go.<F1><F7>"
 0D_09,<EB><&28>: Welcome!<F1>What do you think?<FA><F7><F1>The town['s] getting<F1>more like it.<FA><F7><F1>But this is only<F1>the start.<FA><F7><F1>Just watch me.<F1><F7>
 0D_0A,[*:] Please go right<F1>through.<F7>
-0D_0B,"[*:] Leaving so soon?<F1>Here['s] your tab.<FA><F7><F1>It['s] 50,000G.<F1>You will pay?<xFF>"
+0D_0B,"[*:] Leaving so soon?<F1>Here['s] your tab.<FA><F7><F1>It['s] 50,000G.<F1>You will pay?<FF>"
 0D_0C,[*:] Oh? Friends of<F1><&28>?<FA><F7><F1>Please forgive me.<F1><F7>
-0D_0D,<EB>[*:] I think I['m] a<F1>little tipsy.<FA><F7><F1>Could you give me<F1>a back rub?<xFF>
+0D_0D,<EB>[*:] I think I['m] a<F1>little tipsy.<FA><F7><F1>Could you give me<F1>a back rub?<FF>
 0D_0E,"<EB>[*:] Oh, no!<F1>I['m] just joking!<FA><F7><F1>J-O-K-E!<F1>Kyahahaha!<F7>"
 0D_0F,<EB>[*:] Hello! There['s]<F1>plenty of ale.<FA><F7><F1>Stay a while.<F1><F7>
 0D_10,[*:] I['m] impressed!<F1><&28>['s] one gifted<FA><F7><F1>builder to found a<F1>town this good!<F7>
@@ -191,7 +191,7 @@
 0D_13,<EB>[*:] Aren['t] you<F1>impulsive to come<FA><F7><F1>up on stage!<F1><FA><F7>But you['r]e not<F1>allowed to touch!<F7>
 0D_14,<EB>[*:] Well? Isn['t] my<F1>dancing sexy?<F7>
 0D_15,<EB>[*:] Please go<F1>through.<F7>
-0D_16,"<EB>[*:] Are you leaving?<F1>Your tab comes to<FA><F7><F1>50,000G. I trust<F1>you will pay.<xFF>"
+0D_16,"<EB>[*:] Are you leaving?<F1>Your tab comes to<FA><F7><F1>50,000G. I trust<F1>you will pay.<FF>"
 0D_17,"<EB>[*:] Oh? Friends of<F1><&28>?<FA><F7><F1>Oh, my, my.<F1><F7>"
 0D_18,"[*:] Hic, I['m] feeling<F1>a bit painless…<F7>"
 0D_19,[*:] Welcome. There['s]<F1>plenty of cider.<FA><F7><F1>Enjoy yourselves.<F1><F7>

@@ -32,7 +32,7 @@
 01_16,<EB>[*:] What is it?<F1><FA><F7>Does my cheering<F1>bother you?<FA><F7><F1>There['s] nothing<F1>else that['s] worth<FA><F7><F1>cheering about!<F1><F7>
 01_17,"[*:] It doesn['t] matter<F1>if I don['t] make<FA><F7><F1>any money.<F1><FA><F7>Even if I did have<F1>money, what good<FA><F7><F1>would it be?<F1>We['r]e doomed!<F7>"
 01_18,"<EB>[*:] Papa, where are<F1>you?<FA><F7><F1>Mama['s] calling for<F1>you!<F7>"
-02_00,[*:] Did… Did you<F1>slay the Demon<FA><F7><F1>King?<F1><xFF>
+02_00,[*:] Did… Did you<F1>slay the Demon<FA><F7><F1>King?<F1><FF>
 02_01,[*:] I thought so!<F1><FA><F7>We all agreed that<F1>this light must<FA><F7><F1>mean the Demon<F1>King is defeated.<FA><F7><F1>Thank you!<F1><F7>
 02_02,[*:] Oh. You don['t]<F1>have to hide it.<FA><F7><F1>We all agreed that<F1>this light must<FA><F7><F1>mean the Demon<F1>King is defeated.<FA><F7><F1>Thank you!<F1><F7>
 02_03,"[*:] Now that it['s]<F1>peaceful, I['l]l<FA><F7><F1>have to be serious<F1>about my job.<FA><F7><F1>But then again, I<F1>guess weapons and<FA><F7><F1>armor won['t] sell<F1>anymore…<F7>"
@@ -40,7 +40,7 @@
 02_05,[*:] Ahh… The water<F1>is just right!<FA><F7><F1>A bath has to be<F1>this hot to be<FA><F7><F1>worthwhile.<F1><FA><F7>This too we can<F1>attribute to the<FA><F7><F1>light that fills<F1>the world.<FA><F7><F1>Ahh… This must be<F1>like heaven…<F7>
 02_06,<EA>[*:] The demise of<F1>Zoma has closed<FA><F7><F1>the portal to the<F1>other world.<FA><F7><F1>Alefgard will now<F1>prosper as a world<FA><F7><F1>of light.<F1><FA><F7>You can no longer<F1>return to your<FA><F7><F1>world.<F1><FA><F7>You should start a<F1>new life here.<F7>
 02_07,<EB>[*:] I['d] forgotten<F1>how beautiful<FA><F7><F1>morning could be.<F1><FA><F7>I came here from<F1>Zipangu where we<FA><F7><F1>could always see<F1>the most beautiful<FA><F7><F1>of sunrises…<F1><F7>
-02_08,"[*:] Yes! I can now<F1>take my business<FA><F7><F1>anywhere, however<F1>far!<FA><F7><F1>By the way, would<F1>you be willing to<FA><F7><F1>sell me one of<F1>your swords?<xFF>"
+02_08,"[*:] Yes! I can now<F1>take my business<FA><F7><F1>anywhere, however<F1>far!<FA><F7><F1>By the way, would<F1>you be willing to<FA><F7><F1>sell me one of<F1>your swords?<FF>"
 02_09,"[*:] Wahahah!<F1>I['m] only joking!<FA><F7><F1>Those swords were<F1>used to defeat the<FA><F7><F1>Demon King.<F1><FA><F7>While I would love<F1>to have one, I<FA><F7><F1>would never be<F1>able to sell it.<F7>"
 02_0A,"[*:] The item dealer<F1>upstairs, the<FA><F7><F1>fellow who came<F1>from Zipangu,<FA><F7><F1>looked sad<F1>somehow.<FA><F7><F1>Why the long face<F1>on a day this<FA><F7><F1>fantastic?<F1><F7>"
 02_0B,[*:] I won['t] think<F1>about my homeland!<FA><F7><F1>This world is my<F1>home now!<F7>
@@ -53,7 +53,7 @@
 03_01,"[*:] The Kings Sword<F1>is said to have<FA><F7><F1>been crushed by<F1>the Demon King.<FA><F7><F1>However, even the<F1>Demon King is said<FA><F7><F1>to have required<F1>three years to<FA><F7><F1>destroy the sword.<F1><FA><F7>It must have been<F1>one amazing sword.<F7>"
 03_02,"<EB>[*:] The item shop['s]<F1>owner is very<FA><F7><F1>clever with his<F1>hands.<FA><F7><F1>He often buys what<F1>appears to be<FA><F7><F1>junk, then repairs<F1>and sells it.<F7>"
 03_03,<EB>[*:] This is an open<F1>air bath.<F7>
-03_04,"[*:] Youngsters, how<F1>about a morning<FA><F7><F1>bath outside?<F1><xFF>"
+03_04,"[*:] Youngsters, how<F1>about a morning<FA><F7><F1>bath outside?<F1><FF>"
 03_05,"[*:] Ah, young people<F1>are different!<F7>"
 03_06,[*:] Ah! So you think<F1>the water is a tad<FA><F7><F1>tepid too!<F1><FA><F7>It['s] because the<F1>world is covered<FA><F7><F1>by darkness.<F1><FA><F7>I wish to soak in<F1>a hot bath again…<F7>
 03_07,"[*:] Arrrgh! I was<F1>swindled by a man<FA><F7><F1>named Kandar!<F1><FA><F7>He claimed to have<F1>the Kings Sword,<FA><F7><F1>but he sold me a<F1>Steel Sword!<F7>"

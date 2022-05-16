@@ -1,13 +1,13 @@
 ﻿Index,Text
 00_00,[*:] The Traveler['s]<F1>Pachisi Track<FA><F7><F1>welcomes you!<F1><FA><F7>
-00_01,[*:] You can try for<F1>a single Token.<FA><F7><F1>Would you like to<F1>try Pachisi?<xFF><F1>
+00_01,[*:] You can try for<F1>a single Token.<FA><F7><F1>Would you like to<F1>try Pachisi?<FF><F1>
 00_02,"[*:] You can try for<F1>a single Token…<FA><F7><F1>Ah, my friend!<F1><FA><F7>I see you have the<F1>Gold Pass!<FA><F7><F1>You are a fan,<F1>aren['t] you?<FA><F7><F1>Well, here you go!<F1><FA><F7>"
 00_03,"[*:] Oh? You have no<F1>money at all.<FA><F7><F1>If you run out of<F1>money, you['r]e<FA><F7><F1>disqualified from<F1>Pachisi.<FA><F7><F1>"
 00_04,[*:] Please do come<F1>again!<F7>
 00_05,"[*:] Fine, that will<F1>be one Token.<FA><F7>"
 00_06,[*:] You have <&3D><F1>rolls of the die<FA><F7><F1>on this course.<F1>Good luck!<F7>
 00_07,[*:] It['s] one person<F1>at a time.<FA><F7><F1>Take care!<F1><F7>
-00_08,<FE>Your Token is not<F1>refunded if you<FA><F7><F1>decide to quit.<F1>Quit anyway?<xE7>
+00_08,<FE>Your Token is not<F1>refunded if you<FA><F7><F1>decide to quit.<F1>Quit anyway?<E7>
 00_09,[*:] People have<F1>their own reasons.<FA><F7><F1>Quitting could be<F1>a smart tactic.<FA><F7><F1>Please come again.<F1><F7>
 00_0A,"<FE>You have no dice<F1>rolls left.<FA><F7><F1>Sorry, but this<F1>game is over.<F7>"
 00_0B,"[*:] You ran out of<F1>dice rolls.<FA><F7><F1>Sorry, but it can['t]<F1>be helped.<FA><F7><F1>Better luck next<F1>time!<F7>"
@@ -61,7 +61,7 @@ UNUSED00_00_1B, <~>
 00_3A,The chasm to void?<F1><FA><F7>A massive pit<F1>swallows you…<FA><F7>
 00_3B,<FE>Waah! A trapdoor!<F1>
 00_3C,Your trial is at<F1>hand.<FA><F7><F1>It is you who<F1>shapes your fate.<FA><F7><F1><FE><&40>['s] stats may<F1>change!<FA><F7><F1>Roll the die.<F1><F7>
-00_3D,What lies beneath<F1>the soil emerges.<FA><F7><F1><FE>A treasure chest!<F1>Open it?<xFF>
+00_3D,What lies beneath<F1>the soil emerges.<FA><F7><F1><FE>A treasure chest!<F1>Open it?<FF>
 00_3E,<FE><&40> obtained<F1>the <&12>.
 00_3F,Experience is the<F1>basis of all.<FA><F7><F1>Your actions shall<F1>make you grow.<FA><F7>
 00_40,<FE><&40> received<F1>1000 EX points!<F7>
@@ -75,15 +75,15 @@ UNUSED00_00_1B, <~>
 00_48,A gust of wind<F1>comes from<FA><F7><F1>behind.<F1>Advance by 6.<F7>
 00_49,A gust of wind<F1>comes from<FA><F7><F1>the front.<F1>Go back 5.<F7>
 00_4A,Flames consume and<F1>transform you.<FA><F7><F1><FE><&40> became the<F1><&12> type!<F7>
-00_4B,<FE>A treasure chest!<F1>Open it?<xFF>
-00_4C,<FE>A vase!<F1>Check inside it?<xFF>
-00_4D,<FE>A dresser!<F1>Open the drawers?<xFF>
-00_4E,<FE>Check underfoot?<xFF>
+00_4B,<FE>A treasure chest!<F1>Open it?<FF>
+00_4C,<FE>A vase!<F1>Check inside it?<FF>
+00_4D,<FE>A dresser!<F1>Open the drawers?<FF>
+00_4E,<FE>Check underfoot?<FF>
 00_4F,<FE>But the chest was<F1>empty…<F7>
 00_50,<FE>There was nothing<F1>in particular.<F7>
 00_51,<FE>But nothing was<F1>found.<F7>
 00_52,The <&12>?<F7>
-00_53,<FE>What['s] this?<F1>The Herb?<FA><F7><F1>Use it now?<F1><xFF>
+00_53,<FE>What['s] this?<F1>The Herb?<FA><F7><F1>Use it now?<F1><FF>
 00_54,<&40>['s] wounds were<F1>healed!<F7>
 00_55,<FE>Yes! <&12>G was<F1>found!<F7>
 00_56,<FE>Lucky! <&30>G was<F1>found!<F7>
@@ -125,11 +125,11 @@ UNUSED00_00_1B, <~>
 01_09,"Congratulations,<F1><&40>.<FA><F7><F1>You['v]e won a Medal<F1>of your choice!"
 01_0A,"[*:] Oh my.<F1><FA><F7><&00> fell through<F1>a trapdoor.<FA><F7><F1>You['r]e the winner,<F1><&40>.<FA><F7><F1>You['v]e won a Medal<F1>of your choice!"
 01_0B,[*:] Choose a Medal.<F1><F7>
-01_0C,[*:] This Medal?<F1><xFF>
+01_0C,[*:] This Medal?<F1><FF>
 01_0D,[*:] It['s] <&12>['s]<F1>Monster Medal.<FA><F7><F1>Here you go!<F1><FA><F7><FE><&40> obtained<F1><&12>['s] Medal!<F7>
 01_0E,[*:] Let['s] see what<F1>Medals are left.<FA><F7><F1>These are the<F1>remaining Medals.
 01_0F,[*:] This Pachisi<F1>match is over.<FA><F7><F1>Please do come<F1>again!<F7>
-01_10,[*:] Do you want to<F1>quit now?<xE7>
+01_10,[*:] Do you want to<F1>quit now?<E7>
 01_11,Preparing to link.<F1>Please wait.
 01_12,Linkage was<F1>refused.
 01_13,<FE>A wicked jolt of<F1>electricity!
@@ -182,12 +182,12 @@ UNUSED00_00_1B, <~>
 05_0E,"<EB>[*:] Oh, Ortega…<F1><FA><F7>Ortega['s] left…<F1>…Sob…<FA><F7><F1>He saved me from<F1>monsters and led<FA><F7><F1>me back to the<F1>village.<FA><F7><F1>He had such<F1>muscular arms…<FA><F7><F1>But Ortega left<F1>alone yesterday…<F7>"
 05_0F,"[*:] In my travels<F1>around the world,<FA><F7><F1>I['v]e seen countless<F1>warriors.<FA><F7><F1>But Ortega of<F1>Aliahan…<FA><F7><F1>A truer hero you['d]<F1>never find.<F7>"
 05_10,[*:] What? You['r]e…<F1><FA><F7>Aliahan['s] hero<F1>
-05_11,Ortega['s] son?<xFF>
-05_12,Ortega['s] daughter?<xFF>
+05_11,Ortega['s] son?<FF>
+05_12,Ortega['s] daughter?<FF>
 05_13,"[*:] Ah, I was<F1>mistaken, then.<F7>"
 05_14,[*:] Ortega stayed<F1>next door until<FA><F7><F1>he left just<F1>yesterday.<FA><F7><F1>He said he was<F1>going to Ashalam<FA><F7><F1>to find a magic<F1>key.<FA><F7><F1>But I['m] not sure if<F1>it was yesterday.<FA><F7><F1>I have this odd<F1>feeling that I<FA><F7><F1>slept for years.<F1><F7>
 06_00,[*:] Welcome to<F1>Noaniels.<F7>
-06_01,"<EB>[*:] You['r]e travelers,<F1>you know, right?<xFF>"
+06_01,"<EB>[*:] You['r]e travelers,<F1>you know, right?<FF>"
 06_02,<EB>[*:] Ah-hah!<F1>Just as I thought!<F7>
 06_03,<EB>[*:] There['s] supposed<F1>to be a village of<FA><F7><F1>pirates somewhere<F1>in the world.<FA><F7><F1>They raid and loot<F1>passing ships.<FA><F7><F1>That['s] frightening…<F1><F7>
 06_04,[*:] I haven['t] been<F1>sleeping well.<FA><F7><F1>I don['t] think I<F1>have any worries…<FA><F7><F1>Maybe I['m] really<F1>sensitive.<F7>
@@ -198,7 +198,7 @@ UNUSED00_00_1B, <~>
 06_09,[*:] Urrrgh…<F1>My son…<F7>
 06_0A,"[*:] Whew! This is<F1>quite vexing.<FA><F7><F1>The village is<F1>overrun by weeds.<FA><F7><F1>Weeding takes<F1>forever, it seems.<F7>"
 06_0B,"[*:] If a jester<F1>matures, they won['t]<FA><F7><F1>remain a plain<F1>jester.<FA><F7><F1>What? What am I<F1>blurting out?<FA><F7><F1>I must be still<F1>half asleep.<F7>"
-06_0C,"<EB>[*:] Oh, Ortega…<F1><FA><F7>I will wait here<F1>in hopes that he<FA><F7><F1>will visit once<F1>again.<FA><F7><F1>He had such<F1>muscular arms…<FA><F7><F1>I wonder if there<F1>could be another<FA><F7><F1>hero as attractive<F1>as Ortega?<xFF>"
+06_0C,"<EB>[*:] Oh, Ortega…<F1><FA><F7>I will wait here<F1>in hopes that he<FA><F7><F1>will visit once<F1>again.<FA><F7><F1>He had such<F1>muscular arms…<FA><F7><F1>I wonder if there<F1>could be another<FA><F7><F1>hero as attractive<F1>as Ortega?<FF>"
 06_0D,<EB>[*:] True… That['s] just<F1>not likely.<F7>
 06_0E,"<EB>[*:] Huh? You? Hmm…<F1><FA><F7>Close, but not<F1>quite there yet.<F7>"
 06_0F,"<EB>[*:] Huh? You?<F1><FA><F7>I['m] sorry, but I['m]<F1>not interested in<FA><F7><F1>girls.<F1><F7>"
@@ -210,7 +210,7 @@ UNUSED00_00_1B, <~>
 07_03,<EB>[*:] Waaah! I['m] not<F1>sleepy at all!<F7>
 08_00,<EB>[*:] This is Kazave.<F1><FA><F7>It['s] a tiny village<F1>among mountains.<F7>
 08_01,[*:] To the north is<F1>Noaniels.<FA><F7><F1>Shampane Tower is<F1>in the west.<F7>
-08_02,[*:] Even a weak mage<F1>can slay a monster<FA><F7><F1>just like that by<F1>striking its weak<FA><F7><F1>spot with a<F1>Poison[BrokenSword].<FA><F7><F1>The item shop sold<F1>them once before.<F7>
+08_02,[*:] Even a weak mage<F1>can slay a monster<FA><F7><F1>just like that by<F1>striking its weak<FA><F7><F1>spot with a<F1>Poison[Knife].<FA><F7><F1>The item shop sold<F1>them once before.<F7>
 08_03,[*:] A great fighter<F1>lies here.<FA><F7><F1>He is said to have<F1>slain bears with<FA><F7><F1>his bare fists.<F1><FA><F7>I wish I had his<F1>power.<F7>
 08_04,[*:] I['v]e come here<F1>after Kandar.<FA><F7><F1>He['s] supposed to<F1>be holed up in a<FA><F7><F1>tower somewhere.<F1>
 08_05,[*:] It['s] possible<F1>that he['s] already<FA><F7><F1>fled from the<F1>tower.<F7>

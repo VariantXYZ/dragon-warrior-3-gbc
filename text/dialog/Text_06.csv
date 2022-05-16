@@ -5,7 +5,7 @@
 00_03,"King: What? Are<F1>you Ortega['s] child?<FA><F7><F1>Without obtaining<F1>my permission, you<FA><F7><F1>went off alone<F1>without company.<FA><F7><F1>But you['v]e finally<F1>come to see me.<FA><F7><F1>Don['t] worry about<F1>your tardiness.<FA><F7><F1>It is never too<F1>late.<FA><F7><F1>You decide when to<F1>start! Anyway…<FA><F7>"
 00_04,"King: Welcome!<F1><FA><F7>Brave Ortega['s] son…<F1>I mean, daughter!<FA><F7><F1>But your dauntless<F1>look--no man could<FA><F7><F1>hope to better<F1>you.<FA><F7><F1>It['s] clear that you<F1>are Ortega['s] child.<FA><F7>"
 00_05,King: Your mother<F1>must have told you<FA><F7><F1>that your father<F1>Ortega lost his<FA><F7><F1>life when he fell<F1>into a volcano<FA><F7><F1>after a battle.<F1><FA><F7>
-00_06,"King: You wish to<F1>take after your<FA><F7><F1>father and set out<F1>on your own?<FA><F7><F1>Fine! You have my<F1>blessing!<FA><F7><F1>I['m] certain that<F1>you will do your<FA><F7><F1>father['s] will and<F1>lead the world<FA><F7><F1>back to peace.<F1><FA><F7>Our enemy is<F1>Baramos, the Demon<FA><F7><F1>Lord.<F1><FA><F7>The world['s] people<F1>are ignorant of<FA><F7><F1>Baramos, but if he<F1>is left unchecked<FA><F7><F1>the world will<F1>fall into chaos.<FA><F7><F1>That must not be<F1>allowed!<FA><F7><F1><&40>, I beg you to<F1>defeat Baramos!<FA><F7><F1>But don['t] go alone,<F1>lest you face the<FA><F7><F1>same fate that<F1>befell Ortega.<FA><F7><F1>Find yourself some<F1>companions at the<FA><F7><F1>tavern in the town<F1>to accompany you.<FA><F7><F1>Use this to equip<F1>them.<FA><F7><F1><FE><&40> obtained 50G,<F1>weapons and armor!<FA><F7><F1><xE3>King: Let us meet<F1>again, <&40>!<F7>"
+00_06,"King: You wish to<F1>take after your<FA><F7><F1>father and set out<F1>on your own?<FA><F7><F1>Fine! You have my<F1>blessing!<FA><F7><F1>I['m] certain that<F1>you will do your<FA><F7><F1>father['s] will and<F1>lead the world<FA><F7><F1>back to peace.<F1><FA><F7>Our enemy is<F1>Baramos, the Demon<FA><F7><F1>Lord.<F1><FA><F7>The world['s] people<F1>are ignorant of<FA><F7><F1>Baramos, but if he<F1>is left unchecked<FA><F7><F1>the world will<F1>fall into chaos.<FA><F7><F1>That must not be<F1>allowed!<FA><F7><F1><&40>, I beg you to<F1>defeat Baramos!<FA><F7><F1>But don['t] go alone,<F1>lest you face the<FA><F7><F1>same fate that<F1>befell Ortega.<FA><F7><F1>Find yourself some<F1>companions at the<FA><F7><F1>tavern in the town<F1>to accompany you.<FA><F7><F1>Use this to equip<F1>them.<FA><F7><F1><FE><&40> obtained 50G,<F1>weapons and armor!<FA><F7><F1><E3>King: Let us meet<F1>again, <&40>!<F7>"
 00_07,"King: I expect<F1>great things of<FA><F7><F1>you, <&40>!<F1><F7>"
 00_08,"King: Ah, <&40>!<F1><FA><F7>You are truly<F1>magnificent for<FA><F7><F1>slaying Baramos,<F1>the Demon Lord!<FA><F7><F1>Ortega['s] child has<F1>triumphed!<FA><F7><F1>The entire kingdom<F1>is rejoicing!<FA><F7><F1>Come, let us all<F1>celebrate!<F7>"
 00_09,"King: How could<F1>this be…<FA><F7><F1>I thought that<F1>peace returned…<FA><F7><F1>How could I tell<F1>the people that<FA><F7><F1>darkness will soon<F1>be upon us…<FA><F7><F1><&40>, Zoma, the<F1>Demon King, must<FA><F7><F1>be kept a secret.<F1><FA><F7>I['m] tired…<F1>You may go…<F7>"
@@ -18,8 +18,8 @@
 00_10,[*:] It is a terrible<F1>thing…<FA><F7><F1>His Majesty has<F1>lost his will…<FA><F7><F1>I will stand in<F1>his place for a<FA><F7><F1>short while…<F1><FA><F7>
 00_11,"[*:] Ortega, whom we<F1>had given up for<FA><F7><F1>dead, has returned<F1>alive.<FA><F7><F1>That is wonderful<F1>news.<FA><F7><F1>But should Ortega<F1>be told of Zoma,<FA><F7><F1>the Demon King?<F1><FA><F7>His Majesty seems<F1>unable to decide.<FA><F7><F1>I will stand in<F1>his place for a<FA><F7><F1>short while…<F1><FA><F7>"
 00_12,King: Greetings!<F1><FA><F7>I have heard of<F1>the hero Ortega.<FA><F7>
-00_13,"King: Ah, <&40>!<F1><FA><F7>So good of you to<F1>return my Crown<x5F>!<FA><F7><F1>You are truly a<F1>great hero!<FA><F7><F1>You are worthy of<F1>becoming the King!<FA><F7>"
-00_14,"King: So, what do<F1>you say?<FA><F7><F1>Would you be<F1>willing to rule<FA><F7><F1>the kingdom in my<F1>place?<FA><F7><F1>All you need to<F1>say is, ""Yes,"" and<FA><F7><F1>the kingdom shall<F1>be yours. Well?<xFF><F1>"
+00_13,"King: Ah, <&40>!<F1><FA><F7>So good of you to<F1>return my Crown[Tiara]!<FA><F7><F1>You are truly a<F1>great hero!<FA><F7><F1>You are worthy of<F1>becoming the King!<FA><F7>"
+00_14,"King: So, what do<F1>you say?<FA><F7><F1>Would you be<F1>willing to rule<FA><F7><F1>the kingdom in my<F1>place?<FA><F7><F1>All you need to<F1>say is, ""Yes,"" and<FA><F7><F1>the kingdom shall<F1>be yours. Well?<FF><F1>"
 00_15,"King: Fine! From<F1>now on, <&40> shall<FA><F7><F1>be this castle['s]<F1>new king!<F7>"
 00_16,"King: Fine! From<F1>now on, <&40> shall<FA><F7><F1>be this castle['s]<F1>new king…<FA><F7><F1>Wait! You…<F1>You['r]e a woman!<FA><F7><F1>Astounding! In<F1>Romaly['s] history,<FA><F7><F1>no woman has ever<F1>ruled as the king…<FA><F7><F1>But you did defeat<F1>Kandar, didn['t] you…<FA><F7><F1>Ah, fine! Your<F1>power makes you<FA><F7><F1>worthy of ruling<F1>the kingdom.<FA><F7><F1>You shall be our<F1>first-ever queen!<F7>"
 00_17,"King: Fine! From<F1>now on, <&40> shall<FA><F7><F1>be this castle['s]<F1>new queen!<F7>"
@@ -32,7 +32,7 @@
 00_1E,"King: Hm… Although<F1>I never saw it,<FA><F7><F1>I['v]e heard that<F1>you distinguished<FA><F7><F1>yourself as a<F1>great king, <&40>.<FA><F7><F1>But chalk it up to<F1>experience.<FA><F7><F1>I['m] sure that you<F1>will experience<FA><F7><F1>much more on your<F1>long journey.<FA><F7><F1>I look forward to<F1>hearing about your<FA><F7><F1>continued success.<F1>Now, go on.<F7>"
 00_1F,"King: Hm… Although<F1>I never saw it,<FA><F7><F1>I['v]e heard that<F1>you distinguished<FA><F7><F1>yourself as a<F1>great queen, <&40>.<FA><F7><F1>But chalk it up to<F1>experience.<FA><F7><F1>I['m] sure that you<F1>will experience<FA><F7><F1>much more on your<F1>long journey.<FA><F7><F1>I look forward to<F1>hearing about your<FA><F7><F1>continued success.<F1>Now, go on.<F7>"
 00_20,King: I wanted to<F1>confer the kingdom<FA><F7><F1>to <&40>…<F1>Oh well.<FA><F7><F1>
-00_21,"King: Ah, <&00>!<F1><FA><F7>So good of you to<F1>return my Crown<x5F>!<FA><F7><F1>I expected nothing<F1>less from a group<FA><F7><F1>headed by <&40>,<F1>Ortega['s] child.<FA><F7><F1>By the way, where<F1>is <&40>?<FA><F7><F1>Could you fetch<F1><&40> for me?<FA><F7><F1>I['v]e something to<F1>discuss. Anyway…<FA><F7>"
+00_21,"King: Ah, <&00>!<F1><FA><F7>So good of you to<F1>return my Crown[Tiara]!<FA><F7><F1>I expected nothing<F1>less from a group<FA><F7><F1>headed by <&40>,<F1>Ortega['s] child.<FA><F7><F1>By the way, where<F1>is <&40>?<FA><F7><F1>Could you fetch<F1><&40> for me?<FA><F7><F1>I['v]e something to<F1>discuss. Anyway…<FA><F7>"
 00_22,"The King is busy<F1>right now, so I<FA><F7><F1>will hear you out<F1>instead.<FA><F7>"
 00_23,<EB>Queen: It is not<F1>about appearance.<FA><F7><F1>Make your soul<F1>beautiful.<FA><F7><F1>The soul never<F1>gets wrinkled.<FA><F7><F1>
 00_24,<EB>Queen: They shower<F1>me with praise.<FA><F7><F1>But what good is<F1>fleeting beauty?<FA><F7>
@@ -51,25 +51,25 @@
 00_31,King: <&40> has<F1>gained experience<FA><F7><F1>in a way I can['t]<F1>determine.<FA><F7><F1>Your level will be<F1>clear in battle.<FA><F7>
 00_32,[*:] <&40> has gained<F1>experience in a<FA><F7><F1>mysterious manner.<F1><FA><F7>Your level will be<F1>known in battle.<FA><F7>
 00_33,<EB>Queen: <&40> has<F1>gained experience<FA><F7><F1>in a manner that<F1>I cannot fathom.<FA><F7><F1>Your level will be<F1>shown in battle.<FA><F7>
-00_34,King: Do you wish<F1>to record your<FA><F7><F1>journey['s] progress<F1>in this Journal?<xFF>
-00_35,[*:] Will you record<F1>your quest in this<FA><F7><F1>Journal?<F1><xFF>
-00_36,<EB>Queen: Do you wish<F1>to keep memoirs of<FA><F7><F1>your quest in this<F1>Journal?<xFF>
+00_34,King: Do you wish<F1>to record your<FA><F7><F1>journey['s] progress<F1>in this Journal?<FF>
+00_35,[*:] Will you record<F1>your quest in this<FA><F7><F1>Journal?<F1><FF>
+00_36,<EB>Queen: Do you wish<F1>to keep memoirs of<FA><F7><F1>your quest in this<F1>Journal?<FF>
 00_37,King: Where should<F1>this be recorded?
 00_38,King: Where should<F1>I make an entry?
 00_39,[*:] In which Journal<F1>should I record?
 00_3A,<EB>Queen: Where am I<F1>to make an entry?
-00_3B,King: Your quest<F1>has been recorded.<FA><F7><F1>Do you intend to<F1>leave right away?<xFF>
-00_3C,[*:] Your quest has<F1>been recorded.<FA><F7><F1>Do you plan to<F1>leave immediately?<xFF>
-00_3D,<EB>Queen: Your quest<F1>has been recorded.<FA><F7><F1>Are you going to<F1>leave right away?<xFF>
-00_3E,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<xFF>
-00_3F,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<xFF>
-00_40,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you mean to<F1>continue onward?<xFF>
-00_41,[*:] Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<xFF>
-00_42,<EB>Queen: I see…<F1>I won['t] record.<FA><F7><F1>Do you plan to<F1>leave immediately?<xFF>
-00_43,"King: Rest without<F1>recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<xFF>"
-00_44,"King: Rest without<F1>recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<xFF>"
-00_45,"[*:] You wish to rest<F1>without recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<xFF>"
-00_46,"<EB>Queen: Oh? Rest<F1>without recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<xFF>"
+00_3B,King: Your quest<F1>has been recorded.<FA><F7><F1>Do you intend to<F1>leave right away?<FF>
+00_3C,[*:] Your quest has<F1>been recorded.<FA><F7><F1>Do you plan to<F1>leave immediately?<FF>
+00_3D,<EB>Queen: Your quest<F1>has been recorded.<FA><F7><F1>Are you going to<F1>leave right away?<FF>
+00_3E,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<FF>
+00_3F,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<FF>
+00_40,King: Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you mean to<F1>continue onward?<FF>
+00_41,[*:] Fine… I won['t]<F1>make a record.<FA><F7><F1>Do you intend to<F1>leave right away?<FF>
+00_42,<EB>Queen: I see…<F1>I won['t] record.<FA><F7><F1>Do you plan to<F1>leave immediately?<FF>
+00_43,"King: Rest without<F1>recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<FF>"
+00_44,"King: Rest without<F1>recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<FF>"
+00_45,"[*:] You wish to rest<F1>without recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<FF>"
+00_46,"<EB>Queen: Oh? Rest<F1>without recording?<FA><F7><F1>If so, the record<F1>of your quest will<FA><F7><F1>return to the last<F1>recorded entry.<FF>"
 00_47,"King: Then go,<F1><&40>!<F7>"
 00_48,"King: Now, go.<F1><F7>"
 00_49,"[*:] Go, <&40>.<F1><F7>"
@@ -97,14 +97,14 @@
 00_5F,"King: Ah, good to<F1>see you back!<FA><F7><F1>"
 00_60,[*:] Good of you to<F1>return!<FA><F7><F1>
 00_61,<EB>Queen: I am glad<F1>to see you back.<FA><F7><F1>
-00_62,"King: I must ask a<F1>favor of you.<FA><F7><F1>A bandit by the<F1>name of Kandar has<FA><F7><F1>absconded with the<F1>golden Crown<x5F>.<FA><F7><F1>Get it back, and<F1>you shall have my<FA><F7><F1>recognition of you<F1>as a hero!<FA><F7><F1>Now go, <&40>!<F1><F7>"
-00_63,"King: By the way…<F1>Let me ask you<FA><F7><F1>again--will you be<F1>the king?<FA><F7><F1>All you need to<F1>say is, ""Yes,"" and<FA><F7><F1>the kingdom shall<F1>be yours. Well?<xFF><F1>"
-00_64,King: By the way…<F1>Wouldn['t] you like<FA><F7><F1>to take my place<F1>again for a while?<xFF>
+00_62,"King: I must ask a<F1>favor of you.<FA><F7><F1>A bandit by the<F1>name of Kandar has<FA><F7><F1>absconded with the<F1>golden Crown[Tiara].<FA><F7><F1>Get it back, and<F1>you shall have my<FA><F7><F1>recognition of you<F1>as a hero!<FA><F7><F1>Now go, <&40>!<F1><F7>"
+00_63,"King: By the way…<F1>Let me ask you<FA><F7><F1>again--will you be<F1>the king?<FA><F7><F1>All you need to<F1>say is, ""Yes,"" and<FA><F7><F1>the kingdom shall<F1>be yours. Well?<FF><F1>"
+00_64,King: By the way…<F1>Wouldn['t] you like<FA><F7><F1>to take my place<F1>again for a while?<FF>
 00_65,"King: By the way…<F1><FA><F7>About the castle['s]<F1>basement, you see.<FA><F7><F1>The riddle of the<F1>three boulders has<FA><F7><F1>never been solved<F1>by our lineage.<FA><F7><F1>I haven['t] the<F1>foggiest notion as<FA><F7><F1>to what could<F1>possibly happen.<FA><F7><F1>Wahahah!<F1><F7>"
 00_66,"King: What? You<F1>say you solved the<FA><F7><F1>basement['s] riddle?<F1>The Dry Vase?<FA><F7><F1>Ah, that may be<F1>what the king two<FA><F7><F1>generations before<F1>myself hid away.<FA><F7><F1>I can['t] imagine it<F1>being important.<FA><F7><F1>You may keep it!<F1>Wahahah!<F7>"
 00_67,<EB>[*:] I pray for the<F1>arrival of peace.<FA><F7>
 00_68,"<EB>[*:] The Demon Lord<F1>has been slain,<FA><F7><F1>and yet I feel a<F1>leaden dread…<FA><F7><F1>I hope nothing is<F1>wrong…<FA><F7>"
-00_69,<EB>[*:] Would you like<F1>to record your<FA><F7><F1>journey['s] progress<F1>in a Journal?<xFF>
+00_69,<EB>[*:] Would you like<F1>to record your<FA><F7><F1>journey['s] progress<F1>in a Journal?<FF>
 00_6A,<EB>[*:] In which Journal<F1>should I record?
 00_6B,<EB>[*:] May the gods<F1>protect you.<F7>
 00_6C,<EB>[*:] Your quest has<F1>been recorded.<FA><F7><F1>
@@ -113,27 +113,27 @@
 00_6F,<EB>[*:] Welcome back.<F1><FA><F7>
 00_70,"[*:]: Oh, <&40>!<F1>How could you die?<FA><F7><F1>I shall give you<F1>another chance!<FA><F7>"
 00_71,King: I['l]l give you<F1>one more chance!<FA><F7>
-00_72,King: That will<F1>write over <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<xFF><F1>
-00_73,King: That will<F1>erase <&40>['s] LV<&39><FA><F7><F1>record and <&00>['s]<F1>LV<&3B> Field Log.<FA><F7><F1>Is that okay?<xFF><F1>
-00_74,King: That will<F1>write over <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<xFF><F1>
-00_75,<EB>Queen: Doing so<F1>will erase <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<xFF><F1>
-00_76,<EB>Queen: That will<F1>erase <&40>['s] LV<&39><FA><F7><F1>record and <&00>['s]<F1>LV<&3B> Field Log.<FA><F7><F1>Is that okay?<xFF><F1>
-00_77,[*:] That will mean<F1>erasing <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that fine?<F1><xFF>
-01_00,<FE>Record your quest<F1>in the Field Log?<xE7>
-01_01,<FE>There is a record<F1>for <&40> at LV<&39>.<FA><F7><F1>Overwrite <&40>['s]<F1>LV<&39> Field Log?<xE7><F1>
+00_72,King: That will<F1>write over <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<FF><F1>
+00_73,King: That will<F1>erase <&40>['s] LV<&39><FA><F7><F1>record and <&00>['s]<F1>LV<&3B> Field Log.<FA><F7><F1>Is that okay?<FF><F1>
+00_74,King: That will<F1>write over <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<FF><F1>
+00_75,<EB>Queen: Doing so<F1>will erase <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that okay?<FF><F1>
+00_76,<EB>Queen: That will<F1>erase <&40>['s] LV<&39><FA><F7><F1>record and <&00>['s]<F1>LV<&3B> Field Log.<FA><F7><F1>Is that okay?<FF><F1>
+00_77,[*:] That will mean<F1>erasing <&40>['s]<FA><F7><F1>LV<&39> record.<F1>Is that fine?<F1><FF>
+01_00,<FE>Record your quest<F1>in the Field Log?<E7>
+01_01,<FE>There is a record<F1>for <&40> at LV<&39>.<FA><F7><F1>Overwrite <&40>['s]<F1>LV<&39> Field Log?<E7><F1>
 01_02,<FE>Quest recorded.<F1>Have a good rest!<F7>
 01_03,<FE>No recording in<F1>the Field Log now!<F7>
 01_04,<FE>A king can['t] save<F1>in the Field Log!<F7>
 01_05,<FE>A queen can['t] save<F1>in the Field Log!<F7>
-01_06,<F1>Are you sure?<F1><xFF>
-01_07,<EB><F1>Are you sure?<F1><xFF>
+01_06,<F1>Are you sure?<F1><FF>
+01_07,<EB><F1>Are you sure?<F1><FF>
 02_00,<EB>[*:] This is Lancel.<F1><FA><F7>It['s] a small<F1>village.<F7>
 02_01,"[*:] The village is<F1>small, but the<FA><F7><F1>temple is big.<F1><FA><F7>That['s] why we get<F1>a lot of visitors.<F7>"
 02_02,[*:] I['m] traveling in<F1>search of the<FA><F7><F1>final key.<F1><FA><F7>I['v]e heard that a<F1>vase is necessary<FA><F7><F1>to find the key.<F1><FA><F7>But what could<F1>that mean?<FA><F7><F1>Is the key inside<F1>a vase?<F7>
 02_03,[*:] Darn it all!<F1><FA><F7>There['s] no big<F1>temple anywhere!<FA><F7><F1>It['s] supposed to<F1>be in the village…<FA><F7><F1>Am I not looking<F1>hard enough?<F7>
 02_04,<EB>[*:] I['m] the item<F1>dealer['s] daughter.<FA><F7><F1>Please buy some<F1>Hide Herbs.<FA><F7><F1>It['s] a magic herb<F1>that makes you<FA><F7><F1>invisible.<F1><FA><F7>You['l]l find it<F1>beneficial.<F7>
 02_05,[*:] I['v]e heard that<F1>you can go to a<FA><F7><F1>cave named Navel<F1>of Earth from this<FA><F7><F1>temple.<F1><FA><F7>The name Navel of<F1>Earth came about<FA><F7><F1>because it['s] just<F1>about the center<FA><F7><F1>of the world if<F1>seen on a map.<F7>
-02_06,<EB>[*:] Do you have a<F1>Hide Herb?<xFF><F1>
+02_06,<EB>[*:] Do you have a<F1>Hide Herb?<FF><F1>
 02_07,<EB>[*:] Then you should<F1>go to the castle<FA><F7><F1>of Edinbear.<F1><F7>
 02_08,[*:] Oh.<F1><F7>
 02_09,"[*:] I can see it.<F1>If you have parted<FA><F7><F1>ways with a friend<F1>while traveling,<FA><F7><F1>that friend will<F1>give you new hope.<F7>"
@@ -141,25 +141,25 @@
 02_0B,<EB>[*:] Meeow.<F7>
 03_00,[*:] They say the Dry<F1>Vase is kept in<FA><F7><F1>the castle of<F1>Edinbear.<FA><F7><F1>Edinbear is an<F1>island kingdom<FA><F7><F1>north of Portoga.<F1><F7>
 03_01,"[*:] I['v]e heard that<F1>you can go to a<FA><F7><F1>cave named Navel<F1>of Earth from this<FA><F7><F1>temple.<F1><FA><F7>…Actually, keep<F1>quiet about this,<FA><F7><F1>but I['v]e been<F1>inside the Navel<FA><F7><F1>of Earth.<F1><FA><F7>I managed to get<F1>away with my life,<FA><F7><F1>but just barely.<F1><F7>"
-03_02,[*:] Do you know<F1>about Hide Herbs?<xFF>
+03_02,[*:] Do you know<F1>about Hide Herbs?<FF>
 03_03,"[*:] Then go to<F1>Edinbear Castle.<FA><F7><F1>Kikiki, just go!<F1>You['l]l see!<F7>"
 03_04,[*:] Kikiki!<F1><F7>
 03_05,[*:] The Yellow Orb<F1>is said to pass<FA><F7><F1>between people all<F1>around the world.<FA><F7><F1>The Echo Flute<F1>should help you to<FA><F7><F1>find the Yellow<F1>Orb.<F7>
 03_06,<EB>[*:] Sss…<F7>
 03_07,[*:] Zzz… Zzz…<F7>
 03_08,<EB>[*:] Purr…<F7>
-04_00,"[*:] Good of you to<F1>come, <&00>!<FA><F7><F1>Your courage is<F1>put to test at<FA><F7><F1>this temple.<F1><FA><F7>Do you have the<F1>courage to fight<FA><F7><F1>even alone?<F1><xFF>"
+04_00,"[*:] Good of you to<F1>come, <&00>!<FA><F7><F1>Your courage is<F1>put to test at<FA><F7><F1>this temple.<F1><FA><F7>Do you have the<F1>courage to fight<FA><F7><F1>even alone?<F1><FF>"
 04_01,"[*:] Then, come with<F1>me.<F7>"
 04_02,"[*:] Ah, you are<F1>honest at least.<FA><F7><F1>Be gone, then.<F1><F7>"
 04_03,<&09>: Be strong!<F1><F7>
 04_04,<EB><&09>: I['m] worried…<F1>Hurry back!<F7>
 04_05,<&40> spoke to<F1><&00>.<FA><F7><F1>But there was no<F1>reply.<F7>
 04_06,"[*:] Then go, <&00>!<F1><F7>"
-04_07,"[*:] Oh, <&00>!<F1><FA><F7>How could you die?<F1>For shame!<FA><F7><F1>Well, will you go<F1>again?<xFF>"
+04_07,"[*:] Oh, <&00>!<F1><FA><F7>How could you die?<F1>For shame!<FA><F7><F1>Well, will you go<F1>again?<FF>"
 04_08,"[*:] Be gone, then.<F1><F7>"
 04_09,"<&09>: You had us<F1>worried!<FA><F7><F1>Glad you['r]e safe!<F1><FA><F7>[*:] Ssh! Be quiet,<F1>please. Anyway…<FA><F7>"
-04_0A,"<EB><&09>: I['m] glad<F1>you['r]e back!<FA><F7><F1><xE3>[*:] Ssh! Be quiet,<F1>please. Anyway…<FA><F7>"
-04_0B,[*:] Good to see you<F1>back safely!<FA><F7><F1>Weren['t] you<F1>lonely?<xFF>
+04_0A,"<EB><&09>: I['m] glad<F1>you['r]e back!<FA><F7><F1><E3>[*:] Ssh! Be quiet,<F1>please. Anyway…<FA><F7>"
+04_0B,[*:] Good to see you<F1>back safely!<FA><F7><F1>Weren['t] you<F1>lonely?<FF>
 04_0C,[*:] I see. Spoken<F1>like a lone wolf.<FA><F7><F1>Forgive my foolish<F1>question.<FA><F7><F1>
 04_0D,[*:] I see.<F1>You['r]e strong.<FA><F7>
 04_0E,"[*:] I see. For a<F1><&12> type like<FA><F7><F1>you, it must have<F1>been an ordeal.<FA><F7>"

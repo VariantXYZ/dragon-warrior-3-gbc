@@ -8,7 +8,7 @@
 01_00,[*:] Somewhere in<F1>this cave is a<FA><F7><F1>sacred spring that<F1>will restore you.<FA><F7><F1>But why would it<F1>even exist?<FA><F7><F1>I['v]e heard dismal<F1>calls in here…<F7>
 01_01,"<FE>There was a note<F1>inside the chest!<FA><F7><F1><&40> read the<F1>note…<FA><F7><F1>""Please forgive<F1>us, Mother.<FA><F7><F1>If love between an<F1>elf and human is<FA><F7><F1>forbidden in this<F1>life… We will be<FA><F7><F1>lovers in heaven.<F1>Love, Ann.""<F7>"
 02_00,<FE>It['s] an imposing<F1>statue.<FA><F7><F1>Could it be the<F1>Pharaoh who lies<FA><F7><F1>in the pyramid?<F1><F7>
-02_01,<FE>A round button!<F1>Want to push it?<xFF>
+02_01,<FE>A round button!<F1>Want to push it?<FF>
 02_02,<FE><&00> pressed the<F1>round button.<FA><F7><F1>
 02_03,"<FE>There was a heavy,<F1>grating sound…<F7>"
 02_04,<FE>The button is<F1>already pressed.<F7>
@@ -16,7 +16,7 @@
 02_06,"<FE>It['s] a heavy,<F1>stone door…<F7>"
 02_07,<FE><&40> checked the<F1>stone casket…<FA><F7><F1>It was too heavy<F1>to open.<F7>
 02_08,<FE><&00> opened the<F1>treasure chest!<FA><F7><F1>An eerie voice<F1>called out…<FA><F7><F1><EA>[*:] Who disturbs our<F1>King['s] treasure?<FA><F7><F1>Who disturbs us in<F1>our sleep?<F7>
-02_09,<FE>An old casket is<F1>on the altar.<FA><F7><F1>Want to open it?<F1><xFF>
+02_09,<FE>An old casket is<F1>on the altar.<FA><F7><F1>Want to open it?<F1><FF>
 02_0A,<FE><&00> opened the<F1>casket['s] lid…<FA><F7><F1>There was the<F1>Golden Claw!<FA><F7><F1><&00> found the<F1>Golden Claw!
 02_0B,<FE>An eerie voice<F1>called out…<FA><F7><F1><EA>[*:] May misfortune<F1>befall those who<FA><F7><F1>defile the Golden<F1>Claw…
 02_0C,<FE>An old casket is<F1>on the altar…<F7>
@@ -28,10 +28,10 @@
 03_05,Out you go!<F7>
 03_06,<&40> read the<F1>King['s] Letter.<FA><F7><F1>
 03_07,"<FE>""My dear Norud,<F1>I ask that you <FA><F7><F1>show the bearer of<F1>this letter out <FA><F7><F1>through Bahn Pass.<F1>King of Portoga.""<FA><F7><F1>"
-03_08,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_09,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_0A,[*:] Hm! So you wish<F1>to go east?<xFF>
-03_0B,[*:] Hm! So you wish<F1>to go east?<xFF>
+03_08,[*:] Hm! So you wish<F1>to go east?<FF>
+03_09,[*:] Hm! So you wish<F1>to go east?<FF>
+03_0A,[*:] Hm! So you wish<F1>to go east?<FF>
+03_0B,[*:] Hm! So you wish<F1>to go east?<FF>
 03_0C,[*:] Hm! I can never<F1>refuse the King!<FA><F7><F1>Now! Follow me!<F1><F7>
 03_0D,"[*:] Is that so?<F1>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
 03_0E,"[*:] Is that so?<F1>Then, I['m] of no<FA><F7><F1>use to you.<F1><F7>"
@@ -40,16 +40,16 @@
 03_11,[*:] Hm! Wait there!<F1><F7>
 03_12,[*:] There! Enter<F1>through here!<FA><F7><F1>This leads to Bahn<F1>Pass!<F7>
 03_13,"[*:] Humans I don['t]<F1>like, but not the<FA><F7><F1>King of Portoga.<F1>A human so pure of<FA><F7><F1>heart is rare!<F1><F7>"
-03_14,[*:] You wish for<F1>more of me?<FA><F7><F1>All I could do is<F1>to lead you to the<FA><F7><F1>way out east.<F1><xFF>
+03_14,[*:] You wish for<F1>more of me?<FA><F7><F1>All I could do is<F1>to lead you to the<FA><F7><F1>way out east.<F1><FF>
 04_00,"[*:] I['v]e spent years<F1>wandering here.<FA><F7><F1>I saw a man walk<F1>toward the dark<FA><F7><F1>place due south<F1>from here.<FA><F7><F1>When I checked the<F1>darkness, I heard<FA><F7><F1>the sound of a<F1>lock turning…<F7>"
 04_01,[*:] What['r]e you<F1>doing here?
 04_02,[*:] I['l]l say this as<F1>a favor to you.<FA><F7><F1>Get lost before<F1>you get hurt!<F7>
-04_03,[*:] Huh? Who are<F1>you?<FA><F7><F1>You want to join<F1>our band?<xFF>
+04_03,[*:] Huh? Who are<F1>you?<FA><F7><F1>You want to join<F1>our band?<FF>
 04_04,[*:] Our boss is out!<F1>Now scram!<F7>
 04_05,[*:] You['r]e not going<F1>anywhere… Do it!<F7>
 04_06,<EB>[*:] Help!<F1>I['m] Tania.<FA><F7><F1>I was kidnapped<F1>from Baharata!<F7>
 04_07,"Gupta: The wall<F1>straight ahead…<FA><F7><F1>There should be a<F1>lever that opens<FA><F7><F1>this door. Please,<F1>help me!<F7>"
-04_08,<FE>There is a large<F1>lever. Move it?<xFF>
+04_08,<FE>There is a large<F1>lever. Move it?<FF>
 04_09,<FE>The lever has been<F1>moved already.<F7>
 04_0A,<FE><&00> moved the<F1>lever.<F7>
 04_0B,"Gupta: Ah, Tania!<F1>"
@@ -62,9 +62,9 @@
 04_12,Gupta: I don['t]<F1>care what happens<FA><F7><F1>to me!<F1>Please save Tania!<F7>
 04_13,[*:] Heheheh! You['r]e<F1>going nowhere!<F7>
 04_14,"Kandar: Huh?<F1><FA><F7>I don['t] remember<F1>abducting you…<FA><F7><F1>Wait a second…<F1>Dang, you again!<FA><F7><F1>You persistent<F1>dogs!<FA><F7><F1>But this time, I['m]<F1>going to win!<F7>"
-04_15,Kandar: I give!<F1>I can['t] beat you…<FA><F7><F1>I promise to go<F1>straight!<FA><F7><F1>Have mercy!<F1>Please?<xFF>
+04_15,Kandar: I give!<F1>I can['t] beat you…<FA><F7><F1>I promise to go<F1>straight!<FA><F7><F1>Have mercy!<F1>Please?<FF>
 04_16,Kandar: Yes!<F1>Thanks!<FA><F7><F1>Take care!<F1>Farewell!<F7>
-04_17,"Kandar: Aww, don['t]<F1>be so cold! Huh?<FA><F7><F1>I swear, I['l]l go<F1>straight! Promise!<FA><F7><F1>Have mercy!<F1>Please?<xFF>"
+04_17,"Kandar: Aww, don['t]<F1>be so cold! Huh?<FA><F7><F1>I swear, I['l]l go<F1>straight! Promise!<FA><F7><F1>Have mercy!<F1>Please?<FF>"
 04_18,Gupta: Th-thank<F1>you!<FA><F7><F1>I['l]l never forget<F1>what you['v]e done!<F7>
 04_19,"Gupta: Let['s] go,<F1>Tania!<F7>"
 04_1A,"<EB>Tania: Yes, dear.<F1><F7>"
@@ -126,15 +126,15 @@
 0B_0C,<FE><&00> was revived!
 0C_00,[*:] Ssssnore…<F1><F7>
 0C_01,"[*:] Here at last!<F1><&40>, you say?<FA><F7>"
-0C_02,[*:] I['v]e dreamt of<F1>this ceaselessly…<FA><F7><F1>Of giving you this<F1>Thief Key.<FA><F7><F1>You will take it?<F1><xFF>
+0C_02,[*:] I['v]e dreamt of<F1>this ceaselessly…<FA><F7><F1>Of giving you this<F1>Thief Key.<FA><F7><F1>You will take it?<F1><FF>
 0C_03,[*:] My dreams are<F1>not always true…<F7>
 0C_04,<FE><&00> obtained the<F1>Thief Key!<FA><F7>
 0C_05,"[*:] By the way,<F1><&00>.<FA><F7><F1>There are books<F1>that can change<FA><F7><F1>the personality of<F1>any reader.<FA><F7><F1>They are that<F1>persuasive.<FA><F7><F1>Be careful if you<F1>find such a book.<FA><F7><F1>Now, go, <&00>.<F1>"
 0C_06,[*:] I shall resume<F1>my dreaming…<F7>
 0C_07,[*:] Sssnore…<F1>Hm… Mm…<FA><F7>
 0C_08,[*:] Here at last!<F1><FA><F7>Hm? <&40> is…<F1>In a coffin?<FA><F7>
-0C_09,[*:] I['d] dreamt so<F1>often of giving<FA><F7><F1>this key to <&40><F1>too…<FA><F7><F1>Anyway…<F1><FA><F7>You will take the<F1>Thief Key instead?<xFF>
-0C_0A,"[*:] Good of you to<F1>come, <&40>.<FA><F7><F1>Has my key been<F1>useful?<xFF>"
+0C_09,[*:] I['d] dreamt so<F1>often of giving<FA><F7><F1>this key to <&40><F1>too…<FA><F7><F1>Anyway…<F1><FA><F7>You will take the<F1>Thief Key instead?<FF>
+0C_0A,"[*:] Good of you to<F1>come, <&40>.<FA><F7><F1>Has my key been<F1>useful?<FF>"
 0C_0B,[*:] Hm! My dreams do<F1>come true indeed!<F7>
 0C_0C,[*:] I did as my<F1>dream bid…<F7>
 0C_0D,"[*:] Ah, you['r]e the<F1>first guests in<FA><F7><F1>too long a while!<F1>I['m] delighted!<FA><F7>"
@@ -145,14 +145,14 @@
 0D_04,[*:] We['d] better go<F1>tell the boss!<F7>
 0D_05,[*:] You made it<F1>here? That['s] good!<FA><F7><F1>But I['m] nobody['s]<F1>to catch! Not you!<FA><F7><F1>Goodbye! Wahahah!<F1><F7>
 0D_06,[*:] You['v]e dogged me<F1>long enough!<FA><F7><F1>Beg for mercy!<F1><F7>
-0D_07,Kandar: Mercy!<F1><FA><F7>You can have the<F1>Crown<x5F> back!<FA><F7><F1>So let me go!<F1>Huh? Huh?<xFF>
-0D_08,"Kandar: Aww, come<F1>on. Huh? Huh?<xFF>"
+0D_07,Kandar: Mercy!<F1><FA><F7>You can have the<F1>Crown[Tiara] back!<FA><F7><F1>So let me go!<F1>Huh? Huh?<FF>
+0D_08,"Kandar: Aww, come<F1>on. Huh? Huh?<FF>"
 0D_09,Kandar: Bless your<F1>forgiveness!<FA><F7><F1>I['l]l never forget<F1>you. Farewell!<F7>
-0D_0A,<FE>What['s] this?<F1>The Crown<x5F>?
-0D_0B,<FE><&00> obtained the<F1>Crown<x5F>!<F7>
+0D_0A,<FE>What['s] this?<F1>The Crown[Tiara]?
+0D_0B,<FE><&00> obtained the<F1>Crown[Tiara]!<F7>
 0E_00,[*:] Life is a long<F1>journey in search<FA><F7><F1>of enlightenment<F1>and salvation.<FA><F7><F1>Welcome to Garuna<F1>Tower.<F7>
 0E_01,[*:] Inside the tower<F1>lies a Zen Book.<FA><F7><F1>It is the key to<F1>becoming a sage.<F7>
-0E_02,<FE>[*:] ………………<F1><FA><F7><xE3>Can['t] you see I['m]<F1>meditating? Shoo!<F7>
+0E_02,<FE>[*:] ………………<F1><FA><F7><E3>Can['t] you see I['m]<F1>meditating? Shoo!<F7>
 0F_00,"[*:] It was smart of<F1>you to come here.<FA><F7><F1>I['v]e sailed the<F1>world['s] seas.<FA><F7><F1>I['l]l tell you<F1>about the world!<FA><F7><F1>Sail south, down<F1>along the coast.<FA><F7><F1>You['l]l round the<F1>cape of Tedanki.<FA><F7><F1>Far to the cape['s]<F1>east is Lancel.<FA><F7><F1>And beyond it is<F1>Aliahan.<FA><F7><F1>Far to the north<F1>of Aliahan is<FA><F7><F1>Zipangu, the<F1>country of gold.<FA><F7><F1>Also, there are<F1>six Orbs all over <FA><F7><F1>the world. If you<F1>collect them all,<FA><F7><F1>you won['t] need a<F1>ship anymore.<FA><F7><F1>But first, you<F1>should sail south.<FA><F7><F1>Take note of what<F1>I said.<F7>"
 10_00,"[*:] If you have the<F1>Pixy Flute, take<FA><F7><F1>it to the tower['s]<F1>fifth floor.<F7>"
 10_01,[*:] The rotating<F1>floor tiles turn<FA><F7><F1>in a certain way.<F1>Think it out.<FA><F7><F1>Always rushing<F1>headlong doesn['t]<FA><F7><F1>make you any<F1>greater a hero.<F7>
@@ -183,17 +183,17 @@
 13_04,"[*:] Olivia, dearest!<F1><FA><F7>I won['t] ever let<F1>you go again!<F7>"
 13_05,<EB>[*:] Eric!<F1><F7>
 13_06,<FE>Olivia['s] curse<F1>dissipated!<F7>
-14_00,[*:] This is Dharma<F1>Temple.<FA><F7><F1>People gather here<F1>to switch classes.<FA><F7><F1>Do you wish to<F1>change classes?<xFF><F1>
+14_00,[*:] This is Dharma<F1>Temple.<FA><F7><F1>People gather here<F1>to switch classes.<FA><F7><F1>Do you wish to<F1>change classes?<FF><F1>
 14_01,"[*:] Ah, so you do<F1>not wish to change<FA><F7><F1>classes?<F1>That too is fine.<FA><F7><F1>"
 14_02,[*:] Then go.<F1><F7>
 14_03,[*:] Who wishes to<F1>change classes?
 14_04,[*:] Hm? You wish to<F1>reconsider?<FA><F7><F1>That too is fine.<F1><FA><F7>
 14_05,[*:] Fool!<F1><&09> is dead!<FA><F7><F1>I can['t] make the<F1>dead change<FA><F7><F1>classes!<F1><FA><F7>
-14_06,[*:] Anyone else wish<F1>to change classes?<xFF>
+14_06,[*:] Anyone else wish<F1>to change classes?<FF>
 14_07,[*:] Fool!<F1><FA><F7>You no longer wish<F1>to be a hero?<FA><F7><F1>That is absolutely<F1>forbidden!<FA><F7><F1>
 14_08,[*:] What? But <&09><F1>is not competent<FA><F7><F1>yet as a <&31>.<F1><FA><F7>How dare you ask<F1>for a class change<FA><F7><F1>when you are still<F1>incompetent!<FA><F7>
 14_09,[*:] What class does<F1><&09> wish to take?<FA><F7>
-14_0A,[*:] So <&09> wishes<F1>to be a <&31>?<xFF>
+14_0A,[*:] So <&09> wishes<F1>to be a <&31>?<FF>
 14_0B,[*:] Hm? But <&09> has<F1>that class now.<FA><F7>
 14_0C,"[*:] <&31> is the<F1>desired class?<FA><F7><F1>It goes with <&09><F1>being the <&20><FA><F7><F1>type, I suppose.<F1><FA><F7><F1>"
 14_0D,"[*:] What? <&31>?<F1><FA><F7>But <&09> is the<F1><&20> type…<FA><F7><F1>Well, that['s] fine.<F1><FA><F7><F1>"
@@ -204,32 +204,32 @@
 14_12,"[*:] Fwahahahaha!<F1><FA><F7>In spite of being<F1>the <&20> type,<FA><F7><F1>you wish to become<F1>a <&31>?<FA><F7><F1>You must be after<F1>some laughs.<FA><F7><F1>Still, if that is<F1>what you wish…<FA><F7><F1>"
 14_13,"[*:] Ah, that['s] the<F1>perfect choice for<FA><F7><F1>the <&20> type<F1><&09>!<FA><F7><F1>"
 14_14,"[*:] Ah, the <&20><F1>type <&09> wishes<FA><F7><F1>to be a <&31>?<F1><FA><F7>My, haven['t] we<F1>grown up?<FA><F7><F1>"
-14_15,"[*:] Let me confirm,<F1>you['r]e willing to<FA><F7><F1>train again from<F1>Level 1?<xFF>"
-14_16,"[*:] Oh gods, we beg<F1>for your wise<FA><F7><F1>approval for <&09><F1>to take a new<FA><F7><F1>class!<F1><FA><F7><xE8>e"
+14_15,"[*:] Let me confirm,<F1>you['r]e willing to<FA><F7><F1>train again from<F1>Level 1?<FF>"
+14_16,"[*:] Oh gods, we beg<F1>for your wise<FA><F7><F1>approval for <&09><F1>to take a new<FA><F7><F1>class!<F1><FA><F7><j28>"
 14_17,[*:] Fine. <&09> is<F1>now a <&31>.<FA><F7><F1><&09>['s] equipment<F1>from the previous<FA><F7><F1>class has all<F1>been removed.<FA><F7>
-14_18,"[*:] I am a cleric.<F1><FA><F7>I serve Marinan,<F1>the God of Names.<FA><F7><F1>If any of you wish<F1>to change your<FA><F7><F1>name, speak to me.<F1>Well? Anyone?<xFF><F1>"
+14_18,"[*:] I am a cleric.<F1><FA><F7>I serve Marinan,<F1>the God of Names.<FA><F7><F1>If any of you wish<F1>to change your<FA><F7><F1>name, speak to me.<F1>Well? Anyone?<FF><F1>"
 14_19,[*:] Fine. Come see<F1>me anytime if you<FA><F7><F1>wish to change<F1>your name.<FA><F7><F1>May the God of<F1>Names protect you.<F7>
 14_1A,[*:] Who wishes to<F1>change their name?<FA><F7>
-14_1B,[*:] Anyone else wish<F1>to change names?<xFF>
+14_1B,[*:] Anyone else wish<F1>to change names?<FF>
 14_1C,[*:] Hm? Is that…<F1>A bag?<FA><F7><F1>Hahahahah! Fine!<F1><FA><F7>I find it charming<F1>that you wish to<FA><F7><F1>give a name to an<F1>item.<FA><F7><F1>What do you wish<F1>to name the <&09>?<FA><F7>
-14_1D,"[*:] Oh, goodness me!<F1>That name has<FA><F7><F1>earned the ire of<F1>the God of Names!<FA><F7><F1>That name cannot<F1>be changed!<FA><F7><F1>However, if you<F1>must change it,<FA><F7><F1>you must appease<F1>the God of Names.<FA><F7><F1>It will cost<F1>5000G to do so.<FA><F7><F1>Is that acceptable<F1>to you?<xFF><F1>"
+14_1D,"[*:] Oh, goodness me!<F1>That name has<FA><F7><F1>earned the ire of<F1>the God of Names!<FA><F7><F1>That name cannot<F1>be changed!<FA><F7><F1>However, if you<F1>must change it,<FA><F7><F1>you must appease<F1>the God of Names.<FA><F7><F1>It will cost<F1>5000G to do so.<FA><F7><F1>Is that acceptable<F1>to you?<FF><F1>"
 14_1E,"[*:] Then, the name<F1>shall remain the<FA><F7><F1>way it is.<F1><FA><F7>"
 14_1F,[*:] So <&09> wishes<F1>for a new name?<FA><F7><F1>What should be the<F1>new name?<FA><F7>
 14_20,"[*:] Hm? You don['t]<F1>appear to have<FA><F7><F1>that much money.<F1>You have to live<FA><F7><F1>with that name, at<F1>least for now.<FA><F7><F1>"
 14_21,"<&40> offered<F1>5000G.<FA><F7><F1>[*:] Ah, fine.<F1><FA><F7>What name does<F1><&09> desire?<FA><F7>"
 14_22,[*:] Oh? You won['t]<F1>change names?<FA><F7><F1>That['s] fine.<F1><FA><F7>
 14_23,"[*:] <&00>? Uh-oh…<F1><FA><F7>The God of Names<F1>refused that name!<FA><F7><F1>Sorry, but you['l]l<F1>have to choose a<FA><F7><F1>different name.<F1><FA><F7>"
-14_24,"[*:] Ah, so you wish<F1>to go back to your<FA><F7><F1>original name?<F1><FA><F7>It['s] good that you<F1>cherish the name<FA><F7><F1>given to you by<F1>your parents. Hm!<FA><F7><F1><&09> shall once<F1>again become <&00>.<FA><F7><F1>Is that what you<F1>wish?<xFF><F1>"
-14_25,[*:] Hm. Perhaps a<F1>different name?<xFF><F1>
+14_24,"[*:] Ah, so you wish<F1>to go back to your<FA><F7><F1>original name?<F1><FA><F7>It['s] good that you<F1>cherish the name<FA><F7><F1>given to you by<F1>your parents. Hm!<FA><F7><F1><&09> shall once<F1>again become <&00>.<FA><F7><F1>Is that what you<F1>wish?<FF><F1>"
+14_25,[*:] Hm. Perhaps a<F1>different name?<FF><F1>
 14_26,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>Let <&09> take the<F1>original name of<FA><F7><F1><&00> again!<F1><FA><F7>There! Your name<F1>is back to <&00>!<FA><F7>"
 14_27,[*:] <&00> is it? Hm?<F1><FA><F7>Someone goes by<F1>that name already.<FA><F7>
-14_28,[*:] <&00>?<F1>Are you serious<FA><F7><F1>about assuming<F1>such a name?<xFF>
-14_29,[*:] It won['t] be my<F1>fault if the God<FA><F7><F1>of Names becomes<F1>enraged.<FA><F7><F1>Do you still wish<F1>for that name?<xFF><F1>
+14_28,[*:] <&00>?<F1>Are you serious<FA><F7><F1>about assuming<F1>such a name?<FF>
+14_29,[*:] It won['t] be my<F1>fault if the God<FA><F7><F1>of Names becomes<F1>enraged.<FA><F7><F1>Do you still wish<F1>for that name?<FF><F1>
 14_2A,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>May you bless the<F1>new name of <&00>…"
 14_2B,[*:] Awaaaah!<F1><FA><F7>I told you!<F1><FA><F7>The God of Names<F1>is furious!<FA><F7><F1>Your name shall be<F1><&00> forever!<FA><F7>
-14_2C,[*:] <&00>?<F1><FA><F7>Are names that<F1>meaningless?<xFF>
-14_2D,[*:] You claim names<F1>are meaningful…<FA><F7><F1>But you still wish<F1>for that name?<xFF><F1>
-14_2E,[*:] Fine. <&09> shall<F1>be renamed <&00>.<FA><F7><F1>That is what you<F1>wish?<xFF><F1>
+14_2C,[*:] <&00>?<F1><FA><F7>Are names that<F1>meaningless?<FF>
+14_2D,[*:] You claim names<F1>are meaningful…<FA><F7><F1>But you still wish<F1>for that name?<FF><F1>
+14_2E,[*:] Fine. <&09> shall<F1>be renamed <&00>.<FA><F7><F1>That is what you<F1>wish?<FF><F1>
 14_2F,[*:] Then choose a<F1>different name.<FA><F7><F1>What name does<F1><&09> desire?<FA><F7>
 14_30,"[*:] Dear Marinan,<F1>the God of Names!<FA><F7><F1>May you bless the<F1>new name of <&00>!<FA><F7>"
 14_31,[*:] Fine! <&09> has<F1>been blessed to<FA><F7><F1>assume the new<F1>name of <&00>!<FA><F7>
