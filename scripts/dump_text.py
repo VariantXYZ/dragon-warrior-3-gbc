@@ -89,7 +89,7 @@ with open(rom_filename, "rb") as rom:
         for bankidx, bank in enumerate(banks):
             # Write one file per bank, as pointers and text are grouped by bank despite having groups within them
             csv_filename = os.path.join(text_csv_path, f"Text_{bankidx:02X}.csv")
-            with open(csv_filename, "w", encoding="utf-8-sig") as fp:
+            with open(csv_filename, "w", encoding="utf-8") as fp:
                 writer = csv.writer(fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 writer.writerow(["Index", "Text"])
 

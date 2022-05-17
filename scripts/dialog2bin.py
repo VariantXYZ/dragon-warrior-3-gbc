@@ -19,7 +19,7 @@ char_table = utils.reverse_dict(utils.merge_dicts([
             tilesets.get_tileset("en", override_offset=0x0),
         ]))
 
-with open(input_file, 'r', encoding='utf-8-sig') as fp:
+with open(input_file, 'r', encoding='utf-8') as fp:
     reader = csv.reader(fp, delimiter=',', quotechar='"')
     header = next(reader, None)
     idx_index = header.index("Index")
