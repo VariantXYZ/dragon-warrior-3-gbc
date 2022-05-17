@@ -28,8 +28,10 @@ INT_TYPE := o
 
 RAW_2BPP_SRC_TYPE := 2bpp.png
 RAW_1BPP_SRC_TYPE := 1bpp.png
+RAW_COMPRESSED_SRC_TYPE := compressed.png
 2BPP_TYPE := 2bpp
 1BPP_TYPE := 1bpp
+COMPRESSED_TYPE := compressed
 MAP_TYPE := map
 TEXT_TYPE := txt
 CSV_TYPE = csv
@@ -60,9 +62,12 @@ TILESET_GFX := $(GFX)/tilesets
 # Build Directories
 VERSION_OUT := $(BUILD)/version
 GFX_OUT := $(BUILD)/gfx
-TILESET_OUT := $(GFX_OUT)/tilesets
+INTERMEDIATES := $(BUILD)/intermediate
 
-DIALOG_INT := $(BUILD)/intermediate/dialog
+TILESET_INT := $(INTERMEDIATES)/tilesets
+DIALOG_INT := $(INTERMEDIATES)/dialog
+
+TILESET_OUT := $(GFX_OUT)/tilesets
 DIALOG_OUT := $(BUILD)/dialog
 
 # Source Modules (directories in SRC), version directories are implied
@@ -92,9 +97,10 @@ MAP_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(MA
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 
-DIALOG_INT_FILES = $(foreach BIN,$(addsuffix .$(BIN_TYPE), $(notdir $(basename $(wildcard $(DIALOG_TEXT)/*.$(CSV_TYPE))))), $(DIALOG_INT)/$(BIN))
-TILESETS_2BPP = $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE))))
-TILESETS_1BPP = $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE))))
+DIALOG_INT_FILES := $(foreach BIN,$(addsuffix .$(BIN_TYPE), $(notdir $(basename $(wildcard $(DIALOG_TEXT)/*.$(CSV_TYPE))))), $(DIALOG_INT)/$(BIN))
+TILESETS_2BPP := $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE))))
+TILESETS_1BPP := $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE))))
+TILESETS_COMPRESSED := $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_COMPRESSED_SRC_TYPE))))
 
 # Intermediates for common sources (not in version folder)
 ## We explicitly rely on second expansion to handle version-specific files in the version specific objects
@@ -102,10 +108,11 @@ OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD)/,$(OBJECT)))
 
 TILESET_FILES_2BPP := $(foreach FILE,$(TILESETS_2BPP),$(TILESET_OUT)/$(basename $(FILE)).$(2BPP_TYPE))
 TILESET_FILES_1BPP := $(foreach FILE,$(TILESETS_1BPP),$(TILESET_OUT)/$(basename $(FILE)).$(1BPP_TYPE))
+TILESET_FILES_COMPRESSED := $(foreach FILE,$(TILESETS_COMPRESSED),$(TILESET_OUT)/$(basename $(FILE)).$(COMPRESSED_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
-gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP)
+gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
 
 .PHONY: $(VERSIONS) all clean default test
 default: en
@@ -136,7 +143,7 @@ $(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(su
 	$(CC) $(CC_ARGS) -DGAMEVERSION=$(CURVERSION) -o $@ $<
 
 # build/intermediate/dialog/*.bin from dialog csv files
-$(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) $(SCRIPT_RES)/tilesets/en.lst | $(DIALOG_INT)
+$(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) | $(DIALOG_INT) $(SCRIPT_RES)/tilesets/en.lst
 	$(PYTHON) $(SCRIPT)/dialog2bin.py $@ $^
 
 # build/dialog/text_constants.asm from dialog bin files
@@ -150,6 +157,13 @@ $(TILESET_OUT)/%.$(2BPP_TYPE): $(TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE) | $(TILESET
 # build/tilesets/*.1bpp from source png
 $(TILESET_OUT)/%.$(1BPP_TYPE): $(TILESET_GFX)/%.$(RAW_1BPP_SRC_TYPE) | $(TILESET_OUT)
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
+
+# build/tilesets/*.compressed from source png, two rules (convert to 2bpp, compress 2bpp)
+$(TILESET_INT)/%.$(COMPRESSED_TYPE).$(2BPP_TYPE): $(TILESET_GFX)/%.$(RAW_COMPRESSED_SRC_TYPE) | $(TILESET_INT)
+	$(CCGFX) $(CCGFX_ARGS) -d 2 -o $@ $<
+
+$(TILESET_OUT)/%.$(COMPRESSED_TYPE): $(TILESET_INT)/%.$(COMPRESSED_TYPE).$(2BPP_TYPE) | $(TILESET_OUT)
+	$(PYTHON) $(SCRIPT)/compress_tileset.py $@ $<
 
 ### Dump Scripts
 
@@ -167,6 +181,7 @@ dump_maps: | $(SCRIPT_RES) $(MAPS_GFX)
 dump_tilesets: | $(TILESET_GFX)
 	rm $(call ESCAPE,$(TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE)) || echo ""
 	rm $(call ESCAPE,$(TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
+	rm $(call ESCAPE,$(TILESET_GFX)/*.$(RAW_COMPRESSED_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT)/dump_tilesets.py "$(GFX_SRC)" "$(TILESET_GFX)" "$(TILESET_OUT)"
 
 #Make directories if necessary
@@ -196,6 +211,9 @@ $(GFX_OUT):
 
 $(TILESET_GFX):
 	mkdir -p $(TILESET_GFX)
+
+$(TILESET_INT):
+	mkdir -p $(TILESET_INT)
 
 $(TILESET_OUT):
 	mkdir -p $(TILESET_OUT)
