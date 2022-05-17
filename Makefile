@@ -97,6 +97,7 @@ MAP_OUT := $(foreach VERSION,$(VERSIONS),$(BASE)/$(OUTPUT_PREFIX)$(VERSION).$(MA
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 
+DIALOG := $(notdir $(basename $(wildcard $(DIALOG_TEXT)/*.$(CSV_TYPE))))
 DIALOG_INT_FILES = $(foreach BIN,$(addsuffix .$(BIN_TYPE), $(notdir $(basename $(wildcard $(DIALOG_TEXT)/*.$(CSV_TYPE))))), $(DIALOG_INT)/$(BIN))
 TILESETS_2BPP = $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE))))
 TILESETS_1BPP = $(notdir $(basename $(wildcard $(TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE))))
@@ -169,6 +170,17 @@ $(PATCH_TILESET_OUT)/%.$(2BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE)
 # build/tilesets/patch/*.1bpp from source png
 $(PATCH_TILESET_OUT)/%.$(1BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_1BPP_SRC_TYPE) | $(PATCH_TILESET_OUT)
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
+
+
+# TEXT_SHEET="~/sheet.xlsx" make csv_from_xlsx
+.PHONY: csv_from_xlsx check_sheet
+check_sheet:
+ifndef TEXT_SHEET
+	$(error TEXT_SHEET is undefined)
+endif
+
+csv_from_xlsx: check_sheet
+	$(PYTHON) $(SCRIPT)/xlsx2csv.py $(TEXT_SHEET) $(DIALOG_TEXT) $(DIALOG)
 
 ### Dump Scripts
 
