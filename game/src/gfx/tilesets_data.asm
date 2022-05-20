@@ -3,12 +3,15 @@
 SECTION "Tileset TextAdditional", ROMX[$4AD1], BANK[$01]
 TilesetTextAdditional::
   INCBIN "./build/gfx/tilesets/TextAdditional.compressed"
+SECTION "Tileset TextAdditional End", ROMX[$4BDB], BANK[$01]
 
 SECTION "Tileset NormalCharacters", ROMX[$5000], BANK[$01]
 TilesetNormalCharacters::
   INCBIN "./build/gfx/tilesets/NormalCharacters.2bpp"
+SECTION "Tileset NormalCharacters End", ROMX[$5B00], BANK[$01]
 
 SECTION "Tileset DoubleHeightCharacters", ROMX[$6000], BANK[$01]
 TilesetDoubleHeightCharacters::
   INCBIN "./build/gfx/tilesets/DoubleHeightCharacters.2bpp"
+SECTION "Tileset DoubleHeightCharacters End", ROMX[$7600], BANK[$01]
 
