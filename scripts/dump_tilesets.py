@@ -42,7 +42,6 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
 
         rom.seek(address)
         data = []
-
         if tileset[2] == "2bpp":
             size = BYTES_PER_TILE * tileset[3]
             data = rom.read(size)
@@ -51,8 +50,10 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
             # Note the byte that defines 'when' a repeat command starts, usually it's '01'
             compression_byte = utils.read_byte(rom)
             i = 0
+            length = 0
             while (i < size):
                 b = utils.read_byte(rom)
+
                 if b == compression_byte:
                     offset_to_copy = utils.read_byte(rom)
                     flag = utils.read_byte(rom)
@@ -78,5 +79,6 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
         source_fp.write(f'SECTION "Tileset {name}", ROMX[${rom_address[1]:04X}], BANK[${rom_address[0]:02X}]\n')
         source_fp.write(f'Tileset{name}::\n')
         source_fp.write(f'  INCBIN "{out_filename}"\n')
+        source_fp.write(f'SECTION "Tileset {name} End", ROMX[${utils.real2romaddr(rom.tell())[1]:04X}], BANK[${rom_address[0]:02X}]\n')
         
         source_fp.write('\n')
