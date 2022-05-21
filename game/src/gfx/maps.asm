@@ -1,4 +1,5 @@
 INCLUDE "game/src/common/constants.asm"
+INCLUDE "game/src/common/macros.asm"
 
 SECTION "Map functions 1", ROM0[$2f1b]
 DrawMap::
@@ -123,7 +124,8 @@ DrawMap::
   ld a, [$ffbf]
   ld [$2100], a
   jp $2ddb
-; 0x2fc6
+
+  padend $2fc6
 
 SECTION "Map functions 2", ROMX[$5543], BANK[$09]
 DrawMapHelper::
@@ -171,3 +173,7 @@ DrawMapHelper::
 .asm_2558f
   pop de
   ret
+
+  padend $5591
+
+  ; MetamapPointers
