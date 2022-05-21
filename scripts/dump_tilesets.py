@@ -19,10 +19,11 @@ rom_filename = "baserom_en.gbc"
 
 # We just manually define tilesets to dump, there's not really any table
 tileset_information = (
-    # Name, Address, Type (2bpp, compressed), Tile Count (ignored when compressed)
-    ["TextAdditional", (0x1, 0x4ad1), "compressed", None],
-    ["NormalCharacters", (0x1, 0x5000), "2bpp", 11 * 16],
-    ["DoubleHeightCharacters", (0x1, 0x6000), "2bpp", 22 * 16],
+    # Name, Address, Type (2bpp, compressed), Tile Count (ignored when compressed), Ignored
+    ["TextAdditional1", (0x1, 0x4a2f), "compressed", None, True], # Need to write compression
+    ["TextAdditional2", (0x1, 0x4ad1), "compressed", None, False],
+    ["NormalCharacters", (0x1, 0x5000), "2bpp", 11 * 16, False],
+    ["DoubleHeightCharacters", (0x1, 0x6000), "2bpp", 22 * 16, False],
 )
 
 gfx_src_filename = os.path.join(gfx_src_path, "tilesets_data.asm")
@@ -39,6 +40,7 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
         png_filename = os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.png")
         out_filename = os.path.join(gfx_out_path, f"{name}.{tileset[2]}")
         size = 0
+        ignored = tileset[4]
 
         rom.seek(address)
         data = []
@@ -47,13 +49,13 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
             data = rom.read(size)
         elif tileset[2] == "compressed":
             size = utils.read_short(rom) # Total bytes, of uncompressed tileset
+            assert size < 0xfff
             # Note the byte that defines 'when' a repeat command starts, usually it's '01'
             compression_byte = utils.read_byte(rom)
             i = 0
             length = 0
             while (i < size):
                 b = utils.read_byte(rom)
-
                 if b == compression_byte:
                     offset_to_copy = utils.read_byte(rom)
                     flag = utils.read_byte(rom)
@@ -61,14 +63,24 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
                     count = (flag & 0xf) + 0x4 # Minimum count 4
                     if count == 0x13:
                         # If the count is 19 (0xf + 0x4, the maximum), the count is 19 + the next byte
-                        count = utils.read_byte(rom)
-                        count += 0x13
+                        count += utils.read_byte(rom)
                     # High nibble of flag act as the high bytes for offset
                     offset_to_copy = ((flag & 0xf0) << 4) | offset_to_copy
+                    if offset_to_copy & 0x0f00 > size & 0x0f00:
+                        offset_high = (0x0f00 & offset_to_copy) >> 8
+                        offset_low = 0x00ff & offset_to_copy
+                        offset_high += 0xf0
+                        offset_to_copy = (offset_high << 8) | offset_low
                     for c in range(0, count):
-                        d = data[offset_to_copy]
-                        data.append(d)
+                        if offset_to_copy > len(data) - 1:
+                            # They will use a negative number to denote just writing 0
+                            data.append(0)
+                        else:
+                            d = data[offset_to_copy]
+                            data.append(d)
                         offset_to_copy += 1
+                        # Floor as the algorithm takes advantage of overflowing
+                        offset_to_copy &= 0xfff
                     i += count
                 else:
                     data.append(b)
@@ -78,7 +90,9 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
 
         source_fp.write(f'SECTION "Tileset {name}", ROMX[${rom_address[1]:04X}], BANK[${rom_address[0]:02X}]\n')
         source_fp.write(f'Tileset{name}::\n')
+        if ignored:
+            source_fp.write(';')
         source_fp.write(f'  INCBIN "{out_filename}"\n')
-        source_fp.write(f'SECTION "Tileset {name} End", ROMX[${utils.real2romaddr(rom.tell())[1]:04X}], BANK[${rom_address[0]:02X}]\n')
+        source_fp.write(f'SECTION "Tileset {name} End", ROMX[${utils.real2romaddr(rom.tell() - 1)[1]:04X}], BANK[${rom_address[0]:02X}]\n')
         
         source_fp.write('\n')
