@@ -31,23 +31,37 @@ tileset_data.append(compression_byte)
 ## The minimum header bytes required for a 'repeat' are 3, possibly 4:
 ##  [Compression Byte][Offset to copy][Count (0x0 to 0x0f) + implied 4][(optional) Extended count]
 ## Therefore, the 'search' window is a copy length of at least 4
+## One special case is leading zeros which are treated as negative numbers before the start
+## of the array (so any number of leading 00s and possibly the start of the tileset)
 l = 0
 while l < len(tileset):
     pattern = [tileset[l]]
     i = 0
-    idx = -1
+    idx = None
     while i < l:
         if l + len(pattern) == len(tileset):
             break
-        elif tileset[i:i+len(pattern)] == pattern:
+        
+        # As a special case, leading zeros and the start of the tileset can be referenced with a negative idx
+        leading_zero_count = 0
+        while leading_zero_count < len(pattern):
+            if pattern[leading_zero_count] != 0:
+                break
+            leading_zero_count += 1
+
+        if tileset[i:i+len(pattern)] == pattern:
             pattern.append(tileset[l+len(pattern)])
             idx = i
+        elif len(tileset) > 0 and leading_zero_count > 0 and pattern == (leading_zero_count * [0]) + tileset[0:len(pattern) - leading_zero_count]:
+            # If there isn't an existing pattern to take advantage of, see if the leading zeros can help
+            pattern.append(tileset[l+len(pattern)])
+            idx = 0xfff - leading_zero_count + 1
         else:
             i += 1
     else:
         # The last element added should be ignored, as it wouldn't match
         pattern.pop()
-    if idx == -1 or len(pattern) < 4:
+    if idx == None or len(pattern) < 4:
         tileset_data.append(tileset[l])
     else:
         l += len(pattern) - 1

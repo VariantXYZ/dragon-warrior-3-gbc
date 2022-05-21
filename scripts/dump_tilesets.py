@@ -20,7 +20,7 @@ rom_filename = "baserom_en.gbc"
 # We just manually define tilesets to dump, there's not really any table
 tileset_information = (
     # Name, Address, Type (2bpp, compressed), Tile Count (ignored when compressed), Ignored
-    ["TextAdditional1", (0x1, 0x4a2f), "compressed", None, True], # Need to write compression
+    ["TextAdditional1", (0x1, 0x4a2f), "compressed", None, False],
     ["TextAdditional2", (0x1, 0x4ad1), "compressed", None, False],
     ["NormalCharacters", (0x1, 0x5000), "2bpp", 11 * 16, False],
     ["DoubleHeightCharacters", (0x1, 0x6000), "2bpp", 22 * 16, False],
