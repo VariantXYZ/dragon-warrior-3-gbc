@@ -57,7 +57,7 @@ try:
                     # An empty entry
                     source_fp.write(f'  dwb $0000, $00 ; Index {metamap_idx:02X}\n')
                 else:
-                    source_fp.write(f'  TableEntry Metamap,{metamap_name}\n')
+                    source_fp.write(f'  TableAddressBankEntry Metamap,{metamap_name}\n')
 
                 metamaps.append((bank, ptr))
             source_fp.write('MetamapPointersEnd::\n')
