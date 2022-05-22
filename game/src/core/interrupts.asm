@@ -56,7 +56,7 @@ IntStatDialogBoxScrollPart1::
   sub h
   ld [$ff42], a ; SCY = 0x90 - [C217]
   ld a, [$ff45]
-  add $06
+  add $03 ; Originally $06, the scanline to start drawing text
   ld [$ff45], a ; Set 
   ld a, LOW(IntStatDialogBoxScrollPart2)
   ld [$ffbd], a
@@ -86,7 +86,7 @@ IntStatDialogBoxScrollPart2:: ; 428 (0:428)
   ld [$ffbe], a
   ld a, [W_TextConfiguration]
   and $08
-  add $10 ; Originally $18, this controls the scanline when we draw the bottom of the box
+  add $11 ; Originally $18, this controls the scanline when we draw the bottom of the box
   ld h, a
   ld a, [$ff45]
   add h
@@ -106,7 +106,7 @@ IntStatDialogBoxScrollPart3::
   ld a, $98
   sub h
   ld [$ff42], a
-  ld a, $07
+  ld a, $02 ; originally 07, when to stop drawing the bottom tilemap
   add h
   ld [$ff45], a
   ld a, LOW(IntStatDialogBoxScrollPart4)

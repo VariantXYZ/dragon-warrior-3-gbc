@@ -178,12 +178,12 @@ TextBoxSetupAttributes::
   xor a
   ld b, $0c
   call WriteAtoHLMultiple
-  ld a, $c8
+  ld a, $88
   ld [hli], a
   ld a, $c8
   ld b, $12
   call WriteAtoHLMultiple
-  ld a, $e8
+  ld a, $a8
   ld [hli], a
   xor a
   ld b, $0c
@@ -221,12 +221,12 @@ TextBoxSetupTilemap::
   ld a, $7e
   ld b, $0c
   call WriteAtoHLMultiple
-  ld a, $64
+  ld a, $6f
   ld [hli], a
   ld a, $66
   ld b, $12
   call WriteAtoHLMultiple
-  ld a, $64
+  ld a, $6f
   ld [hli], a
   ld a, $7e
   ld b, $0c
@@ -261,7 +261,7 @@ TextBoxSetupInterruptConfig::
   cp $60
   ld a, $00
   jr c, .asm_4309
-  ld a, $6b ; Originally 63, the start scanline used for regular boxes
+  ld a, $72 ; Originally 63, the start scanline used for regular boxes
 .asm_4309
   push af
 .asm_430a
@@ -306,7 +306,7 @@ TextBoxSetupInterruptConfig::
   inc [hl]
   ret
 .asm_4347:
-  ld a, $6b ; Originally 63, the start scanline used for 'shop' dialog boxes
+  ld a, $72 ; Originally 63, the start scanline used for 'shop' dialog boxes
   jr .asm_4309
   
   padend $434b
