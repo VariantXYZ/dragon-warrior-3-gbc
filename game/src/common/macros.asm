@@ -44,3 +44,14 @@ padend: MACRO
       nop
     ENDR
   ENDM
+
+TableStart: MACRO
+  RSRESET
+  ENDM
+
+; TableEntry Prefix,ID
+TableEntry: MACRO
+  def \1IDX_\2 rb
+  dwb \1\2, BANK(\1\2)
+  EXPORT \1IDX_\2
+  ENDM
