@@ -3,161 +3,162 @@ INCLUDE "game/src/common/macros.asm"
 
 SECTION "Metamap Pointers", ROMX[$5591], BANK[$09]
 MetamapPointers::
-  dwb Metamap00, BANK(Metamap00)
-  dwb Metamap01, BANK(Metamap01)
-  dwb Metamap02, BANK(Metamap02)
-  dwb MetamapPauseMainMenu, BANK(MetamapPauseMainMenu)
-  dwb Metamap04, BANK(Metamap04)
-  dwb Metamap05, BANK(Metamap05)
-  dwb Metamap06, BANK(Metamap06)
-  dwb Metamap07, BANK(Metamap07)
-  dwb Metamap08, BANK(Metamap08)
-  dwb Metamap09, BANK(Metamap09)
-  dwb Metamap0A, BANK(Metamap0A)
-  dwb Metamap0B, BANK(Metamap0B)
-  dwb Metamap0C, BANK(Metamap0C)
-  dwb Metamap0D, BANK(Metamap0D)
-  dwb Metamap0E, BANK(Metamap0E)
-  dwb Metamap0F, BANK(Metamap0F)
-  dwb Metamap10, BANK(Metamap10)
-  dwb Metamap11, BANK(Metamap11)
-  dwb Metamap12, BANK(Metamap12)
-  dwb Metamap13, BANK(Metamap13)
-  dwb Metamap14, BANK(Metamap14)
-  dwb Metamap15, BANK(Metamap15)
-  dwb Metamap16, BANK(Metamap16)
-  dwb Metamap17, BANK(Metamap17)
-  dwb Metamap18, BANK(Metamap18)
-  dwb Metamap19, BANK(Metamap19)
-  dwb Metamap1A, BANK(Metamap1A)
-  dwb Metamap1B, BANK(Metamap1B)
-  dwb Metamap1C, BANK(Metamap1C)
-  dwb Metamap1D, BANK(Metamap1D)
-  dwb Metamap1E, BANK(Metamap1E)
-  dwb Metamap1F, BANK(Metamap1F)
-  dwb Metamap20, BANK(Metamap20)
-  dwb Metamap21, BANK(Metamap21)
-  dwb Metamap22, BANK(Metamap22)
-  dwb Metamap23, BANK(Metamap23)
-  dwb Metamap24, BANK(Metamap24)
-  dwb Metamap25, BANK(Metamap25)
-  dwb Metamap26, BANK(Metamap26)
-  dwb Metamap27, BANK(Metamap27)
-  dwb Metamap28, BANK(Metamap28)
-  dwb Metamap29, BANK(Metamap29)
-  dwb Metamap2A, BANK(Metamap2A)
-  dwb Metamap2B, BANK(Metamap2B)
-  dwb Metamap2C, BANK(Metamap2C)
-  dwb Metamap2D, BANK(Metamap2D)
-  dwb Metamap2E, BANK(Metamap2E)
-  dwb Metamap2F, BANK(Metamap2F)
-  dwb Metamap30, BANK(Metamap30)
-  dwb Metamap31, BANK(Metamap31)
-  dwb Metamap32, BANK(Metamap32)
-  dwb Metamap33, BANK(Metamap33)
-  dwb Metamap34, BANK(Metamap34)
-  dwb Metamap35, BANK(Metamap35)
-  dwb Metamap36, BANK(Metamap36)
-  dwb Metamap37, BANK(Metamap37)
-  dwb Metamap38, BANK(Metamap38)
-  dwb Metamap39, BANK(Metamap39)
-  dwb Metamap3A, BANK(Metamap3A)
-  dwb Metamap3B, BANK(Metamap3B)
-  dwb Metamap3C, BANK(Metamap3C)
-  dwb Metamap3D, BANK(Metamap3D)
-  dwb Metamap3E, BANK(Metamap3E)
-  dwb Metamap3F, BANK(Metamap3F)
-  dwb Metamap40, BANK(Metamap40)
-  dwb Metamap41, BANK(Metamap41)
-  dwb Metamap42, BANK(Metamap42)
-  dwb Metamap43, BANK(Metamap43)
-  dwb Metamap44, BANK(Metamap44)
-  dwb Metamap45, BANK(Metamap45)
-  dwb Metamap46, BANK(Metamap46)
-  dwb Metamap47, BANK(Metamap47)
-  dwb Metamap48, BANK(Metamap48)
-  dwb Metamap49, BANK(Metamap49)
-  dwb Metamap4A, BANK(Metamap4A)
-  dwb Metamap4B, BANK(Metamap4B)
-  dwb Metamap4C, BANK(Metamap4C)
-  dwb Metamap4D, BANK(Metamap4D)
-  dwb Metamap4E, BANK(Metamap4E)
-  dwb Metamap4F, BANK(Metamap4F)
-  dwb Metamap50, BANK(Metamap50)
-  dwb Metamap51, BANK(Metamap51)
-  dwb Metamap52, BANK(Metamap52)
-  dwb Metamap53, BANK(Metamap53)
-  dwb Metamap54, BANK(Metamap54)
-  dwb Metamap55, BANK(Metamap55)
-  dwb Metamap56, BANK(Metamap56)
-  dwb Metamap57, BANK(Metamap57)
-  dwb Metamap58, BANK(Metamap58)
-  dwb Metamap59, BANK(Metamap59)
-  dwb Metamap5A, BANK(Metamap5A)
-  dwb Metamap5B, BANK(Metamap5B)
-  dwb Metamap5C, BANK(Metamap5C)
-  dwb Metamap5D, BANK(Metamap5D)
-  dwb Metamap5E, BANK(Metamap5E)
-  dwb Metamap5F, BANK(Metamap5F)
-  dwb Metamap60, BANK(Metamap60)
-  dwb Metamap61, BANK(Metamap61)
-  dwb Metamap62, BANK(Metamap62)
-  dwb Metamap63, BANK(Metamap63)
-  dwb Metamap64, BANK(Metamap64)
-  dwb Metamap65, BANK(Metamap65)
-  dwb Metamap66, BANK(Metamap66)
-  dwb Metamap67, BANK(Metamap67)
-  dwb Metamap68, BANK(Metamap68)
-  dwb Metamap69, BANK(Metamap69)
-  dwb Metamap6A, BANK(Metamap6A)
-  dwb Metamap6B, BANK(Metamap6B)
-  dwb Metamap6C, BANK(Metamap6C)
-  dwb Metamap6D, BANK(Metamap6D)
-  dwb Metamap6E, BANK(Metamap6E)
-  dwb Metamap6F, BANK(Metamap6F)
-  dwb Metamap70, BANK(Metamap70)
-  dwb Metamap71, BANK(Metamap71)
-  dwb Metamap72, BANK(Metamap72)
-  dwb Metamap73, BANK(Metamap73)
-  dwb Metamap74, BANK(Metamap74)
-  dwb Metamap75, BANK(Metamap75)
-  dwb Metamap76, BANK(Metamap76)
-  dwb Metamap77, BANK(Metamap77)
-  dwb Metamap78, BANK(Metamap78)
-  dwb Metamap79, BANK(Metamap79)
-  dwb Metamap7A, BANK(Metamap7A)
-  dwb Metamap7B, BANK(Metamap7B)
-  dwb Metamap7C, BANK(Metamap7C)
-  dwb Metamap7D, BANK(Metamap7D)
-  dwb Metamap7E, BANK(Metamap7E)
-  dwb Metamap7F, BANK(Metamap7F)
-  dwb Metamap80, BANK(Metamap80)
-  dwb Metamap81, BANK(Metamap81)
-  dwb Metamap82, BANK(Metamap82)
-  dwb Metamap83, BANK(Metamap83)
-  dwb Metamap84, BANK(Metamap84)
-  dwb Metamap85, BANK(Metamap85)
-  dwb Metamap86, BANK(Metamap86)
-  dwb Metamap87, BANK(Metamap87)
+  TableStart
+  TableAddressBankEntry Metamap,00
+  TableAddressBankEntry Metamap,01
+  TableAddressBankEntry Metamap,02
+  TableAddressBankEntry Metamap,PauseMainMenu
+  TableAddressBankEntry Metamap,04
+  TableAddressBankEntry Metamap,05
+  TableAddressBankEntry Metamap,06
+  TableAddressBankEntry Metamap,07
+  TableAddressBankEntry Metamap,08
+  TableAddressBankEntry Metamap,09
+  TableAddressBankEntry Metamap,0A
+  TableAddressBankEntry Metamap,0B
+  TableAddressBankEntry Metamap,0C
+  TableAddressBankEntry Metamap,0D
+  TableAddressBankEntry Metamap,0E
+  TableAddressBankEntry Metamap,0F
+  TableAddressBankEntry Metamap,10
+  TableAddressBankEntry Metamap,11
+  TableAddressBankEntry Metamap,12
+  TableAddressBankEntry Metamap,13
+  TableAddressBankEntry Metamap,14
+  TableAddressBankEntry Metamap,15
+  TableAddressBankEntry Metamap,16
+  TableAddressBankEntry Metamap,17
+  TableAddressBankEntry Metamap,18
+  TableAddressBankEntry Metamap,19
+  TableAddressBankEntry Metamap,1A
+  TableAddressBankEntry Metamap,1B
+  TableAddressBankEntry Metamap,1C
+  TableAddressBankEntry Metamap,OptionYesNo
+  TableAddressBankEntry Metamap,1E
+  TableAddressBankEntry Metamap,1F
+  TableAddressBankEntry Metamap,20
+  TableAddressBankEntry Metamap,21
+  TableAddressBankEntry Metamap,22
+  TableAddressBankEntry Metamap,23
+  TableAddressBankEntry Metamap,24
+  TableAddressBankEntry Metamap,25
+  TableAddressBankEntry Metamap,26
+  TableAddressBankEntry Metamap,27
+  TableAddressBankEntry Metamap,28
+  TableAddressBankEntry Metamap,29
+  TableAddressBankEntry Metamap,2A
+  TableAddressBankEntry Metamap,2B
+  TableAddressBankEntry Metamap,2C
+  TableAddressBankEntry Metamap,2D
+  TableAddressBankEntry Metamap,2E
+  TableAddressBankEntry Metamap,2F
+  TableAddressBankEntry Metamap,30
+  TableAddressBankEntry Metamap,31
+  TableAddressBankEntry Metamap,32
+  TableAddressBankEntry Metamap,33
+  TableAddressBankEntry Metamap,34
+  TableAddressBankEntry Metamap,35
+  TableAddressBankEntry Metamap,36
+  TableAddressBankEntry Metamap,37
+  TableAddressBankEntry Metamap,38
+  TableAddressBankEntry Metamap,39
+  TableAddressBankEntry Metamap,3A
+  TableAddressBankEntry Metamap,3B
+  TableAddressBankEntry Metamap,3C
+  TableAddressBankEntry Metamap,3D
+  TableAddressBankEntry Metamap,3E
+  TableAddressBankEntry Metamap,3F
+  TableAddressBankEntry Metamap,40
+  TableAddressBankEntry Metamap,41
+  TableAddressBankEntry Metamap,42
+  TableAddressBankEntry Metamap,43
+  TableAddressBankEntry Metamap,44
+  TableAddressBankEntry Metamap,45
+  TableAddressBankEntry Metamap,46
+  TableAddressBankEntry Metamap,47
+  TableAddressBankEntry Metamap,48
+  TableAddressBankEntry Metamap,49
+  TableAddressBankEntry Metamap,4A
+  TableAddressBankEntry Metamap,4B
+  TableAddressBankEntry Metamap,4C
+  TableAddressBankEntry Metamap,4D
+  TableAddressBankEntry Metamap,4E
+  TableAddressBankEntry Metamap,4F
+  TableAddressBankEntry Metamap,50
+  TableAddressBankEntry Metamap,51
+  TableAddressBankEntry Metamap,52
+  TableAddressBankEntry Metamap,53
+  TableAddressBankEntry Metamap,54
+  TableAddressBankEntry Metamap,55
+  TableAddressBankEntry Metamap,56
+  TableAddressBankEntry Metamap,57
+  TableAddressBankEntry Metamap,58
+  TableAddressBankEntry Metamap,59
+  TableAddressBankEntry Metamap,5A
+  TableAddressBankEntry Metamap,5B
+  TableAddressBankEntry Metamap,5C
+  TableAddressBankEntry Metamap,5D
+  TableAddressBankEntry Metamap,5E
+  TableAddressBankEntry Metamap,5F
+  TableAddressBankEntry Metamap,60
+  TableAddressBankEntry Metamap,61
+  TableAddressBankEntry Metamap,62
+  TableAddressBankEntry Metamap,63
+  TableAddressBankEntry Metamap,64
+  TableAddressBankEntry Metamap,65
+  TableAddressBankEntry Metamap,66
+  TableAddressBankEntry Metamap,67
+  TableAddressBankEntry Metamap,68
+  TableAddressBankEntry Metamap,69
+  TableAddressBankEntry Metamap,6A
+  TableAddressBankEntry Metamap,6B
+  TableAddressBankEntry Metamap,6C
+  TableAddressBankEntry Metamap,6D
+  TableAddressBankEntry Metamap,6E
+  TableAddressBankEntry Metamap,6F
+  TableAddressBankEntry Metamap,70
+  TableAddressBankEntry Metamap,71
+  TableAddressBankEntry Metamap,72
+  TableAddressBankEntry Metamap,73
+  TableAddressBankEntry Metamap,74
+  TableAddressBankEntry Metamap,75
+  TableAddressBankEntry Metamap,76
+  TableAddressBankEntry Metamap,77
+  TableAddressBankEntry Metamap,78
+  TableAddressBankEntry Metamap,79
+  TableAddressBankEntry Metamap,7A
+  TableAddressBankEntry Metamap,7B
+  TableAddressBankEntry Metamap,7C
+  TableAddressBankEntry Metamap,7D
+  TableAddressBankEntry Metamap,7E
+  TableAddressBankEntry Metamap,7F
+  TableAddressBankEntry Metamap,80
+  TableAddressBankEntry Metamap,81
+  TableAddressBankEntry Metamap,82
+  TableAddressBankEntry Metamap,83
+  TableAddressBankEntry Metamap,84
+  TableAddressBankEntry Metamap,85
+  TableAddressBankEntry Metamap,86
+  TableAddressBankEntry Metamap,87
   dwb $0000, $00 ; Index 88
-  dwb Metamap89, BANK(Metamap89)
-  dwb Metamap8A, BANK(Metamap8A)
-  dwb Metamap8B, BANK(Metamap8B)
-  dwb Metamap8C, BANK(Metamap8C)
-  dwb Metamap8D, BANK(Metamap8D)
-  dwb Metamap8E, BANK(Metamap8E)
-  dwb Metamap8F, BANK(Metamap8F)
-  dwb Metamap90, BANK(Metamap90)
-  dwb Metamap91, BANK(Metamap91)
-  dwb Metamap92, BANK(Metamap92)
-  dwb Metamap93, BANK(Metamap93)
-  dwb Metamap94, BANK(Metamap94)
-  dwb Metamap95, BANK(Metamap95)
-  dwb Metamap96, BANK(Metamap96)
-  dwb Metamap97, BANK(Metamap97)
-  dwb Metamap98, BANK(Metamap98)
-  dwb Metamap99, BANK(Metamap99)
-  dwb Metamap9A, BANK(Metamap9A)
-  dwb Metamap9B, BANK(Metamap9B)
-  dwb Metamap9C, BANK(Metamap9C)
+  TableAddressBankEntry Metamap,89
+  TableAddressBankEntry Metamap,8A
+  TableAddressBankEntry Metamap,8B
+  TableAddressBankEntry Metamap,8C
+  TableAddressBankEntry Metamap,8D
+  TableAddressBankEntry Metamap,8E
+  TableAddressBankEntry Metamap,8F
+  TableAddressBankEntry Metamap,90
+  TableAddressBankEntry Metamap,91
+  TableAddressBankEntry Metamap,92
+  TableAddressBankEntry Metamap,93
+  TableAddressBankEntry Metamap,94
+  TableAddressBankEntry Metamap,95
+  TableAddressBankEntry Metamap,96
+  TableAddressBankEntry Metamap,97
+  TableAddressBankEntry Metamap,98
+  TableAddressBankEntry Metamap,99
+  TableAddressBankEntry Metamap,9A
+  TableAddressBankEntry Metamap,9B
+  TableAddressBankEntry Metamap,9C
 MetamapPointersEnd::

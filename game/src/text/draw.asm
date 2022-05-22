@@ -20,7 +20,7 @@ DrawCharacter::
   set 1, [hl]
   ; TODO: Need to verify that bit 3 actually corresponds to 'dialog'
   ; jr nz, .asm_4022
-  ld a, HACKIDX_VWFDrawCharacter
+  ld a, HackIDX_VWFDrawCharacter
   jp nz, rst38 ; HackPredef
   set 2, [hl]
 .asm_4022
@@ -139,7 +139,7 @@ DrawTextBoxAndSetupTilesetLoad::
   ld [hli], a
   ld [hl], $d0
   ; Initialize VWF vars for drawing
-  ld a, HACKIDX_VWFInitializeDialog
+  ld a, HackIDX_VWFInitializeDialog
   rst $38
   ret
 .blank_row

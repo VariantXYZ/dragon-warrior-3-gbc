@@ -40,6 +40,7 @@ try:
 
             source_fp.write(f'SECTION "Metamap Pointers", ROMX[${rom_ptrs_addr:04X}], BANK[${rom_ptrs_bank:02X}]\n')
             source_fp.write(f'MetamapPointers::\n')
+            source_fp.write(f'  TableStart\n')
 
             rom.seek(utils.rom2realaddr((rom_ptrs_bank, rom_ptrs_addr)))
             for metamap_idx in range(0, rom_map_count):
@@ -56,7 +57,7 @@ try:
                     # An empty entry
                     source_fp.write(f'  dwb $0000, $00 ; Index {metamap_idx:02X}\n')
                 else:
-                    source_fp.write(f'  dwb Metamap{metamap_name}, BANK(Metamap{metamap_name})\n')
+                    source_fp.write(f'  TableAddressBankEntry Metamap,{metamap_name}\n')
 
                 metamaps.append((bank, ptr))
             source_fp.write('MetamapPointersEnd::\n')

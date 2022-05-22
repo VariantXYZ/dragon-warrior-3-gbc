@@ -76,9 +76,9 @@ SetupYesNoTextBox::
   ret
 .table
   ; Offset
-  dwb $00AE, $1D ; Under dialog box (1D is Yes/No tilemap)
-  dwb $00EE, $1D
-  dwb $010E, $1D
+  dwb $00AE, MetamapIDX_OptionYesNo ; Under dialog box (1D is Yes/No tilemap)
+  dwb $00EE, MetamapIDX_OptionYesNo
+  dwb $010E, MetamapIDX_OptionYesNo
 
   padend $4439
 
@@ -87,7 +87,7 @@ SECTION "Dialog Tileset Helper", ROMX[$416b], BANK[$02]
 ; It gets called and sets the tile index to start drawing the next line
 DialogSetupScrollingTiles::
   ; New line, so reset relevant VWF vars
-  ld a, HACKIDX_VWFNewLineReset
+  ld a, HackIDX_VWFNewLineReset
   rst $38
   ld hl, W_TextConfiguration
   bit 0, [hl]
