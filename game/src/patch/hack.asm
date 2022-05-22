@@ -29,3 +29,4 @@ HackPredef::
   ld l, a
   ret
 .table
+  TableStart
