@@ -76,9 +76,9 @@ SetupYesNoTextBox::
   ret
 .table
   ; Offset
-  dwb $00CE, $1D ; Under dialog box (1D is Yes/No tilemap)
-  dwb $00EE, $1D
-  dwb $010E, $1D
+  dwb $00CE, MetamapIDX_OptionYesNo ; Under dialog box (1D is Yes/No tilemap)
+  dwb $00EE, MetamapIDX_OptionYesNo
+  dwb $010E, MetamapIDX_OptionYesNo
 
   padend $4439
 

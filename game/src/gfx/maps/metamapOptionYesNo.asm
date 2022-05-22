@@ -1,5 +1,5 @@
-SECTION "Metamap 1D", ROMX[$6F56], BANK[$74]
-Metamap1D::
+SECTION "Metamap OptionYesNo", ROMX[$6F56], BANK[$74]
+MetamapOptionYesNo::
   dw Map1D
   dw $9C2D
   dw $9C6D
