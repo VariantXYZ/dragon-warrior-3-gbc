@@ -49,8 +49,14 @@ TableStart: MACRO
   RSRESET
   ENDM
 
-; TableEntry Prefix,ID
-TableEntry: MACRO
+; TableAddressEntry Prefix,ID
+TableAddressEntry: MACRO
+  def \1IDX_\2 rb
+  dw \1\2
+  EXPORT \1IDX_\2
+  ENDM
+
+TableAddressBankEntry: MACRO
   def \1IDX_\2 rb
   dwb \1\2, BANK(\1\2)
   EXPORT \1IDX_\2
