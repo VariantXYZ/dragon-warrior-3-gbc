@@ -2,7 +2,7 @@
 
 SECTION "Tileset TextAdditional1", ROMX[$4A2F], BANK[$01]
 TilesetTextAdditional1::
-;  INCBIN "./build/gfx/tilesets/TextAdditional1.compressed"
+  INCBIN "./build/gfx/tilesets/TextAdditional1.compressed"
 SECTION "Tileset TextAdditional1 End", ROMX[$4AD0], BANK[$01]
 
 SECTION "Tileset TextAdditional2", ROMX[$4AD1], BANK[$01]
