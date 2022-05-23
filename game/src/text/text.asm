@@ -153,12 +153,12 @@ TextSetupHelper::
   ; Working area and first row's tile index
   db $D0, $00 
   db $8F, $C0
-  db $07, $01, $23, $00
+  db $07, $01, $11, $00
   ; Working area and second row's tile index
   db $D2, $40
-  db $92, $00
-  db $07, $01, $23, $00
+  db $90, $E0
+  db $07, $01, $11, $00
   ; Scrolling
   db $D0, $00
-  db $92, $00
-  db $07, $01, $23, $00
+  db $90, $E0
+  db $07, $01, $11, $00

@@ -108,7 +108,7 @@ DrawTextBoxAndSetupTilesetLoad::
   call WriteAtoHLMultiple
   call .blank_row
   pop af
-  add $12 ; The next characters will be 18 characters later
+  ;add $12 ; The next characters will be 18 characters later
   dec d
   jr nz, .new_row
   
