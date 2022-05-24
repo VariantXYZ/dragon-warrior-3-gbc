@@ -34,6 +34,8 @@ HackPredef::
   TableAddressEntry Hack,VWFInitializeDialog
   TableAddressEntry Hack,VWFDrawCharacter
   TableAddressEntry Hack,VWFNewLineReset
+  TableAddressEntry Hack,LoadTextFromHighBank
+  TableAddressEntry Hack,CallFunctionFromHighBank
 
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
@@ -52,5 +54,16 @@ HackVWFDrawCharacter:
 HackVWFNewLineReset:
   ld hl, VWFNewLineResetInternal
   ld b, LOW(BANK(VWFNewLineResetInternal))
+  rst $10
+  ret
+
+HackLoadTextFromHighBank:
+  ld hl, $4001 ; Every text bank has a text loading routine at $4001
+  ld a, [W_TextBank]
+  rst $28
+  ret
+
+HackCallFunctionFromHighBank:
+  ; Expect hl and b to be set
   rst $10
   ret

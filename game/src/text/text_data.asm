@@ -3,33 +3,33 @@ INCLUDE "./build/dialog/text_constants.asm"
 
 SECTION "Text banks", ROMX[$4083], BANK[$02]
 TextBanks::
-  db BANK(TextBank00)
-  db BANK(TextBank01)
-  db BANK(TextBank02)
-  db BANK(TextBank03)
-  db BANK(TextBank04)
-  db BANK(TextBank05)
-  db BANK(TextBank06)
-  db BANK(TextBank07)
-  db BANK(TextBank08)
-  db BANK(TextBank09)
-  db BANK(TextBank0A)
-  db BANK(TextBank0B)
-  db BANK(TextBank0C)
-  db BANK(TextBank0D)
-  db BANK(TextBank0E)
-  db BANK(TextBank0F)
-  db BANK(TextBank10)
-  db BANK(TextBank11)
-  db BANK(TextBank12)
-  db BANK(TextBank13)
-  db BANK(TextBank14)
-  db BANK(TextBank15)
-  db BANK(TextBank16)
-  db BANK(TextBank17)
-  db BANK(TextBank18)
+  db LOW(BANK(TextBank00))
+  db LOW(BANK(TextBank01))
+  db LOW(BANK(TextBank02))
+  db LOW(BANK(TextBank03))
+  db LOW(BANK(TextBank04))
+  db LOW(BANK(TextBank05))
+  db LOW(BANK(TextBank06))
+  db LOW(BANK(TextBank07))
+  db LOW(BANK(TextBank08))
+  db LOW(BANK(TextBank09))
+  db LOW(BANK(TextBank0A))
+  db LOW(BANK(TextBank0B))
+  db LOW(BANK(TextBank0C))
+  db LOW(BANK(TextBank0D))
+  db LOW(BANK(TextBank0E))
+  db LOW(BANK(TextBank0F))
+  db LOW(BANK(TextBank10))
+  db LOW(BANK(TextBank11))
+  db LOW(BANK(TextBank12))
+  db LOW(BANK(TextBank13))
+  db LOW(BANK(TextBank14))
+  db LOW(BANK(TextBank15))
+  db LOW(BANK(TextBank16))
+  db LOW(BANK(TextBank17))
+  db LOW(BANK(TextBank18))
 
-SECTION "Text Bank 00", ROMX[$4FC7], BANK[$60]
+SECTION "Text Bank 00", ROMX[$4039], BANK[$160]
 TextBank00::
   dw cTextGroup00_00
   dw cTextGroup00_01
@@ -46,12 +46,9 @@ TextBank00::
   dw cTextGroup00_0C
   dw cTextGroup00_0D
   dw cTextGroup00_0E
-
-SECTION "Text_00", ROMX[$4FE5], BANK[$60]
   INCBIN cText_00
-SECTION "Text_00 End", ROMX[$7467], BANK[$60]
 
-SECTION "Text Bank 01", ROMX[$4039], BANK[$61]
+SECTION "Text Bank 01", ROMX[$4039], BANK[$161]
 TextBank01::
   dw cTextGroup01_00
   dw cTextGroup01_01
@@ -59,12 +56,9 @@ TextBank01::
   dw cTextGroup01_03
   dw cTextGroup01_04
   dw cTextGroup01_05
-
-SECTION "Text_01", ROMX[$4045], BANK[$61]
   INCBIN cText_01
-SECTION "Text_01 End", ROMX[$7AED], BANK[$61]
 
-SECTION "Text Bank 02", ROMX[$4039], BANK[$62]
+SECTION "Text Bank 02", ROMX[$4039], BANK[$162]
 TextBank02::
   dw cTextGroup02_00
   dw cTextGroup02_01
@@ -87,12 +81,9 @@ TextBank02::
   dw cTextGroup02_12
   dw cTextGroup02_13
   dw cTextGroup02_14
-
-SECTION "Text_02", ROMX[$4063], BANK[$62]
   INCBIN cText_02
-SECTION "Text_02 End", ROMX[$7D3B], BANK[$62]
 
-SECTION "Text Bank 03", ROMX[$4039], BANK[$63]
+SECTION "Text Bank 03", ROMX[$4039], BANK[$163]
 TextBank03::
   dw cTextGroup03_00
   dw cTextGroup03_01
@@ -117,23 +108,17 @@ TextBank03::
   dw cTextGroup03_14
   dw cTextGroup03_15
   dw cTextGroup03_16
-
-SECTION "Text_03", ROMX[$4067], BANK[$63]
   INCBIN cText_03
-SECTION "Text_03 End", ROMX[$7CE7], BANK[$63]
 
-SECTION "Text Bank 04", ROMX[$4039], BANK[$64]
+SECTION "Text Bank 04", ROMX[$4039], BANK[$164]
 TextBank04::
   dw cTextGroup04_00
   dw cTextGroup04_01
   dw cTextGroup04_02
   dw cTextGroup04_03
-
-SECTION "Text_04", ROMX[$4041], BANK[$64]
   INCBIN cText_04
-SECTION "Text_04 End", ROMX[$7B4D], BANK[$64]
 
-SECTION "Text Bank 05", ROMX[$4039], BANK[$65]
+SECTION "Text Bank 05", ROMX[$4039], BANK[$165]
 TextBank05::
   dw cTextGroup05_00
   dw cTextGroup05_01
@@ -145,24 +130,18 @@ TextBank05::
   dw cTextGroup05_07
   dw cTextGroup05_08
   dw cTextGroup05_09
-
-SECTION "Text_05", ROMX[$404D], BANK[$65]
   INCBIN cText_05
-SECTION "Text_05 End", ROMX[$7F80], BANK[$65]
 
-SECTION "Text Bank 06", ROMX[$4039], BANK[$66]
+SECTION "Text Bank 06", ROMX[$4039], BANK[$166]
 TextBank06::
   dw cTextGroup06_00
   dw cTextGroup06_01
   dw cTextGroup06_02
   dw cTextGroup06_03
   dw cTextGroup06_04
-
-SECTION "Text_06", ROMX[$4043], BANK[$66]
   INCBIN cText_06
-SECTION "Text_06 End", ROMX[$774B], BANK[$66]
 
-SECTION "Text Bank 07", ROMX[$4039], BANK[$67]
+SECTION "Text Bank 07", ROMX[$4039], BANK[$167]
 TextBank07::
   dw cTextGroup07_00
   dw cTextGroup07_01
@@ -175,12 +154,9 @@ TextBank07::
   dw cTextGroup07_08
   dw cTextGroup07_09
   dw cTextGroup07_0A
-
-SECTION "Text_07", ROMX[$404F], BANK[$67]
   INCBIN cText_07
-SECTION "Text_07 End", ROMX[$7B98], BANK[$67]
 
-SECTION "Text Bank 08", ROMX[$4039], BANK[$68]
+SECTION "Text Bank 08", ROMX[$4039], BANK[$168]
 TextBank08::
   dw cTextGroup08_00
   dw cTextGroup08_01
@@ -188,12 +164,9 @@ TextBank08::
   dw cTextGroup08_03
   dw cTextGroup08_04
   dw cTextGroup08_05
-
-SECTION "Text_08", ROMX[$4045], BANK[$68]
   INCBIN cText_08
-SECTION "Text_08 End", ROMX[$7C8D], BANK[$68]
 
-SECTION "Text Bank 09", ROMX[$4039], BANK[$69]
+SECTION "Text Bank 09", ROMX[$4039], BANK[$169]
 TextBank09::
   dw cTextGroup09_00
   dw cTextGroup09_01
@@ -208,12 +181,9 @@ TextBank09::
   dw cTextGroup09_0A
   dw cTextGroup09_0B
   dw cTextGroup09_0C
-
-SECTION "Text_09", ROMX[$4053], BANK[$69]
   INCBIN cText_09
-SECTION "Text_09 End", ROMX[$754F], BANK[$69]
 
-SECTION "Text Bank 0A", ROMX[$4039], BANK[$6A]
+SECTION "Text Bank 0A", ROMX[$4039], BANK[$16A]
 TextBank0A::
   dw cTextGroup0A_00
   dw cTextGroup0A_01
@@ -228,42 +198,30 @@ TextBank0A::
   dw cTextGroup0A_0A
   dw cTextGroup0A_0B
   dw cTextGroup0A_0C
-
-SECTION "Text_0A", ROMX[$4053], BANK[$6A]
   INCBIN cText_0A
-SECTION "Text_0A End", ROMX[$7C4A], BANK[$6A]
 
-SECTION "Text Bank 0B", ROMX[$4039], BANK[$6B]
+SECTION "Text Bank 0B", ROMX[$4039], BANK[$16B]
 TextBank0B::
   dw cTextGroup0B_00
   dw cTextGroup0B_01
   dw cTextGroup0B_02
   dw cTextGroup0B_03
-
-SECTION "Text_0B", ROMX[$4041], BANK[$6B]
   INCBIN cText_0B
-SECTION "Text_0B End", ROMX[$7F0E], BANK[$6B]
 
-SECTION "Text Bank 0C", ROMX[$4039], BANK[$6C]
+SECTION "Text Bank 0C", ROMX[$4039], BANK[$16C]
 TextBank0C::
   dw cTextGroup0C_00
   dw cTextGroup0C_01
-
-SECTION "Text_0C", ROMX[$403D], BANK[$6C]
   INCBIN cText_0C
-SECTION "Text_0C End", ROMX[$7CF5], BANK[$6C]
 
-SECTION "Text Bank 0D", ROMX[$4039], BANK[$6D]
+SECTION "Text Bank 0D", ROMX[$4039], BANK[$16D]
 TextBank0D::
   dw cTextGroup0D_00
   dw cTextGroup0D_01
   dw cTextGroup0D_02
-
-SECTION "Text_0D", ROMX[$403F], BANK[$6D]
   INCBIN cText_0D
-SECTION "Text_0D End", ROMX[$76F6], BANK[$6D]
 
-SECTION "Text Bank 0E", ROMX[$4039], BANK[$6E]
+SECTION "Text Bank 0E", ROMX[$4039], BANK[$16E]
 TextBank0E::
   dw cTextGroup0E_00
   dw cTextGroup0E_01
@@ -280,33 +238,24 @@ TextBank0E::
   dw cTextGroup0E_0C
   dw cTextGroup0E_0D
   dw cTextGroup0E_0E
-
-SECTION "Text_0E", ROMX[$4057], BANK[$6E]
   INCBIN cText_0E
-SECTION "Text_0E End", ROMX[$7A5F], BANK[$6E]
 
-SECTION "Text Bank 0F", ROMX[$4039], BANK[$6F]
+SECTION "Text Bank 0F", ROMX[$4039], BANK[$16F]
 TextBank0F::
   dw cTextGroup0F_00
   dw cTextGroup0F_01
   dw cTextGroup0F_02
   dw cTextGroup0F_03
-
-SECTION "Text_0F", ROMX[$4041], BANK[$6F]
   INCBIN cText_0F
-SECTION "Text_0F End", ROMX[$79C4], BANK[$6F]
 
-SECTION "Text Bank 10", ROMX[$4039], BANK[$78]
+SECTION "Text Bank 10", ROMX[$4039], BANK[$170]
 TextBank10::
   dw cTextGroup10_00
   dw cTextGroup10_01
   dw cTextGroup10_02
-
-SECTION "Text_10", ROMX[$403F], BANK[$78]
   INCBIN cText_10
-SECTION "Text_10 End", ROMX[$7880], BANK[$78]
 
-SECTION "Text Bank 11", ROMX[$4039], BANK[$79]
+SECTION "Text Bank 11", ROMX[$4039], BANK[$171]
 TextBank11::
   dw cTextGroup11_00
   dw cTextGroup11_01
@@ -320,73 +269,52 @@ TextBank11::
   dw cTextGroup11_09
   dw cTextGroup11_0A
   dw cTextGroup11_0B
-
-SECTION "Text_11", ROMX[$4051], BANK[$79]
   INCBIN cText_11
-SECTION "Text_11 End", ROMX[$7BA7], BANK[$79]
 
-SECTION "Text Bank 12", ROMX[$4039], BANK[$2A]
+SECTION "Text Bank 12", ROMX[$4039], BANK[$172]
 TextBank12::
   dw cTextGroup12_00
   dw cTextGroup12_01
   dw cTextGroup12_02
   dw cTextGroup12_03
-
-SECTION "Text_12", ROMX[$4041], BANK[$2A]
   INCBIN cText_12
-SECTION "Text_12 End", ROMX[$544C], BANK[$2A]
 
-SECTION "Text Bank 13", ROMX[$4039], BANK[$1D]
+SECTION "Text Bank 13", ROMX[$4039], BANK[$173]
 TextBank13::
   dw cTextGroup13_00
-
-SECTION "Text_13", ROMX[$403B], BANK[$1D]
   INCBIN cText_13
-SECTION "Text_13 End", ROMX[$55A2], BANK[$1D]
 
-SECTION "Text Bank 14", ROMX[$4039], BANK[$1F]
+SECTION "Text Bank 14", ROMX[$4039], BANK[$174]
 TextBank14::
   dw cTextGroup14_00
-
-SECTION "Text_14", ROMX[$403B], BANK[$1F]
   INCBIN cText_14
-SECTION "Text_14 End", ROMX[$51A9], BANK[$1F]
 
-SECTION "Text Bank 15", ROMX[$4039], BANK[$2F]
+SECTION "Text Bank 15", ROMX[$4039], BANK[$175]
 TextBank15::
   dw cTextGroup15_00
   dw cTextGroup15_01
   dw cTextGroup15_02
   dw cTextGroup15_03
-
-SECTION "Text_15", ROMX[$4041], BANK[$2F]
   INCBIN cText_15
-SECTION "Text_15 End", ROMX[$56CB], BANK[$2F]
 
-SECTION "Text Bank 16", ROMX[$4039], BANK[$2E]
+SECTION "Text Bank 16", ROMX[$4039], BANK[$176]
 TextBank16::
   dw cTextGroup16_00
   dw cTextGroup16_01
   dw cTextGroup16_02
   dw cTextGroup16_03
   dw cTextGroup16_04
-
-SECTION "Text_16", ROMX[$4043], BANK[$2E]
   INCBIN cText_16
-SECTION "Text_16 End", ROMX[$5B35], BANK[$2E]
 
-SECTION "Text Bank 17", ROMX[$4039], BANK[$04]
+SECTION "Text Bank 17", ROMX[$4039], BANK[$177]
 TextBank17::
   dw cTextGroup17_00
   dw cTextGroup17_01
   dw cTextGroup17_02
   dw cTextGroup17_03
-
-SECTION "Text_17", ROMX[$4041], BANK[$04]
   INCBIN cText_17
-SECTION "Text_17 End", ROMX[$5AD5], BANK[$04]
 
-SECTION "Text Bank 18", ROMX[$4039], BANK[$29]
+SECTION "Text Bank 18", ROMX[$4039], BANK[$178]
 TextBank18::
   dw cTextGroup18_00
   dw cTextGroup18_01
@@ -397,8 +325,4 @@ TextBank18::
   dw cTextGroup18_06
   dw cTextGroup18_07
   dw cTextGroup18_08
-
-SECTION "Text_18", ROMX[$404B], BANK[$29]
   INCBIN cText_18
-SECTION "Text_18 End", ROMX[$6626], BANK[$29]
-

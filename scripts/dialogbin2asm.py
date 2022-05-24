@@ -26,15 +26,20 @@ with open(output_file, 'w') as output:
         with open(data_file, 'r') as df:
             src = df.read()
 
-        for line in src.splitlines():
-            if line.startswith('SECTION') and f'"{key}"' in line:
+        lines = iter(src.splitlines());
+        for line in lines:
+            key_bank = key.split('_')[1]
+            if line.startswith('SECTION') and f'"Text Bank {key_bank}"' in line:
                 o = line.lstrip('SECTION ').replace(' ', '').replace('\n','').replace('\r\n','').replace('"','').split(',')
                 #Name ROMX[$OFFSET] BANK[$BANK]
                 bank = int(o[2].replace('BANK','').replace('[','').replace(']','').replace('$','0x'), 16)
                 ptr_table_offset = int(o[1].replace('ROMX','').replace('[','').replace(']','').replace('$','0x'), 16)
+                while not 'INCBIN' in next(lines):
+                    ptr_table_offset += 2 # dw
+                ptr_table_offset -= 2
                 break
         else:
-            raise Exception(f"Could not find {key} section in {data_file}")
+            raise Exception(f"Could not find {key_bank} section in {data_file}")
 
         with open(input_file, 'rb') as in_f:
             group_count = utils.read_short(in_f)

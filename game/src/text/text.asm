@@ -3,23 +3,24 @@ INCLUDE "game/src/common/macros.asm"
 
 SECTION "ROM0 Text Helpers", ROM0[$2C9E]
 TextGetNextCharacter::
-  ld a, [C_CurrentBank]
-  ld c, a
-  ld hl, W_TextBank
-  ld a, [hli]
-  ld [$2100], a
+  ld a, [W_TextBank]
+  ld b, a
+  ld hl, TextGetNextCharacterSub
+  ld a, HackIDX_CallFunctionFromHighBank
+  rst $38 ; c preserves 'a' in rst10
+  ld b, c
+  ld a, c
+  ret
+TextGetNextCharacterSub::
+  ld hl, W_TextCurrent ; We are already at the correct bank
   ld a, [hli]
   ld d, [hl]
   ld e, a ; de == address
-  ld a, [de]
-  ld b, a
+  ld a, [de] ; a == letter to draw next
   inc de
   ld [hl], d
   dec hl
   ld [hl], e
-  ld a, c
-  ld [$2100], a
-  ld a, b
   ; b and a are both the letter to draw next
   ret
 
@@ -48,7 +49,7 @@ SetupWriteText2::
 .load_text
   set 7, [hl]
   inc hl
-  ld [$ffc6], a
+  ldh [$ffc6], a
   ld a, [$c295]
   cp $02
   ld c, $12
@@ -67,13 +68,14 @@ SetupWriteText2::
   ld hl, TextBanks
   add hl, de
   ld e, a
-  ld a, [$ffc6]
+  ldh a, [$ffc6]
   ld d, a
   ld a, [hl]
   ld [bc], a
   inc bc
-  ld hl, $4001 ; Every text bank has a text loading routine at $4001
-  jp BankSwapAndJump
+  ld a, HackIDX_LoadTextFromHighBank
+  rst $38
+  ret
 
   padend $4083
 

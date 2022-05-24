@@ -33,10 +33,23 @@ rst10::
   ld a, c
   ret
 
+  padend $28
+
+rst28::
+  ; Similar to rst10, but discards a and always restores to HackPrede
+  ld [$2100], a
+  rst $30
+  jr rst28Cont
+
   padend $30
 
 rst30::
   jp hl
+
+rst28Cont:
+  ld a, LOW(BANK(HackPredef))
+  ld [$2100], a
+  ret
 
   padend $38
 
