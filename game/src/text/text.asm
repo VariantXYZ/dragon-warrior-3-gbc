@@ -1,6 +1,31 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
+SECTION "ROM0 Text Helpers", ROM0[$2C9E]
+TextGetNextCharacter::
+  ld a, [C_CurrentBank]
+  ld c, a
+  ld hl, W_TextBank
+  ld a, [hli]
+  ld [$2100], a
+  ld a, [hli]
+  ld d, [hl]
+  ld e, a ; de == address
+  ld a, [de]
+  ld b, a
+  inc de
+  ld [hl], d
+  dec hl
+  ld [hl], e
+  ld a, c
+  ld [$2100], a
+  ld a, b
+  ; b and a are both the letter to draw next
+  ret
+
+  padend $2cb8
+; 0x2cb8
+
 SECTION "Prepare data to load text", ROMX[$403d], BANK[$02]
 SetupWriteText::
   ld hl, W_TextBankIndex
