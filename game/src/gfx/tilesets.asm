@@ -9,16 +9,16 @@ LoadCompressedTileset1::
   and $f0
   cp $d0
   jr nz, .asm_a5c
-  ld a, [$ff70]
+  ldh a, [$ff00+$70]
   push af
   ld a, c
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   jr .asm_a62
 .asm_a5c
-  ld a, [$ff4f]
+  ldh a, [$ff00+$4f]
   push af
   ld a, c
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .asm_a62
   call CompressedTilesetReadHeader
 .read_source_loop
@@ -41,12 +41,12 @@ LoadCompressedTileset1::
   ; [Initial byte offset to copy:1][Unknown:1][Copy N times, minus 0x13:1]
   pop hl
   ld a, [de]
-  ld [$ff8f], a
+  ldh [$ff00+$8f], a
   inc de
   ld a, [de]
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   inc de
-  ld a, [$ff8e]
+  ldh a, [$ff00+$8e]
   push af
   and $0f
   add $04
@@ -56,31 +56,31 @@ LoadCompressedTileset1::
   inc de
   add $13
 .asm_a91
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   pop af
   push de
   swap a
   and $0f
   ld d, a
-  ld a, [$ff8f]
+  ldh a, [$ff00+$8f]
   ld e, a
   push hl
-  ld a, [$ff8b]
+  ldh a, [$ff00+$8b]
   ld l, a
-  ld a, [$ff8c]
+  ldh a, [$ff00+$8c]
   ld h, a
   add hl, de
   ld e, l
   ld d, h
   pop hl
 .asm_aa8
-  ld a, [$ff91]
+  ldh a, [$ff00+$91]
   cp d
   jr z, .asm_ab1
   jr c, .asm_ab8
   jr .asm_ad3
 .asm_ab1
-  ld a, [$ff90]
+  ldh a, [$ff00+$90]
   cp e
   jr z, .asm_ab8
   jr nc, .asm_ad3
@@ -88,13 +88,13 @@ LoadCompressedTileset1::
   ld a, $f0
   add d
   ld d, a
-  ld a, [$ff93]
+  ldh a, [$ff00+$93]
   cp d
   jr z, .asm_ac5
   jr nc, .asm_acc
   jr .asm_ad3
 .asm_ac5
-  ld a, [$ff92]
+  ldh a, [$ff00+$92]
   cp e
   jr z, .asm_ad3
   jr c, .asm_ad3
@@ -113,9 +113,9 @@ LoadCompressedTileset1::
   ld a, b
   or c
   jr z, .asm_ae6
-  ld a, [$ff8e]
+  ldh a, [$ff00+$8e]
   dec a
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   jr nz, .asm_aa8
   pop de
   jp .read_source_loop
@@ -124,10 +124,10 @@ LoadCompressedTileset1::
 .check_done
   pop af
   jr nz, .mark
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   jr .return
 .mark
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .return
   pop af
   ld [$2100], a
@@ -140,16 +140,16 @@ LoadCompressedTileset2::
   and $f0
   cp $d0
   jr nz, .asm_b08
-  ld a, [$ff70]
+  ldh a, [$ff00+$70]
   push af
   ld a, c
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   jr .asm_b0e
 .asm_b08
-  ld a, [$ff4f]
+  ldh a, [$ff00+$4f]
   push af
   ld a, c
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .asm_b0e
   call CompressedTilesetReadHeader
 .asm_b11
@@ -169,12 +169,12 @@ LoadCompressedTileset2::
 .asm_b26
   pop hl
   ld a, [de]
-  ld [$ff8f], a
+  ldh [$ff00+$8f], a
   inc de
   ld a, [de]
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   inc de
-  ld a, [$ff8e]
+  ldh a, [$ff00+$8e]
   push af
   and $0f
   add $04
@@ -184,31 +184,31 @@ LoadCompressedTileset2::
   inc de
   add $13
 .asm_b3e
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   pop af
   push de
   swap a
   and $0f
   ld d, a
-  ld a, [$ff8f]
+  ldh a, [$ff00+$8f]
   ld e, a
   push hl
-  ld a, [$ff8b]
+  ldh a, [$ff00+$8b]
   ld l, a
-  ld a, [$ff8c]
+  ldh a, [$ff00+$8c]
   ld h, a
   add hl, de
   ld e, l
   ld d, h
   pop hl
 .asm_b55
-  ld a, [$ff91]
+  ldh a, [$ff00+$91]
   cp d
   jr z, .asm_b5e
   jr c, .asm_b65
   jr .asm_b80
 .asm_b5e
-  ld a, [$ff90]
+  ldh a, [$ff00+$90]
   cp e
   jr z, .asm_b65
   jr nc, .asm_b80
@@ -216,13 +216,13 @@ LoadCompressedTileset2::
   ld a, $f0
   add d
   ld d, a
-  ld a, [$ff93]
+  ldh a, [$ff00+$93]
   cp d
   jr z, .asm_b72
   jr nc, .asm_b79
   jr .asm_b80
 .asm_b72
-  ld a, [$ff92]
+  ldh a, [$ff00+$92]
   cp e
   jr z, .asm_b80
   jr c, .asm_b80
@@ -244,9 +244,9 @@ LoadCompressedTileset2::
   ld a, b
   or c
   jr z, .asm_b9a
-  ld a, [$ff8e]
+  ldh a, [$ff00+$8e]
   dec a
-  ld [$ff8e], a
+  ldh [$ff00+$8e], a
   jr nz, .asm_b55
   pop de
   jp .asm_b11
@@ -255,10 +255,10 @@ LoadCompressedTileset2::
 .asm_b9b
   pop af
   jr nz, .asm_ba2
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   jr .asm_ba4
 .asm_ba2
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .asm_ba4
   pop af
   ld [$2100], a
@@ -278,23 +278,23 @@ CompressedTilesetReadHeader::
   ld b, a
   inc de
   ld a, [de]
-  ld [$ff8a], a
+  ldh [$ff00+$8a], a
   inc de
   ld a, l
-  ld [$ff8b], a
+  ldh [$ff00+$8b], a
   ld a, h
-  ld [$ff8c], a
+  ldh [$ff00+$8c], a
   push hl
   add hl, bc
   ld a, l
-  ld [$ff90], a
+  ldh [$ff00+$90], a
   ld a, h
-  ld [$ff91], a
+  ldh [$ff00+$91], a
   pop hl
   ld a, l
-  ld [$ff92], a
+  ldh [$ff00+$92], a
   ld a, h
-  ld [$ff93], a
+  ldh [$ff00+$93], a
   ret
 
   padend $bcd

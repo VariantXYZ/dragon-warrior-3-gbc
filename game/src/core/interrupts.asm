@@ -38,30 +38,30 @@ IntStatReturn:
 IntStatDialogBoxScrollPart1::
   push af
   push hl
-  ld a, [$ff45]
+  ldh a, [$ff00+$45]
   or a
   jr z, .is_vblank
 .wait_lcd_transfer
-  ld a, [$ff41]
+  ldh a, [$ff00+$41]
   and $03 ; Data being transferred to the LCD driver (mode 3)
   jr nz, .wait_lcd_transfer
 .is_vblank
   ld a, $89 ; 0b10001001 -> LCD enable, BG Tilemap Display 9c00, BG/Window Display/priority
-  ld [$ff40], a
+  ldh [$ff00+$40], a
   xor a
-  ld [$ff43], a ; Scroll X = 0
+  ldh [$ff00+$43], a ; Scroll X = 0
   ld a, [W_TextBoxInitialScanline]
   ld h, a
   ld a, $90
   sub h
-  ld [$ff42], a ; SCY = 0x90 - [C217]
-  ld a, [$ff45]
+  ldh [$ff00+$42], a ; SCY = 0x90 - [C217]
+  ldh a, [$ff00+$45]
   add $06
-  ld [$ff45], a ; Set 
+  ldh [$ff00+$45], a ; Set 
   ld a, LOW(IntStatDialogBoxScrollPart2)
-  ld [$ffbd], a
+  ldh [$ff00+$bd], a
   ld a, HIGH(IntStatDialogBoxScrollPart2)
-  ld [$ffbe], a ; Next interrupt at scanline 6, calling $FFBE
+  ldh [$ff00+$be], a ; Next interrupt at scanline 6, calling $FFBE
   jp IntStatReturn
 
 ; Setup drawing the middle of the text box
@@ -69,28 +69,28 @@ IntStatDialogBoxScrollPart2:: ; 428 (0:428)
   push af
   push hl
 .wait_lcd_transfer
-  ld a, [$ff41]
+  ldh a, [$ff00+$41]
   and $03 ; Data being transferred to the LCD driver (mode 3)
   jr nz, .wait_lcd_transfer
   ld a, [$c216]
   ld h, a
-  ld a, [$ff45]
+  ldh a, [$ff00+$45]
   ld l, a
   ld a, $9f
   add h
   sub l
-  ld [$ff42], a
+  ldh [$ff00+$42], a
   ld a, LOW(IntStatDialogBoxScrollPart3)
-  ld [$ffbd], a
+  ldh [$ff00+$bd], a
   ld a, HIGH(IntStatDialogBoxScrollPart3)
-  ld [$ffbe], a
+  ldh [$ff00+$be], a
   ld a, [W_TextConfiguration]
   and $08
   add $10 ; Originally $18, this controls the scanline when we draw the bottom of the box
   ld h, a
-  ld a, [$ff45]
+  ldh a, [$ff00+$45]
   add h
-  ld [$ff45], a
+  ldh [$ff00+$45], a
   jp IntStatReturn
 
 ; Draw the bottom part of the text box
@@ -98,46 +98,46 @@ IntStatDialogBoxScrollPart3::
   push af
   push hl
 .wait_lcd_transfer
-  ld a, [$ff41]
+  ldh a, [$ff00+$41]
   and $03 ; Data being transferred to the LCD driver (mode 3)
   jr nz, .wait_lcd_transfer
-  ld a, [$ff45]
+  ldh a, [$ff00+$45]
   ld h, a
   ld a, $98
   sub h
-  ld [$ff42], a
+  ldh [$ff00+$42], a
   ld a, $07
   add h
-  ld [$ff45], a
+  ldh [$ff00+$45], a
   ld a, LOW(IntStatDialogBoxScrollPart4)
-  ld [$ffbd], a
+  ldh [$ff00+$bd], a
   ld a, HIGH(IntStatDialogBoxScrollPart4)
-  ld [$ffbe], a
+  ldh [$ff00+$be], a
   jp IntStatReturn
 
 ; Loop
 IntStatDialogBoxScrollPart4::
   push af
 .wait_lcd_transfer
-  ld a, [$ff41]
+  ldh a, [$ff00+$41]
   and $03 ; Data being transferred to the LCD driver (mode 3)
   jr nz, .wait_lcd_transfer
   ld a, [$c2aa]
-  ld [$ff40], a
-  ld a, [$ff96]
-  ld [$ff43], a
-  ld a, [$ff9a]
-  ld [$ff42], a
+  ldh [$ff00+$40], a
+  ldh a, [$ff00+$96]
+  ldh [$ff00+$43], a
+  ldh a, [$ff00+$9a]
+  ldh [$ff00+$42], a
   ld a, [W_TextBoxInitialScanline]
   or a
   jr z, .asm_490
   dec a
 .asm_490
-  ld [$ff45], a
+  ldh [$ff00+$45], a
   ld a, LOW(IntStatDialogBoxScrollPart1)
-  ld [$ffbd], a
+  ldh [$ff00+$bd], a
   ld a, HIGH(IntStatDialogBoxScrollPart1)
-  ld [$ffbe], a
+  ldh [$ff00+$be], a
   push hl
   call $21d5
   pop hl

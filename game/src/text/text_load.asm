@@ -27,10 +27,10 @@ LoadTextBank\1:
   ret z
   ld hl, W_TextBankIndex
   ld de, $de99
-  ld a, [$ff70]
+  ldh a, [$ff00+$70]
   ld c, a
   ld a, $06
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ld a, [hli]
   ld [de], a
   inc de
@@ -41,7 +41,7 @@ LoadTextBank\1:
   ld [de], a
   inc de
   ld a, c
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ret
 endm
 

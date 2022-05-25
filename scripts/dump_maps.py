@@ -38,6 +38,11 @@ try:
             source_fp.write('INCLUDE "game/src/common/macros.asm"\n')
             source_fp.write('\n')
 
+            source_fp.write('MetamapTableEntry: MACRO\n')
+            source_fp.write('  TableAddressBankEntry Metamap,\\1\n')
+            source_fp.write('  ENDM\n')
+            source_fp.write('\n')
+
             source_fp.write(f'SECTION "Metamap Pointers", ROMX[${rom_ptrs_addr:04X}], BANK[${rom_ptrs_bank:02X}]\n')
             source_fp.write(f'MetamapPointers::\n')
             source_fp.write(f'  TableStart\n')
@@ -57,7 +62,7 @@ try:
                     # An empty entry
                     source_fp.write(f'  dwb $0000, $00 ; Index {metamap_idx:02X}\n')
                 else:
-                    source_fp.write(f'  TableAddressBankEntry Metamap,{metamap_name}\n')
+                    source_fp.write(f'  MetamapTableEntry {metamap_name}\n')
 
                 metamaps.append((bank, ptr))
             source_fp.write('MetamapPointersEnd::\n')

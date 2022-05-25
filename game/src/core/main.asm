@@ -27,9 +27,9 @@ Main::
   rst $10
 .asm_181
   xor a
-  ld [$ff4f], a
-  ld [$ff70], a
-  ld [$ff56], a
+  ldh [$ff00+$4f], a
+  ldh [$ff00+$70], a
+  ldh [$ff00+$56], a
   call $16e9
   ld hl, $7361
   ld b, $29
@@ -53,14 +53,14 @@ Main::
   ld bc, $17
   xor a
   call $7f6
-  ld [$ffbd], a
-  ld [$ffbe], a
+  ldh [$ff00+$bd], a
+  ldh [$ff00+$be], a
   ld [$c180], a
   dec a
   ld [$c181], a
   ld [W_TextBoxInitialScanline], a
   ld a, $d9
-  ld [$ffbc], a
+  ldh [$ff00+$bc], a
   ld a, $ff
   ld [$c25d], a
   ld hl, $6a82
@@ -74,7 +74,7 @@ Main::
   ld [$c2ab], a
   ld [$c2ad], a
   ld [$c2ae], a
-  ld [$ffb6], a
+  ldh [$ff00+$b6], a
   ld hl, $c2bb
   ld [hli], a
   ld [hli], a

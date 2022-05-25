@@ -49,7 +49,7 @@ SetupWriteText2::
 .load_text
   set 7, [hl]
   inc hl
-  ldh [$ffc6], a
+  ldh [$ff00+$c6], a
   ld a, [$c295]
   cp $02
   ld c, $12
@@ -68,7 +68,7 @@ SetupWriteText2::
   ld hl, TextBanks
   add hl, de
   ld e, a
-  ldh a, [$ffc6]
+  ldh a, [$ff00+$c6]
   ld d, a
   ld a, [hl]
   ld [bc], a
@@ -96,9 +96,9 @@ SetupYesNoTextBox::
   add hl, de
 .load_info
   ld a, l
-  ld [$ffc2], a
+  ldh [$ff00+$c2], a
   ld a, h
-  ld [$ffc3], a
+  ldh [$ff00+$c3], a
   call DrawMap
   ret
 .table
