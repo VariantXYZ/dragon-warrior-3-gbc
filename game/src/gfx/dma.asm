@@ -5,9 +5,9 @@ SECTION "DMA Setup", ROM0[$1736]
 SetupDMA::
   ld a, [C_CurrentBank]
   ld c, a
-  ld a, [$ff70]
+  ldh a, [$ff00+$70]
   ld b, a
-  ld a, [$ff4f]
+  ldh a, [$ff00+$4f]
   ld e, a
   ld hl, $c181
 .asm_1743
@@ -15,29 +15,29 @@ SetupDMA::
   cp $ff
   jr z, .asm_176f
   ld d, a
-  ld [$ff51], a
+  ldh [$ff00+$51], a
   ld a, [hli]
-  ld [$ff52], a
+  ldh [$ff00+$52], a
   ld a, [hli]
-  ld [$ff53], a
+  ldh [$ff00+$53], a
   ld a, [hli]
-  ld [$ff54], a
+  ldh [$ff00+$54], a
   ld a, [hli]
   bit 7, d
   ld d, a
   ld a, [hli]
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
   ld a, d
   jr z, .asm_1766
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ld a, [hli]
-  ld [$ff55], a
+  ldh [$ff00+$55], a
   inc hl
   jr .asm_1743
 .asm_1766
   ld [$2100], a
   ld a, [hli]
-  ld [$ff55], a ; Initiate DMA
+  ldh [$ff00+$55], a ; Initiate DMA
   inc hl
   jr .asm_1743
 .asm_176f
@@ -46,9 +46,9 @@ SetupDMA::
   dec a
   ld [$c181], a
   ld a, e
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
   ld a, b
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ld a, c
   ld [$2100], a
   ret

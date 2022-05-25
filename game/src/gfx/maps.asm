@@ -7,7 +7,7 @@ DrawMap::
   ld [$2100], a
   call $6382
   push de
-  ld a, [$ffbf]
+  ldh a, [$ff00+$bf]
   ld [$2100], a
   call $2d72
   ld a, $09
@@ -121,7 +121,7 @@ DrawMap::
   add c
   ld [$de50], a
 .asm_2fbe
-  ld a, [$ffbf]
+  ldh a, [$ff00+$bf]
   ld [$2100], a
   jp $2ddb
 
@@ -153,12 +153,12 @@ DrawMapHelper::
   jr z, .asm_25577
   jr .asm_2558f
 .asm_25577
-  ld a, [$ff4f]
+  ldh a, [$ff00+$4f]
   push af
   ld a, $01
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .asm_2557e
-  ld a, [$ff41]
+  ldh a, [$ff00+$41]
   bit 1, a
   jr nz, .asm_2557e
   ld a, [hli]
@@ -169,7 +169,7 @@ DrawMapHelper::
   or b
   jr nz, .asm_2557e
   pop af
-  ld [$ff4f], a
+  ldh [$ff00+$4f], a
 .asm_2558f
   pop de
   ret
