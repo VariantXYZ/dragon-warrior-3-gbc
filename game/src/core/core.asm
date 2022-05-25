@@ -8,14 +8,14 @@ CopyOAMDMAToHRAM:: ; 80 (0:80)
   ld hl, OAMDMA_FromC0 
 .loop
   ld a, [hli]
-  ld [$ff00+c], a
+  ldh [$ff00+$00+c], a
   inc c
   dec b
   jr nz, .loop
   ret
 OAMDMA_FromC0:: ; 8e
   ld a, $c0
-  ld [$ff46], a
+  ldh [$ff00+$46], a
   ld a, $28
 .wait
   dec a

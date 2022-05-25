@@ -83,10 +83,10 @@ Func_405e::
   ret
 
 DrawTextBoxAndSetupTilesetLoad::
-  ld a, [$ff70]
+  ldh a, [$ff00+$70]
   ld c, a
   ld a, $07
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ld e, $b3
   call TextBoxSetupAttributes
   call TextBoxSetupTilemap
@@ -129,7 +129,7 @@ DrawTextBoxAndSetupTilesetLoad::
   ld b, $20
   call CopyHLtoDE
   ld a, c
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ; Load offsets for the top and bottom of the text box
   ld hl, .attribmap_data
   call CopyDEtoHLAndOffset
@@ -239,13 +239,13 @@ TextBoxSetupInterrupt::
   jr z, .is_zero
   dec a
 .is_zero
-  ld [$ff45], a ; Configure LYC
+  ldh [$ff00+$45], a ; Configure LYC
   ld a, LOW(IntStatDialogBoxScrollPart1)
-  ld [$ffbd], a
+  ldh [$ff00+$bd], a
   ld a, HIGH(IntStatDialogBoxScrollPart1)
-  ld [$ffbe], a
+  ldh [$ff00+$be], a
   ld a, $c3 ; 'c3' is jp
-  ld [$ffbc], a
+  ldh [$ff00+$bc], a
   set 6, [hl] ; Enable LY interrupt
   ret
 
@@ -262,7 +262,7 @@ TextBoxSetupInterruptConfig::
 .asm_4309
   push af
 .asm_430a
-  ld a, [$ff44]
+  ldh a, [$ff00+$44]
   cp $48
   jr nz, .asm_430a
   pop af
@@ -321,7 +321,7 @@ ClearTiles::
   or b
   jr nz, .loop
   ld a, e
-  ld [$ff70], a
+  ldh [$ff00+$70], a
   ret
 
 SECTION "Dialog special drawing function", ROMX[$4001], BANK[$02]
