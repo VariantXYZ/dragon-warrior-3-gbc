@@ -10,7 +10,7 @@ DrawMap::
   ldh a, [$ff00+$bf]
   ld [$2100], a
   call $2d72
-  ld a, $09
+  ld a, BANK(MetamapPointers)
   ld [$2100], a
   push bc
   push hl
