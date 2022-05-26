@@ -36,6 +36,8 @@ HackPredef::
   TableAddressEntry Hack,VWFNewLineReset
   TableAddressEntry Hack,LoadTextFromHighBank
   TableAddressEntry Hack,CallFunctionFromHighBank
+  TableAddressEntry Hack,LoadPatchTileset
+  TableAddressEntry Hack,LoadPatchTilesetForMetamap
 
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
@@ -67,3 +69,45 @@ HackCallFunctionFromHighBank:
   ; Expect hl and b to be set
   rst $10
   ret
+
+HackLoadPatchTileset:
+  ; a is index of tileset to load
+  ; de is VRAM address
+  ; We assume the VRAM bank is set correctly
+  ld hl, PatchTilesetsLoad
+  ld b, LOW(BANK(PatchTilesetsLoad))
+  rst $10
+  ret
+
+HackLoadPatchTilesetForMetamap:
+  push de ; Preserve de, it's necessary for the metamap functions
+  ; c is the index of the array
+  ld b, $00
+  ld h, b
+  ld l, c
+  add hl, bc
+  add hl, bc
+
+  push hl ; pop into bc later
+
+  ld bc, .table
+  add hl, bc
+
+  VRAMSwitchToBank1
+  ld a, [hli] ; VRAM offset, followed by index of tileset
+  ld e, a
+  ld a, [hli]
+  ld d, a
+  ld a, [hli]
+  and a
+  jr z, .return
+  dec a
+  call HackLoadPatchTileset
+  VRAMSwitchToBank0
+
+.return
+  pop bc ; return bc = 3*c for convenience
+  pop de
+  ret
+.table
+  INCLUDE "game/src/patch/include/metamap_tilesets.asm"

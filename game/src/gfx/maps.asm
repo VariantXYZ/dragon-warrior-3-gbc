@@ -22,10 +22,9 @@ DrawMap::
   pop hl
   pop bc
   ld c, b
-  ld b, $00
+  ld a, HackIDX_LoadPatchTilesetForMetamap
+  rst $38 ; Load a tileset if one is configured, returns bc as 3 * c
   ld hl, MetamapPointers
-  add hl, bc
-  add hl, bc
   add hl, bc
   ld a, [hli]
   ld c, a
@@ -98,7 +97,7 @@ DrawMap::
   inc de
   ld a, $dd
   jr nc, .asm_2fa0
-  ld a, $de
+  inc a
 .asm_2fa0
   ld [de], a
   inc de

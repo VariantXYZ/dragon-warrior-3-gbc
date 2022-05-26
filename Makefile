@@ -128,7 +128,8 @@ text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
 
 # Patch specific
-patch_vwf_ADDITIONAL := $(PATCH_TILESET_FILES_1BPP) $(PATCH_TILESET_FILES_2BPP)
+patch_vwf_ADDITIONAL := $(PATCH_TILESET_OUT)/Font.1bpp
+patch_tilesets_ADDITIONAL := $(PATCH_TILESET_FILES_1BPP)
 
 .PHONY: $(VERSIONS) all clean default test
 default: en

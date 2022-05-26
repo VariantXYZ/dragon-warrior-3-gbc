@@ -38,6 +38,16 @@ dpalette: MACRO
   dw (\8 >> 8) | ((\8 & $FF) << 8)
   ENDM
 
+VRAMSwitchToBank1: MACRO
+  ld a, 1
+  ldh [H_RegVBK], a
+  ENDM
+
+VRAMSwitchToBank0: MACRO
+  xor a
+  ldh [H_RegVBK], a
+  ENDM
+
 padend: MACRO
   .end\@
     REPT \1 - .end\@
