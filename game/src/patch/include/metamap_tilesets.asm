@@ -3,7 +3,7 @@
   dwb $0000,$00 ; 00
   dwb $0000,$00 ; 01
   dwb $0000,$00 ; 02
-  dwb $9010,$01 ; PauseMainMenu
+  dwb $9200,$01 ; PauseMainMenu
   dwb $0000,$00 ; 04
   dwb $0000,$00 ; 05
   dwb $0000,$00 ; 06
