@@ -12,7 +12,7 @@ VWFInitializeInternal::
 
 VWFNewLineResetInternal::
   ld a, [W_VWFCurrentTileInfo]
-  and ~($f7) ; Just set the character offset to 0
+  and (~($f7)) & $ff ; Just set the character offset to 0
   ld [W_VWFCurrentTileInfo], a
   ret
 
