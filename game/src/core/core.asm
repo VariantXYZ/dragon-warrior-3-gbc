@@ -8,7 +8,7 @@ CopyOAMDMAToHRAM:: ; 80 (0:80)
   ld hl, OAMDMA_FromC0 
 .loop
   ld a, [hli]
-  ldh [$ff00+$00+c], a
+  ldh [$ff00+c], a
   inc c
   dec b
   jr nz, .loop
