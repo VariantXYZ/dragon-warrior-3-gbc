@@ -19,12 +19,13 @@ text_build_path = sys.argv[4]
 
 # Special control codes 
 class SpecialCharacter():
-    def __init__(self, symbol, end=False, bts=1, do_print=True, parser=None):
+    def __init__(self, symbol, end=False, bts=1, do_print=True, parser=None, formatter=None):
         self.symbol = symbol
         self.end = end
         self.bts = bts
         self.do_print = do_print
         self.parser = parser if parser else { 0: lambda x: None, 1: utils.read_byte, 2: utils.read_short }[self.bts]
+        self.formatter = formatter if formatter else f"{{:{self.bts * 2:02}X}}"
 
 rom_filename = "baserom_ja.gbc"
 rom_version = "ja"
@@ -36,6 +37,14 @@ table = utils.merge_dicts([
             tilesets.get_tileset(rom_version, override_offset=0x0),
         ])
 
+kanji = utils.merge_dicts([
+            tilesets.get_tileset("kanji", override_offset=0x0),
+        ])
+
+def get_kanji(c):
+    return kanji[c] if c in kanji else f"<xE5><x{c:02X}>"
+
+table[0xE5] = SpecialCharacter(None, parser = lambda rom: get_kanji(utils.read_byte(rom)), formatter="{}" ) #E5 XX is kanji
 table[0xEA] = "<EA>"
 table[0xEB] = "<EB>"
 table[0xF0] = SpecialCharacter(None, end = True, bts = 0, do_print = False) # F0 is terminator
@@ -171,9 +180,11 @@ with open(rom_filename, "rb") as rom:
                                     if isinstance(token, SpecialCharacter):
                                         # Special character
                                         token_args = token.parser(rom)
-                                        token_format = f"{{:{token.bts * 2:02}X}}"
                                         if token.do_print:
-                                            text.append(f'<{token.symbol}{token_format.format(token_args)}>')
+                                            if token.symbol is not None:
+                                                text.append(f'<{token.symbol}{token.formatter.format(token_args)}>')
+                                            else:
+                                                text.append(f'{token.formatter.format(token_args)}')
                                         if token.end:
                                             writer.writerow([identity, "".join(text)])
                                             text = []

@@ -19,6 +19,10 @@ char_table = utils.reverse_dict(utils.merge_dicts([
             tilesets.get_tileset("ja", override_offset=0x0),
         ]))
 
+kanji_table = utils.reverse_dict(utils.merge_dicts([
+            tilesets.get_tileset("kanji", override_offset=0x0),
+        ]))
+
 with open(input_file, 'r', encoding='utf-8-sig') as fp:
     reader = csv.reader(fp, delimiter=',', quotechar='"')
     header = next(reader, None)
@@ -75,7 +79,11 @@ with open(input_file, 'r', encoding='utf-8-sig') as fp:
                     else:
                         character = txt[i]
                     try:
-                        bintext.append(char_table[character])
+                        if character in kanji_table:
+                            bintext.append(0xE5) # E5 is kanji control code
+                            bintext.append(kanji_table[character])
+                        else:
+                            bintext.append(char_table[character])
                     except KeyError as e:
                         print(f"[{index}]: KeyError {e}")
                         print(f"\t{txt}")
