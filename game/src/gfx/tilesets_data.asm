@@ -20,3 +20,13 @@ TilesetDoubleHeightCharacters::
   INCBIN "./build/gfx/tilesets/DoubleHeightCharacters.2bpp"
 SECTION "Tileset DoubleHeightCharacters End", ROMX[$75FF], BANK[$01]
 
+SECTION "Tileset NormalKanji", ROMX[$5000], BANK[$02]
+TilesetNormalKanji::
+  INCBIN "./build/gfx/tilesets/NormalKanji.2bpp"
+SECTION "Tileset NormalKanji End", ROMX[$5FFF], BANK[$02]
+
+SECTION "Tileset DoubleHeightKanji", ROMX[$6000], BANK[$02]
+TilesetDoubleHeightKanji::
+  INCBIN "./build/gfx/tilesets/DoubleHeightKanji.2bpp"
+SECTION "Tileset DoubleHeightKanji End", ROMX[$7FFF], BANK[$02]
+
