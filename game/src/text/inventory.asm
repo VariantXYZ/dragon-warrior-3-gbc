@@ -70,7 +70,7 @@ InventoryTextDrawItemList::
   inc de
   inc de
   ldh a, [$ffca]
-  call InventoryTextDrawItem
+  call ListTextDrawEntry.items
   ldh a, [$ffc6]
   sub c
   jr z, .asm_1801f1
@@ -125,7 +125,7 @@ InventoryTextDrawItemList::
   push de
   push bc
   ldh a, [$ffca]
-  call InventoryTextDrawItem
+  call ListTextDrawEntry.items
   ldh a, [$ffc6]
   sub c
   jr z, .asm_180239
@@ -198,7 +198,7 @@ InventoryTextDrawItemList::
   push hl
   push de
   push de
-  call InventoryTextDrawItem
+  call ListTextDrawEntry.items
   ld a, $09
   sub c
   jr z, .asm_180291
@@ -235,47 +235,3 @@ InventoryTextDrawItemList::
   ret
 
   padend $42ae
-
-
-SECTION "Draw single inventory item", ROMX[$4a71], BANK[$60]
-InventoryTextDrawItem::
-  ld b, a
-  ld c, $08
-  jr .draw_item
-  ld b, a
-  ld c, $0a
-  jr .draw_item
-  ld b, a
-  ld c, $0c
-  jr .draw_item
-  ld b, a
-  ld c, $0e
-  jr .draw_item
-.draw_item
-  ld hl, TextBank00
-  ld a, b
-  ld b, $00
-  add hl, bc
-  ld c, a
-  ld a, [hli]
-  ld h, [hl]
-  ld l, a
-  add hl, bc
-  add hl, bc
-  ld a, [hli]
-  ld h, [hl]
-  ld l, a
-  ld c, $00
-.asm_180a97
-  ld a, [hli]
-  cp $f0
-  jr z, .asm_180aa1
-  ld [de], a
-  inc c
-  inc de
-  jr .asm_180a97
-.asm_180aa1
-  ld a, c
-  ret
-
-  padend $4aa3
