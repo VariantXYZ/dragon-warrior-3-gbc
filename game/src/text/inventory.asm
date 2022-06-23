@@ -8,6 +8,8 @@ WrapperBank09InventoryTextDrawItemList::
   rst $10
   ret
 
+  padend $6552
+
 SECTION "Write inventory item list", ROMX[$418b], BANK[$60]
 InventoryTextDrawItemList::
   ld hl, $f
@@ -15,7 +17,7 @@ InventoryTextDrawItemList::
   ld a, [hl]
   dec a
   ldh [$ffc6], a
-  ld hl, rst10
+  ld hl, $0010
   add hl, de
   ld a, [hl]
   ldh [$ffc7], a
