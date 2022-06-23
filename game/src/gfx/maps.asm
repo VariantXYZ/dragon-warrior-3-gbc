@@ -26,19 +26,19 @@ DrawMap::
   rst $38 ; Load a tileset if one is configured, returns bc as 3 * c
   ld hl, MetamapPointers
   add hl, bc
-  ld a, [hli]
+  ldi a, [hl]
   ld c, a
-  ld a, [hli]
+  ldi a, [hl]
   ld b, a
-  ld a, [hli]
+  ldi a, [hl]
   ld [$2100], a
   ld l, c
   ld h, b
   pop bc
-  ld a, [hli]
+  ldi a, [hl]
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   ld [bc], a
   inc bc
   ld a, [C_CurrentBank]
@@ -50,27 +50,27 @@ DrawMap::
   ld a, d
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   add e
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   adc d
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   add e
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   adc d
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   add e
   ld [bc], a
   inc bc
-  ld a, [hli]
+  ldi a, [hl]
   adc d
   ld [bc], a
   inc bc
@@ -83,10 +83,10 @@ DrawMap::
   call CopyHLtoDE
   or a
   jr z, .asm_2fbe
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
   jr z, .asm_2fbe
@@ -160,7 +160,7 @@ DrawMapHelper::
   ldh a, [$ff00+$41]
   bit 1, a
   jr nz, .asm_2557e
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
   dec bc

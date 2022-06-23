@@ -11,7 +11,7 @@ WriteAtoHLMultiple::
 CopyHLToDEMany::
 ; Copy [hl] to [de], bc times
 .loop
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
   dec bc
@@ -22,7 +22,7 @@ CopyHLToDEMany::
 CopyHLtoDE::
 ; Copy 'b' bytes from [hl] to [de]
 .loop
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
   dec b

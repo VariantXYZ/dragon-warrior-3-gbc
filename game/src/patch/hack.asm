@@ -1,8 +1,7 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
-SECTION "User Functions (Hack)", ROMX[$4000], BANK[$100]
-db LOW(BANK(@))
+SECTION "User Functions (Hack)", ROMX[$4001], BANK[$100]
 HackPredef::
   push af
   ld a, h
@@ -18,7 +17,7 @@ HackPredef::
   sla c
   rl b
   add hl, bc
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a
   pop bc
@@ -34,14 +33,17 @@ HackPredef::
   TableAddressEntry Hack,VWFInitializeDialog
   TableAddressEntry Hack,VWFDrawCharacter
   TableAddressEntry Hack,VWFNewLineReset
-  TableAddressEntry Hack,VWFInitializeList
-  TableAddressEntry Hack,VWFDrawListItem
+  TableAddressEntry Hack,VWFInitializeListItem
+  TableAddressEntry Hack,VWFDrawListItemCharacter
   TableAddressEntry Hack,LoadTextFromHighBank
   TableAddressEntry Hack,CallFunctionFromHighBank
   TableAddressEntry Hack,CallFunctionFromHighBankSetAtoC
   TableAddressEntry Hack,LoadPatchTileset
   TableAddressEntry Hack,LoadPatchTilesetForMetamap
 
+HackVWFInitializeListItem::
+  xor a
+  ld [W_VWFListTileCount], a
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
   ld b, LOW(BANK(VWFInitializeInternal))
@@ -63,26 +65,28 @@ HackVWFNewLineReset:
   rst $10
   ret
 
-HackVWFInitializeList:
-  ; hl = address to draw to
-  push de
-  ld d, h
-  ld e, l
-  ld hl, W_VWFListDst
-  ld a, e
-  ldi [hl], a
-  ld a, d
-  ld [hl], a
-  pop de
-  ret
-
-HackVWFDrawListItem:
-  ; de = WRAM address for tile idx
-  ; hl = Source address for text
-  ; c = Available tiles
-  ld hl, VWFNewLineResetInternal
-  ld b, LOW(BANK(VWFNewLineResetInternal))
+HackVWFDrawListItemCharacter::
+  ; Draw list text in a circular buffer
+  ld a, c
+  ld [W_VWFCurrentCharacter], a
+  ld a, [W_VWFListDst+1]
+  and a ; if buffer is not set, initialize it
+  jr nz, .already_initialized
+  ld a, $00
+  ld [W_VWFListDst], a
+  ld a, $90
+  ld [W_VWFListDst+1], a
+.already_initialized
+  VRAMSwitchToBank0
+  ; c is character to draw
+  ; de is BG map address to write tiles to
+  ld hl, VWFDrawListItemCharacterInternal
+  ld b, LOW(BANK(VWFDrawListItemCharacterInternal))
   rst $10
+  ; return de as current BG map address
+  ; return c as current tile count
+  ld a, [W_VWFListTileCount]
+  ld c, a
   ret
 
 HackLoadTextFromHighBank:
@@ -122,11 +126,11 @@ HackLoadPatchTilesetForMetamap:
   add hl, bc
 
   VRAMSwitchToBank1
-  ld a, [hli] ; VRAM offset, followed by index of tileset
+  ldi a, [hl] ; VRAM offset, followed by index of tileset
   ld e, a
-  ld a, [hli]
+  ldi a, [hl]
   ld d, a
-  ld a, [hli]
+  ldi a, [hl]
   and a
   jr z, .return
   dec a

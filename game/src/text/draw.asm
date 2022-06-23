@@ -25,11 +25,11 @@ DrawCharacter::
   set 2, [hl]
 .asm_4022
   ld hl, W_TextTilesetDst
-  ld a, [hli]
+  ldi a, [hl]
   ld d, [hl]
   ld e, a
   ld hl, W_TextTilesetSrc
-  ld a, [hli]
+  ldi a, [hl]
   ld b, [hl]
   ld l, c
   ld h, $00
@@ -337,11 +337,11 @@ SetupAdditionalTileset::
   set 2, [hl]
 .asm_800c
   ld hl, W_TextTilesetDst
-  ld a, [hli]
+  ldi a, [hl]
   ld d, [hl]
   ld e, a
   ld hl, W_TextTilesetSrc
-  ld a, [hli]
+  ldi a, [hl]
   ld b, [hl]
   ld l, c
   ld h, $00

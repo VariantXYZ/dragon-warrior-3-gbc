@@ -36,7 +36,7 @@ rst10::
   padend $28
 
 rst28::
-  ; Similar to rst10, but discards a and always restores to HackPrede
+  ; Similar to rst10, but discards a and always restores to HackPredef
   ld [$2100], a
   rst $30
   jr rst28Cont
@@ -55,7 +55,8 @@ rst28Cont:
 
 rst38:: ; HackPredef
   push af
-  ld a, [C_CurrentBank]
+  ld a, HIGH(BANK(HackPredef))
+  ld [$3100], a
   jr rst38Cont
 
   padend $40
@@ -64,19 +65,19 @@ rst38:: ; HackPredef
 
 SECTION "rst38 cont", ROM0[$61]
 rst38Cont:
+  ld a, [C_CurrentBank]
   ld [W_PreservedBank], a ; Preserve old bank
   ld a, LOW(BANK(HackPredef))
   ld [$2100], a
-  ld a, HIGH(BANK(HackPredef))
-  ld [$3100], a
   pop af
   call HackPredef
   push af
   ; Restore bank and return
-  xor a
-  ld [$3100], a
   ld a, [W_PreservedBank]
   ld [$2100], a
+  xor a
+  ld [$3100], a
+  ld [W_PreservedBank], a ; reset preserved bank
   pop af
   ret
 

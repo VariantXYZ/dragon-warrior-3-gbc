@@ -42,7 +42,7 @@ InventoryTextDrawItemList::
   ldh [$ffca], a
   ld hl, $5
   add hl, de
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a ; hl = the VRAM address to draw to
   ld bc, $3400 ; Point to DRAM for future DMA
@@ -64,13 +64,13 @@ InventoryTextDrawItemList::
   ldh a, [$ffca]
   ld c, a
 .asm_1801ca
-  ld a, [hli]
+  ldi a, [hl]
   or a
   jr z, .asm_180210
   push hl
   ldh [$ffca], a
   ld hl, $ffc7
-  ld a, [hli]
+  ldi a, [hl]
   cp [hl]
   jr nz, .asm_18020b
   push de
@@ -123,13 +123,13 @@ InventoryTextDrawItemList::
   inc de
   ld b, $0c
 .asm_180217
-  ld a, [hli]
+  ldi a, [hl]
   or a
   jr z, .asm_180262
   push hl
   ldh [$ffca], a
   ld hl, $ffc7
-  ld a, [hli]
+  ldi a, [hl]
   cp [hl]
   jr nz, .asm_180253
   push de
@@ -202,7 +202,7 @@ InventoryTextDrawItemList::
   ld a, $06
 .asm_180278
   ldh [$ffc6], a
-  ld a, [hli]
+  ldi a, [hl]
   or a
   jr z, .return
   push hl

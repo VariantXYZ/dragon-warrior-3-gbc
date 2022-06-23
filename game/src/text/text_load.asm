@@ -9,12 +9,12 @@ LoadTextBank\1:
   add hl, de
   add hl, de
   ld e, a
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a
   add hl, de
   add hl, de
-  ld a, [hli]
+  ldi a, [hl]
   ld [bc], a
   inc bc
   ld a, [hl]
@@ -31,13 +31,13 @@ LoadTextBank\1:
   ld c, a
   ld a, $06
   ldh [$ff00+$70], a
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
-  ld a, [hli]
+  ldi a, [hl]
   ld [de], a
   inc de
   ld a, c

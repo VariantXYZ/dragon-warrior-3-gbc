@@ -2,9 +2,7 @@ INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
 ; These determines the width of each character (excluding the 1px between characters).
-SECTION "VWF Bank", ROMX[$4000], BANK[$101]
-db LOW(BANK(@))
-
+SECTION "VWF Bank", ROMX[$4001], BANK[$101]
 VWFInitializeInternal::
   xor a
   ld [W_VWFCurrentTileInfo], a
@@ -14,6 +12,101 @@ VWFNewLineResetInternal::
   ld a, [W_VWFCurrentTileInfo]
   and (~($f7)) & $ff ; Just set the character offset to 0
   ld [W_VWFCurrentTileInfo], a
+  ret
+
+VWFGetListDstIndex:
+  ld a, [W_VWFListDst]
+  and $f0
+  swap a
+  ld b, a
+  ld a, [W_VWFListDst+1]
+  and $0f
+  swap a
+  or b
+  ret
+
+VWFDrawListItemCharacterInternal::
+  ld a, [W_VWFCurrentTileInfo]
+  res 5, a
+  ld [W_VWFCurrentTileInfo], a
+
+  ; Get current tile index
+  call VWFGetListDstIndex
+  push af
+
+  ; if we're on tile 7f, set a flag to reset the destination on the next iteration
+  cp $7f
+  jr nz, .normal
+  ; [Font Type:2][Pixel Index:3]
+  ld a, [W_VWFCurrentTileInfo]
+  set 5, a
+  ld [W_VWFCurrentTileInfo], a
+.normal
+
+  ; Clear first tile if this is the initial run
+  ld a, [W_VWFListTileCount]
+  and a
+  jr nz, .draw
+  ld a, [W_VWFCurrentTileInfo]
+  and $07
+  jr nz, .draw
+
+  ld hl, W_VWFListDst
+  ldi a, [hl]
+  ld h, [hl]
+  ld l, a
+
+  ld b, $10 / $04 ; 16 bytes, but we go 4 at a time
+.loop
+  di
+.wfb
+  ldh a, [H_LCDStat]
+  and 2
+  jr nz, .wfb
+  ld a, $ff
+  ld [hli], a
+  xor a
+  ld [hli], a
+  ld a, $ff
+  ld [hli], a
+  xor a
+  ld [hli], a
+  ei
+
+  dec b
+  jr nz, .loop
+
+.draw
+  push de
+  ld de, W_VWFListDst
+  call VWFDrawCharacterInternal
+  pop de
+
+  ld a, [W_VWFListTileCount]
+  and a
+  jr z, .add_first_tile
+
+  ; Get new tile index, if different
+  call VWFGetListDstIndex
+  ld b, a
+  pop af
+  cp b
+  jr z, .return
+  ld a, b
+
+  inc de
+  ld [de], a
+  ld a, [W_VWFListTileCount]
+  inc a
+  ld [W_VWFListTileCount], a
+  jr .return
+.add_first_tile
+  inc a
+  ld [W_VWFListTileCount], a
+  pop af ; pushed earlier
+  call VWFGetListDstIndex
+  ld [de], a
+.return
   ret
 
 SECTION "VWF Data", ROMX[$4100], BANK[$101]
@@ -105,7 +198,7 @@ VWFDrawCharacterInternal::
   ld h, [hl]
   ld l, a
 
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a
 
@@ -137,7 +230,13 @@ VWFDrawCharacterInternal::
   dec a
   jr .do_shift
 .done_shift
+
   di
+.wfb1
+  ldh a, [H_LCDStat]
+  and 2
+  jr nz, .wfb1
+
   ld a, $ff ; DW3's text palette has white as 0b01, so we always set LSB to 1
   ld [hli], a ; Probably wasteful to always write it, but it's fine
   ld a, [hl] ; what's currently written
@@ -163,6 +262,17 @@ VWFDrawCharacterInternal::
   push bc
   ; Increment current working area
   push de
+
+  ; if the reset bit is set, reset hl's center byte
+  ld a, [W_VWFCurrentTileInfo]
+  bit 5, a
+  jr z, .no_cycle
+  ld a, h
+  and $f0
+  ld h, a
+  xor a
+  ld l, a
+.no_cycle
   ld d, h
   ld e, l
   
@@ -194,12 +304,19 @@ VWFDrawCharacterInternal::
   dec a
   jr .do_shift_left
 .done_shift_left
+
   di
+.wfb2
+  ldh a, [H_LCDStat]
+  and 2
+  jr nz, .wfb2
+
   ld a, $ff
   ld [hli], a
   ld a, d ; Nothing else is written, so we can just write it directly
   ld [hli], a
   ei
+
   pop de
   inc de
   pop bc

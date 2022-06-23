@@ -13,7 +13,7 @@ TextGetNextCharacter::
   ret
 TextGetNextCharacterSub::
   ld hl, W_TextCurrent ; We are already at the correct bank
-  ld a, [hli]
+  ldi a, [hl]
   ld d, [hl]
   ld e, a ; de == address
   ld a, [de] ; a == letter to draw next
@@ -30,11 +30,11 @@ TextGetNextCharacterSub::
 SECTION "Prepare data to load text", ROMX[$403d], BANK[$02]
 SetupWriteText::
   ld hl, W_TextBankIndex
-  ld a, [hli]
+  ldi a, [hl]
   ld e, a
-  ld a, [hli]
+  ldi a, [hl]
   ld d, a
-  ld a, [hli]
+  ldi a, [hl]
   ld b, a
   jp SetupWriteText2.load_text
 SetupWriteText2::

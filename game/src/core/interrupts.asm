@@ -4,19 +4,19 @@ INCLUDE "game/src/common/macros.asm"
 SECTION "vblank interrupt", ROM0[$40]
 IntVblank::
   di
-  jp $02AB
+  jp WrapperIntVblank
 
   padend $0048
 
 IntLCD::
   di
-  jp $FFBC
+  jp WrapperIntLCD
   reti
 
   padend $0050
 
 IntTimer::
-  jp $0697
+  jp WrapperIntTimer
 
   padend $0058
 
@@ -28,6 +28,58 @@ IntSerial::
 IntJoypad:: nop
 
 ; Rst31Cont
+
+SECTION "interrupt wrappers (hack)", ROM0[$9c]
+; Interrupts will try to access data from lower banks
+WrapperIntVblank:
+  push af
+  xor a
+  ld [$3100], a
+  
+  call $02AB
+  
+  ld a, [W_PreservedBank]
+  and a
+  jr z, .return
+  ld a, $01
+  ld [$3100], a
+.return
+  pop af
+  reti
+
+WrapperIntLCD:
+  push af
+  xor a
+  ld [$3100], a
+  
+  call $FFBC
+  
+  ld a, [W_PreservedBank]
+  and a
+  jr z, .return
+  ld a, $01
+  ld [$3100], a
+.return
+  pop af
+  reti
+
+WrapperIntTimer:
+  push af
+  xor a
+  ld [$3100], a
+  
+  call $0697
+  
+  ld a, [W_PreservedBank]
+  and a
+  jr z, .return
+  ld a, $01
+  ld [$3100], a
+.return
+  pop af
+  reti
+
+  padend $0101
 
 SECTION "stat interrupts", ROM0[$03f7]
 IntStatReturn:

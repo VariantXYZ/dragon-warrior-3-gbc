@@ -25,6 +25,7 @@ ListTextDrawEntryOld::
   ld a, HackIDX_CallFunctionFromHighBankSetAtoC
   rst $38
   ret
+
   padend $4aa3
 
 SECTION "Draw single list item", ROMX[$7d00], BANK[$160]
@@ -68,23 +69,70 @@ ListTextDrawEntry::
   ld b, $00
   add hl, bc
   ld c, a
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a
   add hl, bc
   add hl, bc
-  ld a, [hli]
+  ldi a, [hl]
   ld h, [hl]
   ld l, a
-  ld c, $00
+  push hl
+  ld hl, HackVWFInitializeListItem
+  ld b, LOW(BANK(HackVWFInitializeListItem))
+  rst $10
+  pop hl
 .loop
-  ld a, [hli]
+  ; hl is source address of text
+  ; de is BG map address to write tiles to
+  ldi a, [hl]
   cp $f0
   jr z, .return
-  ld [de], a
-  inc c
-  inc de
+  ld c, a ; character to draw -> c
+  push hl
+  ld hl, HackVWFDrawListItemCharacter
+  ld b, LOW(BANK(HackVWFDrawListItemCharacter))
+  rst $10
+  pop hl
   jr .loop
 .return
-  ld a, c
+  ld a, c ; c and a are number of tiles drawn
+  push af
+  and a
+  jr z, .zero
+  ; increment de and the drawing area
+  inc de
+
+  ; Check that W_VWFListDst is not 7f
+  ld a, [W_VWFListDst]
+  and $f0
+  swap a
+  ld b, a
+  ld a, [W_VWFListDst+1]
+  and $0f
+  swap a
+  or b
+
+  cp $7f
+  jr nz, .increment_draw_area
+  xor a ; set it to 0 and VWF draw will automatically handle setting it up
+  ld [W_VWFListDst+1], a
+  jr .zero
+.increment_draw_area
+  push hl
+  push bc
+  ld hl, W_VWFListDst
+  ldi a, [hl]
+  ld h, [hl]
+  ld l, a
+  ld bc, $0010
+  add hl, bc
+  ld a, h
+  ld [W_VWFListDst+1], a
+  ld a, l
+  ld [W_VWFListDst], a
+  pop bc
+  pop hl
+.zero
+  pop af
   ret
