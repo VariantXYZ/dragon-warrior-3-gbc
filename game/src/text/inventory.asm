@@ -3,14 +3,24 @@ INCLUDE "game/src/common/macros.asm"
 
 SECTION "Draw item list wrapper, bank 09", ROMX[$654b], BANK[$09]
 WrapperBank09InventoryTextDrawItemList::
-  ld hl, InventoryTextDrawItemList
-  ld b, BANK(InventoryTextDrawItemList)
+  ld hl, InventoryTextDrawItemListOld
+  ld b, BANK(InventoryTextDrawItemListOld)
   rst $10
   ret
 
   padend $6552
 
-SECTION "Write inventory item list", ROMX[$418b], BANK[$60]
+SECTION "Write inventory item list (old)", ROMX[$418b], BANK[$60]
+InventoryTextDrawItemListOld::
+  ld hl, InventoryTextDrawItemList
+  ld b, LOW(BANK(InventoryTextDrawItemList))
+  ld a, HackIDX_CallFunctionFromHighBank
+  rst $38
+  ret
+
+  padend $42ae
+
+SECTION "Write inventory item list", ROMX[$7e00], BANK[$160]
 InventoryTextDrawItemList::
   ld hl, $f
   add hl, de
@@ -233,5 +243,3 @@ InventoryTextDrawItemList::
   jr nz, .asm_180278
 .return
   ret
-
-  padend $42ae

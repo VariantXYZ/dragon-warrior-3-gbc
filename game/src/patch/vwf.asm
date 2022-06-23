@@ -44,7 +44,12 @@ VWFNormalFontTable:
 VWFFont:
   INCBIN "build/gfx/tilesets/patch/Font.1bpp"
 
-VWFDrawCharacterInternal::    
+VWFDrawCharacterInternal::
+  ; de is the pointer to the drawing area (for dialog, [de] = W_TextTilesetDst, it's a double de-reference)
+  ld a, e
+  ld [W_VWFTileDst], a
+  ld a, d
+  ld [W_VWFTileDst+1], a
   ; [Font Type:2][Pixel Index:3]
   ld a, [W_VWFCurrentTileInfo]
   rrca
@@ -94,8 +99,12 @@ VWFDrawCharacterInternal::
   add h
   ld h, a
   ld b, [hl] 
-  
-  ld hl, W_TextTilesetDst
+
+  ld hl, W_VWFTileDst
+  ldi a, [hl]
+  ld h, [hl]
+  ld l, a
+
   ld a, [hli]
   ld h, [hl]
   ld l, a
@@ -128,11 +137,13 @@ VWFDrawCharacterInternal::
   dec a
   jr .do_shift
 .done_shift
+  di
   ld a, $ff ; DW3's text palette has white as 0b01, so we always set LSB to 1
   ld [hli], a ; Probably wasteful to always write it, but it's fine
   ld a, [hl] ; what's currently written
   or d ; a |= (d >> c)
   ld [hli], a ; note that hl is pointing to the next tile here
+  ei
 
   pop de
   inc de
@@ -154,7 +165,12 @@ VWFDrawCharacterInternal::
   push de
   ld d, h
   ld e, l
-  ld hl, W_TextTilesetDst
+  
+  ld hl, W_VWFTileDst
+  ldi a, [hl]
+  ld h, [hl]
+  ld l, a
+
   ld [hl], e
   inc hl
   ld [hl], d
@@ -178,10 +194,12 @@ VWFDrawCharacterInternal::
   dec a
   jr .do_shift_left
 .done_shift_left
+  di
   ld a, $ff
   ld [hli], a
   ld a, d ; Nothing else is written, so we can just write it directly
   ld [hli], a
+  ei
   pop de
   inc de
   pop bc

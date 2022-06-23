@@ -34,8 +34,11 @@ HackPredef::
   TableAddressEntry Hack,VWFInitializeDialog
   TableAddressEntry Hack,VWFDrawCharacter
   TableAddressEntry Hack,VWFNewLineReset
+  TableAddressEntry Hack,VWFInitializeList
+  TableAddressEntry Hack,VWFDrawListItem
   TableAddressEntry Hack,LoadTextFromHighBank
   TableAddressEntry Hack,CallFunctionFromHighBank
+  TableAddressEntry Hack,CallFunctionFromHighBankSetAtoC
   TableAddressEntry Hack,LoadPatchTileset
   TableAddressEntry Hack,LoadPatchTilesetForMetamap
 
@@ -48,6 +51,7 @@ HackVWFInitializeDialog:
 HackVWFDrawCharacter:
   ld a, c
   ld [W_VWFCurrentCharacter], a
+  ld de, W_TextTilesetDst
   ld hl, VWFDrawCharacterInternal
   ld b, LOW(BANK(VWFDrawCharacterInternal))
   rst $10
@@ -59,12 +63,36 @@ HackVWFNewLineReset:
   rst $10
   ret
 
+HackVWFInitializeList:
+  ; hl = address to draw to
+  push de
+  ld d, h
+  ld e, l
+  ld hl, W_VWFListDst
+  ld a, e
+  ldi [hl], a
+  ld a, d
+  ld [hl], a
+  pop de
+  ret
+
+HackVWFDrawListItem:
+  ; de = WRAM address for tile idx
+  ; hl = Source address for text
+  ; c = Available tiles
+  ld hl, VWFNewLineResetInternal
+  ld b, LOW(BANK(VWFNewLineResetInternal))
+  rst $10
+  ret
+
 HackLoadTextFromHighBank:
   ld hl, $4001 ; Every text bank has a text loading routine at $4001
   ld a, [W_TextBank]
   rst $28
   ret
 
+HackCallFunctionFromHighBankSetAtoC:
+  ld a, c
 HackCallFunctionFromHighBank:
   ; Expect hl and b to be set
   rst $10

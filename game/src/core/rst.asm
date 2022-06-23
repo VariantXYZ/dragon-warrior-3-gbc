@@ -71,11 +71,13 @@ rst38Cont:
   ld [$3100], a
   pop af
   call HackPredef
+  push af
   ; Restore bank and return
   xor a
   ld [$3100], a
   ld a, [W_PreservedBank]
   ld [$2100], a
+  pop af
   ret
 
   padend $0080
