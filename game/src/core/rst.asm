@@ -55,18 +55,13 @@ rst28Cont:
 
 rst38:: ; HackPredef
   push af
-  ld a, HIGH(BANK(HackPredef))
-  ld [$3100], a
-  jr rst38Cont
-
+  jp rst38Cont1
   padend $40
 
   ; interrupts
 
-SECTION "rst38 cont", ROM0[$61]
-rst38Cont:
-  ld a, [C_CurrentBank]
-  ld [W_PreservedBank], a ; Preserve old bank
+SECTION "rst38 cont2", ROM0[$61]
+rst38Cont2:
   ld a, LOW(BANK(HackPredef))
   ld [$2100], a
   pop af
@@ -84,3 +79,16 @@ rst38Cont:
   padend $0080
 
   ; core
+  
+SECTION "rst38 cont1", ROM0[$db]
+rst38Cont1:
+  di ; We can't have interrupts while saving the high bank info
+     ; (otherwise it won't properly be restored)
+  ld a, HIGH(BANK(HackPredef))
+  ld [$3100], a
+  ld a, [C_CurrentBank]
+  ld [W_PreservedBank], a ; Preserve old bank
+  ei
+  jp rst38Cont2
+
+  padend $0101

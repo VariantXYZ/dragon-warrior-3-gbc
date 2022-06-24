@@ -79,7 +79,8 @@ WrapperIntTimer:
   pop af
   reti
 
-  padend $0101
+  padend $00DB
+  ; rst38Cont1
 
 SECTION "stat interrupts", ROM0[$03f7]
 IntStatReturn:
