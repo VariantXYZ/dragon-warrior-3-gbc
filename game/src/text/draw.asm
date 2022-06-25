@@ -322,7 +322,7 @@ ClearVRAMTilesForDialogText::
   db $D0, $00 ; DMA src
   db $8F, $C0 ; DMA dst
   db $07, $01 ; Unknown
-  db $47, $00 ; Length
+  db $23, $00 ; Length, originally 47, but we reduced dialog required space in half
 
 ClearVRAMTilesForOtherText:: ; Clears text after the dialog space
   ld hl, $D000
