@@ -305,15 +305,46 @@ TextBoxSetupInterruptConfig::
 .asm_4347:
   ld a, $63
   jr .asm_4309
-  
-  padend $434b
 
-SECTION "Dialog drawing functions 2", ROMX[$438a], BANK[$01]
+ClearVRAMTilesForDialogText::
+  ld hl, $D000
+  ld bc, $0480
+  call ClearTiles ; Clear RAM for DMA
+  ld hl, .table
+  call CopyDEtoHLAndOffset ; Executes DMA
+  ld hl, $c214
+  inc [hl]
+  ret
+.table
+  db $D0, $00 ; DMA src
+  db $8F, $C0 ; DMA dst
+  db $07, $01 ; Unknown
+  db $47, $00 ; Length
+
+ClearVRAMTilesForOtherText:: ; Clears text after the dialog space
+  ld hl, $D000
+  ld bc, $0480
+  call ClearTiles
+  ld hl, .table
+  call CopyDEtoHLAndOffset
+  ld hl, $c214
+  inc [hl]
+  ret
+.table
+  db $D0, $00 ; DMA src
+  db $92, $00 ; DMA dst
+  db $07, $01 ; Unknown
+  db $23, $00 ; Length
+
 ClearTiles::
+  ldh a, [$ff70] ; wram bank
+  ld e, a
+  ld a, $07
+  ldh [$ff70], a
 .loop
   ld a, $ff ; Writes ff 'bc' every other character
   ld [hli], a
-  inc a
+  inc a ; writes 0 after ff
   ld [hli], a
   dec bc
   dec bc
