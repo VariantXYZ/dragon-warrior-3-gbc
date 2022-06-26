@@ -113,6 +113,7 @@ TILESET_FILES_COMPRESSED := $(foreach FILE,$(TILESETS_COMPRESSED),$(TILESET_OUT)
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
+text_inventory_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 
 .PHONY: $(VERSIONS) all clean default test
 default: en
