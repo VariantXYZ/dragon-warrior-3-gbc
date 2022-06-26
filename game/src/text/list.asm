@@ -42,6 +42,7 @@ ListTextDrawEntry::
   ld a, [hli]
   ld h, [hl]
   ld l, a
+.setup_loop::
   ld c, $00
 .loop
   ld a, [hli]

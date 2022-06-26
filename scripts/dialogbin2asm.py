@@ -39,10 +39,6 @@ with open(output_file, 'w') as output:
         with open(input_file, 'rb') as in_f:
             group_count = utils.read_short(in_f)
             group_offsets = [utils.read_short(in_f) for i in range(0, group_count)]
-            group_pointers = [x + ptr_table_offset for x in group_offsets]
-            for i, g in enumerate(group_pointers):
-                group_key = key.replace('_', 'Group') + f'_{i:02X}'
-                output.write(f'c{group_key}       EQU ${g:04X}\n')
 
             count = utils.read_short(in_f)
             offsets = [(utils.read_short(in_f), utils.read_short(in_f)) for i in range(0, count)]
@@ -53,6 +49,20 @@ with open(output_file, 'w') as output:
                     b = reduce( (lambda x, y: x + bytearray(y)), init_text_offsets)           
                     out_f.write(b)
                 out_f.write(in_f.read()) # The rest of the file is the actual text, so just read it entirely
+
+            group_pointers = [x + ptr_table_offset for x in group_offsets]
+            for i, g in enumerate(group_pointers):
+                group_key = key.replace('_', 'Group') + f'_{i:02X}'
+                output.write(f'c{group_key}   EQU ${g:04X}\n')
+                # Note the pointers to each text entry, as sometimes they are referenced directly
+                txt_idx = group_offsets[i]
+                end_idx = group_offsets[i+1] if i + 1 < len(group_offsets) else len(init_text_offsets)
+                j = 0
+                text_key = key.replace('_', '') + f'_{i:02X}'
+                while txt_idx < end_idx:
+                    output.write(f'c{text_key}_{j:02X}     EQU ${unpack("<H", init_text_offsets[txt_idx // 2])[0]:04X}\n')
+                    txt_idx += 2
+                    j += 1
 
     for k in bin_files:
         output.write(f'c{k}        EQUS "\\"{bin_files[k]}\\""\n')
