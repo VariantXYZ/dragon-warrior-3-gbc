@@ -20,6 +20,26 @@ InventoryTextDrawItemListOld::
 
   padend $42ae
 
+SECTION "Write inventory item descriptions", ROMX[$43ab], BANK[$60]
+InventoryDrawDescriptionText::
+.loop
+  ld a, [hli]
+  push hl
+  cp $f0
+  jr nz, .copy_character
+  pop hl
+  ret
+.copy_character
+  ld [bc], a
+  ld hl, $240 ; Offset to attributes in DMA'd memory
+  add hl, bc
+  inc bc
+  ld [hl], $80 ; Write attribute
+  pop hl
+  jr .loop
+
+  padend $43be
+
 SECTION "Write inventory item list", ROMX[$7e00], BANK[$160]
 InventoryTextDrawItemList::
   ld hl, $f
