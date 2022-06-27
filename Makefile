@@ -111,7 +111,7 @@ TILESET_FILES_1BPP := $(foreach FILE,$(TILESETS_1BPP),$(TILESET_OUT)/$(basename 
 TILESET_FILES_COMPRESSED := $(foreach FILE,$(TILESETS_COMPRESSED),$(TILESET_OUT)/$(basename $(FILE)).$(COMPRESSED_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
-text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
+text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm $(DIALOG_OUT)/text_symbols.asm
 gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
 text_inventory_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 
@@ -147,9 +147,9 @@ $(BUILD)/%.$(INT_TYPE): $(SRC)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(su
 $(DIALOG_INT)/%.$(BIN_TYPE): $(DIALOG_TEXT)/%.$(CSV_TYPE) | $(DIALOG_INT) $(SCRIPT_RES)/tilesets/en.lst
 	$(PYTHON) $(SCRIPT)/dialog2bin.py $@ $^
 
-# build/dialog/text_constants.asm from dialog bin files
-$(DIALOG_OUT)/text_constants.asm: $(DIALOG_INT_FILES) | $(DIALOG_OUT)
-	$(PYTHON) $(SCRIPT)/dialogbin2asm.py $@ $(DIALOG_OUT) $(TEXT_SRC)/text_data.asm $^
+# build/dialog/text_constants.asm and build/dialog/text_symbols.asm from dialog bin files
+$(DIALOG_OUT)/text_constants%asm $(DIALOG_OUT)/text_symbols%asm: $(DIALOG_INT_FILES) | $(DIALOG_OUT)
+	$(PYTHON) $(SCRIPT)/dialogbin2asm.py text_constants.asm text_symbols.asm $(DIALOG_OUT) $(TEXT_SRC)/text_data.asm $^
 
 # build/tilesets/*.2bpp from source png
 $(TILESET_OUT)/%.$(2BPP_TYPE): $(TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE) | $(TILESET_OUT)

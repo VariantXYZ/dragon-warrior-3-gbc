@@ -6,17 +6,19 @@ from struct import *
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils
 
-output_file = sys.argv[1]
-output_bin_dir = sys.argv[2]
-data_file = sys.argv[3]
-input_files = sys.argv[4:]
+output_file_name = sys.argv[1]
+symbol_file_name = sys.argv[2]
+output_bin_dir = sys.argv[3]
+data_file = sys.argv[4]
+input_files = sys.argv[5:]
 
 bin_files = {}
 bank = 0
 base_offset = 0
 
-# How this gets processed will be completely different between tr_EN and master, so it should not be expected that this will be reused
-with open(output_file, 'w') as output:
+output_file = os.path.join(output_bin_dir, output_file_name)
+symbol_file = os.path.join(output_bin_dir, symbol_file_name)
+with open(output_file, 'w') as output, open(symbol_file, 'w') as output_sym:
     for input_file in input_files:
         base_name = os.path.basename(input_file)
         output_path = os.path.join(output_bin_dir, base_name)
@@ -58,9 +60,12 @@ with open(output_file, 'w') as output:
                 txt_idx = group_offsets[i]
                 end_idx = group_offsets[i+1] if i + 1 < len(group_offsets) else len(init_text_offsets)
                 j = 0
-                text_key = key.replace('_', '') + f'_{i:02X}'
+                text_prefix = key.replace('_', '') + f'_{i:02X}'
                 while txt_idx < end_idx:
-                    output.write(f'c{text_key}_{j:02X}     EQU ${unpack("<H", init_text_offsets[txt_idx // 2])[0]:04X}\n')
+                    text_key = f'{text_prefix}_{j:02X}'
+                    # Define it as a section so we get symbols
+                    output_sym.write(f'SECTION "{text_key}", ROMX[${unpack("<H", init_text_offsets[txt_idx // 2])[0]:04X}], BANK[${bank:02X}]\n')
+                    output_sym.write(f'{text_key}::\n')
                     txt_idx += 2
                     j += 1
 

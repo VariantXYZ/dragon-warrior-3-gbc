@@ -1,7 +1,7 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
-INCLUDE "./build/dialog/text_constants.asm"
+INCLUDE "build/dialog/text_constants.asm"
 
 SECTION "Draw item list wrapper, bank 09", ROMX[$654b], BANK[$09]
 WrapperBank09InventoryTextDrawItemList::
@@ -274,11 +274,11 @@ InventoryTextDrawItemDescription::
   add a
   add a
   add l ; Every 'type' is padded to 8
-  add LOW(cText00_0A_00) ; cText00_0A_00 is 'Weapon'
+  add LOW(Text00_0A_00) ; Text00_0A_00 is 'Weapon'
   ld l, a
-  ld h, HIGH(cText00_0A_00)
+  ld h, HIGH(Text00_0A_00)
   jr nc, .get_item_type_no_carry
-  ld h, HIGH(cText00_0A_00) + 1 ; This should just be an 'inc h'
+  ld h, HIGH(Text00_0A_00) + 1 ; This should just be an 'inc h'
 .get_item_type_no_carry
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -351,9 +351,9 @@ InventoryTextDrawItemDescription::
   add l
   add $fe
   ld l, a
-  ld h, HIGH(cText00_0A_00)
+  ld h, HIGH(Text00_0A_00)
   jr nc, .asm_180353
-  ld h, HIGH(cText00_0A_00) + 1
+  ld h, HIGH(Text00_0A_00) + 1
 .asm_180353
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -375,7 +375,7 @@ InventoryTextDrawItemDescription::
 .asm_18036c
   bit 3, d
   jr z, .asm_180378
-  ld hl, cText00_0A_02 ; 0A_02 ('Unable')
+  ld hl, Text00_0A_02 ; 0A_02 ('Unable')
   call InventoryTextDrawItemDescriptionText
   pop hl
   ret
@@ -418,7 +418,7 @@ InventoryTextDrawItemDescription::
   add e
   ld l, a
   ld h, $00
-  ld de, cText00_0A_05
+  ld de, Text00_0A_05
   add hl, de
   call InventoryTextDrawItemDescriptionText
   ret
@@ -464,12 +464,12 @@ InventoryTextDrawItemDescriptionTextIsEquipped::
   ret z
   ld a, d
   rlca
-  ld hl, cText00_0A_04 ; Equipped
+  ld hl, Text00_0A_04 ; Equipped
   jr c, .draw
   bit 3, d
-  ld hl, cText00_0A_03 ; Equip OK
+  ld hl, Text00_0A_03 ; Equip OK
   jr z, .draw
-  ld hl, cText00_0A_02 ; Unable
+  ld hl, Text00_0A_02 ; Unable
 .draw
   inc bc
   inc bc
@@ -490,7 +490,7 @@ InventoryTextDrawItemDescriptionTextItemStatName::
   add c
   ld c, a
   ld b, $00
-  ld hl, cText00_0A_01
+  ld hl, Text00_0A_01
   add hl, bc
   jp ListTextDrawEntry.setup_loop
 
