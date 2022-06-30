@@ -77,7 +77,7 @@ ListTextDrawEntry::
   ; increment de and the drawing area
   inc de
 
-  ; Check that W_VWFListDst is not 7f
+  ; Check that W_VWFListDst is not 7d
   ld a, [W_VWFListDst]
   and $f0
   swap a
@@ -87,7 +87,7 @@ ListTextDrawEntry::
   swap a
   or b
 
-  cp $7f
+  cp $7d
   jr nz, .increment_draw_area
   xor a ; set it to 0 and VWF draw will automatically handle setting it up
   ld [W_VWFListDst+1], a

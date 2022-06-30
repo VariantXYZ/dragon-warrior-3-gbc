@@ -325,20 +325,20 @@ InventoryTextDrawItemDescription::
   ld a, $88
   and d
   cp $88
-  jr nz, .asm_180345
+  jr nz, .draw_stats
   pop hl
   ret
-.asm_180345
+.draw_stats
   ld a, l
   add a
   ld l, a
   add a
   add l
-  add $fe
+  add LOW(Text00_0A_01) ; Stats
   ld l, a
-  ld h, HIGH(Text00_0A_00)
+  ld h, HIGH(Text00_0A_01)
   jr nc, .asm_180353
-  ld h, HIGH(Text00_0A_00) + 1
+  ld h, HIGH(Text00_0A_01) + 1
 .asm_180353
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -347,7 +347,7 @@ InventoryTextDrawItemDescription::
   jr nc, .asm_18036c
   inc bc
   inc bc
-  ld a, $0e
+  ld a, $91 ; Is equipped, previously 0e
   ld [bc], a
   ld hl, $240
   add hl, bc
@@ -418,22 +418,19 @@ InventoryTextDrawItemDescriptionText::
   ld e, c
   call ListTextDrawEntry.setup_loop
   pop de
+  ld a, c
   pop bc
   pop hl
-.loop
-  ld a, [hli]
-  push hl
-  cp $f0
-  jr nz, .copy_character
-  pop hl
-  ret
-.copy_character
+  ; a is the number of characters drawn
   ld hl, $240 ; Offset to attributes in DMA'd memory
   add hl, bc
-  inc bc
+.loop
   ld [hl], $80 ; Write attribute
-  pop hl
-  jr .loop
+  inc hl
+  inc bc
+  dec a  
+  jr nz, .loop
+  ret
 
 InventoryTextSetItemDescriptionTextAttributes::
   ld a, $1a

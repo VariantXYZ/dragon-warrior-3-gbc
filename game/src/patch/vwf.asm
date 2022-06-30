@@ -34,8 +34,8 @@ VWFDrawListItemCharacterInternal::
   call VWFGetListDstIndex
   push af
 
-  ; if we're on tile 7f, set a flag to reset the destination on the next iteration
-  cp $7f
+  ; if we're on tile 7d, set a flag to reset the destination on the next iteration
+  cp $7d
   jr nz, .normal
   ; [Font Type:2][Pixel Index:3]
   ld a, [W_VWFCurrentTileInfo]
