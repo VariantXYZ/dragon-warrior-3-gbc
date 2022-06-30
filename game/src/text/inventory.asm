@@ -340,20 +340,20 @@ InventoryTextDrawItemDescription::
   ld a, $88
   and d
   cp $88
-  jr nz, .asm_180345
+  jr nz, .draw_stats
   pop hl
   ret
-.asm_180345
+.draw_stats
   ld a, l
   add a
   ld l, a
   add a
   add l
-  add $fe
+  add LOW(Text00_0A_01) ; Stats
   ld l, a
-  ld h, HIGH(Text00_0A_00)
+  ld h, HIGH(Text00_0A_01)
   jr nc, .asm_180353
-  ld h, HIGH(Text00_0A_00) + 1
+  ld h, HIGH(Text00_0A_01) + 1
 .asm_180353
   call InventoryTextDrawItemDescriptionText
   inc bc
