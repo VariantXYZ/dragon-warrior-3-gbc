@@ -1,6 +1,8 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
+INCLUDE "build/dialog/text_constants.asm"
+
 SECTION "Draw item list wrapper, bank 09", ROMX[$654b], BANK[$09]
 WrapperBank09InventoryTextDrawItemList::
   ld hl, InventoryTextDrawItemListOld
@@ -26,7 +28,7 @@ InventoryTextDrawItemListOld::
 
 InventoryTextDrawItemDescription::
   ld bc, $101
-  call $4ac1
+  call InventoryTextUnknownFunction1
   ld hl, $13
   add hl, de
   ld a, [hli]
@@ -43,9 +45,9 @@ InventoryTextDrawItemDescription::
   ld a, l
   add $04
   ld l, a
-  jr nc, .asm_1802ca
+  jr nc, .get_item_type
   inc h
-.asm_1802ca
+.get_item_type
   ld a, [hl]
   ldh [$ffc9], a
   ld a, d
@@ -55,21 +57,21 @@ InventoryTextDrawItemDescription::
   add a
   add a
   add a
-  add l
-  add $c8
+  add l ; Every 'type' is padded to 8
+  add LOW(Text00_0A_00) ; Text00_0A_00 is 'Weapon'
   ld l, a
-  ld h, $6b
-  jr nc, .asm_1802e0
-  ld h, $6c
-.asm_1802e0
-  call $43ab
+  ld h, HIGH(Text00_0A_00)
+  jr nc, .get_item_type_no_carry
+  ld h, HIGH(Text00_0A_00) + 1 ; This should just be an 'inc h'
+.get_item_type_no_carry
+  call InventoryTextDrawItemDescriptionText
   inc bc
   ldh a, [$ffc9]
   and $7f
   jr nz, .asm_1802fb
   ld a, d
   ld d, $00
-  ld hl, $5191
+  ld hl, cTextGroup00_04 ; Items
   add hl, de
   add hl, de
   ld d, a
@@ -82,7 +84,7 @@ InventoryTextDrawItemDescription::
   inc bc
   inc bc
   inc bc
-  call $43be
+  call InventoryTextSetItemDescriptionTextAttributes
 .asm_180301
   ldh a, [$ffc9]
   ld l, a
@@ -111,13 +113,13 @@ InventoryTextDrawItemDescription::
   add hl, bc
   ld c, l
   ld b, h
-  ldh a, [$ffca]
+  ldh a, [$ffca] ; Item type (Item, Weapon, etc...)
   cp $05
-  jp z, $4390
+  jp z, .draw_regular_item_message
   ld a, d
   swap a
   and $07
-  jp z, $43d7
+  jp z, InventoryTextDrawItemDescriptionTextIsEquipped
   ld l, a
   ld a, $88
   and d
@@ -133,9 +135,9 @@ InventoryTextDrawItemDescription::
   add l
   add $fe
   ld l, a
-  ld h, $6b
+  ld h, HIGH(Text00_0A_00)
   jr nc, .asm_180353
-  ld h, $6c
+  ld h, HIGH(Text00_0A_00) + 1
 .asm_180353
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -157,7 +159,7 @@ InventoryTextDrawItemDescription::
 .asm_18036c
   bit 3, d
   jr z, .asm_180378
-  ld hl, $6c2e
+  ld hl, Text00_0A_02 ; 0A_02 ('Unable')
   call InventoryTextDrawItemDescriptionText
   pop hl
   ret
@@ -169,7 +171,7 @@ InventoryTextDrawItemDescription::
   ld l, a
   ld e, c
   ld d, b
-  call $4ae0
+  call InventoryTextUnknownFunction2
   ld a, $7b
   ld [de], a
   inc de
@@ -180,12 +182,31 @@ InventoryTextDrawItemDescription::
   ld a, [hli]
   ld h, [hl]
   ld l, a
-  call $4ae0
+  call InventoryTextUnknownFunction2
+  ret
+.draw_regular_item_message
+  pop hl
+  ld a, [hl]
+  cp $06
+  ret nc
+  ld e, a
+  ld d, a
+  add a
+  add e
+  ld e, a
+  ld a, d
+  add a
+  add a
+  add a
+  add a
+  add e
+  ld l, a
+  ld h, $00
+  ld de, Text00_0A_05
+  add hl, de
+  call InventoryTextDrawItemDescriptionText
   ret
 
-  padend $4390
-
-SECTION "Write inventory item descriptions", ROMX[$43ab], BANK[$60]
 InventoryTextDrawItemDescriptionText::
 .loop
   ld a, [hli]
@@ -203,4 +224,113 @@ InventoryTextDrawItemDescriptionText::
   pop hl
   jr .loop
 
-  padend $43be
+InventoryTextSetItemDescriptionTextAttributes::
+  ld a, $1a
+  call .set_attributes
+  ld a, $37
+  call .set_attributes
+  ld a, $3c
+  call .set_attributes
+  ret
+.set_attributes
+  ld [bc], a
+  ld hl, $240
+  add hl, bc
+  inc bc
+  ld [hl], $80
+  ret
+
+InventoryTextDrawItemDescriptionTextIsEquipped::
+  ld a, $88
+  and d
+  cp $88
+  pop hl
+  ret z
+  ld a, d
+  rlca
+  ld hl, Text00_0A_04 ; Equipped
+  jr c, .draw
+  bit 3, d
+  ld hl, Text00_0A_03 ; Equip OK
+  jr z, .draw
+  ld hl, Text00_0A_02 ; Unable
+.draw
+  inc bc
+  inc bc
+  inc bc
+  inc bc
+  inc bc
+  inc bc
+  call InventoryTextDrawItemDescriptionText
+  ret
+
+  padend $43f9
+
+SECTION "Inventory text stats", ROMX[$4ab3], BANK[$60]
+InventoryTextDrawItemDescriptionTextItemStatName::
+  add a
+  ld c, a
+  add a
+  add c
+  ld c, a
+  ld b, $00
+  ld hl, Text00_0A_01
+  add hl, bc
+  jp ListTextDrawEntry.setup_loop
+
+InventoryTextUnknownFunction1:: ; TODO: Annotate this properly
+  ld l, c
+  ld h, $00
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld c, b
+  ld b, $00
+  add hl, bc
+  ld c, l
+  ld b, h
+  ld hl, $3
+  add hl, de
+  ld a, [hli]
+  ld h, [hl]
+  add $0c
+  ld l, a
+  ld a, $d0
+  adc h
+  ld h, a
+  add hl, bc
+  ld c, l
+  ld b, h
+  ret
+
+InventoryTextUnknownFunction2:: ; TODO: Annotate this properly
+  ; probably sets correct offset to draw
+  call $1081
+  ld hl, $ffc8
+  ld a, [hld]
+  ld c, a
+  or a
+  jr z, .asm_180aee
+  add $70
+  ld [de], a
+.asm_180aee
+  inc de
+  ld a, [hl]
+  ld b, a
+  or c
+  ld c, a
+  ld a, [hld]
+  jr z, .asm_180af9
+  add $70
+  ld [de], a
+.asm_180af9
+  inc de
+  ld a, [hl]
+  add $70
+  ld [de], a
+  inc de
+  ret
+
+  padend $4b00

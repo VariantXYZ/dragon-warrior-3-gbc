@@ -63,6 +63,7 @@ ListTextDrawEntry::
   jr z, .return
   ld c, a ; character to draw -> c
   push hl
+.setup_loop::
   ld hl, HackVWFDrawListItemCharacter
   ld b, LOW(BANK(HackVWFDrawListItemCharacter))
   rst $10

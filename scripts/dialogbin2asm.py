@@ -6,17 +6,19 @@ from struct import *
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils
 
-output_file = sys.argv[1]
-output_bin_dir = sys.argv[2]
-data_file = sys.argv[3]
-input_files = sys.argv[4:]
+output_file_name = sys.argv[1]
+symbol_file_name = sys.argv[2]
+output_bin_dir = sys.argv[3]
+data_file = sys.argv[4]
+input_files = sys.argv[5:]
 
 bin_files = {}
 bank = 0
 base_offset = 0
 
-# How this gets processed will be completely different between tr_EN and master, so it should not be expected that this will be reused
-with open(output_file, 'w') as output:
+output_file = os.path.join(output_bin_dir, output_file_name)
+symbol_file = os.path.join(output_bin_dir, symbol_file_name)
+with open(output_file, 'w') as output, open(symbol_file, 'w') as output_sym:
     for input_file in input_files:
         base_name = os.path.basename(input_file)
         output_path = os.path.join(output_bin_dir, base_name)
@@ -44,10 +46,6 @@ with open(output_file, 'w') as output:
         with open(input_file, 'rb') as in_f:
             group_count = utils.read_short(in_f)
             group_offsets = [utils.read_short(in_f) for i in range(0, group_count)]
-            group_pointers = [x + ptr_table_offset for x in group_offsets]
-            for i, g in enumerate(group_pointers):
-                group_key = key.replace('_', 'Group') + f'_{i:02X}'
-                output.write(f'c{group_key}       EQU ${g:04X}\n')
 
             count = utils.read_short(in_f)
             offsets = [(utils.read_short(in_f), utils.read_short(in_f)) for i in range(0, count)]
@@ -58,6 +56,23 @@ with open(output_file, 'w') as output:
                     b = reduce( (lambda x, y: x + bytearray(y)), init_text_offsets)           
                     out_f.write(b)
                 out_f.write(in_f.read()) # The rest of the file is the actual text, so just read it entirely
+
+            group_pointers = [x + ptr_table_offset for x in group_offsets]
+            for i, g in enumerate(group_pointers):
+                group_key = key.replace('_', 'Group') + f'_{i:02X}'
+                output.write(f'c{group_key}   EQU ${g:04X}\n')
+                # Note the pointers to each text entry, as sometimes they are referenced directly
+                txt_idx = group_offsets[i]
+                end_idx = group_offsets[i+1] if i + 1 < len(group_offsets) else len(init_text_offsets)
+                j = 0
+                text_prefix = key.replace('_', '') + f'_{i:02X}'
+                while txt_idx < end_idx:
+                    text_key = f'{text_prefix}_{j:02X}'
+                    # Define it as a section so we get symbols
+                    output_sym.write(f'SECTION "{text_key}", ROMX[${unpack("<H", init_text_offsets[txt_idx // 2])[0]:04X}], BANK[${bank:02X}]\n')
+                    output_sym.write(f'{text_key}::\n')
+                    txt_idx += 2
+                    j += 1
 
     for k in bin_files:
         output.write(f'c{k}        EQUS "\\"{bin_files[k]}\\""\n')
