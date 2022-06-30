@@ -127,6 +127,7 @@ PATCH_TILESET_FILES_1BPP := $(foreach FILE,$(PATCH_TILESETS_1BPP),$(PATCH_TILESE
 text_text_data_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm $(DIALOG_OUT)/text_symbols.asm
 gfx_tilesets_data_ADDITIONAL := $(TILESET_FILES_1BPP) $(TILESET_FILES_2BPP) $(TILESET_FILES_COMPRESSED)
 text_inventory_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
+text_inventory_new_ADDITIONAL := $(DIALOG_OUT)/text_constants.asm
 
 # Patch specific
 patch_vwf_ADDITIONAL := $(PATCH_TILESET_OUT)/Font.1bpp

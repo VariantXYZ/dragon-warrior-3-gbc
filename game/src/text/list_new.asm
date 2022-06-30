@@ -1,7 +1,7 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
-SECTION "Draw single list item", ROMX[$7d00], BANK[$160]
+SECTION "Draw single list item", ROMX[$7c00], BANK[$160]
 ListTextDrawEntry::
 .entry_type0::
   ld b, a
@@ -50,6 +50,7 @@ ListTextDrawEntry::
   ldi a, [hl]
   ld h, [hl]
   ld l, a
+.setup_loop::
   push hl
   ld hl, HackVWFInitializeListItem
   ld b, LOW(BANK(HackVWFInitializeListItem))
@@ -63,7 +64,6 @@ ListTextDrawEntry::
   jr z, .return
   ld c, a ; character to draw -> c
   push hl
-.setup_loop::
   ld hl, HackVWFDrawListItemCharacter
   ld b, LOW(BANK(HackVWFDrawListItemCharacter))
   rst $10
