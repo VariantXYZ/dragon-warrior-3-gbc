@@ -244,7 +244,7 @@ InventoryTextDrawItemList::
 
 InventoryTextDrawItemDescription::
   ld bc, $101
-  call $4ac1
+  call InventoryTextUnknownFunction1
   ld hl, $13
   add hl, de
   ld a, [hli]
@@ -300,7 +300,7 @@ InventoryTextDrawItemDescription::
   inc bc
   inc bc
   inc bc
-  call $43be
+  call InventoryTextSetItemDescriptionTextAttributes
 .asm_180301
   ldh a, [$ffc9]
   ld l, a
@@ -387,7 +387,7 @@ InventoryTextDrawItemDescription::
   ld l, a
   ld e, c
   ld d, b
-  call $4ae0
+  call InventoryTextUnknownFunction2
   ld a, $7b
   ld [de], a
   inc de
@@ -398,7 +398,7 @@ InventoryTextDrawItemDescription::
   ld a, [hli]
   ld h, [hl]
   ld l, a
-  call $4ae0
+  call InventoryTextUnknownFunction2
   ret
 .draw_regular_item_message
   pop hl
@@ -494,4 +494,59 @@ InventoryTextDrawItemDescriptionTextItemStatName::
   add hl, bc
   jp ListTextDrawEntry.setup_loop
 
-  padend $4ac1
+InventoryTextUnknownFunction1:: ; TODO: Annotate this properly
+  ld l, c
+  ld h, $00
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld c, b
+  ld b, $00
+  add hl, bc
+  ld c, l
+  ld b, h
+  ld hl, $3
+  add hl, de
+  ld a, [hli]
+  ld h, [hl]
+  add $0c
+  ld l, a
+  ld a, $d0
+  adc h
+  ld h, a
+  add hl, bc
+  ld c, l
+  ld b, h
+  ret
+
+InventoryTextUnknownFunction2:: ; TODO: Annotate this properly
+  ; probably sets correct offset to draw
+  call $1081
+  ld hl, $ffc8
+  ld a, [hld]
+  ld c, a
+  or a
+  jr z, .asm_180aee
+  add $70
+  ld [de], a
+.asm_180aee
+  inc de
+  ld a, [hl]
+  ld b, a
+  or c
+  ld c, a
+  ld a, [hld]
+  jr z, .asm_180af9
+  add $70
+  ld [de], a
+.asm_180af9
+  inc de
+  ld a, [hl]
+  add $70
+  ld [de], a
+  inc de
+  ret
+
+  padend $4b00
