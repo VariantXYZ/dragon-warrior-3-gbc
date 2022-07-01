@@ -45,6 +45,8 @@ InventoryTextDrawItemDescriptionTextItemStatNameOld::
   rst $38
   ret
 
+  padend $4ac1
+
 InventoryTextUnknownFunction1Old:: ; TODO: Annotate this properly
   ld l, c
   ld h, $00
@@ -71,6 +73,8 @@ InventoryTextUnknownFunction1Old:: ; TODO: Annotate this properly
   ld c, l
   ld b, h
   ret
+
+  padend $4ae0
 
 InventoryTextUnknownFunction2Old:: ; TODO: Annotate this properly
   ; probably sets correct offset to draw
