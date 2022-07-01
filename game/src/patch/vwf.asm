@@ -134,8 +134,31 @@ VWFNormalFontTable:
   db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; Fx
   ;  x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 xA xB xC xD xE xF
 
+VWFNarrowFontTable:
+  ;  x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 xA xB xC xD xE xF
+  db 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ; 0x (0-9, A-F)
+  db 4, 4, 3, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4, 5, 4, 5 ; 1x (G-V)
+  db 5, 5, 5, 4, 3, 3, 3, 3, 3, 2, 3, 3, 1, 2, 3, 1 ; 2x (W-Z, a-l)
+  db 5, 3, 3, 3, 3, 3, 3, 3, 3, 4, 5, 4, 3, 3, 5, 7 ; 3x (m-z, 's, 'm)
+  db 5, 5, 6, 3, 5, 3, 5, 5, 7, 7, 7, 8, 8, 8, 8, 8 ; 4x ('r, 't, 'v, 'l, 'd, Ⅰ, Ⅱ, &, →, *:, 𝟢, various symbols)
+  db 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 ; 5x (more symbols)
+  db 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; 6x (more symbols)
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; 7x
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; 8x
+  db 7, 7, 7, 1, 7, 3, 3, 5, 1, 5, 3, 7, 4, 4, 1, 1 ; 9x (Roman Numeral 3, weird character, big asterisk, other symbols)
+  db 7, 7, 8, 7, 4, 5, 5, 1, 2, 1, 2, 5, 7, 7, 7, 7 ; Ax (More symbols and punctuation)
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; Bx
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; Cx
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7 ; Dx (DB is space)
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; Ex
+  db 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ; Fx
+  ;  x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 xA xB xC xD xE xF
+
 VWFFont:
   INCBIN "build/gfx/tilesets/patch/Font.1bpp"
+
+VWFNarrowFont:
+  INCBIN "build/gfx/tilesets/patch/FontNarrow.1bpp"
 
 VWFDrawCharacterInternal::
   ; de is the pointer to the drawing area (for dialog, [de] = W_TextTilesetDst, it's a double de-reference)
