@@ -44,6 +44,11 @@ HackPredef::
 HackVWFInitializeListItem::
   xor a
   ld [W_VWFListTileCount], a
+  ld hl, VWFInitializeNarrowFontInternal
+  ld b, LOW(BANK(VWFInitializeNarrowFontInternal))
+  rst $10
+  ret
+
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
   ld b, LOW(BANK(VWFInitializeInternal))

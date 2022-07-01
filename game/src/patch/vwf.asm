@@ -8,6 +8,12 @@ VWFInitializeInternal::
   ld [W_VWFCurrentTileInfo], a
   ret
 
+VWFInitializeNarrowFontInternal::
+  ; [Set Index to 0:1][Font Type:2][Pixel Index:3]
+  ld a, ($01) << 3
+  ld [W_VWFCurrentTileInfo], a
+  ret
+
 VWFNewLineResetInternal::
   ld a, [W_VWFCurrentTileInfo]
   and (~($f7)) & $ff ; Just set the character offset to 0
@@ -195,10 +201,11 @@ VWFDrawCharacterInternal::
   sla a
   rl b
   ld c, a
-  ld hl, VWFFont
+  ld hl, VWFFont ; Each font is 255 tiles (so just add 8 x font type to h)
   ld a, e ; Current font
-  add a
-  add a
+  rlca
+  rlca
+  rlca
   add h
   ld h, a
   add hl, bc
