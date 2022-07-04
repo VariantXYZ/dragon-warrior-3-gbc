@@ -129,7 +129,7 @@ MetamapPointers::
   MetamapTableEntry 76
   MetamapTableEntry 77
   MetamapTableEntry 78
-  MetamapTableEntry 79
+  MetamapTableEntry StartScreenLoadGame
   MetamapTableEntry 7A
   MetamapTableEntry 7B
   MetamapTableEntry 7C

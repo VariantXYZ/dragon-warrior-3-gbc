@@ -1,5 +1,5 @@
-SECTION "Metamap 79", ROMX[$6D4E], BANK[$76]
-Metamap79::
+SECTION "Metamap StartScreenLoadGame", ROMX[$6D4E], BANK[$76]
+MetamapStartScreenLoadGame::
   dw Map79
   dw $9C2D
   dw $9CED
