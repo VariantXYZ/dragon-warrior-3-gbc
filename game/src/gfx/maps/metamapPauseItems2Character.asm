@@ -1,5 +1,5 @@
-SECTION "Metamap 0F", ROMX[$673A], BANK[$74]
-Metamap0F::
+SECTION "Metamap PauseItems2Character", ROMX[$673A], BANK[$74]
+MetamapPauseItems2Character::
   dw Map0F
   dw $9C6D
   dw $9CED

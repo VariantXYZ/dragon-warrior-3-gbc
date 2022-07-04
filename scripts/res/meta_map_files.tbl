@@ -12,10 +12,10 @@
 0B=0B
 0C=0C
 0D=0D
-0E=0E
-0F=0F
-10=10
-11=11
+0E=PauseItems1Character
+0F=PauseItems2Character
+10=PauseItems3Character
+11=PauseItems4Character
 12=12
 13=13
 14=14
@@ -24,7 +24,7 @@
 17=17
 18=18
 19=19
-1A=1A
+1A=PauseItemsList
 1B=1B
 1C=1C
 1D=OptionYesNo

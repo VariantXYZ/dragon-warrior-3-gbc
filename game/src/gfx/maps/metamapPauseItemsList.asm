@@ -1,5 +1,5 @@
-SECTION "Metamap 1A", ROMX[$61DE], BANK[$74]
-Metamap1A::
+SECTION "Metamap PauseItemsList", ROMX[$61DE], BANK[$74]
+MetamapPauseItemsList::
   dw Map1A
   dw $9C2D
   dw $9D6D
