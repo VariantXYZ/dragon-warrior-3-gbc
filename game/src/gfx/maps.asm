@@ -130,16 +130,16 @@ SECTION "Map functions 2", ROMX[$5543], BANK[$09]
 DrawMapHelper::
   push de
   ld a, [$cde7]
-  ld hl, $7609 ; G* tileset
+  ld hl, TilesetGoldAndAsterisk ; G* tileset
   ld de, $8a90
   ld bc, $20
   cp $0b
   jr z, .asm_25577
   cp $4b
   jr z, .asm_25577
-  ld hl, $7619
+  ld hl, TilesetGoldAndAsterisk + $10 ; just the *
   ld de, $8aa0
-  ld bc, rst10
+  ld bc, $0010
   cp $64
   jr z, .asm_25577
   cp $8f

@@ -19,13 +19,13 @@ MetamapPointers::
   MetamapTableEntry 08
   MetamapTableEntry 09
   MetamapTableEntry 0A
-  MetamapTableEntry 0B
+  MetamapTableEntry GoldCounter
   MetamapTableEntry 0C
   MetamapTableEntry 0D
-  MetamapTableEntry 0E
-  MetamapTableEntry 0F
-  MetamapTableEntry 10
-  MetamapTableEntry 11
+  MetamapTableEntry PauseItems1Character
+  MetamapTableEntry PauseItems2Character
+  MetamapTableEntry PauseItems3Character
+  MetamapTableEntry PauseItems4Character
   MetamapTableEntry 12
   MetamapTableEntry 13
   MetamapTableEntry 14
@@ -34,7 +34,7 @@ MetamapPointers::
   MetamapTableEntry 17
   MetamapTableEntry 18
   MetamapTableEntry 19
-  MetamapTableEntry 1A
+  MetamapTableEntry PauseItemsList
   MetamapTableEntry 1B
   MetamapTableEntry 1C
   MetamapTableEntry OptionYesNo
@@ -129,7 +129,7 @@ MetamapPointers::
   MetamapTableEntry 76
   MetamapTableEntry 77
   MetamapTableEntry 78
-  MetamapTableEntry 79
+  MetamapTableEntry StartScreenLoadGame
   MetamapTableEntry 7A
   MetamapTableEntry 7B
   MetamapTableEntry 7C

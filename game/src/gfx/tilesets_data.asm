@@ -30,3 +30,8 @@ TilesetDoubleHeightKanji::
   INCBIN "./build/gfx/tilesets/DoubleHeightKanji.2bpp"
 SECTION "Tileset DoubleHeightKanji End", ROMX[$7FFF], BANK[$02]
 
+SECTION "Tileset GoldAndAsterisk", ROMX[$7609], BANK[$09]
+TilesetGoldAndAsterisk::
+  INCBIN "./build/gfx/tilesets/GoldAndAsterisk.2bpp"
+SECTION "Tileset GoldAndAsterisk End", ROMX[$7628], BANK[$09]
+
