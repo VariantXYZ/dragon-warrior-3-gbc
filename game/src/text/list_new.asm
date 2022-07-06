@@ -51,6 +51,8 @@ ListTextDrawEntry::
   ld h, [hl]
   ld l, a
 .setup_loop::
+  xor a
+  ld c, a
   push hl
   ld hl, HackVWFInitializeListItem
   ld b, LOW(BANK(HackVWFInitializeListItem))
