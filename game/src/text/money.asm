@@ -30,7 +30,7 @@ DrawGoldBox::
   dec hl
   call WriteCurrentGold
   ; This part seems redundant, it draws the 'G' even though the tilemap already implies it
-  ld de, $fffa
+  ld de, -6 ; Subtract 6 to draw 'G'
   add hl, de
   ld [hl], $a9 ; Tile 'G' is mapped to
   ret
