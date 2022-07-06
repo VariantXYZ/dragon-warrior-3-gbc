@@ -1,5 +1,5 @@
-SECTION "Metamap 0B", ROMX[$5FAA], BANK[$74]
-Metamap0B::
+SECTION "Metamap GoldCounter", ROMX[$5FAA], BANK[$74]
+MetamapGoldCounter::
   dw Map0B
   dw $9C2E
   dw $9C30

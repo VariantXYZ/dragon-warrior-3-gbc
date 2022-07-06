@@ -26,6 +26,7 @@ tileset_information = (
     ["DoubleHeightCharacters", (0x1, 0x6000), "2bpp", 22 * 16, False],
     ["NormalKanji", (0x2, 0x5000), "2bpp", 16 * 16, False],
     ["DoubleHeightKanji", (0x2, 0x6000), "2bpp", 32 * 16, False],
+    ["GoldAndAsterisk", (0x9, 0x7609), "2bpp", 2, False],
 )
 
 gfx_src_filename = os.path.join(gfx_src_path, "tilesets_data.asm")

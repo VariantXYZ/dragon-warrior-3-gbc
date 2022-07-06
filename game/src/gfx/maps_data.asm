@@ -19,7 +19,7 @@ MetamapPointers::
   MetamapTableEntry 08
   MetamapTableEntry 09
   MetamapTableEntry 0A
-  MetamapTableEntry 0B
+  MetamapTableEntry GoldCounter
   MetamapTableEntry 0C
   MetamapTableEntry 0D
   MetamapTableEntry PauseItems1Character
