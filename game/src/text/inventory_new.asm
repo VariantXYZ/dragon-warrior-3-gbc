@@ -3,7 +3,7 @@ INCLUDE "game/src/common/macros.asm"
 
 INCLUDE "build/dialog/text_constants.asm"
 
-SECTION "Write inventory item list", ROMX[$7c88], BANK[$160]
+SECTION "Write inventory item list", ROMX[$7c8a], BANK[$160]
 InventoryTextDrawItemList::
   ld hl, $f
   add hl, de

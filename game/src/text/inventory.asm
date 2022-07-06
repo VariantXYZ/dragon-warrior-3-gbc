@@ -22,7 +22,8 @@ SECTION "Write inventory item list (old)", ROMX[$418b], BANK[$60]
 InventoryTextDrawItemListOld::
   ld hl, InventoryTextDrawItemList
   ld b, LOW(BANK(InventoryTextDrawItemList))
-  ld a, HackIDX_CallFunctionFromHighBank
+  ld c, a
+  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
   rst $38
   ret
 
@@ -31,7 +32,8 @@ InventoryTextDrawItemListOld::
 InventoryTextDrawItemDescriptionOld::
   ld hl, InventoryTextDrawItemDescription
   ld b, LOW(BANK(InventoryTextDrawItemDescription))
-  ld a, HackIDX_CallFunctionFromHighBank
+  ld c, a
+  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
   rst $38
   ret
 
@@ -41,7 +43,8 @@ SECTION "Inventory text stats", ROMX[$4ab3], BANK[$60]
 InventoryTextDrawItemDescriptionTextItemStatNameOld::
   ld hl, InventoryTextDrawItemDescriptionTextItemStatName
   ld b, LOW(BANK(InventoryTextDrawItemDescriptionTextItemStatName))
-  ld a, HackIDX_CallFunctionFromHighBank
+  ld c, a
+  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
   rst $38
   ret
 
