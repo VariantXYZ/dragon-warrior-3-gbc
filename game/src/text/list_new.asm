@@ -51,13 +51,12 @@ ListTextDrawEntry::
   ld h, [hl]
   ld l, a
 .setup_loop::
-  xor a
-  ld c, a
   push hl
   ld hl, HackVWFInitializeListItem
   ld b, LOW(BANK(HackVWFInitializeListItem))
   rst $10
   pop hl
+  ld c, $00 ; set c to 0 in case we return immediately (empty string)
 .loop
   ; hl is source address of text
   ; de is BG map address to write tiles to

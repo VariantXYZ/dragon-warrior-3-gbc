@@ -2,7 +2,7 @@ INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
 ; These determines the width of each character (excluding the 1px between characters).
-SECTION "VWF Bank", ROMX[$4001], BANK[$101]
+SECTION "VWF Bank", ROMX[$4001], BANK[$102]
 VWFInitializeInternal::
   xor a
   ld [W_VWFCurrentTileInfo], a
@@ -115,7 +115,7 @@ VWFDrawListItemCharacterInternal::
 .return
   ret
 
-SECTION "VWF Data", ROMX[$4100], BANK[$101]
+SECTION "VWF Data", ROMX[$4100], BANK[$102]
 VWFFontTables:
 ; The address of each table must be a multiple of $100 (256 bytes).
 ; The widths do not account for the automatic space placed afterwards

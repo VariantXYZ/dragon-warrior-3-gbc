@@ -15,7 +15,7 @@ PatchTilesetTableEntry: MACRO
   EXPORT PatchTilesetIDX_\1
   ENDM
 
-SECTION "Patch Tilesets", ROMX[$4001], BANK[$102]
+SECTION "Patch Tilesets", ROMX[$4001], BANK[$103]
 PatchTilesetsLoad::
   ; a is table entry index
   ; de is VRAM address to write to

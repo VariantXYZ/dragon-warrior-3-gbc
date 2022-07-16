@@ -11,4 +11,4 @@ W_VWFTileDst:: ds 2
 W_VWFListDst:: ds 2
 W_VWFListTileCount:: ds 1
 
-SECTION "Hack Variables 1 End", WRAM0[$CFA0]
+SECTION "Hack Variables 1 End", WRAM0[$CF80]

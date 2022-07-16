@@ -1,7 +1,7 @@
 INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
-SECTION "User Functions (Hack)", ROMX[$4001], BANK[$100]
+SECTION "User Functions (Hack)", ROMX[$4001], BANK[$101]
 HackPredef::
   push af
   ld a, h
