@@ -255,15 +255,16 @@ InventoryTextDrawItemDescription::
   and $07
   ldh [$ffca], a
   ld l, a
-  add a
-  add a
-  add a
-  add l ; Every 'type' is padded to 8
-  add LOW(Text00_0A_00) ; Text00_0A_00 is 'Weapon'
-  ld l, a
-  ld h, HIGH(Text00_0A_00)
-  jr nc, .get_item_type_no_carry
-  ld h, HIGH(Text00_0A_00) + 1 ; This should just be an 'inc h'
+  ; l is offset
+  ld h, $00
+  add hl, hl ; 2
+  add hl, hl ; 4
+  add hl, hl ; 8
+  add hl, hl ; 16
+  push bc
+  ld bc, Text00_0A_00 ; Weapon
+  add hl, bc
+  pop bc
 .get_item_type_no_carry
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -329,23 +330,24 @@ InventoryTextDrawItemDescription::
   pop hl
   ret
 .draw_stats
-  ld a, l
-  add a
-  ld l, a
-  add a
-  add l
-  add LOW(Text00_0A_01) ; Stats
-  ld l, a
-  ld h, HIGH(Text00_0A_01)
-  jr nc, .asm_180353
-  ld h, HIGH(Text00_0A_01) + 1
+  ; l is offset
+  ld h, $00
+  add hl, hl ; 2
+  add hl, hl ; 4
+  add hl, hl ; 8
+  add hl, hl ; 16
+  push bc
+  ld bc, Text00_0A_01 ; stats
+  add hl, bc
+  pop bc
 .asm_180353
   call InventoryTextDrawItemDescriptionText
-  inc bc
+  ;inc bc
   ld a, d
   rlca
   jr nc, .asm_18036c
-  inc bc
+  ; Since we draw more text for the stat, don't bother adding extra space
+  ;inc bc
   inc bc
   ld a, $91 ; Is equipped, previously 0e
   ld [bc], a
@@ -360,6 +362,7 @@ InventoryTextDrawItemDescription::
 .asm_18036c
   bit 3, d
   jr z, .asm_180378
+  inc bc
   ld hl, Text00_0A_02 ; 0A_02 ('Unable')
   call InventoryTextDrawItemDescriptionText
   pop hl
@@ -473,13 +476,14 @@ InventoryTextDrawItemDescriptionTextIsEquipped::
   ret
 
 InventoryTextDrawItemDescriptionTextItemStatName::
-  add a
-  ld c, a
-  add a
-  add c
-  ld c, a
-  ld b, $00
-  ld hl, Text00_0A_01
+  ld l, a
+  ; l is offset
+  ld h, $00
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld bc, Text00_0A_01 ; stats
   add hl, bc
   jp ListTextDrawEntry.setup_loop
 
