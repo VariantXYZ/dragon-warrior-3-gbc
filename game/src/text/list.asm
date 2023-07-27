@@ -22,8 +22,7 @@ ListTextDrawEntryOld::
 .draw_item
   ld c, a
   ld b, LOW(BANK(ListTextDrawEntry))
-  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
-  rst $38
+  CallHack CallFunctionFromHighBankSetAtoC
   ret
 
   padend $4aa3

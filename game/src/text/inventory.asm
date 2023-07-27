@@ -23,8 +23,7 @@ InventoryTextDrawItemListOld::
   ld hl, InventoryTextDrawItemList
   ld b, LOW(BANK(InventoryTextDrawItemList))
   ld c, a
-  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
-  rst $38
+  CallHack CallFunctionFromHighBankSetAtoC
   ret
 
   padend $42ae
@@ -33,8 +32,7 @@ InventoryTextDrawItemDescriptionOld::
   ld hl, InventoryTextDrawItemDescription
   ld b, LOW(BANK(InventoryTextDrawItemDescription))
   ld c, a
-  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
-  rst $38
+  CallHack CallFunctionFromHighBankSetAtoC
   ret
 
   padend $43f9
@@ -44,8 +42,7 @@ InventoryTextDrawItemDescriptionTextItemStatNameOld::
   ld hl, InventoryTextDrawItemDescriptionTextItemStatName
   ld b, LOW(BANK(InventoryTextDrawItemDescriptionTextItemStatName))
   ld c, a
-  ld a, HackIDX_CallFunctionFromHighBankSetAtoC
-  rst $38
+  CallHack CallFunctionFromHighBankSetAtoC
   ret
 
   padend $4ac1

@@ -6,8 +6,7 @@ TextGetNextCharacter::
   ld a, [W_TextBank]
   ld b, a
   ld hl, TextGetNextCharacterSub
-  ld a, HackIDX_CallFunctionFromHighBank
-  rst $38 ; c preserves 'a' in rst10
+  CallHack CallFunctionFromHighBank ; c preserves 'a' in rst10
   ld b, c
   ld a, c
   ret
@@ -73,8 +72,7 @@ SetupWriteText2::
   ld a, [hl]
   ld [bc], a
   inc bc
-  ld a, HackIDX_LoadTextFromHighBank
-  rst $38
+  CallHack LoadTextFromHighBank
   ret
 
   padend $4083
@@ -114,8 +112,7 @@ SECTION "Dialog Tileset Helper", ROMX[$416b], BANK[$02]
 ; It gets called and sets the tile index to start drawing the next line
 DialogSetupScrollingTiles::
   ; New line, so reset relevant VWF vars
-  ld a, HackIDX_VWFNewLineReset
-  rst $38
+  CallHack VWFNewLineReset
   ld hl, W_TextConfiguration
   bit 0, [hl]
   jr z, .asm_817d

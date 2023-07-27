@@ -22,8 +22,7 @@ DrawMap::
   pop hl
   pop bc
   ld c, b
-  ld a, HackIDX_LoadPatchTilesetForMetamap
-  rst $38 ; Load a tileset if one is configured, returns bc as 3 * c
+  CallHack LoadPatchTilesetForMetamap ; Load a tileset if one is configured, returns bc as 3 * c
   ld hl, MetamapPointers
   add hl, bc
   ldi a, [hl]

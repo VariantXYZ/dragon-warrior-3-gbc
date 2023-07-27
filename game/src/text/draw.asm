@@ -139,8 +139,7 @@ DrawTextBoxAndSetupTilesetLoad::
   ld [hli], a
   ld [hl], $d0
   ; Initialize VWF vars for drawing
-  ld a, HackIDX_VWFInitializeDialog
-  rst $38
+  CallHack VWFInitializeDialog
   ret
 .blank_row
   ; Create an empty row
