@@ -75,7 +75,8 @@ MODULES := \
 core\
 text\
 gfx\
-gfx/maps
+gfx/maps\
+battle
 
 # Helper
 TOUPPER = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
