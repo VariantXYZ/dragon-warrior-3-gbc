@@ -180,9 +180,9 @@ TextSetupHelper::
   db $07, $01, $11, $00
   ; Working area and second row's tile index
   db $D2, $40
-  db $90, $E0
+  db $92, $00 ; The second row is referenced from other screens (like combat), so we can't trivially change this
   db $07, $01, $11, $00
   ; Scrolling
   db $D0, $00
-  db $90, $E0
+  db $92, $00
   db $07, $01, $11, $00
