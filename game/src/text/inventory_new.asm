@@ -25,7 +25,7 @@ InventoryTextDrawItemList::
   ldh [$ffca], a
   ld hl, $5
   add hl, de
-  ldi a, [hl]
+  ld a, [hli]
   ld h, [hl]
   ld l, a ; hl = the VRAM address to draw to
   ld bc, $3400 ; Point to DRAM for future DMA
@@ -47,13 +47,13 @@ InventoryTextDrawItemList::
   ldh a, [$ffca]
   ld c, a
 .asm_1801ca
-  ldi a, [hl]
+  ld a, [hli]
   or a
   jr z, .asm_180210
   push hl
   ldh [$ffca], a
   ld hl, $ffc7
-  ldi a, [hl]
+  ld a, [hli]
   cp [hl]
   jr nz, .asm_18020b
   push de
@@ -106,13 +106,13 @@ InventoryTextDrawItemList::
   inc de
   ld b, $0c
 .asm_180217
-  ldi a, [hl]
+  ld a, [hli]
   or a
   jr z, .asm_180262
   push hl
   ldh [$ffca], a
   ld hl, $ffc7
-  ldi a, [hl]
+  ld a, [hli]
   cp [hl]
   jr nz, .asm_180253
   push de
@@ -185,7 +185,7 @@ InventoryTextDrawItemList::
   ld a, $06
 .asm_180278
   ldh [$ffc6], a
-  ldi a, [hl]
+  ld a, [hli]
   or a
   jr z, .return
   push hl
@@ -255,16 +255,15 @@ InventoryTextDrawItemDescription::
   and $07
   ldh [$ffca], a
   ld l, a
-  ; l is offset
-  ld h, $00
-  add hl, hl ; 2
-  add hl, hl ; 4
-  add hl, hl ; 8
-  add hl, hl ; 16
-  push bc
-  ld bc, Text00_0A_00 ; Weapon
-  add hl, bc
-  pop bc
+  add a
+  add a
+  add a
+  add l ; Every 'type' is padded to 8
+  add LOW(Text00_0A_00) ; Text00_0A_00 is 'Weapon'
+  ld l, a
+  ld h, HIGH(Text00_0A_00)
+  jr nc, .get_item_type_no_carry
+  ld h, HIGH(Text00_0A_00) + 1 ; This should just be an 'inc h'
 .get_item_type_no_carry
   call InventoryTextDrawItemDescriptionText
   inc bc
@@ -330,26 +329,25 @@ InventoryTextDrawItemDescription::
   pop hl
   ret
 .draw_stats
-  ; l is offset
-  ld h, $00
-  add hl, hl ; 2
-  add hl, hl ; 4
-  add hl, hl ; 8
-  add hl, hl ; 16
-  push bc
-  ld bc, Text00_0A_01 ; stats
-  add hl, bc
-  pop bc
+  ld a, l
+  add a
+  ld l, a
+  add a
+  add l
+  add LOW(Text00_0A_01) ; Stats
+  ld l, a
+  ld h, HIGH(Text00_0A_01)
+  jr nc, .asm_180353
+  ld h, HIGH(Text00_0A_01) + 1
 .asm_180353
   call InventoryTextDrawItemDescriptionText
-  ;inc bc
+  inc bc
   ld a, d
   rlca
   jr nc, .asm_18036c
-  ; Since we draw more text for the stat, don't bother adding extra space
-  ;inc bc
   inc bc
-  ld a, $91 ; Is equipped, previously 0e
+  inc bc
+  ld a, $0e
   ld [bc], a
   ld hl, $240
   add hl, bc
@@ -362,7 +360,6 @@ InventoryTextDrawItemDescription::
 .asm_18036c
   bit 3, d
   jr z, .asm_180378
-  inc bc
   ld hl, Text00_0A_02 ; 0A_02 ('Unable')
   call InventoryTextDrawItemDescriptionText
   pop hl
@@ -412,28 +409,21 @@ InventoryTextDrawItemDescription::
   ret
 
 InventoryTextDrawItemDescriptionText::
-  ; bc is VRAM map for tiles
-  ; hl is address to string
+.loop
+  ld a, [hli]
   push hl
-  push bc
-  push de
-  ld d, b
-  ld e, c
-  call ListTextDrawEntry.setup_loop
-  pop de
-  ld a, c
-  pop bc
+  cp $f0
+  jr nz, .copy_character
   pop hl
-  ; a is the number of characters drawn
+  ret
+.copy_character
+  ld [bc], a
   ld hl, $240 ; Offset to attributes in DMA'd memory
   add hl, bc
-.loop
-  ld [hl], $80 ; Write attribute
-  inc hl
   inc bc
-  dec a  
-  jr nz, .loop
-  ret
+  ld [hl], $80 ; Write attribute
+  pop hl
+  jr .loop
 
 InventoryTextSetItemDescriptionTextAttributes::
   ld a, $1a
@@ -476,14 +466,13 @@ InventoryTextDrawItemDescriptionTextIsEquipped::
   ret
 
 InventoryTextDrawItemDescriptionTextItemStatName::
-  ld l, a
-  ; l is offset
-  ld h, $00
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  ld bc, Text00_0A_01 ; stats
+  add a
+  ld c, a
+  add a
+  add c
+  ld c, a
+  ld b, $00
+  ld hl, Text00_0A_01
   add hl, bc
   jp ListTextDrawEntry.setup_loop
 
