@@ -28,6 +28,10 @@ TextGetNextCharacterSub::
 
 SECTION "Prepare data to load text", ROMX[$403d], BANK[$02]
 SetupWriteText::
+  ; TODO: May possibly need to call Initialize instead
+  ; Initialize is specifically called on a new box creation
+  ; We explicitly reset here just in case the box is reused (i.e. in battle)
+  CallHack VWFNewLineReset
   ld hl, W_TextBankIndex
   ldi a, [hl]
   ld e, a
@@ -35,7 +39,7 @@ SetupWriteText::
   ld d, a
   ldi a, [hl]
   ld b, a
-  jp SetupWriteText2.load_text
+  jr SetupWriteText2.load_text
 SetupWriteText2::
   ld hl, W_TextBankIndex
   ld b, a
@@ -185,4 +189,4 @@ TextSetupHelper::
   ; Scrolling
   db $D0, $00
   db $92, $00
-  db $07, $01, $11, $00
+  db $07, $01, $23, $00 ; We copy 23 here to capture both rows for battle

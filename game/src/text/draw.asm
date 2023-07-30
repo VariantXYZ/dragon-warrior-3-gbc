@@ -21,8 +21,10 @@ DrawCharacter::
   ; TODO: Need to verify that bit 3 actually corresponds to 'dialog'
   ; jr nz, .asm_4022
   ld a, HackIDX_VWFDrawCharacter
-  jp nz, rst38 ; HackPredef
+  jr nz, .noset_2
   set 2, [hl]
+.noset_2
+  jp rst38 ; HackPredef
 .asm_4022
   ld hl, W_TextTilesetDst
   ldi a, [hl]
