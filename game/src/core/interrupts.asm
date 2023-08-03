@@ -115,7 +115,7 @@ IntStatDialogBoxScrollPart1::
   ld [$ffbd], a
   ld a, HIGH(IntStatDialogBoxScrollPart2)
   ld [$ffbe], a ; Next interrupt at scanline 6, calling $FFBE
-  jp IntStatReturn
+  jr IntStatReturn
 
 ; Setup drawing the middle of the text box
 IntStatDialogBoxScrollPart2:: ; 428 (0:428)
@@ -139,12 +139,13 @@ IntStatDialogBoxScrollPart2:: ; 428 (0:428)
   ld [$ffbe], a
   ld a, [W_TextConfiguration]
   and $08
-  add $10 ; Originally $18, this controls the scanline when we draw the bottom of the box
+  add $11 ; Originally $18, this controls the scanline when we draw the bottom of the box
+          ; $11 is the lowest it can go without causing glitches
   ld h, a
   ld a, [$ff45]
   add h
   ld [$ff45], a
-  jp IntStatReturn
+  jr IntStatReturn
 
 ; Draw the bottom part of the text box
 IntStatDialogBoxScrollPart3::
@@ -166,7 +167,7 @@ IntStatDialogBoxScrollPart3::
   ld [$ffbd], a
   ld a, HIGH(IntStatDialogBoxScrollPart4)
   ld [$ffbe], a
-  jp IntStatReturn
+  jr IntStatReturn
 
 ; Loop
 IntStatDialogBoxScrollPart4::
