@@ -1,8 +1,7 @@
 #!/bin/python
-import os
-import sys
-import csv
 
+import csv
+import glob
 
 PIXELS_PER_LINE = 18 * 8 # Max 18 characters x 8 pixel width
 PIXELS_PER_RAMSTRING = 5 * 8 # Assume 5 characters for strings in RAM
@@ -11,7 +10,7 @@ CONTROL_CODE_WAIT = '<F7>'
 
 def write_file(text_file):
     lines = []
-    with open(text_file, 'r') as text:
+    with open(text_file, 'r', encoding="utf-8") as text:
         reader = csv.reader(text, delimiter=',', quotechar='"')
         header = next(reader, None)
         idx_index = header.index("Index")
@@ -51,6 +50,8 @@ def write_file(text_file):
                         new_txt += " " + word
                         new_len += l_space + l
                     if len(new_txt) > 4 and new_txt[-4] == '*':
+                        if new_len < 8: # There needs to be some time between the last and current tile
+                            new_txt += " "
                         new_txt += CONTROL_CODE_NEWLINE
                         new_len = 0
 
@@ -58,8 +59,8 @@ def write_file(text_file):
                 
             lines.append([index, CONTROL_CODE_WAIT.join(new_blocks)])
 
-    with open(text_file, 'w') as text:
-        writer = csv.writer(text, delimiter=',', quotechar='"') 
+    with open(text_file, 'w', encoding="utf-8") as text:
+        writer = csv.writer(text, delimiter=',', quotechar='"', lineterminator='\n') 
         writer.writerow(['Index', 'Text'])
         for line in lines:
             writer.writerow(line)
@@ -163,6 +164,7 @@ def get_symbol_len(s):
         "→": 7,
         "[*:]": 7,
         "𝟢": 7,
+        "[Spear]": 8,
         "[Sword]": 8,
         "[Staff]": 8,
         "[Clothes]": 8,
@@ -219,8 +221,8 @@ def get_symbol_len(s):
     })[s]
 
 if __name__ == '__main__':
-    # Arguments
-    script_name = sys.argv[0]
-    text_file = sys.argv[1]
-
-    write_file(text_file)
+    # Utility script, just hardcode the text we actually want to format
+    for text_file in glob.glob("./text/dialog/*.csv"):
+        if text_file == './text/dialog/Text_00.csv':
+            continue
+        write_file(text_file)

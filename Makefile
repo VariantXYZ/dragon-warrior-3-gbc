@@ -203,6 +203,11 @@ endif
 csv_from_xlsx: check_sheet
 	$(PYTHON) $(SCRIPT)/xlsx2csv.py $(TEXT_SHEET) $(DIALOG_TEXT) $(DIALOG)
 
+# Reformat
+.PHONY: reformat
+reformat:
+	$(PYTHON) $(SCRIPT)/reformat_text.py
+
 ### Dump Scripts
 
 .PHONY: dump dump_text dump_maps dump_tilesets
