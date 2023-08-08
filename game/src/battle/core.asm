@@ -101,8 +101,8 @@ BattleInit::
   ld hl, $41FE
   ld b, $12
   rst $10
-  ld hl, $46E5
-  ld b, $11
+  ld hl, BattleSetupBackgroundDMA
+  ld b, BANK(BattleSetupBackgroundDMA)
   rst $10
   ld hl, $C22C
   ld de, $4001
@@ -157,6 +157,76 @@ BattleInit::
   ret
 
   padend $4149
+
+SECTION "Battle Setup Background DMA", ROMX[$46e5], BANK[$11]
+BattleSetupBackgroundDMA::
+  ld a, [$FF4F]
+  push af
+  ld a, $01
+  ld [$FF4F], a
+  ld hl, $4760
+  ld de, $8A00
+  ld b, $10
+  call $47E5
+  ld hl, $4770
+  ld de, $9060
+  ld b, $1a
+  call $47E5
+  ld de, $9500
+  call $4788
+  ld a, $68
+  ld [W_TextBoxInitialScanline], a
+  ld a, [$FF70]
+  push af
+  ld a, $03
+  ld [$FF70], a
+  ld hl, $D300
+  ld de, $8AC0
+  ld b, $04
+.asm_4471c
+  push bc
+  push hl
+  ld a, [hl]
+  or a
+  jr z, .asm_44734
+  push de
+  ld a, $04
+  sub b
+  ld l, a
+  ld h, $00
+  ld de, $D374
+  add hl, de
+  pop de
+  ld a, [hl]
+  push de
+  call $47C9
+  pop de
+.asm_44734
+  ld hl, $0090
+  add hl, de
+  ld e, l
+  ld d, h
+  pop hl
+  ld bc, $0008
+  add hl, bc
+  pop bc
+  dec b
+  jr nz, .asm_4471c
+  ld hl, $D9C0
+  ld bc, $0240
+  ld a, $08
+  call $07F6
+  ld hl, $D780
+  ld bc, $0240
+  ld a, $7e
+  call $07F6
+  pop af
+  ld [$FF70], a
+  pop af
+  ld [$FF4F], a
+  ret
+
+  padend $4760
 
 SECTION "Battle Stat Interrupt", ROM0[$18c3]
 IntStatBattle::
