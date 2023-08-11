@@ -229,6 +229,27 @@ BattleSetupBackgroundDMA::
   padend $4760
 
 
+SECTION "Battle Setup Background Top", ROMX[$485e], BANK[$11]
+BattleSetupBackgroundDMATop::
+  ld hl, $D780
+  ld b, $c0
+  ld a, $7e
+  call WriteAtoHLMultiple
+  ld hl, $D9C0
+  ld b, $c0
+  ld a, $08
+  call WriteAtoHLMultiple
+  ld e, $00
+  ld a, [$c2c2]
+  bit 7, a
+  jr nz, .skip
+  ld e, $04
+.skip
+  ld a, [$d026]
+  or a
+  ret z
+  ; TODO: Disassemble the rest of this
+
 SECTION "Battle Clear Background", ROMX[$40e6], BANK[$12]
 BattleClearBackgroundMiddle::
   ld hl, $D6C0
