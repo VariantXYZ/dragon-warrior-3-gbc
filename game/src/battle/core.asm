@@ -228,6 +228,45 @@ BattleSetupBackgroundDMA::
 
   padend $4760
 
+
+SECTION "Battle Clear Background", ROMX[$40e6], BANK[$12]
+BattleClearBackgroundMiddle::
+  ld hl, $D6C0
+  ld bc, $00C0
+  ld a, $08
+  call $07F6
+  ld hl, $D600
+  ld bc, $00C0
+  ld a, $7e
+  call $07F6
+  ret
+BattleClearBackgroundBottom::
+  ld b, $08
+  ld hl, $D400
+.asm_48102
+  push hl
+  ld a, [hl]
+  cp $ff
+  jr z, .asm_4811c
+  ld de, $000D
+  add hl, de
+  bit 0, [hl]
+  jr nz, .asm_4811c
+  bit 5, [hl]
+  jr nz, .asm_4811c
+  ld a, $08
+  sub b
+  push bc
+  call $4125
+  pop bc
+.asm_4811c
+  pop hl
+  ld de, $0020
+  add hl, de
+  dec b
+  jr nz, .asm_48102
+  ret
+
 SECTION "Battle Stat Interrupt", ROM0[$18c3]
 IntStatBattle::
   ld a, [$FF45] ; lcd compare
