@@ -1,7 +1,7 @@
-BANKID: macro
+MACRO BANKID
   SECTION "Bank \1", ROMX[$4000], BANK[\1]
   db LOW(BANK(@))
-  ENDM
+ENDM
 
   BANKID $01
   BANKID $02

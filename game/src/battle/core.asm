@@ -4,19 +4,19 @@ INCLUDE "game/src/common/macros.asm"
 SECTION "Battle Initialization", ROMX[$4001], BANK[$10]
 BattleInit::
   call $0831
-  ld a, [$FF70]
+  ldh a, [$ff70]
   push af
   ld a, $03
-  ld [$FF70], a
+  ldh [$ff70], a
   call $07E0
   ld a, $01
-  ld [$FF4F], a
+  ldh [$ff4F], a
   ld hl, $9800
   ld bc, $0800
   ld a, $08
   call $07F6
   ld a, $00
-  ld [$FF4F], a
+  ldh [$ff4F], a
   ld hl, $9800
   ld bc, $0800
   ld a, $7e
@@ -133,15 +133,15 @@ BattleInit::
   ld a, $83
   ld [$C2AA], a
   xor a
-  ld [$FF96], a
-  ld [$FF9A], a
-  ld [$FF45], a
+  ldh [$ff96], a
+  ldh [$ff9A], a
+  ldh [$ff45], a
   ld a, $c1
-  ld [$FFBD], a
+  ldh [$ffBD], a
   ld a, HIGH(IntStatBattle) ; Setup stat interrupt
-  ld [$FFBE], a
+  ldh [$ffBE], a
   ld a, LOW(IntStatBattle)
-  ld [$FFBC], a
+  ldh [$ffBC], a
   xor a
   ld [W_BattleStatIntState], a
   ld hl, $FF41
@@ -149,7 +149,7 @@ BattleInit::
   xor a
   ld [$C297], a
   pop af
-  ld [$FF70], a
+  ldh [$ff70], a
   ld a, $fc
   call $0BF3
   ld a, $03
@@ -160,10 +160,10 @@ BattleInit::
 
 SECTION "Battle Setup Background DMA", ROMX[$46e5], BANK[$11]
 BattleSetupBackgroundDMA::
-  ld a, [$FF4F]
+  ldh a, [$ff4F]
   push af
   ld a, $01
-  ld [$FF4F], a
+  ldh [$ff4F], a
   ld hl, $4760
   ld de, $8A00
   ld b, $10
@@ -176,10 +176,10 @@ BattleSetupBackgroundDMA::
   call $4788
   ld a, $68
   ld [W_TextBoxInitialScanline], a
-  ld a, [$FF70]
+  ldh a, [$ff70]
   push af
   ld a, $03
-  ld [$FF70], a
+  ldh [$ff70], a
   ld hl, $D300
   ld de, $8AC0
   ld b, $04
@@ -221,9 +221,9 @@ BattleSetupBackgroundDMA::
   ld a, $7e
   call $07F6
   pop af
-  ld [$FF70], a
+  ldh [$ff70], a
   pop af
-  ld [$FF4F], a
+  ldh [$ff4F], a
   ret
 
   padend $4760
@@ -290,11 +290,11 @@ BattleClearBackgroundBottom::
 
 SECTION "Battle Stat Interrupt", ROM0[$18c3]
 IntStatBattle::
-  ld a, [$FF45] ; lcd compare
+  ldh a, [$ff45] ; lcd compare
   or a
   jr z, .is_interrupt
 .asm_18c8
-  ld a, [$FF41] ; stat
+  ldh a, [$ff41] ; stat
   and $03
   jr nz, .asm_18c8
 .is_interrupt
@@ -319,11 +319,11 @@ IntStatBattle::
   dw .scroll_effects_3
 
 .initial_state: ; 18EC (00:18EC)
-  ld a, [$FF96]
+  ldh a, [$ff96]
   add $04
-  ld [$FF43], a
-  ld a, [$FF9A]
-  ld [$FF42], a
+  ldh [$ff43], a
+  ldh a, [$ff9A]
+  ldh [$ff42], a
   ld a, [$C2C2]
   bit 7, a
   jr nz, .asm_1905
@@ -334,48 +334,48 @@ IntStatBattle::
 .asm_1905
   ld a, $27
 .asm_1907
-  ld [$FF45], a
+  ldh [$ff45], a
   jr .inc_state
 .set_scroll
-  ld a, [$FF96]
-  ld [$FF43], a
-  ld a, [$FF9A]
-  ld [$FF42], a
-  ld a, [$FF45]
+  ldh a, [$ff96]
+  ldh [$ff43], a
+  ldh a, [$ff9A]
+  ldh [$ff42], a
+  ldh a, [$ff45]
   add $07
-  ld [$FF45], a
+  ldh [$ff45], a
   jr .inc_state
 .reset_scroll
   xor a
-  ld [$FF43], a
-  ld [$FF42], a
+  ldh [$ff43], a
+  ldh [$ff42], a
   ld a, [$C2C2]
   bit 6, a
   jr z, .asm_198a
-  ld a, [$FF9A]
+  ldh a, [$ff9A]
   cpl
   inc a
   add $67
-  ld [$FF45], a
+  ldh [$ff45], a
   jr .inc_state
 .set_scroll_and_lcd
-  ld a, [$FF96]
-  ld [$FF43], a
+  ldh a, [$ff96]
+  ldh [$ff43], a
   ld a, $8b
-  ld [$FF40], a
+  ldh [$ff40], a
   ld a, [W_TextBoxInitialScanline]
   ld h, a
-  ld a, [$FF9A]
+  ldh a, [$ff9A]
   cpl
   inc a
   add h
   ld h, a
   ld a, $90
   sub h
-  ld [$FF42], a
-  ld a, [$FF45]
+  ldh [$ff42], a
+  ldh a, [$ff45]
   add $08
-  ld [$FF45], a
+  ldh [$ff45], a
 .inc_state
   ld hl, W_BattleStatIntState
   inc [hl]
@@ -387,38 +387,38 @@ IntStatBattle::
   ld a, [$C216]
   dec a
   ld h, a
-  ld a, [$FF45]
+  ldh a, [$ff45]
   ld l, a
   ld a, $a0
   add h
   sub l
-  ld [$FF42], a
+  ldh [$ff42], a
   ld h, $18
-  ld a, [$FF45]
+  ldh a, [$ff45]
   add h
-  ld [$FF45], a
+  ldh [$ff45], a
   jr .inc_state
 .scroll_effects_2
-  ld a, [$FF45]
+  ldh a, [$ff45]
   ld h, a
   ld a, $98
   sub h
-  ld [$FF42], a
+  ldh [$ff42], a
   ld a, $07
   add h
-  ld [$FF45], a
+  ldh [$ff45], a
   jr .inc_state
 .scroll_effects_3
   ld a, [$C2AA]
-  ld [$FF40], a
-  ld a, [$FF96]
+  ldh [$ff40], a
+  ldh a, [$ff96]
   add $04
-  ld [$FF43], a
-  ld a, [$FF9A]
-  ld [$FF42], a
+  ldh [$ff43], a
+  ldh a, [$ff9A]
+  ldh [$ff42], a
 .asm_198a
   xor a
-  ld [$FF45], a
+  ldh [$ff45], a
   ld [W_BattleStatIntState], a
   jr .asm_1952
   
