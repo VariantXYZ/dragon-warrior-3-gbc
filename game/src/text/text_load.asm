@@ -1,6 +1,6 @@
 INCLUDE "game/src/common/constants.asm"
 
-LoadTextBank: MACRO
+MACRO LoadTextBank
   SECTION "Text Loading Function TextBank\1", ROMX[$4001], BANK[\2]
 LoadTextBank\1:
   ld a, d
@@ -43,7 +43,7 @@ LoadTextBank\1:
   ld a, c
   ldh [$ff00+$70], a
   ret
-endm
+ENDM
 
   ; Text Banks
   LoadTextBank 00,$60
