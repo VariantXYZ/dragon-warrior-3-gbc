@@ -2,18 +2,18 @@ INCLUDE "game/src/common/constants.asm"
 INCLUDE "game/src/common/macros.asm"
 
 ; PatchTilesetEntry TilesetName
-PatchTilesetDataEntry: MACRO
+MACRO PatchTilesetDataEntry
 PatchTilesetStart\1::
   INCBIN "./build/gfx/tilesets/patch/\1.1bpp"
 PatchTilesetEnd\1::
 ENDM
 
-PatchTilesetTableEntry: MACRO
+MACRO PatchTilesetTableEntry
   ; Number of Tiles, Tileset Address
   def PatchTilesetIDX_\1 rb
   dbw (PatchTilesetEnd\1 - PatchTilesetStart\1)/$8, PatchTilesetStart\1
   EXPORT PatchTilesetIDX_\1
-  ENDM
+ENDM
 
 SECTION "Patch Tilesets", ROMX[$4001], BANK[$103]
 PatchTilesetsLoad::

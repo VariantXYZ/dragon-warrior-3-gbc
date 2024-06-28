@@ -60,7 +60,7 @@ with open(output_file, 'w') as output, open(symbol_file, 'w') as output_sym:
             group_pointers = [x + ptr_table_offset for x in group_offsets]
             for i, g in enumerate(group_pointers):
                 group_key = key.replace('_', 'Group') + f'_{i:02X}'
-                output.write(f'c{group_key}   EQU ${g:04X}\n')
+                output.write(f'DEF c{group_key}   EQU ${g:04X}\n')
                 # Note the pointers to each text entry, as sometimes they are referenced directly
                 txt_idx = group_offsets[i]
                 end_idx = group_offsets[i+1] if i + 1 < len(group_offsets) else len(init_text_offsets)
@@ -75,4 +75,4 @@ with open(output_file, 'w') as output, open(symbol_file, 'w') as output_sym:
                     j += 1
 
     for k in bin_files:
-        output.write(f'c{k}        EQUS "\\"{bin_files[k]}\\""\n')
+        output.write(f'DEF c{k}        EQUS "\\"{bin_files[k]}\\""\n')
